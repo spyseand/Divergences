@@ -1,0 +1,37 @@
+
+		add_namespace = batavia
+
+ #Independence from Scandinavia
+
+country_event = {
+	id = batavia.1
+	title = batavia.1.t
+	desc = batavia.1.d
+	picture = GFX_report_event_french_tanks
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = BAT
+		date > 1936.02.26
+
+	}	
+
+	option = {
+		name = batavia.1.a
+		SCD = {
+			set_autonomy = {
+				target = BAT
+				autonomy_state = autonomy_free
+			}
+			country_event = {
+				id = scandinavia.2
+				days = 1
+			}
+			country_event = {
+				id = scandinavia.4
+				days = 3
+			}
+		}
+	}			
+}

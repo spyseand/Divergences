@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+		BRN_economic_bloc = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_political_support
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

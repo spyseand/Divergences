@@ -1,0 +1,21 @@
+
+state={
+ 	id=31
+ 	name="STATE_1031"
+ 	manpower = 312050
+
+ 	state_category = city
+
+ 	history = {
+ 	owner = MEX
+ 		buildings = {
+ 			infrastructure = 5
+ 			industrial_complex = 2
+ 		}
+ 		add_core_of = MEX
+ 	}
+
+ 	provinces = {
+ 		10773 12712 10889 8236 2021 
+ 	}
+ }

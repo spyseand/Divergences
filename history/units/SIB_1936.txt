@@ -1,0 +1,61 @@
+division_template = {
+	name = "Infantry Division"
+	division_names_group = FRA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	#Russian Divisions (5 units)
+
+	division= {	
+		name = "Infantry Division 1"
+		location = 1821
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 9292
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 4824
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 10329
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 1775
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+}

@@ -1,0 +1,17 @@
+DUA_expand_our_influence = {
+	allowed = {
+		original_tag = DUA
+	}
+	visible = {
+		has_completed_focus = DUA_expand_our_reign
+	}
+}
+
+DUA_integrate_all_cultures = {
+	allowed = {
+		original_tag = DUA
+	}
+	visible = {
+		has_completed_focus = DUA_integrate_all_cultures
+	}
+}

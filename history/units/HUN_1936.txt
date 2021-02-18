@@ -1,0 +1,124 @@
+division_template = {
+	name = "Infantry Division"
+	division_names_group = FRA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	#Hungarian Divisions (14 units)
+
+	division= {	
+		name = "Infantry Division 1"
+		location = 3585
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 11542
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 688
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 11666
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3569
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3583
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 11612
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 9660
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 619
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3581
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 9606
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 9617
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 11597
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 577
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+}

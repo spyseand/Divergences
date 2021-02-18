@@ -1,0 +1,102 @@
+focus_tree = {
+	id = scandinavia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SCD
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = SCD_isles_reclamation
+		icon = GFX_focus_generic_coastal_fort
+		x = 2
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea = SCD_celtic_push
+				days = 140
+			}
+		}
+	}
+
+	focus = {
+		id = SCD_emergency_governmental_powers
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 12
+		y = 0
+		cost = 10
+		available = {
+			has_idea = SCD_economic_crash
+		}
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+			swap_ideas = {
+					remove_idea = SCD_economic_crash
+					add_idea = SCD_economic_flat
+				}
+			}
+		}
+
+	focus = {
+		id = SCD_left_lean
+		icon = GFX_focus_por_workers_of_iberia
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		prerequisite = { focus = SCD_emergency_governmental_powers }
+		mutually_exclusive = { focus = SCD_right_lean }
+		relative_position_id = SCD_emergency_governmental_powers
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+					ideology = socialism
+					popularity = 0.10
+				}
+			}
+		}
+
+	focus = {
+		id = SCD_right_lean
+		icon = GFX_goal_demand_sudetenland
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		prerequisite = { focus = SCD_emergency_governmental_powers }
+		mutually_exclusive = { focus = SCD_left_lean }
+		relative_position_id = SCD_emergency_governmental_powers
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+					ideology = fascism
+					popularity = 0.10
+				}
+			}
+		}
+
+	#LEFT POLITICAL PATHWAY
+
+}

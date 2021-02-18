@@ -1,0 +1,20 @@
+
+state={
+ 	id=43
+ 	name="STATE_1043"
+ 	manpower = 23040
+
+ 	state_category = pastoral
+
+ 	history = {
+ 	owner = SIX
+ 		buildings = {
+ 			infrastructure = 1
+ 		}
+ 		add_core_of = SIX
+ 	}
+
+ 	provinces = {
+ 		1873 11667 12588 12597 12693 10618 6752 10719 1866 9880 6767 7896 1734
+ 	}
+ }

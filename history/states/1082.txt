@@ -1,0 +1,20 @@
+
+state={
+ 	id=82
+ 	name="STATE_1082"
+ 	manpower = 23040
+
+ 	state_category = pastoral
+
+ 	history = {
+ 	owner = BLC
+ 		buildings = {
+ 			infrastructure = 1
+ 		}
+ 		add_core_of = BLC
+ 	}
+
+ 	provinces = {
+ 		7612 10492 7583 638 9949 12384 9996 5090 968 9967 10909
+ 	}
+ }

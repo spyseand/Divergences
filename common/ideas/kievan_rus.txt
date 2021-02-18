@@ -1,0 +1,410 @@
+ideas = {
+	
+	country = {
+		RUS_battle_of_kiev = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.1
+				mobilization_speed = -0.3
+				political_power_factor = -0.2
+			}
+		}
+	}
+
+	country = {
+		RUS_agrarian_economy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support
+			
+			modifier = {
+				mobilization_speed = -0.5
+				conscription_factor = -0.5
+				industrial_capacity_factory = -0.5
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.5
+			}
+		}
+	}
+
+	country = {
+		RUS_early_industrialization = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support2
+			
+			modifier = {
+				mobilization_speed = -0.4
+				conscription_factor = -0.4
+				industrial_capacity_factory = -0.4
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.4
+			}
+		}
+	}
+
+	country = {
+		RUS_focused_industrial_growth = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support3
+			
+			modifier = {
+				mobilization_speed = -0.25
+				conscription_factor = -0.25
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.25
+			}
+		}
+	}
+
+	country = {
+		RUS_mass_urban_immigration = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_the_long_march2
+			
+			modifier = {
+				mobilization_speed = -0.1
+				conscription_factor = -0.1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_industrialized_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = man_five_year_plan_industry
+			
+			modifier = {
+				mobilization_speed = 0.05
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_fractured_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = russia_fractured
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.25
+				resistance_target = 0.2
+				army_morale_factor = -0.05
+			}
+		}
+	}
+
+	country = {
+		RUS_broken_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = russia_broken
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+				resistance_target = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_united_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = russia_united
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+				resistance_target = -0.1
+				army_morale_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		RUS_preparations_against_novgorod = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_wall_line
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				dig_in_speed_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_belorussian_farms = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = can_wartime_prices_and_trade_board
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.4
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_mobilized_army = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				mobilization_speed = 0.1
+				conscription = 0.01
+			}
+		}
+	}
+
+	country = {
+		RUS_recruitment_drives = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				mobilization_speed = 0.05
+				conscription = 0.015
+			}
+		}
+	}
+
+	country = {
+		RUS_master_of_air_and_land = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				army_morale_factor = 0.1
+				max_planning = 0.1
+				recon_factor = 0.1
+				army_bonus_air_superiority_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_pandemic = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				conscription_factor = -0.3
+				conscription = -0.005
+				army_morale_factor = -0.05
+				terrain_penalty_reduction = -0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_widespread_pandemic = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				conscription_factor = -0.5
+				conscription = -0.015
+				army_morale_factor = -0.15
+				terrain_penalty_reduction = -0.3
+			}
+		}
+	}
+
+	country = {
+		RUS_contained_pandemic = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				conscription_factor = -0.3
+				conscription = -0.01
+				army_morale_factor = -0.1
+				terrain_penalty_reduction = -0.2
+			}
+		}
+	}
+
+}

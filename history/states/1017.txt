@@ -1,0 +1,21 @@
+
+state={
+ 	id=17
+ 	name="STATE_1017"
+ 	manpower = 5830
+
+ 	state_category = pastoral
+
+ 	history = {
+ 		owner = UTH
+ 		buildings = {
+ 			infrastructure = 2
+ 			industrial_complex = 1
+ 		}
+ 		add_core_of = UTH
+ 	}
+
+ 	provinces = {
+ 		9695 7756 10591 10651 1663 1789 12535 10582 7888 4668 1756 4865
+ 	}
+ }

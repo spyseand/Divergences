@@ -1,0 +1,21 @@
+
+state={
+ 	id=12
+ 	name="STATE_1012"
+ 	manpower = 42310
+
+ 	state_category = small_island
+
+ 	history = {
+ 		owner = QIQ
+ 		buildings = {
+ 			infrastructure = 3
+ 			industrial_complex = 1
+ 		}
+ 		add_core_of = QIQ
+ 	}
+
+ 	provinces = {
+ 		1869 12259 1420 12272 1214 7259
+ 	}
+ }

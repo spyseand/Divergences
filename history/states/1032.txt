@@ -1,0 +1,21 @@
+
+state={
+ 	id=32
+ 	name="STATE_1032"
+ 	manpower = 104290
+
+ 	state_category = rural
+
+ 	history = {
+ 	owner = AZT
+ 		buildings = {
+ 			infrastructure = 2
+			arms_factory = 1
+ 		}
+ 		add_core_of = AZT
+ 	}
+
+ 	provinces = {
+ 		12867 1900 12753
+ 	}
+ }

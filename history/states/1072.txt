@@ -1,0 +1,20 @@
+
+state={
+ 	id=72
+ 	name="STATE_1072"
+ 	manpower = 23040
+
+ 	state_category = pastoral
+
+ 	history = {
+ 	owner = VIN
+ 		buildings = {
+ 			infrastructure = 1
+ 		}
+ 		add_core_of = VIN
+ 	}
+
+ 	provinces = {
+ 		6984 822 3824 6845 9758 6892 9786 3917 
+ 	}
+ }

@@ -1,0 +1,82 @@
+division_template = {
+	name = "Infantry Division"
+	division_names_group = FRA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	#German Divisions (8 units)
+
+	division= {	
+		name = "Infantry Division 1"
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3522
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3535
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 3473
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 321
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 6282
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 362
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Infantry Division 1"
+		location = 243
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+	}
+}

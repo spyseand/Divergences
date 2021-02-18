@@ -1,0 +1,22 @@
+
+state={
+ 	id=23
+ 	name="STATE_1023"
+ 	manpower = 184040
+
+ 	state_category = town
+
+ 	history = {
+ 	owner = DES
+ 		buildings = {
+ 			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+ 		}
+ 		add_core_of = DES
+ 	}
+
+ 	provinces = {
+ 		4977 8033 7935 12745 2037 10830 10916 4898 1945
+ 	}
+ }

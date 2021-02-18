@@ -1,0 +1,55 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "Events and Decisions"
+ DECISIONSVIEW_EVENT_HEADER:0 "Events"
+ POPUP_NEWS:0 "News Popup"
+ POPUP_EVENTS:0 "Event Popup"
+ CATEGORY_COLLAPSE_DESC:0 "§GClick§! to collapse"
+ CATEGORY_EXPAND_DESC:0 "§GClick§! to expand"
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is possible to take this decision.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is possible to take this decision.\n"
+ TAKE_DECISION_HEADER:0 "§HTake decision§!\n\n"
+ DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
+ ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
+ ADD_DAYS_TO_DECISION:0 "Add $DAYS|H$ days to Decision $DECISION|H$"
+ REMOVE_DAYS_TO_DECISION:0 "Remove $DAYS|H$ days from Decision $DECISION|H$"
+ ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
+ REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+
+##########################################
+### Modded National Focus Descriptions ###
+##########################################
+
+DUA_expand_our_reign_tt:0 "§RUnlocks Decisions to Expand into Neighbors§!"
+DUA_integrate_all_cultures_tt:0 "§GUnlocks Decisions to Attempt Integration of Neighbors§!"
+RUS_move_capital_tt:0 "§GMoves Capital to Kiev and Cores All of Ukraine§!"
+RUS_unite_the_russias_tt:0 "§GCores All of Belorussia§!"
+RUS_latvian_integration_tt:0 "§GCores All of Latvia§!"
+RUS_united_we_stand_tt:0 "§GWe will gain cores on all of our Russian territory that is not cored and Russia will be proclaimed!§!"
+RUS_pandemic_tt:0 "§RBoth the Emergency Hospitals and Closing of Urban Centers has to be Done Before the Pandemic Improves§!"
+
+#############################
+### Modded Decision Names ###
+#############################
+
+expand_into_burgundy:0 "Expand Into Burgundy"
+expand_into_italy:0 "Expand Into Italy"
+expand_into_spain:0 "Expand Into Spain"
+expand_into_scandinavia:0 "Expand Into Scandinavia"
+expand_into_hungary:0 "Expand Into Hungary"
+expand_into_brandenburg:0 "Expand Into Brandenburg"
+expand_into_commonwealth:0 "Expand Into the PLC"
+expand_compliance:0 "Increase Compliance"
+expand_compliance2:0 "Increase Compliance Again"
+expand_compliance3:0 "Push for Assimilation"
+expand_compliance4:0 "Assimilate Aggressively"
+expand_compliance5:0 "Destroy Old Cultures"
+expand_compliance6:0 "A Monoculture Society"
+integrate_burgundy:0 "Integrate Burgundy"
+integrate_spain:0 "Integrate Spain"
+integrate_italy:0 "Integrate Italy"
+integrate_scandinavia:0 "Integrate Scandinavia"
+integrate_hungary:0 "Integrate Hungary"
+integrate_brandenburg:0 "Integrate Brandenburg"
+integrate_commonwealth:0 "Integrate the Commonwealth"

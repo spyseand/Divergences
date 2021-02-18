@@ -1,0 +1,20 @@
+
+state={
+ 	id=105
+ 	name="STATE_1105"
+ 	manpower = 23040
+
+ 	state_category = pastoral
+
+ 	history = {
+ 	owner = LOU
+ 		buildings = {
+ 			infrastructure = 1
+ 		}
+ 		add_core_of = LOU
+ 	}
+
+ 	provinces = {
+ 		12893 2102 9908 2055 12624 10642 4586 1738 12627
+ 	}
+ }

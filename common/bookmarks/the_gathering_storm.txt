@@ -1,0 +1,98 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SCD"
+		default = yes
+		
+		"SCD"={
+			history = "SCD_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SCD_gold_standard
+			}
+			focuses = {
+				
+			}
+		}
+
+		"DUA"={
+			history = "DUA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				DUA_english_minorities
+			}
+			focuses = {
+				DUA_war_with_scandinavia
+				DUA_war_with_burgundy
+				DUA_the_absolute_monarch
+			}
+		}
+
+		"BUR"={
+			history = "BUR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"ARC"={
+			history = "ARC_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"OTT"={
+			history = "OTT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}

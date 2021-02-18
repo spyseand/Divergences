@@ -1,0 +1,23 @@
+﻿capital = 107
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism = 98
+	democratic = 1
+	neutrality = 1
+	fascism = 0
+}
+
+set_convoys = 5

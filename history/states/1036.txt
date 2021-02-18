@@ -1,0 +1,21 @@
+
+state={
+ 	id=36
+ 	name="STATE_1036"
+ 	manpower = 112340
+
+ 	state_category = rural
+
+ 	history = {
+ 	owner = DES
+ 		buildings = {
+ 			infrastructure = 2
+			industrial_complex = 1
+ 		}
+ 		add_core_of = DES
+ 	}
+
+ 	provinces = {
+ 		12728 6798 5022 12341 12410 4884 1927 12782 2019 5061 6987 2042 6785 12369
+ 	}
+ }

@@ -1,0 +1,21 @@
+
+state={
+ 	id=20
+ 	name="STATE_1020"
+ 	manpower = 43650
+
+ 	state_category = rural
+
+ 	history = {
+	 	owner = NAV
+ 		buildings = {
+ 			infrastructure = 2
+ 			industrial_complex = 1
+ 		}
+ 		add_core_of = NAV
+ 	}
+
+ 	provinces = {
+ 		7821 7818 7764 7684 10573 7999 10645 12552 9792
+ 	}
+ }

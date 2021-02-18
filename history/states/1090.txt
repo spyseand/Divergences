@@ -1,0 +1,20 @@
+
+state={
+ 	id=90
+ 	name="STATE_1090"
+ 	manpower = 23040
+
+ 	state_category = pastoral
+
+ 	history = {
+ 	owner = GTC
+ 		buildings = {
+ 			infrastructure = 1
+ 		}
+ 		add_core_of = GTC
+ 	}
+
+ 	provinces = {
+ 		1635 4641 1594 7632 4598 10484 7660 
+ 	}
+ }

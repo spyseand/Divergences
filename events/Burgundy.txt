@@ -1,0 +1,57 @@
+
+
+	add_namespace = burgundy
+
+#Monarchy Embargo
+
+country_event = {
+	id = burgundy.1
+	title = burgundy.1.t
+	desc = burgundy.1.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = burgundy.1.a
+	}
+}
+
+#Integration Demand 
+
+country_event = {
+	id = burgundy.2
+	title = burgundy.2.t
+	desc = burgundy.2.d
+	picture = GFX_report_event_dutch_soldiers_indonesia
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {
+			factor = 25
+		}
+		name = burgundy.2.a
+		DUA = {
+			puppet = BUR
+			country_event = {
+				id = dual_monarchy.6
+				days = 1
+			}
+		}
+	}
+	option = {
+		ai_chance = {
+			factor = 75
+		}
+		name = burgundy.2.b
+		DUA = {
+			country_event = {	
+				id = dual_monarchy.7
+				days = 1
+			}
+		}
+	}
+}

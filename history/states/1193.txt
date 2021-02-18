@@ -1,0 +1,22 @@
+
+state={
+ 	id=193
+ 	name="STATE_1193"
+ 	manpower = 76490
+
+ 	state_category = town
+
+ 	history = {
+ 	owner = JAP
+ 		buildings = {
+ 			infrastructure = 3
+ 			arms_factory = 1
+ 			industrial_complex = 1
+ 		}
+ 		add_core_of = JAP
+ 	}
+
+ 	provinces = {
+ 		4052 9790 912 11896 3912 978 9918 11835 9795 11828 11775 6963
+ 	}
+ }

@@ -1,0 +1,20 @@
+
+state={
+ 	id=187
+ 	name="STATE_1187"
+ 	manpower = 76490
+
+ 	state_category = town
+
+ 	history = {
+ 		buildings = {
+ 			infrastructure = 3
+ 			arms_factory = 1
+ 			industrial_complex = 1
+ 		}
+ 	}
+
+ 	provinces = {
+ 		1319 7606 7446 8023 12262 10776 1383 10346 1552 4501 1114 1196 1172 1653 12282 
+ 	}
+ }

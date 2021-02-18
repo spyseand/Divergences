@@ -1,6 +1,6 @@
 state={
 	id=128
-	name="STATE_128"
+	name="STATE_1128"
 	resources={
 		steel=14.000
 	}

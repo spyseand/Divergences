@@ -1,6 +1,6 @@
 state={
 	id=123
-	name="STATE_123"
+	name="STATE_1123"
 
 	history={
 		buildings = {

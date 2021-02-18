@@ -1,6 +1,6 @@
 state={
 	id=146
-	name="STATE_146"
+	name="STATE_1146"
 	manpower = 200000
 	
 	state_category = enclave

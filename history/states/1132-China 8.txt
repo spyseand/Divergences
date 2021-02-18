@@ -1,7 +1,7 @@
 
 state={
 	id=132
-	name="STATE_132" # East Hebei
+	name="STATE_1132" # East Hebei
 	manpower = 6400000
 	
 	state_category = town

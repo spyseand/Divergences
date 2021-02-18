@@ -1,6 +1,6 @@
 state= {
 	id=118
-	name="STATE_118"
+	name="STATE_1118"
 	manpower = 11755600
 	state_category = city
 	history=

@@ -587,8 +587,8 @@
 
  DES_fascism:0 "New Mexican Empire"
  DES_fascism_DEF:0 "the New Mexican Empire"
- DES_democratic:0 "Gran Colombian Desert Sector"
- DES_democratic_DEF:0 "the Gran Colombian Desert Sector"
+ DES_democratic:0 "Desert Sector"
+ DES_democratic_DEF:0 "the Desert Sector"
  DES_neutrality:0 "Independent New Mexico"
  DES_neutrality_DEF:0 "Independent New Mexico"
  DES_socialism:0 "United Communes"
@@ -603,8 +603,8 @@
 
  MEX_fascism:0 "Mexican Junta"
  MEX_fascism_DEF:0 "the Mexican Junta"
- MEX_democratic:0 "Gran Colombian Mexican Sector"
- MEX_democratic_DEF:0 "the Gran Colombian Mexican Sector"
+ MEX_democratic:0 "Mexican Sector"
+ MEX_democratic_DEF:0 "the Mexican Sector"
  MEX_neutrality:0 "Free Mexico"
  MEX_neutrality_DEF:0 "Free Mexico"
  MEX_socialism:0 "Revolutionary Mexico"
@@ -619,8 +619,8 @@
 
  AZT_fascism:0 ""
  AZT_fascism_DEF:0 "the "
- AZT_democratic:0 "Gran Colombian Aztec Autonomy"
- AZT_democratic_DEF:0 "the Gran Colombian Aztec Autonomy"
+ AZT_democratic:0 "Mayan Autonomy"
+ AZT_democratic_DEF:0 "the Mayan Autonomy"
  AZT_neutrality:0 ""
  AZT_neutrality_DEF:0 ""
  AZT_socialism:0 ""

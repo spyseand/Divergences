@@ -5,20 +5,20 @@ QIQ = {
 	color_ui = rgb { 245 222 179 }
 }
 GCO = {
-	color = rgb { 240 230 140 }
-	color_ui = rgb { 240 230 140 }
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
 }
 LOT = {
-	color = rgb { 173 255 47 }
-	color_ui = rgb { 173 255 47 }
+	color = rgb { 25 181 178 }
+	color_ui = rgb { 25 181 178 }
 }
 INC = {
-	color = rgb { 255 215 0 }
-	color_ui = rgb { 255 215 0 }
+	color = rgb { 255 149 79 }
+	color_ui = rgb { 255 149 79 }
 }
 BEO = {
-	color = rgb { 255 69 0 }
-	color_ui = rgb { 255 69 0 }
+	color = rgb { 224 54 51 }
+	color_ui = rgb { 224 54 51 }
 }
 ARC = {
 	color = rgb { 138 43 226 }
@@ -195,4 +195,8 @@ VIN = {
 BLC = {
 	color = rgb { 230 138 0 }
 	color_ui = rgb { 230 138 0 }
+}
+AMZ = {
+	color = rgb { 133 48 209 }
+	color_ui = rgb { 133 48 209 }
 }

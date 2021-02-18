@@ -4,6 +4,7 @@ state={
      manpower = 1
      state_category = town
      history = {
+	     owner = LOT
          buildings = {
              infrastructure = 1
              arms_factory = 1
@@ -11,6 +12,6 @@ state={
          }
      }
      provinces = {
-         PROVINCES
+         4548 1529 12466 5178 4587 2109 8181 4533 10405 5156 8239 7553 11008 11003 1583 10994 5186 12972 10947 5167 12937
      }
  }

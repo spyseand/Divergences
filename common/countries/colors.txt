@@ -13,8 +13,8 @@ LOT = {
 	color_ui = rgb { 0 68 204 }
 }
 INC = {
-	color = rgb { 255 149 79 }
-	color_ui = rgb { 255 149 79 }
+	color = rgb { 255 153 0 }
+	color_ui = rgb { 255 153 0 }
 }
 BEO = {
 	color = rgb { 204 0 0 }
@@ -197,6 +197,6 @@ BLC = {
 	color_ui = rgb { 230 138 0 }
 }
 AMZ = {
-	color = rgb { 102 0 102 }
-	color_ui = rgb { 102 0 102 }
+	color = rgb { 166 48 184 }
+	color_ui = rgb { 166 48 184 }
 }

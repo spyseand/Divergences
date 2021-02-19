@@ -200,3 +200,7 @@ AMZ = {
 	color = rgb { 166 48 184 }
 	color_ui = rgb { 166 48 184 }
 }
+JRS = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}

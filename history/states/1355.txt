@@ -1,0 +1,18 @@
+state={
+    id=355
+    name="STATE_1355"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = JRS
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = JRS
+    }
+    provinces = {
+        13063 5264 4744 10540 13062 1819 4455 12592 13204
+    }
+}

@@ -761,6 +761,22 @@
  BLC_DEF:0 ""
  BLC_ADJ:0 ""
 
+ JRS_fascism:0 ""
+ JRS_fascism_DEF:0 "the "
+ JRS_democratic:0 "Japanese Siberia"
+ JRS_democratic_DEF:0 "Japanese Siberia"
+ JRS_neutrality:0 ""
+ JRS_neutrality_DEF:0 ""
+ JRS_socialism:0 ""
+ JRS_socialism_DEF:0 ""
+ JRS_fascism_ADJ:0 ""
+ JRS_democratic_ADJ:0 ""
+ JRS_neutrality_ADJ:0 ""
+ JRS_socialism_ADJ:0 ""
+ JRS:0 ""
+ JRS_DEF:0 ""
+ JRS_ADJ:0 ""
+
  #CUSTOM TAGS
 
  DUAL_fascism:0 "Dual Empire"

@@ -121,8 +121,8 @@ TUR = {
 	color_ui = rgb { 31 60 147 }
 }
 SIB = {
-	color = rgb { 125 125 232 }
-	color_ui = rgb { 125 125 232 }
+	color = rgb { 153 204 255 }
+	color_ui = rgb { 153 204 255 }
 }
 MNG = {
 	color = rgb { 57 115 38 }

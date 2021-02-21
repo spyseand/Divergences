@@ -1,6 +1,6 @@
 state={
-    id=358
-    name="STATE_1358"
+    id=380
+    name="STATE_1380"
     manpower = 1
     state_category = town
     history = {
@@ -13,6 +13,6 @@ state={
         add_core_of = SIB
     }
     provinces = {
-        10643 12556 10574 7725 4677 1826 12641 7786 1672 10683
+        10537 1794 1779 10531 7680 11410 10546 12613 1797 10202 7708 4661 12594 7890 1864 12427
     }
 }

@@ -1,0 +1,18 @@
+state={
+    id=456
+    name="STATE_1456"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = NOV
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = NOV
+    }
+    provinces = {
+        11092 92 3144 3033 6094 9231 40 6153 9176 9118 9078 6070 2994 11159 6172 90 11150 11153 6057 3084 6106
+    }
+}

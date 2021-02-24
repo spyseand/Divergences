@@ -1,0 +1,22 @@
+state={
+	id=453
+	name="STATE_1453"
+
+	history={
+		victory_points = {
+			1384 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		12329 7597 7556 12397 10506 12340 4686 10148 10601 7777 10366 4636 4578 10353
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -89,8 +89,8 @@ SLA = {
 	color_ui = rgb { 85 0 255 }
 }
 NOV = {
-	color = rgb { 176 224 230 }
-	color_ui = rgb { 176 224 230 }
+	color = rgb { 255 255 179 }
+	color_ui = rgb { 255 255 179 }
 }
 LAT = {
 	color = rgb { 128 51 153 }

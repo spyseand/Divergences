@@ -3,12 +3,11 @@ state={
 	name="STATE_1135"
 
 	history={
-
+	owner = MNG
 		buildings = {
 			infrastructure = 1
-
 		}
-
+		add_core_of = MNG
 	}
 
 	provinces={

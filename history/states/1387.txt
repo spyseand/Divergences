@@ -1,7 +1,7 @@
 
 state={
 	id=387
-	name="STATE_387" # Pskov
+	name="STATE_1387" # Pskov
 	manpower = 639587
 	
 	state_category = town

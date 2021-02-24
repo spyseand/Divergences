@@ -1,7 +1,7 @@
 
 state={
 	id=412
-	name="STATE_412" # Tambov
+	name="STATE_1412" # Tambov
 	manpower = 1779583
 	
 	state_category = rural

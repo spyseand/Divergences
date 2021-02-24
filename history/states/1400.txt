@@ -1,7 +1,7 @@
 
 state={
 	id=400
-	name="STATE_400" # Millerovo
+	name="STATE_1400" # Millerovo
 	manpower = 761769
 	
 	state_category = rural

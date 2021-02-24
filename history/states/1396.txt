@@ -1,7 +1,7 @@
 
 state={
 	id=396
-	name="STATE_396" # Belgorod
+	name="STATE_1396" # Belgorod
 	manpower = 1364537
 	
 	state_category = town

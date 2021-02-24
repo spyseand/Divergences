@@ -1,7 +1,7 @@
 
 state={
 	id=399
-	name="STATE_3994" # Volkhov
+	name="STATE_1399" # Volkhov
 	manpower = 195325
 	
 	state_category = rural

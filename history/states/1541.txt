@@ -1,0 +1,30 @@
+
+state={
+	id=541
+	name="STATE_541"
+	resources={
+		steel=25.000
+		aluminium=11.000
+	}
+
+	history={
+		victory_points = {
+			9737 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		6621 6762 6777 9737 11565 
+	}
+	manpower=1140400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

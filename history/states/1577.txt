@@ -1,0 +1,18 @@
+state={
+    id=577
+    name="STATE_1577"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = BUR
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = BUR
+    }
+    provinces = {
+        11560 3558 11547 563 11531 9575 3423
+    }
+}

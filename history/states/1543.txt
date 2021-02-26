@@ -10,6 +10,7 @@ state={
 	state_category = city
 
 	history={
+	owner = FRA
 		victory_points = {
 			911 1 
 		}
@@ -24,6 +25,7 @@ state={
 			fuel_silo = 1
 			air_base = 10
 		}
+		add_core_of = FRA
 	}
 
 	provinces={

@@ -16,8 +16,8 @@
  QIQ_ADJ:0 "Qingquiren"
  GCO_fascism:0 "Nationalist Colombia"
  GCO_fascism_DEF:0 "Nationalist Colombia"
- GCO_democratic:0 "Federated Republics of Gran Colombia"
- GCO_democratic_DEF:0 "the Federated Republics of Gran Colombia"
+ GCO_democratic:0 "Gran Colombia"
+ GCO_democratic_DEF:0 "Gran Colombia"
  GCO_neutrality:0 "Gran Colombia"
  GCO_neutrality_DEF:0 "Gran Colombia"
  GCO_socialism:0 "Union of Socialist Hispanic States"
@@ -776,6 +776,22 @@
  JRS:0 ""
  JRS_DEF:0 ""
  JRS_ADJ:0 ""
+
+ FRA_fascism:0 ""
+ FRA_fascism_DEF:0 "the "
+ FRA_democratic:0 "France"
+ FRA_democratic_DEF:0 "France"
+ FRA_neutrality:0 ""
+ FRA_neutrality_DEF:0 ""
+ FRA_socialism:0 ""
+ FRA_socialism_DEF:0 ""
+ FRA_fascism_ADJ:0 ""
+ FRA_democratic_ADJ:0 ""
+ FRA_neutrality_ADJ:0 ""
+ FRA_socialism_ADJ:0 ""
+ FRA:0 ""
+ FRA_DEF:0 ""
+ FRA_ADJ:0 ""
 
  #CUSTOM TAGS
 

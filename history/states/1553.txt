@@ -7,6 +7,7 @@ state={
 	state_category = town
 
 	history={
+	owner = FRA
 		victory_points = {
 			651 1
 		}
@@ -14,6 +15,7 @@ state={
 		buildings = {
 			infrastructure = 6
 		}
+		add_core_of = FRA
 	}
 
 	provinces={

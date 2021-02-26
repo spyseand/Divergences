@@ -204,3 +204,7 @@ JRS = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 }
+FRA = {
+	color = rgb { 0 128 255 }
+	color_ui = rgb { 0 128 255 }
+}

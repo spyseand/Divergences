@@ -1,0 +1,18 @@
+state={
+    id=581
+    name="STATE_1581"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = BUR
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = BUR
+    }
+    provinces = {
+        6446 6560 480 6598 3576 516
+    }
+}

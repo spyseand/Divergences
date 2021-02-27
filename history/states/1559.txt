@@ -10,6 +10,7 @@ state={
 	state_category = large_city
 
 	history={
+	owner = HAN
 		victory_points = {
 			3326 5 
 		}
@@ -21,8 +22,8 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 2
-
 		}
+		add_core_of = HAN
 	}
 
 	provinces={

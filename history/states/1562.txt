@@ -8,6 +8,7 @@ state={
 	state_category = town
 
 	history={
+	owner = BRN
 		victory_points = {
 			9388 1
 		}
@@ -15,6 +16,7 @@ state={
 			infrastructure = 6
 			fuel_silo = 1
 		}
+		add_core_of = BRN
 	}
 
 	provinces={

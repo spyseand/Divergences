@@ -208,3 +208,27 @@ FRA = {
 	color = rgb { 0 128 255 }
 	color_ui = rgb { 0 128 255 }
 }
+GEN = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+SWI = {
+	color = rgb { 179 0 0 }
+	color_ui = rgb { 179 0 0 }
+}
+AUS = {
+	color = rgb { 242 242 242 }
+	color_ui = rgb { 242 242 242 }
+}
+BOH = {
+	color = rgb { 179 119 0 }
+	color_ui = rgb { 179 119 0 }
+}
+HAN = {
+	color = rgb { 122 122 82 }
+	color_ui = rgb { 122 122 82 }
+}
+BAY = {
+	color = rgb { 0 172 230 }
+	color_ui = rgb { 0 172 230 }
+}

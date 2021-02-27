@@ -7,12 +7,14 @@ state={
 	state_category = town
 
 	history={
+	owner = GTC
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
 		}
+		add_core_of = GTC
 	}
 
 	provinces={

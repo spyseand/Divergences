@@ -1,0 +1,18 @@
+state={
+    id=595
+    name="STATE_1595"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = GTC
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = GTC
+    }
+    provinces = {
+        6635 776 11570 3782 6780 611
+    }
+}

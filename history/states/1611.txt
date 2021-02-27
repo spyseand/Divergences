@@ -1,0 +1,18 @@
+state={
+    id=611
+    name="STATE_1611"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = AUS
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = AUS
+    }
+    provinces = {
+        9636 9633 673 11618 11634 671 3675 668 6673
+    }
+}

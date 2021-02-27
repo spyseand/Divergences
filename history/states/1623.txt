@@ -1,0 +1,18 @@
+state={
+    id=623
+    name="STATE_1623"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = BAY
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = BAY
+    }
+    provinces = {
+        6555 9545 9517 11499 519 11486 3690 9655 6934 694 13126
+    }
+}

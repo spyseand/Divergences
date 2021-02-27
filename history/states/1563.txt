@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-	owner = BRN
+	owner = TYK
 		victory_points = {
 			6282 5
 		}
@@ -23,7 +23,7 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = BRN
+		add_core_of = TYK
 	}
 
 	provinces={

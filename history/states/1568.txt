@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-	owner = BRN
+	owner = TYK
 		victory_points = {
 			3473 1
 		}
@@ -18,7 +18,7 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = BRN
+		add_core_of = TYK
 	}
 
 	provinces={

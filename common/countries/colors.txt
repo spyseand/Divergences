@@ -232,3 +232,7 @@ BAY = {
 	color = rgb { 0 172 230 }
 	color_ui = rgb { 0 172 230 }
 }
+TYK = {
+	color = rgb { 26 102 255 }
+	color_ui = rgb { 26 102 255 }
+}

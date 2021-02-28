@@ -905,6 +905,38 @@
  TYK_DEF:0 ""
  TYK_ADJ:0 ""
 
+ ARA_fascism:0 ""
+ ARA_fascism_DEF:0 "the "
+ ARA_democratic:0 "Aragon"
+ ARA_democratic_DEF:0 "Aragon"
+ ARA_neutrality:0 "Aragon"
+ ARA_neutrality_DEF:0 "Aragon"
+ ARA_socialism:0 ""
+ ARA_socialism_DEF:0 ""
+ ARA_fascism_ADJ:0 ""
+ ARA_democratic_ADJ:0 ""
+ ARA_neutrality_ADJ:0 ""
+ ARA_socialism_ADJ:0 ""
+ ARA:0 ""
+ ARA_DEF:0 ""
+ ARA_ADJ:0 ""
+
+ EGL_fascism:0 ""
+ EGL_fascism_DEF:0 "the "
+ EGL_democratic:0 "England"
+ EGL_democratic_DEF:0 "England"
+ EGL_neutrality:0 "England"
+ EGL_neutrality_DEF:0 "England"
+ EGL_socialism:0 ""
+ EGL_socialism_DEF:0 ""
+ EGL_fascism_ADJ:0 ""
+ EGL_democratic_ADJ:0 ""
+ EGL_neutrality_ADJ:0 ""
+ EGL_socialism_ADJ:0 ""
+ EGL:0 ""
+ EGL_DEF:0 ""
+ EGL_ADJ:0 ""
+
 
  #CUSTOM TAGS
 

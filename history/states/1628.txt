@@ -1,0 +1,20 @@
+state=
+{
+	id=628
+	name="STATE_1628"
+	manpower=21372
+	
+	state_category = enclave
+	history={
+		owner = SPA
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+		}
+		add_claim_by = SPA
+	}
+	provinces={
+		4135
+	}
+}

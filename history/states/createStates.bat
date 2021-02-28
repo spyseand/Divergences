@@ -1,7 +1,7 @@
-SET /A i = 1610
+SET /A i = 1701
 :loop 
 
-IF %i%==1625 GOTO END 
+IF %i%==1717 GOTO END 
 .>%i%.txt
 SET /A j = %i% - 1000
 (

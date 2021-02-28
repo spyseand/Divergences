@@ -1,0 +1,18 @@
+state={
+    id=717
+    name="STATE_1717"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = PLC
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = PLC
+    }
+    provinces = {
+        6280 3556 560 11285 6579 535 11503
+    }
+}

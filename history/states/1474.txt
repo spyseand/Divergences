@@ -4,11 +4,13 @@ state={
     manpower = 1
     state_category = town
     history = {
+    owner = UKR
         buildings = {
             infrastructure = 1
             arms_factory = 1
             industrial_complex = 1
         }
+        add_core_of = UKR
     }
     provinces = {
         3520 501 3455 11462 463 3557 9413 6605 6578 511 11504 559 6507 6495

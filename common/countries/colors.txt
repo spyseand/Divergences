@@ -73,12 +73,12 @@ HUN = {
 	color_ui = rgb { 160 82 45 }
 }
 UKR = {
-	color = rgb { 83 128 172 }
-	color_ui = rgb { 83 128 172 }
+	color = rgb { 205 92 92 }
+	color_ui = rgb { 205 92 92 }
 }
 BEL = {
-	color = rgb { 202 225 132 }
-	color_ui = rgb { 202 225 132 }
+	color = rgb { 205 92 92 }
+	color_ui = rgb { 205 92 92 }
 }
 GRE = {
 	color = rgb { 77 219 255 }
@@ -243,4 +243,8 @@ ARA = {
 EGL = {
 	color = rgb { 179 0 0 }
 	color_ui = rgb { 179 0 0 }
+}
+EST = {
+	color = rgb { 0 204 204 }
+	color_ui = rgb { 0 204 204 }
 }

@@ -1,0 +1,18 @@
+state={
+    id=710
+    name="STATE_1710"
+    manpower = 1
+    state_category = town
+    history = {
+    owner = UKR
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+        add_core_of = UKR
+    }
+    provinces = {
+        9451 11424 434 11409 6597 409
+    }
+}

@@ -7,17 +7,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = liberalism
+	last_election = "1934.6.13"
+	election_frequency = 24
+	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 0
-	socialism = 2
-	fascism = 97
-	democratic = 1
+	monolism = 0
+	authoritarian_socialism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	liberalism = 100
+	conservatism = 0
+	national_democracy = 0
+	autocracy = 0
+	fascism = 0
+	egoism = 0
 }
 
 set_convoys = 5

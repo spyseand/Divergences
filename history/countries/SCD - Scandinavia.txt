@@ -4,26 +4,6 @@ OOB = "SCD_1936"
 
 set_research_slots = 4
 
-#Batavia starts as their puppet
-
-	set_autonomy = {
-		target = BAT
-		autonomous_state = autonomy_dominion
-	}
-
-#Starts at war with the Celtic Union
-
-	declare_war_on = {
-		target = CNU
-		type = annex_everything
-	}
-
-#Starts with the gold standard before crash
-
-	add_ideas = {
-		SCD_gold_standard
-	}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -57,17 +37,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.6.13"
 	election_frequency = 24
 	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 2
-	democratic = 24
-	socialism = 38
-	fascism = 36
+	monolism = 0
+	authoritarian_socialism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	liberalism = 100
+	conservatism = 0
+	national_democracy = 0
+	autocracy = 0
+	fascism = 0
+	egoism = 0
 }
 
 set_convoys = 112

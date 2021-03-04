@@ -1,0 +1,16 @@
+state={
+    id=878
+    name="STATE_1878"
+    manpower = 1
+    state_category = town
+    history = {
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+        }
+    }
+    provinces = {
+        8085 2089 8001 10876 10744 12879
+    }
+}

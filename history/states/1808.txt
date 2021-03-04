@@ -11,6 +11,6 @@ state={
         }
     }
     provinces = {
-        PROVINCES
+        10825 10910 12892
     }
 }

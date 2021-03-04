@@ -286,6 +286,12 @@ ideas = {
 					
 			cost = 150
 			removal_cost = -1
+
+			available = {
+				NOT = {
+					has_government = egoism
+				}
+			}
 			
 			modifier = {
 				min_export = 0.5
@@ -316,9 +322,18 @@ ideas = {
 		
 		limited_exports = {
 			available = {
+			OR = {
+			NOT = {
+				has_government = egoism
+			}
 				OR = {
 					AND = {
-						has_government = democratic
+						OR = {
+							has_government = social_democracy
+							has_government = liberalism
+							has_government = conservatism
+							has_government = national_democracy
+						}
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -328,13 +343,21 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
+						NOT = {
+							OR = {
+							has_government = social_democracy
+							has_government = liberalism
+							has_government = conservatism
+							has_government = national_democracy
+							}
+						}
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
 							has_idea = tot_economic_mobilisation
 						}
 					}
+				}
 				}
 			}
 		
@@ -388,8 +411,10 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
+					has_government = autocracy
+					has_government = authortarian_socialism
+					has_government = monolism
 					has_government = fascism
-					has_government = communism
 				}
 				OR = {
 					has_idea = war_economy

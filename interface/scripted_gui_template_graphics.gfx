@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_super_event_background"
+		textureFile = "/gfx/interface/super_event_graphics/super_event_background.dds"
+		legacy_lazy_load = no
+	}
+}

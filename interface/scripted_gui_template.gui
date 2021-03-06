@@ -1,0 +1,57 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "super_event_war_of_liberation"
+		position = { x = 0 y = 0}	
+		size = { width = 600 height = 400 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_super_event_background"
+		}	
+
+		instantTextboxType = {
+			name = "super_title"
+			position = { x = 190 y = 15 }
+			font = "hoi_30header"
+			borderSize = {x = 0 y = 0}
+			text = "War of Liberation"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		buttonType = {
+            name = "super_close"
+            position = { x = 549 y = 19 }
+            quadTextureSprite ="GFX_closebutton"
+            clicksound = click_scroll
+        }
+
+        instantTextBoxType = {
+			name = "super_quote"
+			position = { x = 55 y = 250 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "A hurricane has fallen over the new world. It will ignore neither the new nor the old."
+			maxWidth = 500
+			maxHeight = 150
+			fixedsize = yes	
+			format = center
+		}
+
+		iconType = {
+			name ="super_image"
+			spriteType = "GFX_news_event_046"
+			position = { x = 100 y = 70 }
+			alwaystransparent = yes
+		}
+	}
+}

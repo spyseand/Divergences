@@ -1,0 +1,11 @@
+sound = {
+    name = "war_of_liberation"
+    file = "superevents/war_of_liberation.wav"
+    always_load = yes
+}
+soundeffect = {
+	name = "DIV_war_of_liberation"
+	sounds = {
+		sound = war_of_liberation
+	}
+}

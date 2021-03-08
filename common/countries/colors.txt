@@ -81,8 +81,8 @@ BEL = {
 	color_ui = rgb { 205 92 92 }
 }
 GRE = {
-	color = rgb { 77 219 255 }
-	color_ui = rgb { 77 219 255 }
+	color = rgb { 230 0 0 }
+	color_ui = rgb { 230 0 0 }
 }
 SLA = {
 	color = rgb { 85 0 255 }
@@ -101,8 +101,8 @@ RUS = {
 	color_ui = rgb { 60 179 113 }
 }
 OTT = {
-	color = rgb { 179 255 179 }
-	color_ui = rgb { 179 255 179 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 KUR = {
 	color = rgb { 128 64 0 }
@@ -247,4 +247,28 @@ EGL = {
 EST = {
 	color = rgb { 0 204 204 }
 	color_ui = rgb { 0 204 204 }
+}
+CRO = {
+	color = rgb { 204 0 204 }
+	color_ui = rgb { 204 0 204 }
+}
+SLO = {
+	color = rgb { 179 179 179 }
+	color_ui = rgb { 179 179 179 }
+}
+TRA = {
+	color = rgb { 230 0 0 }
+	color_ui = rgb { 230 0 0 }
+}
+WAL = {
+	color = rgb { 230 0 0 }
+	color_ui = rgb { 230 0 0 }
+}
+MOL = {
+	color = rgb { 230 0 0 }
+	color_ui = rgb { 230 0 0 }
+}
+ALB = {
+	color = rgb { 230 0 0 }
+	color_ui = rgb { 230 0 0 }
 }

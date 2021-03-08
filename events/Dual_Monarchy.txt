@@ -19,3 +19,14 @@
 		sound_effect = DIV_war_of_liberation
 	}
 }
+
+	country_event = {
+		id = dual_monarchy.2
+		is_triggered_only = yes
+
+		major = yes
+
+		hidden = yes
+
+		
+	}

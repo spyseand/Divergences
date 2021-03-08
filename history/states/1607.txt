@@ -8,6 +8,7 @@ state={
 
 
 	history={
+	owner = CRO
 		victory_points = {
 			3868 3 
 		}
@@ -22,6 +23,7 @@ state={
 			dockyard = 1
 			industrial_complex = 3
 		}
+		add_core_of = CRO
 	}
 
 	provinces={

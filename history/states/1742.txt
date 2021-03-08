@@ -4,6 +4,7 @@ state={
 	name="STATE_1742"
 
 	history={
+	owner = OTT
 		victory_points = {
 			6940 3 
 		}
@@ -11,6 +12,7 @@ state={
 			infrastructure = 2
 
 		}
+		add_core_of = OTT
 
 	}
 

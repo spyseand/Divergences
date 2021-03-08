@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = ITA
+		owner = OTT
 		victory_points = {
 			10074 20 
 		}
@@ -19,7 +19,7 @@ state={
 			air_base = 10
 			dockyard = 1
 		}
-		add_core_of = ITA
+		add_core_of = OTT
 	}
 
 	provinces={

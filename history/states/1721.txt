@@ -11,6 +11,7 @@ state={
 	state_category = city
 
 	history={
+	owner = OTT
 		victory_points = { #Sofia
 			949 15 
 		}
@@ -22,6 +23,7 @@ state={
 			industrial_complex = 6
 			air_base = 3
 		}
+		add_core_of = OTT
 	}
 
 	provinces={

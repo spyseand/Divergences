@@ -6,6 +6,7 @@ state={
 	state_category=rural
 
 	history={
+	owner = OTT
 		victory_points = { #Ruse
 			9612 3
 		}
@@ -17,6 +18,7 @@ state={
 			industrial_complex = 1
 
 		}
+		add_core_of = OTT
 
 	}
 

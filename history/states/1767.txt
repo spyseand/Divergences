@@ -6,6 +6,7 @@ state={
 	state_category = rural
 	
 	history= {
+	owner = OTT
 		victory_points = {
 			6727 1
 		}
@@ -16,6 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = OTT
 	}
 	provinces=
 	{

@@ -10,6 +10,7 @@ state={
 	}
 
 	history={
+	owner = SLO
 		victory_points = {
 			9692 10
 		}
@@ -22,6 +23,7 @@ state={
 			arms_factory = 2
 			air_base = 3
 		}
+		add_core_of = SLO
 	}
 
 	provinces={

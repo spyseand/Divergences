@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-	owner = OTT
+	owner = TRA
 		victory_points = {
 			9606 3
 		}
@@ -18,7 +18,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 		}
-		add_core_of = OTT
+		add_core_of = TRA
 	}
 
 	provinces={

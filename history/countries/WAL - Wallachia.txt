@@ -1,4 +1,4 @@
-﻿capital = 47
+﻿capital = 749
 
 set_technology = {
 	infantry_weapons = 1
@@ -7,22 +7,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = national_democracy
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	monolism = 0
-	authoritarian_socialism = 0
-	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
-	autocracy = 0
-	fascism = 0
+	authoritarian_socialism = 7
+	libertarian_socialism = 7
+	social_democracy = 10
+	liberalism = 12
+	conservatism = 27
+	national_democracy = 23
+	autocracy = 4
+	fascism = 12
 	egoism = 0
 }
 

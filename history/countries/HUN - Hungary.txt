@@ -1,4 +1,4 @@
-﻿capital = 43
+﻿capital = 763
 
 OOB = "HUN_1936"
 
@@ -40,7 +40,7 @@ set_politics = {
 	ruling_party = liberalism
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -48,11 +48,11 @@ set_popularities = {
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
 	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
+	liberalism = 55
+	conservatism = 37
+	national_democracy = 7
 	autocracy = 0
-	fascism = 0
+	fascism = 1
 	egoism = 0
 }
 

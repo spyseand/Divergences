@@ -1,4 +1,4 @@
-﻿capital = 34
+﻿capital = 666
 
 OOB = "EGL_1936"
 
@@ -37,10 +37,10 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = autocracy
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -48,11 +48,11 @@ set_popularities = {
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
 	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
-	autocracy = 0
-	fascism = 0
+	liberalism = 2
+	conservatism = 23
+	national_democracy = 6
+	autocracy = 64
+	fascism = 5
 	egoism = 0
 }
 

@@ -1,4 +1,4 @@
-capital = 16
+capital = 554
 
 OOB = "SWI_1936"
 
@@ -40,20 +40,20 @@ set_politics = {
 	ruling_party = liberalism
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	monolism = 0
-	authoritarian_socialism = 0
-	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
+	monolism = 21
+	authoritarian_socialism = 4
+	libertarian_socialism = 3
+	social_democracy = 6
+	liberalism = 42
+	conservatism = 11
+	national_democracy = 4
 	autocracy = 0
-	fascism = 0
-	egoism = 0
+	fascism = 8
+	egoism = 1
 }
 
 set_convoys = 87

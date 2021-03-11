@@ -1,4 +1,4 @@
-﻿capital = 34
+﻿capital = 540
 
 OOB = "FRA_1936"
 
@@ -37,20 +37,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	monolism = 0
-	authoritarian_socialism = 0
-	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
+	monolism = 2
+	authoritarian_socialism = 34
+	libertarian_socialism = 18
+	social_democracy = 16
+	liberalism = 11
+	conservatism = 18
+	national_democracy = 1
 	autocracy = 0
 	fascism = 0
 	egoism = 0

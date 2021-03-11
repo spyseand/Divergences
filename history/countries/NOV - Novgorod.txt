@@ -1,4 +1,4 @@
-﻿capital = 195
+﻿capital = 414
 
 OOB = "NOV_1936"
 
@@ -37,21 +37,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = autocracy
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	monolism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
-	autocracy = 0
+	social_democracy = 3
+	liberalism = 19
+	conservatism = 22
+	national_democracy = 2
+	autocracy = 54
 	fascism = 0
 	egoism = 0
 }

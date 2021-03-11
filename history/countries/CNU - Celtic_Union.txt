@@ -1,4 +1,4 @@
-﻿capital = 132
+﻿capital = 659
 
 OOB = "CNU_1936"
 
@@ -15,10 +15,10 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = fascism
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -26,11 +26,11 @@ set_popularities = {
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
 	social_democracy = 0
-	liberalism = 100
-	conservatism = 0
-	national_democracy = 0
+	liberalism = 0
+	conservatism = 2
+	national_democracy = 9
 	autocracy = 0
-	fascism = 0
+	fascism = 89
 	egoism = 0
 }
 

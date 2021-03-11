@@ -155,7 +155,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 153 0 153 }
+		color = { 255 0 85 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -202,7 +202,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 102 102 255 }
+		color = { 102 179 255 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -249,7 +249,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 0 92 230 }
+		color = { 26 117 255 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -296,7 +296,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 0 128 128 }
+		color = { 0 77 153 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -343,7 +343,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 128 128 128 }
+		color = { 115 115 115 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -390,7 +390,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 96 64 32 }
+		color = { 128 85 0 }
 		
 		rules = {
 			can_create_collaboration_government = yes

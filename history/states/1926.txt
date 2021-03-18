@@ -1,10 +1,10 @@
 state={
-    id=872
-    name="STATE_1872"
+    id=926
+    name="STATE_1926"
     manpower = 1
     state_category = town
     history = {
-        owner = EGL
+        owner = SCD
         buildings = {
             infrastructure = 1
             arms_factory = 1
@@ -12,6 +12,6 @@ state={
         }
     }
     provinces = {
-        10099 12073 1112 9947 11922 10002 1155 11979 4161
+        8144 2220 4171 9962 3854 7088 12989
     }
 }

@@ -4,11 +4,13 @@ state={
     manpower = 1
     state_category = town
     history = {
+    owner = SRS
         buildings = {
             infrastructure = 1
             arms_factory = 1
             industrial_complex = 1
         }
+        add_core_of = SRS
     }
     provinces = {
         11661 6702 11690 11632 712 728 6748 6730 700 683 3682 6701 3668

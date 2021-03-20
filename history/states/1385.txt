@@ -7,12 +7,14 @@ state={
 	state_category = town
 
 	history={
+	owner = WRS
 		buildings = {
 			infrastructure = 5
 		}
 		victory_points = {
 			382 1
 		}
+		add_core_of = WRS
 	}
 
 	provinces={

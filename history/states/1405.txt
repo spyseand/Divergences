@@ -10,6 +10,7 @@ state={
 	}
 
 	history={
+	owner = ERS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -17,6 +18,7 @@ state={
 		victory_points = {
 			392 1
 		}
+		add_core_of = ERS
 	}
 
 	provinces={

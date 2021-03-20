@@ -11,12 +11,14 @@ state={
 	}
 
 	history={
+	owner = WRS
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			11351 1
 		}
+		add_core_of = WRS
 	}
 
 	provinces={

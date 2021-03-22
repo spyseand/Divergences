@@ -9,8 +9,8 @@ GCO = {
 	color_ui = rgb { 0 153 0 }
 }
 LOT = {
-	color = rgb { 45 100 210 }
-	color_ui = rgb { 45 100 210 }
+	color = rgb { 57 104 198 }
+	color_ui = rgb { 57 104 198 }
 }
 INC = {
 	color = rgb { 255 153 0 }
@@ -193,12 +193,12 @@ VIN = {
 	color_ui = rgb { 0 153 153 }
 }
 BLC = {
-	color = rgb { 230 138 0 }
-	color_ui = rgb { 230 138 0 }
+	color = rgb { 210 144 45 }
+	color_ui = rgb { 210 144 45 }
 }
 AMZ = {
-	color = rgb { 70 185 156 }
-	color_ui = rgb { 70 185 156 }
+	color = rgb { 94 186 140 }
+	color_ui = rgb { 94 186 140 }
 }
 JRS = {
 	color = rgb { 128 128 128 }

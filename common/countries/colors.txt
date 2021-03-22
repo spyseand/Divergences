@@ -9,16 +9,16 @@ GCO = {
 	color_ui = rgb { 0 153 0 }
 }
 LOT = {
-	color = rgb { 0 68 204 }
-	color_ui = rgb { 0 68 204 }
+	color = rgb { 57 104 198 }
+	color_ui = rgb { 57 104 198 }
 }
 INC = {
 	color = rgb { 255 153 0 }
 	color_ui = rgb { 255 153 0 }
 }
 BEO = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 217 38 38 }
+	color_ui = rgb { 217 38 38 }
 }
 ARC = {
 	color = rgb { 138 43 226 }
@@ -193,12 +193,12 @@ VIN = {
 	color_ui = rgb { 0 153 153 }
 }
 BLC = {
-	color = rgb { 230 138 0 }
-	color_ui = rgb { 230 138 0 }
+	color = rgb { 210 144 45 }
+	color_ui = rgb { 210 144 45 }
 }
 AMZ = {
-	color = rgb { 166 48 184 }
-	color_ui = rgb { 166 48 184 }
+	color = rgb { 94 186 140 }
+	color_ui = rgb { 94 186 140 }
 }
 JRS = {
 	color = rgb { 128 128 128 }
@@ -296,4 +296,15 @@ HKI = {
 	color = rgb { 255 92 56 }
 	color_ui = rgb { 255 92 56 }
 }
-
+SSI = {
+	color = rgb { 179 236 255 }
+	color_ui = rgb { 179 236 255 }
+}
+WSI = {
+	color = rgb { 102 217 255 }
+	color_ui = rgb { 102 217 255 }
+}
+ESI = {
+	color = rgb { 26 198 255 }
+	color_ui = rgb { 26 198 255 }
+}

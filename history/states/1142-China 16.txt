@@ -12,6 +12,7 @@ state={
 	}
 
 	history={
+		owner = UYG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

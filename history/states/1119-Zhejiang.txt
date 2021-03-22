@@ -4,9 +4,8 @@ state=
 	name="STATE_1119"
 	manpower = 21230700
 	state_category = city
-	history=
-	{
-		
+	history={
+		owner = HKI
 		victory_points = { 
 			9974 1 
 		}

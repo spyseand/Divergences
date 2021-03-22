@@ -10,6 +10,7 @@ state= {
 	}
 
 	history= {
+		owner = HKI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

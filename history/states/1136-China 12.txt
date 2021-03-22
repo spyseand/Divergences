@@ -7,6 +7,8 @@ state={
 	state_category = large_city
 	
 	history={
+	
+		owner = HKI
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

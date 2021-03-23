@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = HKI
+		owner = XIA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

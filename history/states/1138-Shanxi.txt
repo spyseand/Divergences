@@ -8,6 +8,7 @@ state=
 	
 	history=
 	{
+		owner = XIA
 		victory_points = {
 			1519 3 
 		}

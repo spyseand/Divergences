@@ -7,6 +7,7 @@ state={
 	state_category = town
 
 	history={
+	owner = XIA
 		buildings = {
 			infrastructure = 4
 		}

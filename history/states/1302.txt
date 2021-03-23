@@ -4,6 +4,7 @@ state={
     manpower = 1
     state_category = town
     history = {
+    owner = SCD
         buildings = {
             infrastructure = 1
             arms_factory = 1

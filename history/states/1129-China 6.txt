@@ -6,6 +6,7 @@ state={
 	}
 
 	history={
+		owner = XIA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

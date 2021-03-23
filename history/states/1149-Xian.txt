@@ -9,6 +9,7 @@ state={
 		victory_points = {
 			7418 1 
 		}
+		owner = XIA
 		buildings = {
 			infrastructure = 3
 		}

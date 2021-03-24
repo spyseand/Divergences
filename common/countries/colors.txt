@@ -293,8 +293,8 @@ UYG = {
 	color_ui = rgb { 184 255 254 }
 }
 XIA = {
-	color = rgb { 40 150 200 }
-	color_ui = rgb { 40 150 200 }
+	color = rgb { 255 98 0 }
+	color_ui = rgb { 255 98 0 }
 }
 SSI = {
 	color = rgb { 179 236 255 }
@@ -311,4 +311,36 @@ ESI = {
 MAN = {
 	color = rgb { 222 145 44 }
 	color_ui = rgb { 222 145 44 }
+}
+PER = {
+	color = rgb { 224 189 29 }
+	color_ui = rgb { 224 189 29 }
+}
+STP = {
+	color = rgb { 255 87 112 }
+	color_ui = rgb { 255 87 112 }
+}
+KAZ = {
+	color = rgb { 255 81 46 }
+	color_ui = rgb { 255 81 46 }
+}
+KAZ = {
+	color = rgb { 255 81 46 }
+	color_ui = rgb { 255 81 46 }
+}
+TAJ = {
+	color = rgb { 214 120 255 }
+	color_ui = rgb { 255 81 46 }
+}
+TKM = {
+	color = rgb { 52 235 122 }
+	color_ui = rgb { 52 235 122 }
+}
+UZB = {
+	color = rgb { 143 177 186 }
+	color_ui = rgb { 143 177 186 }
+}
+KYR = {
+	color = rgb { 145 255 154 }
+	color_ui = rgb { 145 255 154 }
 }

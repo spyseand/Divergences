@@ -324,13 +324,9 @@ KAZ = {
 	color = rgb { 255 81 46 }
 	color_ui = rgb { 255 81 46 }
 }
-KAZ = {
-	color = rgb { 255 81 46 }
-	color_ui = rgb { 255 81 46 }
-}
 TAJ = {
 	color = rgb { 214 120 255 }
-	color_ui = rgb { 255 81 46 }
+	color_ui = rgb { 214 120 255 }
 }
 TKM = {
 	color = rgb { 52 235 122 }
@@ -343,4 +339,12 @@ UZB = {
 KYR = {
 	color = rgb { 145 255 154 }
 	color_ui = rgb { 145 255 154 }
+}
+ARA = {
+	color = rgb { 255 211 66 }
+	color_ui = rgb { 255 211 66 }
+}
+RST = {
+	color = rgb { 136 191 84 }
+	color_ui = rgb { 136 191 84 }
 }

@@ -9,6 +9,7 @@ state={
 	}
 
 	history={
+		owner = KAZ
 		buildings = {
 			infrastructure = 4
 

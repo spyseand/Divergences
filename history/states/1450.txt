@@ -7,6 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = KAZ
 		victory_points = {
 			4333 1
 		}

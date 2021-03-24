@@ -22,7 +22,7 @@ set_popularities = {
 	conservatism = 27
 	national_democracy = 23
 	autocracy = 4
-	fascism = 12
+	fascism = 10
 	egoism = 0
 }
 

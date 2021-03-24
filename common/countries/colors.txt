@@ -164,7 +164,7 @@ MEX = {
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }
-AZT = {
+MAY = {
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }

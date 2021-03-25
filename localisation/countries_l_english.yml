@@ -1,10 +1,4 @@
 ﻿l_english:
- SCD_monolism:0 ""
- SCD_monolism_DEF:0 ""
- SCD_authoritarian_socialism:0 ""
- SCD_authoritarian_socialism_DEF:0 ""
- SCD_libertarian_socialism:0 ""
- SCD_libertarian_socialism_DEF:0 ""
  SCD_autocracy:0 "Scandinavian Empire"
  SCD_autocracy_DEF:0 "the Scandinavian Empire"
  SCD_fascism:0 "Nordic Empire"
@@ -14,6 +8,7 @@
  SCD:0 "Scandinavia"
  SCD_DEF:0 "Scandinavia"
  SCD_ADJ:0 "Scandinavian"
+ 
  TYK_authoritarian_socialism:0 "Germania"
  TYK_authoritarian_socialism_DEF:0 "Germania"
  TYK_libertarian_socialism:0 "Germania"
@@ -21,29 +16,31 @@
  TYK:0 "Nordtyskland"
  TYK_DEF:0 "Nordtyskland"
  TYK_ADJ:0 "North German"
- QIQ_monolism:0 ""
- QIQ_monolism_DEF:0 ""
- QIQ_authoritarian_socialism:0 ""
- QIQ_authoritarian_socialism_DEF:0 ""
- QIQ_libertarian_socialism:0 ""
- QIQ_libertarian_socialism_DEF:0 ""
- QIQ_social_democracy:0 ""
- QIQ_social_democracy_DEF:0 ""
- QIQ_liberalism:0 ""
- QIQ_liberalism_DEF:0 ""
- QIQ_conservatism:0 ""
- QIQ_conservatism_DEF:0 ""
- QIQ_national_democracy:0 ""
- QIQ_national_democracy_DEF:0 ""
- QIQ_autocracy:0 ""
- QIQ_autocracy_DEF:0 ""
- QIQ_fascism:0 "Qingqiuese Empire"
- QIQ_fascism_DEF:0 "the Qingqiuese Empire"
+ 
+ QIQ_monolism:0 "Qingqiu Collective"
+ QIQ_monolism_DEF:0 "the Qingqiu Collective"
+ QIQ_authoritarian_socialism:0 "Qingqiu Socialist State"
+ QIQ_authoritarian_socialism_DEF:0 "the Qingqiu Socialist State"
+ QIQ_libertarian_socialism:0 "Qingqiu Social Republic"
+ QIQ_libertarian_socialism_DEF:0 "the Qingqiu Social Republic"
+ QIQ_social_democracy:0 "Qingqiu"
+ QIQ_social_democracy_DEF:0 "Qingqiu"
+ QIQ_liberalism:0 "Qingqiu"
+ QIQ_liberalism_DEF:0 "Qingqiu"
+ QIQ_conservatism:0 "Qingqiu"
+ QIQ_conservatism_DEF:0 "Qingqiu"
+ QIQ_national_democracy:0 "Qingqiu"
+ QIQ_national_democracy_DEF:0 "Qingqiu"
+ QIQ_autocracy:0 "Qingqiu"
+ QIQ_autocracy_DEF:0 "Qingqiu"
+ QIQ_fascism:0 "Empire of Qingqiu"
+ QIQ_fascism_DEF:0 "the Empire of Qingqiu"
  QIQ_egoism:0 "Transpacifica"
  QIQ_egoism_DEF:0 "Transpacifica"
  QIQ:0 "Qingqiu"
  QIQ_DEF:0 "Qingqiu"
  QIQ_ADJ:0 "Qingqiuese"
+ 
  TAG_monolism:0 ""
  TAG_monolism_DEF:0 ""
  TAG_authoritarian_socialism:0 ""
@@ -67,6 +64,7 @@
  TAG:0 ""
  TAG_DEF:0 ""
  TAG_ADJ:0 ""
+ 
  XIA_monolism:0 "Zhongguo Hive"
  XIA_monolism_DEF:0 "The Zhongguo Hive"
  XIA_authoritarian_socialism:0 "People's Republic of China"
@@ -90,3 +88,337 @@
  XIA:0 "Chinese"
  XIA_DEF:0 "the Chinese"
  XIA_ADJ:0 "Chinese"
+ 
+ GCO:0 "Gran Columbia"
+ GCO_DEF:0 "Gran Columbia"
+ GCO_ADJ:0 "Gran Columbian"
+ 
+ LOT:0 "Lotharingia"
+ LOT_DEF:0 "Lotharingia"
+ LOT_ADJ:0 "Lotharingian"
+ 
+ AMZ:0 "Amazonie"
+ AMZ_DEF:0 "Amazonie"
+ AMZ_ADJ:0 "Amazonian"
+ 
+  INC:0 "Incan Empire"
+ INC_DEF:0 "the Incan Empire"
+ INC_ADJ:0 "Incan"
+ 
+ BEO:0 "Beornia"
+ BEO_DEF:0 "Beornia"
+ BEO_ADJ:0 "Beornian"
+
+ ARC:0 "Arcadian Union"
+ ARC_DEF:0 "the Arcadian Union"
+ ARC_ADJ:0 "Arcadian"
+
+ CNU:0 "Celtic Union"
+ CNU_DEF:0 "the Celtic Union"
+ CNU_ADJ:0 "Celtic"
+
+ DUA:0 "Dual Monarchy"
+ DUA_DEF:0 "the Dual Monarchy"
+ DUA_ADJ:0 "Anglois"
+
+ BUR:0 "Burgundy"
+ BUR_DEF:0 "Burgundy"
+ BUR_ADJ:0 "Burgundian"
+
+ BRN:0 "Brandenburg"
+ BRN_DEF:0 "Brandenburg"
+ BRN_ADJ:0 "Brandenburger"
+
+ PLC:0 "Commonwealth"
+ PLC_DEF:0 "the Commonwealth"
+ PLC_ADJ:0 "Polish"
+
+ ITA:0 "Italy"
+ ITA_DEF:0 "Italy"
+ ITA_ADJ:0 "Italian"
+
+ SPA:0 "Spain"
+ SPA_DEF:0 "Spain"
+ SPA_ADJ:0 "Spanish"
+
+ EGY:0 "Egypt"
+ EGY_DEF:0 "Egypt"
+ EGY_ADJ:0 "Egyptian"
+
+ CON:0 "Congo"
+ CON_DEF:0 "the Congo"
+ CON_ADJ:0 "Congolese"
+
+ BAT:0 "Batavia"
+ BAT_DEF:0 "Batavia"
+ BAT_ADJ:0 "Batavian"
+
+ HUN:0 "Hungary"
+ HUN_DEF:0 "Hungary"
+ HUN_ADJ:0 "Hungarian"
+
+ UKR:0 "Ukraine"
+ UKR_DEF:0 "Ukraine"
+ UKR_ADJ:0 "Ukraine"
+
+ BEL:0 "Belorussia"
+ BEL_DEF:0 "Belorussia"
+ BEL_ADJ:0 "Belorussia"
+
+ GRE:0 "Greek State"
+ GRE_DEF:0 "Greek State"
+ GRE_ADJ:0 "Greek State"
+
+ SLA:0 "Slavic Union"
+ SLA_DEF:0 "Slavic Union"
+ SLA_ADJ:0 "Slavic Union"
+
+ NOV:0 "Novgorod"
+ NOV_DEF:0 "Novgorod"
+ NOV_ADJ:0 "Novgorod"
+
+ LAT:0 "Latvia"
+ LAT_DEF:0 "Latvia"
+ LAT_ADJ:0 "Latvian"
+
+ RUS:0 "Kievan Rus"
+ RUS_DEF:0 "Kievan Rus"
+ RUS_ADJ:0 "Kievan Rus"
+
+ OTT:0 "Ottoman Empire"
+ OTT_DEF:0 "Ottoman Empire"
+ OTT_ADJ:0 "Ottoman Empire"
+
+ KUR:0 "Kurdish State"
+ KUR_DEF:0 "Kurdish State"
+ KUR_ADJ:0 "Kurdish State"
+
+ CAU:0 "Caucasia"
+ CAU_DEF:0 "Caucasia"
+ CAU_ADJ:0 "Caucasia"
+
+ IRA:0 "Iran"
+ IRA_DEF:0 "Iran"
+ IRA_ADJ:0 "Iranian"
+
+ TUR:0 "Turkish Autonomy"
+ TUR_DEF:0 "the Turkish Autonomy"
+ TUR_ADJ:0 "Turkish"
+
+ SIB:0 "Siberia"
+ SIB_DEF:0 "Siberia"
+ SIB_ADJ:0 "Siberian"
+
+ MNG:0 "Mongolia"
+ MNG_DEF:0 "Mongolia"
+ MNG_ADJ:0 "Mongolian"
+
+ NEP:0 "Nepal"
+ NEP_DEF:0 "Nepal"
+ NEP_ADJ:0 "Nepalese"
+
+ IND:0 "India"
+ IND_DEF:0 "India"
+ IND_ADJ:0 "Indian"
+
+ CHI:0 "China"
+ CHI_DEF:0 "China"
+ CHI_ADJ:0 "Chinese"
+
+ JAP:0 "Japan"
+ JAP_DEF:0 "Japan"
+ JAP_ADJ:0 "Japanese"
+
+ ZHO:0 "Zhourao"
+ ZHO_DEF:0 "Zhourao"
+ ZHO_ADJ:0 "Zhourao"
+
+ HAW:0 "Hawaii"
+ HAW_DEF:0 "Hawaii"
+ HAW_ADJ:0 "Hawaiian"
+
+ NUN:0 "Nunagat"
+ NUN_DEF:0 "Nunagat"
+ NUN_ADJ:0 "Nunagatian"
+
+ DES:0 "Desert District"
+ DES_DEF:0 "Desert District"
+ DES_ADJ:0 "Deserter"
+
+ MEX:0 "Mexica"
+ MEX_DEF:0 "Mexica"
+ MEX_ADJ:0 "Mexican"
+
+ MAY:0 "Maya Autonomy"
+ MAY_DEF:0 "Maya Autonomy"
+ MAY_ADJ:0 "Mayan"
+
+ NAV:0 "Navajo"
+ NAV_DEF:0 "Navajo"
+ NAV_ADJ:0 "Navajo"
+
+ UTH:0 "Utah"
+ UTH_DEF:0 "Utah"
+ UTH_ADJ:0 "Utah"
+
+ SIX:0 "Sioux"
+ SIX_DEF:0 "Sioux"
+ SIX_ADJ:0 "Sioux"
+
+ LOU:0 "Louisiana"
+ LOU_DEF:0 "Louisiana"
+ LOU_ADJ:0 "Louisiana"
+
+ GTC:0 "Genoese Trade Confederation"
+ GTC_DEF:0 "Genoese Trade Confederation"
+ GTC_ADJ:0 "Genoese Trade Confederation"
+
+ VIN:0 "Vinland"
+ VIN_DEF:0 "Vinland"
+ VIN_ADJ:0 "Vinland"
+
+ BLC:0 "Belgian Confederacy"
+ BLC_DEF:0 "Belgian Confederacy"
+ BLC_ADJ:0 "Belgian Confederacy"
+
+ JRS:0 "Japanese Siberia"
+ JRS_DEF:0 "Japanese Siberia"
+ JRS_ADJ:0 "Japanese Siberia"
+
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "France"
+
+ GEN:0 "Genoa"
+ GEN_DEF:0 "Genoa"
+ GEN_ADJ:0 "Genoa"
+
+ SWI:0 "Switzerland"
+ SWI_DEF:0 "Switzerland"
+ SWI_ADJ:0 "Switzerland"
+
+ BAY:0 "Bavaria"
+ BAY_DEF:0 "Bavaria"
+ BAY_ADJ:0 "Bavaria"
+
+ HAN:0 "Hannover"
+ HAN_DEF:0 "Hannover"
+ HAN_ADJ:0 "Hannover"
+
+ AUS:0 "Austria"
+ AUS_DEF:0 "Austria"
+ AUS_ADJ:0 "Austria"
+
+ BOH:0 "Bohemia"
+ BOH_DEF:0 "Bohemia"
+ BOH_ADJ:0 "Bohemia"
+
+ ARA:0 "Aragon"
+ ARA_DEF:0 "Aragon"
+ ARA_ADJ:0 "Aragon"
+
+ EGL:0 "England"
+ EGL_DEF:0 "England"
+ EGL_ADJ:0 "England"
+
+ EST:0 "Estonia"
+ EST_DEF:0 "Estonia"
+ EST_ADJ:0 "Estonia"
+
+ CRO:0 "Croatia"
+ CRO_DEF:0 "Croatia"
+ CRO_ADJ:0 "Croatia"
+
+ ALB:0 "Albania"
+ ALB_DEF:0 "Albania"
+ ALB_ADJ:0 "Albania"
+
+ WAL:0 "Wallachia"
+ WAL_DEF:0 "Wallachia"
+ WAL_ADJ:0 "Wallachia"
+
+ MOL:0 "Moldova"
+ MOL_DEF:0 "Moldova"
+ MOL_ADJ:0 "Moldova"
+
+ TRA:0 "Transylvania"
+ TRA_DEF:0 "Transylvania"
+ TRA_ADJ:0 "Transylvania"
+
+ SLO:0 "Slovakia"
+ SLO_DEF:0 "Slovakia"
+ SLO_ADJ:0 "Slovakia"
+
+ WRS:0 "West Russia"
+ WRS_DEF:0 "West Russia"
+ WRS_ADJ:0 "West Russia"
+
+ ERS:0 "East Russia"
+ ERS_DEF:0 "East Russia"
+ ERS_ADJ:0 "East Russia"
+
+ SRS:0 "South Russia"
+ SRS_DEF:0 "South Russia"
+ SRS_ADJ:0 "South Russia"
+
+ TIB:0 "Tibet"
+ TIB_DEF:0 "Tibet"
+ TIB_ADJ:0 "Tibet"
+
+ UYG:0 "Uyghuristan"
+ UYG_DEF:0 "Uyghuristan"
+ UYG_ADJ:0 "Uyghuristan"
+
+ WSI:0 "West Siberia"
+ WSI_DEF:0 "West Siberia"
+ WSI_ADJ:0 "West Siberia"
+
+ ESI:0 "East Siberia"
+ ESI_DEF:0 "East Siberia"
+ ESI_ADJ:0 "East Siberia"
+
+ SSI:0 "South Siberia"
+ SSI_DEF:0 "South Siberia"
+ SSI_ADJ:0 "South Siberia"
+
+ MAN:0 "Manchuria"
+ MAN_DEF:0 "Manchuria"
+ MAN_ADJ:0 "Manchuria
+ 
+ PER:0 "Persia"
+ PER_DEF:0 "Persia"
+ PER_ADJ:0 "Persia"
+
+ STP:0 "Steppe Councils"
+ STP_DEF:0 "Steppe Councils"
+ STP_ADJ:0 "Steppe Councils"
+
+ KAZ:0 "Kazakhstan"
+ KAZ_DEF:0 "Kazakhstan"
+ KAZ_ADJ:0 "Kazakhstan"
+
+ TAJ:0 "Tajikistan"
+ TAJ_DEF:0 "Tajikistan"
+ TAJ_ADJ:0 "Tajikistan"
+
+ TKM:0 "Turkmenistan"
+ TKM_DEF:0 "Turkmenistan"
+ TKM_ADJ:0 "Turkmenistan"
+
+ UZB:0 "Uzbekistan"
+ UZB_DEF:0 "Uzbekistan"
+ UZB_ADJ:0 "Uzbekistan"
+
+ KYR:0 "Kyrgyzstan"
+ KYR_DEF:0 "Kyrgyzstan"
+ KYR_ADJ:0 "Kyrgyzstan
+ 
+ ARL:0 "Aralia"
+ ARL_DEF:0 "Aralia"
+ ARL_ADJ:0 "Aralia"
+
+ RST:0 "Imperial Authority"
+ RST_DEF:0 "Imperial Authority"
+ RST_ADJ:0 "Imperial Authority"
+ 
+ 

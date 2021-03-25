@@ -20,10 +20,6 @@ BEO = {
 	color = rgb { 217 38 38 }
 	color_ui = rgb { 217 38 38 }
 }
-ARC = {
-	color = rgb { 138 43 226 }
-	color_ui = rgb { 138 43 226 }
-}
 SCD = {
 	color = rgb { 102 140 255 }
 	color_ui = rgb { 102 140 255 }
@@ -31,10 +27,6 @@ SCD = {
 CNU = {
 	color = rgb { 46 184 46 }
 	color_ui = rgb { 46 184 46 }
-}
-DUA = {
-	color = rgb { 128 0 128 }
-	color_ui = rgb { 128 0 128 }
 }
 BUR = {
 	color = rgb { 128 0 0 }
@@ -84,21 +76,13 @@ GRE = {
 	color = rgb { 230 0 0 }
 	color_ui = rgb { 230 0 0 }
 }
-SLA = {
+YUG = {
 	color = rgb { 85 0 255 }
 	color_ui = rgb { 85 0 255 }
 }
 NOV = {
 	color = rgb { 255 255 179 }
 	color_ui = rgb { 255 255 179 }
-}
-LAT = {
-	color = rgb { 128 51 153 }
-	color_ui = rgb { 128 51 153 }
-}
-RUS = {
-	color = rgb { 60 179 113 }
-	color_ui = rgb { 60 179 113 }
 }
 OTT = {
 	color = rgb { 255 0 0 }
@@ -108,22 +92,6 @@ KUR = {
 	color = rgb { 128 64 0 }
 	color_ui = rgb { 128 64 0 }
 }
-CAU = {
-	color = rgb { 172 115 57 }
-	color_ui = rgb { 172 115 57 }
-}
-IRA = {
-	color = rgb { 128 128 0 }
-	color_ui = rgb { 128 128 0 }
-}
-TUR = {
-	color = rgb { 31 60 147 }
-	color_ui = rgb { 31 60 147 }
-}
-SIB = {
-	color = rgb { 153 204 255 }
-	color_ui = rgb { 153 204 255 }
-}
 MNG = {
 	color = rgb { 57 115 38 }
 	color_ui = rgb { 57 115 38 }
@@ -131,14 +99,6 @@ MNG = {
 NEP = {
 	color = rgb { 107 46 46 }
 	color_ui = rgb { 107 46 46 }
-}
-IND = {
-	color = rgb { 46 139 87 }
-	color_ui = rgb { 46 139 87 }
-}
-CHI = {
-	color = rgb { 218 165 32 }
-	color_ui = rgb { 218 165 32 }
 }
 JAP = {
 	color = rgb { 255 160 122 }
@@ -207,10 +167,6 @@ JRS = {
 FRA = {
 	color = rgb { 0 128 255 }
 	color_ui = rgb { 0 128 255 }
-}
-GEN = {
-	color = rgb { 255 204 0 }
-	color_ui = rgb { 255 204 0 }
 }
 SWI = {
 	color = rgb { 230 0 0 }

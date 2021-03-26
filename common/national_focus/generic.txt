@@ -1175,7 +1175,7 @@ focus_tree = {
 		id = GEN_opposition
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 13
-		y = 7
+		y = 6
 		cost = 10
 
 		mutually_exclusive = {
@@ -1222,6 +1222,7 @@ focus_tree = {
 					GEN_right_opposition
 				}
 			}
+			add_political_power = -25
 		}
 	}
 
@@ -1229,7 +1230,7 @@ focus_tree = {
 		id = GEN_support_the_state
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 19
-		y = 7
+		y = 6
 		cost = 10
 
 		mutually_exclusive = {
@@ -1279,13 +1280,14 @@ focus_tree = {
 					GEN_democracy_opposition
 				}
 			}
+			add_political_power = 25
 		}
 	}
 
 	focus = {
 		id = GEN_revolutionism
 		icon = GFX_goal_support_communism
-		x = -2
+		x = -3
 		y = 1
 		cost = 10
 		prerequisite = { focus = GEN_opposition focus = GEN_support_the_state }
@@ -1339,6 +1341,7 @@ focus_tree = {
 			add_ideas = {
 				GEN_left_support
 			}
+			add_political_power = 50
 		}
 	}
 
@@ -1399,13 +1402,14 @@ focus_tree = {
 			add_ideas = {
 				GEN_democracy_support
 			}
+			add_political_power = 50
 		}
 	}
 
 	focus = {
 		id = GEN_nationalism
 		icon = GFX_goal_support_fascism
-		x = 2
+		x = 3
 		y = 1
 		cost = 10
 		prerequisite = { focus = GEN_opposition focus = GEN_support_the_state }
@@ -1459,6 +1463,7 @@ focus_tree = {
 			add_ideas = {
 				GEN_right_support
 			}
+			add_political_power = 50
 		}
 	}
 
@@ -1676,6 +1681,233 @@ focus_tree = {
 			country_event = {
 				id = gen.3
 				days = 1
+			}
+		}
+	}
+
+	###Democracy Tree
+
+	focus = {
+		id = GEN_globalisation
+		icon = GFX_goal_generic_positive_trade_relations
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_election_day }
+		relative_position_id = GEN_election_day
+
+		available = {
+			OR = {
+				has_government = social_democracy
+				has_government = liberalism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_globalisation
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_union_rights
+		icon = GFX_focus_usa_union_representation_act
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_globalisation }
+		relative_position_id = GEN_globalisation
+
+		available = {
+			OR = {
+				has_government = social_democracy
+				has_government = liberalism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_union_rights_protected
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_welfare_state
+		icon = GFX_focus_generic_concessions
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_union_rights }
+		relative_position_id = GEN_union_rights
+
+		available = {
+			OR = {
+				has_government = social_democracy
+				has_government = liberalism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = GEN_welfare_state
+				remove_idea = GEN_union_rights_protected
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_privatisation
+		icon = GFX_focus_mex_privatisation
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_election_day }
+		relative_position_id = GEN_election_day
+
+		available = {
+			OR = {
+				has_government = national_democracy
+				has_government = conservatism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_privatisation
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_promote_patriotism
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_privatisation }
+		relative_position_id = GEN_privatisation
+
+		available = {
+			OR = {
+				has_government = national_democracy
+				has_government = conservatism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_promote_patriotism
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_traditional_values
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_promote_patriotism }
+		relative_position_id = GEN_promote_patriotism
+
+		available = {
+			OR = {
+				has_government = national_democracy
+				has_government = conservatism
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = GEN_traditional_values
+				remove_idea = GEN_promote_patriotism
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_open_markets
+		icon = GFX_goal_generic_trade
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_election_day }
+		relative_position_id = GEN_election_day
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = free_trade
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = GEN_foreign_scientists
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_open_markets }
+		relative_position_id = GEN_open_markets
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_foreign_scientists
+			}
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = GEN_interventionism
+		icon = GFX_focus_generic_manpower
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_open_markets }
+		relative_position_id = GEN_open_markets
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_interventionism
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_capitalist_economics
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_interventionism }
+		prerequisite = { focus = GEN_foreign_scientists }
+		relative_position_id = GEN_foreign_scientists
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_capitalist_economics
 			}
 		}
 	}

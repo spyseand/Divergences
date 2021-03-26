@@ -289,4 +289,215 @@ ideas = {
 			}
 		}
 	}
+
+	country = {
+		GEN_globalisation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = CAN_wartime_prices_and_trade_board
+			
+			modifier = {
+				enemy_justify_war_goal_time = 0.5
+				political_power_gain = 0.1
+				trade_opinion_factor = 0.25
+			}
+		}
+	}
+
+	country = {
+		GEN_union_rights_protected = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_welfare_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.15
+			}
+		}
+	}
+
+	country = {
+		GEN_privatisation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_promote_patriotism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				war_support_factor = 0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_traditional_values = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+				war_support_factor = 0.15
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				stability_factor = 0.1
+				conscription_factor = 0.15
+			}
+		}
+	}
+
+	country = {
+		GEN_foreign_scientists = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_interventionism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				send_volunteer_divisions_required = -0.5
+				send_volunteer_size = 2
+				send_volunteers_tension = -0.5
+			}
+		}
+	}
+
+	country = {
+		GEN_capitalist_economics = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+	}
+
 }

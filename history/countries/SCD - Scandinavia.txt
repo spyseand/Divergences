@@ -56,4 +56,14 @@ set_popularities = {
 	egoism = 0
 }
 
+create_country_leader = {
+	name = "Zach"
+	desc = "stupid"
+	picture = "zachisdumb.dds"
+	expire = "1999.1.1"
+	ideology = national_democracy
+	traits = {
+	}
+}
+
 set_convoys = 112

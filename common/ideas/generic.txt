@@ -153,4 +153,140 @@ ideas = {
 			}
 		}
 	}
+
+	###Political Ideas
+
+	country = {
+		GEN_left_support = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				authoritarian_socialism_drift = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_democracy_support = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				libertarian_socialism_drift = 0.01
+				social_democracy_drift = 0.01
+				liberalism_drift = 0.01
+				conservatism_drift = 0.01
+				national_democracy_drift = 0.01
+			}
+		}
+	}
+
+	country = {
+		GEN_right_support = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_left_opposition = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+			
+			modifier = {
+				authoritarian_socialism_drift = -0.05
+			}
+		}
+	}
+
+	country = {
+		GEN_democracy_opposition = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+			
+			modifier = {
+				libertarian_socialism_drift = -0.01
+				social_democracy_drift = -0.01
+				liberalism_drift = -0.01
+				conservatism_drift = -0.01
+				national_democracy_drift = -0.01
+			}
+		}
+	}
+
+	country = {
+		GEN_right_opposition = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+			
+			modifier = {
+				fascism_drift = -0.05
+			}
+		}
+	}
 }

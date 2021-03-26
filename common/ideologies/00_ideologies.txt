@@ -337,6 +337,8 @@ ideologies = {
 			
 			monarchism = {
 			}
+			dictatorship = {
+			}
 
 		}
 		

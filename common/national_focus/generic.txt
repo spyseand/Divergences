@@ -9,22 +9,1166 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 
-	initial_show_position = {
-		focus = industrial_effort
-	}
+	###Generic Military Tree
 
 	focus = {
-		id = crash_preventer
+		id = GEN_increase_military_spending
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		x = 4
 		y = 0
 		cost = 10
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			army_experience = 25
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
+
+	focus = {
+		id = GEN_motorized_research
+		icon = GFX_goal_generic_army_motorized
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_increase_military_spending }
+		relative_position_id = GEN_increase_military_spending
+		
+		available_if_capitulated = yes
+
+		bypass = {
+			has_tech = motorised_infantry
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 2
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_motorized_research }
+		relative_position_id = GEN_motorized_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.5
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_heavier_armor
+		icon = GFX_focus_generic_tank_production
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_armor_effort }
+		relative_position_id = GEN_armor_effort
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_mechanized_effort
+		icon = GFX_goal_generic_production2
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_motorized_research }
+		relative_position_id = GEN_motorized_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_armored_car
+		icon = GFX_focus_chi_army_reform
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_mechanized_effort }
+		relative_position_id = GEN_mechanized_effort
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				bonus = 0.5
+				uses = 2
+				technology = armored_car2
+				technology = armored_car3
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_modern_war
+		icon = GFX_focus_generic_combined_arms
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_armored_car }
+		prerequisite = { focus = GEN_heavier_armor }
+		relative_position_id = GEN_heavier_armor
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 25
+			add_ideas = {
+				GEN_modern_war
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_infantry_research
+		icon = GFX_goal_generic_small_arms
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_increase_military_spending }
+		relative_position_id = GEN_increase_military_spending
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.75
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_doctrine_research
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_infantry_research }
+		relative_position_id = GEN_infantry_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_doctrine_research2
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_doctrine_research }
+		relative_position_id = GEN_doctrine_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_artillery_improvements
+		icon = GFX_goal_generic_army_artillery2
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_infantry_research }
+		relative_position_id = GEN_infantry_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.75
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_support_equipment
+		icon = GFX_focus_generic_manpower
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_artillery_improvements }
+		relative_position_id = GEN_artillery_improvements
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_bolstered_army
+		icon = GFX_focus_generic_little_entente
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_doctrine_research2 }
+		prerequisite = { focus = GEN_support_equipment }
+		relative_position_id = GEN_doctrine_research2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 25
+			add_ideas = {
+				GEN_bolstered_army
+			}
+		}
+	}
+
+	###Generic Air Tree
+
+	focus = {
+		id = GEN_air_investments
+		icon = GFX_goal_generic_air_doctrine
+		x = 11
+		y = 0
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_airport_construction
+		icon = GFX_goal_generic_construction2
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_air_investments }
+		relative_position_id = GEN_air_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_air_doctrine
+		icon = GFX_goal_generic_CAS
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_airport_construction }
+		relative_position_id = GEN_airport_construction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 1
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_radar_investments
+		icon = GFX_goal_generic_radar
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_air_doctrine }
+		relative_position_id = GEN_air_doctrine
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 2
+				category = radar_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_fighter_development
+		icon = GFX_goal_generic_air_fighter
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_air_investments }
+		relative_position_id = GEN_air_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_CAS_development
+		icon = GFX_goal_generic_air_production
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_fighter_development }
+		relative_position_id = GEN_fighter_development
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				ahead_reduction = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_improved_fighters
+		icon = GFX_goal_generic_air_fighter2
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_CAS_development }
+		relative_position_id = GEN_CAS_development
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				ahead_reduction = 1
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_experimental_air_research
+		icon = GFX_focus_rocketry
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_radar_investments }
+		prerequisite = { focus = GEN_improved_fighters }
+		relative_position_id = GEN_radar_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				category = rocketry
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_bomber_development
+		icon = GFX_goal_generic_air_bomber
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_fighter_development }
+		relative_position_id = GEN_fighter_development
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				ahead_reduction = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+
+
+	###Generic Naval Tree
+
+	focus = {
+		id = GEN_naval_infrastructure
+		icon = GFX_goal_generic_build_navy
+		x = 18
+		y = 0
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 50
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_battleship_research
+		icon = GFX_focus_generic_navy_battleship2
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_naval_infrastructure }
+		relative_position_id = GEN_naval_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 1
+				category = bb_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_carrier_fleet
+		icon = GFX_goal_generic_navy_carrier
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_battleship_research }
+		relative_position_id = GEN_battleship_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_naval_bomber_tech
+		icon = GFX_goal_generic_air_naval_bomber
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_bomber_development }
+		prerequisite = { focus = GEN_carrier_fleet }
+		relative_position_id = GEN_carrier_fleet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_destroyer_research
+		icon = GFX_focus_generic_destroyer
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_naval_infrastructure }
+		relative_position_id = GEN_naval_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 2
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_cruiser_tech
+		icon = GFX_focus_generic_cruiser2
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_destroyer_research }
+		relative_position_id = GEN_destroyer_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 1
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_submarine_tech
+		icon = GFX_goal_generic_navy_submarine
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_naval_infrastructure }
+		relative_position_id = GEN_naval_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 5
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.75
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_renovate_naval_department
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_submarine_tech }
+		relative_position_id = GEN_submarine_tech
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 35
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 1
+				uses = 2
+				category = naval_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_heavy_dockyard_investments
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_carrier_fleet focus = GEN_cruiser_tech focus = GEN_renovate_naval_department }
+		relative_position_id = GEN_carrier_fleet
+		
+		available_if_capitulated = yes
+
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 15
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_modern_doctrines
+		icon = GFX_goal_generic_amphibious_assault
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_carrier_fleet focus = GEN_cruiser_tech focus = GEN_renovate_naval_department }
+		relative_position_id = GEN_carrier_fleet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 1
+				uses = 3
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_global_contender
+		icon = GFX_focus_generic_support_the_left_right
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_heavy_dockyard_investments }
+		prerequisite = { focus = GEN_modern_doctrines }
+		relative_position_id = GEN_heavy_dockyard_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+			add_ideas = {
+				GEN_global_contender
+			}
+		}
+	}
+
+	###Generic Industrial Tree
+
+	focus = {
+		id = GEN_industrial_efforts
+		icon = GFX_focus_generic_industry_1
+		x = 25
+		y = 0
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				GEN_construction_boost
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_infrastructure_expansion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_industrial_efforts }
+		relative_position_id = GEN_industrial_efforts
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_expand_armament_production
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = GEN_infrastructure_expansion }
+		relative_position_id = GEN_infrastructure_expansion
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_further_armament_investments
+		icon = GFX_focus_generic_tank_production
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_expand_armament_production }
+		relative_position_id = GEN_expand_armament_production
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_modern_tools
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_infrastructure_expansion }
+		relative_position_id = GEN_infrastructure_expansion
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_new_research_facilities
+		icon = GFX_focus_research
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_modern_tools }
+		prerequisite = { focus = GEN_massive_industrial_investments }
+		relative_position_id = GEN_modern_tools
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = GEN_expand_civilian_sector
+		icon = GFX_focus_generic_industry_2
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_industrial_efforts }
+		relative_position_id = GEN_industrial_efforts
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_massive_industrial_investments
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_expand_civilian_sector }
+		relative_position_id = GEN_expand_civilian_sector
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -75
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_modern_infrastructure
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_new_research_facilities }
+		relative_position_id = GEN_new_research_facilities
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_final_armament_improvements
+		icon = GFX_focus_generic_army_tanks2
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_modern_infrastructure }
+		relative_position_id = GEN_modern_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				GEN_armament_effort
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_further_resource_exploitation
+		icon = GFX_goal_generic_construction2
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_modern_infrastructure }
+		relative_position_id = GEN_modern_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminum
+					amount = 6
+				}
+			}
+			add_ideas = {
+				GEN_resource_exploitation
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_modern_R&D
+		icon = GFX_focus_research2
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_modern_infrastructure }
+		relative_position_id = GEN_modern_infrastructure
+		
+		available = {
+			num_of_factories > 49
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = GEN_experimental_electronics
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_final_armament_improvements }
+		prerequisite = { focus = GEN_modern_R&D }
+		relative_position_id = GEN_final_armament_improvements
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics_bonus
+				uses = 2
+				bonus = 1
+				category = electronics
+			}
+			add_ideas = {
+				GEN_research_bonus
+			}
+		}
+	}
+
+	###Generic Political Tree
 
 }

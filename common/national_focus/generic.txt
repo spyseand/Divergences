@@ -1912,4 +1912,129 @@ focus_tree = {
 		}
 	}
 
+	###Revolutionism Tree
+
+	focus = {
+		id = GEN_four_year_plan
+		icon = GFX_goal_generic_soviet_construction
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_defense_of_the_revolution }
+		relative_position_id = GEN_defense_of_the_revolution
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = GEN_four_year_plan
+				days = 1460
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_global_revolution
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_four_year_plan }
+		relative_position_id = GEN_four_year_plan
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_interventionism
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_manual_intervention
+		icon = GFX_focus_por_workers_of_iberia
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_global_revolution }
+		relative_position_id = GEN_global_revolution
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = GEN_revolutionary_ideals
+				remove_idea = GEN_interventionism
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_socialist_economics
+		icon = GFX_focus_generic_soviet_politics
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_four_year_plan }
+		relative_position_id = GEN_four_year_plan
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_socialist_economics
+		}
+	}
+
+	focus = {
+		id = GEN_united_research_base
+		icon = GFX_focus_generic_socialist_science
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_four_year_plan }
+		relative_position_id = GEN_four_year_plan
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_united_research_base
+		}
+	}
+
+	focus = {
+		id = GEN_shining_red_beacon
+		icon = GFX_focus_generic_join_comintern
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_socialist_economics }
+		prerequisite = { focus = GEN_united_research_base }
+		relative_position_id = GEN_united_research_base
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = GEN_revolutionary_militia
+		icon = GFX_focus_prc_agrarian_socialism
+		x = -5
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_four_year_plan }
+		relative_position_id = GEN_four_year_plan
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_revolutionary_militia
+		}
+	}
+
 }

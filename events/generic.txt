@@ -107,3 +107,47 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = gen.3
+	title = gen.3.t
+	desc = gen.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gen.3.a
+		set_politics = {
+			ruling_party = fascism
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+	}
+	option = {
+	###Once leaders are implemented, change so the flavor is accurate
+		name = gen.3.b
+		trigger = {
+			has_government = autocracy
+		}
+		add_popularity = {
+			ideology = autocracy
+			popularity = 0.4
+		}
+	}
+	option = {
+		name = gen.3.c
+		trigger = {
+			has_government = egoism
+		}
+		add_popularity = {
+			ideology = egoism
+			popularity = 0.4
+		}
+	}
+}

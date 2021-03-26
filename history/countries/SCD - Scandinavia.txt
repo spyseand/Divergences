@@ -58,11 +58,12 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Zach"
-	desc = "stupid"
-	picture = "zachisdumb.dds"
-	expire = "1999.1.1"
-	ideology = national_democracy
+	desc = "POLITICS_ZACH_DESC"
+	picture = "gfx/leaders/zachisdumb.dds"
+	expire = "1965.1.1"
+	ideology = national_democracy_sub
 	traits = {
+		dictator
 	}
 }
 

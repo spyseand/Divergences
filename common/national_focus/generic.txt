@@ -1673,7 +1673,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
-			
+			country_event = {
+				id = gen.3
+				days = 1
+			}
 		}
 	}
 

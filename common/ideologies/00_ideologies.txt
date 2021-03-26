@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			monolism = {
+			monolism_sub = {
 			}
 
 		}
@@ -147,7 +147,7 @@ ideologies = {
 	
 		types = {
 			
-			social_democracy = {
+			social_democracy_sub = {
 			}
 
 		}
@@ -194,7 +194,7 @@ ideologies = {
 	
 		types = {
 			
-			liberalism = {
+			liberalism_sub = {
 			}
 
 		}
@@ -241,7 +241,7 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
+			conservatism_sub = {
 			}
 
 		}
@@ -288,7 +288,7 @@ ideologies = {
 	
 		types = {
 			
-			national_democracy = {
+			national_democracy_sub = {
 			}
 
 		}
@@ -382,7 +382,7 @@ ideologies = {
 	
 		types = {
 			
-			fascism = {
+			fascism_sub = {
 			}
 
 		}
@@ -429,7 +429,7 @@ ideologies = {
 	
 		types = {
 			
-			egoism = {
+			egoism_sub = {
 			}
 
 		}

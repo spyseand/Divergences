@@ -613,4 +613,118 @@ ideas = {
 		}
 	}
 
+	country = {
+		GEN_autarky = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = home_of_the_revolution
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		GEN_youth_groups = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_reserve_divisions
+			
+			modifier = {
+				conscription = 0.015
+			}
+		}
+	}
+
+	country = {
+		GEN_loyal_army = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_war_preparation
+			
+			modifier = {
+				conscription = 0.015
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				max_planning_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		GEN_propaganda_department = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_war_preparation
+			
+			modifier = {
+				war_support_weekly = 0.001
+				party_popularity_stability_factor = 0.5
+			}
+		}
+	}
+
+	country = {
+		GEN_agressive_expansion = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_war_preparation
+			
+			modifier = {
+				justify_war_goal_time = -0.75
+				join_faction_tension = -0.25
+				surrender_limit = 0.1
+				annex_cost_factor = -0.2
+			}
+		}
+	}
+
 }

@@ -2037,4 +2037,131 @@ focus_tree = {
 		}
 	}
 
+	###Nationalism Tree
+
+	focus = {
+		id = GEN_autarky
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_march_in_the_capital }
+		relative_position_id = GEN_march_in_the_capital
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_autarky
+		}
+	}
+
+	focus = {
+		id = GEN_defending_our_interests
+		icon = GFX_focus_secret_rearmament
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_autarky }
+		relative_position_id = GEN_autarky
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_interventionism
+		}
+	}
+
+	focus = {
+		id = GEN_national_youth_groups
+		icon = GFX_focus_generic_military_academy
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_autarky }
+		relative_position_id = GEN_autarky
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_youth_groups
+		}
+	}
+
+	focus = {
+		id = GEN_loyal_army
+		icon = GFX_focus_generic_military_mission
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_national_youth_groups }
+		prerequisite = { focus = GEN_defending_our_interests }
+		relative_position_id = GEN_national_youth_groups
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = GEN_loyal_army
+				remove_idea = GEN_youth_groups
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_propaganda_department
+		icon = GFX_goal_generic_propaganda
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_autarky }
+		relative_position_id = GEN_autarky
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_propaganda_department
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_popular_support
+		icon = GFX_goal_generic_attack_allies
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_propaganda_department }
+		relative_position_id = GEN_propaganda_department
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = GEN_agressive_expansion
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = GEN_propaganda_department }
+		relative_position_id = GEN_propaganda_department
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = {
+				GEN_agressive_expansion
+			}
+		}
+	}
+
 }

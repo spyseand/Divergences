@@ -1,0 +1,369 @@
+﻿
+focus_tree = {
+	id = qingqiu_focus
+	
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = QIQ
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	default = yes
+	reset_on_civilwar = no
+
+	###Generic Military Tree
+
+	focus = {
+		id = QIQ_pacific_contender
+		icon = GFX_goal_generic_navy_cruiser
+		x = 6
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = qingqiu.1
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_reevaluate_our_budget
+		icon = GFX_goal_generic_consumer_goods
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_pacific_contender }
+		relative_position_id = QIQ_pacific_contender
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = qingqiu.2
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_convince_the_public
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_pacific_contender }
+		relative_position_id = QIQ_pacific_contender
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = QIQ_begin_naval_buildup
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = QIQ_reevaluate_our_budget }
+		prerequisite = { focus = QIQ_convince_the_public }
+		relative_position_id = QIQ_reevaluate_our_budget
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			6 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				QIQ_naval_buildup
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_expand_yongle_harbor
+		icon = GFX_goal_generic_construct_civilian
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_begin_naval_buildup }
+		relative_position_id = QIQ_begin_naval_buildup
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			3 = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_building_construction = {
+ 				type = naval_base
+    			level = 10
+    			instant_build = yes
+    			province = 9814
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_expand_xingye_harbor
+		icon = GFX_goal_generic_construct_civilian
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_begin_naval_buildup }
+		relative_position_id = QIQ_begin_naval_buildup
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			6 = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_building_construction = {
+ 				type = naval_base
+    			level = 10
+    			instant_build = yes
+    			province = 6757
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_heavy_ship_development
+		icon = GFX_focus_generic_navy_battleship2
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expand_yongle_harbor }
+		relative_position_id = QIQ_expand_yongle_harbor
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = qingqiu_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				category = bb_tech
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_expand_dockyard_investments
+		icon = GFX_goal_generic_build_navy
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expand_yongle_harbor }
+		relative_position_id = QIQ_expand_yongle_harbor
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			3 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_rush_carrier_research
+		icon = GFX_goal_generic_navy_carrier
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_heavy_ship_development }
+		prerequisite = { focus = QIQ_expand_dockyard_investments }
+		relative_position_id = QIQ_heavy_ship_development
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.5
+				uses = 1
+				ahead_reduction = 2
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_purchase_outdated_ships
+		icon = GFX_focus_mex_privatisation
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_rush_carrier_research }
+		relative_position_id = QIQ_rush_carrier_research
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			###big ship purchase
+		}
+	}
+
+	focus = {
+		id = QIQ_modern_junk_ships
+		icon = GFX_goal_generic_navy_battleship
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_purchase_outdated_ships }
+		prerequisite = { focus = QIQ_mass_destroyer_purchase }
+		relative_position_id = QIQ_purchase_outdated_ships
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_idea = {
+				QIQ_modern_junk_ships
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_trade_interdiction
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expand_xingye_harbor }
+		relative_position_id = QIQ_expand_xingye_harbor
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = qiq_bonus
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_escort_ships
+		icon = GFX_focus_generic_destroyer
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expand_xingye_harbor }
+		relative_position_id = QIQ_expand_xingye_harbor
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = qiq_bonus
+				bonus = 0.5
+				uses = 2
+				ahead_reduction = 0.5
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_expand_wolf_packs
+		icon = GFX_goal_generic_wolf_pack
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_trade_interdiction }
+		prerequisite = { focus = QIQ_escort_ships }
+		relative_position_id = QIQ_trade_interdiction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = qiq_bonus
+				bonus = 0.5
+				uses = 1
+				ahead_reduction = 2
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_mass_destroyer_purchase
+		icon = GFX_goal_generic_improve_relations
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expand_wolf_packs }
+		relative_position_id = QIQ_expand_wolf_packs
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			###small ship purchase
+		}
+	}
+
+	focus = {
+		id = QIQ_grand_pacific_fleet
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_modern_junk_ships }
+		relative_position_id = QIQ_modern_junk_ships
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			###we have chonker navy POGGERS
+		}
+	}
+
+	###Incomplete stuff:
+	###Localisation(duh), events, decisions for purchasing ships (heavy and light), idea for 'modern junk ships', more dockyards?
+	###
+
+}

@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+		QIQ_naval_buildup = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+			}
+		}
+	}
+
+	country = {
+		QIQ_redirected_budget = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

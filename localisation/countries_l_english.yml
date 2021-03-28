@@ -477,5 +477,44 @@
  BRM_DEF:0 "Burma"
  BRM_ADJ:0 "Burmese"
  
+ ARB:0 "Arabia"
+ ARB_DEF:0 "Arabia"
+ ARB_ADJ:0 "Arabian"
+ 
+ AST:0 "Australia"
+ AST_DEF:0 "Australia"
+ AST_ADJ:0 "Australian"
+ 
+ BEI:0 "Burgundian Indies"
+ BEI_DEF:0 "the Burgundian Indies"
+ BEI_ADJ:0 "Indonesian"
+ 
+ SEI:0 "Spanish Indies"
+ SEI_DEF:0 "the Spanish Indies"
+ SEI_ADJ:0 "Indonesian"
+ 
+ JEI:0 "Japanese Indies"
+ JEI_DEF:0 "the Japanese Indies"
+ JEI_ADJ:0 "Indonesian"
+ 
+ JPH:0 "Japanese Philippines"
+ JPH_DEF:0 "the Japanese Philippines"
+ JPH_ADJ:0 "Filipino"
+ 
+ SCM:0 "Scandinavian Malacca"
+ SCM_DEF:0 "Scandinavian Malacca"
+ SCM_ADJ:0 "Malaysian"
+ 
+ HAW:0 "Hawaii"
+ HAW_DEF:0 "Hawaii"
+ HAW_ADJ:0 "Hawaiin"
+ 
+ SIA:0 "Siam"
+ SIA_DEF:0 "Siam"
+ SIA_ADJ:0 "Siamese"
+ 
+ NGA:0 "New Galicia"
+ NGA_DEF:0 "New Galicia"
+ NGA_ADJ:0 "New Galician"
  
  

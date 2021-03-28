@@ -2,6 +2,7 @@ state={
 	id=273
 	name="STATE_1273"
 	history = {
+        owner = SIA
 		victory_points = {
 			7376 1
 		}

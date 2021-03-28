@@ -360,3 +360,45 @@ BRM = {
 	color = rgb { 70 82 99 }
 	color_ui = rgb { 70 82 99 }
 }
+ARB = {
+	color = rgb { 196 185 157 }
+	color_ui = rgb { 196 185 157 }
+}
+AST = {
+	color = rgb { 50 94 43 }
+	color_ui = rgb { 50 94 43 }
+}
+BEI = {
+	color = rgb { 107 23 17 }
+	color_ui = rgb { 107 23 17 }
+}
+SEI = {
+	color = rgb { 212 198 72 }
+	color_ui = rgb { 212 198 72 }
+}
+JEI = {
+	color = rgb { 209 113 126 }
+	color_ui = rgb { 209 113 126 }
+}
+JPH = {
+	color = rgb { 154 210 214 }
+	color_ui = rgb { 154 210 214 }
+}
+SCM = {
+	color = rgb { 115 250 162 }
+	color_ui = rgb { 115 250 162 }
+}
+HAW = {
+	color = rgb { 255 0 225 }
+	color_ui = rgb { 255 0 225 }
+}
+SIA = {
+	color = rgb { 113 176 175 }
+	color_ui = rgb { 113 176 175  }
+}
+NGA = {
+	color = rgb { 182 148 255 }
+	color_ui = rgb { 182 148 255 }
+}
+
+

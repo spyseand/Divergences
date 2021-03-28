@@ -11,6 +11,7 @@ state={
 
 
 	history={
+        owner = SIA
 		buildings = {
 			infrastructure = 3
 		}

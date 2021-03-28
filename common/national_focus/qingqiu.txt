@@ -253,6 +253,7 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = QIQ_purchase_outdated_ships }
 		prerequisite = { focus = QIQ_mass_destroyer_purchase }
+		prerequisite = { focus = QIQ_amphibious_doctrine }
 		relative_position_id = QIQ_purchase_outdated_ships
 		
 		available_if_capitulated = yes
@@ -281,6 +282,72 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_further_dockyard_expansion
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = QIQ_trade_interdiction focus = QIQ_expand_dockyard_investments }
+		relative_position_id = QIQ_trade_interdiction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			8 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			2 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = QIQ_amphibious_doctrine
+		icon = GFX_goal_generic_amphibious_assault
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_further_dockyard_expansion }
+		relative_position_id = QIQ_further_dockyard_expansion
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			8 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			2 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			country_event = {
+				id = qingqiu.3
+				days = 1
 			}
 		}
 	}
@@ -358,7 +425,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			###we have chonker navy POGGERS
+			country_event = {
+				id = qingqiu.4
+				days = 1
+			}
 		}
 	}
 

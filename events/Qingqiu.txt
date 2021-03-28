@@ -46,4 +46,23 @@ country_event = {
 		name = qingqiu.3.a
 		
 	}
+
+	option = {
+		name = qingqiu.3.b
+		
+	}
+}
+
+country_event = {
+	id = qingqiu.4
+	title = qingqiu.4.t
+	desc = qingqiu.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = qingqiu.4.a
+		
+	}
 }

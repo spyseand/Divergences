@@ -421,4 +421,61 @@
  RST_DEF:0 "Imperial Authority"
  RST_ADJ:0 "Imperial Authority"
  
+ MKH:0 "Mountain Khanate"
+ MKH_DEF:0 "the Mountain Khanate"
+ MKH_ADJ:0 "Mountain"
+ 
+ BHA:0 "Bharatiya Collective"
+ BHA_DEF:0 "the Bharatiya Collective"
+ BHA_ADJ:0 "Bharatiyan"
+ 
+ EIN:0 "English India"
+ EIN_DEF:0 "English India"
+ EIN_ADJ:0 "Indian"
+ 
+ CIN:0 "Celtic India"
+ CIN_DEF:0 "Celtic India"
+ CIN_ADJ:0 "Indian"
+ 
+ DEC:0 "Deccan Federation"
+ DEC_DEF:0 "the Deccan Federation"
+ DEC_ADJ:0 "Deccan"
+ 
+ DRA:0 "Dravidian Empire"
+ DRA_DEF:0 "the Dravidian Empire"
+ DRA_ADJ:0 "Dravidian"
+ 
+ UTK:0 "Utkala"
+ UTK_DEF:0 "Utkala"
+ UTK_ADJ:0 "Utkalan"
+ 
+ VND:0 "Vindhya"
+ VND_DEF:0 "Vindhya"
+ VND_ADJ:0 "Vindhyan"
+ 
+ HIN:0 "Hindustan"
+ HIN_DEF:0 "Hindustan"
+ HIN_ADJ:0 "Hindustani"
+ 
+ ARY:0 "Aryan State"
+ ARY_DEF:0 "the Aryan State"
+ ARY_ADJ:0 "Aryan"
+ 
+ BEN:0 "Bengali Shogunate"
+ BEN_DEF:0 "the Bengali Shogunate"
+ BEN_ADJ:0 "Bengali"
+ 
+ BHU:0 "Bhutan"
+ BHU_DEF:0 "the Bhutan"
+ BHU_ADJ:0 "Bhutanese"
+ 
+ IRP:0 "Indian Republic"
+ IRP_DEF:0 "the Indian Republic"
+ IRP_ADJ:0 "Indian"
+ 
+ BRM:0 "Burma"
+ BRM_DEF:0 "Burma"
+ BRM_ADJ:0 "Burmese"
+ 
+ 
  

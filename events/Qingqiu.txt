@@ -1,0 +1,49 @@
+add_namespace = qingqiu
+
+country_event = {
+	id = qingqiu.1
+	title = qingqiu.1.t
+	desc = qingqiu.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = qingqiu.1.a
+		
+	}
+	option = {
+		name = qingqiu.1.b
+		
+	}
+}
+
+country_event = {
+	id = qingqiu.2
+	title = qingqiu.2.t
+	desc = qingqiu.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = qingqiu.2.a
+		add_ideas = {
+			QIQ_redirected_budget
+		}
+	}
+}
+
+country_event = {
+	id = qingqiu.3
+	title = qingqiu.3.t
+	desc = qingqiu.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = qingqiu.3.a
+		
+	}
+}

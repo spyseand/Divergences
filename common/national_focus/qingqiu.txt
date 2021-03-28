@@ -259,7 +259,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_idea = {
+			add_ideas = {
 				QIQ_modern_junk_ships
 			}
 		}

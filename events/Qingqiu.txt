@@ -44,12 +44,16 @@ country_event = {
 	
 	option = {
 		name = qingqiu.3.a
-		
+		add_ideas = {
+			QIQ_beachhead_doctrine
+		}
 	}
 
 	option = {
 		name = qingqiu.3.b
-		
+		add_ideas = {
+			QIQ_island_hopping_doctrine
+		}
 	}
 }
 

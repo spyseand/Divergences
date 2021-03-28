@@ -1,0 +1,15 @@
+QIQ_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BATTLESHIPS
+
+	for_countries = { QIQ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }			
+
+	prefix = "SS "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Sanbao"
+	}
+}

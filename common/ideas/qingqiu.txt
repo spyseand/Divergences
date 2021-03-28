@@ -41,4 +41,73 @@ ideas = {
 			}
 		}
 	}
+
+	country = {
+		QIQ_modern_junk_ships = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_carrier_bonus
+			
+			modifier = {
+				fighter_sortie_efficiency = 0.1
+				navy_capital_ship_attack_factor = 0.2
+				navy_carrier_air_attack_factor = 0.1
+				navy_carrier_air_agility_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		QIQ_beachhead_doctrine = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				naval_invasion_capacity = 10
+				out_of_supply_factor = -0.25
+			}
+		}
+	}
+
+	country = {
+		QIQ_island_hopping_doctrine = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				naval_invasion_prep_speed = -0.5
+				no_supply_grace = 72
+				amphibious_invasion_defence = 0.25
+			}
+		}
+	}
 }

@@ -1,0 +1,42 @@
+naval_purchase = {
+	purchase_interwar_battleship = {
+		cost = 100
+		available = {
+			has_completed_focus = QIQ_purchase_outdated_ships
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = QIQ_has_sanbao_class
+					}
+				}
+				create_equipment_variant = {
+					name = "Sanbao Class"				
+					type = ship_hull_heavy_1
+					name_group = QIQ_BB_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_heavy_battery_1
+						fixed_ship_fire_control_system_slot = ship_fire_control_system
+						fixed_ship_engine_slot = heavy_ship_engine_1
+						fixed_ship_armor_slot = ship_armor_bb_1
+						fixed_ship_secondaries_slot = ship_secondaries
+						front_1_custom_slot = empty
+						mid_1_custom_slot = ship_secondaries
+						mid_2_custom_slot = empty
+						rear_1_custom_slot = ship_heavy_battery_1
+					}
+				}
+				set_country_flag = QIQ_has_sanbao_class
+			}
+			create_ship = {
+			type = ship_hull_heavy_1
+			equipment_variant = "Sanbao Class"
+			creator = QIQ
+			}
+		}
+		days_remove = 1
+		days_re_enable = 5
+	}
+}

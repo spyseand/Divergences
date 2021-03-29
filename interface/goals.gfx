@@ -3,8 +3,8 @@ spriteTypes = {
 	#### Generic continuous goal icons
 
 	SpriteType = {
-	name = "GFX_focus_inca_v_day"
-	texturefile = "gfx/interface/goals/focus_inca_v_day.dds"			
+	name = "GFX_focus_inc_v_day"
+	texturefile = "gfx/interface/goals/focus_inc_v_day.dds"			
 	}	
 
 	SpriteType = {

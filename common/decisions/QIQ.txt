@@ -1,8 +1,17 @@
 naval_purchase = {
+
 	purchase_interwar_battleship = {
-		cost = 100
+		cost = 150
 		available = {
 			has_completed_focus = QIQ_purchase_outdated_ships
+			NOT = {
+				has_country_flag = QIQ_purchasing_heavy_ships
+			}
+		}
+		days_remove = 50
+		days_re_enable = 5
+		complete_effect = {
+			set_country_flag = QIQ_purchasing_heavy_ships
 		}
 		remove_effect = {
 			if = {
@@ -35,8 +44,159 @@ naval_purchase = {
 			equipment_variant = "Sanbao Class"
 			creator = QIQ
 			}
+			clr_country_flag = QIQ_purchasing_heavy_ships
 		}
-		days_remove = 1
+	}
+
+	purchase_interwar_carrier = {
+		cost = 150
+		available = {
+			has_completed_focus = QIQ_purchase_outdated_ships
+			NOT = {
+				has_country_flag = QIQ_purchasing_heavy_ships
+			}
+		}
+		days_remove = 50
 		days_re_enable = 5
+		complete_effect = {
+			set_country_flag = QIQ_purchasing_heavy_ships
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = QIQ_has_yongle_class
+					}
+				}
+				create_equipment_variant = {
+                    name = "Yongle Class"
+                    type = ship_hull_carrier_conversion_bb
+                    parent_version = 0
+                    modules = {
+                        fixed_ship_deck_slot_1 = ship_deck_space
+                        fixed_ship_deck_slot_2 = ship_deck_space
+                        fixed_ship_anti_air_slot = empty
+                        fixed_ship_radar_slot = empty
+                        fixed_ship_engine_slot = carrier_ship_engine_1
+                        fixed_ship_secondaries_slot = empty
+                        front_1_custom_slot = empty
+                    }
+                }			
+				set_country_flag = QIQ_has_yongle_class
+			}
+			create_ship = {
+			type = ship_hull_carrier_conversion_bb
+			equipment_variant = "Yongle Class"
+			creator = QIQ
+			}
+			clr_country_flag = QIQ_purchasing_heavy_ships
+		}
+	}
+
+	purchase_destroyer_detatchment = {
+		cost = 50
+		available = {
+			has_completed_focus = QIQ_mass_destroyer_purchase
+			NOT = {
+				has_country_flag = QIQ_purchasing_light_ships
+			}
+		}
+		days_remove = 25
+		days_re_enable = 5
+		complete_effect = {
+			set_country_flag = QIQ_purchasing_light_ships
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = QIQ_has_dayan_class
+					}
+				}
+				create_equipment_variant = {
+                    name = "Dayan Class"
+                    type = ship_hull_light_2
+                    parent_version = 0
+                    modules = {
+                        fixed_ship_battery_slot = ship_light_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_2
+						fixed_ship_torpedo_slot = ship_torpedo_1
+						mid_1_custom_slot = ship_torpedo_1
+						rear_1_custom_slot = ship_depth_charge_1
+                    }
+                }			
+				set_country_flag = QIQ_has_dayan_class
+			}
+			create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Dayan Class"
+			creator = QIQ
+			}
+			create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Dayan Class"
+			creator = QIQ
+			}
+			create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Dayan Class"
+			creator = QIQ
+			}
+			clr_country_flag = QIQ_purchasing_light_ships
+		}
+	}
+
+	purchase_submarine_pack = {
+		cost = 50
+		available = {
+			has_completed_focus = QIQ_mass_destroyer_purchase
+			NOT = {
+				has_country_flag = QIQ_purchasing_light_ships
+			}
+		}
+		days_remove = 25
+		days_re_enable = 5
+		complete_effect = {
+			set_country_flag = QIQ_purchasing_light_ships
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = QIQ_has_xuangu_class
+					}
+				}
+				create_equipment_variant = {
+                    name = "Xuangu Class"
+                    type = ship_hull_submarine_2
+                    parent_version = 0
+                    modules = {
+                        fixed_ship_torpedo_slot = ship_torpedo_sub_1
+						fixed_ship_engine_slot = sub_ship_engine_1
+						rear_1_custom_slot = ship_torpedo_sub_1
+                    }
+                }			
+				set_country_flag = QIQ_has_xuangu_class
+			}
+			create_ship = {
+			type = ship_hull_submarine_2
+			equipment_variant = "Xuangu Class"
+			creator = QIQ
+			}
+			create_ship = {
+			type = ship_hull_submarine_2
+			equipment_variant = "Xuangu Class"
+			creator = QIQ
+			}
+			create_ship = {
+			type = ship_hull_submarine_2
+			equipment_variant = "Xuangu Class"
+			creator = QIQ
+			}
+			clr_country_flag = QIQ_purchasing_light_ships
+		}
 	}
 }

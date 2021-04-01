@@ -1,0 +1,130 @@
+
+focus_tree = {
+	id = commonwealth_focus
+	
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = PLC
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = PLC_national_census
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 8
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_status_of_lithuanians
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_national_census }
+		relative_position_id = PLC_national_census
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_status_of_ruthenians
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_national_census }
+		relative_position_id = PLC_national_census
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_status_of_the_jewish
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_national_census }
+		relative_position_id = PLC_national_census
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_convene_the_senate
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_status_of_lithuanians }
+		prerequisite = { focus = PLC_status_of_ruthenians }
+		prerequisite = { focus = PLC_status_of_the_jewish }
+		relative_position_id = PLC_status_of_ruthenians
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_lithuanian_disparity
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_convene_the_senate }
+		relative_position_id = PLC_convene_the_senate
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_ruthenian_somethign??/
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_convene_the_senate }
+		relative_position_id = PLC_convene_the_senate
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+}

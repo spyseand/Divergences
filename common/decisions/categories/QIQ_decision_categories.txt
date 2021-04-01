@@ -1,4 +1,6 @@
 naval_purchase = {
     icon = generic_naval
-    always_visible = yes
+    visible = {
+    	original_tag = QIQ
+    }
 }

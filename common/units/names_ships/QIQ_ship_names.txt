@@ -4,12 +4,28 @@ QIQ_BB_HISTORICAL = {
 	for_countries = { QIQ }
 
 	type = ship
-	ship_types = { ship_hull_heavy battleship }			
+	ship_types = { ship_hull_heavy battleship }
 
 	prefix = "SS "
-	fallback_name = "Destructor %d"					
+	fallback_name = "Destructor %d"
 
-	unique = {											
+	unique = {
 		"Sanbao"
+	}
+}
+
+QIQ_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { QIQ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SS "
+	fallback_name = "Planeboat %d"
+
+	unique = {
+		"Yongle"
 	}
 }

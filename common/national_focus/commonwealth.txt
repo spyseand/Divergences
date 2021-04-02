@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_national_census
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_focus_plc_census
 		x = 8
 		y = 0
 		cost = 5

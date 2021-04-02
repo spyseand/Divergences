@@ -5,6 +5,11 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_inc_v_day"
 	texturefile = "gfx/interface/goals/focus_inc_v_day.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_census"
+	texturefile = "gfx/interface/goals/focus_plc_census.dds"			
 	}	
 
 	SpriteType = {

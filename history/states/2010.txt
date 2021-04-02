@@ -4,7 +4,6 @@ state={
      manpower = 1
      state_category = town
      history = {
-        owner = BRM
          buildings = {
              infrastructure = 1
              arms_factory = 1
@@ -12,6 +11,6 @@ state={
          }
      }
      provinces = {
-        12492 12335 7469 
+         PROVINCES
      }
  }

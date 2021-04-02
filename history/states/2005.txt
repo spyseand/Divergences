@@ -1,9 +1,10 @@
 state={
-     id=1009
-     name="STATE_2009"
+     id=1005
+     name="STATE_2005"
      manpower = 1
      state_category = town
      history = {
+        owner = KAZ
          buildings = {
              infrastructure = 1
              arms_factory = 1
@@ -11,6 +12,6 @@ state={
          }
      }
      provinces = {
-         PROVINCES
+         1668 4764 7332 10290 7405 1239
      }
  }

@@ -1,0 +1,17 @@
+state={
+     id=1010
+     name="STATE_2010"
+     manpower = 1
+     state_category = town
+     history = {
+        owner = BRM
+         buildings = {
+             infrastructure = 1
+             arms_factory = 1
+             industrial_complex = 1
+         }
+     }
+     provinces = {
+        12492 12335 7469 
+     }
+ }

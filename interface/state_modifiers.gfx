@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+	####State Modifier GFX
+
+	SpriteType = {
+	name = "GFX_modifiers_lithuanian_autonomy"
+	texturefile = "gfx/interface/state_modifiers/lithuanian_autonomy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_modifiers_german_autonomy"
+	texturefile = "gfx/interface/state_modifiers/german_autonomy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_modifiers_ruthenian_autonomy"
+	texturefile = "gfx/interface/state_modifiers/ruthenian_autonomy.dds"			
+	}
+}

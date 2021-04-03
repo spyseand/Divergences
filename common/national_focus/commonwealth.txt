@@ -196,7 +196,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			699 = {
+				add_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
 		}
 	}
 

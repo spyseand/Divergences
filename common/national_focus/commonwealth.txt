@@ -25,7 +25,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = commonwealth.1
+				days = 1
+			}
 		}
 	}
 
@@ -41,7 +44,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = commonwealth.2
+				days = 1
+			}
 		}
 	}
 
@@ -57,7 +63,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = commonwealth.3
+				days = 1
+			}
 		}
 	}
 
@@ -73,7 +82,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = commonwealth.4
+				days = 1
+			}
 		}
 	}
 
@@ -91,7 +103,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = commonwealth.5
+				days = 1
+			}
+			add_political_power = 50
 		}
 	}
 
@@ -105,6 +121,16 @@ focus_tree = {
 		relative_position_id = PLC_convene_the_senate
 		
 		available_if_capitulated = yes
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = tt_PLC_available_polish_domination
+				check_variable = {
+				PLC_variable_conservatism > 1
+				}
+				has_completed_focus = PLC_convene_the_senate
+			}
+		}
 
 		completion_reward = {
 			
@@ -121,6 +147,16 @@ focus_tree = {
 		relative_position_id = PLC_convene_the_senate
 		
 		available_if_capitulated = yes
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = tt_PLC_available_national_equity
+				check_variable = {
+				PLC_variable_socdem > 1
+				}
+				has_completed_focus = PLC_convene_the_senate
+			}
+		}
 
 		completion_reward = {
 			
@@ -141,7 +177,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_lithuanian_elevated
+				remove_idea = PLC_polish_language
+			}
 		}
 	}
 
@@ -191,7 +230,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = PLC_modern_constitution
 		}
 	}
 
@@ -207,7 +246,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_three_major_languages
+				remove_idea = PLC_lithuanian_elevated
+			}
 		}
 	}
 
@@ -223,7 +265,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_universal_conscription
+				remove_idea = PLC_polish_army
+			}
 		}
 	}
 
@@ -256,7 +301,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_united_army
+				remove_idea = PLC_universal_conscription
+			}
 		}
 	}
 
@@ -272,7 +320,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = PLC_common_currency
 		}
 	}
 
@@ -288,7 +336,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = PLC_unified_research_base
 		}
 	}
 
@@ -305,7 +353,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			hidden_effect = {
+				remove_ideas = {
+					PLC_unified_research_base
+					PLC_common_currency
+				}
+				add_ideas = PLC_united_economy
+			}
+			custom_effect_tooltip = tt_PLC_united_economy
 		}
 	}
 
@@ -321,7 +376,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			remove_ideas = PLC_polonisation
 		}
 	}
 
@@ -338,7 +393,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			hidden_effect = {
+				add_ideas = PLC_greater_commonwealth_government
+			}
+			custom_effect_tooltip = tt_PLC_greater_commonwealth_government
 		}
 	}
 
@@ -355,7 +413,21 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			hidden_effect = {
+				add_ideas = {
+					PLC_economic_instability
+					PLC_poor_literacy
+				}
+				annex_country = {
+					target = UKR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BEL
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = tt_PLC_brothers_one_and_all
 		}
 	}
 
@@ -371,7 +443,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_recalibrated_economy
+				remove_idea = PLC_economic_instability
+			}
 		}
 	}
 
@@ -387,7 +462,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = PLC_improving_literacy
+				remove_idea = PLC_poor_literacy
+			}
 		}
 	}
 
@@ -436,7 +514,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			hidden_effect = {
+				remove_ideas = {
+					PLC_improving_literacy
+					PLC_recalibrated_economy
+				}
+				add_ideas = PLC_true_golden_liberty
+			}
+			custom_effect_tooltip = tt_PLC_true_golden_liberty
 		}
 	}
 

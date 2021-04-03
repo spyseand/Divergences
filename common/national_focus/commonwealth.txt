@@ -31,7 +31,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_status_of_lithuanians
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_goal_unknown
 		x = -3
 		y = 1
 		cost = 2
@@ -47,7 +47,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_status_of_ruthenians
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 2
@@ -63,7 +63,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_status_of_the_jewish
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_goal_unknown
 		x = 3
 		y = 1
 		cost = 2
@@ -97,7 +97,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_polish_domination
-		icon = GFX_focus_generic_polish_deal
+		icon = GFX_focus_plc_polish_domination
 		x = -4
 		y = 2
 		cost = 5
@@ -197,7 +197,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_third_major_language
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_concessions
 		x = 2
 		y = 1
 		cost = 5
@@ -213,7 +213,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_universal_conscription
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_little_entente
 		x = 0
 		y = 1
 		cost = 5
@@ -229,7 +229,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_ruthenian_investments
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_industry_2
 		x = -2
 		y = 1
 		cost = 5
@@ -245,7 +245,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_military_compromise
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_military_academy
 		x = -1
 		y = 1
 		cost = 5
@@ -262,7 +262,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_common_currency
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -1
 		y = 1
 		cost = 5
@@ -278,7 +278,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_unified_research_base
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_scientific_exchange
 		x = 1
 		y = 1
 		cost = 5
@@ -294,10 +294,10 @@ focus_tree = {
 
 	focus = {
 		id = PLC_united_economy
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_consumer_goods
 		x = 1
 		y = 1
-		cost = 5
+		cost = 10
 		prerequisite = { focus = PLC_unified_research_base }
 		prerequisite = { focus = PLC_common_currency }
 		relative_position_id = PLC_common_currency
@@ -311,10 +311,10 @@ focus_tree = {
 
 	focus = {
 		id = PLC_end_polonisation
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_spr_crush_the_revolution
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_third_major_language }
 		relative_position_id = PLC_third_major_language
 		
@@ -327,7 +327,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_greater_commonwealth_government
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_anschluss
 		x = -1
 		y = 1
 		cost = 10
@@ -344,13 +344,94 @@ focus_tree = {
 
 	focus = {
 		id = PLC_brothers_one_and_all
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_the_giant_wakes
 		x = -2
 		y = 1
 		cost = 10
 		prerequisite = { focus = PLC_united_economy }
 		prerequisite = { focus = PLC_greater_commonwealth_government }
 		relative_position_id = PLC_greater_commonwealth_government
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_recalibrate_the_economy
+		icon = GFX_goal_generic_production2
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_brothers_one_and_all }
+		relative_position_id = PLC_brothers_one_and_all
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_ruthenian_education_programs
+		icon = GFX_focus_research
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_brothers_one_and_all }
+		relative_position_id = PLC_brothers_one_and_all
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_encourage_eastern_investments
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_recalibrate_the_economy }
+		relative_position_id = PLC_recalibrate_the_economy
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_intranational_exchange_programs
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_ruthenian_education_programs }
+		relative_position_id = PLC_ruthenian_education_programs
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_true_golden_liberty
+		icon = GFX_focus_plc_golden_liberty
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_encourage_eastern_investments }
+		prerequisite = { focus = PLC_intranational_exchange_programs }
+		relative_position_id = PLC_encourage_eastern_investments
 		
 		available_if_capitulated = yes
 

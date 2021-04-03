@@ -20,7 +20,17 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_plc_national_equity"
 	texturefile = "gfx/interface/goals/focus_plc_national_equity.dds"			
-	}	
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_polish_domination"
+	texturefile = "gfx/interface/goals/focus_plc_polish_domination.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_golden_liberty"
+	texturefile = "gfx/interface/goals/focus_plc_golden_liberty.dds"			
+	}		
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
@@ -1974,56 +1984,3 @@ spriteTypes = {
 		name = "GFX_focus_por_concordat"
 		texturefile = "gfx/interface/goals/focus_por_concordat.dds"
 	}
-
-	#MODDED ONES
-
-	SpriteType = { 
-		name = "GFX_focus_war_scandinavia"
-		texturefile = "gfx/interface/goals/focus_war_scandinavia.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_burgundy"
-		texturefile = "gfx/interface/goals/focus_war_burgundy.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_ukraine"
-		texturefile = "gfx/interface/goals/focus_war_ukraine.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_novgorod"
-		texturefile = "gfx/interface/goals/focus_war_novgorod.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_siberia"
-		texturefile = "gfx/interface/goals/focus_war_siberia.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_united_we_stand"
-		texturefile = "gfx/interface/goals/focus_united_we_stand.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_reclaim_india"
-		texturefile = "gfx/interface/goals/focus_reclaim_india.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_china"
-		texturefile = "gfx/interface/goals/focus_war_china.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_ottomans"
-		texturefile = "gfx/interface/goals/focus_war_ottomans.dds"
-	}
-
-	SpriteType = { 
-		name = "GFX_focus_war_commonwealth"
-		texturefile = "gfx/interface/goals/focus_war_commonwealth.dds"
-	}
-}

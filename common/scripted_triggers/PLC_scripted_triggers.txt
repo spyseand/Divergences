@@ -1,0 +1,97 @@
+PLC_is_autonomous_state = {
+	custom_trigger_tooltip = {
+		tooltip = tt_PLC_is_autonomous_state
+		OR = {
+			AND = {
+				state = 679
+				has_dynamic_modifier = { 
+					modifier = german_autonomy
+				}
+			}
+			AND = {
+				state = 680
+				has_dynamic_modifier = { 
+					modifier = german_autonomy
+				}
+			}
+			AND = {
+				state = 674
+				has_dynamic_modifier = { 
+					modifier = german_autonomy
+				}
+			}
+			AND = {
+				state = 698
+				has_dynamic_modifier = { 
+					modifier = german_autonomy
+				}
+			}
+			AND = {
+				state = 693
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
+				state = 694
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
+				state = 695
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
+				state = 676
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
+				state = 699
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
+				state = 717
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 718
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 687
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 685
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 683
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 714
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+		}
+	}
+}

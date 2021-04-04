@@ -529,4 +529,349 @@ focus_tree = {
 		}
 	}
 
+	###Polish Domination
+
+	focus = {
+		id = PLC_supress_dissidents
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polish_domination }
+		relative_position_id = PLC_polish_domination
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = PLC_exploit_the_east
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polish_domination }
+		relative_position_id = PLC_polish_domination
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_annex_frontier_lands
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polish_domination }
+		relative_position_id = PLC_polish_domination
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = {
+				PLC = {
+					transfer_state = 690
+					transfer_state = 716
+					690 = {
+						add_dynamic_modifier = {
+							modifier = ruthenian_autonomy
+						}
+						add_core_of = PLC
+					}
+					716 = {
+						add_dynamic_modifier = {
+							modifier = ruthenian_autonomy
+						}
+						add_core_of = PLC
+					}
+				}
+			}
+			custom_effect_tooltip = tt_PLC_annex_frontier_lands
+		}
+	}
+
+	focus = {
+		id = PLC_expand_polonisation_operations
+		icon = GFX_focus_generic_polish_deal
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_exploit_the_east }
+		prerequisite = { focus = PLC_supress_dissidents }
+		prerequisite = { focus = PLC_annex_frontier_lands }
+		relative_position_id = PLC_exploit_the_east
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_ban_secondary_languages
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_expand_polonisation_operations }
+		relative_position_id = PLC_expand_polonisation_operations
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_polish_education
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_ban_secondary_languages }
+		relative_position_id = PLC_ban_secondary_languages
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_begin_cutting_commonwealth_ties
+		icon = GFX_focus_generic_polish_deal
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_expand_polonisation_operations }
+		relative_position_id = PLC_expand_polonisation_operations
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_relocate_ruthenian_settlements
+		icon = GFX_focus_generic_polish_deal
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_begin_cutting_commonwealth_ties }
+		relative_position_id = PLC_begin_cutting_commonwealth_ties
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_lay_eastern_infrastructure
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_begin_cutting_commonwealth_ties }
+		relative_position_id = PLC_begin_cutting_commonwealth_ties
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_expand_polish_labs
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_lay_eastern_infrastructure }
+		prerequisite = { focus = PLC_polish_education }
+		relative_position_id = PLC_lay_eastern_infrastructure
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_polish_think_tank
+		icon = GFX_focus_generic_polish_deal
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_expand_polish_labs }
+		relative_position_id = PLC_expand_polish_labs
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_rethink_military_structure
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polish_education }
+		relative_position_id = PLC_polish_education
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_professional_polish_army
+		icon = GFX_focus_generic_polish_deal
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_rethink_military_structure }
+		relative_position_id = PLC_rethink_military_structure
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_southern_expansion
+		icon = GFX_focus_generic_polish_deal
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_relocate_ruthenian_settlements }
+		relative_position_id = PLC_relocate_ruthenian_settlements
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_northern_expansion
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_relocate_ruthenian_settlements }
+		relative_position_id = PLC_relocate_ruthenian_settlements
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_eastern_investments
+		icon = GFX_focus_generic_polish_deal
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_northern_expansion focus = PLC_southern_expansion }
+		relative_position_id = PLC_northern_expansion
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_poland_stands_strong
+		icon = GFX_focus_generic_polish_deal
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_eastern_investments }
+		prerequisite = { focus = PLC_professional_polish_army }
+		relative_position_id = PLC_professional_polish_army
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_end_the_commonwealth
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_poland_stands_strong }
+		relative_position_id = PLC_poland_stands_strong
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_successful_polonisation
+		icon = GFX_focus_generic_polish_deal
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_poland_stands_strong }
+		relative_position_id = PLC_poland_stands_strong
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_our_home_in_the_east
+		icon = GFX_focus_generic_polish_deal
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_successful_polonisation }
+		prerequisite = { focus = PLC_end_the_commonwealth }
+		relative_position_id = PLC_successful_polonisation
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
 }

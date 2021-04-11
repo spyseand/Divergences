@@ -2,12 +2,15 @@
 state={
  	id=10
  	name="STATE_1010"
- 	manpower = 104850
+ 	manpower = 2904850
 
- 	state_category = town
+ 	state_category = city
 
  	history = {
  		owner = QIQ
+ 		victory_points = {
+ 			3513 10
+ 		}
  		buildings = {
  			infrastructure = 4
  			air_base = 2

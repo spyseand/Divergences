@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = CNU
+		owner = EGL
 		victory_points = {
 			351 10 
 		}
@@ -27,7 +27,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CNU
+		add_core_of = EGL
 	}
 
 	provinces={

@@ -2,17 +2,17 @@
 state={
  	id=2
  	name="STATE_1002"
- 	manpower = 123400
+ 	manpower = 5323410
 
- 	state_category = large_town
+ 	state_category = large_city
 
  	history = {
  		owner = QIQ
  		victory_points = {
- 			4428 3
+ 			4428 10
  		}
  		victory_points = {
- 			7315 4
+ 			7315 15
  		}
  		buildings = {
  			infrastructure = 5

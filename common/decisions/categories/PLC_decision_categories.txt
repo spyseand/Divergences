@@ -1,0 +1,16 @@
+autonomous_regions = {
+	icon = generic_civil_support
+	allowed = {
+		original_tag = PLC
+	}
+	on_map_area = {
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				PLC_is_autonomous_state = yes
+			}
+		}
+		name = PLC_autonomous_state_management_map_category_name
+		zoom = 150
+	}
+}

@@ -2,14 +2,14 @@
 state={
  	id=8
  	name="STATE_1008"
- 	manpower = 204500
+ 	manpower = 3404500
 
- 	state_category = metropolis
+ 	state_category = megalopolis
 
  	history = {
  		owner = QIQ
  		victory_points = {
- 			9671 15
+ 			9671 50
  		}
  		buildings = {
  			infrastructure = 9

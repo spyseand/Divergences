@@ -1,0 +1,9 @@
+autonomous_regions = {
+	
+	integration_efforts = {
+		highlight_states = { 
+			PLC_is_autonomous_state = yes
+		}
+		cost = 50
+	}
+}

@@ -93,8 +93,8 @@ KUR = {
 	color_ui = rgb { 128 64 0 }
 }
 MNG = {
-	color = rgb { 57 115 38 }
-	color_ui = rgb { 57 115 38 }
+	color = rgb { 57 38 115 }
+	color_ui = rgb { 57 38 115 }
 }
 NEP = {
 	color = rgb { 107 46 46 }
@@ -399,6 +399,10 @@ SIA = {
 NGA = {
 	color = rgb { 182 148 255 }
 	color_ui = rgb { 182 148 255 }
+}
+RUS = {
+	color = rgb { 26 110 41 }
+	color_ui = rgb { 26 110 41 }
 }
 
 

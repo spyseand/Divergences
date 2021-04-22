@@ -100,3 +100,5 @@ HAW = "countries/Hawaii.txt"
 SIA = "countries/Siam.txt"
 NGA = "countries/New_Galicia.txt"
 
+RUS = "countries/Russia.txt"
+

@@ -101,7 +101,7 @@
  AMZ_DEF:0 "Amazonie"
  AMZ_ADJ:0 "Amazonian"
  
-  INC:0 "Incan Empire"
+ INC:0 "Incan Empire"
  INC_DEF:0 "the Incan Empire"
  INC_ADJ:0 "Incan"
  
@@ -180,10 +180,6 @@
  LAT:0 "Latvia"
  LAT_DEF:0 "Latvia"
  LAT_ADJ:0 "Latvian"
-
- RUS:0 "Kievan Rus"
- RUS_DEF:0 "Kievan Rus"
- RUS_ADJ:0 "Kievan Rus"
 
  OTT:0 "Ottoman Empire"
  OTT_DEF:0 "Ottoman Empire"
@@ -516,5 +512,9 @@
  NGA:0 "New Galicia"
  NGA_DEF:0 "New Galicia"
  NGA_ADJ:0 "New Galician"
+ 
+ RUS:0 "Russian Empire"
+ RUS_DEF:0 "Russia Empire"
+ RUS_ADJ:0 "Russian"
  
  

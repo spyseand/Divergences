@@ -4,13 +4,13 @@ state={
     manpower = 1
     state_category = town
     history = {
-    owner = NOV
+    owner = RUS
         buildings = {
             infrastructure = 1
             arms_factory = 1
             industrial_complex = 1
         }
-        add_core_of = NOV
+        add_core_of = RUS
     }
     provinces = {
         3064 11061 9101 6193 9213 9124 6100 6088 3166 6199 3079 9113 84

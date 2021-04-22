@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-	owner = ERS
+	owner = RUS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			392 1
 		}
-		add_core_of = ERS
+		add_core_of = RUS
 	}
 
 	provinces={

@@ -2,17 +2,21 @@
 state={
  	id=36
  	name="STATE_1036"
- 	manpower = 112340
+ 	manpower = 2112340
 
- 	state_category = rural
+ 	state_category = large_city
 
  	history = {
  	owner = DES
  		buildings = {
- 			infrastructure = 2
-			industrial_complex = 1
+ 			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
  		}
  		add_core_of = DES
+ 		4884 = {
+ 			naval_base = 6
+ 		}
  	}
 
  	provinces = {

@@ -2,15 +2,16 @@
 state={
  	id=20
  	name="STATE_1020"
- 	manpower = 43650
+ 	manpower = 143650
 
- 	state_category = rural
+ 	state_category = town
 
  	history = {
 	 	owner = NAV
  		buildings = {
- 			infrastructure = 2
- 			industrial_complex = 1
+ 			infrastructure = 4
+ 			industrial_complex = 2
+ 			arms_factory = 1
  		}
  		add_core_of = NAV
  	}

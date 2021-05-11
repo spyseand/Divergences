@@ -2,9 +2,9 @@
 state={
  	id=27
  	name="STATE_1027"
- 	manpower = 123120
+ 	manpower = 2523120
 
- 	state_category = large_town
+ 	state_category = town
 
  	history = {
  	owner = MEX
@@ -14,6 +14,9 @@ state={
 			industrial_complex = 1
  		}
  		add_core_of = MEX
+ 		12746 = {
+ 			naval_base = 2
+ 		}
  	}
 
  	provinces = {

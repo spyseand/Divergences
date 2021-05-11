@@ -2,7 +2,7 @@
 state={
  	id=51
  	name="STATE_1051"
- 	manpower = 23040
+ 	manpower = 22040
 
  	state_category = pastoral
 
@@ -12,6 +12,9 @@ state={
  			infrastructure = 1
  		}
  		add_core_of = VIN
+ 		7810 = {
+ 			naval_base = 2
+ 		}
  	}
 
  	provinces = {

@@ -2,9 +2,9 @@
 state={
  	id=26
  	name="STATE_1026"
- 	manpower = 312050
+ 	manpower = 1026070
 
- 	state_category = city
+ 	state_category = metropolis
 
  	history = {
  	owner = DES
@@ -12,8 +12,12 @@ state={
  			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
+			dockyard = 1
  		}
  		add_core_of = DES
+ 		5021 = {
+ 			naval_base = 5
+ 		}
  	}
 
  	provinces = {

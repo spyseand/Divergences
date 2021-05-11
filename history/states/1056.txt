@@ -2,14 +2,15 @@
 state={
  	id=56
  	name="STATE_1056"
- 	manpower = 23040
+ 	manpower = 283040
 
- 	state_category = pastoral
+ 	state_category = large_town
 
  	history = {
  	owner = VIN
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 5
+ 			industrial_complex = 2
  		}
  		add_core_of = VIN
  	}

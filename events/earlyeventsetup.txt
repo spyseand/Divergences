@@ -1,0 +1,189 @@
+add_namespace = earlysetup
+
+###Burgundian Partition Events
+
+country_event = {
+	id = earlysetup.1
+	title = earlysetup.1.t
+	desc = earlysetup.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		###Send the Ultimatum
+		name = earlysetup.1.a
+		hidden_effect = {
+			BUR = {
+				country_event = {
+					id = earlysetup.2
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = earlysetup.2
+	title = earlysetup.2.t
+	desc = earlysetup.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		###Refuse France
+		ai_chance = {
+			factor = 0
+		}
+		name = earlysetup.2.a
+		FRA = {
+			country_event = {
+				id = earlysetup.3
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		###Fold to Demands
+		ai_chance = {
+			factor = 1
+		}
+		name = earlysetup.2.b
+		FRA = {
+			country_event = {
+				id = earlysetup.4
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = earlysetup.3
+	title = earlysetup.3.t
+	desc = earlysetup.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		###Burgundy Refused
+		name = earlysetup.3.a
+		create_wargoal = {
+			type = annex_everything
+			target = BUR
+		}
+	}
+}
+
+country_event = {
+	id = earlysetup.4
+	title = earlysetup.4.t
+	desc = earlysetup.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		###Favor the Germans
+		name = earlysetup.4.a
+		transfer_state = 580
+		transfer_state = 589
+		transfer_state = 1008
+		transfer_state = 574
+		transfer_state = 575
+		transfer_state = 578
+		transfer_state = 579
+		BAY = {
+			transfer_state = 1007
+			transfer_state = 576
+			transfer_state = 990
+			transfer_state = 1009
+			transfer_state = 577
+			transfer_state = 583
+			transfer_state = 584
+			transfer_state = 1010
+		}
+		news_event = {
+			id = earlysetup.5
+			days = 1
+		}
+	}
+
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		###Favor the French
+		name = earlysetup.4.b
+		transfer_state = 580
+		transfer_state = 589
+		transfer_state = 1008
+		transfer_state = 574
+		transfer_state = 575
+		transfer_state = 578
+		transfer_state = 579
+		transfer_state = 1007
+		transfer_state = 576
+		transfer_state = 990
+		transfer_state = 1009
+		transfer_state = 577
+		transfer_state = 583
+		BAY = {
+			transfer_state = 584
+			transfer_state = 1010
+		}
+		news_event = {
+			id = earlysetup.5
+			days = 1
+		}
+	}
+
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		###Fair Partition
+		name = earlysetup.4.c
+		transfer_state = 580
+		transfer_state = 589
+		transfer_state = 1008
+		transfer_state = 574
+		transfer_state = 575
+		transfer_state = 578
+		transfer_state = 579
+		transfer_state = 1007
+		transfer_state = 576
+		transfer_state = 990
+		BAY = {
+			transfer_state = 1009
+			transfer_state = 577
+			transfer_state = 583
+			transfer_state = 584
+			transfer_state = 1010
+		}
+		news_event = {
+			id = earlysetup.5
+			days = 1
+		}
+	}
+}
+
+news_event = {
+	id = earlysetup.5
+	title = earlysetup.5.t
+	desc = earlysetup.5.d
+	picture = GFX_news_event_003
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = earlysetup.5.a
+	}
+}

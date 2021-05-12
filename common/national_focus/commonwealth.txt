@@ -3,17 +3,73 @@ focus_tree = {
 	id = commonwealth_focus
 	
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
 			add = 10
 			tag = PLC
 		}
 	}
 	
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	continuous_focus_position = { x = 50 y = 2000 }
+
+	########Early WW2 Set up
+
+	focus = {
+		id = PLC_join_the_coalition
+		icon = GFX_focus_plc_census
+		x = 5
+		y = 0
+		cost = 5
+
+		available = {
+			date > 1940.01.01
+		}
+		
+		available_if_capitulated = yes
+
+		# Normally not added so focuses are randomly picked by AI, but this makes it so AI will join the coalition
+		# As soon as this focus is available
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			SCD = {
+				add_to_faction = PLC
+			}
+		}
+	}
+
+	focus = {
+		id = PLC_prepare_for_eastern_war
+		icon = GFX_focus_plc_census
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_join_the_coalition }
+		relative_position_id = PLC_join_the_coalition
+		
+		available_if_capitulated = yes
+
+		available = {
+			date > 1940.06.01
+		}
+
+		# Normally not added so focuses are randomly picked by AI, but this makes it so AI will join the coalition
+		# As soon as this focus is available
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = PLC_eastern_preparations
+		}
+	}
+
+	##########
 
 	focus = {
 		id = PLC_national_census

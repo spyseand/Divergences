@@ -3,7 +3,7 @@ focus_tree = {
 	id = qingqiu_focus
 	
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
 			add = 10
 			tag = QIQ
@@ -12,7 +12,7 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 2000 }
 
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	###Generic Military Tree

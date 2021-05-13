@@ -10,11 +10,11 @@ state={
  		buildings = {
  			infrastructure = 2
  			industrial_complex = 1
+ 			12715 = {
+ 				naval_base = 1
+ 			}
  		}
  		add_core_of = MAY
- 		12715 = {
- 			naval_base = 1
- 		}
  	}
 
 

@@ -13,11 +13,11 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 1
+			5021 = {
+ 				naval_base = 5
+ 			}
  		}
  		add_core_of = DES
- 		5021 = {
- 			naval_base = 5
- 		}
  	}
 
  	provinces = {

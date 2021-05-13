@@ -12,11 +12,11 @@ state={
  			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
+			8079 = {
+ 				naval_base = 6
+ 			}
  		}
  		add_core_of = MEX
- 		8079 = {
- 			naval_base = 6
- 		}
  	}
 
  	provinces = {

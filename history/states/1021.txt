@@ -11,14 +11,14 @@ state={
  		buildings = {
  			infrastructure = 3
 			dockyard = 1
+ 			12736 = {
+ 			naval_base = 2
+ 			}
+ 			7517 = {
+ 				naval_base = 3
+ 			}
  		}
  		add_core_of = DES
- 		12736 = {
- 			naval_base = 2
- 		}
- 		7517 = {
- 			naval_base = 3
- 		}
  	}
 
  	provinces = {

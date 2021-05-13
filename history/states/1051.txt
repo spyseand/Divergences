@@ -10,11 +10,11 @@ state={
  	owner = VIN
  		buildings = {
  			infrastructure = 1
+ 			7810 = {
+ 				naval_base = 2
+ 			}
  		}
  		add_core_of = VIN
- 		7810 = {
- 			naval_base = 2
- 		}
  	}
 
  	provinces = {

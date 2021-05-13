@@ -72,7 +72,7 @@ TAJ = "countries/Tajikistan.txt"
 TKM = "countries/Turkmenistan.txt"
 UZB = "countries/Uzbekistan.txt"
 KYR = "countries/Kyrgyzstan.txt"
-ARL = "countries/Aralia.txt"
+TRN = "countries/Turanic_Councils.txt"
 RST = "countries/Imperial_Authority.txt"
 MKH = "countries/Mountain_Khanate.txt"
 BHA = "countries/Bharatiya_Collective.txt"
@@ -102,3 +102,4 @@ NGA = "countries/New_Galicia.txt"
 
 RUS = "countries/Russia.txt"
 
+NVR = "countries/Navarre.txt"

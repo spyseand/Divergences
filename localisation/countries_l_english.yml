@@ -253,9 +253,9 @@
  NAV_DEF:0 "Navajo"
  NAV_ADJ:0 "Navajo"
 
- UTH:0 "Utah"
- UTH_DEF:0 "Utah"
- UTH_ADJ:0 "Utah"
+ UTH:0 "Deseret"
+ UTH_DEF:0 "Deseret"
+ UTH_ADJ:0 "Deseretian"
 
  SIX:0 "Sioux"
  SIX_DEF:0 "Sioux"
@@ -517,4 +517,11 @@
  RUS_DEF:0 "Russia Empire"
  RUS_ADJ:0 "Russian"
  
+ NVR:0 "Navarre"
+ NVR_DEF:0 "Navarre"
+ NVR_ADJ:0 "Navarran"
+ 
+ TRN:0 "Turanic Councils"
+ TRN:0 "the Turanic Councils"
+ TRN:0 "Turkic"
  

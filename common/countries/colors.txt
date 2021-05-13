@@ -296,9 +296,9 @@ KYR = {
 	color = rgb { 106 57 17 }
 	color_ui = rgb { 106 57 17 }
 }
-ARL = {
-	color = rgb { 200 142 0 }
-	color_ui = rgb { 200 142 0 }
+TRN = {
+	color = rgb { 56 93 205 }
+	color_ui = rgb { 56 93 205 }
 }
 RST = {
 	color = rgb { 115 195 34 }
@@ -404,5 +404,11 @@ RUS = {
 	color = rgb { 26 110 41 }
 	color_ui = rgb { 26 110 41 }
 }
+NVR = {
+	color = rgb { 90 80 102 }
+	color_ui = rgb { 90 80 102 }
+}
+
+
 
 

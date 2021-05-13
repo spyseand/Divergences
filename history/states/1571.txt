@@ -13,6 +13,6 @@ state={
         add_core_of = SWI
     }
     provinces = {
-        3641 9600 3662 658
+        3641 9600 # 3662 658? (in 1569)
     }
 }

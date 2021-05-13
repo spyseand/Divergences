@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = NVR
 		victory_points = {
 			740 10
 		}

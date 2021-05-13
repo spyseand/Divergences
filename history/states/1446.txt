@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = TKM
+		owner = TRN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3

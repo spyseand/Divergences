@@ -13,6 +13,6 @@ state={
         add_core_of = SCD
     }
     provinces = {
-        13003 6196
+        13003
     }
 }

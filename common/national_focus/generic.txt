@@ -1114,7 +1114,7 @@ focus_tree = {
 			}
 			random_owned_controlled_state = {
 				add_resource = {
-					type = aluminum
+					type = aluminium
 					amount = 6
 				}
 			}

@@ -92,7 +92,6 @@ SEI = "countries/Spanish_Indies.txt"
 JEI = "countries/Japanese_Indies.txt"
 JPH = "countries/Japanese_Philippines.txt"
 SCM = "countries/Scandinavian_Malacca.txt"
-HAW = "countries/Hawaii.txt"
 SIA = "countries/Siam.txt"
 NGA = "countries/New_Galicia.txt"
 

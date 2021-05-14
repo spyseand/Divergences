@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"BAY"={
 			history = "BAY_GATHERING_STORM_DESC"
-			ideology = authoritarian_socialist
+			ideology = authoritarian_socialism
 			ideas = {
 				
 			}

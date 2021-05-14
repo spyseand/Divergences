@@ -104,10 +104,6 @@ JAP = {
 	color = rgb { 255 160 122 }
 	color_ui = rgb { 255 160 122 }
 }
-ZHO = {
-	color = rgb { 189 183 107 }
-	color_ui = rgb { 189 183 107 }
-}
 HAW = {
 	color = rgb { 255 255 77 }
 	color_ui = rgb { 255 255 77 }

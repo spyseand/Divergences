@@ -1,40 +1,7 @@
 ideas = {
 
 	country = {
-		FRA_pangerman_campaign = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = FRA_motorized_focus
-			
-			targeted_modifier = {
-				tag = HAN
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-			targeted_modifier = {
-				tag = TYK
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-			targeted_modifier = {
-				tag = AUS
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
-	}
-
-	country = {
-		FRA_modern_war = {
+		BAY_modern_war = {
 
 			allowed = {
 				always = no
@@ -57,7 +24,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_bolstered_army = {
+		BAY_bolstered_army = {
 
 			allowed = {
 				always = no
@@ -80,7 +47,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_global_contender = {
+		BAY_global_contender = {
 
 			allowed = {
 				always = no
@@ -103,7 +70,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_construction_boost = {
+		BAY_construction_boost = {
 
 			allowed = {
 				always = no
@@ -124,7 +91,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_resource_exploitation = {
+		BAY_resource_exploitation = {
 
 			allowed = {
 				always = no
@@ -146,7 +113,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_armament_effort = {
+		BAY_armament_effort = {
 
 			allowed = {
 				always = no
@@ -167,7 +134,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_research_bonus = {
+		BAY_research_bonus = {
 
 			allowed = {
 				always = no
@@ -190,7 +157,7 @@ ideas = {
 	###Political Ideas
 
 	country = {
-		FRA_left_support = {
+		BAY_left_support = {
 
 			allowed = {
 				always = no
@@ -211,7 +178,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_democracy_support = {
+		BAY_democracy_support = {
 
 			allowed = {
 				always = no
@@ -236,7 +203,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_right_support = {
+		BAY_right_support = {
 
 			allowed = {
 				always = no
@@ -257,7 +224,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_left_opposition = {
+		BAY_left_opposition = {
 
 			allowed = {
 				always = no
@@ -278,7 +245,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_democracy_opposition = {
+		BAY_democracy_opposition = {
 
 			allowed = {
 				always = no
@@ -303,7 +270,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_right_opposition = {
+		BAY_right_opposition = {
 
 			allowed = {
 				always = no
@@ -324,7 +291,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_globalisation = {
+		BAY_globalisation = {
 
 			allowed = {
 				always = no
@@ -347,7 +314,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_union_rights_protected = {
+		BAY_union_rights_protected = {
 
 			allowed = {
 				always = no
@@ -371,7 +338,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_welfare_state = {
+		BAY_welfare_state = {
 
 			allowed = {
 				always = no
@@ -396,7 +363,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_privatisation = {
+		BAY_privatisation = {
 
 			allowed = {
 				always = no
@@ -419,7 +386,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_promote_patriotism = {
+		BAY_promote_patriotism = {
 
 			allowed = {
 				always = no
@@ -442,7 +409,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_traditional_values = {
+		BAY_traditional_values = {
 
 			allowed = {
 				always = no
@@ -467,7 +434,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_foreign_scientists = {
+		BAY_foreign_scientists = {
 
 			allowed = {
 				always = no
@@ -488,7 +455,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_interventionism = {
+		BAY_interventionism = {
 
 			allowed = {
 				always = no
@@ -511,7 +478,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_capitalist_economics = {
+		BAY_capitalist_economics = {
 
 			allowed = {
 				always = no
@@ -534,7 +501,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_four_year_plan = {
+		BAY_four_year_plan = {
 
 			allowed = {
 				always = no
@@ -557,7 +524,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_revolutionary_ideals = {
+		BAY_revolutionary_ideals = {
 
 			allowed = {
 				always = no
@@ -583,7 +550,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_socialist_economics = {
+		BAY_socialist_economics = {
 
 			allowed = {
 				always = no
@@ -605,7 +572,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_united_research_base = {
+		BAY_united_research_base = {
 
 			allowed = {
 				always = no
@@ -626,7 +593,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_revolutionary_militia = {
+		BAY_revolutionary_militia = {
 
 			allowed = {
 				always = no
@@ -647,7 +614,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_autarky = {
+		BAY_autarky = {
 
 			allowed = {
 				always = no
@@ -670,7 +637,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_youth_groups = {
+		BAY_youth_groups = {
 
 			allowed = {
 				always = no
@@ -691,7 +658,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_loyal_army = {
+		BAY_loyal_army = {
 
 			allowed = {
 				always = no
@@ -715,7 +682,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_propaganda_department = {
+		BAY_propaganda_department = {
 
 			allowed = {
 				always = no
@@ -737,7 +704,7 @@ ideas = {
 	}
 
 	country = {
-		FRA_agressive_expansion = {
+		BAY_agressive_expansion = {
 
 			allowed = {
 				always = no

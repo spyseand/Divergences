@@ -1811,14 +1811,7 @@ political_actions = {
 
 		available = {
             fascism > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+
         }
 	
 		modifier = {
@@ -1856,11 +1849,7 @@ political_actions = {
 				fascism > 0.45
 				has_completed_focus = liberty_ethos
 			}
-			modifier = {
-				factor = 0
-				original_tag = SPR
-				NOT = { has_global_flag = spanish_civil_war }
-			}
+
 		}
     }
 
@@ -1874,14 +1863,6 @@ political_actions = {
 
 		available = {
             democratic > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
         }
 	
 		modifier = {
@@ -1914,14 +1895,7 @@ political_actions = {
 
 		available = {
             socialism > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+
         }
 	
 		modifier = {
@@ -1950,14 +1924,7 @@ political_actions = {
 
 		available = {
 			fascism < 0.2
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+
 		}
 
 		visible = {
@@ -2012,14 +1979,7 @@ political_actions = {
 
 		available = {
 			democratic < 0.2
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+
 		}
 
 		visible = {
@@ -2074,14 +2034,7 @@ political_actions = {
 
 		available = {
 			socialism < 0.2
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+
 		}
 
 		visible = {
@@ -2135,14 +2088,7 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			yes
 		}
 
 		visible = {
@@ -2169,14 +2115,7 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			yes
 		}
 
 		visible = {
@@ -2203,14 +2142,7 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			yes
 		}
 
 		visible = {
@@ -2237,14 +2169,7 @@ political_actions = {
 		icon = generic_political_discourse
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			yes
 		}
 
 		visible = {

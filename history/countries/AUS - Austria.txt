@@ -1,4 +1,4 @@
-capital = 614
+capital = 613
 
 OOB = "AUS_1936"
 

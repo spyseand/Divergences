@@ -1,4 +1,4 @@
-﻿capital = 707
+﻿capital = 390
 
 OOB = "RUS_1936"
 

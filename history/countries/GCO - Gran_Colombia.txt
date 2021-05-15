@@ -1,4 +1,4 @@
-﻿capital = 307
+﻿capital = 226
 
 puppet = MAY
 puppet = MEX

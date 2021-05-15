@@ -1,4 +1,4 @@
-﻿capital = 653
+﻿capital = 311
 
 OOB = "SIB_1936"
 

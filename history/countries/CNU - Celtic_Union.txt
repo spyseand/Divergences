@@ -1,4 +1,4 @@
-﻿capital = 659
+﻿capital = 654
 
 OOB = "CNU_1936"
 

@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 562
 
 OOB = "BRN_1936"
 

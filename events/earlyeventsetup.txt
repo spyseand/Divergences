@@ -114,6 +114,7 @@ country_event = {
 			id = earlysetup.5
 			days = 1
 		}
+		add_political_power = 100
 	}
 
 	option = {
@@ -135,14 +136,22 @@ country_event = {
 		transfer_state = 1009
 		transfer_state = 577
 		transfer_state = 583
-		BAY = {
+		HAN = {
 			transfer_state = 584
 			transfer_state = 1010
+			584 = {
+				add_core_of = HAN
+			}
+			1010 = {
+				add_core_of = HAN
+			}
 		}
 		news_event = {
 			id = earlysetup.5
 			days = 1
 		}
+		add_politial_power = -150
+		set_global_flag = FRA_cucked_bavaria
 	}
 
 	option = {
@@ -175,6 +184,8 @@ country_event = {
 	}
 }
 
+#####Oh fuck what the fuck france, why??/
+
 news_event = {
 	id = earlysetup.5
 	title = earlysetup.5.t
@@ -185,5 +196,35 @@ news_event = {
 	
 	option = {
 		name = earlysetup.5.a
+	}
+}
+
+###Hannover seizes territory
+
+country_event = {
+	id = earlysetup.6
+	title = earlysetup.6.t
+	desc = earlysetup.6.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = earlysetup.6.a
+	}
+}
+
+###France fucjked us, goddamn cucks
+
+country_event = {
+	id = earlysetup.7
+	title = earlysetup.7.t
+	desc = earlysetup.7.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = earlysetup.7.a
 	}
 }

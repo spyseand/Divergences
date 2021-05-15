@@ -2,14 +2,20 @@
 state={
  	id=74
  	name="STATE_1074"
- 	manpower = 23040
+ 	manpower = 7264780
 
- 	state_category = pastoral
+ 	state_category = megalopolis
 
  	history = {
  	owner = VIN
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 9
+ 			industrial_complex = 3
+ 			dockyard = 2
+ 			arms_factory = 2
+ 			3878 = {
+ 				naval_base = 6
+ 			}
  		}
  		add_core_of = VIN
  	}

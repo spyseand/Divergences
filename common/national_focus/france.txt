@@ -50,7 +50,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		available = {
-			date > 1937.03q.01
+			date > 1937.03.01
 		}
 
 		ai_will_do = {

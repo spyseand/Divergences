@@ -9,6 +9,7 @@ state={
              infrastructure = 3
              industrial_complex = 1
          }
+         add_core_of = GCO
      }
      provinces = {
          12770 12825 12869 8149 8213 10970 5162 10942

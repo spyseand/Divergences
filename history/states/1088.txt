@@ -2,14 +2,23 @@
 state={
  	id=88
  	name="STATE_1088"
- 	manpower = 23040
+ 	manpower = 40080
 
- 	state_category = pastoral
+ 	state_category = tiny_island
 
  	history = {
  	owner = GTC
  		buildings = {
  			infrastructure = 1
+ 			10254 = {
+ 				naval_base = 1
+ 			}
+ 			4647 = {
+ 				naval_base = 1
+ 			}
+ 			7245 = {
+ 				naval_base = 1
+ 			}
  		}
  		add_core_of = GTC
  	}

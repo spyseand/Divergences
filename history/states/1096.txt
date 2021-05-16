@@ -2,14 +2,19 @@
 state={
  	id=96
  	name="STATE_1096"
- 	manpower = 23040
+ 	manpower = 1626210
 
- 	state_category = pastoral
+ 	state_category = large_town
 
  	history = {
  	owner = BLC
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 5
+ 			industrial_complex = 2
+ 			dockyard = 1
+ 			7524 = {
+ 				naval_base = 1
+ 			}
  		}
  		add_core_of = BLC
  	}

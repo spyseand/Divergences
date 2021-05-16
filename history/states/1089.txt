@@ -2,14 +2,21 @@
 state={
  	id=89
  	name="STATE_1089"
- 	manpower = 23040
+ 	manpower = 3618120
 
- 	state_category = pastoral
+ 	state_category = town
 
  	history = {
  	owner = GTC
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 4
+ 			industrial_complex = 2
+ 			10498 = {
+ 				naval_base = 4
+ 			}
+ 			1550 = {
+ 				naval_base = 2
+ 			}
  		}
  		add_core_of = GTC
  	}

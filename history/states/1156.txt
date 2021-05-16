@@ -10,7 +10,7 @@ state={
 	history={
 		owner = XIA
 		buildings = {
-			infrastructure = 100000
+			infrastructure = 1
 
 		}
 		victory_points = {

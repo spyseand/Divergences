@@ -7,7 +7,7 @@ state={
 			7376 1
 		}
 		buildings = {
-			infrastructure = 100000
+			infrastructure = 1
 
 		}
 	}

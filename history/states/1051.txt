@@ -9,7 +9,7 @@ state={
  	history = {
  	owner = VIN
  		buildings = {
- 			infrastructure = 100000
+ 			infrastructure = 1
  			7810 = {
  				naval_base = 2
  			}

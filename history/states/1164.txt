@@ -13,7 +13,7 @@ state={
 		
 		
 		buildings = {
-			infrastructure = 100000
+			infrastructure = 1
 
 		}
 

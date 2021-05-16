@@ -6,7 +6,7 @@ state={
     history = {
         owner = MAN
         buildings = {
-            infrastructure = 100000
+            infrastructure = 1
             arms_factory = 1
             industrial_complex = 1
         }

@@ -1,14 +1,16 @@
 state={
      id=221
      name="STATE_1221"
-     manpower = 1
-     state_category = town
+     manpower = 2259810
+     state_category = city
      history = {
 	     owner = GCO
          buildings = {
-             infrastructure = 1
-             arms_factory = 1
+             infrastructure = 4
              industrial_complex = 1
+             13093 = {
+                naval_base = 4
+             }
          }
      }
      provinces = {

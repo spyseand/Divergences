@@ -1,14 +1,15 @@
 state={
      id=224
      name="STATE_1224"
-     manpower = 1
-     state_category = town
+     manpower = 39510
+     state_category = enclave
      history = {
 	     owner = GCO
          buildings = {
-             infrastructure = 1
-             arms_factory = 1
-             industrial_complex = 1
+             infrastructure = 4
+             7617 = {
+                naval_base = 2
+             }
          }
      }
      provinces = {

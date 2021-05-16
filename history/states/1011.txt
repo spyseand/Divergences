@@ -9,7 +9,7 @@ state={
  	history = {
  		owner = QIQ
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 100000
  		}
  		add_core_of = QIQ
  	}

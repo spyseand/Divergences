@@ -9,7 +9,7 @@ state={
  	history = {
  		owner = NUN
  		buildings = {
- 			infrastructure = 1
+ 			infrastructure = 100000
  			arms_factory = 1
  			industrial_complex = 1
  		}

@@ -8,7 +8,7 @@ state={
 	history={
  		owner = TIB
 		buildings = {
-			infrastructure = 1
+			infrastructure = 100000
 
 		}
 		victory_points = {

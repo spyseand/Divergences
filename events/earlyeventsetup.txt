@@ -3,6 +3,23 @@ add_namespace = earlysetup
 ###Burgundian Partition Events
 
 country_event = {
+	id = earlysetup.100
+	title = earlysetup.100.t
+	desc = earlysetup.100.d
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		###Superevent
+		name = earlysetup.100.a
+		set_country_flag = DIV_war_of_liberation
+		sound_effect = DIV_war_of_liberation
+	}
+}
+
+country_event = {
 	id = earlysetup.1
 	title = earlysetup.1.t
 	desc = earlysetup.1.d

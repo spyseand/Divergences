@@ -1,14 +1,12 @@
 state={
     id=502
     name="STATE_1502"
-    manpower = 1
-    state_category = town
+    manpower = 26291
+    state_category = rural
     history = {
     owner = SCD
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            infrastructure = 4
         }
         controller = SCD
     }

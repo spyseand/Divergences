@@ -1,15 +1,12 @@
 state={
     id=958
     name="STATE_1958"
-    manpower = 1
-    state_category = town
+    manpower = 13240
+    state_category = wasteland
     history = {
         owner = OTT
         buildings = {
-
             infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
         }
     }
     provinces = {

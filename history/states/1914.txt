@@ -1,15 +1,15 @@
 state={
     id=914
     name="STATE_1914"
-    manpower = 1
-    state_category = town
+    manpower = 234150
+    state_category = pastoral
     history = {
         owner = BAT
         buildings = {
-            infrastructure = 1
+            infrastructure = 2
             arms_factory = 1
-            industrial_complex = 1
         }
+        add_core_of = BAT
     }
     provinces = {
         8214 12940 7770 12963 1580 12519 13217

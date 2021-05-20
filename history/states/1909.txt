@@ -1,14 +1,15 @@
 state={
     id=909
     name="STATE_1909"
-    manpower = 1
-    state_category = town
+    manpower = 212040
+    state_category = small_island
     history = {
     owner = SPA
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            infrastructure = 2
+            1751 = {
+                naval_base = 1
+            }
         }
         add_core_of = SPA
     }

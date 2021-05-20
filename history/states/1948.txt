@@ -1,15 +1,15 @@
 state={
     id=948
     name="STATE_1948"
-    manpower = 1
+    manpower = 2984510
     state_category = town
     history = {
         owner = EGY
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
+            infrastructure = 4
             industrial_complex = 1
         }
+        add_core_of = EGY
     }
     provinces = {
         10126 4143 7188 1068 10031 4055 3996 992 7117

@@ -11,6 +11,7 @@ state={
                 naval_base = 1
              }
          }
+         add_core_of = GTC
      }
      provinces = {
          12716 4982

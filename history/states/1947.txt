@@ -1,15 +1,14 @@
 state={
     id=947
     name="STATE_1947"
-    manpower = 1
-    state_category = town
+    manpower = 2250
+    state_category = wasteland
     history = {
         owner = EGY
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            infrastructure = 2
         }
+        add_core_of = EGY
     }
     provinces = {
         7156 5069 4910 4068 12889 12002 1080 9957

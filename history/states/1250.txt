@@ -1,15 +1,22 @@
 state={
      id=250
      name="STATE_1250"
-     manpower = 1
-     state_category = town
+     manpower = 7798560
+     state_category = large_city
      history = {
 	     owner = LOT
          buildings = {
-             infrastructure = 1
-             arms_factory = 1
-             industrial_complex = 1
+             infrastructure = 5
+             dockyard = 3
+             industrial_complex = 2
+             10933 = {
+                naval_base = 7
+             }
+             10998 = {
+                naval_base = 3
+             }
          }
+         add_core_of = LOT
      }
      provinces = {
          10933 12961 2227 5168 10939 10998 2175 8179 5107 2132 2178 2164 8227 10345 1524 5182 10967 1446 10989 7561

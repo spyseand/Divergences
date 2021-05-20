@@ -1,15 +1,15 @@
 state={
      id=246
      name="STATE_1246"
-     manpower = 1
-     state_category = town
+     manpower = 102360
+     state_category = rural
      history = {
 	     owner = AMZ
          buildings = {
-             infrastructure = 1
-             arms_factory = 1
-             industrial_complex = 1
+             infrastructure = 2
          }
+         add_core_of = AMZ
+         add_core_of = LOT
      }
      provinces = {
          5083 5214 5008 10934

@@ -14,6 +14,7 @@ state={
                 naval_base = 2
              }
          }
+         add_core_of = GCO
      }
      provinces = {
          5000 4942 8113 4892 5056 8024 7968 8080 10736 7915

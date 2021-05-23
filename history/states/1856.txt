@@ -4,7 +4,7 @@ state={
     manpower = 1
     state_category = town
     history = {
-        owner = PER
+        owner = OTT
         buildings = {
             infrastructure = 1
             arms_factory = 1
@@ -12,6 +12,6 @@ state={
         }
     }
     provinces = {
-        4473 4901 4609
+        4473 4901
     }
 }

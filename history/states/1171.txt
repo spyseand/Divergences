@@ -1,17 +1,13 @@
-
 state={
  	id=171
  	name="STATE_1171"
- 	manpower = 76490
-
- 	state_category = town
-
+ 	manpower = 2695450
+ 	state_category = city
  	history = {
  	owner = JAP
  		buildings = {
- 			infrastructure = 3
- 			arms_factory = 1
- 			industrial_complex = 1
+ 			infrastructure = 4
+ 			industrial_complex = 3
  		}
  		add_core_of = JAP
  	}

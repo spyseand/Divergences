@@ -1,14 +1,15 @@
 state={
     id=346
     name="STATE_1346"
-    manpower = 1
-    state_category = town
+    manpower = 12100
+    state_category = small_island
     history = {
         owner = JAP
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            infrastructure = 2
+            12103 = {
+                naval_base = 1
+            }
         }
     }
     provinces = {

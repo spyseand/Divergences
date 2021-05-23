@@ -1,14 +1,33 @@
 state={
     id=325
     name="STATE_1325"
-    manpower = 1
-    state_category = town
+    manpower = 52560
+    state_category = small_island
     history = {
         owner = JAP
         buildings = {
             infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            13046 = {
+                naval_base = 1
+            }
+            13045 = {
+                naval_base = 1
+            }
+            1002 = {
+                naval_base = 1
+            }
+            13041 = {
+                naval_base = 1
+            }
+            13043 = {
+                naval_base = 1
+            }
+            13040 = {
+                naval_base = 1
+            }
+            13039 = {
+                naval_base = 1
+            }
         }
     }
     provinces = {

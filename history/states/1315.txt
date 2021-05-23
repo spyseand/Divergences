@@ -1,15 +1,23 @@
 state={
     id=315
     name="STATE_1315"
-    manpower = 1
-    state_category = town
+    manpower = 150010
+    state_category = pastoral
     history = {
         owner = SEI
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            infrastructure = 2
+            1269 = {
+                naval_base = 2
+            }
+            12265 = {
+                naval_base = 1
+            }
+            10234 = {
+                naval_base = 2
+            }
         }
+        add_core_of = SEI
     }
     provinces = {
         10234 1358 4378 4226 12265 10319 4292 1269 1370 10291 7437 4252 1085 1042

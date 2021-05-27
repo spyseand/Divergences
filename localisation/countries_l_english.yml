@@ -522,6 +522,10 @@
  NVR_ADJ:0 "Navarran"
  
  TRN:0 "Turanic Councils"
- TRN:0 "the Turanic Councils"
- TRN:0 "Turkic"
+ TRN_DEF:0 "the Turanic Councils"
+ TRN_ADJ:0 "Turkic"
+ 
+ YUG:0 "Yugoslavia"
+ YUG_DEF:0 "Yugoslavia"
+ YUG_ADJ:0 "Yugoslavian"
  

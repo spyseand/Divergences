@@ -1,15 +1,13 @@
 
 state={
 	id=654
-	name="STATE_1654" # Leinster
-	manpower = 1357600
+	name="STATE_1654"
+	manpower = 3154620
+	state_category = large_city
 	resources={
 		aluminium=0 # was: 2
 		steel=2 # was: 3
 	}
-	
-	state_category = city
-	
 	history={
 		owner = CNU
 		victory_points = {
@@ -18,8 +16,12 @@ state={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 3
+			dockyard = 1
 			air_base = 3
+			11293 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = CNU
 	}

@@ -1,14 +1,15 @@
 state={
     id=355
     name="STATE_1355"
-    manpower = 1
-    state_category = town
+    manpower = 38410
+    state_category = wasteland
     history = {
     owner = JRS
         buildings = {
             infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+            13204 = {
+                naval_base = 1
+            }
         }
         add_core_of = JRS
     }

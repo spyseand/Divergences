@@ -1,18 +1,15 @@
-
 state={
  	id=197
  	name="STATE_1197"
- 	manpower = 76490
-
- 	state_category = town
-
+ 	manpower = 2956120
+ 	state_category = rural
  	history = {
         owner = MAN
  		buildings = {
  			infrastructure = 3
  			arms_factory = 1
- 			industrial_complex = 1
  		}
+ 		add_core_of = MAN
  	}
 
  	provinces = {

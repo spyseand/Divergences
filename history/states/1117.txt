@@ -9,17 +9,12 @@ state={
 		steel = 8 # was: 10
 		chromium = 3 # was: 4
 	}
-
 	history={
 		owner = XIA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 		}
-		victory_points = { 
-			7137 10 
-		}
-
+		add_core_of = XIA
 	}
 
 	provinces={

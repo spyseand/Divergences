@@ -1,9 +1,6 @@
 state={
 	id=156
 	name="STATE_1156"
-	provinces={
-		1999 2067 7294 10726 10841 12141 12819 
-	}
 	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
@@ -11,14 +8,11 @@ state={
 		owner = XIA
 		buildings = {
 			infrastructure = 1
+		}
+		add_core_of = XIA
+	}
 
-		}
-		victory_points = {
-			12141 3
-		}
-		victory_points = {
-			7294 1
-		}
-
+	provinces={
+		1999 2067 7294 10726 10841 12141 12819 
 	}
 }

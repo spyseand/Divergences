@@ -1,9 +1,6 @@
 state={
 	id=160
 	name="STATE_1160"
-	provinces={
-		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146 7940 8018 
-	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
@@ -11,9 +8,11 @@ state={
 		owner = XIA
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-
 		}
+		add_core_of = XIA
+	}
 
+	provinces={
+		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146 7940 8018 
 	}
 }

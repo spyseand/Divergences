@@ -2,26 +2,20 @@
 state={
 	id=266
 	name="STATE_1266"
-	manpower = 10722500
-	
+	manpower = 7222500
 	state_category = town
-	
 	resources={
 		rubber=3 # was: 4
 		tungsten = 92
 	}
-
 	history={
 		owner = BRM
-		victory_points = {
-			1330 5 
-		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
 		}
-
+		add_core_of = BRM
 	}
 
 	provinces={

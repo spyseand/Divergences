@@ -1,23 +1,16 @@
-
 state={
 	id=130
 	name="STATE_1130"
 	manpower=34289800
-	
 	state_category = town
-	
 	buildings_max_level_factor=1.000
-
 	history={
 		owner = XIA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 1
 		}
-		victory_points = {
-			9958 1 
-		}
-
+		add_core_of = XIA
 	}
 
 	provinces={

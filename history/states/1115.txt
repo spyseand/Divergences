@@ -8,19 +8,17 @@ state={
 		steel= 15 # was: 20
 		chromium = 3 # was: 4
 	}
-
 	history={
 		owner = XIA
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
 			industrial_complex = 2
 			air_base = 3
-
+			1047 = {
+				naval_base = 4
+			}
 		}
-		victory_points = {
-			1047 5
-		}
+		add_core_of = XIA
 	}
 
 	provinces={

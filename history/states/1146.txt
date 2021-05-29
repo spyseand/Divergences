@@ -2,15 +2,13 @@ state={
 	id=146
 	name="STATE_1146"
 	manpower = 200000
-	
-	state_category = enclave
-	
+	state_category = rural
 	history={
 		owner = XIA
 		buildings = {
 			infrastructure = 3
-
 		}
+		add_core_of = XIA
 	}
 	
 	provinces={

@@ -1,17 +1,14 @@
-
 state={
 	id=133
-	name="STATE_1133" # Jehol
+	name="STATE_1133"
 	manpower = 1975377
-	
 	state_category = pastoral
-
 	history={
         owner = MAN
 		buildings = {
 			infrastructure = 4
 		}
-
+		add_core_of = MAN
 	}
 
 	provinces={

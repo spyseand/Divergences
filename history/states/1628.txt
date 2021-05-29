@@ -11,6 +11,9 @@ state=
 		buildings = {
 			infrastructure = 6
 			air_base = 2
+			4135 = {
+				naval_base = 5
+			}
 		}
 		add_claim_by = SPA
 	}

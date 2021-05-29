@@ -20,6 +20,9 @@ state={
 			infrastructure = 6
 			industrial_complex = 2
 			air_base = 4
+			12038 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = SPA
 

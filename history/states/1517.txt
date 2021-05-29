@@ -2,13 +2,16 @@ state={
     id=517
     name="STATE_1517"
     manpower = 987689
-    state_category = town
+    state_category = city
     history = {
     owner = SCD
         buildings = {
             infrastructure = 7
             industrial_complex = 1
             dockyard = 3
+            383 = {
+                naval_base = 3
+            }
         }
         add_core_of = SCD
     }

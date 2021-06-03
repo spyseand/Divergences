@@ -12,7 +12,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 115 38 38 }
+		color = { 77 0 0 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -47,6 +47,53 @@ ideologies = {
 		}
 	}
 
+	vanguard_socialism = {
+	
+		types = {
+			
+			marxism = {
+			}
+
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 179 0 0 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		can_host_government_in_exile = no
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.4
+			join_faction_tension = 0.3
+			lend_lease_tension = 0.1
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			annex_cost_factor = -0.25
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 15.0
+		}
+		
+		faction_modifiers = {
+		}
+	}
+
 	authoritarian_socialism = {
 	
 		types = {
@@ -59,7 +106,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 179 0 0 }
+		color = { 230 0 0 }
 		
 		rules = {
 			can_create_collaboration_government = yes
@@ -108,7 +155,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 230 0 0 }
+		color = { 255 0 85 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -155,7 +202,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 255 0 85 }
+		color = { 214 92 184 }
 		
 		rules = {
 			can_create_collaboration_government = no

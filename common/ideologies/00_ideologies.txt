@@ -331,11 +331,11 @@ ideologies = {
 		}
 	}
 
-	national_democracy = {
+	authoritarian_democracy = {
 	
 		types = {
 			
-			national_democracy_sub = {
+			authoritarian_democracy_sub = {
 			}
 
 		}

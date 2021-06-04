@@ -230,7 +230,7 @@ ideas = {
 				social_democracy_drift = 0.01
 				liberalism_drift = 0.01
 				conservatism_drift = 0.01
-				national_democracy_drift = 0.01
+				authoritarian_democracy_drift = 0.01
 			}
 		}
 	}
@@ -297,7 +297,7 @@ ideas = {
 				social_democracy_drift = -0.01
 				liberalism_drift = -0.01
 				conservatism_drift = -0.01
-				national_democracy_drift = -0.01
+				authoritarian_democracy_drift = -0.01
 			}
 		}
 	}

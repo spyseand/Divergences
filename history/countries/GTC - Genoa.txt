@@ -14,16 +14,17 @@ set_politics = {
 }
 
 set_popularities = {
-	monolism = 1
-	authoritarian_socialism = 11
-	libertarian_socialism = 5
-	social_democracy = 0
-	liberalism = 0
-	conservatism = 0
-	national_democracy = 0
+	monolism = 0
+	vanguard_socialism = 0
+	authoritarian_socialism = 0
+	libertarian_socialism = 0
+	social_democracy = 4
+	liberalism = 61
+	conservatism = 33
+	authoritarian_democracy = 2
 	autocracy = 0
 	fascism = 0
-	egoism = 83
+	egoism = 0
 }
 
 set_convoys = 5

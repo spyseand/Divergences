@@ -45,14 +45,15 @@ set_politics = {
 
 set_popularities = {
 	monolism = 0
+	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 2
-	conservatism = 23
-	national_democracy = 6
-	autocracy = 64
-	fascism = 5
+	social_democracy = 4
+	liberalism = 61
+	conservatism = 33
+	authoritarian_democracy = 2
+	autocracy = 0
+	fascism = 0
 	egoism = 0
 }
 

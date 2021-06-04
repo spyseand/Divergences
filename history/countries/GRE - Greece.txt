@@ -7,7 +7,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1934.6.13"
 	election_frequency = 24
 	elections_allowed = no
@@ -15,14 +15,15 @@ set_politics = {
 
 set_popularities = {
 	monolism = 0
+	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 9
-	liberalism = 34
-	conservatism = 29
-	national_democracy = 21
+	social_democracy = 4
+	liberalism = 61
+	conservatism = 33
+	authoritarian_democracy = 2
 	autocracy = 0
-	fascism = 7
+	fascism = 0
 	egoism = 0
 }
 

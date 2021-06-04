@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"SCD"={
 			history = "SCD_GATHERING_STORM_DESC"
-			ideology = national_democracy
+			ideology = authoritarian_democracy
 			ideas = {
 				
 			}

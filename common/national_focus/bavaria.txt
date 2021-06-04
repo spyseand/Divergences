@@ -1396,7 +1396,7 @@ focus_tree = {
 						has_government = social_democracy
 						has_government = liberalism
 						has_government = conservatism
-						has_government = national_democracy
+						has_government = authoritarian_democracy
 					}
 				}
 				add_ideas = {
@@ -1452,7 +1452,7 @@ focus_tree = {
 						has_government = social_democracy
 						has_government = liberalism
 						has_government = conservatism
-						has_government = national_democracy
+						has_government = authoritarian_democracy
 					}
 				}
 				add_ideas = {
@@ -1511,7 +1511,7 @@ focus_tree = {
 						has_government = social_democracy
 						has_government = liberalism
 						has_government = conservatism
-						has_government = national_democracy
+						has_government = authoritarian_democracy
 					}
 				}
 				has_idea = BAY_democracy_opposition
@@ -1569,7 +1569,7 @@ focus_tree = {
 						has_government = social_democracy
 						has_government = liberalism
 						has_government = conservatism
-						has_government = national_democracy
+						has_government = authoritarian_democracy
 					}
 				}
 				AND = {
@@ -1630,7 +1630,7 @@ focus_tree = {
 						has_government = social_democracy
 						has_government = liberalism
 						has_government = conservatism
-						has_government = national_democracy
+						has_government = authoritarian_democracy
 					}
 				}
 				has_idea = BAY_democracy_opposition
@@ -1704,7 +1704,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_democracy
+				ideology = authoritarian_democracy
 				popularity = 0.05
 			}
 		}
@@ -1752,7 +1752,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_democracy
+				ideology = authoritarian_democracy
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -1967,7 +1967,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_democracy
+				has_government = authoritarian_democracy
 				has_government = conservatism
 			}
 		}
@@ -1992,7 +1992,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_democracy
+				has_government = authoritarian_democracy
 				has_government = conservatism
 			}
 		}
@@ -2017,7 +2017,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_democracy
+				has_government = authoritarian_democracy
 				has_government = conservatism
 			}
 		}

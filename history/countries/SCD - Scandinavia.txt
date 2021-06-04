@@ -37,7 +37,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1934.6.13"
 	election_frequency = 24
 	elections_allowed = no
@@ -48,12 +48,12 @@ set_popularities = {
 	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 1
-	liberalism = 7
-	conservatism = 12
-	national_democracy = 51
-	autocracy = 28
-	fascism = 1
+	social_democracy = 4
+	liberalism = 61
+	conservatism = 33
+	authoritarian_democracy = 2
+	autocracy = 0
+	fascism = 0
 	egoism = 0
 }
 
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_ZACH_DESC"
 	picture = "gfx/leaders/zachisdumb.dds"
 	expire = "1965.1.1"
-	ideology = national_democracy_sub
+	ideology = authoritarian_democracy_sub
 	traits = {
 		dictator
 	}

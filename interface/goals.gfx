@@ -60,6 +60,11 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_plc_golden_liberty"
 	texturefile = "gfx/interface/goals/focus_plc_golden_liberty.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_qiq_oceangoing"
+	texturefile = "gfx/interface/goals/focus_qiq_oceangoing.dds"			
 	}		
 
 	SpriteType = {

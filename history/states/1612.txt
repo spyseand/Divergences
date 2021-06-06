@@ -3,6 +3,10 @@ state={
     name="STATE_1612"
     manpower = 1901520
     state_category = city
+    resources={
+        aluminium = 1.6
+        steel = 8
+    }
     history = {
     owner = AUS
         buildings = {

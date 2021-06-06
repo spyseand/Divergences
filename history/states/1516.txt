@@ -3,6 +3,9 @@ state={
     name="STATE_1516"
     manpower = 1192811
     state_category = town
+    resources={
+        steel = 10.5
+    }
     history = {
     owner = SCD
         buildings = {

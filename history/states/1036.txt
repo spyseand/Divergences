@@ -3,9 +3,11 @@ state={
  	id=36
  	name="STATE_1036"
  	manpower = 2112340
-
  	state_category = large_city
-
+ 	resources={
+ 		oil = 320
+ 		aluminium = 50
+ 	}
  	history = {
  	owner = DES
  		buildings = {

@@ -13,6 +13,36 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_plc_jewish"
+	texturefile = "gfx/interface/goals/focus_plc_jewish.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_germans"
+	texturefile = "gfx/interface/goals/focus_plc_germans.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_polish"
+	texturefile = "gfx/interface/goals/focus_plc_polish.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_livonians"
+	texturefile = "gfx/interface/goals/focus_plc_livonians.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_lithuanians"
+	texturefile = "gfx/interface/goals/focus_plc_lithuanians.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_plc_ruthenians"
+	texturefile = "gfx/interface/goals/focus_plc_ruthenians.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_plc_convene_senate"
 	texturefile = "gfx/interface/goals/focus_plc_convene_senate.dds"			
 	}

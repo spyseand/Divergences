@@ -7,7 +7,6 @@ state={
         owner = SCD
         buildings = {
             infrastructure = 4
-            dockyard = 1
             6196 = {
                 naval_base = 5
             }

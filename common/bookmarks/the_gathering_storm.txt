@@ -41,10 +41,14 @@ bookmarks = {
 			history = "PLC_GATHERING_STORM_DESC"
 			ideology = social_democracy
 			ideas = {
-				
+				PLC_polonisation
+				PLC_polish_language
+				PLC_polish_army
 			}
 			focuses = {
-				
+				PLC_national_census
+				PLC_polish_domination
+				PLC_national_equity
 			}
 		}
 		"VIN"={

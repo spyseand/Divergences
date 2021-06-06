@@ -2,21 +2,18 @@
 state={
 	id=554
 	name="STATE_1554"
-	manpower = 2211689
+	manpower = 1211689
 	resources={
 		aluminium=18 # was: 28
 	}
-
 	state_category = large_city
-
-
 	history={
 	owner = SWI
 		victory_points = { 9620 15 }
 		buildings = {
 			infrastructure = 6
-			arms_factory = 4
-			industrial_complex = 4
+			arms_factory = 2
+			industrial_complex = 3
 			air_base = 4
 		}
 		add_core_of = SWI

@@ -8,7 +8,7 @@ state={
 	history={
 		owner = PLC
 		victory_points = {
-			3320 3
+			3320 20
 		}
 		buildings = {
 			infrastructure = 5

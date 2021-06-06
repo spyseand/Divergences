@@ -28,6 +28,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_plc_livonians"
+	texturefile = "gfx/interface/goals/focus_plc_livonians.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_plc_lithuanians"
 	texturefile = "gfx/interface/goals/focus_plc_lithuanians.dds"			
 	}

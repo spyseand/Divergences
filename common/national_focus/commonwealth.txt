@@ -165,8 +165,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_status_of_the_polish
-		icon = GFX_focus_plc_polish
+		id = PLC_status_of_the_livonians
+		icon = GFX_focus_plc_livonians
 		x = 0
 		y = 1
 		cost = 1
@@ -193,8 +193,8 @@ focus_tree = {
 		prerequisite = { focus = PLC_status_of_the_ruthenians }
 		prerequisite = { focus = PLC_status_of_the_jewish }
 		prerequisite = { focus = PLC_status_of_the_germans }
-		prerequisite = { focus = PLC_status_of_the_polish }
-		relative_position_id = PLC_status_of_the_polish
+		prerequisite = { focus = PLC_status_of_the_livonians }
+		relative_position_id = PLC_status_of_the_livonians
 		
 		available_if_capitulated = yes
 

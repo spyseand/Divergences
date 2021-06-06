@@ -89,11 +89,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_status_of_lithuanians
-		icon = GFX_goal_unknown
-		x = -3
+		id = PLC_status_of_the_lithuanians
+		icon = GFX_focus_plc_lithuanians
+		x = -2
 		y = 1
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PLC_national_census }
 		relative_position_id = PLC_national_census
 		
@@ -108,11 +108,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_status_of_ruthenians
-		icon = GFX_goal_unknown
-		x = 0
+		id = PLC_status_of_the_ruthenians
+		icon = GFX_focus_plc_ruthenians
+		x = 2
 		y = 1
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PLC_national_census }
 		relative_position_id = PLC_national_census
 		
@@ -128,10 +128,10 @@ focus_tree = {
 
 	focus = {
 		id = PLC_status_of_the_jewish
-		icon = GFX_goal_unknown
-		x = 3
+		icon = GFX_focus_plc_jewish
+		x = 4
 		y = 1
-		cost = 2
+		cost = 1
 		prerequisite = { focus = PLC_national_census }
 		relative_position_id = PLC_national_census
 		
@@ -146,21 +146,62 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_convene_the_senate
-		icon = GFX_focus_plc_convene_senate
-		x = 0
+		id = PLC_status_of_the_germans
+		icon = GFX_focus_plc_germans
+		x = -4
 		y = 1
-		cost = 5
-		prerequisite = { focus = PLC_status_of_lithuanians }
-		prerequisite = { focus = PLC_status_of_ruthenians }
-		prerequisite = { focus = PLC_status_of_the_jewish }
-		relative_position_id = PLC_status_of_ruthenians
+		cost = 1
+		prerequisite = { focus = PLC_national_census }
+		relative_position_id = PLC_national_census
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			country_event = {
 				id = commonwealth.5
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = PLC_status_of_the_polish
+		icon = GFX_focus_plc_polish
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = { focus = PLC_national_census }
+		relative_position_id = PLC_national_census
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = commonwealth.6
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = PLC_convene_the_senate
+		icon = GFX_focus_plc_convene_senate
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_status_of_the_lithuanians }
+		prerequisite = { focus = PLC_status_of_the_ruthenians }
+		prerequisite = { focus = PLC_status_of_the_jewish }
+		prerequisite = { focus = PLC_status_of_the_germans }
+		prerequisite = { focus = PLC_status_of_the_polish }
+		relative_position_id = PLC_status_of_the_polish
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = tt_PLC_convene_the_senate
+			country_event = {
+				id = commonwealth.7
 				days = 1
 			}
 			add_political_power = 50
@@ -182,7 +223,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = tt_PLC_available_polish_domination
 				check_variable = {
-				PLC_variable_conservatism > 1
+				PLC_variable_conservatism > 2
 				}
 				has_completed_focus = PLC_convene_the_senate
 			}
@@ -208,7 +249,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = tt_PLC_available_national_equity
 				check_variable = {
-				PLC_variable_socdem > 1
+				PLC_variable_socdem > 2
 				}
 				has_completed_focus = PLC_convene_the_senate
 			}

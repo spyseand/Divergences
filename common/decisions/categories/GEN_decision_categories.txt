@@ -1,0 +1,6 @@
+modded_debug_crap = {
+	icon = generic_civil_support
+	allowed = {
+
+	}
+}

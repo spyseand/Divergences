@@ -3,12 +3,17 @@ state={
     name="STATE_1707"
     manpower = 2561450
     state_category = city
+    resources={
+        oil = 13.6
+        aluminium = 11.9
+    }
     history = {
     owner = UKR
         buildings = {
             infrastructure = 7
             arms_factory = 1
             industrial_complex = 3
+            air_base = 7
         }
         add_core_of = UKR
     }

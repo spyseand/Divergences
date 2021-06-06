@@ -3,9 +3,13 @@ state={
 	id=268
 	name="STATE_1268"
 	manpower = 1201600
-	
 	state_category = town
-
+	resources={
+		aluminium = 19.5
+		rubber = 444.6
+		tungsten = 245.7
+		steel = 26
+	}
 	history={
         owner = SCM
 		buildings = {

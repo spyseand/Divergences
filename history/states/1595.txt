@@ -3,6 +3,11 @@ state={
     name="STATE_1595"
     manpower = 1729120
     state_category = large_city
+    resources={
+        aluminium = 14
+        tungsten = 1.7
+        steel = 20.8
+    }
     history = {
     owner = GTC
         buildings = {

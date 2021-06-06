@@ -3,12 +3,16 @@ state={
     name="STATE_1581"
     manpower = 3865120
     state_category = large_city
+    resources={
+        steel = 36
+    }
     history = {
     owner = BUR
         buildings = {
             infrastructure = 7
             dockyard = 1
             industrial_complex = 3
+            air_base = 5
             6598 = {
                 naval_base = 3
             }

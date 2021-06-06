@@ -1,0 +1,10 @@
+modded_debug_crap = {
+	xp_injection = {
+		cost = 0
+		remove_effect = {
+			air_experience = 500
+			navy_experience = 500
+			army_experience = 500
+		}
+	}
+}

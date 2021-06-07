@@ -4,6 +4,10 @@ state={
  	manpower = 495620
  	state_category = large_town
  	history = {
+		victory_points = {
+			12189 1
+		}
+
  	owner = JAP
  		buildings = {
  			infrastructure = 4

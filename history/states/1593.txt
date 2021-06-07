@@ -4,6 +4,10 @@ state={
     manpower = 934650
     state_category = metropolis
     history = {
+		victory_points = {
+			6788 10
+		}
+
     owner = GTC
         buildings = {
             infrastructure = 9

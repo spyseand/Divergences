@@ -1,12 +1,16 @@
 
 state={
 	id=422
-	name="STATE_1422" # Gurev
+	name="STATE_1422" 
 	manpower = 146494
 	
 	state_category = wasteland
 
 	history={
+		victory_points = {
+			3618 1
+		}
+
 		owner = RUS
 		buildings = {
 			infrastructure = 1

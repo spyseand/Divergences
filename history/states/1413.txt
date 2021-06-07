@@ -7,6 +7,10 @@ state={
 	state_category = town
 
 	history={
+		victory_points = {
+			6398 1
+		}
+
 	owner = RUS
 		buildings = {
 			infrastructure = 5

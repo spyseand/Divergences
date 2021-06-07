@@ -7,6 +7,10 @@ state={
         aluminium = 15.3
     }
     history = {
+		victory_points = {
+			6606 3
+		}
+
     owner = ITA
         buildings = {
             infrastructure = 6

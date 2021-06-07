@@ -4,6 +4,10 @@ state={
      manpower = 39510
      state_category = enclave
      history = {
+		victory_points = {
+			7617 5
+		}
+
 	     owner = GCO
          buildings = {
              infrastructure = 4

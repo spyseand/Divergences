@@ -1,12 +1,16 @@
 
 state={
 	id=387
-	name="STATE_1387" # Pskov
+	name="STATE_1387" 
 	manpower = 639587
 	
 	state_category = town
 
 	history={
+		victory_points = {
+			11202 3
+		}
+
 	owner = RUS
 		victory_points = {
 			11202 3

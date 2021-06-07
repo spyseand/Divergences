@@ -1,16 +1,20 @@
 
 state={
 	id=542
-	name="STATE_1542" # Rhone
+	name="STATE_1542" 
 	manpower = 2973200
 	resources={
-		steel=60 # was: 128
-		aluminium=35 # was: 72
+		steel=60 
+		aluminium=35 
 	}
 
 	state_category = city
 
 	history={
+		victory_points = {
+			6613 10
+		}
+
 	owner = FRA
 		victory_points = {
 			6613 10

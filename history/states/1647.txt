@@ -7,6 +7,18 @@ state={
 	state_category = large_city
 
 	history={
+		victory_points = {
+			6927 1
+		}
+
+		victory_points = {
+			6966 1
+		}
+
+		victory_points = {
+			9764 30
+		}
+
 		owner = ARA
 		victory_points = {
 			9764 30

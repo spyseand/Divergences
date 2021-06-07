@@ -8,6 +8,10 @@ state={
 		aluminium=2
 	}
 	history={
+		victory_points = {
+			3379 5
+		}
+
 		owner = CNU
 		buildings = {
 			infrastructure = 8

@@ -1,12 +1,16 @@
 
 state={
 	id=396
-	name="STATE_1396" # Belgorod
+	name="STATE_1396" 
 	manpower = 1364537
 	
 	state_category = town
 
 	history={
+		victory_points = {
+			9449 1
+		}
+
 	owner = RUS
 		victory_points = {
 			9449 1

@@ -7,6 +7,10 @@ state={
  	state_category = metropolis
 
  	history = {
+		victory_points = {
+			4569 10
+		}
+
  	owner = LOU
  		buildings = {
  			infrastructure = 7

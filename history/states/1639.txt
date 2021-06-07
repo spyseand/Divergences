@@ -9,6 +9,10 @@ state={
 		victory_points = {
 			9793 1
 		}
+
+		victory_points = {
+			9793 1
+		}
 		owner = ARA
 		buildings = {
 			infrastructure = 6

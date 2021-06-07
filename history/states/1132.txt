@@ -1,9 +1,13 @@
 state={
 	id=132
-	name="STATE_1132" # East Hebei
+	name="STATE_1132" 
 	manpower = 6465420
 	state_category = town
 	history={
+		victory_points = {
+			10068 1
+		}
+
         owner = MAN
 		buildings = {
 			infrastructure = 5

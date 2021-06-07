@@ -2,9 +2,17 @@ state={
 	id=629
 	name="STATE_1629"
 	resources={
-		chromium=20.000 #added due to portugal setup
+		chromium=20.000 
 	}
 	history={
+		victory_points = {
+			924 1
+		}
+
+		victory_points = {
+			9869 1
+		}
+
 		owner = SPA
 		victory_points = {
 			9869 1 

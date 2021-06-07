@@ -7,11 +7,15 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=40 # was: 76
-		chromium=8 # was: 12
+		steel=40 
+		chromium=8 
 	}
 
 	history={
+		victory_points = {
+			9355 10
+		}
+
 	owner = RUS
 		victory_points = {
 			9355 10

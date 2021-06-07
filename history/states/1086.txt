@@ -7,6 +7,10 @@ state={
  	state_category = city
 
  	history = {
+		victory_points = {
+			1843 5
+		}
+
  	owner = GTC
  		buildings = {
  			infrastructure = 5

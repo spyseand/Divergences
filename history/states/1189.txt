@@ -7,6 +7,14 @@ state={
  	state_category = town
 
  	history = {
+		victory_points = {
+			7799 1
+		}
+
+		victory_points = {
+			4801 5
+		}
+
  	owner = MNG
  		buildings = {
  			infrastructure = 3

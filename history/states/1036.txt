@@ -9,6 +9,10 @@ state={
  		aluminium = 50
  	}
  	history = {
+		victory_points = {
+			12782 1
+		}
+
  	owner = DES
  		buildings = {
  			infrastructure = 5

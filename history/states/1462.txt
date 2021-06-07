@@ -4,6 +4,10 @@ state={
     manpower = 701922
     state_category = town
     history = {
+		victory_points = {
+			3137 1
+		}
+
     owner = SCD
         buildings = {
             infrastructure = 5

@@ -1,12 +1,16 @@
 
 state={
 	id=399
-	name="STATE_1399" # Volkhov
+	name="STATE_1399" 
 	manpower = 195325
 	
 	state_category = rural
 
 	history={
+		victory_points = {
+			9197 1
+		}
+
 	owner = RUS
 		buildings = {
 			infrastructure = 5

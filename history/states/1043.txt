@@ -7,6 +7,10 @@ state={
  	state_category = city
 
  	history = {
+		victory_points = {
+			1866 5
+		}
+
  	owner = SIX
  		buildings = {
  			infrastructure = 6

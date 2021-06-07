@@ -1,16 +1,20 @@
 
 state={
 	id=597
-	name="STATE_1597" # South Tyrol
+	name="STATE_1597" 
 	manpower = 641650
 	
 	state_category = town
 	
 	resources={
-		aluminium=14 # was: 22
+		aluminium=14 
 	}
 
 	history={
+		victory_points = {
+			11598 1
+		}
+
 		victory_points = {
 			11598 1
 		}

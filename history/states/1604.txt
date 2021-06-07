@@ -2,13 +2,17 @@ state={
 	id=604
 	name="STATE_1604"
 	resources={
-		steel=20 # was: 32.000
-		aluminium=11 # was: 18.000
+		steel=20 
+		aluminium=11 
 	}
 	
 	state_category = large_city
 
 	history={
+		victory_points = {
+			11584 10
+		}
+
 		owner = ITA
 		victory_points = {
 			11584 10 

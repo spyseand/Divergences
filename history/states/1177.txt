@@ -4,6 +4,10 @@ state={
  	manpower = 11059780
  	state_category = metropolis
  	history = {
+		victory_points = {
+			7072 40
+		}
+
  	owner = JAP
  		buildings = {
  			infrastructure = 6

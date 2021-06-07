@@ -4,6 +4,10 @@ state={
     manpower = 659120
     state_category = pastoral
     history = {
+		victory_points = {
+			2080 1
+		}
+
         owner = EGL
         buildings = {
             infrastructure = 3

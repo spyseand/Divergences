@@ -1,12 +1,16 @@
 
 state={
 	id=450
-	name="STATE_1450" # Akmolinsk
+	name="STATE_1450" 
 	manpower = 980533
 	
 	state_category = pastoral
 
 	history={
+		victory_points = {
+			4333 1
+		}
+
 		owner = RUS
 		victory_points = {
 			4333 1

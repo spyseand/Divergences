@@ -8,20 +8,40 @@ state={
 	state_category = town
 
 	history={
-	owner = OTT
-		victory_points = { #Varna
-			9783 5
+		victory_points = {
+			9769 1
 		}
-		victory_points = { #Burgas
-			9902 3
-		}
-		victory_points = { #Sliven
-			6967 3
-		}
-		victory_points = { #Yambol
+
+		victory_points = {
 			9888 1
 		}
-		victory_points = { #Shumen
+
+		victory_points = {
+			6967 3
+		}
+
+		victory_points = {
+			9902 3
+		}
+
+		victory_points = {
+			9783 5
+		}
+
+	owner = OTT
+		victory_points = { 
+			9783 5
+		}
+		victory_points = { 
+			9902 3
+		}
+		victory_points = { 
+			6967 3
+		}
+		victory_points = { 
+			9888 1
+		}
+		victory_points = { 
 			9769 1
 		}
 		buildings = {

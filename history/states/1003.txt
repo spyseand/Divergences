@@ -9,6 +9,10 @@ state={
         aluminium = 12.8
     }
  	history = {
+		victory_points = {
+			9814 30
+		}
+
  		owner = QIQ
  		victory_points = {
  			4518 3

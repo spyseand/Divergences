@@ -4,6 +4,10 @@ state={
      manpower = 309010
      state_category = pastoral
      history = {
+		victory_points = {
+			4982 1
+		}
+
 	     owner = GTC
          buildings = {
              infrastructure = 3

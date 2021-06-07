@@ -1,12 +1,16 @@
 
 state={
 	id=134
-	name="STATE_1134" # South Chahar
+	name="STATE_1134" 
 	manpower = 1470000
 	
 	state_category = pastoral
 
 	history={
+		victory_points = {
+			11752 3
+		}
+
 	owner = MNG
 		buildings = {
 			infrastructure = 3

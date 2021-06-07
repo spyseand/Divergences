@@ -11,6 +11,10 @@ state={
 		steel = 26
 	}
 	history={
+		victory_points = {
+			10297 1
+		}
+
         owner = SCM
 		buildings = {
 			infrastructure = 3

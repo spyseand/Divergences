@@ -4,12 +4,16 @@ state={
 	name="STATE_1730"
 	manpower = 1622300
 	resources={
-		steel=3 # was: 4
+		steel=3 
 	}
 	
 	state_category = town
 
 	history={
+		victory_points = {
+			690 1
+		}
+
 	owner = TRA
 		buildings = {
 			infrastructure = 4

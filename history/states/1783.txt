@@ -6,6 +6,10 @@ state={
 	state_category = rural
 
 	history={
+		victory_points = {
+			11881 10
+		}
+
 	owner = OTT
 		victory_points = {
 			11881 10

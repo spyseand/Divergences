@@ -3,6 +3,18 @@ state={
 	name="STATE_1691"
 
 	history={
+		victory_points = {
+			3254 1
+		}
+
+		victory_points = {
+			11301 3
+		}
+
+		victory_points = {
+			3392 1
+		}
+
 		owner = PLC
 		victory_points = {
 			11301 20

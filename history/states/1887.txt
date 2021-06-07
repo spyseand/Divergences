@@ -4,6 +4,10 @@ state={
     manpower = 1
     state_category = town
     history = {
+		victory_points = {
+			10840 3
+		}
+
     owner = EGL
         buildings = {
             infrastructure = 1

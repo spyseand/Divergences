@@ -1,12 +1,16 @@
 
 state={
 	id=400
-	name="STATE_1400" # Millerovo
+	name="STATE_1400" 
 	manpower = 761769
 	
 	state_category = rural
 
 	history={
+		victory_points = {
+			11476 1
+		}
+
 	owner = RUS
 		buildings = {
 			infrastructure = 5

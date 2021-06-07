@@ -4,6 +4,10 @@ state={
      manpower = 212030
      state_category = pastoral
      history = {
+		victory_points = {
+			1208 1
+		}
+
         owner = JEI
         buildings = {
             infrastructure = 1

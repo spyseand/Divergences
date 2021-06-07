@@ -4,6 +4,10 @@ state={
 	name="STATE_1735"
 
 	history={
+		victory_points = {
+			11586 15
+		}
+
 	owner = OTT
 		buildings = {
 			infrastructure = 6

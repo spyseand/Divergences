@@ -4,6 +4,10 @@ state={
      manpower = 5621510
      state_category = megalopolis
      history = {
+		victory_points = {
+			12997 5
+		}
+
 		 owner = INC
          buildings = {
              infrastructure = 7

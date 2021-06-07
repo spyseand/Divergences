@@ -7,6 +7,10 @@ state={
  	state_category = small_island
 
  	history = {
+		victory_points = {
+			13010 1
+		}
+
  	owner = GTC
  		buildings = {
  			infrastructure = 2

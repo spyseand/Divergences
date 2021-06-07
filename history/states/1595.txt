@@ -9,6 +9,10 @@ state={
         steel = 20.8
     }
     history = {
+		victory_points = {
+			6780 5
+		}
+
     owner = GTC
         buildings = {
             infrastructure = 6

@@ -6,11 +6,15 @@ state={
 	
 	state_category = city
 	resources={
-		steel=38 # was: 60
-		aluminium=5 # was: 8
+		steel=38 
+		aluminium=5 
 	}
 
 	history={
+		victory_points = {
+			351 10
+		}
+
 		owner = EGL
 		victory_points = {
 			351 10 

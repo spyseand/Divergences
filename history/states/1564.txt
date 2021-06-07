@@ -9,6 +9,14 @@ state={
 
 
 	history={
+		victory_points = {
+			3522 5
+		}
+
+		victory_points = {
+			6521 50
+		}
+
 	owner = TYK
 		victory_points = {
 			6521 50 

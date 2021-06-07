@@ -4,6 +4,10 @@ state={
     manpower = 4256150
     state_category = town
     history = {
+		victory_points = {
+			10263 3
+		}
+
         owner = JEI
         buildings = {
             infrastructure = 2

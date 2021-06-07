@@ -7,6 +7,22 @@ state={
  	state_category = metropolis
 
  	history = {
+		victory_points = {
+			10769 5
+		}
+
+		victory_points = {
+			12835 10
+		}
+
+		victory_points = {
+			5015 5
+		}
+
+		victory_points = {
+			4956 10
+		}
+
  	owner = DES
  		buildings = {
  			infrastructure = 5

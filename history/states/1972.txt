@@ -4,6 +4,14 @@ state={
     manpower = 1915620
     state_category = wasteland
     history = {
+		victory_points = {
+			12857 1
+		}
+
+		victory_points = {
+			4108 1
+		}
+
         owner = SPA
         buildings = {
             infrastructure = 2

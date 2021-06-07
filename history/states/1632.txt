@@ -8,6 +8,10 @@ state={
 		steel=8.000
 	}
 	history={
+		victory_points = {
+			740 10
+		}
+
 		owner = NVR
 		victory_points = {
 			740 10

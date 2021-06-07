@@ -6,11 +6,19 @@ state={
 	state_category=rural
 
 	history={
-	owner = OTT
-		victory_points = { #Ruse
+		victory_points = {
+			3796 3
+		}
+
+		victory_points = {
 			9612 3
 		}
-		victory_points = { #Pleven
+
+	owner = OTT
+		victory_points = { 
+			9612 3
+		}
+		victory_points = { 
 			3796 3
 		}
 		buildings = {
@@ -25,7 +33,7 @@ state={
 	provinces={
 		3796 3819 3952 6842 9610 9612 
 	}
-#	resources={
-#		oil=1
-#	}
+
+
+
 }

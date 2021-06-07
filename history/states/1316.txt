@@ -4,6 +4,10 @@ state={
     manpower = 345680
     state_category = rural
     history = {
+		victory_points = {
+			7251 5
+		}
+
         owner = SEI
         buildings = {
             infrastructure = 3

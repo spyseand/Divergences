@@ -5,6 +5,10 @@ state={
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 	history={
+		victory_points = {
+			1010 3
+		}
+
 		owner = XIA
 		buildings = {
 			infrastructure = 2

@@ -4,13 +4,21 @@ state={
 	name="STATE_1563"
 	manpower = 1124417
 	resources={
-		steel=23 # was: 36
-		aluminium=8 # was: 12
+		steel=23 
+		aluminium=8 
 	}
 	
 	state_category = town
 
 	history={
+		victory_points = {
+			11372 3
+		}
+
+		victory_points = {
+			6282 5
+		}
+
 	owner = TYK
 		victory_points = {
 			6282 5

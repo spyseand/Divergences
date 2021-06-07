@@ -8,6 +8,10 @@ state={
         chromium = 2.4
     }
     history = {
+		victory_points = {
+			197 1
+		}
+
     owner = SCD
         buildings = {
             infrastructure = 5

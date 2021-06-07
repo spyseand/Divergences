@@ -1,13 +1,17 @@
 
 state={
 	id=659
-	name="STATE_1659" # Lanark
+	name="STATE_1659" 
 	manpower = 3257723
 	state_category = large_city
 	resources={
-		steel=21 # was: 36
+		steel=21 
 	}
 	history={
+		victory_points = {
+			3273 15
+		}
+
 		owner = CNU
 		buildings = {
 			infrastructure = 7

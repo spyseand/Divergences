@@ -4,6 +4,10 @@ state={
     manpower = 52610
     state_category = wasteland
     history = {
+		victory_points = {
+			9989 1
+		}
+
         owner = EGY
         buildings = {
             infrastructure = 2

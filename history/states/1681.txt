@@ -5,6 +5,10 @@ state={
 	
 	state_category = town
 	history={
+		victory_points = {
+			9508 10
+		}
+
 		owner = PLC
 		buildings = {
 			infrastructure = 6

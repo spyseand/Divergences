@@ -1,15 +1,23 @@
 
 state={
 	id=543
-	name="STATE_1543" # Provence
+	name="STATE_1543" 
 	manpower = 2060400
 	resources={
-		aluminium=60 # was: 120
+		aluminium=60 
 	}
 
 	state_category = city
 
 	history={
+		victory_points = {
+			11834 10
+		}
+
+		victory_points = {
+			911 1
+		}
+
 	owner = FRA
 		victory_points = {
 			911 1 

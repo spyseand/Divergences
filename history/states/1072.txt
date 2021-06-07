@@ -7,6 +7,18 @@ state={
  	state_category = megalopolis
 
  	history = {
+		victory_points = {
+			6984 5
+		}
+
+		victory_points = {
+			3957 40
+		}
+
+		victory_points = {
+			6845 20
+		}
+
  	owner = VIN
  		buildings = {
  			infrastructure = 9

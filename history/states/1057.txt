@@ -7,6 +7,10 @@ state={
  	state_category = large_city
 
  	history = {
+		victory_points = {
+			3775 10
+		}
+
  	owner = VIN
  		buildings = {
  			infrastructure = 6

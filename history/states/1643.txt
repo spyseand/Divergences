@@ -6,6 +6,18 @@ state={
 	}
 
 	history={
+		victory_points = {
+			1176 3
+		}
+
+		victory_points = {
+			12038 1
+		}
+
+		victory_points = {
+			9979 5
+		}
+
 		owner = SPA
 		victory_points = {
 			9979 5

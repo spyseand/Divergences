@@ -7,6 +7,14 @@ state={
 	state_category = city
 
 	history={
+		victory_points = {
+			6734 3
+		}
+
+		victory_points = {
+			758 5
+		}
+
 		owner = SPA
 		victory_points = {
 			758 5

@@ -4,6 +4,10 @@ state={
     manpower = 234150
     state_category = pastoral
     history = {
+		victory_points = {
+			8214 1
+		}
+
         owner = BAT
         buildings = {
             infrastructure = 2

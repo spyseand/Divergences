@@ -4,6 +4,10 @@ state={
      manpower = 1862310
      state_category = large_city
      history = {
+		victory_points = {
+			650 10
+		}
+
 		 owner = INC
          buildings = {
              infrastructure = 6

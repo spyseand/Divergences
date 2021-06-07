@@ -7,6 +7,14 @@ state={
 	state_category = town
 
 	history={
+		victory_points = {
+			11305 3
+		}
+
+		victory_points = {
+			321 5
+		}
+
 	owner = TYK
 		victory_points = {
 			321 5

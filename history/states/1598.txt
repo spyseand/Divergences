@@ -6,6 +6,10 @@ state={
 	state_category = town
 	
 	history={
+		victory_points = {
+			11773 3
+		}
+
 		owner = ARA
 		victory_points = {
 			11773 3 

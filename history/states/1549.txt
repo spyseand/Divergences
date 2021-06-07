@@ -1,16 +1,20 @@
 
 state={
 	id=549
-	name="STATE_1549" # Bourgogne
+	name="STATE_1549" 
 	manpower = 1370800
 	
 	state_category = city
 	
 	resources={
-		aluminium=11 # was: 18
+		aluminium=11 
 	}
 
 	history={
+		victory_points = {
+			3652 5
+		}
+
 	owner = FRA
 		victory_points = {
 			3652 5 

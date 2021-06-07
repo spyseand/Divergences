@@ -7,6 +7,14 @@ state={
 	}
 
 	history={
+		victory_points = {
+			442 3
+		}
+
+		victory_points = {
+			9427 20
+		}
+
 		owner = PLC
 		victory_points = {
 			9427 20 

@@ -8,6 +8,10 @@ state={
 		steel=11.000
 	}
 	history={
+		victory_points = {
+			7222 1
+		}
+
 		owner = XIA
 		buildings = {
 			infrastructure = 4

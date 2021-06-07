@@ -8,6 +8,10 @@ state={
 		victory_points = {
 			3230 5
 		}
+
+		victory_points = {
+			3230 5
+		}
 		owner = PLC
 		buildings = {
 			infrastructure = 6

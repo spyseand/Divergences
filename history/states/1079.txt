@@ -7,6 +7,14 @@ state={
  	state_category = city
 
  	history = {
+		victory_points = {
+			12501 3
+		}
+
+		victory_points = {
+			12735 1
+		}
+
  	owner = BLC
  		buildings = {
  			infrastructure = 4

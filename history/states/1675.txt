@@ -6,6 +6,14 @@ state={
 	state_category = large_city
 
 	history={
+		victory_points = {
+			402 1
+		}
+
+		victory_points = {
+			3544 25
+		}
+
 		owner = PLC
 		victory_points = {
 			3544 25

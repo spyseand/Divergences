@@ -1,13 +1,21 @@
 
 state={
 	id=607
-	name="STATE_1607" # Dalmatia
+	name="STATE_1607" 
 	manpower = 1431700
 
 	state_category = large_town
 
 
 	history={
+		victory_points = {
+			11564 1
+		}
+
+		victory_points = {
+			3924 3
+		}
+
 	owner = CRO
 		victory_points = {
 			3868 3 

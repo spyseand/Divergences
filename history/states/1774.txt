@@ -7,6 +7,18 @@ state={
 	state_category = town
 
 	history={
+		victory_points = {
+			6813 3
+		}
+
+		victory_points = {
+			7620 10
+		}
+
+		victory_points = {
+			9893 15
+		}
+
 	owner = OTT
 		victory_points = {
 			9893 15

@@ -6,10 +6,18 @@ state={
 	state_category = city
 	
 	resources={
-		tungsten=1 # was: 2
+		tungsten=1 
 	}
 
 	history={
+		victory_points = {
+			11539 5
+		}
+
+		victory_points = {
+			9692 10
+		}
+
 	owner = SLO
 		victory_points = {
 			9692 10

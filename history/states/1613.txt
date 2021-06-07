@@ -7,6 +7,14 @@ state={
         oil = 1.7
     }
     history = {
+		victory_points = {
+			3673 3
+		}
+
+		victory_points = {
+			9648 5
+		}
+
     owner = AUS
         buildings = {
             infrastructure = 7

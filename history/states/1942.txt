@@ -4,6 +4,30 @@ state={
     manpower = 3265100
     state_category = pastoral
     history = {
+		victory_points = {
+			1909 1
+		}
+
+		victory_points = {
+			4989 1
+		}
+
+		victory_points = {
+			2038 1
+		}
+
+		victory_points = {
+			5034 1
+		}
+
+		victory_points = {
+			12891 1
+		}
+
+		victory_points = {
+			4948 5
+		}
+
         owner = SCD
         buildings = {
             infrastructure = 1

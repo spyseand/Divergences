@@ -4,6 +4,18 @@ state={
      manpower = 4821320
      state_category = large_city
      history = {
+		victory_points = {
+			12790 5
+		}
+
+		victory_points = {
+			2023 1
+		}
+
+		victory_points = {
+			10747 10
+		}
+
 	     owner = GCO
          buildings = {
              infrastructure = 7

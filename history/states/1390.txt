@@ -6,10 +6,14 @@ state={
 	
 	state_category = megalopolis
 	resources={
-		steel=16 # was: 28
+		steel=16 
 	}
 
 	history={
+		victory_points = {
+			6380 50
+		}
+
 	owner = RUS
 		victory_points = {
 			6380 50 

@@ -4,6 +4,18 @@ state={
     manpower = 1856230
     state_category = large_city
     history = {
+		victory_points = {
+			6496 3
+		}
+
+		victory_points = {
+			3262 5
+		}
+
+		victory_points = {
+			9498 20
+		}
+
     owner = BUR
         buildings = {
             infrastructure = 6

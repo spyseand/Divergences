@@ -4,6 +4,10 @@ state={
     manpower = 212040
     state_category = small_island
     history = {
+		victory_points = {
+			1751 3
+		}
+
     owner = SPA
         buildings = {
             infrastructure = 2

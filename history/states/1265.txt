@@ -5,9 +5,13 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	resources={
-		rubber=55 # was: 94.000
+		rubber=55 
 	}
 	history={
+		victory_points = {
+			4401 3
+		}
+
         owner = FRA
 		buildings = {
 			infrastructure = 3

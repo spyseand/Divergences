@@ -6,6 +6,10 @@ state={
 		victory_points = {
 			1614 1
 		}
+
+		victory_points = {
+			1614 1
+		}
 		owner = TRN
 		buildings = {
 			infrastructure = 3

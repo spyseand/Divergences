@@ -1,12 +1,16 @@
 
 state={
 	id=737
-	name="STATE_1737" # Croatia
+	name="STATE_1737" 
 	manpower = 2224400
 	
 	state_category = large_town
 
 	history={
+		victory_points = {
+			11581 3
+		}
+
 	owner = CRO
 		buildings = {
 			infrastructure = 6

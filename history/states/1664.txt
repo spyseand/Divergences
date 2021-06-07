@@ -6,6 +6,14 @@ state= {
 	state_category = town
 
 	history= {
+		victory_points = {
+			6526 1
+		}
+
+		victory_points = {
+			540 10
+		}
+
 		owner = EGL
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }

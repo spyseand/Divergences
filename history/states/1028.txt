@@ -7,6 +7,18 @@ state={
  	state_category = metropolis
 
  	history = {
+		victory_points = {
+			4887 3
+		}
+
+		victory_points = {
+			10172 5
+		}
+
+		victory_points = {
+			2008 10
+		}
+
  	owner = MEX
  		buildings = {
  			infrastructure = 5

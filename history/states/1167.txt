@@ -7,6 +7,10 @@ state={
  	state_category = pastoral
 
  	history = {
+		victory_points = {
+			853 3
+		}
+
  		owner = DES
  		buildings = {
  			infrastructure = 2

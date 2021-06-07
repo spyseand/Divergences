@@ -3,9 +3,13 @@ state={
 	name="STATE_1636"
 
 	resources={
-		tungsten=10.000 #added due to Portugal Setup
+		tungsten=10.000 
 	}
 	history={
+		victory_points = {
+			3874 1
+		}
+
 		owner = SPA
 		victory_points = {
 			3874 1 

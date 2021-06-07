@@ -1,16 +1,20 @@
 
 state={
 	id=412
-	name="STATE_1412" # Tambov
+	name="STATE_1412" 
 	manpower = 1779583
 	
 	state_category = rural
 	
 	resources={
-		chromium=7 # was: 10
+		chromium=7 
 	}
 
 	history={
+		victory_points = {
+			11351 1
+		}
+
 	owner = RUS
 		buildings = {
 			infrastructure = 4

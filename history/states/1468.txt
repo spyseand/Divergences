@@ -7,6 +7,10 @@ state={
         chromium = 22.5
     }
     history = {
+		victory_points = {
+			721 1
+		}
+
     owner = UKR
         buildings = {
             infrastructure = 3

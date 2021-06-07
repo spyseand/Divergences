@@ -5,6 +5,10 @@ state={
 	state_category = large_town
 	buildings_max_level_factor=1.000
 	history={
+		victory_points = {
+			1150 1
+		}
+
         owner = MAN
 		buildings = {
 			infrastructure = 5

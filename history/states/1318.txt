@@ -4,6 +4,14 @@ state={
     manpower = 96920
     state_category = small_island
     history = {
+		victory_points = {
+			3995 1
+		}
+
+		victory_points = {
+			12140 1
+		}
+
         owner = JAP
         buildings = {
             infrastructure = 2

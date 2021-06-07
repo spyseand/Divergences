@@ -1,11 +1,19 @@
 state= {
 	id=596
-	name="STATE_1596" # Latium
+	name="STATE_1596" 
 	manpower = 2781971
 	
 	state_category = city
 
 	history={
+		victory_points = {
+			11846 5
+		}
+
+		victory_points = {
+			9904 40
+		}
+
 		owner = ITA
 		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }

@@ -4,6 +4,10 @@ state={
     manpower = 51210
     state_category = wasteland
     history = {
+		victory_points = {
+			8038 1
+		}
+
         owner = SCD
         buildings = {
             infrastructure = 1

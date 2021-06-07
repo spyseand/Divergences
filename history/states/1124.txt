@@ -6,6 +6,10 @@ state={
 	}
 
 	history={
+		victory_points = {
+			10856 1
+		}
+
  		owner = TIB
 		buildings = {
 			infrastructure = 1

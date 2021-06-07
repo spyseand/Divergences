@@ -7,10 +7,22 @@ state={
 	state_category = metropolis
 	
 	resources={
-		steel=71 # was: 120
+		steel=71 
 	}
 
 	history={
+		victory_points = {
+			9315 3
+		}
+
+		victory_points = {
+			11297 10
+		}
+
+		victory_points = {
+			9379 15
+		}
+
 		owner = EGL
 		victory_points = {
 			9379 15 

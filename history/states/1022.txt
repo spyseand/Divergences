@@ -7,6 +7,14 @@ state={
  	state_category = town
 
  	history = {
+		victory_points = {
+			10765 5
+		}
+
+		victory_points = {
+			8097 10
+		}
+
  	owner = DES
  		buildings = {
  			infrastructure = 3

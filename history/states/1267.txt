@@ -5,10 +5,14 @@ state={
 	manpower = 7022400
 	state_category = city
 	resources={
-		rubber=8 # was: 10
-		tungsten=2 # was: 2
+		rubber=8 
+		tungsten=2 
 	}
 	history={
+		victory_points = {
+			1488 1
+		}
+
         owner = SIA
 		buildings = {
 			infrastructure = 3

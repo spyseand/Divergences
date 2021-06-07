@@ -11,14 +11,26 @@ state={
 	}
 
 	history={
-	owner = OTT
-		victory_points = { #Plovdiv
-			6923 10
+		victory_points = {
+			9862 1
 		}
-		victory_points = { #Stara Zagora
+
+		victory_points = {
 			6814 3
 		}
-		victory_points = { #Haskovo
+
+		victory_points = {
+			6923 10
+		}
+
+	owner = OTT
+		victory_points = { 
+			6923 10
+		}
+		victory_points = { 
+			6814 3
+		}
+		victory_points = { 
 			9862 1
 		}
 		buildings = {

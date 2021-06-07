@@ -8,6 +8,10 @@ state={
         aluminium = 23.8
     }
     history = {
+		victory_points = {
+			11531 5
+		}
+
     owner = BUR
         buildings = {
             infrastructure = 7

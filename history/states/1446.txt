@@ -9,6 +9,10 @@ state={
 	}
 
 	history={
+		victory_points = {
+			1591 3
+		}
+
 		owner = TRN
 		buildings = {
 			infrastructure = 3

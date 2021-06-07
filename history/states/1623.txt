@@ -7,6 +7,14 @@ state={
         steel = 10.8
     }
     history = {
+		victory_points = {
+			11499 3
+		}
+
+		victory_points = {
+			9517 20
+		}
+
     owner = BAY
         buildings = {
             infrastructure = 8

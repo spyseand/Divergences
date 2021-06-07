@@ -6,6 +6,10 @@ state={
 	state_category = megalopolis
 
 	history={
+		victory_points = {
+			6103 50
+		}
+
 		owner = EGL
 		victory_points = {
 			6103 50 

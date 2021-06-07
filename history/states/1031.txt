@@ -7,6 +7,14 @@ state={
  	state_category = large_town
 
  	history = {
+		victory_points = {
+			2021 3
+		}
+
+		victory_points = {
+			10889 1
+		}
+
  	owner = MEX
  		buildings = {
  			infrastructure = 4

@@ -4,6 +4,10 @@ state={
     manpower = 1648510
     state_category = pastoral
     history = {
+		victory_points = {
+			12830 1
+		}
+
         owner = FRA
         buildings = {
             infrastructure = 2

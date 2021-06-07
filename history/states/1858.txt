@@ -4,6 +4,18 @@ state={
     manpower = 1
     state_category = town
     history = {
+		victory_points = {
+			12832 1
+		}
+
+		victory_points = {
+			7982 3
+		}
+
+		victory_points = {
+			8117 3
+		}
+
         owner = PER
         buildings = {
             infrastructure = 1

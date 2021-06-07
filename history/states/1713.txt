@@ -7,6 +7,14 @@ state={
         oil = 6
     }
     history = {
+		victory_points = {
+			11561 1
+		}
+
+		victory_points = {
+			11437 10
+		}
+
     owner = UKR
         buildings = {
             infrastructure = 5

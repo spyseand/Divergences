@@ -4,12 +4,20 @@ state={
 	name="STATE_1677"
 	manpower = 1520500
 	resources={
-		steel=1 # was: 2
+		steel=1 
 	}
 	
 	state_category = city
 	
 	history={
+		victory_points = {
+			310 1
+		}
+
+		victory_points = {
+			9340 5
+		}
+
 		owner = EST
 		victory_points = {
 			9340 5 

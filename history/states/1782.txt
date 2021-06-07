@@ -4,6 +4,18 @@ state={
 	name="STATE_1782"
 
 	history={
+		victory_points = {
+			876 1
+		}
+
+		victory_points = {
+			9860 1
+		}
+
+		victory_points = {
+			11853 3
+		}
+
 	owner = OTT
 		victory_points = {
 			11853 3

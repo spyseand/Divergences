@@ -4,6 +4,10 @@ state={
     manpower = 1
     state_category = town
     history = {
+		victory_points = {
+			12727 5
+		}
+
         owner = ARB
         buildings = {
             infrastructure = 1

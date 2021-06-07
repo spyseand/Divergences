@@ -7,6 +7,10 @@ state={
 	state_category = metropolis
 
 	history={
+		victory_points = {
+			3151 30
+		}
+
 	owner = RUS
 		victory_points = {
 			3151 30.0

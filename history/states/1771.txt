@@ -4,12 +4,20 @@ state={
 	name="STATE_1771"
 	manpower = 1077853
 	resources={
-		chromium=39 # was: 54
+		chromium=39 
 	}
 
 	state_category = town
 
 	history={
+		victory_points = {
+			9799 5
+		}
+
+		victory_points = {
+			947 10
+		}
+
 	owner = OTT
 		buildings = {
 			infrastructure = 4

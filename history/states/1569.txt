@@ -5,9 +5,13 @@ state={
 	manpower = 1454711
 	state_category = city
 	resources={
-		aluminium=15 # was: 24
+		aluminium=15 
 	}
 	history={
+		victory_points = {
+			663 10
+		}
+
 	owner = SWI
 		buildings = {
 			infrastructure = 6

@@ -1,11 +1,19 @@
 
 state={
 	id=784
-	name="STATE_1784" # Kastamonu
+	name="STATE_1784" 
 	manpower = 860589
 	state_category = rural
 
 	history={
+		victory_points = {
+			6995 3
+		}
+
+		victory_points = {
+			6938 10
+		}
+
 	owner = OTT
 		victory_points = {
 			6938 10

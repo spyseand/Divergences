@@ -4,6 +4,14 @@ state={
     manpower = 344780
     state_category = wasteland
     history = {
+		victory_points = {
+			5068 1
+		}
+
+		victory_points = {
+			10833 1
+		}
+
         owner = PLC
         buildings = {
             infrastructure = 1

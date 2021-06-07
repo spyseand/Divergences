@@ -1,78 +1,54 @@
 ﻿
 focus_tree = {
-	id = french_focus
+	id = england_focus
 	
 	country = {
 		factor = 0
 		modifier = {
-			tag = FRA
 			add = 10
+			tag = EGL
 		}
 	}
 	
-	default = no
 	reset_on_civilwar = no
 
-	############# Early WW2 Set up
+	###WW2 SETUP
 
 	focus = {
-		id = FRA_revolutionary_pact
-		icon = GFX_dasdasd
+		id = EGL_guarantee_hannover
+		icon = GFX_goal_unknown
 		x = 18
 		y = 6
-		cost = 5
-		
-		available_if_capitulated = yes
-
-		available = {
-			date > 1936.10.01
-		}
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
 		}
 
+		available = {
+			FRA = {
+				has_completed_focus = FRA_partition_burgundy
+			}
+		}
+		
+		available_if_capitulated = yes
+
 		completion_reward = {
-			create_faction = "Revolutionary Pact"
-			add_to_faction = BAY
+			give_guarantee = HAN
+			HAN = {
+				give_guarantee = EGL
+			}
 		}
 	}
 
 	focus = {
-		id = FRA_partition_burgundy
-		icon = GFX_adsdasdad
+		id = EGL_spanish_alliance
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_revolutionary_pact }
-		relative_position_id = FRA_revolutionary_pact
-		
-		available_if_capitulated = yes
-
-		available = {
-			date > 1937.03.01
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			country_event = {
-				id = earlysetup.1
-				days = 1
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_merge_revolutions
-		icon = GFX_adsdasdad
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_partition_burgundy }
-		relative_position_id = FRA_partition_burgundy
+		prerequisite = { focus = EGL_guarantee_hannover }
+		relative_position_id = EGL_guarantee_hannover
 		
 		available_if_capitulated = yes
 
@@ -81,128 +57,20 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			hidden_effect = {
-				580 = {
-					add_core_of = FRA
-				}
-				589 = {
-					add_core_of = FRA
-				}
-				579 = {
-					add_core_of = FRA
-				}
-				578 = {
-					add_core_of = FRA
-				}
-				1008 = {
-					add_core_of = FRA
-				}
-				574 = {
-					add_core_of = FRA
-				}
-				575 = {
-					add_core_of = FRA
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 990
-						}
-					}
-					990 = {
-						add_core_of = FRA
-					}
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 1007
-						}
-					}
-					1007 = {
-						add_core_of = FRA
-					}
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 576
-						}
-					}
-					576 = {
-						add_core_of = FRA
-					}
-				}
-			}
-			custom_effect_tooltip = tt_FRA_merge_revolution
-		}
-	}
-
-	focus = {
-		id = FRA_bring_the_celts_in
-		icon = GFX_adsdasdad
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_partition_burgundy }
-		relative_position_id = FRA_partition_burgundy
-		
-		available_if_capitulated = yes
-
-		available = {
-			has_war_with = EGL
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			add_to_faction = CNU
-			CNU = {
-				add_ai_strategy = {
-					type = alliance
-					id = FRA
-					value = 200
+			SPA = {
+				add_to_war = {
+					targeted_alliance = EGL
+					enemy = FRA
+					hostility_reason = asked_to_join
 				}
 			}
 		}
 	}
-
-	focus = {
-		id = FRA_pangerman_campaign
-		icon = GFX_adsdasdad
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_merge_revolutions }
-		relative_position_id = FRA_merge_revolutions
-		
-		available_if_capitulated = yes
-
-		available = {
-			OR = {
-				has_war_with = HAN
-				has_war_with = TYK
-				has_war_with = AUS
-			}
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			add_ideas = FRA_pangerman_campaign
-		}
-	}
-
-	##############
 
 	###Generic Military Tree
 
 	focus = {
-		id = FRA_increase_military_spending
+		id = EGL_increase_military_spending
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 4
 		y = 0
@@ -222,13 +90,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_motorized_research
+		id = EGL_motorized_research
 		icon = GFX_goal_generic_army_motorized
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_increase_military_spending }
-		relative_position_id = FRA_increase_military_spending
+		prerequisite = { focus = EGL_increase_military_spending }
+		relative_position_id = EGL_increase_military_spending
 		
 		available_if_capitulated = yes
 
@@ -248,13 +116,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_armor_effort
+		id = EGL_armor_effort
 		icon = GFX_goal_generic_army_tanks
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_motorized_research }
-		relative_position_id = FRA_motorized_research
+		prerequisite = { focus = EGL_motorized_research }
+		relative_position_id = EGL_motorized_research
 		
 		available_if_capitulated = yes
 
@@ -270,13 +138,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_heavier_armor
+		id = EGL_heavier_armor
 		icon = GFX_focus_generic_tank_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_armor_effort }
-		relative_position_id = FRA_armor_effort
+		prerequisite = { focus = EGL_armor_effort }
+		relative_position_id = EGL_armor_effort
 		
 		available_if_capitulated = yes
 
@@ -293,13 +161,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_mechanized_effort
+		id = EGL_mechanized_effort
 		icon = GFX_goal_generic_production2
 		x = 1
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_motorized_research }
-		relative_position_id = FRA_motorized_research
+		prerequisite = { focus = EGL_motorized_research }
+		relative_position_id = EGL_motorized_research
 		
 		available_if_capitulated = yes
 
@@ -315,13 +183,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_armored_car
+		id = EGL_armored_car
 		icon = GFX_focus_chi_army_reform
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_mechanized_effort }
-		relative_position_id = FRA_mechanized_effort
+		prerequisite = { focus = EGL_mechanized_effort }
+		relative_position_id = EGL_mechanized_effort
 		
 		available_if_capitulated = yes
 
@@ -339,33 +207,33 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_modern_war
+		id = EGL_modern_war
 		icon = GFX_focus_generic_combined_arms
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_armored_car }
-		prerequisite = { focus = FRA_heavier_armor }
-		relative_position_id = FRA_heavier_armor
+		prerequisite = { focus = EGL_armored_car }
+		prerequisite = { focus = EGL_heavier_armor }
+		relative_position_id = EGL_heavier_armor
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			army_experience = 25
 			add_ideas = {
-				FRA_modern_war
+				EGL_modern_war
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_infantry_research
+		id = EGL_infantry_research
 		icon = GFX_goal_generic_small_arms
 		x = 2
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_increase_military_spending }
-		relative_position_id = FRA_increase_military_spending
+		prerequisite = { focus = EGL_increase_military_spending }
+		relative_position_id = EGL_increase_military_spending
 		
 		available_if_capitulated = yes
 
@@ -381,13 +249,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_doctrine_research
+		id = EGL_doctrine_research
 		icon = GFX_goal_generic_build_tank
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_infantry_research }
-		relative_position_id = FRA_infantry_research
+		prerequisite = { focus = EGL_infantry_research }
+		relative_position_id = EGL_infantry_research
 		
 		available_if_capitulated = yes
 
@@ -403,13 +271,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_doctrine_research2
+		id = EGL_doctrine_research2
 		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_doctrine_research }
-		relative_position_id = FRA_doctrine_research
+		prerequisite = { focus = EGL_doctrine_research }
+		relative_position_id = EGL_doctrine_research
 		
 		available_if_capitulated = yes
 
@@ -425,13 +293,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_artillery_improvements
+		id = EGL_artillery_improvements
 		icon = GFX_goal_generic_army_artillery2
 		x = 1
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_infantry_research }
-		relative_position_id = FRA_infantry_research
+		prerequisite = { focus = EGL_infantry_research }
+		relative_position_id = EGL_infantry_research
 		
 		available_if_capitulated = yes
 
@@ -447,13 +315,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_support_equipment
+		id = EGL_support_equipment
 		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_artillery_improvements }
-		relative_position_id = FRA_artillery_improvements
+		prerequisite = { focus = EGL_artillery_improvements }
+		relative_position_id = EGL_artillery_improvements
 		
 		available_if_capitulated = yes
 
@@ -470,21 +338,21 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_bolstered_army
+		id = EGL_bolstered_army
 		icon = GFX_focus_generic_little_entente
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_doctrine_research2 }
-		prerequisite = { focus = FRA_support_equipment }
-		relative_position_id = FRA_doctrine_research2
+		prerequisite = { focus = EGL_doctrine_research2 }
+		prerequisite = { focus = EGL_support_equipment }
+		relative_position_id = EGL_doctrine_research2
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			army_experience = 25
 			add_ideas = {
-				FRA_bolstered_army
+				EGL_bolstered_army
 			}
 		}
 	}
@@ -492,7 +360,7 @@ focus_tree = {
 	###Generic Air Tree
 
 	focus = {
-		id = FRA_air_investments
+		id = EGL_air_investments
 		icon = GFX_goal_generic_air_doctrine
 		x = 11
 		y = 0
@@ -512,13 +380,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_airport_construction
+		id = EGL_airport_construction
 		icon = GFX_goal_generic_construction2
 		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_air_investments }
-		relative_position_id = FRA_air_investments
+		prerequisite = { focus = EGL_air_investments }
+		relative_position_id = EGL_air_investments
 		
 		available_if_capitulated = yes
 
@@ -548,13 +416,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_air_doctrine
+		id = EGL_air_doctrine
 		icon = GFX_goal_generic_CAS
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_airport_construction }
-		relative_position_id = FRA_airport_construction
+		prerequisite = { focus = EGL_airport_construction }
+		relative_position_id = EGL_airport_construction
 		
 		available_if_capitulated = yes
 
@@ -570,13 +438,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_radar_investments
+		id = EGL_radar_investments
 		icon = GFX_goal_generic_radar
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_air_doctrine }
-		relative_position_id = FRA_air_doctrine
+		prerequisite = { focus = EGL_air_doctrine }
+		relative_position_id = EGL_air_doctrine
 		
 		available_if_capitulated = yes
 
@@ -592,13 +460,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_fighter_development
+		id = EGL_fighter_development
 		icon = GFX_goal_generic_air_fighter
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_air_investments }
-		relative_position_id = FRA_air_investments
+		prerequisite = { focus = EGL_air_investments }
+		relative_position_id = EGL_air_investments
 		
 		available_if_capitulated = yes
 
@@ -614,13 +482,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_CAS_development
+		id = EGL_CAS_development
 		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_fighter_development }
-		relative_position_id = FRA_fighter_development
+		prerequisite = { focus = EGL_fighter_development }
+		relative_position_id = EGL_fighter_development
 		
 		available_if_capitulated = yes
 
@@ -637,13 +505,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_improved_fighters
+		id = EGL_improved_fighters
 		icon = GFX_goal_generic_air_fighter2
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_CAS_development }
-		relative_position_id = FRA_CAS_development
+		prerequisite = { focus = EGL_CAS_development }
+		relative_position_id = EGL_CAS_development
 		
 		available_if_capitulated = yes
 
@@ -660,14 +528,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_experimental_air_research
+		id = EGL_experimental_air_research
 		icon = GFX_focus_rocketry
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_radar_investments }
-		prerequisite = { focus = FRA_improved_fighters }
-		relative_position_id = FRA_radar_investments
+		prerequisite = { focus = EGL_radar_investments }
+		prerequisite = { focus = EGL_improved_fighters }
+		relative_position_id = EGL_radar_investments
 		
 		available_if_capitulated = yes
 
@@ -684,13 +552,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_bomber_development
+		id = EGL_bomber_development
 		icon = GFX_goal_generic_air_bomber
 		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_fighter_development }
-		relative_position_id = FRA_fighter_development
+		prerequisite = { focus = EGL_fighter_development }
+		relative_position_id = EGL_fighter_development
 		
 		available_if_capitulated = yes
 
@@ -710,7 +578,7 @@ focus_tree = {
 	###Generic Naval Tree
 
 	focus = {
-		id = FRA_naval_infrastructure
+		id = EGL_naval_infrastructure
 		icon = GFX_goal_generic_build_navy
 		x = 18
 		y = 0
@@ -752,13 +620,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_battleship_research
+		id = EGL_battleship_research
 		icon = GFX_focus_generic_navy_battleship2
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_naval_infrastructure }
-		relative_position_id = FRA_naval_infrastructure
+		prerequisite = { focus = EGL_naval_infrastructure }
+		relative_position_id = EGL_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -774,13 +642,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_carrier_fleet
+		id = EGL_carrier_fleet
 		icon = GFX_goal_generic_navy_carrier
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_battleship_research }
-		relative_position_id = FRA_battleship_research
+		prerequisite = { focus = EGL_battleship_research }
+		relative_position_id = EGL_battleship_research
 		
 		available_if_capitulated = yes
 
@@ -796,14 +664,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_naval_bomber_tech
+		id = EGL_naval_bomber_tech
 		icon = GFX_goal_generic_air_naval_bomber
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_bomber_development }
-		prerequisite = { focus = FRA_carrier_fleet }
-		relative_position_id = FRA_carrier_fleet
+		prerequisite = { focus = EGL_bomber_development }
+		prerequisite = { focus = EGL_carrier_fleet }
+		relative_position_id = EGL_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -820,13 +688,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_destroyer_research
+		id = EGL_destroyer_research
 		icon = GFX_focus_generic_destroyer
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_naval_infrastructure }
-		relative_position_id = FRA_naval_infrastructure
+		prerequisite = { focus = EGL_naval_infrastructure }
+		relative_position_id = EGL_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -842,13 +710,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_cruiser_tech
+		id = EGL_cruiser_tech
 		icon = GFX_focus_generic_cruiser2
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_destroyer_research }
-		relative_position_id = FRA_destroyer_research
+		prerequisite = { focus = EGL_destroyer_research }
+		relative_position_id = EGL_destroyer_research
 		
 		available_if_capitulated = yes
 
@@ -864,13 +732,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_submarine_tech
+		id = EGL_submarine_tech
 		icon = GFX_goal_generic_navy_submarine
 		x = 2
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_naval_infrastructure }
-		relative_position_id = FRA_naval_infrastructure
+		prerequisite = { focus = EGL_naval_infrastructure }
+		relative_position_id = EGL_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -886,13 +754,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_renovate_naval_department
+		id = EGL_renovate_naval_department
 		icon = GFX_goal_generic_scientific_exchange
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_submarine_tech }
-		relative_position_id = FRA_submarine_tech
+		prerequisite = { focus = EGL_submarine_tech }
+		relative_position_id = EGL_submarine_tech
 		
 		available_if_capitulated = yes
 
@@ -908,13 +776,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_heavy_dockyard_investments
+		id = EGL_heavy_dockyard_investments
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_carrier_fleet focus = FRA_cruiser_tech focus = FRA_renovate_naval_department }
-		relative_position_id = FRA_carrier_fleet
+		prerequisite = { focus = EGL_carrier_fleet focus = EGL_cruiser_tech focus = EGL_renovate_naval_department }
+		relative_position_id = EGL_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -963,13 +831,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_modern_doctrines
+		id = EGL_modern_doctrines
 		icon = GFX_goal_generic_amphibious_assault
 		x = 3
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_carrier_fleet focus = FRA_cruiser_tech focus = FRA_renovate_naval_department }
-		relative_position_id = FRA_carrier_fleet
+		prerequisite = { focus = EGL_carrier_fleet focus = EGL_cruiser_tech focus = EGL_renovate_naval_department }
+		relative_position_id = EGL_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -985,14 +853,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_global_contender
+		id = EGL_global_contender
 		icon = GFX_focus_generic_support_the_left_right
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_heavy_dockyard_investments }
-		prerequisite = { focus = FRA_modern_doctrines }
-		relative_position_id = FRA_heavy_dockyard_investments
+		prerequisite = { focus = EGL_heavy_dockyard_investments }
+		prerequisite = { focus = EGL_modern_doctrines }
+		relative_position_id = EGL_heavy_dockyard_investments
 		
 		available_if_capitulated = yes
 
@@ -1004,7 +872,7 @@ focus_tree = {
 				category = naval_doctrine
 			}
 			add_ideas = {
-				FRA_global_contender
+				EGL_global_contender
 			}
 		}
 	}
@@ -1012,7 +880,7 @@ focus_tree = {
 	###Generic Industrial Tree
 
 	focus = {
-		id = FRA_industrial_efforts
+		id = EGL_industrial_efforts
 		icon = GFX_focus_generic_industry_1
 		x = 25
 		y = 0
@@ -1030,19 +898,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				FRA_construction_boost
+				EGL_construction_boost
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_infrastructure_expansion
+		id = EGL_infrastructure_expansion
 		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_industrial_efforts }
-		relative_position_id = FRA_industrial_efforts
+		prerequisite = { focus = EGL_industrial_efforts }
+		relative_position_id = EGL_industrial_efforts
 		
 		available_if_capitulated = yes
 
@@ -1067,13 +935,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_expand_armament_production
+		id = EGL_expand_armament_production
 		icon = GFX_goal_generic_construct_mil_factory
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = FRA_infrastructure_expansion }
-		relative_position_id = FRA_infrastructure_expansion
+		prerequisite = { focus = EGL_infrastructure_expansion }
+		relative_position_id = EGL_infrastructure_expansion
 		
 		available_if_capitulated = yes
 
@@ -1090,13 +958,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_further_armament_investments
+		id = EGL_further_armament_investments
 		icon = GFX_focus_generic_tank_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_expand_armament_production }
-		relative_position_id = FRA_expand_armament_production
+		prerequisite = { focus = EGL_expand_armament_production }
+		relative_position_id = EGL_expand_armament_production
 		
 		available_if_capitulated = yes
 
@@ -1121,13 +989,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_modern_tools
+		id = EGL_modern_tools
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_infrastructure_expansion }
-		relative_position_id = FRA_infrastructure_expansion
+		prerequisite = { focus = EGL_infrastructure_expansion }
+		relative_position_id = EGL_infrastructure_expansion
 		
 		available_if_capitulated = yes
 
@@ -1152,14 +1020,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_new_research_facilities
+		id = EGL_new_research_facilities
 		icon = GFX_focus_research
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_modern_tools }
-		prerequisite = { focus = FRA_massive_industrial_investments }
-		relative_position_id = FRA_modern_tools
+		prerequisite = { focus = EGL_modern_tools }
+		prerequisite = { focus = EGL_massive_industrial_investments }
+		relative_position_id = EGL_modern_tools
 		
 		available_if_capitulated = yes
 
@@ -1169,13 +1037,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_expand_civilian_sector
+		id = EGL_expand_civilian_sector
 		icon = GFX_focus_generic_industry_2
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_industrial_efforts }
-		relative_position_id = FRA_industrial_efforts
+		prerequisite = { focus = EGL_industrial_efforts }
+		relative_position_id = EGL_industrial_efforts
 		
 		available_if_capitulated = yes
 
@@ -1192,13 +1060,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_massive_industrial_investments
+		id = EGL_massive_industrial_investments
 		icon = GFX_focus_generic_industry_3
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_expand_civilian_sector }
-		relative_position_id = FRA_expand_civilian_sector
+		prerequisite = { focus = EGL_expand_civilian_sector }
+		relative_position_id = EGL_expand_civilian_sector
 		
 		available_if_capitulated = yes
 
@@ -1224,13 +1092,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_modern_infrastructure
+		id = EGL_modern_infrastructure
 		icon = GFX_focus_generic_steel
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_new_research_facilities }
-		relative_position_id = FRA_new_research_facilities
+		prerequisite = { focus = EGL_new_research_facilities }
+		relative_position_id = EGL_new_research_facilities
 		
 		available_if_capitulated = yes
 
@@ -1259,13 +1127,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_final_armament_improvements
+		id = EGL_final_armament_improvements
 		icon = GFX_focus_generic_army_tanks2
 		x = -2
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_modern_infrastructure }
-		relative_position_id = FRA_modern_infrastructure
+		prerequisite = { focus = EGL_modern_infrastructure }
+		relative_position_id = EGL_modern_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -1279,19 +1147,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				FRA_armament_effort
+				EGL_armament_effort
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_further_resource_exploitation
+		id = EGL_further_resource_exploitation
 		icon = GFX_goal_generic_construction2
 		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_modern_infrastructure }
-		relative_position_id = FRA_modern_infrastructure
+		prerequisite = { focus = EGL_modern_infrastructure }
+		relative_position_id = EGL_modern_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -1309,19 +1177,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				FRA_resource_exploitation
+				EGL_resource_exploitation
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_modern_R&D
+		id = EGL_modern_R&D
 		icon = GFX_focus_research2
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_modern_infrastructure }
-		relative_position_id = FRA_modern_infrastructure
+		prerequisite = { focus = EGL_modern_infrastructure }
+		relative_position_id = EGL_modern_infrastructure
 		
 		available = {
 			num_of_factories > 49
@@ -1335,14 +1203,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_experimental_electronics
+		id = EGL_experimental_electronics
 		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_final_armament_improvements }
-		prerequisite = { focus = FRA_modern_R&D }
-		relative_position_id = FRA_final_armament_improvements
+		prerequisite = { focus = EGL_final_armament_improvements }
+		prerequisite = { focus = EGL_modern_R&D }
+		relative_position_id = EGL_final_armament_improvements
 
 		available_if_capitulated = yes
 
@@ -1354,7 +1222,7 @@ focus_tree = {
 				category = electronics
 			}
 			add_ideas = {
-				FRA_research_bonus
+				EGL_research_bonus
 			}
 		}
 	}
@@ -1362,308 +1230,295 @@ focus_tree = {
 	###Generic Political Tree
 
 	focus = {
-		id = FRA_revolutionism
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 11
+		id = EGL_status_quo
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 12
 		y = 6
 		cost = 10
 
-		ai_will_do = {
-			factor = 100
+		mutually_exclusive = {
+			focus = EGL_revolutionism
 		}
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_stability = -0.1
-			add_political_power = 100
+			add_stability = 0.1
+			add_political_power = -50
+		}
+	}
+
+#####STATUS QUO
+
+	focus = {
+		id = EGL_reaffirm_our_values
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_status_quo }
+		relative_position_id = EGL_status_quo
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = autocracy
+				}
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = liberalism
+				}
+				add_popularity = {
+					ideology = liberalism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = conservatism
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = authoritarian_democracy
+				}
+				add_popularity = {
+					ideology = authoritarian_democracy
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = social_democracy
+				}
+				add_popularity = {
+					ideology = social_democracy
+					popularity = 0.2
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = FRA_support_the_national_revolution
-		icon = GFX_focus_generic_support_the_left_right
-		x = -1
+		id = EGL_crush_revolutionaries
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_revolutionism }
-		relative_position_id = FRA_revolutionism
-
-		ai_will_do = {
-			factor = 100
-		}
+		prerequisite = { focus = EGL_status_quo }
+		relative_position_id = EGL_status_quo
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_popularity = {
 				ideology = vanguard_socialism
-				popularity = 0.05
+				popularity = -0.05
 			}
 			add_popularity = {
 				ideology = authoritarian_socialism
-				popularity = 0.05
+				popularity = -0.05
 			}
 			add_popularity = {
 				ideology = libertarian_socialism
-				popularity = 0.05
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_dismantle_old_institutions
-		icon = GFX_focus_generic_self_management
+		id = EGL_the_iron_gauntlet
+		icon = GFX_goal_demand_sudetenland
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_revolutionism }
-		relative_position_id = FRA_revolutionism
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 150
-			add_stability = -0.05
-		}
-	}
-
-	focus = {
-		id = FRA_out_with_the_old
-		icon = GFX_focus_rom_parties_end
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_dismantle_old_institutions }
-		prerequisite = { focus = FRA_support_the_national_revolution }
-		relative_position_id = FRA_dismantle_old_institutions
-
-		ai_will_do = {
-			factor = 100
-		}
+		prerequisite = { focus = EGL_crush_revolutionaries }
+		prerequisite = { focus = EGL_reaffirm_our_values }
+		relative_position_id = EGL_reaffirm_our_values
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			country_event = {
-				id = fra.1
+				id = england.1
 				days = 0
 			}
 		}
 	}
 
 	focus = {
-		id = FRA_in_with_the_new
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		id = EGL_peace_and_order
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_out_with_the_old }
-		relative_position_id = FRA_out_with_the_old
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = {
-					has_government = vanguard_socialism
-				}
-				add_popularity = {
-					ideology = vanguard_socialism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = authoritarian_socialism
-				}
-				add_popularity = {
-					ideology = authoritarian_socialism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = libertarian_socialism
-				}
-				add_popularity = {
-					ideology = libertarian_socialism
-					popularity = 0.2
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_turn_it_left
-		icon = GFX_goal_support_communism
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_in_with_the_new }
-		relative_position_id = FRA_in_with_the_new
-
-		available = {
-			OR = {
-				has_government = vanguard_socialism
-				has_government = authoritarian_socialism
-				has_govenrment = libertarian_socialism
-			}
-		}
-
-		mutually_exclusive = {
-			focus = FRA_turn_it_right
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = FRA_four_year_plan
-				days = 1460
-			}
-		}
-	}
-	
-	focus = {
-		id = FRA_international_revoluton
-		icon = GFX_focus_por_workers_of_iberia
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_turn_it_left }
-		relative_position_id = FRA_turn_it_left
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = FRA_interventionism
-		}
-	}
-
-	focus = {
-		id = FRA_direct_interference
-		icon = GFX_focus_spr_anarchism_knows_no_borders
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_international_revoluton }
-		relative_position_id = FRA_international_revoluton
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				add_idea = FRA_revolutionary_ideals
-				remove_idea = FRA_interventionism
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_union_empowerment
-		icon = GFX_focus_usa_union_representation_act
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_turn_it_left }
-		relative_position_id = FRA_turn_it_left
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = FRA_union_rights_protected
-		}
-	}
-
-	focus = {
-		id = FRA_socialist_economics
-		icon = GFX_focus_generic_soviet_politics
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_union_empowerment }
-		relative_position_id = FRA_union_empowerment
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = FRA_socialist_economics
-		}
-	}
-
-	focus = {
-		id = FRA_expand_welfare_state
-		icon = GFX_focus_generic_concessions
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_union_empowerment }
-		relative_position_id = FRA_union_empowerment
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				add_idea = FRA_welfare_state
-				remove_idea = FRA_union_rights_protected
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_unified_research_base
-		icon = GFX_focus_generic_socialist_science
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_expand_welfare_state }
-		prerequisite = { focus = FRA_socialist_economics }
-		relative_position_id = FRA_socialist_economics
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = FRA_united_research_base
-		}
-	}
-
-	focus = {
-		id = FRA_promote_the_revolution
-		icon = GFX_focus_generic_join_comintern
-		x = -4
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_turn_it_left }
-		relative_position_id = FRA_turn_it_left
+		prerequisite = { focus = EGL_the_iron_gauntlet }
+		relative_position_id = EGL_the_iron_gauntlet
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_stability = 0.1
-			add_war_support = 0.1
-			add_political_power = 75
+			add_political_power = 50
 		}
 	}
 
 	focus = {
-		id = FRA_revolutionary_militias
-		icon = GFX_focus_prc_agrarian_socialism
-		x = 0
+		id = EGL_global_order
+		icon = GFX_goal_tripartite_pact
+		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_promote_the_revolution }
-		relative_position_id = FRA_promote_the_revolution
+		prerequisite = { focus = EGL_peace_and_order }
+		relative_position_id = EGL_peace_and_order
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = FRA_revolutionary_militia
+			add_ideas = EGL_globalisation
 		}
 	}
 
+	focus = {
+		id = EGL_defending_our_interests
+		icon = GFX_focus_secret_rearmament
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_global_order }
+		relative_position_id = EGL_global_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_interventionism
+		}
+	}
+
+	focus = {
+		id = EGL_join_the_anti_french_coalition
+		icon = GFX_focus_attack_france
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_defending_our_interests }
+		relative_position_id = EGL_defending_our_interests
+
+		available = {
+			SCD = {
+				is_faction_leader = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			SCD = {
+				add_to_faction = ROOT
+			}
+			add_ai_strategy = {
+				type = alliance
+				id = SCD
+				value = 200
+			}
+		}
+	}
+
+	focus = {
+		id = EGL_capitalist_economics
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_peace_and_order }
+		relative_position_id = EGL_peace_and_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_capitalist_economics
+		}
+	}
+
+	focus = {
+		id = EGL_expand_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_capitalist_economics }
+		prerequisite = { focus = EGL_global_order }
+		relative_position_id = EGL_capitalist_economics
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = free_trade
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = EGL_privatisation
+		icon = GFX_focus_mex_privatisation
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_expand_trade }
+		relative_position_id = EGL_expand_trade
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_privatisation
+		}
+	}
+
+	focus = {
+		id = EGL_international_diplomacy
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_peace_and_order }
+		relative_position_id = EGL_peace_and_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = EGL_foreign_exchange_program
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = EGL_international_diplomacy }
+		relative_position_id = EGL_international_diplomacy
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_foreign_scientists
+		}
+	}
+	
 }

@@ -1,5 +1,8 @@
 ﻿capital = 521
 
+puppet = TYK
+puppet = EST
+
 OOB = "SCD_1936"
 
 set_research_slots = 4

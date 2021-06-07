@@ -1,6 +1,6 @@
 ﻿
 focus_tree = {
-	id = generic_focus
+	id = scandinavia_focus
 	
 	country = {
 		factor = 0
@@ -10,7 +10,6 @@ focus_tree = {
 		}
 	}
 	
-	default = yes
 	reset_on_civilwar = no
 
 	####WW2 SETUP

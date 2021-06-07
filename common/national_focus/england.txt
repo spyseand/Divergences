@@ -21,6 +21,10 @@ focus_tree = {
 		y = 6
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		available = {
 			FRA = {
 				has_completed_focus = FRA_partition_burgundy
@@ -48,11 +52,17 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		completion_reward = {
-			add_to_war = {
-				targeted_alliance = EGL
-				enemy = FRA
-				hostility_reason = asked_to_join
+			SPA = {
+				add_to_war = {
+					targeted_alliance = EGL
+					enemy = FRA
+					hostility_reason = asked_to_join
+				}
 			}
 		}
 	}

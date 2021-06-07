@@ -23,6 +23,16 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		available = {
+			EGL = {
+				has_war_with = FRA
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
 		completion_reward = {
 			create_faction = "The Coalition"
 			add_to_faction = EGL
@@ -52,6 +62,10 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = SCD_the_anti_french_coalition }
 		relative_position_id = SCD_the_anti_french_coalition
+
+		ai_will_do = {
+			factor = 100
+		}
 		
 		available = {
 			SPA = {
@@ -81,6 +95,10 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = SCD_the_anti_french_coalition }
 		relative_position_id = SCD_the_anti_french_coalition
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		available_if_capitulated = yes
 

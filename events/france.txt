@@ -1,0 +1,50 @@
+add_namespace = fra
+
+country_event = {
+	id = fra.1
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fra.1.a
+		set_politics = {
+			ruling_party = vanguard_socialism
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = vanguard_socialism
+			popularity = 0.2
+		}
+	}
+	option = {
+		name = fra.1.b
+		set_politics = {
+			ruling_party = authoritarian_socialism
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = 0.2
+		}
+	}
+	option = {
+		name = fra.1.c
+		set_politics = {
+			ruling_party = libertarian_socialism
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = libertarian_socialism
+			popularity = 0.2
+		}
+	}
+}

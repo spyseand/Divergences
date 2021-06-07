@@ -1,0 +1,24 @@
+add_namespace = scandinavia
+
+country_event = {
+	id = scandinavia.1
+	title = scandinavia.1.t
+	desc = scandinavia.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scandinavia.1.a
+		set_politics = {
+			ruling_party = authoritarian_democracy
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = authoritarian_democracy
+			popularity = 0.2
+		}
+	}
+}

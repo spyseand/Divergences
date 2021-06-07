@@ -1,0 +1,24 @@
+add_namespace = england
+
+country_event = {
+	id = england.1
+	title = england.1.t
+	desc = england.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = england.1.a
+		set_politics = {
+			ruling_party = autocracy
+        	elections_allowed = no
+        	last_election = "1935.12.17"
+        	election_frequency = 48
+		}
+		add_popularity = {
+			ideology = autocracy
+			popularity = 0.2
+		}
+	}
+}

@@ -245,3 +245,45 @@ country_event = {
 		name = earlysetup.7.a
 	}
 }
+
+country_event = {
+	id = earlysetup.8
+	title = earlysetup.8.t
+	desc = earlysetup.8.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = earlysetup.8.a
+		ai_chance = {
+			factor = 0
+		}
+		BAY = {
+			create_wargoal = {
+				type = annex_everything
+				target = BOH
+			}
+		}
+	}
+
+	option = {
+		name = earlysetup.8.b
+		ai_chance = {
+			factor = 1
+		}
+		BAY = {
+			transfer_state = 565
+			transfer_state = 566
+			transfer_state = 567
+		}
+		FRA = {
+			add_to_faction = BOH
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = FRA
+			value = 200
+		}
+	}
+}

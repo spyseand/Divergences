@@ -71,6 +71,6 @@ country_event = {
 	
 	option = {
 		name = fra.2.a
-		release = CON
+		release = COG
 	}
 }

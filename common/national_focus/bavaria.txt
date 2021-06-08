@@ -209,6 +209,29 @@ focus_tree = {
 	}
 
 	focus = {
+		id = BAY_end_the_commonwealth
+		icon = GFX_dasdasd
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = BAY_demand_silesia }
+		relative_position_id = BAY_demand_silesia
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = PLC
+			}
+		}
+	}
+
+	focus = {
 		id = BAY_expel_imperials
 		icon = GFX_dasdasd
 		x = -1
@@ -227,6 +250,29 @@ focus_tree = {
 			create_wargoal = {
 				type = annex_everything
 				target = TYK
+			}
+		}
+	}
+
+	focus = {
+		id = BAY_southern_thrust
+		icon = GFX_dasdasd
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = BAY_expel_imperials }
+		relative_position_id = BAY_expel_imperials
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
 			}
 		}
 	}

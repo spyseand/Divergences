@@ -1,10 +1,14 @@
 modded_debug_crap = {
 	xp_injection = {
 		cost = 0
+		fire_only_once = yes
 		remove_effect = {
 			air_experience = 500
 			navy_experience = 500
 			army_experience = 500
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

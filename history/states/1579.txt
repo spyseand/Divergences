@@ -25,6 +25,6 @@ state={
         add_core_of = BUR
     }
     provinces = {
-        3516 9536 13081 11519
+        3516 9536 13081
     }
 }

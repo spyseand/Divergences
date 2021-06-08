@@ -329,7 +329,7 @@ BRM = {
 	color_ui = rgb { 70 82 99 }
 }
 ARB = {
-	color = rgb { 180 170 140 }
+	color = rgb { 145 125 110 }
 	color_ui = rgb { 196 185 157 }
 }
 AST = {

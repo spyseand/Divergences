@@ -15,16 +15,16 @@ state={
 			6696 1
 		}
 
- 	owner = BLC
+ 	owner = VIN
  		buildings = {
  			infrastructure = 5
  			industrial_complex = 2
  			arms_factory = 1
  		}
- 		add_core_of = BLC
+ 		add_core_of = VIN
  	}
 
  	provinces = {
- 		11760 11776 831 4601 1445 6696 9796 9810 7551 1595 10448 4527 1881
+ 		11760 11776 831 4601 9796 9810 7551 1595 10448 4527 1881 9775 11890 9760 971 7528
  	}
  }

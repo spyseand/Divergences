@@ -2,7 +2,7 @@
 state={
 	id=569
 	name="STATE_1569"
-	manpower = 1454711
+	manpower = 1054711
 	state_category = city
 	resources={
 		aluminium=15 
@@ -12,7 +12,7 @@ state={
 			663 10
 		}
 
-	owner = SWI
+		owner = SWI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -24,6 +24,6 @@ state={
 	}
 
 	provinces={
-		661 663 3660 11601 11623 3662 658
+		661 663 11601 11623
 	}
 }

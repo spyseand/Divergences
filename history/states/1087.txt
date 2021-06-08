@@ -11,14 +11,14 @@ state={
 			13010 1
 		}
 
- 	owner = GTC
+ 	owner = VIN
  		buildings = {
  			infrastructure = 2
  			13010 = {
  				naval_base = 3
  			}
  		}
- 		add_core_of = GTC
+ 		add_core_of = VIN
  	}
 
  	provinces = {

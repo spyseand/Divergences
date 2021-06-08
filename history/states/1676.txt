@@ -2,7 +2,7 @@
 state={
 	id=676
 	name="STATE_1676"
-	manpower = 1353130
+	manpower = 361929
 	
 	state_category = town
 	
@@ -12,18 +12,14 @@ state={
 		}
 
 		owner = PLC
-		victory_points = {
-			6296 5
-		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 4
+			industrial_complex = 1
 		}
 		add_core_of = PLC
 	}
 
 	provinces={
-		327 3272 6281 6296 6407 9246 9357 9374 9404 9438 11226 11312 11498
+		327 6296 9246 9357 9374 9404 9438 11226 11498
 	}
 }

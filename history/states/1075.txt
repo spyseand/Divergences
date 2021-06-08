@@ -7,12 +7,12 @@ state={
  	state_category = city
 
  	history = {
- 	owner = BLC
+ 	owner = VIN
  		buildings = {
  			infrastructure = 4
  			industrial_complex = 1
  		}
- 		add_core_of = BLC
+ 		add_core_of = VIN
  	}
 
  	provinces = {

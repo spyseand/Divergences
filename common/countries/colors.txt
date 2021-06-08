@@ -201,7 +201,7 @@ EST = {
 	color_ui = rgb { 106 175 175 }
 }
 CRO = {
-	color = rgb { 140 80 80 }
+	color = rgb { 160 90 90 }
 	color_ui = rgb { 140 80 80 }
 }
 SLO = {

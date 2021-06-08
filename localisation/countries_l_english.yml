@@ -473,8 +473,8 @@
  BRM_DEF:0 "Burma"
  BRM_ADJ:0 "Burmese"
  
- ARB:0 "Arabia"
- ARB_DEF:0 "Arabia"
+ ARB:0 "Arabian Frontier"
+ ARB_DEF:0 "the Arabian Frontier"
  ARB_ADJ:0 "Arabian"
  
  AST:0 "Australia"

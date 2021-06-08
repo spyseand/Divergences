@@ -20,6 +20,10 @@ country_event = {
 			ideology = vanguard_socialism
 			popularity = 0.2
 		}
+		country_event = {
+			id = fra.2
+			days = 1
+		}
 	}
 	option = {
 		name = fra.1.b
@@ -32,6 +36,10 @@ country_event = {
 		add_popularity = {
 			ideology = authoritarian_socialism
 			popularity = 0.2
+		}
+		country_event = {
+			id = fra.2
+			days = 1
 		}
 	}
 	option = {
@@ -46,5 +54,23 @@ country_event = {
 			ideology = libertarian_socialism
 			popularity = 0.2
 		}
+		country_event = {
+			id = fra.2
+			days = 1
+		}
+	}
+}
+
+country_event = {
+	id = fra.2
+	title = fra.2.t
+	desc = fra.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fra.2.a
+		release = CON
 	}
 }

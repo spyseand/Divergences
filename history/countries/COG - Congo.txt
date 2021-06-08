@@ -7,21 +7,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = libertarian_socialism
 	last_election = "1934.6.13"
 	election_frequency = 24
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	monolism = 0
-	vanguard_socialism = 0
-	authoritarian_socialism = 0
-	libertarian_socialism = 0
+	vanguard_socialism = 1
+	authoritarian_socialism = 6
+	libertarian_socialism = 89
 	social_democracy = 4
-	liberalism = 61
-	conservatism = 33
-	authoritarian_democracy = 2
+	liberalism = 0
+	conservatism = 0
+	authoritarian_democracy = 0
 	autocracy = 0
 	fascism = 0
 	egoism = 0

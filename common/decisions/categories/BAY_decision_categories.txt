@@ -1,0 +1,6 @@
+form_germany = {
+    icon = eng_trade_unions_support
+    visible = {
+    	original_tag = BAY
+    }
+}

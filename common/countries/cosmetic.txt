@@ -1,0 +1,8 @@
+GER = {
+    color = rgb { 125 13 24 }
+    color_ui = rgb { 125 13 24 }
+}
+BURP = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 203 138 74 }
+}

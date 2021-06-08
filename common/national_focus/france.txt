@@ -35,6 +35,13 @@ focus_tree = {
 		completion_reward = {
 			create_faction = "Revolutionary Pact"
 			add_to_faction = BAY
+			BAY = {
+				add_ai_strategy = {
+					type = alliance
+					id = FRA
+					value = 200
+				}
+			}
 		}
 	}
 
@@ -110,16 +117,6 @@ focus_tree = {
 						}
 					}
 					990 = {
-						add_core_of = FRA
-					}
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 1007
-						}
-					}
-					1007 = {
 						add_core_of = FRA
 					}
 				}

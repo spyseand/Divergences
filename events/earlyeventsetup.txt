@@ -131,6 +131,9 @@ country_event = {
 			id = earlysetup.5
 			days = 1
 		}
+		BUR = {
+			set_cosmetic_tag = BURP
+		}
 		add_political_power = 100
 	}
 
@@ -167,6 +170,9 @@ country_event = {
 			id = earlysetup.5
 			days = 1
 		}
+		BUR = {
+			set_cosmetic_tag = BURP
+		}
 		add_politial_power = -150
 		set_global_flag = FRA_cucked_bavaria
 	}
@@ -184,15 +190,17 @@ country_event = {
 		transfer_state = 575
 		transfer_state = 578
 		transfer_state = 579
-		transfer_state = 1007
 		transfer_state = 576
 		transfer_state = 990
 		BAY = {
-			transfer_state = 1009
+			transfer_state = 1007
 			transfer_state = 577
 			transfer_state = 583
 			transfer_state = 584
 			transfer_state = 1010
+		}
+		BUR = {
+			set_cosmetic_tag = BURP
 		}
 		news_event = {
 			id = earlysetup.5
@@ -209,6 +217,8 @@ news_event = {
 	desc = earlysetup.5.d
 	picture = GFX_news_event_003
 	
+	major = yes
+
 	is_triggered_only = yes
 	
 	option = {
@@ -245,6 +255,8 @@ country_event = {
 		name = earlysetup.7.a
 	}
 }
+
+###Demand silesia from bohemia
 
 country_event = {
 	id = earlysetup.8

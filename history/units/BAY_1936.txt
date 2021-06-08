@@ -1,4 +1,4 @@
-oob = "QIQ_1936"
+oob = "BAY_1936"
 
 division_template = {
     name = "Infantry Division"

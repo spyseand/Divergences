@@ -25,7 +25,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		available = {
-			date > 1936.10.01
+			OR = {
+				has_government = vanguard_socialism
+				has_government = authoritarian_socialism
+				has_government = libertarian_socialism
+			}
 		}
 
 		ai_will_do = {
@@ -48,7 +52,7 @@ focus_tree = {
 	focus = {
 		id = FRA_partition_burgundy
 		icon = GFX_adsdasdad
-		x = 0
+		x = 1
 		y = 1
 		cost = 10
 		prerequisite = { focus = FRA_revolutionary_pact }
@@ -69,6 +73,52 @@ focus_tree = {
 				id = earlysetup.1
 				days = 1
 			}
+		}
+	}
+
+	focus = {
+		id = FRA_demand_nice_and_corsica
+		icon = GFX_adsdasdad
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_revolutionary_pact }
+		relative_position_id = FRA_revolutionary_pact
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			transfer_state = 591
+			transfer_state = 590
+			transfer_state = 537
+			add_state_core = 591
+			add_state_core = 590
+			add_state_core = 537
+		}
+	}
+
+	focus = {
+		id = FRA_demand_haute_savoie
+		icon = GFX_adsdasdad
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_demand_nice_and_corsica }
+		relative_position_id = FRA_demand_nice_and_corsica
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			transfer_state = 588
+			add_state_core = 588
 		}
 	}
 

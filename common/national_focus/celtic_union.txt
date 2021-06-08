@@ -15,11 +15,38 @@ focus_tree = {
 	###WW2 Setup
 
 	focus = {
-		id = CNU_integrate_celtic_isles
+		id = CNU_take_our_lands_back
 		icon = GFX_goal_unknown
 		x = 18
 		y = 6
 		cost = 10
+		
+		available_if_capitulated = yes
+
+		available = {
+			date > 1938.10.01
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = EGL
+			}
+		}
+	}
+
+	focus = {
+		id = CNU_integrate_celtic_isles
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = CNU_take_our_lands_back }
+		relative_position_id = CNU_take_our_lands_back
 		
 		available_if_capitulated = yes
 

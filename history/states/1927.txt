@@ -8,6 +8,7 @@ state={
         buildings = {
             infrastructure = 1
         }
+        add_core_of = COG
     }
     provinces = {
         7931 12824 12741 10883

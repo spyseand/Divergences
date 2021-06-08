@@ -52,7 +52,7 @@ EGY = {
 	color = rgb { 172 172 57 }
 	color_ui = rgb { 172 172 57 }
 }
-CON = {
+COG = {
 	color = rgb { 0 153 153 }
 	color_ui = rgb { 0 153 153 }
 }

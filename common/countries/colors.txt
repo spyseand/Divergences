@@ -73,8 +73,8 @@ BEL = {
 	color_ui = rgb { 185 70 70 }
 }
 GRE = {
-	color = rgb { 116 132 98 }
-	color_ui = rgb { 116 132 98 }
+	color = rgb { 140 60 60 }
+	color_ui = rgb { 115 55 55 }
 }
 YUG = {
 	color = rgb { 85 0 255 }
@@ -85,8 +85,8 @@ NOV = {
 	color_ui = rgb { 255 255 179 }
 }
 OTT = {
-	color = rgb { 129 147 108 }
-	color_ui = rgb { 129 147 108 }
+	color = rgb { 150 40 45 }
+	color_ui = rgb { 120 60 63 }
 }
 KUR = {
 	color = rgb { 128 64 0 }
@@ -209,16 +209,16 @@ SLO = {
 	color_ui = rgb { 166 130 201 }
 }
 TRA = {
-	color = rgb { 116 132 98 }
-	color_ui = rgb { 116 132 98 }
+	color = rgb { 140 60 60 }
+	color_ui = rgb { 115 55 55 }
 }
 WAL = {
-	color = rgb { 116 132 98 }
-	color_ui = rgb { 116 132 98 }
+	color = rgb { 140 60 60 }
+	color_ui = rgb { 115 55 55 }
 }
 MOL = {
-	color = rgb { 116 132 98 }
-	color_ui = rgb { 116 132 98 }
+	color = rgb { 140 60 60 }
+	color_ui = rgb { 115 55 55 }
 }
 ALB = {
 	color = rgb { 230 0 0 }
@@ -329,7 +329,7 @@ BRM = {
 	color_ui = rgb { 70 82 99 }
 }
 ARB = {
-	color = rgb { 196 185 157 }
+	color = rgb { 180 170 140 }
 	color_ui = rgb { 196 185 157 }
 }
 AST = {
@@ -337,16 +337,16 @@ AST = {
 	color_ui = rgb { 50 94 43 }
 }
 BEI = {
-	color = rgb { 107 23 17 }
+	color = rgb { 120 20 60 }
 	color_ui = rgb { 107 23 17 }
 }
 SEI = {
-	color = rgb { 212 198 72 }
+	color = rgb { 164 108 95 }
 	color_ui = rgb { 212 198 72 }
 }
 JEI = {
-	color = rgb { 209 113 126 }
-	color_ui = rgb { 209 113 126 }
+	color = rgb { 62 164 134 } # 150 150 140
+	color_ui = rgb { 150 150 140 }
 }
 JPH = {
 	color = rgb { 154 210 214 }
@@ -373,8 +373,8 @@ RUS = {
 	color_ui = rgb { 26 110 41 }
 }
 NVR = {
-	color = rgb { 90 80 102 }
-	color_ui = rgb { 90 80 102 }
+	color = rgb { 170 130 131 }
+	color_ui = rgb { 170 130 131 }
 }
 
 

@@ -26,12 +26,12 @@ set_popularities = {
 	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 4
-	liberalism = 61
+	social_democracy = 0
+	fascism = 61
 	conservatism = 33
 	authoritarian_democracy = 2
-	autocracy = 0
-	fascism = 0
+	autocracy = 4
+	liberalism = 0
 	egoism = 0
 }
 

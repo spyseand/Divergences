@@ -15,7 +15,6 @@ state={
 		owner = UYG
 		buildings = {
 			air_base = 0
-			dockyard = 0
 			arms_factory = 0
 			infrastructure = 3
 			industrial_complex = 1

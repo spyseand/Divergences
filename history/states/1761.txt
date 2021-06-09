@@ -19,7 +19,6 @@ state={
     owner = GRE
         buildings = {
 			air_base = 0
-			dockyard = 0
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 0

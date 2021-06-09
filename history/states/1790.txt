@@ -7,7 +7,6 @@ state={
         owner = CIN
         buildings = {
 			air_base = 1
-			dockyard = 1
 			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 1

@@ -7,7 +7,6 @@ state={
     owner = RUS
         buildings = {
 			air_base = 5
-			dockyard = 5
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 0

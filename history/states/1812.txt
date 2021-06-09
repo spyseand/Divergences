@@ -11,7 +11,6 @@ state={
         owner = ARY
         buildings = {
 			air_base = 0
-			dockyard = 0
 			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 1

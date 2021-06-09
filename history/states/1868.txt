@@ -4,9 +4,6 @@ state={
     manpower = 1
     state_category = town
     history = {
-		victory_points = {
-			1065 1
-		}
 
 		victory_points = {
 			4206 1
@@ -24,6 +21,6 @@ state={
         }
     }
     provinces = {
-        1065 1201 7107 4206 1086 4088 7176 11970 1015 1
+        1201 7107 4206 1086 4088 7176 11970 1015 1
     }
 }

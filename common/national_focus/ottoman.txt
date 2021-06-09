@@ -1,304 +1,54 @@
 ﻿
 focus_tree = {
-	id = bavarian_focus
+	id = ottoman_focus
 	
 	country = {
 		factor = 0
 		modifier = {
-			tag = BAY
 			add = 10
+			tag = OTT
 		}
 	}
-	
-	default = no
+
 	reset_on_civilwar = no
 
-	######## Early WW2 Set Up
+	###Ottoman collapse setup
 
 	focus = {
-		id = BAY_rhenish_integration
-		icon = GFX_dasdasd
+		id = OTT_hegemons_of_the_mideast
+		icon = GFX_focus_TUR_pivot_to_the_past
 		x = 18
 		y = 6
-		cost = 10
+		cost = 5
 		
 		available_if_capitulated = yes
 
-		available = {
-			FRA = {
-				has_completed_focus = FRA_partition_burgundy
-			}
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
 		completion_reward = {
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 1010
-					}
-				}
-				1010 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 584
-					}
-				}
-				584 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 577
-					}
-				}
-				577 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 583
-					}
-				}
-				583 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 1009
-					}
-				}
-				1009 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 576
-					}
-				}
-				576 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 1007
-					}
-				}
-				1007 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					BAY = {
-						owns_state = 990
-					}
-				}
-				990 = {
-					add_core_of = BAY
-				}
-			}
-			if = {
-				limit = {
-					has_global_flag = BAY_cucked_bavaria
-				}
-				country_event = {
-					days = 1
-					id = earlysetup.7
-				}
+			country_event = {
+				id = ottoman.2
+				days = 0
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_pangerman_rhetoric
-		icon = GFX_dasdasd
+		id = OTT_
+		icon = GFX_focus_TUR_pivot_to_the_past
 		x = 0
 		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_rhenish_integration }
-		relative_position_id = BAY_rhenish_integration
+		cost = 5
 		
 		available_if_capitulated = yes
 
-		ai_will_do = {
-			factor = 100
-		}
-
 		completion_reward = {
-			add_ideas = BAY_pangerman_rhetoric
+			
 		}
 	}
-
-	focus = {
-		id = BAY_the_great_march
-		icon = GFX_dasdasd
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_pangerman_rhetoric }
-		relative_position_id = BAY_pangerman_rhetoric
-		
-		available_if_capitulated = yes
-
-		available = {
-			date > 1939.02.01
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = HAN
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_demand_silesia
-		icon = GFX_dasdasd
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_the_great_march }
-		relative_position_id = BAY_the_great_march
-		
-		available_if_capitulated = yes
-
-		available = {
-			AND = {
-				has_war_with = SCD
-				HAN = {
-					has_capitulated = yes
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			BOH = {
-				country_event = {
-					id = earlysetup.8
-					days = 1
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_end_the_commonwealth
-		icon = GFX_dasdasd
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_demand_silesia }
-		relative_position_id = BAY_demand_silesia
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = PLC
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_expel_imperials
-		icon = GFX_dasdasd
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_the_great_march }
-		relative_position_id = BAY_the_great_march
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = TYK
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_southern_thrust
-		icon = GFX_dasdasd
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_expel_imperials }
-		relative_position_id = BAY_expel_imperials
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			SCD = {
-				is_faction_leader = yes
-			}
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = AUS
-			}
-			SCD = {
-				add_to_faction = AUS
-			}
-			AUS = {
-				add_ai_strategy = {
-					type = alliance
-					id = SCD
-					value = 200
-				}
-			}
-		}
-	}
-
-	########
 
 	###Generic Military Tree
 
 	focus = {
-		id = BAY_increase_military_spending
+		id = OTT_increase_military_spending
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 4
 		y = 0
@@ -318,13 +68,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_motorized_research
+		id = OTT_motorized_research
 		icon = GFX_goal_generic_army_motorized
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_increase_military_spending }
-		relative_position_id = BAY_increase_military_spending
+		prerequisite = { focus = OTT_increase_military_spending }
+		relative_position_id = OTT_increase_military_spending
 		
 		available_if_capitulated = yes
 
@@ -344,13 +94,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_armor_effort
+		id = OTT_armor_effort
 		icon = GFX_goal_generic_army_tanks
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_motorized_research }
-		relative_position_id = BAY_motorized_research
+		prerequisite = { focus = OTT_motorized_research }
+		relative_position_id = OTT_motorized_research
 		
 		available_if_capitulated = yes
 
@@ -366,13 +116,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_heavier_armor
+		id = OTT_heavier_armor
 		icon = GFX_focus_generic_tank_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_armor_effort }
-		relative_position_id = BAY_armor_effort
+		prerequisite = { focus = OTT_armor_effort }
+		relative_position_id = OTT_armor_effort
 		
 		available_if_capitulated = yes
 
@@ -389,13 +139,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_mechanized_effort
+		id = OTT_mechanized_effort
 		icon = GFX_goal_generic_production2
 		x = 1
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_motorized_research }
-		relative_position_id = BAY_motorized_research
+		prerequisite = { focus = OTT_motorized_research }
+		relative_position_id = OTT_motorized_research
 		
 		available_if_capitulated = yes
 
@@ -411,13 +161,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_armored_car
+		id = OTT_armored_car
 		icon = GFX_focus_chi_army_reform
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_mechanized_effort }
-		relative_position_id = BAY_mechanized_effort
+		prerequisite = { focus = OTT_mechanized_effort }
+		relative_position_id = OTT_mechanized_effort
 		
 		available_if_capitulated = yes
 
@@ -435,33 +185,33 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_modern_war
+		id = OTT_modern_war
 		icon = GFX_focus_generic_combined_arms
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_armored_car }
-		prerequisite = { focus = BAY_heavier_armor }
-		relative_position_id = BAY_heavier_armor
+		prerequisite = { focus = OTT_armored_car }
+		prerequisite = { focus = OTT_heavier_armor }
+		relative_position_id = OTT_heavier_armor
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			army_experience = 25
 			add_ideas = {
-				BAY_modern_war
+				OTT_modern_war
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_infantry_research
+		id = OTT_infantry_research
 		icon = GFX_goal_generic_small_arms
 		x = 2
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_increase_military_spending }
-		relative_position_id = BAY_increase_military_spending
+		prerequisite = { focus = OTT_increase_military_spending }
+		relative_position_id = OTT_increase_military_spending
 		
 		available_if_capitulated = yes
 
@@ -477,13 +227,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_doctrine_research
+		id = OTT_doctrine_research
 		icon = GFX_goal_generic_build_tank
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_infantry_research }
-		relative_position_id = BAY_infantry_research
+		prerequisite = { focus = OTT_infantry_research }
+		relative_position_id = OTT_infantry_research
 		
 		available_if_capitulated = yes
 
@@ -499,13 +249,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_doctrine_research2
+		id = OTT_doctrine_research2
 		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_doctrine_research }
-		relative_position_id = BAY_doctrine_research
+		prerequisite = { focus = OTT_doctrine_research }
+		relative_position_id = OTT_doctrine_research
 		
 		available_if_capitulated = yes
 
@@ -521,13 +271,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_artillery_improvements
+		id = OTT_artillery_improvements
 		icon = GFX_goal_generic_army_artillery2
 		x = 1
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_infantry_research }
-		relative_position_id = BAY_infantry_research
+		prerequisite = { focus = OTT_infantry_research }
+		relative_position_id = OTT_infantry_research
 		
 		available_if_capitulated = yes
 
@@ -543,13 +293,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_support_equipment
+		id = OTT_support_equipment
 		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_artillery_improvements }
-		relative_position_id = BAY_artillery_improvements
+		prerequisite = { focus = OTT_artillery_improvements }
+		relative_position_id = OTT_artillery_improvements
 		
 		available_if_capitulated = yes
 
@@ -566,21 +316,21 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_bolstered_army
+		id = OTT_bolstered_army
 		icon = GFX_focus_generic_little_entente
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_doctrine_research2 }
-		prerequisite = { focus = BAY_support_equipment }
-		relative_position_id = BAY_doctrine_research2
+		prerequisite = { focus = OTT_doctrine_research2 }
+		prerequisite = { focus = OTT_support_equipment }
+		relative_position_id = OTT_doctrine_research2
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			army_experience = 25
 			add_ideas = {
-				BAY_bolstered_army
+				OTT_bolstered_army
 			}
 		}
 	}
@@ -588,7 +338,7 @@ focus_tree = {
 	###Generic Air Tree
 
 	focus = {
-		id = BAY_air_investments
+		id = OTT_air_investments
 		icon = GFX_goal_generic_air_doctrine
 		x = 11
 		y = 0
@@ -608,13 +358,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_airport_construction
+		id = OTT_airport_construction
 		icon = GFX_goal_generic_construction2
 		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_air_investments }
-		relative_position_id = BAY_air_investments
+		prerequisite = { focus = OTT_air_investments }
+		relative_position_id = OTT_air_investments
 		
 		available_if_capitulated = yes
 
@@ -644,13 +394,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_air_doctrine
+		id = OTT_air_doctrine
 		icon = GFX_goal_generic_CAS
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_airport_construction }
-		relative_position_id = BAY_airport_construction
+		prerequisite = { focus = OTT_airport_construction }
+		relative_position_id = OTT_airport_construction
 		
 		available_if_capitulated = yes
 
@@ -666,13 +416,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_radar_investments
+		id = OTT_radar_investments
 		icon = GFX_goal_generic_radar
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_air_doctrine }
-		relative_position_id = BAY_air_doctrine
+		prerequisite = { focus = OTT_air_doctrine }
+		relative_position_id = OTT_air_doctrine
 		
 		available_if_capitulated = yes
 
@@ -688,13 +438,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_fighter_development
+		id = OTT_fighter_development
 		icon = GFX_goal_generic_air_fighter
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_air_investments }
-		relative_position_id = BAY_air_investments
+		prerequisite = { focus = OTT_air_investments }
+		relative_position_id = OTT_air_investments
 		
 		available_if_capitulated = yes
 
@@ -710,13 +460,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_CAS_development
+		id = OTT_CAS_development
 		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_fighter_development }
-		relative_position_id = BAY_fighter_development
+		prerequisite = { focus = OTT_fighter_development }
+		relative_position_id = OTT_fighter_development
 		
 		available_if_capitulated = yes
 
@@ -733,13 +483,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_improved_fighters
+		id = OTT_improved_fighters
 		icon = GFX_goal_generic_air_fighter2
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_CAS_development }
-		relative_position_id = BAY_CAS_development
+		prerequisite = { focus = OTT_CAS_development }
+		relative_position_id = OTT_CAS_development
 		
 		available_if_capitulated = yes
 
@@ -756,14 +506,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_experimental_air_research
+		id = OTT_experimental_air_research
 		icon = GFX_focus_rocketry
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_radar_investments }
-		prerequisite = { focus = BAY_improved_fighters }
-		relative_position_id = BAY_radar_investments
+		prerequisite = { focus = OTT_radar_investments }
+		prerequisite = { focus = OTT_improved_fighters }
+		relative_position_id = OTT_radar_investments
 		
 		available_if_capitulated = yes
 
@@ -780,13 +530,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_bomber_development
+		id = OTT_bomber_development
 		icon = GFX_goal_generic_air_bomber
 		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_fighter_development }
-		relative_position_id = BAY_fighter_development
+		prerequisite = { focus = OTT_fighter_development }
+		relative_position_id = OTT_fighter_development
 		
 		available_if_capitulated = yes
 
@@ -806,7 +556,7 @@ focus_tree = {
 	###Generic Naval Tree
 
 	focus = {
-		id = BAY_naval_infrastructure
+		id = OTT_naval_infrastructure
 		icon = GFX_goal_generic_build_navy
 		x = 18
 		y = 0
@@ -848,13 +598,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_battleship_research
+		id = OTT_battleship_research
 		icon = GFX_focus_generic_navy_battleship2
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_naval_infrastructure }
-		relative_position_id = BAY_naval_infrastructure
+		prerequisite = { focus = OTT_naval_infrastructure }
+		relative_position_id = OTT_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -870,13 +620,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_carrier_fleet
+		id = OTT_carrier_fleet
 		icon = GFX_goal_generic_navy_carrier
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_battleship_research }
-		relative_position_id = BAY_battleship_research
+		prerequisite = { focus = OTT_battleship_research }
+		relative_position_id = OTT_battleship_research
 		
 		available_if_capitulated = yes
 
@@ -892,14 +642,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_naval_bomber_tech
+		id = OTT_naval_bomber_tech
 		icon = GFX_goal_generic_air_naval_bomber
 		x = -1
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_bomber_development }
-		prerequisite = { focus = BAY_carrier_fleet }
-		relative_position_id = BAY_carrier_fleet
+		prerequisite = { focus = OTT_bomber_development }
+		prerequisite = { focus = OTT_carrier_fleet }
+		relative_position_id = OTT_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -916,13 +666,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_destroyer_research
+		id = OTT_destroyer_research
 		icon = GFX_focus_generic_destroyer
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_naval_infrastructure }
-		relative_position_id = BAY_naval_infrastructure
+		prerequisite = { focus = OTT_naval_infrastructure }
+		relative_position_id = OTT_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -938,13 +688,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_cruiser_tech
+		id = OTT_cruiser_tech
 		icon = GFX_focus_generic_cruiser2
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_destroyer_research }
-		relative_position_id = BAY_destroyer_research
+		prerequisite = { focus = OTT_destroyer_research }
+		relative_position_id = OTT_destroyer_research
 		
 		available_if_capitulated = yes
 
@@ -960,13 +710,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_submarine_tech
+		id = OTT_submarine_tech
 		icon = GFX_goal_generic_navy_submarine
 		x = 2
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_naval_infrastructure }
-		relative_position_id = BAY_naval_infrastructure
+		prerequisite = { focus = OTT_naval_infrastructure }
+		relative_position_id = OTT_naval_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -982,13 +732,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_renovate_naval_department
+		id = OTT_renovate_naval_department
 		icon = GFX_goal_generic_scientific_exchange
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_submarine_tech }
-		relative_position_id = BAY_submarine_tech
+		prerequisite = { focus = OTT_submarine_tech }
+		relative_position_id = OTT_submarine_tech
 		
 		available_if_capitulated = yes
 
@@ -1004,13 +754,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_heavy_dockyard_investments
+		id = OTT_heavy_dockyard_investments
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_carrier_fleet focus = BAY_cruiser_tech focus = BAY_renovate_naval_department }
-		relative_position_id = BAY_carrier_fleet
+		prerequisite = { focus = OTT_carrier_fleet focus = OTT_cruiser_tech focus = OTT_renovate_naval_department }
+		relative_position_id = OTT_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -1059,13 +809,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_modern_doctrines
+		id = OTT_modern_doctrines
 		icon = GFX_goal_generic_amphibious_assault
 		x = 3
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_carrier_fleet focus = BAY_cruiser_tech focus = BAY_renovate_naval_department }
-		relative_position_id = BAY_carrier_fleet
+		prerequisite = { focus = OTT_carrier_fleet focus = OTT_cruiser_tech focus = OTT_renovate_naval_department }
+		relative_position_id = OTT_carrier_fleet
 		
 		available_if_capitulated = yes
 
@@ -1081,14 +831,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_global_contender
+		id = OTT_global_contender
 		icon = GFX_focus_generic_support_the_left_right
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_heavy_dockyard_investments }
-		prerequisite = { focus = BAY_modern_doctrines }
-		relative_position_id = BAY_heavy_dockyard_investments
+		prerequisite = { focus = OTT_heavy_dockyard_investments }
+		prerequisite = { focus = OTT_modern_doctrines }
+		relative_position_id = OTT_heavy_dockyard_investments
 		
 		available_if_capitulated = yes
 
@@ -1100,7 +850,7 @@ focus_tree = {
 				category = naval_doctrine
 			}
 			add_ideas = {
-				BAY_global_contender
+				OTT_global_contender
 			}
 		}
 	}
@@ -1108,7 +858,7 @@ focus_tree = {
 	###Generic Industrial Tree
 
 	focus = {
-		id = BAY_industrial_efforts
+		id = OTT_industrial_efforts
 		icon = GFX_focus_generic_industry_1
 		x = 25
 		y = 0
@@ -1126,19 +876,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				BAY_construction_boost
+				OTT_construction_boost
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_infrastructure_expansion
+		id = OTT_infrastructure_expansion
 		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_industrial_efforts }
-		relative_position_id = BAY_industrial_efforts
+		prerequisite = { focus = OTT_industrial_efforts }
+		relative_position_id = OTT_industrial_efforts
 		
 		available_if_capitulated = yes
 
@@ -1163,13 +913,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_expand_armament_production
+		id = OTT_expand_armament_production
 		icon = GFX_goal_generic_construct_mil_factory
 		x = -2
 		y = 1
 		cost = 5
-		prerequisite = { focus = BAY_infrastructure_expansion }
-		relative_position_id = BAY_infrastructure_expansion
+		prerequisite = { focus = OTT_infrastructure_expansion }
+		relative_position_id = OTT_infrastructure_expansion
 		
 		available_if_capitulated = yes
 
@@ -1186,13 +936,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_further_armament_investments
+		id = OTT_further_armament_investments
 		icon = GFX_focus_generic_tank_production
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_expand_armament_production }
-		relative_position_id = BAY_expand_armament_production
+		prerequisite = { focus = OTT_expand_armament_production }
+		relative_position_id = OTT_expand_armament_production
 		
 		available_if_capitulated = yes
 
@@ -1217,13 +967,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_modern_tools
+		id = OTT_modern_tools
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_infrastructure_expansion }
-		relative_position_id = BAY_infrastructure_expansion
+		prerequisite = { focus = OTT_infrastructure_expansion }
+		relative_position_id = OTT_infrastructure_expansion
 		
 		available_if_capitulated = yes
 
@@ -1248,14 +998,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_new_research_facilities
+		id = OTT_new_research_facilities
 		icon = GFX_focus_research
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_modern_tools }
-		prerequisite = { focus = BAY_massive_industrial_investments }
-		relative_position_id = BAY_modern_tools
+		prerequisite = { focus = OTT_modern_tools }
+		prerequisite = { focus = OTT_massive_industrial_investments }
+		relative_position_id = OTT_modern_tools
 		
 		available_if_capitulated = yes
 
@@ -1265,13 +1015,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_expand_civilian_sector
+		id = OTT_expand_civilian_sector
 		icon = GFX_focus_generic_industry_2
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_industrial_efforts }
-		relative_position_id = BAY_industrial_efforts
+		prerequisite = { focus = OTT_industrial_efforts }
+		relative_position_id = OTT_industrial_efforts
 		
 		available_if_capitulated = yes
 
@@ -1288,13 +1038,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_massive_industrial_investments
+		id = OTT_massive_industrial_investments
 		icon = GFX_focus_generic_industry_3
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_expand_civilian_sector }
-		relative_position_id = BAY_expand_civilian_sector
+		prerequisite = { focus = OTT_expand_civilian_sector }
+		relative_position_id = OTT_expand_civilian_sector
 		
 		available_if_capitulated = yes
 
@@ -1320,13 +1070,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_modern_infrastructure
+		id = OTT_modern_infrastructure
 		icon = GFX_focus_generic_steel
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_new_research_facilities }
-		relative_position_id = BAY_new_research_facilities
+		prerequisite = { focus = OTT_new_research_facilities }
+		relative_position_id = OTT_new_research_facilities
 		
 		available_if_capitulated = yes
 
@@ -1355,13 +1105,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_final_armament_improvements
+		id = OTT_final_armament_improvements
 		icon = GFX_focus_generic_army_tanks2
 		x = -2
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_modern_infrastructure }
-		relative_position_id = BAY_modern_infrastructure
+		prerequisite = { focus = OTT_modern_infrastructure }
+		relative_position_id = OTT_modern_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -1375,19 +1125,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				BAY_armament_effort
+				OTT_armament_effort
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_further_resource_exploitation
+		id = OTT_further_resource_exploitation
 		icon = GFX_goal_generic_construction2
 		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_modern_infrastructure }
-		relative_position_id = BAY_modern_infrastructure
+		prerequisite = { focus = OTT_modern_infrastructure }
+		relative_position_id = OTT_modern_infrastructure
 		
 		available_if_capitulated = yes
 
@@ -1405,19 +1155,19 @@ focus_tree = {
 				}
 			}
 			add_ideas = {
-				BAY_resource_exploitation
+				OTT_resource_exploitation
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_modern_R&D
+		id = OTT_modern_R&D
 		icon = GFX_focus_research2
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_modern_infrastructure }
-		relative_position_id = BAY_modern_infrastructure
+		prerequisite = { focus = OTT_modern_infrastructure }
+		relative_position_id = OTT_modern_infrastructure
 		
 		available = {
 			num_of_factories > 49
@@ -1431,14 +1181,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_experimental_electronics
+		id = OTT_experimental_electronics
 		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_final_armament_improvements }
-		prerequisite = { focus = BAY_modern_R&D }
-		relative_position_id = BAY_final_armament_improvements
+		prerequisite = { focus = OTT_final_armament_improvements }
+		prerequisite = { focus = OTT_modern_R&D }
+		relative_position_id = OTT_final_armament_improvements
 
 		available_if_capitulated = yes
 
@@ -1450,7 +1200,7 @@ focus_tree = {
 				category = electronics
 			}
 			add_ideas = {
-				BAY_research_bonus
+				OTT_research_bonus
 			}
 		}
 	}
@@ -1458,292 +1208,266 @@ focus_tree = {
 	###Generic Political Tree
 	
 	focus = {
-		id = BAY_revolutionism
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 11
+		id = OTT_status_quo
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 10
 		y = 6
 		cost = 10
+
+		mutually_exclusive = {
+			focus = OTT_revolutionism
+		}
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_stability = -0.1
-			add_political_power = 100
+			add_stability = 0.1
+			add_political_power = -50
+		}
+	}
+
+#####STATUS QUO
+
+	focus = {
+		id = OTT_reaffirm_our_values
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_status_quo }
+		relative_position_id = OTT_status_quo
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = autocracy
+				}
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = liberalism
+				}
+				add_popularity = {
+					ideology = liberalism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = conservatism
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = authoritarian_democracy
+				}
+				add_popularity = {
+					ideology = authoritarian_democracy
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = social_democracy
+				}
+				add_popularity = {
+					ideology = social_democracy
+					popularity = 0.2
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = BAY_support_the_national_revolution
-		icon = GFX_focus_generic_support_the_left_right
-		x = -1
+		id = OTT_crush_revolutionaries
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_revolutionism }
-		relative_position_id = BAY_revolutionism
+		prerequisite = { focus = OTT_status_quo }
+		relative_position_id = OTT_status_quo
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_popularity = {
 				ideology = vanguard_socialism
-				popularity = 0.05
+				popularity = -0.05
 			}
 			add_popularity = {
 				ideology = authoritarian_socialism
-				popularity = 0.05
+				popularity = -0.05
 			}
 			add_popularity = {
 				ideology = libertarian_socialism
-				popularity = 0.05
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_dismantle_old_institutions
-		icon = GFX_focus_generic_self_management
+		id = OTT_the_iron_gauntlet
+		icon = GFX_goal_demand_sudetenland
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_revolutionism }
-		relative_position_id = BAY_revolutionism
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 150
-			add_stability = -0.05
-		}
-	}
-
-	focus = {
-		id = BAY_out_with_the_old
-		icon = GFX_focus_rom_parties_end
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_dismantle_old_institutions }
-		prerequisite = { focus = BAY_support_the_national_revolution }
-		relative_position_id = BAY_dismantle_old_institutions
+		prerequisite = { focus = OTT_crush_revolutionaries }
+		prerequisite = { focus = OTT_reaffirm_our_values }
+		relative_position_id = OTT_reaffirm_our_values
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			country_event = {
-				id = fra.1
+				id = ottoman.1
 				days = 0
 			}
 		}
 	}
 
 	focus = {
-		id = BAY_in_with_the_new
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		id = OTT_peace_and_order
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_out_with_the_old }
-		relative_position_id = BAY_out_with_the_old
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = {
-					has_government = vanguard_socialism
-				}
-				add_popularity = {
-					ideology = vanguard_socialism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = authoritarian_socialism
-				}
-				add_popularity = {
-					ideology = authoritarian_socialism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = libertarian_socialism
-				}
-				add_popularity = {
-					ideology = libertarian_socialism
-					popularity = 0.2
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_turn_it_left
-		icon = GFX_goal_support_communism
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_in_with_the_new }
-		relative_position_id = BAY_in_with_the_new
-
-		available = {
-			OR = {
-				has_government = vanguard_socialism
-				has_government = authoritarian_socialism
-				has_government = libertarian_socialism
-			}
-		}
-
-		mutually_exclusive = {
-			focus = BAY_turn_it_right
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = BAY_four_year_plan
-				days = 1460
-			}
-		}
-	}
-	
-	focus = {
-		id = BAY_international_revoluton
-		icon = GFX_focus_por_workers_of_iberia
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_turn_it_left }
-		relative_position_id = BAY_turn_it_left
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BAY_interventionism
-		}
-	}
-
-	focus = {
-		id = BAY_direct_interference
-		icon = GFX_focus_spr_anarchism_knows_no_borders
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_international_revoluton }
-		relative_position_id = BAY_international_revoluton
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				add_idea = BAY_revolutionary_ideals
-				remove_idea = BAY_interventionism
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_union_empowerment
-		icon = GFX_focus_usa_union_representation_act
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_turn_it_left }
-		relative_position_id = BAY_turn_it_left
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BAY_union_rights_protected
-		}
-	}
-
-	focus = {
-		id = BAY_socialist_economics
-		icon = GFX_focus_generic_soviet_politics
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_union_empowerment }
-		relative_position_id = BAY_union_empowerment
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BAY_socialist_economics
-		}
-	}
-
-	focus = {
-		id = BAY_expand_welfare_state
-		icon = GFX_focus_generic_concessions
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_union_empowerment }
-		relative_position_id = BAY_union_empowerment
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				add_idea = BAY_welfare_state
-				remove_idea = BAY_union_rights_protected
-			}
-		}
-	}
-
-	focus = {
-		id = BAY_unified_research_base
-		icon = GFX_focus_generic_socialist_science
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_expand_welfare_state }
-		prerequisite = { focus = BAY_socialist_economics }
-		relative_position_id = BAY_socialist_economics
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BAY_united_research_base
-		}
-	}
-
-	focus = {
-		id = BAY_promote_the_revolution
-		icon = GFX_focus_generic_join_comintern
-		x = -4
-		y = 1
-		cost = 10
-		prerequisite = { focus = BAY_turn_it_left }
-		relative_position_id = BAY_turn_it_left
+		prerequisite = { focus = OTT_the_iron_gauntlet }
+		relative_position_id = OTT_the_iron_gauntlet
 
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_stability = 0.1
-			add_war_support = 0.1
-			add_political_power = 75
+			add_political_power = 50
 		}
 	}
 
 	focus = {
-		id = BAY_revolutionary_militias
-		icon = GFX_focus_prc_agrarian_socialism
-		x = 0
+		id = OTT_global_order
+		icon = GFX_goal_tripartite_pact
+		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = BAY_promote_the_revolution }
-		relative_position_id = BAY_promote_the_revolution
+		prerequisite = { focus = OTT_peace_and_order }
+		relative_position_id = OTT_peace_and_order
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = BAY_revolutionary_militia
+			add_ideas = OTT_globalisation
 		}
 	}
 
+	focus = {
+		id = OTT_defending_our_interests
+		icon = GFX_focus_secret_rearmament
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_global_order }
+		relative_position_id = OTT_global_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = OTT_interventionism
+		}
+	}
+
+	focus = {
+		id = OTT_capitalist_economics
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_peace_and_order }
+		relative_position_id = OTT_peace_and_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = OTT_capitalist_economics
+		}
+	}
+
+	focus = {
+		id = OTT_expand_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_capitalist_economics }
+		prerequisite = { focus = OTT_global_order }
+		relative_position_id = OTT_capitalist_economics
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = free_trade
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = OTT_privatisation
+		icon = GFX_focus_mex_privatisation
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_expand_trade }
+		relative_position_id = OTT_expand_trade
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = OTT_privatisation
+		}
+	}
+
+	focus = {
+		id = OTT_international_diplomacy
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_peace_and_order }
+		relative_position_id = OTT_peace_and_order
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = OTT_foreign_exchange_program
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = OTT_international_diplomacy }
+		relative_position_id = OTT_international_diplomacy
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = OTT_foreign_scientists
+		}
+	}
+	
 }

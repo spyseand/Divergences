@@ -3,7 +3,7 @@ state={
 	name="STATE_1121"
 	manpower=23669300
 	state_category = town
-	buildings_max_level_factor=1.000
+	
 	history={
 		owner = XIA
 		buildings = {

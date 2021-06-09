@@ -2,7 +2,7 @@ state={
 	id=154
 	name="STATE_1154"
 	manpower=14000000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 	history={
 		victory_points = {

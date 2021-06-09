@@ -12,6 +12,10 @@ state={
 			1384 1
 		}
 		buildings = {
+			air_base = 0
+			dockyard = 0
+			arms_factory = 0
+			industrial_complex = 0
 			infrastructure = 1
 
 		}
@@ -21,7 +25,7 @@ state={
 	provinces={
 		1216 1384 1919 10187 12250 12430
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower = 114996
+	
+	state_category = wasteland
 }

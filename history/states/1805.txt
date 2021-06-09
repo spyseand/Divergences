@@ -1,8 +1,8 @@
 state={
     id=805
     name="STATE_1805"
-    manpower = 1
-    state_category = town
+	manpower = 30374635
+	state_category = town
     history = {
 		victory_points = {
 			11929 1
@@ -10,9 +10,11 @@ state={
 
         owner = BEN
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 0
+			dockyard = 0
+			infrastructure = 5
+			arms_factory = 0
+			industrial_complex = 2
         }
     }
     provinces = {

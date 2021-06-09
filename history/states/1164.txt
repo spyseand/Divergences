@@ -4,8 +4,8 @@ state={
 	provinces={
 		 1943 2074 5736 10315
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
+	manpower = 46664
+	
 	state_category = wasteland
 	history={
 		owner = UYG
@@ -13,6 +13,10 @@ state={
 		
 		
 		buildings = {
+			air_base = 0
+			dockyard = 0
+			arms_factory = 0
+			industrial_complex = 0
 			infrastructure = 1
 
 		}

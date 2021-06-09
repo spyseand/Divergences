@@ -9,6 +9,9 @@ state={
 
 		owner = UYG
 		buildings = {
+			air_base = 0
+			dockyard = 0
+			arms_factory = 0
 			infrastructure = 3
 			industrial_complex = 2
 
@@ -22,7 +25,7 @@ state={
 	provinces={
 		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 1080492
+	
+	state_category = rural
 }

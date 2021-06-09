@@ -2,7 +2,7 @@ state={
 	id=128
 	name="STATE_1128"
 	manpower=52963300
-	buildings_max_level_factor=1.000
+	
 	state_category=city
 	resources={
 		steel=14.000

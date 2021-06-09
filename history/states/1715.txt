@@ -1,8 +1,8 @@
 state={
     id=715
     name="STATE_1715"
-    manpower = 1
-    state_category = town
+	manpower = 2296800
+	state_category = town
     history = {
 		victory_points = {
 			3707 1
@@ -10,9 +10,11 @@ state={
 
     owner = MOL
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 2
+			dockyard = 2
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
         }
         add_core_of = MOL
     }

@@ -2,7 +2,7 @@ state={
 	id=125
 	name="STATE_1125"
 	manpower=20293700
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 	resources={
 		tungsten=6.000

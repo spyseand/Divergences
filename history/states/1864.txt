@@ -1,8 +1,8 @@
 state={
     id=864
     name="STATE_1864"
-    manpower = 1
-    state_category = town
+	manpower = 124655
+	state_category = wasteland
     history = {
 		victory_points = {
 			6883 1
@@ -10,9 +10,11 @@ state={
 
     owner = OTT
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 0
+			dockyard = 0
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
         }
     }
     provinces = {

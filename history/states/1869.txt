@@ -1,8 +1,8 @@
 state={
     id=869
     name="STATE_1869"
-    manpower = 1
-    state_category = town
+	manpower = 547795
+	state_category = rural
     history = {
 		victory_points = {
 			4111 5
@@ -14,9 +14,11 @@ state={
 
     owner = OTT
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 1
+			dockyard = 1
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
         }
     }
     provinces = {

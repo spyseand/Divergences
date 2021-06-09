@@ -1,14 +1,16 @@
 state={
     id=879
     name="STATE_1879"
-    manpower = 1
-    state_category = town
+	manpower = 420304
+	state_category = rural
     history = {
     owner = OTT
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 0
+			dockyard = 0
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
         }
     }
     provinces = {

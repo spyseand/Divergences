@@ -20,6 +20,6 @@ state={
 		1573 4629 7639 7682 7775 10205 10671 11687 12239 12722 1632 756
 	}
 	manpower=6275820
-	buildings_max_level_factor=1.000
+	
 	state_category=city
 }

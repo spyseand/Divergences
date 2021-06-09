@@ -1,8 +1,8 @@
 state={
     id=865
     name="STATE_1865"
-    manpower = 1
-    state_category = town
+	manpower = 234379
+	state_category = enclave
     history = {
 		victory_points = {
 			12029 1
@@ -10,9 +10,11 @@ state={
 
     owner = OTT
         buildings = {
-            infrastructure = 1
-            arms_factory = 1
-            industrial_complex = 1
+			air_base = 0
+			dockyard = 0
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
         }
         add_core_of = OTT
     }

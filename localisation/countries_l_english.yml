@@ -521,3 +521,42 @@
  YUG_DEF:0 "Yugoslavia"
  YUG_ADJ:0 "Yugoslavian"
  
+ BOS:0 "Bosnia"
+ BOS_DEF:0 "Bosnia"
+ BOS_ADJ:0 "Bosnian"
+
+ SER:0 "Serbia"
+ SER_DEF:0 "Serbia"
+ SER_ADJ:0 "Serbian"
+
+ BUL:0 "Bulgaria"
+ BUL_DEF:0 "Bulgaria"
+ BUL_ADJ:0 "Bulgarian"
+
+ ARM:0 "Armenia"
+ ARM_DEF:0 "Armenia"
+ ARM_ADJ:0 "Armenian"
+
+ AZR:0 "Azerbaijan"
+ AZR_DEF:0 "Azerbaijan"
+ AZR_ADJ:0 "Azeri"
+
+ GEO:0 "Georgia"
+ GEO_DEF:0 "Georgia"
+ GEO_ADJ:0 "Georgian"
+
+ SYR:0 "Syria"
+ SYR_DEF:0 "Syria"
+ SYR_ADJ:0 "Syrian"
+
+ IRQ:0 "Iraq"
+ IRQ_DEF:0 "Iraq"
+ IRQ_ADJ:0 "Iraqi"
+
+ LIB:0 "Libya"
+ LIB_DEF:0 "Libya"
+ LIB_ADJ:0 "Libyan"
+
+ SIC:0 "Sicily"
+ SIC_DEF:0 "Sicily"
+ SIC_ADJ:0 "Sicilian"

@@ -221,8 +221,8 @@ MOL = {
 	color_ui = rgb { 115 55 55 }
 }
 ALB = {
-	color = rgb { 230 0 0 }
-	color_ui = rgb { 230 0 0 }
+	color = rgb { 81 49 129 }
+	color_ui = rgb { 81 49 129 }
 }
 
 TIB = {
@@ -376,7 +376,43 @@ NVR = {
 	color = rgb { 170 130 131 }
 	color_ui = rgb { 170 130 131 }
 }
-
-
-
-
+LIB = {
+	color = rgb { 186 142 94 }
+	color_ui = rgb { 186 142 94 }
+}
+SIC = {
+	color = rgb { 201 166 29 }
+	color_ui = rgb { 201 166 29 }
+}
+SYR = {
+	color = rgb { 128 179 25 }
+	color_ui = rgb { 128 179 25 }
+}
+IRQ = {
+	color = rgb { 175 106 106 }
+	color_ui = rgb { 175 106 106 }
+}
+ARM = {
+	color = rgb { 178 52 52 }
+	color_ui = rgb { 178 52 52 }
+}
+AZR = {
+	color = rgb { 80 115 149 }
+	color_ui = rgb { 80 115 149 }
+}
+GEO = {
+	color = rgb { 179 128 154 }
+	color_ui = rgb { 179 128 154 }
+}
+SER = {
+	color = rgb { 154 108 224 }
+	color_ui = rgb { 154 108 224 }
+}
+BOS = {
+	color = rgb { 159 198 179 }
+	color_ui = rgb { 159 198 179 }
+}
+BUL = {
+	color = rgb { 89 166 89 }
+	color_ui = rgb { 89 166 89 }
+}

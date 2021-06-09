@@ -7,14 +7,12 @@ state={
 	state_category = pastoral
 	
 	
-	history=
-	{
+	history={
 		owner = MNG
 		buildings = {
 			infrastructure = 2
 		}
 
 	}
-	manpower=500000
-	buildings_max_level_factor=1.000
+	manpower=1
 }

@@ -2,7 +2,7 @@
 state={
 	id=142
 	name="STATE_1142" # Yarkand
-	manpower = 1430700
+	manpower = 1
 	
 	state_category = pastoral
 	

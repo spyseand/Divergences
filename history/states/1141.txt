@@ -2,7 +2,7 @@
 state={
 	id=141
 	name="STATE_1141" # Dzungaria
-	manpower = 670800
+	manpower = 1
 
 	state_category = pastoral
 

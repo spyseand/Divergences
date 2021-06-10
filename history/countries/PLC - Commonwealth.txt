@@ -33,7 +33,7 @@ puppet = BEL
 		modifier = lithuanian_autonomy
 	}
 }
-1010 = {
+1020 = {
 	add_dynamic_modifier = {
 		modifier = lithuanian_autonomy
 	}

@@ -51,6 +51,12 @@ PLC_is_autonomous_state = {
 				}
 			}
 			AND = {
+				state = 1020
+				has_dynamic_modifier = { 
+					modifier = lithuanian_autonomy
+				}
+			}
+			AND = {
 				state = 699
 				has_dynamic_modifier = { 
 					modifier = lithuanian_autonomy
@@ -88,6 +94,18 @@ PLC_is_autonomous_state = {
 			}
 			AND = {
 				state = 714
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 716
+				has_dynamic_modifier = { 
+					modifier = ruthenian_autonomy
+				}
+			}
+			AND = {
+				state = 690
 				has_dynamic_modifier = { 
 					modifier = ruthenian_autonomy
 				}

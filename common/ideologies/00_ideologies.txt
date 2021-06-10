@@ -22,7 +22,7 @@ ideologies = {
 			can_puppet = yes
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
+			can_guarantee_other_ideologies = no
 		}
 		
 		can_host_government_in_exile = no
@@ -83,7 +83,7 @@ ideologies = {
 			lend_lease_tension = 0.1
 			send_volunteers_tension = 0.1
 			guarantee_tension = 0.1
-			annex_cost_factor = -0.25
+			annex_cost_factor = 0.25
 			civilian_intel_to_others = 15.0
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 10.0
@@ -130,7 +130,7 @@ ideologies = {
 			lend_lease_tension = 0.1
 			send_volunteers_tension = 0.1
 			guarantee_tension = 0.1
-			annex_cost_factor = -0.25
+			annex_cost_factor = 0.25
 			civilian_intel_to_others = 15.0
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 10.0

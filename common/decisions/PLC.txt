@@ -1,9 +1,63 @@
 autonomous_regions = {
 	
-	integration_efforts = {
-		highlight_states = { 
-			PLC_is_autonomous_state = yes
+	polonisation_efforts = {
+		visible = {
+			any_owned_state = {
+				OR = {
+					has_dynamic_modifier = {
+						modifier = lithuanian_autonomy
+					}
+					has_dynamic_modifier = {
+						modifier = ruthenian_autonomy
+					}
+					has_dynamic_modifier = {
+						modifier = german_autonomy
+					}
+				}
+			}
+		}
+		available = {
+			has_completed_focus = PLC_polish_domination
 		}
 		cost = 50
+		days_remove = 1
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					PLC_is_autonomous_state = yes
+				}
+				if = {
+					limit = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+					remove_dynamic_modifier = {
+						modifier = lithuanian_autonomy
+					}
+				}
+				else_if = {
+					limit = {
+						has_dynamic_modifier = {
+							modifier = ruthenian_autonomy
+						}
+					}
+					remove_dynamic_modifier = {
+						modifier = ruthenian_autonomy
+					}
+				}
+				else_if = {
+					limit = {
+						has_dynamic_modifier = {
+							modifier = german_autonomy
+						}
+					}
+					remove_dynamic_modifier = {
+						modifier = german_autonomy
+					}
+				}
+
+			}
+		}
 	}
 }

@@ -416,3 +416,92 @@ BUL = {
 	color = rgb { 89 166 89 }
 	color_ui = rgb { 89 166 89 }
 }
+
+TUN = {
+	color = rgb { 129 63 108 }
+	color_ui = rgb { 89 166 89 }
+}
+MOR = {
+	color = rgb { 56 41 118 }
+	color_ui = rgb { 89 166 89 }
+}
+
+ICH = {
+	color = rgb { 25 137 41 }
+	color_ui = rgb { 89 166 89 }
+}
+KOR = {
+	color = rgb { 139 40 189 }
+	color_ui = rgb { 89 166 89 }
+}
+INS = {
+	color = rgb { 141 136 147 }
+	color_ui = rgb { 89 166 89 }
+}
+VIT = {
+	color = rgb { 128 145 151 }
+	color_ui = rgb { 89 166 89 }
+}
+CAM = {
+	color = rgb { 109 94 112 }
+	color_ui = rgb { 89 166 89 }
+}
+LAO = {
+	color = rgb { 72 43 25 }
+	color_ui = rgb { 89 166 89 }
+}
+MAL = {
+	color = rgb { 170 69 34 }
+	color_ui = rgb { 89 166 89 }
+}
+PAP = {
+	color = rgb { 134 182 154 }
+	color_ui = rgb { 89 166 89 }
+}
+
+WAF = {
+	color = rgb { 3 184 10 }
+	color_ui = rgb { 89 166 89 }
+}
+EAF = {
+	color = rgb { 56 172 150 }
+	color_ui = rgb { 89 166 89 }
+}
+NGR = {
+	color = rgb { 90 99 29 }
+	color_ui = rgb { 89 166 89 }
+}
+MDG = {
+	color = rgb { 106 16 21 }
+	color_ui = rgb { 89 166 89 }
+}
+
+APC = {
+	color = rgb { 103 39 161 }
+	color_ui = rgb { 89 166 89 }
+}
+IRO = {
+	color = rgb { 198 36 63 }
+	color_ui = rgb { 89 166 89 }
+}
+SEM = {
+	color = rgb { 111 23 178 }
+	color_ui = rgb { 89 166 89 }
+}
+
+BRT = {
+	color = rgb { 81 19 137 }
+	color_ui = rgb { 89 166 89 }
+}
+DEN = {
+	color = rgb { 71 98 103 }
+	color_ui = rgb { 89 166 89 }
+}
+NOR = {
+	color = rgb { 159 61 172 }
+	color_ui = rgb { 89 166 89 }
+}
+FIN = {
+	color = rgb { 108 71 63 }
+	color_ui = rgb { 89 166 89 }
+}

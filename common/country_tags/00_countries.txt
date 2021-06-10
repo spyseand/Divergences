@@ -109,3 +109,31 @@ GEO = "countries/Georgia.txt"
 SER = "countries/Serbia.txt"
 BUL = "countries/Bulgaria.txt"
 BOS = "countries/Bosnia.txt"
+
+TUN = "countries/Tunisia.txt"
+MOR = "countries/Morocco.txt"
+
+ICH = "countries/Indochina.txt"
+KOR = "countries/Korea.txt"
+INS = "countries/Indonesia.txt"
+VIT = "countries/Vietnam.txt"
+CAM = "countries/Cambodia.txt"
+LAO = "countries/Laos.txt"
+MAL = "countries/Malaysia.txt"
+PAP = "countries/Papua.txt"
+
+WAF = "countries/West_Africa.txt"
+EAF = "countries/East_Africa.txt"
+NGR = "countries/Nigeria.txt"
+MDG = "countries/Madagascar.txt"
+
+APC = "countries/Apache.txt"
+IRO = "countries/Iroquois.txt"
+SEM = "countries/Seminole.txt"
+
+BRT = "countries/Brittany.txt"
+DEN = "countries/Denmark.txt"
+NOR = "countries/Norway.txt"
+FIN = "countries/Finland.txt"
+
+

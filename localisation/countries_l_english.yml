@@ -560,3 +560,87 @@
  SIC:0 "Sicily"
  SIC_DEF:0 "Sicily"
  SIC_ADJ:0 "Sicilian"
+ 
+ TUN:0 "Tunisia"
+ TUN_DEF:0 "Tunisia"
+ TUN_ADJ:0 "Tunisian"
+
+ MOR:0 "Morocco"
+ MOR_DEF:0 "Morocco"
+ MOR_ADJ:0 "Moroccan"
+
+ ICH:0 "Indochina"
+ ICH_DEF:0 "Indochina"
+ ICH_ADJ:0 "Indochinese"
+
+ KOR:0 "Korea"
+ KOR_DEF:0 "Korea"
+ KOR_ADJ:0 "Korean"
+
+ INS:0 "Indonesia"
+ INS_DEF:0 "Indonesia"
+ SIC_ADJ:0 "Indonesian"
+
+ VIT:0 "Vietnam"
+ VIT_DEF:0 "Vietnam"
+ VIT_ADJ:0 "Vietnamese"
+
+ CAM:0 "Cambodia"
+ CAM_DEF:0 "Cambodia"
+ CAM_ADJ:0 "Cambodian"
+
+ LAO:0 "Laos"
+ LAO_DEF:0 "Laos"
+ LAO_ADJ:0 "Laotion"
+
+ MAL:0 "Malaysia"
+ MAL_DEF:0 "Malaysia"
+ MAL_ADJ:0 "Malaysian"
+
+ PAP:0 "Papua"
+ PAP_DEF:0 "Papua"
+ PAP_ADJ:0 "Papuan"
+
+ WAF:0 "West African Federation"
+ WAF_DEF:0 "West African Federation"
+ WAF_ADJ:0 "West African"
+
+ EAF:0 "East African Federation"
+ EAF_DEF:0 "East African Federation"
+ EAF_ADJ:0 "East African"
+
+ NGR:0 "Nigeria"
+ NGR_DEF:0 "Nigeria"
+ NGR_ADJ:0 "Nigerian"
+
+ MDG:0 "Madagascar"
+ MDG_DEF:0 "Madagascar"
+ MDG_ADJ:0 "Malagasy"
+
+ APC:0 "Apache Hordes"
+ APC_DEF:0 "the Apache Hordes"
+ APC_ADJ:0 "Apache"
+
+ IRO:0 "Iroquois Federation"
+ IRO_DEF:0 "the Iroquois Federation"
+ IRO_ADJ:0 "Iroquois"
+
+ SEM:0 "Seminole Republic"
+ SEM_DEF:0 "the Seminole Republic"
+ SEM_ADJ:0 "Seminole"
+
+ BRT:0 "Brittany"
+ BRT_DEF:0 "Brittany"
+ BRT_ADJ:0 "Bretons"
+
+ DEN:0 "Denmark"
+ DEN_DEF:0 "Denmark"
+ DEN_ADJ:0 "Danish"
+
+ NOR:0 "Norway"
+ NOR_DEF:0 "Norway"
+ NOR_ADJ:0 "Norwegian"
+
+ FIN:0 "Finland"
+ FIN_DEF:0 "Finland"
+ FIN_ADJ:0 "Finnish"

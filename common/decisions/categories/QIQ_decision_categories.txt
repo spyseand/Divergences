@@ -3,4 +3,7 @@ naval_purchase = {
     visible = {
     	original_tag = QIQ
     }
+    allowed = {
+        original_tag = QIQ
+    }
 }

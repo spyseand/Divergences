@@ -3,4 +3,7 @@ form_germany = {
     visible = {
     	original_tag = BAY
     }
+    allowed = {
+        original_tag = BAY
+    }
 }

@@ -42,7 +42,10 @@ focus_tree = {
 		relative_position_id = INC_v_day
 
 		completion_reward = {
-
+			country_event = {
+				id = inc.2
+				days = 1
+			}
 		}
 	}
 }

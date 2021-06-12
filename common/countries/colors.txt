@@ -505,3 +505,7 @@ FIN = {
 	color = rgb { 108 71 63 }
 	color_ui = rgb { 89 166 89 }
 }
+CAT = {
+	color = rgb { 209 23 85 }
+	color_ui = rgb { 89 166 89 }
+}

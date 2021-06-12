@@ -136,4 +136,5 @@ DEN = "countries/Denmark.txt"
 NOR = "countries/Norway.txt"
 FIN = "countries/Finland.txt"
 
+CAT = "countries/Catalonia.txt"
 

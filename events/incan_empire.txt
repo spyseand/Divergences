@@ -1,0 +1,18 @@
+add_namespace = inc
+
+country_event = {
+    id = inca.1
+    title = inc.1.t
+    desc = inc.1.d
+
+    fire_only_once = yes
+    
+    trigger = {
+        tag = INC
+        NOT = { has_completed_focus = INC_v_day }
+        focus_progress = {
+            focus = INC_v_day
+            progress > 0.25
+        }
+    }
+}

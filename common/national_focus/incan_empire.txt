@@ -29,4 +29,20 @@ focus_tree = {
 
 		}
 	}
+	
+	focus = {
+		id = INC_where_from_here
+		icon = GFX_focus_inc_v_day
+		x = 0
+		y = 1
+		cost = 5
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_v_day }
+		relative_position_id = INC_v_day
+
+		completion_reward = {
+
+		}
+	}
 }

@@ -4,3 +4,14 @@ modded_debug_crap = {
 
 	}
 }
+
+form_arcadian_union = {
+	icon = generic_democracy
+	allowed = {
+		OR = {
+			original_tag = VIN
+			original_tag = BLC
+			original_tag = LOU
+		}
+	}
+}

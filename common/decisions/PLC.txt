@@ -1,62 +1,1158 @@
 autonomous_regions = {
-	
-	polonisation_efforts = {
-		visible = {
-			any_owned_state = {
-				OR = {
-					has_dynamic_modifier = {
-						modifier = lithuanian_autonomy
-					}
-					has_dynamic_modifier = {
-						modifier = ruthenian_autonomy
-					}
-					has_dynamic_modifier = {
-						modifier = german_autonomy
-					}
-				}
-			}
-		}
+
+	polonisation_crisis = {
 		available = {
-			has_completed_focus = PLC_polish_domination
-		}
-		cost = 50
-		days_remove = 1
-		remove_effect = {
-			random_owned_state = {
-				limit = {
-					PLC_is_autonomous_state = yes
-				}
-				if = {
-					limit = {
-						has_dynamic_modifier = {
-							modifier = lithuanian_autonomy
-						}
-					}
-					remove_dynamic_modifier = {
-						modifier = lithuanian_autonomy
-					}
-				}
-				else_if = {
-					limit = {
-						has_dynamic_modifier = {
-							modifier = ruthenian_autonomy
-						}
-					}
-					remove_dynamic_modifier = {
-						modifier = ruthenian_autonomy
-					}
-				}
-				else_if = {
-					limit = {
+			custom_trigger_tooltip = {
+				tooltip = tt_PLC_polonisation_crisis
+				680 = {
+					NOT = {
 						has_dynamic_modifier = {
 							modifier = german_autonomy
 						}
 					}
-					remove_dynamic_modifier = {
-						modifier = german_autonomy
+				}
+				679 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = german_autonomy
+						}
 					}
 				}
+				674 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = german_autonomy
+						}
+					}
+				}
+				698 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = german_autonomy
+						}
+					}
+				}
+				693 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+				}
+				694 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+				}
+				695 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+				}
+				676 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+				}
+				1020 = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = lithuanian_autonomy
+						}
+					}
+				}
+			}
+		}
+		activation = {
+			has_completed_focus = PLC_polish_domination
+		}
+		is_good = no
+		days_mission_timeout = 650
+		timeout_effect = {
 
+		}
+		complete_effect = {
+
+		}
+	}
+
+	polonise_poznan = {
+
+		visible = {
+			owns_state = 680
+			680 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 680
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 680
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			680 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_poznan = {
+
+		visible = {
+			owns_state = 680
+			680 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 680
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 680
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			680 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = german_integration
+				}
+			}
+		}
+	}
+
+	polonise_gdansk = {
+
+		visible = {
+			owns_state = 679
+			679 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 679
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 679
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			679 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_gdansk = {
+
+		visible = {
+			owns_state = 679
+			679 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 679
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 679
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			679 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = german_integration
+				}
+			}
+		}
+	}
+
+	polonise_lower_prusy = {
+
+		visible = {
+			owns_state = 674
+			674 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 674
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 674
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			674 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_lower_prusy = {
+
+		visible = {
+			owns_state = 674
+			674 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 674
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 674
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			674 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = german_integration
+				}
+			}
+		}
+	}
+
+	polonise_upper_prusy = {
+
+		visible = {
+			owns_state = 698
+			698 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 698
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 698
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			698 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_upper_prusy = {
+
+		visible = {
+			owns_state = 698
+			698 = {
+				has_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 698
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 698
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			698 = {
+				remove_dynamic_modifier = {
+					modifier = german_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = german_integration
+				}
+			}
+		}
+	}
+
+	polonise_memel = {
+
+		visible = {
+			owns_state = 693
+			693 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 693
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 693
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			693 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_memel = {
+
+		visible = {
+			owns_state = 693
+			693 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 693
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 693
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			693 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
+			}
+		}
+	}
+
+	polonise_zemaitija = {
+
+		visible = {
+			owns_state = 694
+			694 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 694
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 694
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			694 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_zemaitija = {
+
+		visible = {
+			owns_state = 694
+			694 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 694
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 694
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			694 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
+			}
+		}
+	}
+
+	polonise_courland = {
+
+		visible = {
+			owns_state = 695
+			695 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 695
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 695
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			695 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_courland = {
+
+		visible = {
+			owns_state = 695
+			695 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 695
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 695
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			695 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
+			}
+		}
+	}
+
+	polonise_kaunas = {
+
+		visible = {
+			owns_state = 676
+			676 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 676
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 676
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			676 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_kaunas = {
+
+		visible = {
+			owns_state = 676
+			676 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 676
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 676
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			676 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
+			}
+		}
+	}
+
+	polonise_suduva = {
+
+		visible = {
+			owns_state = 1020
+			1020 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_polish_domination
+		}
+
+		available = {
+			has_completed_focus = PLC_polish_domination
+			has_full_control_of_state = 1020
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 1020
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 150
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 200
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+			add_stability = 0.1
+			1020 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+		}
+	}
+
+	integrate_suduva = {
+
+		visible = {
+			owns_state = 1020
+			1020 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 1020
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 1020
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			1020 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
+			}
+		}
+	}
+
+	integrate_vilnius = {
+
+		visible = {
+			owns_state = 699
+			699 = {
+				has_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+			}
+			has_completed_focus = PLC_national_equity
+		}
+
+		available = {
+			has_completed_focus = PLC_end_polonisation
+			has_full_control_of_state = 699
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			state = 699
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_political_power > 150
+			}
+			modifier = {
+				has_manpower < 50000
+				has_war = yes
+				has_political_power < 200
+				factor = 0
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+		}
+
+		remove_effect = {
+			add_stability = 0.05
+			699 = {
+				remove_dynamic_modifier = {
+					modifier = lithuanian_autonomy
+				}
+				add_dynamic_modifier = {
+					modifier = lithuanian_integration
+				}
 			}
 		}
 	}

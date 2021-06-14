@@ -53,6 +53,33 @@ ruthenian_autonomy = {
 	recruitable_population_factor = -0.25
 }
 
+lithuanian_integration = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_lithuanian_autonomy
+	
+	local_building_slots_factor = -0.15
+	recruitable_population_factor = -0.1
+}
+
+german_integration = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_german_autonomy
+	
+	local_building_slots_factor = -0.15
+	recruitable_population_factor = -0.1
+}
+
+ruthenian_integration = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_ruthenian_autonomy
+	
+	local_building_slots_factor = -0.15
+	recruitable_population_factor = -0.1
+}
+
 #####
 
 sabotaged_resources = {

@@ -648,3 +648,31 @@
  CAT:0 "Catalonia"
  CAT_DEF:0 "Catalonia"
  CAT_ADJ:0 "Catalan"
+
+ PRU:0 "Prussia"
+ PRU_DEF:0 "Prussia"
+ PRU_ADJ:0 "Prussian"
+
+ LIT:0 "Lithuania"
+ LIT_DEF:0 "Lithuania"
+ LIT_ADJ:0 "Lithuanian"
+
+ LIV:0 "Livonia"
+ LIV_DEF:0 "Livonia"
+ LIV_ADJ:0 "Livonian"
+
+ CRI:0 "Crimea"
+ CRI_DEF:0 "Crimea"
+ CRI_ADJ:0 "Crimean"
+
+ FRE:0 "Free Territories"
+ FRE_DEF:0 "Free Territories"
+ FRE_ADJ:0 "Free"
+
+ ASH:0 "Ashkenazi State"
+ ASH_DEF:0 "Ashkenazi State"
+ ASH_ADJ:0 "Ashkenazi"
+
+ RRT:0 "Russian Ruthenia"
+ RRT_DEF:0 "Russian Ruthenia"
+ RRT_ADJ:0 "Russian"

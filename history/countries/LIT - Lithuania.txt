@@ -1,9 +1,6 @@
-﻿capital = 521
+﻿capital = 699
 
-puppet = TYK
-puppet = EST
-
-OOB = "SCD_1936"
+OOB = "LIT_1936"
 
 set_research_slots = 4
 
@@ -12,7 +9,7 @@ set_technology = {
 	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1
-	gw_artillery = 1
+	interwar_artillery = 1
 	fighter1 = 1
 	CAS1 = 1
 	fighter_equipment_0 = 1
@@ -36,6 +33,7 @@ set_technology = {
 	basic_cruiser_armor_scheme = 1
 	mtg_transport = 1
 	support_weapons = 1
+	support_weapons2 = 1
 }
 
 set_politics = {
@@ -50,24 +48,13 @@ set_popularities = {
 	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 0
-	liberalism = 0
-	conservatism = 10
-	authoritarian_democracy = 70
+	social_democracy = 4
+	liberalism = 61
+	conservatism = 33
+	authoritarian_democracy = 2
 	autocracy = 0
-	fascism = 20
+	fascism = 0
 	egoism = 0
-}
-
-create_country_leader = {
-	name = "Zach"
-	desc = "POLITICS_ZACH_DESC"
-	picture = "gfx/leaders/zachisdumb.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_democracy_sub
-	traits = {
-		dictator
-	}
 }
 
 set_convoys = 112

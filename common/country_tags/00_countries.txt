@@ -138,3 +138,10 @@ FIN = "countries/Finland.txt"
 
 CAT = "countries/Catalonia.txt"
 
+LIT = "countries/Lithuania.txt"
+LIV = "countries/Livonia.txt"
+PRU = "countries/Prussia.txt"
+CRI = "countries/Crimea.txt"
+FRE = "countries/Free_Territories.txt"
+ASH = "countries/Ashkenazi_State.txt"
+RRT = "countries/Russian_Ruthenia.txt"

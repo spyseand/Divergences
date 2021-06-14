@@ -3,6 +3,7 @@ autonomous_regions = {
 	allowed = {
 		original_tag = PLC
 	}
+	visible_when_empty = yes
 	on_map_area = {
 		target_array = owned_states
 		target_trigger = {

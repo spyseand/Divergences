@@ -152,12 +152,8 @@ PLC_polish_domination:0 "Polish Domination"
 PLC_polish_domination_desc:0 ""
 PLC_national_equity:0 "National Equity"
 PLC_national_equity_desc:0 ""
-<<<<<<< Updated upstream
-
-=======
 tt_PLC_available_polish_domination:0 "Polonisation Will Continue"
 tt_PLC_polish_domination:0 "§RA timed mission to polonise our German and Lithuanian lands will begin.§!"
 tt_PLC_available_national_equity:0 "It's Time to End Polonisation"
 tt_PLC_national_equity:0 "§GThe integration of all of our peoples will begin.§!"
 tt_PLC_polonisation_crisis:0 "§RIf our German and Lithuanian lands are not colonised in time, the Commonwealth will collapse!§!"
->>>>>>> Stashed changes

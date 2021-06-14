@@ -1,0 +1,84 @@
+add_namespace = spa
+
+country_event = {
+	
+    id = spa.1
+    title = spa.1.t
+    desc = spa.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = spa.1.a
+		ai_chance = { factor = 100 }
+		declare_war_on = {
+			target = NVR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ARA
+			type = annex_everything
+		}
+		
+		SPA = {
+			news_event = {
+				id = spa.2
+			}
+		}
+		ARA = {
+			country_event = {
+				days = 1
+				id = ara.1
+			}
+		}
+		SCD = {
+			add_to_war = { 
+				targeted_alliance = SPA 
+				enemy = NVR
+				hostility_reason = asked_to_join
+			}
+			add_to_war = { 
+				targeted_alliance = SPA 
+				enemy = ARA
+				hostility_reason = asked_to_join
+			}
+		}
+		EGL = {
+			add_to_war = { 
+				targeted_alliance = SPA 
+				enemy = NVR
+				hostility_reason = asked_to_join
+			}
+			add_to_war = { 
+				targeted_alliance = SPA 
+				enemy = ARA
+				hostility_reason = asked_to_join
+			}
+		}
+
+
+	}
+	
+	option = {
+		ai_chance = { factor = 0 }
+		name = spa.1.b
+
+	}
+
+}
+
+
+news_event = {
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+    id = spa.2
+    title = spa.2.t
+    desc = spa.2.d
+	
+	option = {
+		name = spa.2.a
+	}
+
+}

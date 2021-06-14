@@ -15,7 +15,7 @@ focus_tree = {
 	###WW2 setup
 
 	focus = {
-		id = SPA_blitz_into_navarre
+		id = SPA_rush_for_the_pyrenees
 		icon = GFX_goal_unknown
 		x = 18
 		y = 6

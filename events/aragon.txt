@@ -1,0 +1,43 @@
+add_namespace = ara
+
+# Catalonian Revolt: ara.1
+country_event = {
+	
+    id = ara.1
+    title = ara.1.t
+    desc = ara.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate {
+		CAT = {
+			transfer_state = 647
+			set_state_controller = 647
+			set_state_owner = 647
+			add_state_core = 647
+			declare_war_on = {
+				target = ARA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SPA
+				type = annex_everything
+			}
+			
+		}
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = ara.1.a
+
+	}
+	
+	option = {
+		name = ara.1.b
+		
+	}
+
+}

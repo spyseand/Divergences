@@ -1,5 +1,15 @@
 autonomous_regions = {
 
+	speed_up_crisis = {
+		cost = 0
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = polonisation_crisis
+				days = -320
+			}
+		}
+	}
+
 	polonisation_crisis = {
 		available = {
 			custom_trigger_tooltip = {
@@ -75,10 +85,111 @@ autonomous_regions = {
 		is_good = no
 		days_mission_timeout = 650
 		timeout_effect = {
-
+			custom_effect_tooltip = tt_PLC_polonisation_failure
+			country_event = {
+				id = commonwealth.8
+			}
+			hidden_effect = {
+				680 = {
+					add_core_of = PRU
+				}
+				679 = {
+					add_core_of = PRU
+				}
+				674 = {
+					add_core_of = PRU
+				}
+				698 = {
+					add_core_of = PRU
+				}
+				693 = {
+					add_core_of = LIT
+				}
+				694 = {
+					add_core_of = LIT
+				}
+				676 = {
+					add_core_of = LIT
+				}
+				1020 = {
+					add_core_of = LIT
+				}
+				699 = {
+					add_core_of = LIT
+				}
+				695 = {
+					add_core_of = LIV
+				}
+				689 = {
+					add_core_of = BEL
+				}
+				688 = {
+					add_core_of = BEL
+				}
+				717 = {
+					add_core_of = BEL
+				}
+				718 = {
+					add_core_of = UKR
+				}
+				687 = {
+					add_core_of = ASH
+				}
+				685 = {
+					add_core_of = ASH
+				}
+				683 = {
+					add_core_of = ASH
+				}
+				714 = {
+					add_core_of = ASH
+				}
+				478 = {
+					add_core_of = RRT
+				}
+				477 = {
+					add_core_of = RRT
+				}
+				476 = {
+					add_core_of = RRT
+				}
+				474 = {
+					add_core_of = RRT
+				}
+				467 = {
+					add_core_of = CRI
+				}
+				473 = {
+					add_core_of = FRE
+				}
+				471 = {
+					add_core_of = FRE
+				}
+				469 = {
+					add_core_of = FRE
+				}
+				468 = {
+					add_core_of = FRE
+				}
+				713 = {
+					add_core_of = FRE
+				}
+				712 = {
+					add_core_of = FRE
+				}
+				709 = {
+					add_core_of = FRE
+				}
+				710 = {
+					add_core_of = FRE
+				}
+				711 = {
+					add_core_of = FRE
+				}
+			}
 		}
 		complete_effect = {
-
+			custom_effect_tooltip = tt_PLC_polonisation_continues
 		}
 	}
 

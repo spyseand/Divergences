@@ -409,3 +409,112 @@ country_event = {
 		name = commonwealth.7.b
 	}
 }
+
+country_event = {
+	id = commonwealth.8
+	title = commonwealth.8.t
+	desc = commonwealth.8.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.8.a
+		RRT = {
+			transfer_state = 478
+			transfer_state = 477
+			transfer_state = 476
+			transfer_state = 474
+		}
+		end_puppet = UKR
+		UKR = {
+			transfer_state = 718
+			country_event = {
+				id = commonwealth.11
+				days = 10
+			}
+			set_cosmetic_tag = PLC_ukraine
+		}
+		end_puppet = BEL
+		BEL = {
+			transfer_state = 689
+			transfer_state = 688
+			transfer_state = 717
+			set_cosmetic_tag = PLC_belarus
+		}
+		country_event = {
+			id = commonwealth.9
+			days = 5
+		}
+	}
+}
+
+country_event = {
+	id = commonwealth.9
+	title = commonwealth.9.t
+	desc = commonwealth.9.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.9.a
+		release = PRU
+		release = LIT
+		release = LIV
+		set_cosmetic_tag = PLC_poland
+		set_capital = 675
+		country_event = {
+			id = commonwealth.10
+			days = 5
+		}
+		news_event = {
+			id = commonwealth.12
+			days = 0
+		}
+	}
+}
+
+country_event = {
+	id = commonwealth.10
+	title = commonwealth.10.t
+	desc = commonwealth.10.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.10.a
+		release = ASH
+	}
+}
+
+country_event = {
+	id = commonwealth.11
+	title = commonwealth.11.t
+	desc = commonwealth.11.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.11.a
+		release = FRE
+		release = CRI
+	}
+}
+
+news_event = {
+	id = commonwealth.12
+	title = commonwealth.12.t
+	desc = commonwealth.12.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = commonwealth.12.a
+	}
+}

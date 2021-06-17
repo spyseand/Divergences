@@ -6,7 +6,19 @@ BURP = {
     color = rgb { 203 138 74 }
     color_ui = rgb { 203 138 74 }
 }
-ARC = {
-    color = rbg { 102 204 204 }
+ARC_arcadia = {
+    color = rgb { 102 204 204 }
     color_ui = rgb { 102 204 204 }
+}
+PLC_poland = {
+    color = rgb { 191 64 149 }
+    color_ui = rgb { 191 64 149 }
+}
+PLC_ukraine = {
+    color = rgb { 29 115 201 }
+    color_ui = rgb { 29 115 201 }
+}
+PLC_belarus = {
+    color = rgb { 64 191 64 }
+    color_ui = rgb { 64 191 64 }
 }

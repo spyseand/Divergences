@@ -510,12 +510,12 @@ CAT = {
 	color_ui = rgb { 89 166 89 }
 }
 LIT = {
-	color = rgb { 240 196 66 }
-	color_ui = rgb { 240 196 66 }
+	color = rgb { 217 172 38 }
+	color_ui = rgb { 217 172 38 }
 }
 LIV = {
-	color = rgb { 142 94 237 }
-	color_ui = rgb { 142 94 237 }
+	color = rgb { 129 82 224 }
+	color_ui = rgb { 129 82 224 }
 }
 PRU = {
 	color = rgb { 89 89 89 }

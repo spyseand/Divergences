@@ -90,7 +90,7 @@ form_arcadian_union = {
 			}
 		}
 		remove_effect = {
-			set_cosmetic_tag = ARC
+			set_cosmetic_tag = ARC_arcadia
 			hidden_effect = {
 				add_state_core = 38
 				add_state_core = 39

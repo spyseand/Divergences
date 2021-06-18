@@ -157,3 +157,5 @@ tt_PLC_polish_domination:0 "§RA timed mission to polonise our German and Lithua
 tt_PLC_available_national_equity:0 "It's Time to End Polonisation"
 tt_PLC_national_equity:0 "§GThe integration of all of our peoples will begin.§!"
 tt_PLC_polonisation_crisis:0 "§RIf our German and Lithuanian lands are not colonised in time, the Commonwealth will collapse!§!"
+tt_PLC_polonisation_failure:0 "§RThe Commonwealth Will Collapse§!"
+tt_PLC_polonisation_continues:0 "§GCollapse has been avoided... For now.§!"

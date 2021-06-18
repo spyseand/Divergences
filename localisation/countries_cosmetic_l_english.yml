@@ -3,6 +3,14 @@
  GER_authoritarian_socialism:0 "German Socialist Republic"
  GER_liberitarian_socialism:0 "German Socialist Republic"
 
- ARC:0 "Arcadia"
- ARC_DEF:0 "Arcadia"
- ARC_ADJ:0 "Arcadian"
+ ARC_arcadia:0 "Arcadia"
+ ARC_arcadia_DEF:0 "Arcadia"
+ ARC_arcadia_ADJ:0 "Arcadian"
+
+ PLC_poland:0 "Poland"
+ PLC_poland_DEF:0 "Poland"
+ PLC_poland_ADJ:0 "Polish"
+
+ PLC_belarus:0 "Belarus"
+ PLC_belarus_DEF:0 "Belarus"
+ PLC_belarus_ADJ:0 "Belarusian"

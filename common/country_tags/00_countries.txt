@@ -145,3 +145,5 @@ CRI = "countries/Crimea.txt"
 FRE = "countries/Free_Territories.txt"
 ASH = "countries/Ashkenazi_State.txt"
 RRT = "countries/Russian_Ruthenia.txt"
+
+CHI = "countries/China.txt"

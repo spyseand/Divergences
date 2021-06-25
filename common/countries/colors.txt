@@ -537,3 +537,8 @@ RRT = {
 	color = rgb { 26 110 41 }
 	color_ui = rgb { 26 110 41 }
 }
+
+CHI = {
+	color = rgb { 65 65 175 }
+	color_ui = rgb { 75 75 175 }
+}

@@ -1,0 +1,64 @@
+
+focus_tree = {
+	id = courland_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LIV
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = LIV_freedom_at_last
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_foreign_recognition
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_freedom_at_last }
+		relative_position_id = LIV_freedom_at_last
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_the_tallinn_conference
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_foreign_recognition }
+		relative_position_id = LIV_foreign_recognition
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+}

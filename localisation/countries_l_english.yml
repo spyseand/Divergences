@@ -651,9 +651,9 @@
  LIT_DEF:0 "Lithuania"
  LIT_ADJ:0 "Lithuanian"
 
- LIV:0 "Livonia"
- LIV_DEF:0 "Livonia"
- LIV_ADJ:0 "Livonian"
+ LIV:0 "Courland"
+ LIV_DEF:0 "Courland"
+ LIV_ADJ:0 "Courland"
 
  CRI:0 "Crimea"
  CRI_DEF:0 "Crimea"

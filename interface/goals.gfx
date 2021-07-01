@@ -100,6 +100,16 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_qiq_oceangoing"
 	texturefile = "gfx/interface/goals/focus_qiq_oceangoing.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_liv_freedom_at_last"
+	texturefile = "gfx/interface/goals/focus_liv_freedom_at_last.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_liv_a_peaceful_soverign_latvia"
+	texturefile = "gfx/interface/goals/focus_liv_a_peaceful_soverign_latvia.dds"			
 	}		
 
 	SpriteType = {

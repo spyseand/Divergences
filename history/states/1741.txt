@@ -21,17 +21,23 @@ state={
 		victory_points = { 
 			3796 3
 		}
+		victory_points = { 
+			9783 5
+		}
+		victory_points = { 
+			9769 1
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 
 		}
-		add_core_of = OTT
+		add_core_of = BUL
 
 	}
 
 	provinces={
-		3796 3819 3952 6842 9610 9612 
+		3796 3819 3952 6842 9610 9612 649 9769 9783
 	}
 
 

@@ -8,6 +8,7 @@ state={
         buildings = {
             infrastructure = 1
         }
+        add_core_of = LIB
     }
     provinces = {
         1127 1198 4057 12088 10117 10046 4047

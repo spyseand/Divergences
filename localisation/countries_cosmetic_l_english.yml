@@ -14,3 +14,11 @@
  PLC_belarus:0 "Belarus"
  PLC_belarus_DEF:0 "Belarus"
  PLC_belarus_ADJ:0 "Belarusian"
+
+ LIV_latvia:0 "Latvia"
+ LIV_latvia_DEF:0 "Latvia"
+ LIV_latvia_ADJ:0 "Latvian"
+
+ LIV_livonia:0 "Livonia"
+ LIV_livonia_DEF:0 "Livonia"
+ LIV_livonia_ADJ:0 "Livonian"

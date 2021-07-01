@@ -8,14 +8,13 @@ state={
 			10641 1
 		}
 
-    owner = RUS
+        owner = JRS
         buildings = {
 			air_base = 0
 			infrastructure = 2
 			arms_factory = 0
 			industrial_complex = 0
         }
-        add_core_of = RUS
     }
     provinces = {
         10641 10589 7817 1852 7765 12611

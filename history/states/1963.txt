@@ -4,19 +4,16 @@ state={
 	manpower = 154102
 	state_category = rural
      history = {
-		victory_points = {
-			9663 1
-		}
-
-		owner = OTT
+		 owner = JAP
+		 add_core_of = JAP
          buildings = {
 			air_base = 0
-			infrastructure = 3
+			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 0
          }
      }
      provinces = {
-         11647 9663
+         11879 3977 6838 3787 6684
      }
  }

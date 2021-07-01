@@ -8,7 +8,7 @@ state={
 			10007 1
 		}
 
-    owner = OTT
+    	owner = OTT
         buildings = {
 			air_base = 1
 			infrastructure = 5

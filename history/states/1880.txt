@@ -15,6 +15,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
         }
+        add_core_of = IRQ
     }
     provinces = {
         12726 7977 2004 7994 12046

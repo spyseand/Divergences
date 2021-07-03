@@ -19,6 +19,7 @@ state={
 			arms_factory = 0
 			industrial_complex = 1
         }
+        add_core_of = SYR
     }
     provinces = {
         1108 792 11919 1065

@@ -23,6 +23,7 @@ state={
 			arms_factory = 0
 			industrial_complex = 0
         }
+        add_core_of = IRQ
     }
     provinces = {
         12413 12839 2089 8001 10876

@@ -26,6 +26,15 @@ state={
 			industrial_complex = 1
 			air_base = 10
 			dockyard = 1
+			10074 = {
+				naval_base = 6
+			}
+			4159 = {
+				naval_base = 3
+			}
+			1009 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = SIC
 	}

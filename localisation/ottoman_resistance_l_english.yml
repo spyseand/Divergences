@@ -1,0 +1,7 @@
+﻿l_english:
+ OTT_serb_resistance_tooltip:0 "§RCurrent Effects of Serbian Resistance§!\n[GetSerbResistanceEffects]"
+
+ OTT_serb_resistance_tooltip_low:0 "Stability: §R-0.50%§!"
+ OTT_serb_resistance_tooltip_medium:0 "Stability: §R-1.00%§!"
+ OTT_serb_resistance_tooltip_high:0 "Stability: §R-1.50%§!"
+ OTT_serb_resistance_tooltip_intense:0 "Stability: §R -2.00%§!"

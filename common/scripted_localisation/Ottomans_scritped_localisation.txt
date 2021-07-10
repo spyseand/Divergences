@@ -1,0 +1,19 @@
+defined_text = {
+	name = GetSerbResistanceEffects
+	text = {
+		trigger = { has_idea = OTT_low_serb_resistance }
+		localization_key = OTT_serb_resistance_tooltip_low
+	}
+	text = {
+		trigger = { has_idea = OTT_medium_serb_resistance }
+		localization_key = OTT_serb_resistance_tooltip_medium
+	}
+	text = {
+		trigger = { has_idea = OTT_high_serb_resistance }
+		localization_key = OTT_serb_resistance_tooltip_high
+	}
+	text = {
+		trigger = { has_idea = OTT_intense_serb_resistance }
+		localization_key = OTT_serb_resistance_tooltip_intense
+	}
+}

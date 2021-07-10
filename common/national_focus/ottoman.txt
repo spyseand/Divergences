@@ -30,5 +30,21 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = OTT_masters_of_the_mediterranean
+		icon = GFX_focus_TUR_pivot_to_the_past
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_hegemons_of_the_mideast }
+		relative_position_id = OTT_hegemons_of_the_mideast
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 	
 }

@@ -1,33 +1,33 @@
 resistance_measures = {
 	
-	debug_serb_resistance = {
+	debug_balkan_resistance = {
 		cost = 0
-		days_remove = 2
+		days_remove = 1
 		complete_effect = {
 			if = {
 				limit = {
 					check_variable = {
-						var = var_OTT_serb_resistance
-						value = 5
+						var = var_OTT_balkan_resistance
+						value = 9
 						compare = less_than
 					}
 				}
 				add_to_variable = {
-					var = var_OTT_serb_resistance
+					var = var_OTT_balkan_resistance
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					check_variable = {
-						var = var_OTT_serb_resistance
-						value = 5
+						var = var_OTT_balkan_resistance
+						value = 9
 						compare = equals
 					}
 				}
 				subtract_from_variable = {
-					var = var_OTT_serb_resistance
-					value = 4
+					var = var_OTT_balkan_resistance
+					value = 8
 				}
 			}
 		}

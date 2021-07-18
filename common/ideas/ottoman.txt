@@ -40,29 +40,53 @@ ideas = {
 	}
 
 	hidden_ideas = {
-		OTT_low_serb_resistance = {
-			modifier = {
-				stability_factor = -0.005
-			}
-			name = serbian_resistance
-		}
-		OTT_medium_serb_resistance = {
+		OTT_balkan_1_resistance = {
 			modifier = {
 				stability_factor = -0.01
 			}
-			name = serbian_resistance
+			name = balkan_resistance
 		}
-		OTT_high_serb_resistance = {
-			modifier = {
-				stability_factor = -0.015
-			}
-			name = serbian_resistance
-		}
-		OTT_intense_serb_resistance = {
+		OTT_balkan_2_resistance = {
 			modifier = {
 				stability_factor = -0.02
 			}
-			name = serbian_resistance
+			name = balkan_resistance
+		}
+		OTT_balkan_3_resistance = {
+			modifier = {
+				stability_factor = -0.03
+			}
+			name = balkan_resistance
+		}
+		OTT_balkan_4_resistance = {
+			modifier = {
+				stability_factor = -0.04
+			}
+			name = balkan_resistance
+		}
+		OTT_balkan_5_resistance = {
+			modifier = {
+				stability_factor = -0.05
+			}
+			name = balkan_resistance
+		}
+		OTT_balkan_6_resistance = {
+			modifier = {
+				stability_factor = -0.06
+			}
+			name = balkan_resistance
+		}
+		OTT_balkan_7_resistance = {
+			modifier = {
+				stability_factor = -0.07
+			}
+			name = balkan_resistance
+		}
+		OTT_balkan_8_resistance = {
+			modifier = {
+				stability_factor = -0.08
+			}
+			name = balkan_resistance
 		}
 	}
 }

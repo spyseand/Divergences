@@ -1,19 +1,35 @@
 defined_text = {
-	name = GetSerbResistanceEffects
+	name = GetBalkanResistanceEffects
 	text = {
-		trigger = { has_idea = OTT_low_serb_resistance }
-		localization_key = OTT_serb_resistance_tooltip_low
+		trigger = { has_idea = OTT_balkan_1_resistance }
+		localization_key = OTT_balkan_1_resistance_tooltip
 	}
 	text = {
-		trigger = { has_idea = OTT_medium_serb_resistance }
-		localization_key = OTT_serb_resistance_tooltip_medium
+		trigger = { has_idea = OTT_balkan_2_resistance }
+		localization_key = OTT_balkan_2_resistance_tooltip
 	}
 	text = {
-		trigger = { has_idea = OTT_high_serb_resistance }
-		localization_key = OTT_serb_resistance_tooltip_high
+		trigger = { has_idea = OTT_balkan_3_resistance }
+		localization_key = OTT_balkan_3_resistance_tooltip
 	}
 	text = {
-		trigger = { has_idea = OTT_intense_serb_resistance }
-		localization_key = OTT_serb_resistance_tooltip_intense
+		trigger = { has_idea = OTT_balkan_4_resistance }
+		localization_key = OTT_balkan_4_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_balkan_5_resistance }
+		localization_key = OTT_balkan_5_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_balkan_6_resistance }
+		localization_key = OTT_balkan_6_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_balkan_7_resistance }
+		localization_key = OTT_balkan_7_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_balkan_8_resistance }
+		localization_key = OTT_balkan_8_resistance_tooltip
 	}
 }

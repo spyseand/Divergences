@@ -4,9 +4,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_category_ott_resistance_window"
 		texturefile = "gfx/interface/decisions/decision_category_ott_resistance_window.dds"
-		noOfFrames = 4
+		noOfFrames = 8
 	}
-
+	spriteType = {
+		name = "GFX_decision_category_ott_bg_window"
+		texturefile = "gfx/interface/decisions/decision_category_ott_bg_box.dds"
+	}
 
 
 

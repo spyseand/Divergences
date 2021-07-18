@@ -46,5 +46,21 @@ focus_tree = {
 			
 		}
 	}
+
+	focus = {
+		id = OTT_seat_of_the_caliph
+		icon = GFX_focus_TUR_pivot_to_the_past
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_masters_of_the_mediterranean }
+		relative_position_id = OTT_masters_of_the_mediterranean
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 	
 }

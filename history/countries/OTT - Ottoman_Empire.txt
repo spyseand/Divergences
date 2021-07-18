@@ -11,51 +11,13 @@ add_ideas = {
 }
 
 
-#Balkan Resistance Variables
+#Resistance Variables
 set_variable = {
-	var = var_OTT_serb_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_bulgar_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_romanian_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_greek_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_sicilian_resistance
-	value = 1
-}
-
-#Middle East Resistance Variables
-set_variable = {
-	var = var_OTT_iraqi_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_syrian_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_georgian_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_armenian_resistance
+	var = var_OTT_balkan_resistance
 	value = 1
 }
 set_variable = {
 	var = var_OTT_arabic_resistance
-	value = 1
-}
-set_variable = {
-	var = var_OTT_libyan_resistance
 	value = 1
 }
 

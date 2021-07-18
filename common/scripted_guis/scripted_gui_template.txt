@@ -54,8 +54,8 @@ scripted_gui = {
         }
 
         properties = {
-            serb_resistance_icon = {
-                frame = var_OTT_serb_resistance
+            balkan_resistance_icon = {
+                frame = var_OTT_balkan_resistance
             }
         }
     }

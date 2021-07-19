@@ -5,6 +5,22 @@ puppet = WAL
 puppet = TRA
 puppet = MOL
 
+add_ideas = {
+	OTT_skirmishes_border_wars
+	OTT_low_serb_resistance
+}
+
+
+#Resistance Variables
+set_variable = {
+	var = var_OTT_balkan_resistance
+	value = 1
+}
+set_variable = {
+	var = var_OTT_arabic_resistance
+	value = 1
+}
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1

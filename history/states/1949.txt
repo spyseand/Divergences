@@ -16,9 +16,11 @@ state={
         buildings = {
             infrastructure = 3
             industrial_complex = 1
+            12049 = {
+                naval_base = 5
+            }
         }
         add_core_of = EGY
-        add_core_of = OTT
     }
     provinces = {
         12049 4073

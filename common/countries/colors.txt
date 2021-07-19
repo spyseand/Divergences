@@ -509,3 +509,36 @@ CAT = {
 	color = rgb { 209 23 85 }
 	color_ui = rgb { 89 166 89 }
 }
+LIT = {
+	color = rgb { 217 172 38 }
+	color_ui = rgb { 217 172 38 }
+}
+LIV = {
+	color = rgb { 129 82 224 }
+	color_ui = rgb { 129 82 224 }
+}
+PRU = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 89 89 89 }
+}
+CRI = {
+	color = rgb { 205 152 152 }
+	color_ui = rgb { 205 152 152 }
+}
+FRE = {
+	color = rgb { 38 38 38 }
+	color_ui = rgb { 38 38 38 }
+}
+ASH = {
+	color = rgb { 130 94 23 }
+	color_ui = rgb { 130 94 23 }
+}
+RRT = {
+	color = rgb { 26 110 41 }
+	color_ui = rgb { 26 110 41 }
+}
+
+CHI = {
+	color = rgb { 65 65 175 }
+	color_ui = rgb { 75 75 175 }
+}

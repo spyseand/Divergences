@@ -12,12 +12,15 @@ state={
 			6550 1
 		}
 
-    owner = OTT
+    	owner = OTT
         buildings = {
 			air_base = 0
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
+			3401 = {
+				naval_base = 2
+			}
         }
         add_core_of = OTT
     }

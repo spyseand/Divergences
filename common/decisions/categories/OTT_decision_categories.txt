@@ -1,0 +1,11 @@
+resistance_measures = {
+	icon = generic_ignite_civil_war
+	visible = {
+		original_tag = OTT
+	}
+	allowed = {
+		original_tag = OTT
+	}
+
+	scripted_gui = OTT_resistance_window
+}

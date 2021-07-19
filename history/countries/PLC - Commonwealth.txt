@@ -142,4 +142,15 @@ set_popularities = {
 	egoism = 0
 }
 
+create_country_leader = {
+	name = "Friedrich Christian"
+	desc = "POLITICS_PLC_FC_DESC"
+	picture = "gfx/leaders/friedrick.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy_sub
+	traits = {
+		
+	}
+}
+
 set_convoys = 5

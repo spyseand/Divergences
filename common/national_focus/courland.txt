@@ -1,0 +1,112 @@
+
+focus_tree = {
+	id = courland_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LIV
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = LIV_freedom_at_last
+		icon = GFX_focus_liv_freedom_at_last
+		x = 12
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_foreign_recognition
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_freedom_at_last }
+		relative_position_id = LIV_freedom_at_last
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_the_tallinn_conference
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_foreign_recognition }
+		relative_position_id = LIV_foreign_recognition
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_a_peaceful_soverign_latvia
+		icon = GFX_focus_liv_a_peaceful_soverign_latvia
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LIV_the_tallinn_conference }
+		relative_position_id = LIV_the_tallinn_conference
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_fallout_of_the_coup
+		icon = GFX_goal_generic_secret_weapon
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_a_peaceful_soverign_latvia }
+		relative_position_id = LIV_a_peaceful_soverign_latvia
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_the_riga_conference
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_fallout_of_the_coup }
+		relative_position_id = LIV_fallout_of_the_coup
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+}

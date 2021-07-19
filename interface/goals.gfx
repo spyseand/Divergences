@@ -1,7 +1,37 @@
 spriteTypes = {	
 
 	#### Generic continuous goal icons
+	
+	SpriteType = {
+	name = "GFX_focus_inc_communalism"
+	texturefile = "gfx/interface/goals/focus_inc_communalism.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_inc_a_coup"
+	texturefile = "gfx/interface/goals/focus_inc_a_coup.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_inc_vanguard"
+	texturefile = "gfx/interface/goals/focus_inc_vanguard.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_inc_a_tragic_end"
+	texturefile = "gfx/interface/goals/focus_inc_a_tragic_end.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_inc_the_heir"
+	texturefile = "gfx/interface/goals/focus_inc_the_heir.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_focus_inc_the_trials"
+	texturefile = "gfx/interface/goals/focus_inc_the_trials.dds"			
+	}
+	
 	SpriteType = {
 	name = "GFX_focus_inc_v_day"
 	texturefile = "gfx/interface/goals/focus_inc_v_day.dds"			
@@ -63,8 +93,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_plc_foreign_diplomacy"
+	texturefile = "gfx/interface/goals/focus_plc_foreign_diplomacy.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_qiq_oceangoing"
 	texturefile = "gfx/interface/goals/focus_qiq_oceangoing.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_liv_freedom_at_last"
+	texturefile = "gfx/interface/goals/focus_liv_freedom_at_last.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_liv_a_peaceful_soverign_latvia"
+	texturefile = "gfx/interface/goals/focus_liv_a_peaceful_soverign_latvia.dds"			
 	}		
 
 	SpriteType = {

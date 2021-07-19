@@ -15,6 +15,7 @@ state={
                 naval_base = 4
             }
         }
+        add_core_of = LIB
     }
     provinces = {
         1041 1118 9980 7066 7209 4194 1149 1189 12039

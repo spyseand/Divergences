@@ -39,3 +39,24 @@ scripted_gui = {
     }
   }
 }
+
+scripted_gui = {
+    OTT_resistance_window = {
+        window_name = "OTT_resistance_window"
+        context_type = decision_category
+
+        visible = {
+            original_tag = OTT
+        }
+
+        ai_enabled = {
+            always = no
+        }
+
+        properties = {
+            balkan_resistance_icon = {
+                frame = var_OTT_balkan_resistance
+            }
+        }
+    }
+}

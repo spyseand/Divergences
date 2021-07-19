@@ -7,10 +7,6 @@ state={
  	state_category = rural
 
  	history = {
-		victory_points = {
-			1408 15
-		}
-
  		owner = QIQ
  		buildings = {
  			infrastructure = 2

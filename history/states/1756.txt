@@ -12,14 +12,14 @@ state={
 			10203 1
 		}
 
-    owner = OTT
+    	owner = OTT
         buildings = {
 			air_base = 0
 			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 0
         }
-        add_core_of = OTT
+        add_core_of = GRE
     }
     provinces = {
         841 3914 9805 10203

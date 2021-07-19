@@ -15,6 +15,7 @@ state={
 			arms_factory = 0
 			industrial_complex = 0
         }
+        add_core_of = ARB
     }
     provinces = {
         7970 2057 5058 5027 4968 10892 12758

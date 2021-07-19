@@ -15,7 +15,8 @@ state={
 			arms_factory = 0
 			industrial_complex = 0
         }
-        add_core_of = OTT
+        add_core_of = WAL
+        add_core_of = BUL
     }
     provinces = {
         687 3076 9635 657

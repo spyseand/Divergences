@@ -31,8 +31,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = INC_where_from_here
-		icon = GFX_focus_inc_v_day
+		id = INC_a_tragic_end
+		icon = GFX_focus_inc_a_tragic_end
 		x = 0
 		y = 1
 		cost = 5
@@ -48,4 +48,202 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = INC_the_trials
+		icon = GFX_focus_inc_the_trials
+		x = 0
+		y = 1
+		cost = 5
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_a_tragic_end }
+		relative_position_id = INC_a_tragic_end
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_the_heir
+		icon = GFX_focus_inc_the_heir
+		x = -5
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = INC_a_coup }
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_the_trials }
+		relative_position_id = INC_the_trials
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_a_coup
+		icon = GFX_focus_inc_a_coup
+		x = 5
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = INC_the_heir }
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_the_trials }
+		relative_position_id = INC_the_trials
+
+		completion_reward = {
+
+		}
+	}
+	#heir paths
+	focus = {
+		id = INC_fascist
+		icon = GFX_goal_support_fascism
+		x = -4
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = INC_auth_soc }
+		mutually_exclusive = { focus = INC_vanguard }
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_the_heir }
+		relative_position_id = INC_the_heir
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_vanguard
+		icon = GFX_focus_inc_vanguard
+		x = 0
+		y = 1
+		cost = 5
+		
+		mutually_exclusive = { focus = INC_auth_soc }
+		mutually_exclusive = { focus = INC_fascist }
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_the_heir }
+		relative_position_id = INC_the_heir
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_auth_soc
+		icon = GFX_goal_support_communism
+		x = 4
+		y = 1
+		cost = 5
+		
+		mutually_exclusive = { focus = INC_vanguard }
+		mutually_exclusive = { focus = INC_fascist }
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_the_heir }
+		relative_position_id = INC_the_heir
+
+		completion_reward = {
+
+		}
+	}
+	
+	# coup paths
+
+	
+	focus = {
+		id = INC_libsoc
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = -2
+		y = 1
+		cost = 5
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_a_coup }
+		relative_position_id = INC_a_coup
+		mutually_exclusive = { focus = INC_libdem }
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_communalism
+		icon = GFX_focus_inc_communalism
+		x = 0
+		y = 1
+		cost = 5
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_libsoc }
+		relative_position_id = INC_libsoc
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_warehouses
+		icon = GFX_focus_inc_communalism
+		x = -2
+		y = 1
+		cost = 5
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_libsoc focus = INC_auth_soc}
+		relative_position_id = INC_libsoc
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_investment
+		icon = GFX_focus_inc_communalism
+		x = -2
+		y = 2
+		cost = 5
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_warehouses}
+		relative_position_id = INC_libsoc
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = INC_libdem
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 1
+		cost = 5
+
+		
+		available_if_capitulated = yes
+		prerequisite = { focus = INC_a_coup }
+		relative_position_id = INC_a_coup
+		mutually_exclusive = { focus = INC_libsoc }
+
+		completion_reward = {
+
+		}
+	}
+	
 }

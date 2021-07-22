@@ -1,0 +1,72 @@
+ideas = {
+
+	country = {
+		LIV_no_recognition = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				stability_weekly = -0.01
+				political_power_gain = -0.5
+			}
+		}
+	}
+
+	country = {
+		LIV_failing_economy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_3
+			
+			modifier = {
+				consumer_goods_factor = 0.5
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.5
+			}
+		}
+	}
+
+	country = {
+		LIV_baltic_german_pressure = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = triumphant_will
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.25
+				conscription = -0.01
+			}
+		}
+	}
+
+}

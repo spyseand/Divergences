@@ -1,24 +1,5 @@
 add_namespace = commonwealth
 
-###Variable Clearer for testing
-
-country_event = {
-	id = commonwealth.100
-	title = commonwealth.100.t
-	desc = commonwealth.100.d
-	picture = GFX_report_event_election_vote
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = commonwealth.100.a
-		clr_variable = PLC_variable_socdem
-		clr_variable = PLC_variable_conservatism
-	}
-}
-
-###Actual start of events
-
 country_event = {
 	id = commonwealth.1
 	title = commonwealth.1.t
@@ -410,6 +391,8 @@ country_event = {
 	}
 }
 
+#commonwealth collapse events
+
 country_event = {
 	id = commonwealth.8
 	title = commonwealth.8.t
@@ -418,33 +401,58 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			RRT = {
+				transfer_state = 478
+				transfer_state = 477
+				transfer_state = 476
+				transfer_state = 474
+				add_state_core = 478
+				add_state_core = 477
+				add_state_core = 476
+				add_state_core = 474
+			}
+			end_puppet = UKR
+			UKR = {
+				transfer_state = 718
+				add_state_core = 718
+				country_event = {
+					id = commonwealth.11
+					days = 10
+				}
+				set_cosmetic_tag = PLC_ukraine
+			}
+			end_puppet = BEL
+			BEL = {
+				transfer_state = 689
+				transfer_state = 688
+				transfer_state = 717
+				add_state_core = 689
+				add_state_core = 688
+				add_state_core = 717
+				set_cosmetic_tag = PLC_belarus
+			}
+			country_event = {
+				id = commonwealth.9
+				days = 5
+			}
+		}
+	}
+
 	option = {
 		name = commonwealth.8.a
-		RRT = {
-			transfer_state = 478
-			transfer_state = 477
-			transfer_state = 476
-			transfer_state = 474
-		}
-		end_puppet = UKR
+	}
+	option = {
+		name = commonwealth.8.b
 		UKR = {
-			transfer_state = 718
-			country_event = {
-				id = commonwealth.11
-				days = 10
-			}
-			set_cosmetic_tag = PLC_ukraine
+			change_tag_from = PLC
 		}
-		end_puppet = BEL
+	}
+	option = {
+		name = commonwealth.8.c
 		BEL = {
-			transfer_state = 689
-			transfer_state = 688
-			transfer_state = 717
-			set_cosmetic_tag = PLC_belarus
-		}
-		country_event = {
-			id = commonwealth.9
-			days = 5
+			change_tag_from = PLC
 		}
 	}
 }
@@ -456,21 +464,60 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	is_triggered_only = yes
-	
+
+	immediate = {
+		hidden_effect = {
+			PRU = {
+				add_state_core = 680
+				add_state_core = 679
+				add_state_core = 674
+				add_state_core = 698
+			}
+			release = PRU
+			LIT = {
+				add_state_core = 1020
+				add_state_core = 693
+				add_state_core = 694
+				add_state_core = 676
+				add_state_core = 699
+			}
+			release = LIT
+			LIV = {
+				add_state_core = 695
+			}
+			release = LIV
+			set_cosmetic_tag = PLC_poland
+			set_capital = 675
+			country_event = {
+				id = commonwealth.10
+				days = 5
+			}
+			news_event = {
+				id = commonwealth.12
+				days = 0
+			}
+		}
+	}
+
 	option = {
 		name = commonwealth.9.a
-		release = PRU
-		release = LIT
-		release = LIV
-		set_cosmetic_tag = PLC_poland
-		set_capital = 675
-		country_event = {
-			id = commonwealth.10
-			days = 5
+	}
+	option = {
+		name = commonwealth.9.b
+		PRU = {
+			change_tag_from = PLC
 		}
-		news_event = {
-			id = commonwealth.12
-			days = 0
+	}
+	option = {
+		name = commonwealth.9.c
+		LIT = {
+			change_tag_from = PLC
+		}
+	}
+	option = {
+		name = commonwealth.9.e
+		LIV = {
+			change_tag_from = PLC
 		}
 	}
 }
@@ -483,10 +530,28 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			ASH = {
+				add_state_core = 714
+				add_state_core = 683
+				add_state_core = 685
+				add_state_core = 687
+			}
+			release = ASH
+		}
+	}
+
 	option = {
 		name = commonwealth.10.a
-		release = ASH
 	}
+	option = {
+		name = commonwealth.10.b
+		ASH = {
+			change_tag_from = PLC
+		}
+	}
+
 }
 
 country_event = {
@@ -497,10 +562,41 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			FRE = {
+				add_state_core = 468
+				add_state_core = 469
+				add_state_core = 471
+				add_state_core = 473
+				add_state_core = 713
+				add_state_core = 712
+				add_state_core = 709
+				add_state_core = 710
+				add_state_core = 711
+			}
+			release = FRE
+			CRI = {
+				add_state_core = 467
+			}
+			release = CRI
+		}
+	}
+
 	option = {
 		name = commonwealth.11.a
-		release = FRE
-		release = CRI
+	}
+	option = {
+		name = commonwealth.11.b
+		FRE = {
+			change_tag_from = UKR
+		}
+	}
+	option = {
+		name = commonwealth.11.c
+		CRI = {
+			change_tag_from = UKR
+		}
 	}
 }
 

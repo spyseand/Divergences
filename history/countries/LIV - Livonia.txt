@@ -4,6 +4,12 @@ OOB = "LIV_1936"
 
 set_research_slots = 3
 
+add_ideas = {	
+	LIV_no_recognition
+	LIV_failing_economy
+	LIV_baltic_german_pressure
+}
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -48,13 +54,13 @@ set_popularities = {
 	vanguard_socialism = 0
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
-	social_democracy = 4
-	liberalism = 61
-	conservatism = 33
-	authoritarian_democracy = 2
+	social_democracy = 0
+	liberalism = 10
+	conservatism = 20
+	authoritarian_democracy = 70
 	autocracy = 0
 	fascism = 0
 	egoism = 0
 }
 
-set_convoys = 112
+set_convoys = 100

@@ -27,6 +27,6 @@ LIV_latvia = {
     color_ui = rgb { 128 0 0 }
 }
 LIV_livonia = {
-    color = rgb { 128 0 0 }
-    color_ui = rgb { 128 0 0 }
+    color = rgb { 128 128 128 }
+    color_ui = rgb { 128 128 128 }
 }

@@ -1,0 +1,313 @@
+add_namespace = livonia
+
+#Freedom at last!
+country_event = {
+	id = livonia.1
+	title = livonia.1.t
+	desc = livonia.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.1.a
+	}
+}
+
+#The Tallinn Conference
+country_event = {
+	id = livonia.2
+	title = livonia.2.t
+	desc = livonia.2.d
+	
+	is_triggered_only = yesq
+	
+	option = {
+		name = livonia.2.a
+		LIV = {
+			country_event = {
+				id = livonia.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.3
+	title = livonia.3.t
+	desc = livonia.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.3.a
+		SCD = {
+			country_event = {
+				id = livonia.4
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.4
+	title = livonia.4.t
+	desc = livonia.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.4.a
+		ai_chance = {
+			factor = 1
+		}
+		LIV = {
+			country_event = {
+				id = livonia.5
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = livonia.4.b
+		ai_chance = {
+			factor = 0
+		}
+		LIV = {
+			country_event = {
+				id = livonia.6
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.5
+	title = livonia.5.t
+	desc = livonia.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.5.a
+		LIV = {
+			transfer_state = 677
+			transfer_state = 893
+		}
+		set_country_flag = flg_LIV_latvia_formed
+		set_cosmetic_tag = LIV_latvia
+		set_capital = 677
+	}
+}
+
+country_event = {
+	id = livonia.6
+	title = livonia.6.t
+	desc = livonia.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.6.a
+		create_wargoal = {
+			target = EST
+			type = annex_everything
+		}
+	}
+}
+
+#Peaceful, Soverign Latvia :)
+country_event = {
+	id = livonia.7
+	title = livonia.7.t
+	desc = livonia.7.d
+
+	fire_only_once = yes
+	trigger = {
+		tag = LIV
+		NOT = { has_completed_focus = LIV_a_peaceful_soverign_latvia }
+		focus_progress = {
+			focus = LIV_a_peaceful_soverign_latvia
+			progress > 0.33
+		}
+	}
+	
+	option = {
+		name = livonia.7.a
+	}
+}
+
+country_event = {
+	id = livonia.8
+	title = livonia.8.t
+	desc = livonia.8.d
+
+	fire_only_once = yes
+	trigger = {
+		tag = LIV
+		NOT = { has_completed_focus = LIV_a_peaceful_soverign_latvia }
+		focus_progress = {
+			focus = LIV_a_peaceful_soverign_latvia
+			progress > 0.6
+		}
+	}
+	
+	option = {
+		name = livonia.8.a
+	}
+}
+
+country_event = {
+	id = livonia.9
+	title = livonia.9.t
+	desc = livonia.9.d
+
+	fire_only_once = yes
+	trigger = {
+		tag = LIV
+		NOT = { has_completed_focus = LIV_a_peaceful_soverign_latvia }
+		focus_progress = {
+			focus = LIV_a_peaceful_soverign_latvia
+			progress > 0.9
+		}
+	}
+	
+	option = {
+		name = livonia.9.a
+	}
+}
+
+#oh my fucking god why, you goddamn balt germans!!! (AKA THE COUP)
+country_event = {
+	id = livonia.10
+	title = livonia.10.t
+	desc = livonia.10.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.10.a
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+	}
+}
+
+#The Riga Conference
+country_event = {
+	id = livonia.11
+	title = livonia.11.t
+	desc = livonia.11.d
+	
+	is_triggered_only = yes
+	trigger = {
+		tag = SCD
+		LIV = {
+			NOT = { has_completed_focus = LIV_the_riga_conference }
+			focus_progress = {
+				focus = LIV_the_riga_conference
+				progress > 0.5
+			}
+		}
+	}
+	
+	option = {
+		name = livonia.11.a
+		LIV = {
+			country_event = {
+				id = livonia.12
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.12
+	title = livonia.12.t
+	desc = livonia.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.12.a
+		SCD = {
+			country_event = {
+				id = livonia.13
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.13
+	title = livonia.13.t
+	desc = livonia.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.13.a
+		ai_chance = {
+			factor = 1
+		}
+		LIV = {
+			country_event = {
+				id = livonia.14
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = livonia.13.b
+		ai_chance = {
+			factor = 0
+		}
+		LIV = {
+			country_event = {
+				id = livonia.15
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = livonia.14
+	title = livonia.14.t
+	desc = livonia.14.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.14.a
+		LIV = {
+			transfer_state = 696
+			transfer_state = 678
+		}
+		set_country_flag = flg_LIV_livonia_formed
+		set_cosmetic_tag = LIV_livonia
+	}
+}
+
+country_event = {
+	id = livonia.15
+	title = livonia.15.t
+	desc = livonia.15.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livonia.15.a
+		create_wargoal = {
+			target = EST
+			type = annex_everything
+		}
+	}
+}

@@ -1,4 +1,4 @@
-﻿
+
 focus_tree = {
 	id = ottoman_focus
 	
@@ -11,6 +11,8 @@ focus_tree = {
 	}
 
 	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
 
 	###Ottoman collapse setup
 
@@ -34,7 +36,7 @@ focus_tree = {
 	focus = {
 		id = OTT_masters_of_the_mediterranean
 		icon = GFX_focus_TUR_pivot_to_the_past
-		x = 0
+		x = 1
 		y = 1
 		cost = 5
 		prerequisite = { focus = OTT_hegemons_of_the_mideast }
@@ -50,11 +52,126 @@ focus_tree = {
 	focus = {
 		id = OTT_seat_of_the_caliph
 		icon = GFX_focus_TUR_pivot_to_the_past
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_hegemons_of_the_mideast }
+		relative_position_id = OTT_hegemons_of_the_mideast
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_frayed_seams
+		icon = GFX_goal_generic_attack_allies
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_seat_of_the_caliph }
+		prerequisite = { focus = OTT_masters_of_the_mediterranean }
+		relative_position_id = OTT_seat_of_the_caliph
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_emergency_election
+		icon = GFX_focus_generic_strike_at_democracy2
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = OTT_masters_of_the_mediterranean }
-		relative_position_id = OTT_masters_of_the_mediterranean
+		prerequisite = { focus = OTT_frayed_seams }
+		relative_position_id = OTT_frayed_seams
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_liberal_entente_victory
+		icon = GFX_goal_tripartite_pact
+		x = -5
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_emergency_election }
+		relative_position_id = OTT_emergency_election
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_ottoman_peoples_party_victory
+		icon = GFX_goal_tripartite_pact
+		x = 5
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_emergency_election }
+		relative_position_id = OTT_emergency_election
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_resistance_measures
+		icon = GFX_goal_generic_political_pressure
+		x = -5
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_ottoman_peoples_party_victory focus = OTT_liberal_entente_victory }
+		relative_position_id = OTT_ottoman_peoples_party_victory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_focus_on_the_balkans
+		icon = GFX_goal_continuous_suppression
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_resistance_measures }
+		relative_position_id = OTT_resistance_measures
+		mutually_exclusive = { focus = OTT_focus_on_the_mideast }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_focus_on_the_mideast
+		icon = GFX_goal_continuous_suppression
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_resistance_measures }
+		relative_position_id = OTT_resistance_measures
+		mutually_exclusive = { focus = OTT_focus_on_the_balkans }
 		
 		available_if_capitulated = yes
 

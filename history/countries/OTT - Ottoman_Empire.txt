@@ -7,7 +7,7 @@ puppet = MOL
 
 add_ideas = {
 	OTT_skirmishes_border_wars
-	OTT_low_serb_resistance
+	OTT_balkan_1_resistance
 }
 
 

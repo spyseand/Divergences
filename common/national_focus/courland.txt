@@ -25,7 +25,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = livonia.1
+			}
 		}
 	}
 
@@ -41,7 +43,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			remove_ideas = LIV_no_recognition
 		}
 	}
 
@@ -53,11 +55,19 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = LIV_foreign_recognition }
 		relative_position_id = LIV_foreign_recognition
-		
+
 		available_if_capitulated = yes
+		select_effect = {
+			SCD = {
+				country_event = {
+					id = livonia.2
+					days = 20
+				}
+			}
+		}
 
 		completion_reward = {
-			
+			custom_effect_tooltip = tt_LIV_tallinn_conference
 		}
 	}
 
@@ -69,11 +79,25 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = LIV_the_tallinn_conference }
 		relative_position_id = LIV_the_tallinn_conference
+
+		available = {
+			has_country_flag = flg_LIV_latvia_formed
+		}
 		
 		available_if_capitulated = yes
+		select_effect = {
+			set_country_flag = flg_LIV_utter_filler
+		}
 
 		completion_reward = {
-			
+			hidden_effect = {
+				country_event = {
+					id = livonia.10
+					days = 0
+				}
+				clr_country_flag = flg_LIV_utter_filler
+			}
+			custom_effect_tooltip = tt_LIV_peaceful_soverign_latvia
 		}
 	}
 
@@ -89,7 +113,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			remove_ideas = LIV_baltic_german_pressure
 		}
 	}
 
@@ -103,9 +127,17 @@ focus_tree = {
 		relative_position_id = LIV_fallout_of_the_coup
 		
 		available_if_capitulated = yes
+		select_effect = {
+			SCD = {
+				country_event = {
+					id = livonia.11
+					days = 20
+				}
+			}
+		}
 
 		completion_reward = {
-			
+			custom_effect_tooltip = tt_LIV_riga_conference
 		}
 	}
 

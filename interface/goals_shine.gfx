@@ -14965,7 +14965,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_liv_a_peaceful_soverign_latvia"
+		name = "GFX_focus_liv_a_peaceful_soverign_latvia_shine"
 		texturefile = "gfx/interface/goals/focus_liv_a_peaceful_soverign_latvia.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

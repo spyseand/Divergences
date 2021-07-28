@@ -1,0 +1,20 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_vanguard_socialism_group"
+		texturefile = "gfx/interface/ideologies/vansoc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_libertarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/libsoc.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+}

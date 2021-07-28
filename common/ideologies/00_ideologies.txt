@@ -4,7 +4,9 @@ ideologies = {
 	
 		types = {
 			
-			monolism_sub = {
+			hypertotalitarianism = {
+			}
+			utopianism = {
 			}
 
 		}
@@ -51,7 +53,9 @@ ideologies = {
 	
 		types = {
 			
-			marxism = {
+			national_socialism = {
+			}
+			socialist_traditionalism = {
 			}
 
 		}
@@ -147,7 +151,9 @@ ideologies = {
 			
 			democratic_socialism = {
 			}
-			anarcho_socialism ={
+			anarchocommunalism ={
+			}
+			councilism = {
 			}
 
 		}
@@ -335,7 +341,11 @@ ideologies = {
 	
 		types = {
 			
-			authoritarian_democracy_sub = {
+			constitutional_monarchism = {
+			}
+			oligarchic_democracy = {
+			}
+			constitutional_dictatorship = {
 			}
 
 		}
@@ -382,9 +392,9 @@ ideologies = {
 	
 		types = {
 			
-			monarchism = {
+			absolute_monarchism = {
 			}
-			dictatorship = {
+			despotism = {
 			}
 
 		}
@@ -431,7 +441,9 @@ ideologies = {
 	
 		types = {
 			
-			fascism_sub = {
+			ethnonationalism = {
+			}
+			hypermilitarism = {
 			}
 
 		}
@@ -478,7 +490,9 @@ ideologies = {
 	
 		types = {
 			
-			egoism_sub = {
+			corporatism = {
+			}
+			anarchocapitalism = {
 			}
 
 		}

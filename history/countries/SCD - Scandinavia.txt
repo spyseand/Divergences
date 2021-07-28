@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_ZACH_DESC"
 	picture = "gfx/leaders/zachisdumb.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democracy_sub
+	ideology = constitutional_monarchy
 	traits = {
 		dictator
 	}

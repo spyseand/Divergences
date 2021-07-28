@@ -19,7 +19,7 @@ country_event = {
 	title = livonia.2.t
 	desc = livonia.2.d
 	
-	is_triggered_only = yesq
+	is_triggered_only = yes
 	
 	option = {
 		name = livonia.2.a
@@ -194,6 +194,7 @@ country_event = {
 			ruling_party = fascism
 			elections_allowed = no
 		}
+		set_cosmetic_tag = LIV_livonia
 	}
 }
 
@@ -292,7 +293,6 @@ country_event = {
 			transfer_state = 678
 		}
 		set_country_flag = flg_LIV_livonia_formed
-		set_cosmetic_tag = LIV_livonia
 	}
 }
 

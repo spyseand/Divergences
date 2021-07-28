@@ -141,4 +141,149 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = LIV_restructuring_our_industry
+		icon = GFX_focus_generic_industry_2
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_the_riga_conference }
+		relative_position_id = LIV_the_riga_conference
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_expand_oil_shale_extraction
+		icon = GFX_goal_generic_oil_refinery
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_restructuring_our_industry }
+		relative_position_id = LIV_restructuring_our_industry
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_agricultural_export_profits
+		icon = GFX_focus_mex_privatisation
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_restructuring_our_industry }
+		relative_position_id = LIV_restructuring_our_industry
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_heavy_industrial_investments
+		icon = GFX_focus_generic_industry_3
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_agricultural_export_profits }
+		relative_position_id = LIV_agricultural_export_profits
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_scandinavian_industrial_investments
+		icon = GFX_goal_generic_production2
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_heavy_industrial_investments }
+		relative_position_id = LIV_heavy_industrial_investments
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_subsidise_urban_migration
+		icon = GFX_focus_generic_concessions
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_agricultural_export_profits }
+		relative_position_id = LIV_agricultural_export_profits
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_encourage_german_and_nordic_immigration
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_subsidise_urban_migration }
+		relative_position_id = LIV_subsidise_urban_migration
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_create_non_german_autonomies
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_encourage_german_and_nordic_immigration }
+		prerequisite = { focus = LIV_scandinavian_industrial_investments }
+		relative_position_id = LIV_scandinavian_industrial_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_reorganising_the_army
+		icon = GFX_focus_generic_military_academy
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_the_riga_conference }
+		relative_position_id = LIV_the_riga_conference
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
 }

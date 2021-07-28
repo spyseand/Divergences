@@ -172,6 +172,13 @@ INC_libsoc:0 "A Brotherhood of Equals"
 INC_libdem:0 "A Say for Every Man"
 INC_communalism:0 "Ayllu Communalism"
 INC_warehouses:0 "The Qullqas Former Glory"
-
-
-
+LIV_freedom_at_last:0 "Freedom At Last"
+LIV_foreign_recognition:0 "Foreign Recognition"
+LIV_the_tallinn_conference:0 "The Tallinn Conference"
+tt_LIV_tallinn_conference:0 "§gWe will petition Scandinavia to meet with us on the matter of the Latvian people§!"
+LIV_a_peaceful_soverign_latvia:0 "A Peaceful Soverign Latvia"
+flg_LIV_latvia_formed:0 "§gLatvia has been proclaimed!§!"
+tt_LIV_peaceful_soverign_latvia:0 "§gWith our nation secured, we can build towards a brighter future for the newly independent Latvian people!§!"
+LIV_fallout_of_the_coup:0 "Fallout of the Coup"
+LIV_the_riga_conference:0 "The Riga Conference"
+tt_LIV_riga_conference:0 "§gWe will meet with the Scandinavians once more, this time on the matters of Livonia as a whole§!"

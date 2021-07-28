@@ -1,0 +1,174 @@
+on_actions = {
+	on_daily_OTT = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 1
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_1_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 2
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_2_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 3
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_3_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 4
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_4_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 5
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_5_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 6
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_7_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_6_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 7
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_8_resistance
+					}
+					add_ideas = {
+						OTT_balkan_7_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_balkan_resistance
+						value = 8
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_balkan_1_resistance
+						OTT_balkan_2_resistance
+						OTT_balkan_3_resistance
+						OTT_balkan_4_resistance
+						OTT_balkan_5_resistance
+						OTT_balkan_6_resistance
+						OTT_balkan_7_resistance
+					}
+					add_ideas = {
+						OTT_balkan_8_resistance
+					}
+			}
+		}
+	}
+}

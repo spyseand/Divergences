@@ -10,7 +10,6 @@ add_ideas = {
 	OTT_balkan_1_resistance
 }
 
-
 #Resistance Variables
 set_variable = {
 	var = var_OTT_balkan_resistance

@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			AUS = {
+				create_faction = "Holy League"
+				add_to_faction = HUN
+				add_to_faction = CRO
+				add_to_faction = VEN
+				puppet = VEN
+			}
+		}
+	}
+}

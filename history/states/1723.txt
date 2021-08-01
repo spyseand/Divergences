@@ -10,7 +10,7 @@ state={
 			3581 3
 		}
 
-	owner = SLO
+	owner = HUN
 		victory_points = {
 			3581 3
 		}
@@ -19,6 +19,7 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = SLO
+		add_core_of = HUN
 	}
 
 	provinces={

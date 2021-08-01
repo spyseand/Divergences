@@ -10,7 +10,7 @@ state={
 			3780 15
 		}
 
-		owner = ITA
+		owner = VEN
 		victory_points = {
 			3780 15 
 		}
@@ -21,7 +21,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = ITA
+		add_core_of = VEN
 	}
 
 	provinces={

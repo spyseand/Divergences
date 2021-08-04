@@ -1,7 +1,8 @@
 ﻿l_english:
  GER_vanguard_socialism:0 "German National Worker's State"
  GER_authoritarian_socialism:0 "German Socialist Republic"
- GER_liberitarian_socialism:0 "German Socialist Republic"
+ GER_libertarian_socialism:0 "German Socialist Republic"
+ GER:0 "Germany"
 
  ARC_arcadia:0 "Arcadia"
  ARC_arcadia_DEF:0 "Arcadia"

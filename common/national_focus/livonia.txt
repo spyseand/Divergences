@@ -1,6 +1,6 @@
 
 focus_tree = {
-	id = courland_focus
+	id = livonia_focus
 	
 	country = {
 		factor = 0
@@ -160,11 +160,108 @@ focus_tree = {
 	focus = {
 		id = LIV_expand_oil_shale_extraction
 		icon = GFX_goal_generic_oil_refinery
-		x = 3
+		x = 4
 		y = 1
 		cost = 5
 		prerequisite = { focus = LIV_restructuring_our_industry }
 		relative_position_id = LIV_restructuring_our_industry
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_foreign_investments
+		icon = GFX_goal_generic_trade
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_expand_oil_shale_extraction }
+		relative_position_id = LIV_expand_oil_shale_extraction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_expand_cement_production
+		icon = GFX_goal_generic_construction
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_foreign_investments }
+		relative_position_id = LIV_foreign_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_chemical_industry_boom
+		icon = GFX_focus_generic_rubber
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_foreign_investments }
+		relative_position_id = LIV_foreign_investments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_oil_shale_fired_power_plants
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_chemical_industry_boom }
+		prerequisite = { focus = LIV_expand_cement_production }
+		relative_position_id = LIV_chemical_industry_boom
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_extraction_technology_investments
+		icon = GFX_goal_generic_construction2
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_expand_oil_shale_extraction }
+		relative_position_id = LIV_expand_oil_shale_extraction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_deeper_extraction
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_extraction_technology_investments }
+		relative_position_id = LIV_extraction_technology_investments
 		
 		available_if_capitulated = yes
 

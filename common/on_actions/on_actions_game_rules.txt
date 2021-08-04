@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = faction_button_options
+						option = BUTTON_PRESENT
+					}
+				}
+				set_global_flag = GMR_enable_factions
+			}
+		}
+	}
+}

@@ -1,0 +1,393 @@
+focus_tree = {
+	id = lousiana_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = LOU
+			add = 10
+		}
+	}
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = LOU_flight_of_the_king
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 1
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = LOU_exile_integration
+		icon = GFX_goal_generic_army_motorized
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_flight_of_the_king }
+		relative_position_id = LOU_flight_of_the_king
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_integrate_the_army
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_exile_integration }
+		relative_position_id = LOU_exile_integration
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_martial_law
+		icon = GFX_goal_generic_army_motorized
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_flight_of_the_king }
+		relative_position_id = LOU_flight_of_the_king
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_secure_regions
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_martial_law }
+		relative_position_id = LOU_martial_law
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_revolutionary_unrest
+		icon = GFX_goal_generic_army_motorized
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_secure_regions }
+		prerequisite = { focus = LOU_integrate_the_army }
+		relative_position_id = LOU_secure_regions
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_assembly
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_revolutionary_unrest }
+		relative_position_id = LOU_revolutionary_unrest
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_an_assertive_king
+		icon = GFX_goal_generic_army_motorized
+		x = 13
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_revolutionary_unrest }
+		relative_position_id = LOU_revolutionary_unrest
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_abolish_the_estates
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_an_assertive_king }
+		relative_position_id = LOU_an_assertive_king
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_deal_with_the_natives
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_abolish_the_estates }
+		relative_position_id = LOU_abolish_the_estates
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+		
+	focus = {
+		id = LOU_enforce_religious_homegeneity
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_abolish_the_estates }
+		relative_position_id = LOU_abolish_the_estates
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_a_king_dead
+		icon = GFX_goal_generic_army_motorized
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_enforce_religious_homegeneity }
+		relative_position_id = LOU_enforce_religious_homegeneity
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_gnostic_native_coalition
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_a_king_dead }
+		relative_position_id = LOU_a_king_dead
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_maintain_control
+		icon = GFX_goal_generic_army_motorized
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_enforce_religious_homegeneity }
+		relative_position_id = LOU_enforce_religious_homegeneity
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_constitutional_monarchy
+		icon = GFX_goal_generic_army_motorized
+		x = -5
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_assembly }
+		relative_position_id = LOU_assembly
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = LOU_left_congress
+		icon = GFX_goal_generic_army_motorized
+		x = 5
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_assembly }
+		relative_position_id = LOU_assembly
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_woody_guthrie
+		icon = GFX_goal_generic_army_motorized
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_left_congress }
+		relative_position_id = LOU_left_congress
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_longist
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_left_congress }
+		relative_position_id = LOU_left_congress
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_environmentalists
+		icon = GFX_goal_generic_army_motorized
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_left_congress }
+		relative_position_id = LOU_left_congress
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_technoenvironmentalism
+		icon = GFX_goal_generic_army_motorized
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_environmentalists }
+		relative_position_id = LOU_environmentalists
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_agrarianism
+		icon = GFX_goal_generic_army_motorized
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_environmentalists }
+		relative_position_id = LOU_environmentalists
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_elections
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_constitutional_monarchy }
+		relative_position_id = LOU_constitutional_monarchy
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_kings_party
+		icon = GFX_goal_generic_army_motorized
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_elections }
+		relative_position_id = LOU_elections
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_liberal_party
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_elections }
+		relative_position_id = LOU_elections
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LOU_socdem_party
+		icon = GFX_goal_generic_army_motorized
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = LOU_elections }
+		relative_position_id = LOU_elections
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+}

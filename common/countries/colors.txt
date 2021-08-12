@@ -547,3 +547,8 @@ VEN = {
 	color = rgb { 0 80 152 }
 	color_ui = rgb { 0 80 152 }
 }
+
+NLO = {
+	color = rgb { 210 0 50 }
+	color_ui = rgb { 200 20 130 }
+}

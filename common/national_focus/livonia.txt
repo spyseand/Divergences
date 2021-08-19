@@ -144,7 +144,7 @@ focus_tree = {
 	focus = {
 		id = LIV_restructuring_our_industry
 		icon = GFX_focus_generic_industry_2
-		x = 2
+		x = 4
 		y = 1
 		cost = 5
 		prerequisite = { focus = LIV_the_riga_conference }
@@ -160,7 +160,7 @@ focus_tree = {
 	focus = {
 		id = LIV_expand_oil_shale_extraction
 		icon = GFX_goal_generic_oil_refinery
-		x = 4
+		x = 3
 		y = 1
 		cost = 5
 		prerequisite = { focus = LIV_restructuring_our_industry }
@@ -273,7 +273,7 @@ focus_tree = {
 	focus = {
 		id = LIV_agricultural_export_profits
 		icon = GFX_focus_mex_privatisation
-		x = 0
+		x = -1
 		y = 1
 		cost = 5
 		prerequisite = { focus = LIV_restructuring_our_industry }
@@ -370,11 +370,45 @@ focus_tree = {
 	focus = {
 		id = LIV_reorganising_the_army
 		icon = GFX_focus_generic_military_academy
-		x = -2
+		x = -4
 		y = 1
 		cost = 5
 		prerequisite = { focus = LIV_the_riga_conference }
 		relative_position_id = LIV_the_riga_conference
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_professional_livonian_army
+		icon = GFX_focus_generic_military_academy
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_reorganising_the_army }
+		relative_position_id = LIV_reorganising_the_army
+		mutually_exclusive = { focus = LIV_large_baltic_army }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LIV_large_baltic_army
+		icon = GFX_focus_generic_military_academy
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = LIV_reorganising_the_army }
+		relative_position_id = LIV_reorganising_the_army
+		mutually_exclusive = { focus = LIV_professional_livonian_army }
 		
 		available_if_capitulated = yes
 

@@ -1,0 +1,411 @@
+preparing_the_revolution = {
+
+		saint_petersburg_hq = {
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 384
+			}
+			complete_effect = {
+				set_country_flag = RUS_saint_petersburg_hq_FLG
+				384 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		moscow_hq = {
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 390
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_moscow_hq_FLG
+				390 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		tsaritsyn_hq = {
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 389
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_tsaritsyn_hq_FLG
+				389 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		ekaterinburg_hq = {
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 382
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_ekaterinburg_hq_FLG
+				382 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		irkutsk_hq = {
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 368
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_irkutsk_hq_FLG
+				368 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		saint_petersburg_second_hq = {
+			visible = {
+				AND = {
+					NOT = {
+						OR = {
+							has_country_flag = RUS_ekaterinburg_hq_2_FLG
+							has_country_flag = RUS_tsaritsyn_hq_2_FLG
+							has_country_flag = RUS_irkutsk_hq_2_FLG
+							has_country_flag = RUS_moscow_hq_2_FLG
+							has_country_flag = RUS_saint_petersburg_hq_FLG
+						}
+					}
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 384
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_saint_petersburg_hq_2_FLG
+				384 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		moscow_second_hq = {
+			visible = {
+				AND = {
+					NOT = {
+						OR = {
+							has_country_flag = RUS_ekaterinburg_hq_2_FLG
+							has_country_flag = RUS_tsaritsyn_hq_2_FLG
+							has_country_flag = RUS_irkutsk_hq_2_FLG
+							has_country_flag = RUS_moscow_hq_FLG
+							has_country_flag = RUS_saint_petersburg_hq_2_FLG
+						}
+					}
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 390
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_moscow_hq_2_FLG
+				390 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		tsaritsyn_second_hq = {
+			visible = {
+				AND = {
+					NOT = {
+						OR = {
+							has_country_flag = RUS_ekaterinburg_hq_2_FLG
+							has_country_flag = RUS_tsaritsyn_hq_2_FLG
+							has_country_flag = RUS_irkutsk_hq_FLG
+							has_country_flag = RUS_moscow_hq_2_FLG
+							has_country_flag = RUS_saint_petersburg_hq_2_FLG
+						}
+					}
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 389
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_tsaritsyn_hq_2_FLG
+				389 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		ekaterinburg_second_hq = {
+			visible = {
+				AND = {
+					NOT = {
+						OR = {
+							has_country_flag = RUS_ekaterinburg_hq_FLG
+							has_country_flag = RUS_tsaritsyn_hq_2_FLG
+							has_country_flag = RUS_irkutsk_hq_2_FLG
+							has_country_flag = RUS_moscow_hq_2_FLG
+							has_country_flag = RUS_saint_petersburg_hq_2_FLG
+						}
+					}
+					OR = {
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = decision_category_generic_communism
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 382
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_ekaterinburg_hq_2_FLG
+				382 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		irkutsk_second_hq = {
+			visible = {
+				AND = {
+					NOT = {
+						OR = {
+							has_country_flag = RUS_ekaterinburg_hq_2_FLG
+							has_country_flag = RUS_tsaritsyn_hq_2_FLG
+							has_country_flag = RUS_irkutsk_hq_FLG
+							has_country_flag = RUS_moscow_hq_2_FLG
+							has_country_flag = RUS_saint_petersburg_hq_2_FLG
+						}
+					}
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+					}
+				}
+			}
+			icon = GFX_decision_generic_military
+			on_map_mode = map_only
+			fire_only_once = yes
+
+			highlight_states = {
+				state = 368
+			}
+
+			complete_effect = {
+				set_country_flag = RUS_irkutsk_hq_2_FLG
+				368 = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+			}
+		}
+
+		entrench_the_revolution = {
+			visible = {
+				AND = {
+					OR = {
+						has_country_flag = RUS_ekaterinburg_hq_FLG
+						has_country_flag = RUS_tsaritsyn_hq_FLG
+						has_country_flag = RUS_saint_petersburg_hq_FLG
+						has_country_flag = RUS_moscow_hq_FLG
+						has_country_flag = RUS_irkutsk_hq_FLG
+					}
+					NOT = {
+						FROM = {
+							has_state_flag = RUS_revolution_mark_FLG
+						}
+					}
+				}
+			}
+			icon = GFX_decision_infiltrate_state
+			on_map_mode = map_only
+			state_target = yes
+			cost = 35
+
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					any_neighbor_state = {
+						has_state_flag = RUS_revolution_mark_FLG
+					}
+				}
+			}
+
+			available = {
+				NOT = {
+					FROM = {
+						has_state_flag = RUS_revolution_crackdown_FLG
+					}
+				}
+			}
+
+			complete_effect = {
+				FROM = {
+					set_state_flag = RUS_revolution_mark_FLG
+				}
+				RST = {
+					add_state_core = FROM
+				}
+			}
+		}
+
+		debug_speed_civil_war = {
+			cost = 0
+			complete_effect = {
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -370
+				}
+			}
+		}
+
+		the_inevitable_war = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tt_RUS_the_inevitable_war
+					always = no
+				}
+			}
+			activation = {
+				OR = {
+					has_completed_focus = RUS_popular_revolution
+					has_completed_focus = RUS_imperial_coalition
+				}
+			}
+			is_good = no
+			days_mission_timeout = 365
+			timeout_effect = {
+				custom_effect_tooltip = tt_RUS_russian_civil_war
+				hidden_effect = {
+					set_global_flag = RUS_civil_war_FLG
+					release = RST
+					if = {
+						limit = {
+							has_country_flag = RUS_popular_revolution_FLG
+						}
+						RST = {
+							change_tag_from = ROOT
+						}
+					}
+					declare_war_on = {
+						target = RST
+						type = annex_everything
+					}
+				}
+			}
+		}
+}

@@ -372,6 +372,10 @@ RUS = {
 	color = rgb { 26 110 41 }
 	color_ui = rgb { 26 110 41 }
 }
+RST = {
+	color = rgb { 68 102 0 }
+	color_ui = rgb { 68 102 0 }
+}
 NVR = {
 	color = rgb { 170 130 131 }
 	color_ui = rgb { 170 130 131 }

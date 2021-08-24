@@ -426,8 +426,70 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = QIQ_the_great_pacific_game
+		icon = GFX_focus_AST_war_japan
+		x = 14
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_pacific_politic
+		icon = GFX_focus_usa_focus_on_asia
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_the_great_pacific_game }
+		relative_position_id = QIQ_the_great_pacific_game
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_final_preparations
+		icon = GFX_focus_chi_flying_tigers
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_pacific_politic }
+		relative_position_id = QIQ_pacific_politic
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_bold_swift_strokes
+		icon = GFX_focus_attack_japan
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_final_preparations }
+		relative_position_id = QIQ_final_preparations
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
 	###Incomplete stuff:
-	###Localisation(duh), events, decisions for purchasing ships (heavy and light), idea for 'modern junk ships', more dockyards?
+	###Localisation(duh), events, 
 	###
 
 }

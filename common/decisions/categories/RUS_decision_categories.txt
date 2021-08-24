@@ -1,0 +1,21 @@
+preparing_the_revolution = {
+    visible = {
+    	original_tag = RUS
+        has_country_flag = RUS_popular_revolution_FLG
+    }
+    allowed = {
+        original_tag = RUS
+        has_country_flag = RUS_popular_revolution_FLG
+    }
+}
+
+the_inevitable_uprising = {
+    visible = {
+        original_tag = RUS
+        has_country_flag = RUS_imperial_coalition_FLG
+    }
+    allowed = {
+        original_tag = RUS
+        has_country_flag = RUS_imperial_coalition_FLG
+    }
+}

@@ -1,6 +1,6 @@
 ﻿capital = 390
 
-OOB = "RUS_1936"
+OOB = "RST_1936"
 
 set_research_slots = 3
 
@@ -37,23 +37,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = monolism
 	last_election = "1934.6.13"
 	election_frequency = 24
 	elections_allowed = no
 }
 
 set_popularities = {
-	monolism = 0
-	vanguard_socialism = 0
+	monolism = 80
+	vanguard_socialism = 20
 	authoritarian_socialism = 0
 	libertarian_socialism = 0
 	social_democracy = 0
 	liberalism = 0
 	conservatism = 0
-	authoritarian_democracy = 10
-	autocracy = 80
-	fascism = 10
+	authoritarian_democracy = 0
+	autocracy = 0
+	fascism = 0
 	egoism = 0
 }
 

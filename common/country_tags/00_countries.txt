@@ -96,6 +96,7 @@ SIA = "countries/Siam.txt"
 NGA = "countries/New_Galicia.txt"
 
 RUS = "countries/Russia.txt"
+RST = "countries/Russian_Technate"
 
 NVR = "countries/Navarre.txt"
 

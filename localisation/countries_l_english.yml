@@ -419,9 +419,9 @@
  ARL_DEF:0 "Aralia"
  ARL_ADJ:0 "Aralia"
 
- RST:0 "Imperial Authority"
- RST_DEF:0 "Imperial Authority"
- RST_ADJ:0 "Imperial Authority"
+ RSC:0 "Imperial Authority"
+ RSC_DEF:0 "Imperial Authority"
+ RSC_ADJ:0 "Imperial Authority"
  
  MKH:0 "Mountain Khanate"
  MKH_DEF:0 "the Mountain Khanate"
@@ -520,10 +520,12 @@
  NGA_ADJ:0 "New Galician"
  
  RUS:0 "Russian Empire"
- RUS_DEF:0 "Russia Empire"
+ RUS_DEF:0 "Russian Empire"
  RUS_ADJ:0 "Russian"
- RUS_monolism:0 "Russian Technate"
- RUS_monolism_DEF:0 "the Russian Technate"
+
+ RST:0 "Russian Technate"
+ RST_DEF:0 "Russian Technate"
+ RST_ADJ:0 "Russian"
  
  NVR:0 "Navarre"
  NVR_DEF:0 "Navarre"

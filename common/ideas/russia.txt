@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+		RUS_bolster_public_support = {
+			picture = generic_communism_drift_bonus
+			modifier = {
+				political_power_factor = 0.25
+			}
+		}
+
+		RUS_clashing_revolutions = {
+			picture = chi_incompetent_officers
+			modifier = {
+				political_power_factor = -0.1
+				surrender_limit = -0.2
+				stability_weekly = -0.001
+			}
+		}
+	}
+}

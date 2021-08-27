@@ -38,6 +38,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_rus_civil_war_left"
+	texturefile = "gfx/interface/goals/focus_rus_civil_war_left.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_plc_census"
 	texturefile = "gfx/interface/goals/focus_plc_census.dds"			
 	}

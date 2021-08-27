@@ -11,7 +11,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -22,6 +22,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_saint_petersburg_hq_FLG
 				384 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				384 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -37,7 +40,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -49,6 +52,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_moscow_hq_FLG
 				390 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				390 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -64,7 +70,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -76,6 +82,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_tsaritsyn_hq_FLG
 				389 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				389 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -91,7 +100,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -103,6 +112,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_ekaterinburg_hq_FLG
 				382 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				382 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -118,7 +130,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -130,6 +142,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_irkutsk_hq_FLG
 				368 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				368 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -154,7 +169,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -166,6 +181,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_saint_petersburg_hq_2_FLG
 				384 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				384 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -190,7 +208,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -202,6 +220,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_moscow_hq_2_FLG
 				390 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				390 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -226,7 +247,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -238,6 +259,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_tsaritsyn_hq_2_FLG
 				389 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				389 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -262,7 +286,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = decision_category_generic_communism
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -274,6 +298,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_ekaterinburg_hq_2_FLG
 				382 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				382 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -298,7 +325,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = GFX_decision_generic_military
+			icon = GFX_decision_category_generic_communism
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -310,6 +337,9 @@ preparing_the_revolution = {
 				set_country_flag = RUS_irkutsk_hq_2_FLG
 				368 = {
 					set_state_flag = RUS_revolution_mark_FLG
+				}
+				368 = {
+					add_core_of = RST
 				}
 			}
 		}
@@ -334,7 +364,7 @@ preparing_the_revolution = {
 			icon = GFX_decision_infiltrate_state
 			on_map_mode = map_only
 			state_target = yes
-			cost = 35
+			cost = 20
 
 			target_array = owned_states
 			target_trigger = {
@@ -347,8 +377,13 @@ preparing_the_revolution = {
 
 			available = {
 				NOT = {
-					FROM = {
-						has_state_flag = RUS_revolution_crackdown_FLG
+					OR = {
+						FROM = {
+							has_state_flag = RUS_revolution_crackdown_FLG
+						}
+						FROM = {
+							is_core_of = TRN
+						}
 					}
 				}
 			}
@@ -391,8 +426,209 @@ preparing_the_revolution = {
 			timeout_effect = {
 				custom_effect_tooltip = tt_RUS_russian_civil_war
 				hidden_effect = {
+					remove_ideas = RUS_bolster_public_support
 					set_global_flag = RUS_civil_war_FLG
-					release = RST
+					TRN = {
+						transfer_state = 447
+						transfer_state = 443
+						transfer_state = 441
+						transfer_state = 1000
+						transfer_state = 449
+						transfer_state = 1005
+					}
+					division_template = {
+						name = "Imperial Militia"
+						is_locked = yes
+						division_names_group = SOV_INF_01
+						priority = 0
+						template_counter = 0
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+					}
+					RST = {
+						division_template = {
+							name = "Red Militia"
+							is_locked = yes
+							division_names_group = SOV_INF_01
+							priority = 0
+							template_counter = 0
+							regiments = {
+								infantry = { x = 0 y = 0 }
+								infantry = { x = 0 y = 1 }
+								infantry = { x = 0 y = 2 }
+								infantry = { x = 1 y = 0 }
+								infantry = { x = 1 y = 1 }
+								infantry = { x = 1 y = 2 }
+							}
+						}
+						if = {
+							limit = {
+								RUS = {
+									has_completed_focus = RUS_unite_the_revolutionaries
+								}
+							}
+							set_stability = 0.7
+						}
+						else = {
+							set_stability = 0.5
+							add_ideas = RUS_clashing_revolutions
+						}
+					}
+					every_owned_state = {
+						limit = {
+							has_state_flag = RUS_revolution_mark_FLG
+						}
+						RST = {
+							transfer_state = PREV
+						}
+						create_unit = {
+							division = "division_template = \"Red Militia\" start_experience_factor = 0.1" 
+							owner = RST
+							allow_spawning_on_enemy_provs = yes
+							count = 2
+						}
+					}
+					if = {
+						limit = {
+							has_completed_focus = RUS_military_sympathies
+						}
+						transfer_units_fraction = {
+							target = RST
+							size = 0.5
+							stockpile_ratio = 0.8
+							army_ratio = 0.8
+							navy_ratio = 0.5
+							air_ratio = 0.5
+							keep_unit_leaders_trigger = {
+								### has_trait = #insert custom leader trait for revolutionary sympathies#
+							}
+						}
+					}
+					else = {
+						transfer_units_fraction = {
+							target = RST
+							size = 0.5
+							stockpile_ratio = 0.5
+							army_ratio = 0.5
+							navy_ratio = 0.5
+							air_ratio = 0.5
+							keep_unit_leaders_trigger = {
+								### has_trait = #insert custom leader trait for revolutionary sympathies#
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_completed_focus = RUS_the_red_army
+						}
+						RST = {
+							division_template = {
+								name = "Red Infantry"
+								is_locked = yes
+								division_names_group = SOV_INF_01
+								priority = 2
+								template_counter = 1
+								regiments = {
+									infantry = { x = 0 y = 0 }
+									infantry = { x = 0 y = 1 }
+									infantry = { x = 0 y = 2 }
+									infantry = { x = 1 y = 0 }
+									infantry = { x = 1 y = 1 }
+									infantry = { x = 1 y = 2 }
+									infantry = { x = 2 y = 0 }
+									artillery_brigade = { x = 2 y = 1 }
+									artillery_brigade = { x = 2 y = 2 }
+								}
+								support = {
+									recon = { x = 0 y = 0 }
+									engineer = { x = 0 y = 1 }
+								}
+							}
+							random_owned_controlled_state = {
+								create_unit = {
+									division = "division_template = \"Red Infantry\" start_experience_factor = 0.1"
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 2
+								}
+							}
+							random_owned_controlled_state = {
+								create_unit = {
+									division = "division_template = \"Red Infantry\" start_experience_factor = 0.1"
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 2
+								}
+							}
+							random_owned_controlled_state = {
+								create_unit = {
+									division = "division_template = \"Red Infantry\" start_experience_factor = 0.1"
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 2
+								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_completed_focus = RUS_the_red_militias
+						}
+						RST = {
+							random_owned_controlled_state = {
+								limit = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+								create_unit = {
+									division = "division_template = \"Red Militia\" start_experience_factor = 0.1" 
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 4
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+								create_unit = {
+									division = "division_template = \"Red Militia\" start_experience_factor = 0.1" 
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 4
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+								create_unit = {
+									division = "division_template = \"Red Militia\" start_experience_factor = 0.1" 
+									owner = RST
+									allow_spawning_on_enemy_provs = yes
+									count = 4
+								}
+							}
+						}
+					}
+					every_owned_state = {
+						limit = {
+							NOT = {
+								has_state_flag = RUS_revolution_mark_FLG
+							}
+						}
+						create_unit = {
+							division = "division_template = \"Imperial Militia\" start_experience_factor = 0.1"
+							owner = RUS
+							allow_spawning_on_enemy_provs = yes
+							count = 1
+						}
+					}
 					if = {
 						limit = {
 							has_country_flag = RUS_popular_revolution_FLG

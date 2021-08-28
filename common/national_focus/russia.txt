@@ -54,6 +54,109 @@ focus_tree = {
 
 		completion_reward = {
 			set_country_flag = RUS_imperial_coalition_FLG
+			custom_effect_tooltip = tt_RUS_imperial_coalition_focus
+		}
+	}
+
+	focus = {
+		id = RUS_convene_the_national_emergency_council
+		icon = GFX_goal_generic_dangerous_deal
+		x = -4
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_imperial_coalition }
+		relative_position_id = RUS_imperial_coalition
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_convene_the_nec
+		}
+	}
+
+	focus = {
+		id = RUS_ensure_siberian_loyalty
+		icon = GFX_goal_demand_sudetenland
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_convene_the_national_emergency_council }
+		relative_position_id = RUS_convene_the_national_emergency_council
+		mutually_exclusive = { focus = RUS_ensure_southern_loyalty }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_ensure_siberian_loyalty
+			set_country_flag = RUS_siberian_loyalty_FLG
+		}
+	}
+
+	focus = {
+		id = RUS_ensure_southern_loyalty
+		icon = GFX_goal_generic_attack_allies
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_convene_the_national_emergency_council }
+		relative_position_id = RUS_convene_the_national_emergency_council
+		mutually_exclusive = { focus = RUS_ensure_siberian_loyalty }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_ensure_southern_loyalty
+			set_country_flag = RUS_southern_loyalty_FLG
+		}
+	}
+
+	focus = {
+		id = RUS_arm_loyal_militias
+		icon = GFX_focus_generic_combined_arms
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_ensure_southern_loyalty focus = RUS_ensure_siberian_loyalty }
+		relative_position_id = RUS_ensure_southern_loyalty
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_arm_loyal_militias
+		}
+	}
+
+	focus = {
+		id = RUS_appeal_to_fellow_monarchies
+		icon = GFX_focus_generic_concessions
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_arm_loyal_militias }
+		relative_position_id = RUS_arm_loyal_militias
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_appeal_to_fellow_monarchies
+			set_country_flag = RUS_appeal_to_monarchies_FLG
+		}
+	}
+
+	focus = {
+		id = RUS_intensified_crackdown
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = RUS_appeal_to_fellow_monarchies }
+		relative_position_id = RUS_appeal_to_fellow_monarchies
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = tt_RUS_intensified_crackdown
+			set_country_flag = RUS_intensified_crackdown_FLG
 		}
 	}
 
@@ -84,7 +187,7 @@ focus_tree = {
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 4
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_popular_revolution }
 		relative_position_id = RUS_popular_revolution
 		
@@ -103,7 +206,7 @@ focus_tree = {
 		icon = GFX_focus_por_workers_of_iberia
 		x = 0
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_bolster_public_support }
 		relative_position_id = RUS_bolster_public_support
 		
@@ -119,7 +222,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_mission
 		x = -1
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_unite_the_revolutionaries }
 		relative_position_id = RUS_unite_the_revolutionaries
 		mutually_exclusive = { focus = RUS_the_red_militias }
@@ -136,7 +239,7 @@ focus_tree = {
 		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 1
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_unite_the_revolutionaries }
 		relative_position_id = RUS_unite_the_revolutionaries
 		mutually_exclusive = { focus = RUS_the_red_army }
@@ -153,7 +256,7 @@ focus_tree = {
 		icon = GFX_focus_generic_join_comintern
 		x = -1
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_the_red_militias focus = RUS_the_red_army }
 		relative_position_id = RUS_the_red_militias	
 		available_if_capitulated = yes
@@ -169,7 +272,7 @@ focus_tree = {
 		icon = GFX_focus_rus_civil_war_left
 		x = 0
 		y = 1
-		cost = 10
+		cost = 9
 		prerequisite = { focus = RUS_acquire_international_aid }
 		relative_position_id = RUS_acquire_international_aid
 		available_if_capitulated = yes

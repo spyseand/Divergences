@@ -21,3 +21,17 @@ the_inevitable_uprising = {
         tag = RUS
     }
 }
+
+the_russian_civil_war = {
+    visible = {
+        tag = RUS
+        has_country_flag = RUS_the_inevitable_war_FLG
+        NOT = {
+            has_global_flag = RUS_civil_war_FLG
+        }
+    }
+    allowed = {
+        tag = RUS
+    }
+    visible_when_empty = yes
+}

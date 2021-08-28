@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			RUS = {
+				country_event = {
+					id = russia.1
+					days = 14
+				}
+			}
+		}
+	}
+}

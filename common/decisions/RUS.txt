@@ -398,28 +398,19 @@ preparing_the_revolution = {
 			}
 		}
 
-		debug_speed_civil_war = {
-			cost = 0
-			complete_effect = {
-				add_days_mission_timeout = {
-					mission = the_inevitable_war
-					days = -370
-				}
-			}
-		}
+}
 
-		the_inevitable_war = {
-			available = {
+the_russian_civil_war = { 		 ###These decisions include the civil war mission timer, and decisions/unlocks that affect said timer.
+		the_inevitable_war = {	 ###Seeing these decisions will be dependent on the flag set by the first focus in each tree, so if
+			available = {		 ###someone decides not to do their tree, the civil war WILL fire, but they won't get the decisions.
 				custom_trigger_tooltip = {
 					tooltip = tt_RUS_the_inevitable_war
 					always = no
 				}
 			}
+			priority = 10
 			activation = {
-				OR = {
-					has_completed_focus = RUS_popular_revolution
-					has_completed_focus = RUS_imperial_coalition
-				}
+				has_country_flag = RUS_the_inevitable_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 365
@@ -641,6 +632,16 @@ preparing_the_revolution = {
 						target = RST
 						type = annex_everything
 					}
+				}
+			}
+		}
+
+		debug_speed_civil_war = {
+			cost = 0
+			complete_effect = {
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -370
 				}
 			}
 		}

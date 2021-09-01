@@ -1,5 +1,5 @@
 GER = {
-    color = rgb { 125 13 24 }
+    color = rgb { 160 20 20 }
     color_ui = rgb { 125 13 24 }
 }
 BURP = {

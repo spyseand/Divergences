@@ -1,0 +1,132 @@
+
+focus_tree = {
+	id = hungary_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	###The Ottoman Menace
+
+	focus = {
+		id = HUN_the_twenty_year_war
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = HUN_the_toll_of_resistance
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = HUN_the_twenty_year_war }
+		relative_position_id = HUN_the_twenty_year_war
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = HUN_a_maleable_border
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = HUN_the_toll_of_resistance }
+		relative_position_id = HUN_the_toll_of_resistance
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = HUN_austrian_reliance
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = HUN_the_toll_of_resistance }
+		relative_position_id = HUN_the_toll_of_resistance
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	###The Slovakia Crisis
+
+	focus = {
+		id = HUN_the_slovakia_crisis
+		icon = GFX_goal_unknown
+		x = 22
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = HUN_slovakian_protectorate
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = HUN_the_slovakia_crisis }
+		relative_position_id = HUN_the_slovakia_crisis
+		mutually_exclusive = { focus = HUN_magyarization }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = HUN_magyarization
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = HUN_the_slovakia_crisis }
+		relative_position_id = HUN_the_slovakia_crisis
+		mutually_exclusive = { focus = HUN_slovakian_protectorate }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

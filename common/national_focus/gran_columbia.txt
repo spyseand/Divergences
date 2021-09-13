@@ -1,0 +1,16 @@
+focus_tree = {
+	id = gran_columbia_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = GCO
+			add = 10
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+
+}

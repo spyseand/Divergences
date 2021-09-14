@@ -2,6 +2,7 @@
 
 puppet = TYK
 puppet = EST
+puppet = SCM
 
 OOB = "SCD_1936"
 

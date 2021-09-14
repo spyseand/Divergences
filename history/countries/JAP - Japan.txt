@@ -1,5 +1,10 @@
 ﻿capital = 173
 
+puppet = MAN
+puppet = JEI
+puppet = JPH
+puppet = JRS
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1

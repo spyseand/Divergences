@@ -4,6 +4,9 @@ OOB = "EGL_1936"
 
 set_research_slots = 3
 
+puppet = AST
+puppet = EIN
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

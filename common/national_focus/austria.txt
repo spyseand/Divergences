@@ -1,0 +1,81 @@
+
+focus_tree = {
+	id = austria_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	###The Puppetmaster
+
+	focus = {
+		id = AUS_the_puppetmaster
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_keep_the_money_flowing
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = AUS_the_puppetmaster }
+		relative_position_id = AUS_the_puppetmaster
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_eyes_on_the_south
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = AUS_the_puppetmaster }
+		relative_position_id = AUS_the_puppetmaster
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	###Military Industrial Complex
+
+	focus = {
+		id = AUS_military_industrial_complex
+		icon = GFX_goal_unknown
+		x = 18
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

@@ -17,9 +17,9 @@ focus_tree = {
 	###All is Well :)
 
 	focus = {
-		id = BUR_house_of_cards
-		icon = GFX_goal_unknown
-		x = 5
+		id = BUR_the_heart_of_europe
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 10
 		y = 0
 		cost = 5
 		
@@ -31,13 +31,157 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUR_house_of_cards
-		icon = GFX_goal_unknown
+		id = BUR_foundations_of_sand
+		icon = GFX_focus_rom_abdicate
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = BUR_house_of_cards }
-		relative_position_id = BUR_house_of_cards
+		prerequisite = { focus = BUR_the_heart_of_europe }
+		relative_position_id = BUR_the_heart_of_europe
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_castle_of_cards
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_foundations_of_sand }
+		relative_position_id = BUR_foundations_of_sand
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_wildfire
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_castle_of_cards }
+		relative_position_id = BUR_castle_of_cards
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_containment_theory
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_wildfire }
+		relative_position_id = BUR_wildfire
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_rekindle_english_ties
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_containment_theory }
+		relative_position_id = BUR_containment_theory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_ensure_genoese_cooperation
+		icon = GFX_goal_generic_improve_relations
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_containment_theory }
+		relative_position_id = BUR_containment_theory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_fund_aragonese_nationalists
+		icon = GFX_focus_secret_rearmament
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_ensure_genoese_cooperation }
+		relative_position_id = BUR_ensure_genoese_cooperation
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_dousing_the_flames
+		icon = GFX_goal_anti_comintern_pact
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_wildfire }
+		relative_position_id = BUR_wildfire
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_supress_independence_movements
+		icon = GFX_goal_generic_demand_territory
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_dousing_the_flames }
+		relative_position_id = BUR_dousing_the_flames
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_empower_the_burgundian_spirit
+		icon = GFX_focus_spa_supremacy_of_the_communion
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_dousing_the_flames }
+		relative_position_id = BUR_dousing_the_flames
 		
 		available_if_capitulated = yes
 

@@ -18,5 +18,11 @@ country_event = {
 	
 	option = {
 		name = russia.1.a
+		set_country_flag = RUS_imperial_coalition_FLG
+	}
+
+	option = {
+		name = russia.1.b
+		set_country_flag = RUS_popular_revolution_FLG
 	}
 }

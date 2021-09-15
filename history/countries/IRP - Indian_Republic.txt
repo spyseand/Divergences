@@ -1,5 +1,7 @@
 capital = 835
 
+OOB = "INDIA_1936"
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1

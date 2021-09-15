@@ -16,6 +16,7 @@ state={
 			industrial_complex = 0
         }
         add_core_of = RUS
+        add_core_of = TER
     }
     provinces = {
         714 11633 9649 6718 6733 685 6674 9632 11614 9647 9628 11609

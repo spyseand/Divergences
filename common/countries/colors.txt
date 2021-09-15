@@ -373,8 +373,8 @@ RUS = {
 	color_ui = rgb { 26 110 41 }
 }
 RST = {
-	color = rgb { 68 102 0 }
-	color_ui = rgb { 68 102 0 }
+	color = rgb { 130 23 23 }
+	color_ui = rgb { 130 23 23 }
 }
 NVR = {
 	color = rgb { 170 130 131 }
@@ -555,4 +555,24 @@ VEN = {
 NLO = {
 	color = rgb { 210 0 50 }
 	color_ui = rgb { 200 20 130 }
+}
+
+SIB = {
+	color = rgb { 146 120 161 }
+	color_ui = rgb { 146 120 161 }
+}
+
+KUB = {
+	color = rgb { 84 178 201 }
+	color_ui = rgb { 146 120 161 }
+}
+
+DAG = {
+	color = rgb { 73 141 96 }
+	color_ui = rgb { 73 141 96 }
+}
+
+TER = {
+	color = rgb { 210 186 91 }
+	color_ui = rgb { 210 186 91 }
 }

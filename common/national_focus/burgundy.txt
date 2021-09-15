@@ -1,0 +1,49 @@
+
+focus_tree = {
+	id = burgundy_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BUR
+		}
+	}
+
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	###All is Well :)
+
+	focus = {
+		id = BUR_house_of_cards
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_house_of_cards
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_house_of_cards }
+		relative_position_id = BUR_house_of_cards
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

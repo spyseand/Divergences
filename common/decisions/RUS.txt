@@ -3,12 +3,7 @@ preparing_the_revolution = {
 		saint_petersburg_hq = {
 			visible = {
 				NOT = {
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
+					has_country_flag = RUS_moscow_hq_FLG
 				}
 			}
 			icon = GFX_decision_category_generic_communism
@@ -32,12 +27,7 @@ preparing_the_revolution = {
 		moscow_hq = {
 			visible = {
 				NOT = {
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-					}
+					has_country_flag = RUS_saint_petersburg_hq_FLG
 				}
 			}
 			icon = GFX_decision_category_generic_communism
@@ -59,96 +49,6 @@ preparing_the_revolution = {
 			}
 		}
 
-		tsaritsyn_hq = {
-			visible = {
-				NOT = {
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
-				}
-			}
-			icon = GFX_decision_category_generic_communism
-			on_map_mode = map_only
-			fire_only_once = yes
-
-			highlight_states = {
-				state = 389
-			}
-
-			complete_effect = {
-				set_country_flag = RUS_tsaritsyn_hq_FLG
-				389 = {
-					set_state_flag = RUS_revolution_mark_FLG
-				}
-				389 = {
-					add_core_of = RST
-				}
-			}
-		}
-
-		ekaterinburg_hq = {
-			visible = {
-				NOT = {
-					OR = {
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
-				}
-			}
-			icon = GFX_decision_category_generic_communism
-			on_map_mode = map_only
-			fire_only_once = yes
-
-			highlight_states = {
-				state = 382
-			}
-
-			complete_effect = {
-				set_country_flag = RUS_ekaterinburg_hq_FLG
-				382 = {
-					set_state_flag = RUS_revolution_mark_FLG
-				}
-				382 = {
-					add_core_of = RST
-				}
-			}
-		}
-
-		irkutsk_hq = {
-			visible = {
-				NOT = {
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
-				}
-			}
-			icon = GFX_decision_category_generic_communism
-			on_map_mode = map_only
-			fire_only_once = yes
-
-			highlight_states = {
-				state = 368
-			}
-
-			complete_effect = {
-				set_country_flag = RUS_irkutsk_hq_FLG
-				368 = {
-					set_state_flag = RUS_revolution_mark_FLG
-				}
-				368 = {
-					add_core_of = RST
-				}
-			}
-		}
-
 		saint_petersburg_second_hq = {
 			visible = {
 				AND = {
@@ -156,17 +56,11 @@ preparing_the_revolution = {
 						OR = {
 							has_country_flag = RUS_ekaterinburg_hq_2_FLG
 							has_country_flag = RUS_tsaritsyn_hq_2_FLG
-							has_country_flag = RUS_irkutsk_hq_2_FLG
 							has_country_flag = RUS_moscow_hq_2_FLG
 							has_country_flag = RUS_saint_petersburg_hq_FLG
 						}
 					}
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
+					has_country_flag = RUS_moscow_hq_FLG
 				}
 			}
 			icon = GFX_decision_category_generic_communism
@@ -195,17 +89,11 @@ preparing_the_revolution = {
 						OR = {
 							has_country_flag = RUS_ekaterinburg_hq_2_FLG
 							has_country_flag = RUS_tsaritsyn_hq_2_FLG
-							has_country_flag = RUS_irkutsk_hq_2_FLG
 							has_country_flag = RUS_moscow_hq_FLG
 							has_country_flag = RUS_saint_petersburg_hq_2_FLG
 						}
 					}
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-					}
+					has_country_flag = RUS_saint_petersburg_hq_FLG
 				}
 			}
 			icon = GFX_decision_category_generic_communism
@@ -233,16 +121,13 @@ preparing_the_revolution = {
 					NOT = {
 						OR = {
 							has_country_flag = RUS_ekaterinburg_hq_2_FLG
-							has_country_flag = RUS_tsaritsyn_hq_2_FLG
-							has_country_flag = RUS_irkutsk_hq_FLG
+							has_country_flag = RUS_tsaritsyn_hq_FLG
 							has_country_flag = RUS_moscow_hq_2_FLG
 							has_country_flag = RUS_saint_petersburg_hq_2_FLG
 						}
 					}
 					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
 						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
 						has_country_flag = RUS_moscow_hq_FLG
 					}
 				}
@@ -273,15 +158,12 @@ preparing_the_revolution = {
 						OR = {
 							has_country_flag = RUS_ekaterinburg_hq_FLG
 							has_country_flag = RUS_tsaritsyn_hq_2_FLG
-							has_country_flag = RUS_irkutsk_hq_2_FLG
 							has_country_flag = RUS_moscow_hq_2_FLG
 							has_country_flag = RUS_saint_petersburg_hq_2_FLG
 						}
 					}
 					OR = {
 						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
 						has_country_flag = RUS_moscow_hq_FLG
 					}
 				}
@@ -305,45 +187,6 @@ preparing_the_revolution = {
 			}
 		}
 
-		irkutsk_second_hq = {
-			visible = {
-				AND = {
-					NOT = {
-						OR = {
-							has_country_flag = RUS_ekaterinburg_hq_2_FLG
-							has_country_flag = RUS_tsaritsyn_hq_2_FLG
-							has_country_flag = RUS_irkutsk_hq_FLG
-							has_country_flag = RUS_moscow_hq_2_FLG
-							has_country_flag = RUS_saint_petersburg_hq_2_FLG
-						}
-					}
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
-				}
-			}
-			icon = GFX_decision_category_generic_communism
-			on_map_mode = map_only
-			fire_only_once = yes
-
-			highlight_states = {
-				state = 368
-			}
-
-			complete_effect = {
-				set_country_flag = RUS_irkutsk_hq_2_FLG
-				368 = {
-					set_state_flag = RUS_revolution_mark_FLG
-				}
-				368 = {
-					add_core_of = RST
-				}
-			}
-		}
-
 		entrench_the_revolution = {
 			visible = {
 				AND = {
@@ -352,7 +195,6 @@ preparing_the_revolution = {
 						has_country_flag = RUS_tsaritsyn_hq_FLG
 						has_country_flag = RUS_saint_petersburg_hq_FLG
 						has_country_flag = RUS_moscow_hq_FLG
-						has_country_flag = RUS_irkutsk_hq_FLG
 					}
 					NOT = {
 						FROM = {
@@ -427,6 +269,43 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						transfer_state = 449
 						transfer_state = 1005
 					}
+					if = {
+						NOT = {
+							has_country_flag = RUS_ensure_siberian_loyalty
+						}
+						SIB = {
+							transfer_state = 367
+							transfer_state = 365
+							transfer_state = 375
+							transfer_state = 378
+							transfer_state = 377
+							transfer_state = 376
+							add_core_of = 367
+							add_core_of = 365
+							add_core_of = 375
+							add_core_of = 378
+							add_core_of = 377
+							add_core_of = 376
+						}
+					}
+					if = {
+						NOT = {
+							has_country_flag = RUS_ensure_southern_loyalty
+						}
+						KUB = {
+							transfer_state = 488
+							transfer_state = 487
+							transfer_state = 489
+							transfer_state = 486
+						}
+						TER = {
+							transfer_state = 485
+						}
+						DAG = {
+							transfer_state = 491
+							transfer_state = 484
+						}
+					}
 					division_template = {
 						name = "Imperial Militia"
 						is_locked = yes
@@ -461,7 +340,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						if = {
 							limit = {
 								RUS = {
-									has_completed_focus = RUS_unite_the_revolutionaries
+									has_country_flag = RUS_unite_the_revolutionaries_FLG
 								}
 							}
 							set_stability = 0.7
@@ -487,7 +366,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 					}
 					if = {
 						limit = {
-							has_completed_focus = RUS_military_sympathies
+							has_country_flag = RUS_military_sympathies
 						}
 						transfer_units_fraction = {
 							target = RST
@@ -516,7 +395,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 					}
 					if = {
 						limit = {
-							has_completed_focus = RUS_the_red_army
+							has_country_flag = RUS_the_red_army
 						}
 						RST = {
 							division_template = {
@@ -569,7 +448,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 					}
 					if = {
 						limit = {
-							has_completed_focus = RUS_the_red_militias
+							has_country_flag = RUS_the_red_militias
 						}
 						RST = {
 							random_owned_controlled_state = {
@@ -604,6 +483,37 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 									allow_spawning_on_enemy_provs = yes
 									count = 4
 								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = RUS_arm_loyal_militias
+						}
+						random_owned_controlled_state = {
+							limit = {
+								NOT = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+							create_unit = {
+								division = "division_template = \"Imperial Militia\" start_experience_factor = 0.1" 
+								owner = RST
+								allow_spawning_on_enemy_provs = yes
+								count = 2
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								NOT = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+							create_unit = {
+								division = "division_template = \"Imperial Militia\" start_experience_factor = 0.1" 
+								owner = RST
+								allow_spawning_on_enemy_provs = yes
+								count = 2
 							}
 						}
 					}
@@ -633,6 +543,162 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						type = annex_everything
 					}
 				}
+			}
+		}
+
+		convene_the_national_emergency_council = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_popular_revolution_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 35
+			timeout_effect = {
+				set_country_flag = RUS_convene_the_nec_TIMER_FLG
+			}
+		}
+
+		ensure_siberian_loyalty = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_convene_the_nec_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 35
+			timeout_effect = {
+				set_country_flag = RUS_siberian_loyalty_FLG
+				set_country_flag = RUS_siberian_loyalty_TIMER_FLG
+			}
+		}
+
+		arm_loyal_militias = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_siberian_loyalty_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 35
+			timeout_effect = {
+				set_country_flag = RUS_arm_loyal_militias_FLG
+				set_country_flag = RUS_arm_loyal_militias_TIMER_FLG
+			}
+		}
+
+		appeal_to_fellow_monarchies = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_arm_loyal_militias_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 35
+			timeout_effect = {
+				set_country_flag = RUS_appeal_to_monarchies_FLG
+				set_country_flag = RUS_appeal_to_monarchies_TIMER_FLG
+			}
+		}
+
+		intensified_crackdown = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_appeal_to_monarchies_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 35
+			timeout_effect = {
+				set_country_flag = RUS_intensified_crackdown_FLG
+			}
+		}
+
+		bolster_public_support = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_imperial_coalition_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 63
+			timeout_effect = {
+				set_country_flag = RUS_bolster_public_support_TIMER_FLG
+			}
+		}
+
+		unite_the_revolutionaries = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_bolster_public_support_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 63
+			timeout_effect = {
+				set_country_flag = RUS_unite_the_revolutionaries_FLG
+				set_country_flag = RUS_unite_the_revolutionaries_TIMER_FLG
+			}
+		}
+
+		the_red_militia = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_unite_the_revolutionaries_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 63
+			timeout_effect = {
+				set_country_flag = RUS_the_red_militia_FLG
+				set_country_flag = RUS_the_red_militia_TIMER_FLG
+			}
+		}
+
+		acquire_international_aid = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_the_red_militia_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 63
+			timeout_effect = {
+				set_global_flag = RST_international_aid_FLG
+				set_country_flag = RUS_international_aid_TIMER_FLG
+			}
+		}
+
+		military_sympathies = {
+			priority = 5
+			activation = {
+				has_country_flag = RUS_international_aid_TIMER_FLG
+			}
+			available = {
+				always = no
+			}
+			is_good = no
+			days_mission_timeout = 63
+			timeout_effect = {
+				set_country_flag = RUS_military_sympathies
 			}
 		}
 

@@ -700,5 +700,17 @@
  VEN_ADJ:0 "Venetian"
  
  NLO:0 "Great Plains Revolt"
- NLO_DEF:0 "the Great Plains Revolt""
+ NLO_DEF:0 "the Great Plains Revolt
  NLO_ADJ:0 "Indian"
+
+ KUB:0 "Kuban"
+ KUB_DEF:0 "Kuban"
+ KUB_ADJ:0 "Kubani"
+
+ TER:0 "Terek"
+ TER_DEF:0 "Terek"
+ TER_ADJ:0 "Terekian"
+
+ DAG:0 "Dagestan"
+ DAG_DEF:0 "Dagestan"
+ DAG_ADJ:0 "Dagestani"

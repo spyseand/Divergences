@@ -151,3 +151,8 @@ CHI = "countries/China.txt"
 
 VEN = "countries/Venice.txt"
 NLO = "countries/Native_Louisiana.txt"
+
+SIB = "countries/Siberia.txt"
+DAG = "countries/Dagestan.txt"
+TER = "countries/Terek.txt"
+KUB = "countries/Kuban.txt"

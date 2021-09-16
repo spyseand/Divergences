@@ -16,6 +16,7 @@ state={
 			industrial_complex = 0
         }
         add_core_of = RUS
+        add_core_of = DAG
     }
     provinces = {
         11661 6702 11690 11632 712 728 6748 6730 700 683 3682 6701 3668

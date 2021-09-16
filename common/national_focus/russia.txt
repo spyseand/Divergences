@@ -49,11 +49,18 @@ focus_tree = {
 		y = 0
 		cost = 5
 		mutually_exclusive = { focus = RUS_popular_revolution }
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+			has_country_flag = RUS_imperial_coalition
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_country_flag = RUS_imperial_coalition_FLG
 			custom_effect_tooltip = tt_RUS_imperial_coalition_focus
 		}
 	}
@@ -123,6 +130,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_arm_loyal_militias
+			set_country_flag = RUS_arm_loyal_militias_FLG
 		}
 	}
 
@@ -173,12 +181,20 @@ focus_tree = {
 		y = 0
 		cost = 5
 		mutually_exclusive = { focus = RUS_imperial_coalition }
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+			has_country_flag = RUS_popular_revolution_FLG
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_country_flag = RUS_popular_revolution_FLG
 			custom_effect_tooltip = tt_RUS_popular_revolution
+			set_country_flag = RUS_popular_revolution_FLG
 		}
 	}
 
@@ -214,6 +230,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_unite_the_revolutionaries
+			set_country_flag = RUS_unite_the_revolutionaries_FLG
 		}
 	}
 
@@ -231,6 +248,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_the_red_army
+			set_country_flag = RUS_the_red_army_FLG
 		}
 	}
 
@@ -248,6 +266,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_the_red_militias
+			set_country_flag = RUS_the_red_militias_FLG
 		}
 	}
 
@@ -279,6 +298,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_military_sympathies
+			set_country_flag = RUS_military_sympathies
 		}
 	}
 }

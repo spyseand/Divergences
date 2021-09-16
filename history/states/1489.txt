@@ -16,6 +16,7 @@ state={
 			industrial_complex = 0
         }
         add_core_of = RUS
+        add_core_of = KUB
     }
     provinces = {
         3765 3752 6768 6781 9709 11681 735 9742 9726 9688 11696 748

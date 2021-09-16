@@ -242,3 +242,18 @@ tt_RUS_appeal_to_fellow_monarchies:0 "§YThis focus will unlock decisions to sec
 RUS_intensified_crackdown:0 "Intensified Crackdown"
 RUS_intensified_crackdown_desc:0 "§LThe revolutionaries are infecting the veins of our nation at an unprecendented rate, we must expand our operations to cut the head of the snake off for good.§!"
 tt_RUS_intensified_crackdown:0 "§YThis focus will decrease the cost of cracking down on revolutionaries in states.§!"
+
+
+
+#FRance
+FRA_the_estates:0 "The 24th Convention of the Estates"
+FRA_dam_the_deluge:0 "Dam the Deluge"
+FRA_surround_paris:0 "The Paris Blockade"
+FRA_nationwide_martial_law:0 "Nationwide Martial Law"
+FRA_not_enough_time:0 "Not Enough Time..."
+FRA_ensure_noble_loyalty:0 "Ensure Noble Loyalty"
+FRA_relocate_royal_assets:0 "Relocate Royal Assets"
+FRA_pacify_the_countryside:0 "Pacify the Countryside"
+FRA_legitimize_the_assembly:0 "Legitimize the Assembly"
+FRA_curb_the_emigres:0 "Curb the Emigres"
+FRA_revolutionary_congress:0 "First Revolutionary Congress"

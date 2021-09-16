@@ -5,13 +5,13 @@ state={
     state_category = wasteland
     impassable = yes
     history = {
-        owner = EGY
+        owner = UYG
         buildings = {
             infrastructure = 0
         }
-        add_core_of = EGY
+        add_core_of = UYG
     }
     provinces = {
-        7987 2064 10907
+        8086 10885 12864 8042 5016 7790
     }
 }

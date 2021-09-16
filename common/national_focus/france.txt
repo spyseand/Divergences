@@ -14,7 +14,7 @@ focus_tree = {
 	reset_on_civilwar = no
 	
 	focus = {
-		id = FRA_on_the_brink_of_collapse
+		id = FRA_the_estates
 		icon = GFX_focus_rom_parties_end
 		x = 6
 		y = 0
@@ -31,13 +31,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FRA_desparate_measures
+		id = FRA_dam_the_deluge
 		icon = GFX_goal_generic_attack_allies
 		x = 0
 		y = 1
 		cost = 2
-		prerequisite = { focus = FRA_on_the_brink_of_collapse }
-		relative_position_id = FRA_on_the_brink_of_collapse
+		prerequisite = { focus = FRA_the_estates }
+		relative_position_id = FRA_the_estates
 		
 		available_if_capitulated = yes
 
@@ -49,55 +49,15 @@ focus_tree = {
 
 		}
 	}
-
+	
 	focus = {
-		id = FRA_distribute_royal_food_stocks
-		icon = GFX_focus_hol_abandon_the_gold_standard
-		x = 1
-		y = 1
-		cost = 2
-		prerequisite = { focus = FRA_desparate_measures }
-		relative_position_id = FRA_desparate_measures
-		
-		available_if_capitulated = yes
-
-		available = {
-
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = FRA_national_tax_relief
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 0
-		y = 1
-		cost = 2
-		prerequisite = { focus = FRA_distribute_royal_food_stocks }
-		relative_position_id = FRA_distribute_royal_food_stocks
-		
-		available_if_capitulated = yes
-
-		available = {
-
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = FRA_suspend_parliment
+		id = FRA_surround_paris
 		icon = GFX_focus_generic_self_management
 		x = -1
 		y = 1
 		cost = 2
-		prerequisite = { focus = FRA_desparate_measures }
-		relative_position_id = FRA_desparate_measures
+		prerequisite = { focus = FRA_dam_the_deluge }
+		relative_position_id = FRA_dam_the_deluge
 		
 		available_if_capitulated = yes
 
@@ -111,13 +71,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_absolute_authority
+		id = FRA_nationwide_martial_law
 		icon = GFX_focus_generic_monarchy_1
 		x = 0
 		y = 1
 		cost = 2
-		prerequisite = { focus = FRA_suspend_parliment }
-		relative_position_id = FRA_suspend_parliment
+		prerequisite = { focus = FRA_surround_paris }
+		relative_position_id = FRA_surround_paris
 		
 		available_if_capitulated = yes
 
@@ -129,6 +89,47 @@ focus_tree = {
 
 		}
 	}
+
+	focus = {
+		id = FRA_ensure_noble_loyalty
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 1
+		y = 1
+		cost = 2
+		prerequisite = { focus = FRA_dam_the_deluge }
+		relative_position_id = FRA_dam_the_deluge
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_relocate_royal_assets
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 0
+		y = 1
+		cost = 2
+		prerequisite = { focus = FRA_ensure_noble_loyalty }
+		relative_position_id = FRA_ensure_noble_loyalty
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
 
 	focus = {
 		id = FRA_not_enough_time
@@ -136,9 +137,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 2
-		prerequisite = { focus = FRA_absolute_authority }
-		prerequisite = { focus = FRA_national_tax_relief }
-		relative_position_id = FRA_national_tax_relief
+		prerequisite = { focus = FRA_nationwide_martial_law }
+		prerequisite = { focus = FRA_relocate_royal_assets }
+		relative_position_id = FRA_relocate_royal_assets
 		
 		available_if_capitulated = yes
 
@@ -150,6 +151,99 @@ focus_tree = {
 
 		}
 	}
+	
+	
+	focus = {
+		id = FRA_pacify_the_countryside
+		icon = GFX_goal_generic_war_with_comintern
+		x = 12
+		y = 0
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = FRA_legitimize_the_assembly
+		icon = GFX_goal_generic_war_with_comintern
+		x = 2
+		y = 0
+		cost = 2
+		
+		
+		relative_position_id = FRA_pacify_the_countryside
+
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_curb_the_emigres
+		icon = GFX_goal_generic_war_with_comintern
+		x = 4
+		y = 0
+		cost = 2
+		
+		
+		relative_position_id = FRA_pacify_the_countryside
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_revolutionary_congress
+		icon = GFX_goal_generic_war_with_comintern
+		x = 0
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_legitimize_the_assembly
+		prerequisite = { focus = FRA_legitimize_the_assembly }
+		prerequisite = { focus = FRA_curb_the_emigres }
+		prerequisite = { focus = FRA_pacify_the_countryside }
+	
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	
 
 	focus = {
 		id = FRA_revolutionary_pact

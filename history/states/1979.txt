@@ -2,15 +2,14 @@ state={
     id=979
     name="STATE_1979"
     manpower = 21620
-    state_category = wasteland
-    impassable = yes
+    state_category = hills
     history = {
-        owner = FRA
+        owner = HUN
         buildings = {
-            infrastructure = 0
+            infrastructure = 5
         }
     }
     provinces = {
-        10749 5095 12849 7041
+        6672
     }
 }

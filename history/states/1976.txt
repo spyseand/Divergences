@@ -2,15 +2,14 @@ state={
     id=976
     name="STATE_1976"
     manpower = 41230
-    state_category = wasteland
-    impassable = yes
+    state_category = forest
     history = {
-        owner = SCD
+        owner = BUR
         buildings = {
-            infrastructure = 0
+            infrastructure = 6
         }
     }
     provinces = {
-        2068 7939
+        3488
     }
 }

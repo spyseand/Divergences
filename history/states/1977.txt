@@ -12,6 +12,6 @@ state={
         add_core_of = EGY
     }
     provinces = {
-        8103 10900
+        8103 10900 7987
     }
 }

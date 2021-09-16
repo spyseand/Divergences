@@ -2,15 +2,15 @@ state={
     id=944
     name="STATE_1944"
     manpower = 365180
-    state_category = rural
+    state_category = mountain
     history = {
-        owner = EGY
+        owner = SIX
         buildings = {
-            infrastructure = 3
+            infrastructure = 5
         }
-        add_core_of = EGY
+        add_core_of = SIX
     }
     provinces = {
-        12836 4963 12796 12826 4961 7925
+        1854 10672 1736 6742 10602 7779
     }
 }

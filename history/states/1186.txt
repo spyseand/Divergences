@@ -5,7 +5,7 @@ state={
 	manpower = 1722000
 
 	state_category = pastoral
-
+	impassable = yes
  	history = {
  		owner = TIB
  		buildings = {
@@ -17,6 +17,6 @@ state={
  	}
 
  	provinces = {
- 		8068 5011 2010 10755 2093 4994 7926 10918
+ 		8068 5011 2010 10755 10918
  	}
  }

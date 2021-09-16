@@ -2,16 +2,15 @@ state={
     id=969
     name="STATE_1969"
     manpower = 12680
-    state_category = wasteland
-    impassable = yes
+    state_category = plains
     history = {
-        owner = OTT
+        owner = HUN
         buildings = {
             infrastructure = 0
         }
-        add_core_of = LIB
+        add_core_of = HUN
     }
     provinces = {
-        4191 1994 12022 5004
+        3700 9661 11630 
     }
 }

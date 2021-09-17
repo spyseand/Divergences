@@ -152,11 +152,87 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = FRA_revolutionary_committee_for_progress
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 30
+		y = 0
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_french_national_highway_initiative
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		cost = 2
+		
+		available_if_capitulated = yes
+		relative_position_id = FRA_revolutionary_committee_for_progress
+		prerequisite = { focus = FRA_revolutionary_committee_for_progress }
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = FRA_a_necesssary_bureaucracy
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 0
+		y = 1
+		cost = 2
+		mutually_exclusive = { focus = FRA_deference_to_the_councils }
+		available_if_capitulated = yes
+		relative_position_id = FRA_revolutionary_committee_for_progress
+		prerequisite = { focus = FRA_revolutionary_committee_for_progress }
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_deference_to_the_councils
+		icon = GFX_focus_generic_self_management
+		x = 2
+		y = 1
+		cost = 2
+		
+		mutually_exclusive = { focus = FRA_a_necesssary_bureaucracy }
+		available_if_capitulated = yes
+		relative_position_id = FRA_revolutionary_committee_for_progress
+		prerequisite = { focus = FRA_revolutionary_committee_for_progress }
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
 	
 	focus = {
 		id = FRA_pacify_the_countryside
-		icon = GFX_goal_generic_war_with_comintern
-		x = 12
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 15
 		y = 0
 		cost = 2
 		
@@ -175,7 +251,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_legitimize_the_assembly
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_rom_abdicate
 		x = 2
 		y = 0
 		cost = 2
@@ -197,7 +273,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_curb_the_emigres
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 4
 		y = 0
 		cost = 2
@@ -218,7 +294,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_revolutionary_congress
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 0
 		y = 1
 		cost = 2
@@ -241,13 +317,75 @@ focus_tree = {
 	}
 	
 	
-	
-	
-	
+	focus = {
+		id = FRA_libertarian_victory
+		icon = GFX_goal_generic_war_with_comintern
+		x = -2
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_revolutionary_congress
+		prerequisite = { focus = FRA_revolutionary_congress }
+		
+		available_if_capitulated = yes
 
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_napoleon_coup
+		icon = GFX_goal_generic_war_with_comintern
+		x = 0
+		y = 2
+		cost = 2
+		
+		
+		relative_position_id = FRA_revolutionary_congress
+		prerequisite = { focus = FRA_revolutionary_congress }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_jacobin_supremacy
+		icon = GFX_goal_generic_war_with_comintern
+		x = 2
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_revolutionary_congress
+		prerequisite = { focus = FRA_revolutionary_congress }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
 	focus = {
 		id = FRA_revolutionary_pact
-		icon = GFX_dasdasd
+		icon = GFX_focus_fra_le_deluge
 		x = 18
 		y = 6
 		cost = 5
@@ -255,11 +393,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		available = {
-			OR = {
-				has_government = vanguard_socialism
-				has_government = authoritarian_socialism
-				has_government = libertarian_socialism
-			}
+
 		}
 
 		ai_will_do = {
@@ -278,15 +412,116 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
-		id = FRA_partition_burgundy
-		icon = GFX_adsdasdad
-		x = 1
+		id = FRA_secure_the_south
+		icon = GFX_focus_chi_reach_out_to_france
+		x = -3
 		y = 1
 		cost = 10
 		prerequisite = { focus = FRA_revolutionary_pact }
 		relative_position_id = FRA_revolutionary_pact
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = {
+				id = earlysetup.1
+				days = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FRA_allay_aragonese_fears
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = -4
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_secure_the_south }
+		relative_position_id = FRA_secure_the_south
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			diplomatic_relation = {
+				country = ARA
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	
+	focus = {
+		id = FRA_basque_autonomy_in_bayonne
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_secure_the_south }
+		relative_position_id = FRA_secure_the_south
+		
+		available_if_capitulated = yes
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_aid_bavaria
+		icon = GFX_focus_mex_privatisation
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_revolutionary_pact }
+		relative_position_id = FRA_revolutionary_pact
+		
+		available_if_capitulated = yes
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_partition_burgundy
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_aid_bavaria }
+		relative_position_id = FRA_aid_bavaria
 		
 		available_if_capitulated = yes
 
@@ -308,12 +543,12 @@ focus_tree = {
 
 	focus = {
 		id = FRA_demand_nice_and_corsica
-		icon = GFX_adsdasdad
-		x = -2
+		icon = GFX_goal_generic_demand_territory
+		x = 0
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_revolutionary_pact }
-		relative_position_id = FRA_revolutionary_pact
+		prerequisite = { focus = FRA_secure_the_south }
+		relative_position_id = FRA_secure_the_south
 		
 		available_if_capitulated = yes
 
@@ -333,12 +568,12 @@ focus_tree = {
 
 	focus = {
 		id = FRA_demand_haute_savoie
-		icon = GFX_adsdasdad
-		x = 0
+		icon = GFX_goal_generic_demand_territory
+		x = 2
 		y = 1
 		cost = 10
-		prerequisite = { focus = FRA_demand_nice_and_corsica }
-		relative_position_id = FRA_demand_nice_and_corsica
+		prerequisite = { focus = FRA_secure_the_south }
+		relative_position_id = FRA_secure_the_south
 		
 		available_if_capitulated = yes
 
@@ -354,7 +589,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_merge_revolutions
-		icon = GFX_adsdasdad
+		icon = GFX_focus_focus_fra_border
 		x = -1
 		y = 1
 		cost = 10
@@ -417,7 +652,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_bring_the_celts_in
-		icon = GFX_adsdasdad
+		icon = GFX_focus_attack_britain
 		x = 1
 		y = 1
 		cost = 10
@@ -445,10 +680,34 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = FRA_summit_with_the_incas
+		icon = GFX_focus_inc_the_trials
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = FRA_partition_burgundy }
+		relative_position_id = FRA_partition_burgundy
+		
+		available_if_capitulated = yes
+
+		available = {
+			has_war_with = EGL
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+		}
+	}
 
 	focus = {
 		id = FRA_pangerman_campaign
-		icon = GFX_adsdasdad
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 0
 		y = 1
 		cost = 10

@@ -5,89 +5,11 @@ OOB = "PLC_1936"
 set_research_slots = 3
 
 add_ideas = {
-	PLC_polonisation
-	PLC_polish_language
-	PLC_polish_army
+	PLC_backwater_economy
 }
 
 puppet = UKR
 puppet = BEL
-
-695 = {
-	add_dynamic_modifier = {
-		modifier = lithuanian_autonomy
-	}
-}
-694 = {
-	add_dynamic_modifier = {
-		modifier = lithuanian_autonomy
-	}
-}
-676 = {
-	add_dynamic_modifier = {
-		modifier = lithuanian_autonomy
-	}
-}
-693 = {
-	add_dynamic_modifier = {
-		modifier = lithuanian_autonomy
-	}
-}
-1020 = {
-	add_dynamic_modifier = {
-		modifier = lithuanian_autonomy
-	}
-}
-680 = {
-	add_dynamic_modifier = {
-		modifier = german_autonomy
-	}
-}
-679 = {
-	add_dynamic_modifier = {
-		modifier = german_autonomy
-	}
-}
-674 = {
-	add_dynamic_modifier = {
-		modifier = german_autonomy
-	}
-}
-698 = {
-	add_dynamic_modifier = {
-		modifier = german_autonomy
-	}
-}
-717 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
-718 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
-687 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
-685 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
-683 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
-714 = {
-	add_dynamic_modifier = {
-		modifier = ruthenian_autonomy
-	}
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -122,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = conservatism
 	last_election = "1934.6.13"
 	election_frequency = 24
 	elections_allowed = no
@@ -132,11 +54,11 @@ set_popularities = {
 	monolism = 0
 	vanguard_socialism = 0
 	authoritarian_socialism = 1
-	libertarian_socialism = 12
-	social_democracy = 34
-	liberalism = 16
-	conservatism = 32
-	authoritarian_democracy = 4
+	libertarian_socialism = 6
+	social_democracy = 16
+	liberalism = 32
+	conservatism = 34
+	authoritarian_democracy = 10
 	autocracy = 0
 	fascism = 1
 	egoism = 0
@@ -147,7 +69,40 @@ create_country_leader = {
 	desc = "POLITICS_PLC_FC_DESC"
 	picture = "gfx/leaders/friedrick.dds"
 	expire = "1965.1.1"
+	ideology = liberalism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Christian"
+	desc = "POLITICS_PLC_FC_DESC"
+	picture = "gfx/leaders/friedrick.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Christian"
+	desc = "POLITICS_PLC_FC_DESC"
+	picture = "gfx/leaders/friedrick.dds"
+	expire = "1965.1.1"
 	ideology = social_democracy_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Christian"
+	desc = "POLITICS_PLC_FC_DESC"
+	picture = "gfx/leaders/friedrick.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy_sub
 	traits = {
 		
 	}

@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		PLC_polonisation = {
+		PLC_nationwide_strikes = {
 
 			allowed = {
 				always = no
@@ -22,7 +22,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_polish_language = {
+		PLC_disloyal_army = {
 
 			allowed = {
 				always = no
@@ -34,7 +34,28 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_intel_bonus
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				custom_modifier_tooltip = tt_PLC_no_army_training_loser
+			}
+		}
+	}
+
+	country = {
+		PLC_defunct_government = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -43,7 +64,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_lithuanian_elevated = {
+		PLC_disloyal_generals = {
 
 			allowed = {
 				always = no
@@ -55,7 +76,28 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				custom_modifier_tooltip = tt_PLC_no_army_training_loser
+			}
+		}
+	}
+
+	country = {
+		PLC_dead_economy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -64,7 +106,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_three_major_languages = {
+		PLC_backwater_economy = {
 
 			allowed = {
 				always = no
@@ -76,7 +118,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -85,7 +127,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_modern_constitution = {
+		PLC_backwards_economy = {
 
 			allowed = {
 				always = no
@@ -97,7 +139,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_constitutional_guarantee
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -106,7 +148,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_polish_army = {
+		PLC_modernizing_economy = {
 
 			allowed = {
 				always = no
@@ -118,7 +160,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_infantry_bonus
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -127,7 +169,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_universal_conscription = {
+		PLC_modern_economy = {
 
 			allowed = {
 				always = no
@@ -139,7 +181,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				
@@ -148,7 +190,7 @@ ideas = {
 	}
 
 	country = {
-		PLC_united_army = {
+		PLC_economic_miracle = {
 
 			allowed = {
 				always = no
@@ -160,217 +202,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_common_currency = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_unified_research_base = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_united_economy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_greater_commonwealth_government = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_economic_instability = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_poor_literacy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_recalibrated_economy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_improving_literacy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_true_golden_liberty = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			modifier = {
-				
-			}
-		}
-	}
-
-	country = {
-		PLC_eastern_preparations = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
+			picture = chi_war_of_resistance3
 			
 			modifier = {
 				

@@ -10,7 +10,6 @@ country_event = {
 	
 	option = {
 		name = commonwealth.1.a
-		
 	}
 }
 
@@ -25,28 +24,28 @@ country_event = {
 	option = {
 		name = commonwealth.2.a
 		add_popularity = {
-			ideology = social_democracy
+			ideology = liberalism
 			popularity = 0.025
 		}
-		custom_effect_tooltip = tt_plc_socdem_push
+		custom_effect_tooltip = tt_plc_liberal_push
 		hidden_effect = {
 			if = {
 				limit = {
-					has_variable = PLC_variable_socdem
+					has_variable = PLC_variable_liberal
 				}
 				add_to_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_variable = PLC_variable_socdem
+						has_variable = PLC_variable_liberal
 					}
 				}
 				set_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
@@ -96,28 +95,28 @@ country_event = {
 	option = {
 		name = commonwealth.3.a
 		add_popularity = {
-			ideology = social_democracy
+			ideology = liberalism
 			popularity = 0.025
 		}
-		custom_effect_tooltip = tt_plc_socdem_push
+		custom_effect_tooltip = tt_plc_liberal_push
 		hidden_effect = {
 			if = {
 				limit = {
-					has_variable = PLC_variable_socdem
+					has_variable = PLC_variable_liberal
 				}
 				add_to_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_variable = PLC_variable_socdem
+						has_variable = PLC_variable_liberal
 					}
 				}
 				set_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
@@ -166,28 +165,28 @@ country_event = {
 	option = {
 		name = commonwealth.4.a
 		add_popularity = {
-			ideology = social_democracy
+			ideology = liberalism
 			popularity = 0.025
 		}
-		custom_effect_tooltip = tt_plc_socdem_push
+		custom_effect_tooltip = tt_plc_liberal_push
 		hidden_effect = {
 			if = {
 				limit = {
-					has_variable = PLC_variable_socdem
+					has_variable = PLC_variable_liberal
 				}
 				add_to_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_variable = PLC_variable_socdem
+						has_variable = PLC_variable_liberal
 					}
 				}
 				set_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
@@ -236,28 +235,28 @@ country_event = {
 	option = {
 		name = commonwealth.5.a
 		add_popularity = {
-			ideology = social_democracy
+			ideology = liberalism
 			popularity = 0.025
 		}
-		custom_effect_tooltip = tt_plc_socdem_push
+		custom_effect_tooltip = tt_plc_liberal_push
 		hidden_effect = {
 			if = {
 				limit = {
-					has_variable = PLC_variable_socdem
+					has_variable = PLC_variable_liberal
 				}
 				add_to_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_variable = PLC_variable_socdem
+						has_variable = PLC_variable_liberal
 					}
 				}
 				set_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
@@ -306,28 +305,28 @@ country_event = {
 	option = {
 		name = commonwealth.6.a
 		add_popularity = {
-			ideology = social_democracy
+			ideology = liberalism
 			popularity = 0.025
 		}
-		custom_effect_tooltip = tt_plc_socdem_push
+		custom_effect_tooltip = tt_plc_liberal_push
 		hidden_effect = {
 			if = {
 				limit = {
-					has_variable = PLC_variable_socdem
+					has_variable = PLC_variable_liberal
 				}
 				add_to_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_variable = PLC_variable_socdem
+						has_variable = PLC_variable_liberal
 					}
 				}
 				set_variable = {
-					var = PLC_variable_socdem
+					var = PLC_variable_liberal
 					value = 1
 				}
 			}
@@ -376,10 +375,15 @@ country_event = {
 	option = {
 		trigger = {
 			check_variable = {
-				PLC_variable_socdem > 2
+				PLC_variable_liberal > 2
 			}
 		}
 		name = commonwealth.7.a
+		set_country_flag = PLC_liberal_path_FLG
+		country_event = {
+			id = commonwealth.14
+			days = 3
+		}
 	}
 	option = {
 		trigger = {
@@ -388,6 +392,100 @@ country_event = {
 			}
 		}
 		name = commonwealth.7.b
+		set_country_flag = PLC_conservative_path_FLG
+		country_event = {
+			id = commonwealth.13
+			days = 3
+		}
+	}
+}
+
+country_event = {
+	id = commonwealth.13
+	title = commonwealth.13.t
+	desc = commonwealth.13.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.13.a
+		add_ideas = {
+			PLC_nationwide_strikes
+			PLC_disloyal_army
+		}
+		swap_ideas = {
+			remove_idea = PLC_backwater_economy
+			add_idea = PLC_dead_economy
+		}
+		country_lock_all_division_template = yes
+	}
+}
+
+country_event = {
+	id = commonwealth.14
+	title = commonwealth.14.t
+	desc = commonwealth.14.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth.14.a
+		add_ideas = {
+			PLC_defunct_government
+			PLC_disloyal_generals
+		}
+		swap_ideas = {
+			remove_idea = PLC_backwater_economy
+			add_idea = PLC_dead_economy
+		}
+		country_lock_all_division_template = yes
+	}
+}
+
+country_event = {
+	id = commonwealth.15
+	title = commonwealth.15.t
+	desc = commonwealth.15.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			FRE = {
+				add_state_core = 468
+				add_state_core = 469
+				add_state_core = 471
+				add_state_core = 473
+				add_state_core = 474
+				add_state_core = 476
+				add_state_core = 713
+				add_state_core = 712
+				add_state_core = 706
+				add_state_core = 707
+				add_state_core = 708
+				add_state_core = 709
+				add_state_core = 710
+				add_state_core = 711
+				transfer_state = 713
+				transfer_state = 469
+				declare_war_on = {
+					target = UKR
+					type = annex_everything
+				}
+				load_oob = "FRE_rebellion"
+			}
+		}
+	}
+
+	option = {
+		name = commonwealth.15.a
+		CRI = {
+			add_state_core = 467
+		}
+		release = CRI
 	}
 }
 

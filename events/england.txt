@@ -35,7 +35,7 @@ country_event = {
 			has_war_with = BAY
 			has_war_with = FRA
 		}
-
+		original_tag = EGL
     }
 	option = {
 		name = england.2.a

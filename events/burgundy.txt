@@ -1,0 +1,161 @@
+add_namespace = bur
+
+country_event = {
+	
+    id = bur.1
+    title = bur.1.t
+    desc = bur.1.d
+
+	fire_only_once = yes
+
+	trigger = {
+		surrender_progress > 0.35
+		tag = BUR
+	}
+	
+	immediate = {
+		white_peace = {
+			tag = FRA
+			message = "§YBurgundy§! has surrendered to /nthe whims of the revolutionaries."
+		}
+	}
+
+	option = {
+		name = bur.1.a
+		FRA = {
+			country_event = {
+				id = bur.2
+				days = 2
+			}
+		}
+		load_focus_tree = dutch_republic_focus
+	}
+
+}
+
+country_event = {
+		
+	id = bur.2
+	title = bur.2.t
+	desc = bur.2.d
+
+	is_triggered_only = yes
+
+### A Clean Split
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = bur.2.a
+		custom_effect_tooltip = tt_bur_partition_balanced
+		hidden_effect = {
+			transfer_state = 580
+			transfer_state = 589
+			transfer_state = 1008
+			transfer_state = 574
+			transfer_state = 575
+			transfer_state = 578
+			transfer_state = 579
+			transfer_state = 576
+			transfer_state = 990
+			BAY = {
+				transfer_state = 1007
+				transfer_state = 577
+				transfer_state = 583
+				transfer_state = 584
+				transfer_state = 1010
+			}
+			BUR = {
+				set_cosmetic_tag = BURP
+				set_capital = 586
+			}
+			news_event = {
+				id = bur.3
+				days = 2
+			}
+		}
+	}
+
+### Favor the Germans
+
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = bur.2.b
+		custom_effect_tooltip = tt_bur_partition_germans_favored
+		add_political_power = 100
+		hidden_effect = {
+			transfer_state = 580
+			transfer_state = 589
+			transfer_state = 1008
+			transfer_state = 574
+			transfer_state = 575
+			transfer_state = 578
+			transfer_state = 579
+			BAY = {
+				transfer_state = 1007
+				transfer_state = 576
+				transfer_state = 990
+				transfer_state = 1009
+				transfer_state = 577
+				transfer_state = 583
+				transfer_state = 584
+				transfer_state = 1010
+			}
+			BUR = {
+				set_cosmetic_tag = BURP
+				set_capital = 586
+			}
+			news_event = {
+				id = bur.4
+				days = 2
+			}
+		}
+	}
+
+### Favor the French
+
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = bur.2.c
+		custom_effect_tooltip = tt_bur_partition_french_favored
+		add_political_power = -150
+		hidden_effect = {
+			transfer_state = 580
+			transfer_state = 589
+			transfer_state = 1008
+			transfer_state = 574
+			transfer_state = 575
+			transfer_state = 578
+			transfer_state = 579
+			transfer_state = 1007
+			transfer_state = 576
+			transfer_state = 990
+			transfer_state = 1009
+			transfer_state = 577
+			transfer_state = 583
+			HAN = {
+				transfer_state = 584
+				transfer_state = 1010
+				584 = {
+					add_core_of = HAN
+				}
+				1010 = {
+					add_core_of = HAN
+				}
+			}
+			BUR = {
+				set_cosmetic_tag = BURP
+				set_capital = 586
+			}
+			set_global_flag = FRA_cucked_bavaria
+			news_event = {
+				id = bur.5
+				days = 2
+			}
+		}
+	}
+}

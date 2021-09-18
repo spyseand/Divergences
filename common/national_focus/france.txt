@@ -15,7 +15,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_the_estates
-		icon = GFX_focus_rom_parties_end
+		icon = GFX_goal_tripartite_pact
 		x = 6
 		y = 0
 		cost = 2
@@ -32,7 +32,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_dam_the_deluge
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_focus_rom_parties_end
 		x = 0
 		y = 1
 		cost = 2
@@ -52,7 +52,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_surround_paris
-		icon = GFX_focus_generic_self_management
+		icon = GFX_focus_generic_combined_arms
 		x = -1
 		y = 1
 		cost = 2
@@ -72,7 +72,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_nationwide_martial_law
-		icon = GFX_focus_generic_monarchy_1
+		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
 		y = 1
 		cost = 2
@@ -92,7 +92,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_ensure_noble_loyalty
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		icon = GFX_focus_generic_monarchy_2
 		x = 1
 		y = 1
 		cost = 2
@@ -112,7 +112,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_relocate_royal_assets
-		icon = GFX_focus_hol_abandon_the_gold_standard
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 0
 		y = 1
 		cost = 2
@@ -385,7 +385,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_revolutionary_pact
-		icon = GFX_focus_fra_le_deluge
+		icon = GFX_focus_ger_great_red_menace
 		x = 18
 		y = 6
 		cost = 5

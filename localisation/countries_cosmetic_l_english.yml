@@ -23,3 +23,7 @@
  LIV_livonia:0 "Livonia"
  LIV_livonia_DEF:0 "Livonia"
  LIV_livonia_ADJ:0 "Livonian"
+
+ BURP:0 "Dutch Republic"
+ BURP_DEF:0 "the Dutch Republic"
+ BURP_ADJ:0 "Dutch"

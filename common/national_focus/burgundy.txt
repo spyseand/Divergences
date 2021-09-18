@@ -111,6 +111,22 @@ focus_tree = {
 	}
 
 	focus = {
+		id = BUR_request_spanish_support
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_rekindle_english_ties }
+		relative_position_id = BUR_rekindle_english_ties
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
 		id = BUR_ensure_genoese_cooperation
 		icon = GFX_goal_generic_improve_relations
 		x = 1
@@ -127,13 +143,45 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUR_fund_aragonese_nationalists
+		id = BUR_fund_anti_catalan_groups
 		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		cost = 5
 		prerequisite = { focus = BUR_ensure_genoese_cooperation }
 		relative_position_id = BUR_ensure_genoese_cooperation
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_talks_with_the_swiss
+		icon = GFX_goal_generic_intelligence_exchange
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_fund_anti_catalan_groups }
+		relative_position_id = BUR_fund_anti_catalan_groups
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_basque_concessions
+		icon = GFX_focus_generic_concessions
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_fund_anti_catalan_groups }
+		relative_position_id = BUR_fund_anti_catalan_groups
 		
 		available_if_capitulated = yes
 
@@ -161,11 +209,75 @@ focus_tree = {
 	focus = {
 		id = BUR_supress_independence_movements
 		icon = GFX_goal_generic_demand_territory
-		x = -2
+		x = -1
 		y = 1
 		cost = 5
 		prerequisite = { focus = BUR_dousing_the_flames }
 		relative_position_id = BUR_dousing_the_flames
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_host_french_refugees
+		icon = GFX_focus_CZE_german_puppet
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_supress_independence_movements }
+		relative_position_id = BUR_supress_independence_movements
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_anti_french_rhetoric
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_host_french_refugees }
+		relative_position_id = BUR_host_french_refugees
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_support_german_regional_nationalism
+		icon = GFX_focus_usa_focus_on_europe
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_supress_independence_movements }
+		relative_position_id = BUR_supress_independence_movements
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_end_the_ruhr_riots
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_support_german_regional_nationalism }
+		relative_position_id = BUR_support_german_regional_nationalism
 		
 		available_if_capitulated = yes
 
@@ -182,6 +294,38 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = BUR_dousing_the_flames }
 		relative_position_id = BUR_dousing_the_flames
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_three_people_one_nation
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_empower_the_burgundian_spirit }
+		relative_position_id = BUR_empower_the_burgundian_spirit
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_union_in_division
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_three_people_one_nation }
+		relative_position_id = BUR_three_people_one_nation
 		
 		available_if_capitulated = yes
 

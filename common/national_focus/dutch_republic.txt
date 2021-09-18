@@ -1,0 +1,43 @@
+
+focus_tree = {
+	id = dutch_republic_focus
+	
+	country = {
+		factor = 0
+	}
+
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = BUR_a_humiliating_defeat
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BUR_and_a_new_dutch_republic
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUR_a_humiliating_defeat }
+		relative_position_id = BUR_a_humiliating_defeat
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

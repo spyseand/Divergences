@@ -4,15 +4,15 @@ state={
 	manpower = 28332
 	state_category = rural
      history = {
-        owner = MNG
+        owner = FRA
          buildings = {
 			air_base = 0
-			infrastructure = 2
+			infrastructure = 4
 			arms_factory = 0
 			industrial_complex = 0
          }
      }
      provinces = {
-         7703 12625 7731 10646 
+         10103 4529 12319 10075 12075 12008 7518 12065 1073 12048 7015 7093 9948 1157 4119 1185 10129 4075
      }
  }

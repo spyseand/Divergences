@@ -201,6 +201,146 @@ focus_tree = {
 	}
 
 ##################################
+## The Act Fails #################
+##################################
+
+	focus = {
+		id = PLC_an_empty_cabinet
+		icon = GFX_focus_plc_an_empty_cabinet
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polonisation_act_fails }
+		relative_position_id = PLC_polonisation_act_fails
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = commonwealth.16
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = PLC_and_a_broken_command_chain
+		icon = GFX_focus_plc_broken_command_chain
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polonisation_act_fails }
+		relative_position_id = PLC_polonisation_act_fails
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = commonwealth.17
+				days = 0
+			}
+		}
+	}
+
+	focus = {
+		id = PLC_another_sejm
+		icon = GFX_focus_plc_convene_senate
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_an_empty_cabinet }
+		prerequisite = { focus = PLC_and_a_broken_command_chain }
+		relative_position_id = PLC_an_empty_cabinet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = {
+				id = commonwealth.18
+				days = 0
+			}
+		}
+	}
+
+	##Time to pass some bills!
+
+	focus = {
+		id = PLC_the_equal_opportunities_act
+		icon = GFX_focus_generic_treaty
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_another_sejm }
+		relative_position_id = PLC_another_sejm
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_new_common_army_act
+		icon = GFX_focus_generic_treaty
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_another_sejm }
+		relative_position_id = PLC_another_sejm
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+##################################
+## The Act Passes ################
+##################################
+
+	focus = {
+		id = PLC_a_nation_aflame
+		icon = GFX_focus_plc_polish_domination
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polonisation_act_passes }
+		relative_position_id = PLC_polonisation_act_passes
+
+		available = {
+			always = no
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_and_a_dissolving_army
+		icon = GFX_focus_plc_polish_domination
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_polonisation_act_passes }
+		relative_position_id = PLC_polonisation_act_passes
+
+		available = {
+			always = no
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+##################################
 ## Foreign Diplomacy #############
 ##################################
 
@@ -224,7 +364,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_western_ties
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_focus_spa_supremacy_of_the_communion
 		x = -2
 		y = 1
 		cost = 10
@@ -240,7 +380,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_eastern_stance
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		cost = 10
@@ -256,7 +396,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_southern_threats
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_focus_TUR_pivot_to_the_past
 		x = 2
 		y = 1
 		cost = 10
@@ -272,7 +412,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_greater_ruthenian_claims
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_goal_generic_forceful_treaty
 		x = -1
 		y = 2
 		cost = 10
@@ -288,7 +428,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_the_grand_commonwealth
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_focus_plc_grand_commonwealth
 		x = 0
 		y = 1
 		cost = 10
@@ -305,7 +445,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_ruthenian_collaborators
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
 		cost = 10
@@ -321,7 +461,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_dismantle_ruthenian_pretenders
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_goal_generic_major_war
 		x = 1
 		y = 2
 		cost = 10
@@ -337,7 +477,7 @@ focus_tree = {
 
 	focus = {
 		id = PLC_proclaim_slavya
-		icon = GFX_focus_plc_foreign_diplomacy
+		icon = GFX_focus_plc_proclaim_slavya
 		x = 0
 		y = 1
 		cost = 10
@@ -358,8 +498,8 @@ focus_tree = {
 
 	focus = {
 		id = PLC_an_outdated_economy
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 28
+		icon = GFX_focus_plc_outdated_economy
+		x = 27
 		y = 0
 		cost = 10
 
@@ -375,8 +515,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_polish_industrial_region
-		icon = GFX_goal_generic_construct_civ_factory
+		id = PLC_education_investments
+		icon = GFX_focus_research
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_an_outdated_economy }
+		relative_position_id = PLC_an_outdated_economy
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_western_industrial_region
+		icon = GFX_focus_generic_industry_1
 		x = -3
 		y = 1
 		cost = 10
@@ -391,13 +547,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_
-		icon = GFX_goal_generic_construct_civ_factory
-		x = -1
+		id = PLC_the_vilnius_krakow_railway
+		icon = GFX_goal_generic_construction
+		x = -2
 		y = 1
 		cost = 10
-		prerequisite = { focus = PLC_polish_industrial_region }
-		relative_position_id = PLC_polish_industrial_region
+		prerequisite = { focus = PLC_western_industrial_region }
+		relative_position_id = PLC_western_industrial_region
 
 		available_if_capitulated = yes
 
@@ -407,13 +563,222 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_lithuanian_agricultural_region
-		icon = GFX_goal_generic_construct_civ_factory
+		id = PLC_expanding_the_railways_east
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_the_vilnius_krakow_railway }
+		relative_position_id = PLC_the_vilnius_krakow_railway
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_modernizing_the_industries
+		icon = GFX_goal_generic_production
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_western_industrial_region }
+		relative_position_id = PLC_western_industrial_region
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_deep_resource_extraction
+		icon = GFX_goal_generic_construction2
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_modernizing_the_industries }
+		relative_position_id = PLC_modernizing_the_industries
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_synthetic_alternatives
+		icon = GFX_goal_generic_oil_refinery
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_deep_resource_extraction }
+		relative_position_id = PLC_deep_resource_extraction
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_torwards_autarky
+		icon = GFX_focus_generic_tank_production
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_deep_resource_extraction }
+		relative_position_id = PLC_deep_resource_extraction
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_a_dual_economy
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_modernizing_the_industries }
+		prerequisite = { focus = PLC_modern_agriculture }
+		relative_position_id = PLC_modernizing_the_industries
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_economic_miracle
+		icon = GFX_focus_plc_economic_miracle
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_a_dual_economy }
+		relative_position_id = PLC_a_dual_economy
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_eastern_agricultural_region
+		icon = GFX_goal_generic_consumer_goods
 		x = 3
 		y = 1
 		cost = 10
 		prerequisite = { focus = PLC_an_outdated_economy }
 		relative_position_id = PLC_an_outdated_economy
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_massive_infrastructure_investments
+		icon = GFX_focus_generic_industry_2
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_eastern_agricultural_region }
+		relative_position_id = PLC_eastern_agricultural_region
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_start_of_eastern_industry
+		icon = GFX_focus_generic_industry_3
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_massive_infrastructure_investments }
+		relative_position_id = PLC_massive_infrastructure_investments
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_modern_agriculture
+		icon = GFX_goal_generic_production2
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_eastern_agricultural_region }
+		relative_position_id = PLC_eastern_agricultural_region
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_net_exporter
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_modern_agriculture focus = PLC_massive_infrastructure_investments }
+		relative_position_id = PLC_modern_agriculture
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_reinvest_profits
+		icon = GFX_focus_mex_privatisation
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_net_exporter }
+		relative_position_id = PLC_net_exporter
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_RnD_expansion
+		icon = GFX_focus_research2
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PLC_net_exporter }
+		relative_position_id = PLC_net_exporter
 
 		available_if_capitulated = yes
 

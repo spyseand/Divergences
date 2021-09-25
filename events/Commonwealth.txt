@@ -486,6 +486,14 @@ country_event = {
 			add_state_core = 467
 		}
 		release = CRI
+		LIV = {
+			add_state_core = 695
+		}
+		release = LIV
+		MOL = {
+			add_state_core = 714
+			transfer_state = 714
+		}
 	}
 }
 
@@ -710,5 +718,44 @@ news_event = {
 
 	option = {
 		name = commonwealth.12.a
+	}
+}
+
+country_event = {
+	id = commonwealth.16
+	title = commonwealth.16.t
+	desc = commonwealth.16.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = commonwealth.16.a
+	}
+}
+
+country_event = {
+	id = commonwealth.17
+	title = commonwealth.17.t
+	desc = commonwealth.17.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = commonwealth.17.a
+	}
+}
+
+country_event = {
+	id = commonwealth.18
+	title = commonwealth.18.t
+	desc = commonwealth.18.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = commonwealth.18.a
 	}
 }

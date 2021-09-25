@@ -103,6 +103,36 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_plc_an_empty_cabinet"
+	texturefile = "gfx/interface/goals/focus_plc_an_empty_cabinet.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_broken_command_chain"
+	texturefile = "gfx/interface/goals/focus_plc_broken_command_chain.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_outdated_economy"
+	texturefile = "gfx/interface/goals/focus_plc_outdated_economy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_economic_miracle"
+	texturefile = "gfx/interface/goals/focus_plc_economic_miracle.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_grand_commonwealth"
+	texturefile = "gfx/interface/goals/focus_plc_grand_commonwealth.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_plc_proclaim_slavya"
+	texturefile = "gfx/interface/goals/focus_plc_proclaim_slavya.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_qiq_oceangoing"
 	texturefile = "gfx/interface/goals/focus_qiq_oceangoing.dds"			
 	}

@@ -1,0 +1,15 @@
+economic_modernization = {
+	icon = decision_generic_factory
+	visible = {
+		orginal_tag = PLC
+		PLC = {
+			OR = {
+				has_completed_focus = PLC_modernizing_the_industries
+				has_completed_focus = PLC_modern_agriculture
+			}
+		}
+	}
+	allowed = {
+		original_tag = PLC
+	}
+}

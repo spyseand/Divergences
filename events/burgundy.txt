@@ -9,14 +9,18 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		surrender_progress > 0.35
 		tag = BUR
+		is_subject = no
+		has_war = yes
+		surrender_progress > 0.45
 	}
 	
 	immediate = {
-		white_peace = {
-			tag = FRA
-			message = "§YBurgundy§! has surrendered to /nthe whims of the revolutionaries."
+		BUR = {
+			white_peace = {
+				tag = FRA
+				message = tt_BUR_surrender_to_france
+			}
 		}
 	}
 
@@ -64,6 +68,7 @@ country_event = {
 				transfer_state = 583
 				transfer_state = 584
 				transfer_state = 1010
+				transfer_state = 976
 			}
 			BUR = {
 				set_cosmetic_tag = BURP
@@ -102,6 +107,7 @@ country_event = {
 				transfer_state = 583
 				transfer_state = 584
 				transfer_state = 1010
+				transfer_state = 976
 			}
 			BUR = {
 				set_cosmetic_tag = BURP
@@ -137,6 +143,7 @@ country_event = {
 			transfer_state = 1009
 			transfer_state = 577
 			transfer_state = 583
+			transfer_state = 976
 			HAN = {
 				transfer_state = 584
 				transfer_state = 1010
@@ -157,5 +164,338 @@ country_event = {
 				days = 2
 			}
 		}
+	}
+}
+
+country_event = {
+	
+    id = bur.3
+    title = bur.3.t
+    desc = bur.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bur.3.a
+	}
+}
+
+country_event = {
+	
+    id = bur.4
+    title = bur.4.t
+    desc = bur.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bur.4.a
+	}
+}
+
+country_event = {
+	
+    id = bur.5
+    title = bur.5.t
+    desc = bur.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bur.5.a
+	}
+}
+
+###Unused ATM
+country_event = {
+    id = bur.6
+    title = bur.6.t
+    desc = bur.6.d
+	is_triggered_only = yes
+	option = {
+		name = bur.6.a
+	}
+}
+
+country_event = {
+    id = bur.7
+    title = bur.7.t
+    desc = bur.7.d
+	is_triggered_only = yes
+	option = {
+		name = bur.7.a
+	}
+}
+
+country_event = {
+    id = bur.8
+    title = bur.8.t
+    desc = bur.8.d
+	is_triggered_only = yes
+	option = {
+		name = bur.8.a
+		EGL = {
+			country_event = {
+				id = bur.9
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.9
+    title = bur.9.t
+    desc = bur.9.d
+	is_triggered_only = yes
+	option = {
+		name = bur.9.a
+		BUR = {
+			country_event = {
+				id = bur.10
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.10
+    title = bur.10.t
+    desc = bur.10.d
+	is_triggered_only = yes
+	option = {
+		name = bur.10.a
+		add_political_power = 10
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+    id = bur.11
+    title = bur.11.t
+    desc = bur.11.d
+	is_triggered_only = yes
+	option = {
+		name = bur.11.a
+		SPA = {
+			country_event = {
+				id = bur.12
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.12
+    title = bur.12.t
+    desc = bur.12.d
+	is_triggered_only = yes
+	option = {
+		name = bur.12.a
+		BUR = {
+			country_event = {
+				id = bur.13
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.13
+    title = bur.13.t
+    desc = bur.13.d
+	is_triggered_only = yes
+	option = {
+		name = bur.13.a
+		add_stability = 0.025
+	}
+}
+
+country_event = {
+    id = bur.14
+    title = bur.14.t
+    desc = bur.14.d
+	is_triggered_only = yes
+	option = {
+		name = bur.14.a
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+    id = bur.15
+    title = bur.15.t
+    desc = bur.15.d
+	is_triggered_only = yes
+	option = {
+		name = bur.15.a
+		hidden_effect = {
+			country_event = {
+				id = bur.16
+				days = 25
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.16
+    title = bur.16.t
+    desc = bur.16.d
+	is_triggered_only = yes
+	option = {
+		name = bur.16.a
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+    id = bur.17
+    title = bur.17.t
+    desc = bur.17.d
+	is_triggered_only = yes
+	option = {
+		name = bur.17.a
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+    id = bur.18
+    title = bur.18.t
+    desc = bur.18.d
+	is_triggered_only = yes
+	option = {
+		name = bur.18.a
+		NVR = {
+			country_event = {
+				id = bur.19
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bur.19
+    title = bur.19.t
+    desc = bur.19.d
+	is_triggered_only = yes
+	option = {
+		name = bur.19.a
+		BUR = {
+			country_event = {
+				id = bur.20
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bur.20
+	title = bur.20.t
+	desc = bur.20.d
+	is_triggered_only = yes
+	option = {
+		name = bur.20.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = bur.21
+	title = bur.21.t
+	desc = bur.21.d
+	is_triggered_only = yes
+	option = {
+		name = bur.21.a
+		swap_ideas = {
+			add_idea = BUR_french_protests
+			remove_idea = BUR_anti_french_rhetoric
+		}
+	}
+}
+
+country_event = {
+	id = bur.22
+	title = bur.22.t
+	desc = bur.22.d
+	is_triggered_only = yes
+	option = {
+		name = bur.22.a
+	}
+}
+
+
+country_event = {
+	id = bur.23
+	title = bur.23.t
+	desc = bur.23.d
+	is_triggered_only = yes
+	option = {
+		name = bur.23.a
+	}
+}
+
+country_event = {
+	id = bur.24
+	title = bur.24.t
+	desc = bur.24.d
+	is_triggered_only = yes
+	option = {
+		name = bur.24.a
+		swap_ideas = {
+			add_idea = BUR_nationalistic_backfire
+			remove_idea = BUR_unity_in_division
+		}
+	}
+}
+
+country_event = {
+	id = bur.25
+	title = bur.25.t
+	desc = bur.25.d
+	is_triggered_only = yes
+	option = {
+		name = bur.25.a
+		swap_ideas = {
+			add_idea = BUR_rhein_riots
+			remove_idea = BUR_suppressed_ruhr_riots
+		}
+	}
+}
+
+country_event = {
+	id = bur.26
+	title = bur.26.t
+	desc = bur.26.d
+	is_triggered_only = yes
+	option = {
+		name = bur.26.a
+	}
+}
+
+country_event = {
+	id = bur.27
+	title = bur.27.t
+	desc = bur.27.d
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			swap_ideas = {
+				add_idea = BUR_wildfire
+				remove_idea = BUR_the_tinderbox
+			}
+			add_ideas = BUR_the_ruhr_riots
+			clr_country_flag = BUR_all_is_well_FLG
+		}
+	}
+	option = {
+		name = bur.27.a
+		add_stability = -0.05
 	}
 }

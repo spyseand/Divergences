@@ -4,6 +4,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
+		modifier = {
+			add = 11
+			BUR = {
+				has_cosmetic_tag = BURP
+			}
+			tag = BUR
+		}
 	}
 
 	reset_on_civilwar = no

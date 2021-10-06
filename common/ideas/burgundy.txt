@@ -1,0 +1,275 @@
+ideas = {
+
+	country = {
+		BUR_the_tinderbox = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				stability_weekly = -0.005
+				political_power_gain = -0.1
+			}
+		}
+	}
+
+	country = {
+		BUR_wildfire = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				stability_weekly = -0.01
+				political_power_gain = -0.3
+			}
+		}
+	}
+
+	country = {
+		BUR_the_ruhr_riots = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				stability_weekly = -0.01
+				political_power_gain = -0.5
+				authoritarian_socialism_drift = 0.01
+				consumer_goods_factor = 0.2
+			}
+		}
+	}
+
+	country = {
+		BUR_suppressed_ruhr_riots = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = -0.25
+				authoritarian_socialism_drift = -0.01
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		BUR_rhein_riots = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = -1
+				stability_weekly = -0.05
+				authoritarian_socialism_drift = 0.02
+				libertarian_socialism_drift = 0.01
+				consumer_goods_factory = 0.4
+			}
+		}
+	}
+
+	country = {
+		BUR_burgundian_spirit = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_weekly = 0.005
+			}
+		}
+	}
+
+	country = {
+		BUR_three_peoples_one_nation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = 0.3
+				stability_weekly = 0.015
+			}
+		}
+	}
+
+	country = {
+		BUR_unity_in_division = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_weekly = 0.05
+			}
+		}
+	}
+
+	country = {
+		BUR_nationalistic_backfire = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				libertarian_socialism_drift = 0.01
+				authoritarian_socialism_drift = 0.01
+				political_power_gain = -0.15
+				stability_weekly = -0.005
+			}
+		}
+	}
+
+	country = {
+		BUR_french_refugees = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = 0.1
+				weekly_manpower = 1000
+			}
+		}
+	}
+
+	country = {
+		BUR_anti_french_rhetoric = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_gain = 0.25
+				war_support_weekly = 0.01
+			}
+		}
+	}
+
+	country = {
+		BUR_french_protests = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				libertarian_socialism_drift = 0.01
+				war_support_weekly = -0.005
+			}
+		}
+	}
+
+}

@@ -33,4 +33,7 @@ LIV_livonia = {
 RFR = {
     color = rgb { 120 120 210 }
     color_ui = rgb { 80 128 204 }
+UPC = {
+    color = rgb { 168 36 89 }
+    color_ui = rgb { 168 36 89 }
 }

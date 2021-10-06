@@ -1,0 +1,13 @@
+wildfire = {
+	icon = decision_category_border_conflict
+	visible = {
+		original_tag = BUR
+		NOT = {
+			has_country_flag = BUR_all_is_well_FLG
+		}
+	}
+	allowed = {
+		original_tag = BUR
+	}
+	visible_when_empty = yes
+}

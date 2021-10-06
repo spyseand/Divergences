@@ -147,7 +147,7 @@
 		}
 
 		completion_reward = {
-
+			set_cosmetic_tag = RFR
 		}
 	}
 	

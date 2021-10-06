@@ -1,7 +1,7 @@
 economic_modernization = {
 	icon = decision_generic_factory
 	visible = {
-		orginal_tag = PLC
+		original_tag = PLC
 		PLC = {
 			OR = {
 				has_completed_focus = PLC_modernizing_the_industries

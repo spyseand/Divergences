@@ -281,6 +281,87 @@ focus_tree = {
 	}
 
 	focus = {
+		id = PLC_rework_the_electoral_system
+		icon = GFX_focus_generic_treaty
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_the_equal_opportunities_act }
+		relative_position_id = PLC_the_equal_opportunities_act
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_end_eastern_exploitation
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_rework_the_electoral_system }
+		relative_position_id = PLC_rework_the_electoral_system
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_equity_and_equality_act
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_end_eastern_exploitation }
+		prerequisite = { focus = PLC_root_out_corruption }
+		relative_position_id = PLC_end_eastern_exploitation
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_tear_down_neo_nobility
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_the_equal_opportunities_act }
+		relative_position_id = PLC_the_equal_opportunities_act
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_root_out_corruption
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_tear_down_neo_nobility }
+		relative_position_id = PLC_tear_down_neo_nobility
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
 		id = PLC_the_new_common_army_act
 		icon = GFX_focus_generic_treaty
 		x = 2
@@ -295,6 +376,131 @@ focus_tree = {
 			
 		}
 	}
+
+	focus = {
+		id = PLC_new_generation_of_strategists
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_the_new_common_army_act }
+		relative_position_id = PLC_the_new_common_army_act
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_modernizing_the_military
+		icon = GFX_focus_generic_treaty
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_the_new_common_army_act }
+		relative_position_id = PLC_the_new_common_army_act
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_an_incomplete_solution
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_modernizing_the_military }
+		prerequisite = { focus = PLC_new_generation_of_strategists }
+		relative_position_id = PLC_modernizing_the_military
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_national_lingual_act
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_modernizing_the_military }
+		prerequisite = { focus = PLC_new_generation_of_strategists }
+		relative_position_id = PLC_modernizing_the_military
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_universal_law_act
+		icon = GFX_focus_generic_treaty
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_an_incomplete_solution }
+		relative_position_id = PLC_an_incomplete_solution
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_prepare_a_modern_federal_government
+		icon = GFX_focus_generic_treaty
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_an_incomplete_solution }
+		relative_position_id = PLC_an_incomplete_solution
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PLC_the_eastern_peoples_commonwealth
+		icon = GFX_focus_generic_treaty
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PLC_prepare_a_modern_federal_government }
+		prerequisite = { focus = PLC_the_universal_law_act }
+		prerequisite = { focus = PLC_the_equity_and_equality_act }
+		relative_position_id = PLC_prepare_a_modern_federal_government
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_cosmetic_tag = UPC
+			annex_country = {
+				target = UKR
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
+			}
+		}
+	}
+
 
 ##################################
 ## The Act Passes ################
@@ -501,7 +707,7 @@ focus_tree = {
 		icon = GFX_focus_plc_outdated_economy
 		x = 27
 		y = 0
-		cost = 10
+		cost = 5
 
 		available = {
 			has_idea = PLC_dead_economy
@@ -510,7 +716,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = PLC_emergency_economic_relief
+				days = 300
+			}
 		}
 	}
 
@@ -593,14 +802,55 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = -2
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_western_industrial_region }
 		relative_position_id = PLC_western_industrial_region
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			682 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			684 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			675 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			691 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			689 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			699 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -609,14 +859,55 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_the_vilnius_krakow_railway }
 		relative_position_id = PLC_the_vilnius_krakow_railway
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			690 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			702 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			478 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			477 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			476 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			707 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -625,14 +916,14 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_western_industrial_region }
 		relative_position_id = PLC_western_industrial_region
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = tt_PLC_modernizing_the_industries
 		}
 	}
 
@@ -641,14 +932,18 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_modernizing_the_industries }
 		relative_position_id = PLC_modernizing_the_industries
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = excavation_tech
+			}
 		}
 	}
 
@@ -657,14 +952,18 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_deep_resource_extraction }
 		relative_position_id = PLC_deep_resource_extraction
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = synth_resources
+			}
 		}
 	}
 
@@ -673,14 +972,16 @@ focus_tree = {
 		icon = GFX_focus_generic_tank_production
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_deep_resource_extraction }
 		relative_position_id = PLC_deep_resource_extraction
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = {
+				PLC_near_autarky
+			}
 		}
 	}
 
@@ -689,7 +990,7 @@ focus_tree = {
 		icon = GFX_focus_generic_the_giant_wakes
 		x = 2
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_modernizing_the_industries }
 		prerequisite = { focus = PLC_modern_agriculture }
 		relative_position_id = PLC_modernizing_the_industries
@@ -697,7 +998,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = {
+				PLC_the_dual_economy
+			}
 		}
 	}
 
@@ -783,14 +1086,48 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_eastern_agricultural_region }
 		relative_position_id = PLC_eastern_agricultural_region
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			690 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			716 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			717 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			718 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			688 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -806,7 +1143,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			707 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			702 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -815,14 +1165,14 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_eastern_agricultural_region }
 		relative_position_id = PLC_eastern_agricultural_region
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = tt_PLC_modern_agriculture
 		}
 	}
 
@@ -831,14 +1181,17 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = { focus = PLC_modern_agriculture focus = PLC_massive_infrastructure_investments }
 		relative_position_id = PLC_modern_agriculture
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = {
+				free_trade
+			}
+			add_political_power = 75
 		}
 	}
 
@@ -854,7 +1207,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = {
+				PLC_profit_reinvestment
+			}
 		}
 	}
 

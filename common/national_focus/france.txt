@@ -147,7 +147,7 @@
 		}
 
 		completion_reward = {
-
+			
 		}
 	}
 	

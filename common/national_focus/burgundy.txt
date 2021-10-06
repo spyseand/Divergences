@@ -26,7 +26,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.3
+				days = 0
+			}
 		}
 	}
 
@@ -42,7 +45,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.4
+				days = 0
+			}
 		}
 	}
 
@@ -58,9 +64,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.5
+				days = 0
+			}
 		}
 	}
+
+	###shit
 
 	focus = {
 		id = BUR_wildfire
@@ -70,13 +81,24 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = BUR_castle_of_cards }
 		relative_position_id = BUR_castle_of_cards
+
+		bypass = {
+			NOT = {
+				has_country_flag = BUR_all_is_well_FLG
+			}
+		}
+
+		available = {
+			always = no
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
 		}
 	}
+
+	###let's do a little realpolitik :)
 
 	focus = {
 		id = BUR_containment_theory
@@ -90,7 +112,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.7
+				days = 0
+			}
 		}
 	}
 
@@ -106,7 +131,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.8
+				days = 0
+			}
 		}
 	}
 
@@ -122,7 +150,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.11
+				days = 0
+			}
 		}
 	}
 
@@ -138,7 +169,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.14
+				days = 0
+			}
 		}
 	}
 
@@ -154,7 +188,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.15
+				days = 0
+			}
 		}
 	}
 
@@ -170,7 +207,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.17
+				days = 0
+			}
 		}
 	}
 
@@ -186,7 +226,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.18
+				days = 0
+			}	
 		}
 	}
 
@@ -202,7 +245,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.22
+				days = 0
+			}
 		}
 	}
 
@@ -218,7 +264,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.23
+				days = 0
+			}
 		}
 	}
 
@@ -234,7 +283,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = BUR_french_refugees
 		}
 	}
 
@@ -250,7 +299,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = BUR_anti_french_rhetoric
+			hidden_effect = {
+				country_event = {
+					id = bur.21
+					days = 7
+				}
+			}
 		}
 	}
 
@@ -266,7 +321,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = bur.26
+				days = 0
+			}
 		}
 	}
 
@@ -282,7 +340,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BUR_suppressed_ruhr_riots
+				remove_idea = BUR_the_ruhr_riots
+			}
+			hidden_effect = {
+				country_event = {
+					id = bur.25
+					days = 7
+				}
+			}
 		}
 	}
 
@@ -298,7 +365,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = BUR_burgundian_spirit
 		}
 	}
 
@@ -314,7 +381,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BUR_three_peoples_one_nation
+				remove_idea = BUR_burgundian_spirit
+			}
 		}
 	}
 
@@ -330,7 +400,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BUR_unity_in_division
+				remove_idea = BUR_three_peoples_one_nation
+			}
+			hidden_effect = {
+				country_event = {
+					id = bur.24
+					days = 7
+				}
+			}
 		}
 	}
 	

@@ -141,6 +141,10 @@
  PLC_DEF:0 "the Commonwealth"
  PLC_ADJ:0 "Polish"
 
+ UPC:0 "United People's Commonwealth"
+ UPC_DEF:0 "the United People's Commonwealth"
+ UPC_ADJ:0 "United Eastern"
+
  ITA:0 "Italy"
  ITA_DEF:0 "Italy"
  ITA_ADJ:0 "Italian"

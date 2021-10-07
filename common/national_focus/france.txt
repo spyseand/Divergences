@@ -171,7 +171,7 @@
 	}
 	
 	focus = {
-		id = FRA_french_national_highway_initiative
+		id = FRA_renovation_of_the_cities
 		icon = GFX_goal_generic_construct_infrastructure
 		x = -2
 		y = 1
@@ -180,6 +180,25 @@
 		available_if_capitulated = yes
 		relative_position_id = FRA_revolutionary_committee_for_progress
 		prerequisite = { focus = FRA_revolutionary_committee_for_progress }
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = FRA_french_national_highway_initiative
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		cost = 2
+		
+		available_if_capitulated = yes
+		relative_position_id = FRA_renovation_of_the_cities
+		prerequisite = { focus = FRA_renovation_of_the_cities }
 		available = {
 
 		}

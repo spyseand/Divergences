@@ -297,15 +297,15 @@ DRA = {
 	color_ui = rgb { 158 148 0 }
 }
 UTK = {
-	color = rgb { 70 40 100 }
+	color = rgb { 85 30 130 }
 	color_ui = rgb { 235 63 63 }
 }
 VND = {
-	color = rgb { 70 40 100 }
+	color = rgb { 85 30 130 }# 70 40 100
 	color_ui = rgb { 93 181 22 }
 }
 BCH = {
-	color = rgb { 70 40 100 }
+	color = rgb { 85 30 130 }
 	color_ui = rgb { 168 13 109 }
 }
 CHL = {
@@ -325,7 +325,7 @@ BHU = {
 	color_ui = rgb { 122 111 54 }
 }
 IRP = {
-	color = rgb { 80 30 120 }
+	color = rgb { 70 10 100 }
 	color_ui = rgb { 107 49 57 }
 }
 BRM = {

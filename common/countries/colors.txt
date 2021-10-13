@@ -289,7 +289,7 @@ CIN = {
 	color_ui = rgb { 10  170  10 }
 }
 DEC = {
-	color = rgb { 21 150 90 }
+	color = rgb { 140 40 80 }
 	color_ui = rgb { 21 150 90 }
 }
 DRA = {
@@ -297,23 +297,27 @@ DRA = {
 	color_ui = rgb { 158 148 0 }
 }
 UTK = {
-	color = rgb { 235 63 63 }
+	color = rgb { 70 40 100 }
 	color_ui = rgb { 235 63 63 }
 }
 VND = {
-	color = rgb { 93 181 22 }
+	color = rgb { 70 40 100 }
 	color_ui = rgb { 93 181 22 }
 }
-HIN = {
-	color = rgb { 168 13 109 }
+BCH = {
+	color = rgb { 70 40 100 }
+	color_ui = rgb { 168 13 109 }
+}
+CHL = {
+	color = rgb { 200 140 0 }
 	color_ui = rgb { 168 13 109 }
 }
 ARY = {
-	color = rgb { 168 112 13 }
+	color = rgb { 70 85 130 }
 	color_ui = rgb { 168 112 13 }
 }
 BEN = {
-	color = rgb { 136 191 84 }
+	color = rgb { 84 150 84}
 	color_ui = rgb { 136 191 84 }
 }
 BHU = {
@@ -321,7 +325,7 @@ BHU = {
 	color_ui = rgb { 122 111 54 }
 }
 IRP = {
-	color = rgb { 107 49 57 }
+	color = rgb { 80 30 120 }
 	color_ui = rgb { 107 49 57 }
 }
 BRM = {

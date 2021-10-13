@@ -8,7 +8,7 @@ state={
 			3456 3
 		}
 
-        owner = EIN
+        owner = BCH
         buildings = {
 			air_base = 0
 			infrastructure = 5

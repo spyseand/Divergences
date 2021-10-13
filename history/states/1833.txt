@@ -4,7 +4,7 @@ state={
 	manpower = 5892993
 	state_category = town
     history = {
-        owner = EIN
+        owner = IRP
         buildings = {
 			air_base = 0
 			infrastructure = 3
@@ -13,6 +13,6 @@ state={
         }
     }
     provinces = {
-        10866 12718 12876 12041 7998 12844 4984 12886 10847
+        7998 12844 12868 2086 
     }
 }

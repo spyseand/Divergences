@@ -8,7 +8,7 @@ state={
 			1273 1
 		}
 
-        owner = SPA
+        owner = DRA
         buildings = {
 			air_base = 0
 			infrastructure = 5
@@ -17,6 +17,6 @@ state={
         }
     }
     provinces = {
-        1273
+        10799 7411 10259 5104  5032 10756   4414 
     }
 }

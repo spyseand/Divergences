@@ -459,9 +459,13 @@
  VND_DEF:0 "Vindhya"
  VND_ADJ:0 "Vindhyan"
  
- HIN:0 "Hindustan"
- HIN_DEF:0 "Hindustan"
- HIN_ADJ:0 "Hindustani"
+ BCH:0 "Balochi Governate"
+ BCH_DEF:0 "the Balochi Governate"
+ BCH_ADJ:0 "Balochi"
+ 
+ CHL:0 "Chola Kingdom"
+ CHl_DEF:0 "the Chola Kingdom"
+ BCH_ADJ:0 "Chola"
  
  ARY:0 "Aryan State"
  ARY_DEF:0 "the Aryan State"
@@ -475,8 +479,8 @@
  BHU_DEF:0 "the Bhutan"
  BHU_ADJ:0 "Bhutanese"
  
- IRP:0 "Indian Republic"
- IRP_DEF:0 "the Indian Republic"
+ IRP:0 "Indian National Congress"
+ IRP_DEF:0 "the Indian National Congress"
  IRP_ADJ:0 "Indian"
  
  BRM:0 "Burma"

@@ -4,7 +4,7 @@ state={
 	manpower = 6991153
 	state_category = rural
     history = {
-        owner = UTK
+        owner = IRP
         buildings = {
 			air_base = 0
 			infrastructure = 4
@@ -13,6 +13,6 @@ state={
         }
     }
     provinces = {
-        1059 4104 12063 10088 10116 12462 1538 1101 10060 11924 9946 10428 4513
+        1059 4104 12063 10088 10116 1538 1101 10060 10428 4513 1444 12035 12307 10358 7497 12375 4204 4062 7220
     }
 }

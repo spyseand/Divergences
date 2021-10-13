@@ -4,7 +4,7 @@ state={
 	manpower = 1598665
 	state_category = town
     history = {
-        owner = BEN
+        owner = DRA
         buildings = {
 			air_base = 0
 			infrastructure = 5
@@ -13,6 +13,6 @@ state={
         }
     }
     provinces = {
-        10389
+        10296 4365 4321 7340 1228 7297 1317 8087 1275 4280 4472 12114
     }
 }

@@ -1,28 +1,19 @@
 state={
-	id=689
-	name="STATE_1689"
+    id=689
+    name="STATE_1689"
+	manpower = 57498
+	state_category = wasteland
+    history = {
+        owner = TRN
+        buildings = {
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			infrastructure = 1
+        }
 
-	history={
-		victory_points = {
-			3393 3
-		}
-
-		victory_points = {
-			9304 1
-		}
-		owner = RUS
-		buildings = {
-			infrastructure = 5
-			air_base = 3
-
-		}
-		add_core_of = RUS
-	}
-
-	provinces={
-		 11230 9396 11383  
-	}
-	manpower=757200
-	
-	state_category=rural
+    }
+    provinces = {
+        12218 7224 4542 
+    }
 }

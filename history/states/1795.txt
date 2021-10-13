@@ -4,7 +4,7 @@ state={
 	manpower = 5905658
 	state_category = rural
     history = {
-        owner = DRA
+        owner = EIN
         buildings = {
 			air_base = 0
 			infrastructure = 4
@@ -13,6 +13,6 @@ state={
         }
     }
     provinces = {
-        7395 12208 4278 4291 12105 10799 10259 7411 12295 7250 4395 
+        7395 12208 4278 4291 12105 12295 7250 4395 12182 10210 7232 1273
     }
 }

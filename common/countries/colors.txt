@@ -9,7 +9,7 @@ GCO = {
 	color_ui = rgb { 0 153 0 }
 }
 BRA = {
-	color = rgb { 100 115 50 }
+	color = rgb { 100 120 30 }
 	color_ui = rgb { 57 104 198 }
 }
 INC = {
@@ -93,7 +93,7 @@ KUR = {
 	color_ui = rgb { 128 64 0 }
 }
 MNG = {
-	color = rgb { 57 38 115 }
+	color = rgb { 10 58 115 }
 	color_ui = rgb { 57 38 115 }
 }
 NEP = {
@@ -325,7 +325,7 @@ BHU = {
 	color_ui = rgb { 122 111 54 }
 }
 IRP = {
-	color = rgb { 85 55 125 } # 70 10 100 most recent too dark
+	color = rgb { 80 50 120 } # 70 10 100 most recent too dark
 	color_ui = rgb { 107 49 57 }
 }
 BRM = {

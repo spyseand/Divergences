@@ -9,7 +9,7 @@ state={
              infrastructure = 3
          }
          add_core_of = AMZ
-         add_core_of = LOT
+         add_core_of = BRA
      }
      provinces = {
          12917 5188 8211 10996

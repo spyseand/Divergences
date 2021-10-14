@@ -13,7 +13,7 @@ state={
              }
          }
          add_core_of = AMZ
-         add_core_of = LOT
+         add_core_of = BRA
      }
      provinces = {
          1979 2035 8172 10956 2214

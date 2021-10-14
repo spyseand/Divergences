@@ -11,7 +11,7 @@ state={
              industrial_complex = 2
          }
          add_core_of = AMZ
-         add_core_of = LOT
+         add_core_of = BRA
      }
      provinces = {
          12919 13083 8185 8254 12965

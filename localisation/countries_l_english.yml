@@ -105,9 +105,9 @@
  GCO_DEF:0 "Gran Columbia"
  GCO_ADJ:0 "Gran Columbian"
  
- LOT:0 "Lotharingia"
- LOT_DEF:0 "Lotharingia"
- LOT_ADJ:0 "Lotharingian"
+ BRA:0 "Brazil"
+ BRA_DEF:0 "Brazil"
+ BRA_ADJ:0 "Brazilian"
  
  AMZ:0 "Amazonie"
  AMZ_DEF:0 "Amazonie"

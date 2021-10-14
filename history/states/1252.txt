@@ -4,7 +4,7 @@ state={
      manpower = 1925620
      state_category = large_town
      history = {
-	     owner = LOT
+	     owner = BRA
          buildings = {
              infrastructure = 3
              industrial_complex = 2
@@ -12,7 +12,7 @@ state={
                 naval_base = 2
              }
          }
-         add_core_of = LOT
+         add_core_of = BRA
      }
      provinces = {
          5220 12933 2228 5153 10984 2150 12913

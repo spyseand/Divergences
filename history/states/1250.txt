@@ -12,7 +12,7 @@ state={
 			5107 3
 		}
 
-	     owner = LOT
+	     owner = BRA
          buildings = {
              infrastructure = 5
              dockyard = 3
@@ -24,7 +24,7 @@ state={
                 naval_base = 3
              }
          }
-         add_core_of = LOT
+         add_core_of = BRA
      }
      provinces = {
          10933 12961 2227 5168 10939 10998 2175 8179 5107 2132 2178 2164 8227 10345 1524 5182 10967 1446 10989 7561

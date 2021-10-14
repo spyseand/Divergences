@@ -1,6 +1,6 @@
 QIQ = "countries/Qingqiu.txt"
 GCO = "countries/Gran_Colombia.txt"
-LOT = "countries/Lotharingia.txt"
+BRA = "countries/Brazil.txt"
 AMZ = "countries/Amazonie.txt"
 INC = "countries/Incan_Empire.txt"
 BEO = "countries/Beornia.txt"

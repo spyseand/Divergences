@@ -8,8 +8,8 @@ GCO = {
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }
-LOT = {
-	color = rgb { 57 104 198 }
+BRA = {
+	color = rgb { 100 115 50 }
 	color_ui = rgb { 57 104 198 }
 }
 INC = {
@@ -297,15 +297,15 @@ DRA = {
 	color_ui = rgb { 158 148 0 }
 }
 UTK = {
-	color = rgb { 85 30 130 }
+	color = rgb { 100 30 160 } #85 30 130 most recent too dark
 	color_ui = rgb { 235 63 63 }
 }
 VND = {
-	color = rgb { 85 30 130 }# 70 40 100
+	color = rgb { 100 30 160 }# 70 40 100
 	color_ui = rgb { 93 181 22 }
 }
 BCH = {
-	color = rgb { 85 30 130 }
+	color = rgb { 100 30 160 }
 	color_ui = rgb { 168 13 109 }
 }
 CHL = {
@@ -325,7 +325,7 @@ BHU = {
 	color_ui = rgb { 122 111 54 }
 }
 IRP = {
-	color = rgb { 70 10 100 }
+	color = rgb { 85 55 125 } # 70 10 100 most recent too dark
 	color_ui = rgb { 107 49 57 }
 }
 BRM = {

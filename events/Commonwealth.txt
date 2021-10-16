@@ -400,6 +400,8 @@ country_event = {
 	}
 }
 
+####### The Act Passes
+
 country_event = {
 	id = commonwealth.13
 	title = commonwealth.13.t
@@ -422,6 +424,8 @@ country_event = {
 	}
 }
 
+######## The Act Fails
+
 country_event = {
 	id = commonwealth.14
 	title = commonwealth.14.t
@@ -443,6 +447,8 @@ country_event = {
 		country_lock_all_division_template = yes
 	}
 }
+
+######### Anarchist revolt event
 
 country_event = {
 	id = commonwealth.15
@@ -486,10 +492,6 @@ country_event = {
 			add_state_core = 467
 		}
 		release = CRI
-		LIV = {
-			add_state_core = 695
-		}
-		release = LIV
 		MOL = {
 			add_state_core = 714
 			transfer_state = 714

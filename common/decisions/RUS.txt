@@ -270,8 +270,8 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						transfer_state = 1005
 					}
 					if = {
-						NOT = {
-							has_country_flag = RUS_ensure_siberian_loyalty
+#						NOT = {
+#							has_country_flag = RUS_ensure_siberian_loyalty
 						}
 						SIB = {
 							transfer_state = 367
@@ -289,8 +289,8 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						}
 					}
 					if = {
-						NOT = {
-							has_country_flag = RUS_ensure_southern_loyalty
+#						NOT = {
+#							has_country_flag = RUS_ensure_southern_loyalty
 						}
 						KUB = {
 							transfer_state = 488

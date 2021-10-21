@@ -17,8 +17,8 @@ focus_tree = {
 
 	
 	focus = {
-		id = EGL_mosley_and_the_king
-		icon = GFX_goal_unknown
+		id = EGL_mosley
+		icon = GFX_focus_eng_organise_the_blackshirts
 		x = 7
 		y = 1
 		cost = 10
@@ -39,8 +39,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_gah
-		icon = GFX_goal_unknown
+		id = EGL_his_majesty
+		icon = GFX_focus_eng_god_save_the_king
 		x = 0
 		y = 1
 		cost = 10
@@ -49,8 +49,310 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_mosley_and_the_king }
-		relative_position_id = EGL_mosley_and_the_king
+		prerequisite = { focus = EGL_mosley }
+		relative_position_id = EGL_mosley
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_the_mandate
+		icon = GFX_goal_support_democracy
+		x = -5
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_his_majesty }
+		relative_position_id = EGL_his_majesty
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_the_empire
+		icon = GFX_focus_eng_the_sun_never_sets
+		x = 5
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_his_majesty }
+		relative_position_id = EGL_his_majesty
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_the_fields
+		icon = GFX_goal_generic_army_tanks
+		x = -4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_empire }
+		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_the_seas
+		icon = GFX_goal_generic_navy_battleship
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_empire }
+		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = EGL_reinforce_islands
+		icon = GFX_goal_generic_army_doctrines
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_seas }
+		relative_position_id = EGL_the_seas
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_nationalize_vessels
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_reinforce_islands }
+		relative_position_id = EGL_reinforce_islands
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_fortress_island
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_nationalize_vessels }
+		relative_position_id = EGL_nationalize_vessels
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_revitalize_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_seas }
+		relative_position_id = EGL_the_seas
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_navy_tech
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_revitalize_dockyards }
+		relative_position_id = EGL_revitalize_dockyards
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_doctrine_buff
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_navy_tech }
+		relative_position_id = EGL_navy_tech
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_royal_navy
+		icon = GFX_focus_generic_cruiser2
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_doctrine_buff }
+		prerequisite = { focus = EGL_fortress_island }
+		relative_position_id = EGL_doctrine_buff
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_the_air
+		icon = GFX_goal_generic_air_fighter
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_empire }
+		relative_position_id = EGL_the_empire
 		
 		available = {
 
@@ -67,7 +369,7 @@ focus_tree = {
 		id = EGL_guarantee_hannover
 		icon = GFX_goal_unknown
 		x = 1
-		y = 1
+		y = 0
 		cost = 10
 
 		ai_will_do = {

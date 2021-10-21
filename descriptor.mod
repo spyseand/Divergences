@@ -3,6 +3,7 @@ tags={
 	"Alternative History"
 }
 name="Divergences"
+
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_strategy"
@@ -34,5 +35,6 @@ replace_path="common/autonomous_states"
 replace_path="common/operations"
 replace_path="common/unit_leader"
 replace_path="gfx/flags"
+
 supported_version="1.10.*"
-remote_file_id="2510038737"
+picture="thumbnail.png"

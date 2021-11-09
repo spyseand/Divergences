@@ -21,7 +21,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 8
 		y = 0
-		cost = 5
+		cost = 3
 		
 		available_if_capitulated = yes
 
@@ -31,11 +31,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_keep_the_money_flowing
+		id = AUS_tour_the_holy_leauge
 		icon = GFX_goal_unknown
 		x = 2
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = AUS_the_puppetmaster }
 		relative_position_id = AUS_the_puppetmaster
 		
@@ -47,13 +47,160 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_eyes_on_the_south
+		id = AUS_demand_increased_contributions
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_tour_the_holy_leauge }
+		relative_position_id = AUS_tour_the_holy_leauge
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_extract_more_companies
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_demand_increased_contributions }
+		relative_position_id = AUS_demand_increased_contributions
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_courting_bohemia
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_tour_the_holy_leauge }
+		relative_position_id = AUS_tour_the_holy_leauge
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_polish_contributions
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_courting_bohemia }
+		relative_position_id = AUS_courting_bohemia
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_surrounded_by_enemies
 		icon = GFX_goal_unknown
 		x = -2
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = AUS_the_puppetmaster }
 		relative_position_id = AUS_the_puppetmaster
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_end_the_bavarian_embargo
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_surrounded_by_enemies }
+		relative_position_id = AUS_surrounded_by_enemies
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_bavarian_non_interference_agreement
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_end_the_bavarian_embargo }
+		relative_position_id = AUS_end_the_bavarian_embargo
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_the_po_border_wall
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_surrounded_by_enemies }
+		relative_position_id = AUS_surrounded_by_enemies
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_eyes_on_the_back_of_our_heads
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_the_po_border_wall }
+		relative_position_id = AUS_the_po_border_wall
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_the_true_threat
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_eyes_on_the_back_of_our_heads }
+		prerequisite = { focus = AUS_bavarian_non_interference_agreement }
+		prerequisite = { focus = AUS_polish_contributions }
+		prerequisite = { focus = AUS_extract_more_companies }
+		relative_position_id = AUS_eyes_on_the_back_of_our_heads
 		
 		available_if_capitulated = yes
 
@@ -65,11 +212,29 @@ focus_tree = {
 	###Military Industrial Complex
 
 	focus = {
-		id = AUS_military_industrial_complex
+		id = AUS_the_military_industrial_complex
 		icon = GFX_goal_unknown
-		x = 18
-		y = 0
-		cost = 5
+		x = 3
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_the_true_threat }
+		relative_position_id = AUS_the_true_threat
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_ulterior_motives
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_the_true_threat }
+		relative_position_id = AUS_the_true_threat
 		
 		available_if_capitulated = yes
 

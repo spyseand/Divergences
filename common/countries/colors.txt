@@ -157,7 +157,7 @@ AMZ = {
 	color_ui = rgb { 94 186 140 }
 }
 JRS = {
-	color = rgb { 128 128 128 }
+	color = rgb { 120 60 100 } # 145 100 145
 	color_ui = rgb { 128 128 128 }
 }
 FRA = {
@@ -248,7 +248,7 @@ PER = {
 }
 
 KAZ = {
-	color = rgb { 107 150 199 }
+	color = rgb { 120 60 120 }
 	color_ui = rgb { 107 150 199 }
 }
 TAJ = {

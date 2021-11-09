@@ -11,6 +11,48 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
+	
+	focus = {
+		id = GCO_southern_wariness
+		icon = GFX_focus_unknown
+		x = 6
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+	
+		available = {
+			INC {
+				has_completed_focus = INC_the_trials
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GCO_southern_wariness
+		icon = GFX_focus_unknown
+		x = 0
+		y = 1
+		cost = 5
+		
+		available_if_capitulated = yes
+	
+	
+		prerequisite = { focus = GCO_southern_wariness }
+		relative_position_id = GCO_southern_wariness
+		
+		available = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
 
 
 }

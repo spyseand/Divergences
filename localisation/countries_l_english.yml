@@ -213,10 +213,6 @@
  TUR_DEF:0 "Turkey"
  TUR_ADJ:0 "Turkish"
 
- SIB:0 "Siberia"
- SIB_DEF:0 "Siberia"
- SIB_ADJ:0 "Siberian"
-
  MNG:0 "Mongolia"
  MNG_DEF:0 "Mongolia"
  MNG_ADJ:0 "Mongolian"
@@ -289,9 +285,9 @@
  BLC_DEF:0 "Belgian Confederacy"
  BLC_ADJ:0 "Belgian Confederacy"
 
- JRS:0 "Japanese Siberia"
- JRS_DEF:0 "Japanese Siberia"
- JRS_ADJ:0 "Japanese Siberia"
+ JRS:0 "Enkaishu"
+ JRS_DEF:0 "Enkaishu"
+ JRS_ADJ:0 "Siberian"
 
  FRA:0 "France"
  FRA_DEF:0 "France"
@@ -365,9 +361,9 @@
  UYG_DEF:0 "Uyghuristan"
  UYG_ADJ:0 "Uyghuristan"
  
- MAN:0 "Manchuria"
- MAN_DEF:0 "Manchuria"
- MAN_ADJ:0 "Manchuria
+ MAN:0 "Manchukuo"
+ MAN_DEF:0 "Manchukuo"
+ MAN_ADJ:0 "Manchurian"
  
  PER_monolism:0 "Iranian Horde"
  PER_monolism_DEF:0 "the Iranian Horde"

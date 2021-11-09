@@ -4,14 +4,13 @@ state={
 	manpower = 31770
 	state_category = wasteland
     history = {
-    owner = JRS
+        owner = RUS
         buildings = {
 			air_base = 0
 			infrastructure = 1
 			arms_factory = 0
 			industrial_complex = 0
         }
-        add_core_of = RUS
     }
     provinces = {
         2853 1722 3184 13060 6085 13059

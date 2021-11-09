@@ -3,6 +3,7 @@ state={
     name="STATE_1502"
     manpower = 26291
     state_category = rural
+    impassable = yes
     history = {
     owner = SCD
         buildings = {

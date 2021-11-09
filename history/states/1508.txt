@@ -3,6 +3,7 @@ state={
     name="STATE_1508"
     manpower = 180768
     state_category = rural
+    impassable = yes
     history = {
     owner = SCD
         buildings = {
@@ -11,6 +12,6 @@ state={
         add_core_of = SCD
     }
     provinces = {
-        11 3138 11069 145 3044 11026 6152 9095 9134
+        11026 6152 9095 9134 9083 6055 9178 6155 11112 11152 9175 11058 58 11102 3179 190 13119 9211
     }
 }

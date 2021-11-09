@@ -357,7 +357,7 @@ JPH = {
 	color_ui = rgb { 154 210 214 }
 }
 SCM = {
-	color = rgb { 115 250 162 }
+	color = rgb { 100 130 150 }
 	color_ui = rgb { 115 250 162 }
 }
 HAW = {

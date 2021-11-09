@@ -3,6 +3,7 @@ state={
     name="STATE_1376"
 	manpower = 19532
 	state_category = wasteland
+    impassable = yes
     history = {
     owner = RUS
         buildings = {

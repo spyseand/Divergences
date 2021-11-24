@@ -325,13 +325,143 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_
+		id = BAY_modern_military_discipline
 		icon = GFX_dasdasd
 		x = 0
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_stoke_nationalist_sentiments }
 		relative_position_id = BAY_stoke_nationalist_sentiments
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_expand_the_volker_werke
+		icon = GFX_dasdasd
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_an_independent_economy }
+		relative_position_id = BAY_an_independent_economy
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_all_german_staffing
+		icon = GFX_dasdasd
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_an_independent_economy }
+		relative_position_id = BAY_an_independent_economy
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_grobe_kopfe_deutschlands
+		icon = GFX_dasdasd
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_all_german_staffing }
+		prerequisite = { focus = BAY_expand_the_volker_werke }
+		relative_position_id = BAY_all_german_staffing
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_increase_volker_werke_ambitions
+		icon = GFX_dasdasd
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_grobe_kopfe_deutschlands }
+		relative_position_id = BAY_grobe_kopfe_deutschlands
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_every_german_a_soldier
+		icon = GFX_dasdasd
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_grobe_kopfe_deutschlands }
+		relative_position_id = BAY_grobe_kopfe_deutschlands
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_military_industrial_complex
+		icon = GFX_dasdasd
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_every_german_a_soldier }
+		prerequisite = { focus = BAY_increase_volker_werke_ambitions }
+		relative_position_id = BAY_every_german_a_soldier
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_a_shallow_victory
+		icon = GFX_dasdasd
+		x = -3
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_military_industrial_complex focus = BAY_a_stable_economy }
+		relative_position_id = BAY_military_industrial_complex
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_
+		icon = GFX_dasdasd
+		x = -2
+		y = 1
+		cost = 3
+		prerequisite = { focus = BAY_a_shallow_victory }
+		relative_position_id = BAY_a_shallow_victory
 		
 		available_if_capitulated = yes
 

@@ -177,3 +177,152 @@ form_germany = {
 		}
 	}
 }
+volker_werke = {
+	expand_munich_industries = {
+		cost = 50
+		available = {
+			controls_state = 622
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			622 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+	expand_nuremburg_industries = {
+		cost = 50
+		available = {
+			controls_state = 555
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			555 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+	expand_stuttgart_industries = {
+		cost = 50
+		available = {
+			controls_state = 623
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			623 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+	expand_nuremburg_munich_rails = {
+		cost = 50
+		available = {
+			controls_state = 622
+			controls_state = 555
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+			has_completed_focus = BAY_the_autobahn_project
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			build_railway = {
+				start_province = 692
+				target_province = 11544
+				level = 5
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+	expand_stuttgart_munich_rails = {
+		cost = 50
+		available = {
+			controls_state = 622
+			controls_state = 555
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+			has_completed_focus = BAY_the_autobahn_project
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			build_railway = {
+				start_province = 692
+				target_province = 9517
+				level = 5
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+	expand_stuttgart_nuremburg_rails = {
+		cost = 50
+		available = {
+			controls_state = 622
+			controls_state = 555
+			NOT = {
+				has_country_flag = BAY_currently_expanding_industries
+			}
+			has_completed_focus = BAY_the_autobahn_project
+		}
+		days_remove = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = BAY_currently_expanding_industries
+		}
+		remove_effect = {
+			build_railway = {
+				start_province = 11544
+				target_province = 9517
+				level = 5
+			}
+			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+}

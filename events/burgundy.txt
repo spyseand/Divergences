@@ -22,6 +22,7 @@ country_event = {
 				message = tt_BUR_surrender_to_france
 			}
 		}
+		set_global_flag = BUR_empire_dismantled_FLG
 	}
 
 	option = {

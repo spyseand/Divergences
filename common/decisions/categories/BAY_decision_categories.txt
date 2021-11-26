@@ -7,3 +7,12 @@ form_germany = {
         original_tag = BAY
     }
 }
+volker_werke = {
+    visible = {
+        original_tag = BAY
+        has_completed_focus = BAY_unify_the_volker_werke
+    }
+    allowed = {
+        original_tag = BAY
+    }
+}

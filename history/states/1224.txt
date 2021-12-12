@@ -16,6 +16,7 @@ state={
              }
          }
          add_core_of = GCO
+		 add_claim_by = GTC
      }
      provinces = {
          7617

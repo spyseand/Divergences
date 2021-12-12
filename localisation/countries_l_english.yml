@@ -718,3 +718,11 @@
  DAG:0 "Dagestan"
  DAG_DEF:0 "Dagestan"
  DAG_ADJ:0 "Dagestani"
+ 
+ JAM:0 "Jamaica"
+ JAM_DEF:0 "Jamaica"
+ JAM_ADJ:0 "Jamaican"
+ 
+ LBR:0 "Liberia"
+ LBR_DEF:0 "Liberia"
+ LBR_ADJ:0 "Liberian"

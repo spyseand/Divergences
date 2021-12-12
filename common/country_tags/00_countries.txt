@@ -157,3 +157,6 @@ SIB = "countries/Siberia.txt"
 DAG = "countries/Dagestan.txt"
 TER = "countries/Terek.txt"
 KUB = "countries/Kuban.txt"
+
+JAM = "countries/Jamaica.txt"
+LBR = "countries/Liberia.txt"

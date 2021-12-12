@@ -580,3 +580,13 @@ TER = {
 	color = rgb { 210 186 91 }
 	color_ui = rgb { 210 186 91 }
 }
+
+JAM = {
+	color = rgb { 105 72 184 }
+	color_ui = rgb { 210 186 91 }
+}
+
+LBR = {
+	color = rgb { 100 100 150 }
+	color_ui = rgb { 210 186 91 }
+}

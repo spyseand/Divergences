@@ -170,5 +170,175 @@ on_actions = {
 					}
 			}
 		}
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 1
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_1_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 2
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_2_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 3
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_3_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 4
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_4_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 5
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_5_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 6
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_7_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_6_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 7
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_8_resistance
+					}
+					add_ideas = {
+						OTT_arabic_7_resistance
+					}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = var_OTT_arabic_resistance
+						value = 8
+						compare = equals
+					}
+				}
+					remove_ideas = {
+						OTT_arabic_1_resistance
+						OTT_arabic_2_resistance
+						OTT_arabic_3_resistance
+						OTT_arabic_4_resistance
+						OTT_arabic_5_resistance
+						OTT_arabic_6_resistance
+						OTT_arabic_7_resistance
+					}
+					add_ideas = {
+						OTT_arabic_8_resistance
+					}
+			}
+		}
 	}
 }

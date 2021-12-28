@@ -57,6 +57,10 @@ scripted_gui = {
             balkan_resistance_icon = {
                 frame = var_OTT_balkan_resistance
             }
+
+            arabic_resistance_icon = {
+                frame = var_OTT_arabic_resistance
+            }
         }
     }
 }

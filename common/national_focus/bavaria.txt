@@ -446,11 +446,261 @@ focus_tree = {
 		cost = 3
 
 		available = {
+			always = no
+		}
+
+		bypass = {
 			has_global_flag = BUR_empire_dismantled_FLG
 		}
 
 		prerequisite = { focus = BAY_military_industrial_complex focus = BAY_a_stable_economy }
 		relative_position_id = BAY_military_industrial_complex
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_an_uncertain_future
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+
+		allow_branch = {
+			NOT = {
+				OR = {
+					has_country_flag = BAV_french_puppet_FLG
+					has_country_flag = BAV_rhineland_reclaimed_FLG
+					has_country_flag = BAV_alsace_tensions_FLG
+				}
+			}
+		}
+
+		prerequisite = { focus = BAY_a_shallow_victory }
+		relative_position_id = BAY_a_shallow_victory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_confederation_du_rhin
+		icon = GFX_focus_fra_le_deluge
+		x = 0
+		y = 1
+		cost = 3
+
+		allow_branch = {
+			has_country_flag = BAV_french_puppet_FLG
+		}
+
+		prerequisite = { focus = BAY_a_shallow_victory }
+		relative_position_id = BAY_a_shallow_victory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_the_rhenish_germans_freed
+		icon = GFX_goal_support_communism
+		x = 0
+		y = 1
+		cost = 3
+
+		allow_branch = {
+			#has_country_flag = BAV_rhineland_reclaimed_FLG
+		}
+
+		prerequisite = { focus = BAY_a_shallow_victory }
+		relative_position_id = BAY_a_shallow_victory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_tensions_in_alsace
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 0
+		y = 1
+		cost = 3
+
+		allow_branch = {
+			has_country_flag = BAV_alsace_tensions_FLG
+		}
+
+		prerequisite = { focus = BAY_a_shallow_victory }
+		relative_position_id = BAY_a_shallow_victory
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	#Rhenish Germans Freed
+
+	focus = {
+		id = BAY_talks_with_rhenish_revolutionaries
+		icon = GFX_goal_generic_improve_relations
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_rhenish_germans_freed }
+		relative_position_id = BAY_the_rhenish_germans_freed
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_bolster_public_support
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_rhenish_germans_freed }
+		relative_position_id = BAY_the_rhenish_germans_freed
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_merging_the_revolutions
+		icon = GFX_focus_por_workers_of_iberia
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_bolster_public_support }
+		prerequisite = { focus = BAY_talks_with_rhenish_revolutionaries }
+		relative_position_id = BAY_talks_with_rhenish_revolutionaries
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_restructing_the_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_merging_the_revolutions }
+		relative_position_id = BAY_merging_the_revolutions
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_volker_werke_expansion
+		icon = GFX_focus_SOV_merge_plants
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_restructing_the_railways }
+		relative_position_id = BAY_restructing_the_railways
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_reorganize_the_military
+		icon = GFX_focus_SOV_military_purge
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_restructing_the_railways }
+		relative_position_id = BAY_restructing_the_railways
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_the_global_connection
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_merging_the_revolutions }
+		relative_position_id = BAY_merging_the_revolutions
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_preparing_the_german_revolutions
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_global_connection }
+		relative_position_id = BAY_the_global_connection
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_supporting_global_revolutions
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_global_connection }
+		relative_position_id = BAY_the_global_connection
 		
 		available_if_capitulated = yes
 

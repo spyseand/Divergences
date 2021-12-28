@@ -160,3 +160,5 @@ KUB = "countries/Kuban.txt"
 
 JAM = "countries/Jamaica.txt"
 LBR = "countries/Liberia.txt"
+
+JAB = "countries/Jabbal_Shammar.txt"

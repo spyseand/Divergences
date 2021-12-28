@@ -33,3 +33,39 @@ defined_text = {
 		localization_key = OTT_balkan_8_resistance_tooltip
 	}
 }
+
+defined_text = {
+	name = GetArabicResistanceEffects
+	text = {
+		trigger = { has_idea = OTT_arabic_1_resistance }
+		localization_key = OTT_arabic_1_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_2_resistance }
+		localization_key = OTT_arabic_2_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_3_resistance }
+		localization_key = OTT_arabic_3_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_4_resistance }
+		localization_key = OTT_arabic_4_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_5_resistance }
+		localization_key = OTT_arabic_5_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_6_resistance }
+		localization_key = OTT_arabic_6_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_7_resistance }
+		localization_key = OTT_arabic_7_resistance_tooltip
+	}
+	text = {
+		trigger = { has_idea = OTT_arabic_8_resistance }
+		localization_key = OTT_arabic_8_resistance_tooltip
+	}
+}

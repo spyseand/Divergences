@@ -4,10 +4,12 @@ puppet = GRE
 puppet = WAL
 puppet = TRA
 puppet = MOL
+puppet = JAB
 
 add_ideas = {
 	OTT_skirmishes_border_wars
 	OTT_balkan_1_resistance
+	OTT_arabic_1_resistance
 }
 
 #Resistance Variables

@@ -6,6 +6,6 @@ resistance_measures = {
 	allowed = {
 		original_tag = OTT
 	}
-
+	visible_when_empty = yes
 	scripted_gui = OTT_resistance_window
 }

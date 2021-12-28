@@ -4,7 +4,7 @@ state={
 	manpower = 420304
 	state_category = rural
     history = {
-    owner = OTT
+    owner = JAB
         buildings = {
 			air_base = 0
 			infrastructure = 1
@@ -12,6 +12,7 @@ state={
 			industrial_complex = 1
         }
         add_core_of = ARB
+        add_core_of = JAB
     }
     provinces = {
         8101 10815 10901 4974 12455 4562 4603

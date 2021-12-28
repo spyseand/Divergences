@@ -1,0 +1,22 @@
+﻿l_english:
+ OTT_balkan_resistance_tooltip:0 "§RCurrent Effects of Balkan Resistance§!\n[GetBalkanResistanceEffects]"
+
+ OTT_balkan_1_resistance_tooltip:0 "Stability: §R-1.00%§!"
+ OTT_balkan_2_resistance_tooltip:0 "Stability: §R-2.00%§!"
+ OTT_balkan_3_resistance_tooltip:0 "Stability: §R-3.00%§!"
+ OTT_balkan_4_resistance_tooltip:0 "Stability: §R-4.00%§!"
+ OTT_balkan_5_resistance_tooltip:0 "Stability: §R-5.00%§!"
+ OTT_balkan_6_resistance_tooltip:0 "Stability: §R-6.00%§!"
+ OTT_balkan_7_resistance_tooltip:0 "Stability: §R-7.00%§!"
+ OTT_balkan_8_resistance_tooltip:0 "Stability: §R-8.00%§!"
+
+ OTT_arabic_resistance_tooltip:0 "§RCurrent Effects of Arabic Resistance§!\n[GetArabicResistanceEffects]"
+
+ OTT_arabic_1_resistance_tooltip:0 "Stability: §R-1.00%§!"
+ OTT_arabic_2_resistance_tooltip:0 "Stability: §R-2.00%§!"
+ OTT_arabic_3_resistance_tooltip:0 "Stability: §R-3.00%§!"
+ OTT_arabic_4_resistance_tooltip:0 "Stability: §R-4.00%§!"
+ OTT_arabic_5_resistance_tooltip:0 "Stability: §R-5.00%§!"
+ OTT_arabic_6_resistance_tooltip:0 "Stability: §R-6.00%§!"
+ OTT_arabic_7_resistance_tooltip:0 "Stability: §R-7.00%§!"
+ OTT_arabic_8_resistance_tooltip:0 "Stability: §R-8.00%§!"

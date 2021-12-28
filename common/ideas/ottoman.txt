@@ -92,5 +92,53 @@ ideas = {
 			}
 			name = balkan_resistance
 		}
+		OTT_arabic_1_resistance = {
+			modifier = {
+				stability_factor = -0.01
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_2_resistance = {
+			modifier = {
+				stability_factor = -0.02
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_3_resistance = {
+			modifier = {
+				stability_factor = -0.03
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_4_resistance = {
+			modifier = {
+				stability_factor = -0.04
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_5_resistance = {
+			modifier = {
+				stability_factor = -0.05
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_6_resistance = {
+			modifier = {
+				stability_factor = -0.06
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_7_resistance = {
+			modifier = {
+				stability_factor = -0.07
+			}
+			name = arabic_resistance
+		}
+		OTT_arabic_8_resistance = {
+			modifier = {
+				stability_factor = -0.08
+			}
+			name = arabic_resistance
+		}
 	}
 }

@@ -409,16 +409,16 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	is_triggered_only = yes
-	
+
 	option = {
 		name = commonwealth.13.a
 		add_ideas = {
 			PLC_nationwide_strikes
 			PLC_disloyal_army
+			PLC_dead_economy
 		}
-		swap_ideas = {
-			remove_idea = PLC_backwater_economy
-			add_idea = PLC_dead_economy
+		remove_ideas = {
+			PLC_backwater_economy
 		}
 		country_lock_all_division_template = yes
 	}
@@ -439,10 +439,10 @@ country_event = {
 		add_ideas = {
 			PLC_defunct_government
 			PLC_disloyal_generals
+			PLC_dead_economy
 		}
-		swap_ideas = {
-			remove_idea = PLC_backwater_economy
-			add_idea = PLC_dead_economy
+		remove_ideas = {
+			PLC_backwater_economy
 		}
 		country_lock_all_division_template = yes
 	}
@@ -496,6 +496,92 @@ country_event = {
 			add_state_core = 714
 			transfer_state = 714
 		}
+	}
+}
+
+######### Forced surrender to the anarchists :(
+
+country_event = {
+	id = commonwealth.19
+	title = commonwealth.19.t
+	desc = commonwealth.19.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = PLC
+		is_subject = no
+		PLC = { has_war_with = FRE }
+		FRE = {
+			AND = {
+				controls_province = 11683
+				controls_province = 721
+				controls_province = 6474
+				controls_province = 9461
+				controls_province = 418
+				controls_province = 11504
+			}
+		}
+		has_country_flag = PLC_anarchist_uprising_FLG
+	}
+	
+	immediate = {
+		PLC = {
+			white_peace = {
+				tag = FRE
+				message = tt_PLC_surrender_to_anarchists
+			}
+		}
+	}
+
+	option = {
+		name = commonwealth.19.a
+		PLC = {
+			country_event = {
+				id = commonwealth.20
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = commonwealth.20
+	title = commonwealth.20.t
+	desc = commonwealth.20.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = commonwealth.20.a
+		FRE = {
+			transfer_state = 471
+			transfer_state = 473
+			transfer_state = 468
+			transfer_state = 712
+		}
+		PLC = {
+			country_event = {
+				id = commonwealth.21
+				days = 3
+			}
+		}
+	}
+}
+
+news_event = {
+	id = commonwealth.21
+	title = commonwealth.21.t
+	desc = commonwealth.21.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = commonwealth.21.a
 	}
 }
 
@@ -595,7 +681,9 @@ country_event = {
 			}
 			release = LIV
 			set_cosmetic_tag = PLC_poland
-			set_capital = 675
+			set_capital = {
+				state = 675
+			}
 			country_event = {
 				id = commonwealth.10
 				days = 5
@@ -761,3 +849,5 @@ country_event = {
 		name = commonwealth.18.a
 	}
 }
+
+## up to 19 events atm

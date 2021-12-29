@@ -3,6 +3,11 @@
  dual_monarchy.1.t:0 "The War of Liberation"
  dual_monarchy.1.d:0 "The battle for Ameriga and Arcadia has begun. The nations of the west recognize the blood that will be spilled, yet they must fight. Not just for their country, but their very ideals, beliefs, and dreams. This is nothing like any war they've seen before, and will likely be the first and last of its kind."
  dual_monarchy.1.a:0 "To Victory!"
+
+
+
+ ####### plc localisation
+ tt_PLC_surrender_to_anarchists:0 "§YThe Commonwealth§! has surrendered to \nthe militias of the anarchists."
  commonwealth.1.t:0 "Beginning the 1936 Census"
  commonwealth.1.d:0 "Every 10 years or so, the Commonwealth holds a national census to determine both the populations and distributions of each of the peoples of our empire. This is important information for various reasons, but mainly to determine how our process of polonisation is progressing. With all of this in mind, it is time to begin the 1936 Commonwealth Census."
  commonwealth.1.a:0 "Start the Counting"
@@ -64,6 +69,9 @@
  commonwealth.18.t:0 "Filling the Gaps"
  commonwealth.18.d:0 "Friedrich summoned the Sejm for another legislative session. Unsurprisingly, not a single one of the National Democracy deputies showed up for the session. Fortunately, with the Left Coalition majority, passing legislature should not be an issue. The King has compiled a list of bills to pass that he believes will mend the wounds caused by the recent crisis. Now it's up to the Sejm to move these bills into action."
  commonwealth.18.a:0 "Let's begin turning the gears once more."
+
+
+
  fra.2.t:0 "The Congo Rebellion"
  fra.2.d:0 "As a result of our revolution, the Congoese people have seized the opportunity to declare independence from us. For now, there is nothing we can do as we need to focus on our internal politics."
  fra.2.a:0 "A Shame."

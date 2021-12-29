@@ -1,22 +1,16 @@
-
 state={
- 	id=61
- 	name="STATE_1061"
- 	manpower = 6823040
+    id=61
+    name="STATE_1061"
+    manpower = 408919
+    state_category = wasteland
+    history = {
+        owner = TRN
+        buildings = {
+            infrastructure = 1
+        }
 
- 	state_category = metropolis
-
- 	history = {
- 	owner = VIN
- 		buildings = {
- 			infrastructure = 7
- 			industrial_complex = 4
- 			arms_factory = 5
- 		}
- 		add_core_of = VIN
- 	}
-
- 	provinces = {
- 		1#EMPTY STATE
- 	}
- }
+    }
+    provinces = {
+        1483
+    }
+}

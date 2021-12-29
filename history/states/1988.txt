@@ -1,18 +1,18 @@
 state={
     id=988
     name="STATE_1988"
-	manpower = 184290
-	state_category = rural
+    manpower = 406385
+    state_category = rural
     history = {
-        owner = MNG
+        owner = RUS
         buildings = {
-			air_base = 2
-			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 0
+            air_base = 0
+            infrastructure = 5
+            arms_factory = 0
+            industrial_complex = 0
         }
     }
     provinces = {
-        1#EMPTY STATE
+        7300 4311 7373 1406 4261 4383 12200
     }
 }

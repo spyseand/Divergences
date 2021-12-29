@@ -2,23 +2,17 @@
 state={
  	id=64
  	name="STATE_1064"
- 	manpower = 241630
-
- 	state_category = rural
-
- 	history = {
-		victory_points = {
-			12459 1
-		}
-
- 	owner = VIN
- 		buildings = {
- 			infrastructure = 3
- 		}
- 		add_core_of = VIN
- 	}
-
- 	provinces = {
- 		1#EMPTY STATE
- 	}
- }
+    manpower = 100829
+    state_category = town
+    history = {
+    owner = OTT
+        buildings = {
+            infrastructure = 6
+        }
+        add_core_of = SER
+        add_core_of = CRO
+    }
+    provinces = {
+        11580
+    }
+}

@@ -1,19 +1,17 @@
 state={
     id=363
     name="STATE_1363"
-	manpower = 31770
-	state_category = wasteland
-    impassable = yes
+    manpower = 401650
+    state_category = town
     history = {
-        owner = RUS
-        buildings = {
-			air_base = 0
-			infrastructure = 1
-			arms_factory = 0
-			industrial_complex = 0
+       owner = PLC
+       buildings = {
+           infrastructure = 5
+            industrial_complex = 2
         }
+        add_core_of = PLC
     }
     provinces = {
-        1#EMPTY STATE
+        13205 9412
     }
 }

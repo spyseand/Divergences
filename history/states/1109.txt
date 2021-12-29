@@ -2,25 +2,23 @@
 state={
  	id=109
  	name="STATE_1109"
- 	manpower = 1261560
-
- 	state_category = large_town
-
- 	history = {
+	manpower = 314486
+	state_category = town
+    history = {
 		victory_points = {
-			12586 1
+			2097 10
 		}
 
- 	owner = LOU
- 		buildings = {
- 			infrastructure = 5
- 			industrial_complex = 1
- 			arms_factory = 1
- 		}
- 		add_core_of = LOU
- 	}
-
- 	provinces = {
- 		1#EMPTY STATE
- 	}
- }
+       owner = OTT
+       buildings = {
+			air_base = 0
+			infrastructure = 5
+			arms_factory = 0
+			industrial_complex = 0
+        }
+        add_core_of = IRQ
+    }
+    provinces = {
+        12855 2097
+    }
+}

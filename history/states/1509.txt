@@ -1,16 +1,16 @@
 state={
     id=509
     name="STATE_1509"
-    manpower = 80000
-    state_category = rural
+    manpower = 98500
+    state_category = pastoral
     history = {
-    owner = SCD
-        buildings = {
-            infrastructure = 5
+       owner = CRO
+       buildings = {
+           infrastructure = 1
         }
-        add_core_of = SCD
+        add_core_of = CRO
     }
     provinces = {
-        1#EMPTY STATE
+        6619 6614 9586
     }
 }

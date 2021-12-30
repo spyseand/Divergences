@@ -17,6 +17,6 @@ state={
         add_core_of = GTC
     }
     provinces = {
-        11730 9741 771 11723 770 3773 11726
+        1#EMPTY STATE
     }
 }

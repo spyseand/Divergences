@@ -17,6 +17,6 @@ state={
         add_core_of = LIB
     }
     provinces = {
-        10120 4136 1130 9992 7082 1204 4151 12094
+        1#EMPTY STATE
     }
 }

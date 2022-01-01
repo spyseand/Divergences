@@ -18,6 +18,6 @@ state={
         add_core_of = ARB
     }
     provinces = {
-        8085 10744 12879
+        8085 10744 12879 4951
     }
 }

@@ -4,7 +4,8 @@ state={
 	manpower = 111468
 	state_category = rural
     history = {
-        owner = PER
+        owner = OTT
+        add_core_of = PER
         buildings = {
 			air_base = 0
 			infrastructure = 3
@@ -13,6 +14,6 @@ state={
         }
     }
     provinces = {
-        10774
+        10774 7953 5005 78
     }
 }

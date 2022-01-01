@@ -18,6 +18,6 @@ state={
         add_core_of = SYR
     }
     provinces = {
-        3942 7513 2013 12316 12442 10383
+        1#EMPTY STATE
     }
 }

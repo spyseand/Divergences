@@ -41,7 +41,7 @@ PLC = {
 	color_ui = rgb { 185 70 70 }
 }
 ITA = {
-	color = rgb { 10 100 70 }
+	color = rgb { 12 120 84 }
 	color_ui = rgb { 10 100 30 }
 }
 SPA = {
@@ -57,7 +57,7 @@ COG = {
 	color_ui = rgb { 0 153 153 }
 }
 BAT = {
-	color = rgb { 112 128 144 }
+	color = rgb { 130 70 130 }
 	color_ui = rgb { 112 128 144 }
 }
 HUN = {
@@ -77,7 +77,7 @@ GRE = {
 	color_ui = rgb { 115 55 55 }
 }
 YUG = {
-	color = rgb { 85 0 255 }
+	color = rgb { 120 80 120 }
 	color_ui = rgb { 85 0 255 }
 }
 NOV = {
@@ -101,7 +101,7 @@ NEP = {
 	color_ui = rgb { 107 46 46 }
 }
 JAP = {
-	color = rgb { 255 160 122 }
+	color = rgb { 190 15 15 }
 	color_ui = rgb { 255 160 122 }
 }
 HAW = {
@@ -157,7 +157,7 @@ AMZ = {
 	color_ui = rgb { 94 186 140 }
 }
 JRS = {
-	color = rgb { 120 60 100 } # 145 100 145
+	color = rgb { 115 90 145 } # 145 100 145
 	color_ui = rgb { 128 128 128 }
 }
 FRA = {
@@ -239,7 +239,7 @@ XIA = {
 }
 
 MAN = {
-	color = rgb { 222 145 44 }
+	color = rgb { 160 50 130 }
 	color_ui = rgb { 222 145 44 }
 }
 PER = {
@@ -333,7 +333,7 @@ BRM = {
 	color_ui = rgb { 70 82 99 }
 }
 ARB = {
-	color = rgb { 145 125 110 }
+	color = rgb { 150 115 90 }
 	color_ui = rgb { 196 185 157 }
 }
 AST = {
@@ -349,11 +349,11 @@ SEI = {
 	color_ui = rgb { 212 198 72 }
 }
 JEI = {
-	color = rgb { 62 164 134 } # 150 150 140
+	color = rgb { 180 120 20 } # 150 150 140
 	color_ui = rgb { 150 150 140 }
 }
 JPH = {
-	color = rgb { 154 210 214 }
+	color = rgb { 214 180 145 }
 	color_ui = rgb { 154 210 214 }
 }
 SCM = {
@@ -413,7 +413,7 @@ GEO = {
 	color_ui = rgb { 179 128 154 }
 }
 SER = {
-	color = rgb { 154 108 224 }
+	color = rgb { 70 70 130 }
 	color_ui = rgb { 154 108 224 }
 }
 BOS = {
@@ -435,31 +435,31 @@ MOR = {
 }
 
 ICH = {
-	color = rgb { 25 137 41 }
+	color = rgb { 150 20 150 }
 	color_ui = rgb { 89 166 89 }
 }
 KOR = {
-	color = rgb { 139 40 189 }
+	color = rgb { 139 80 189 }
 	color_ui = rgb { 89 166 89 }
 }
 INS = {
-	color = rgb { 141 136 147 }
+	color = rgb { 30 160 170 }
 	color_ui = rgb { 89 166 89 }
 }
 VIT = {
-	color = rgb { 128 145 151 }
+	color = rgb { 50 160 100 }
 	color_ui = rgb { 89 166 89 }
 }
 CAM = {
-	color = rgb { 109 94 112 }
+	color = rgb { 100 130 150 }
 	color_ui = rgb { 89 166 89 }
 }
 LAO = {
-	color = rgb { 72 43 25 }
+	color = rgb { 72 150 25 }
 	color_ui = rgb { 89 166 89 }
 }
 MAL = {
-	color = rgb { 170 69 34 }
+	color = rgb { 170 80 50 }
 	color_ui = rgb { 89 166 89 }
 }
 PAP = {

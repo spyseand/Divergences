@@ -229,8 +229,8 @@
  CHI_DEF:0 "China"
  CHI_ADJ:0 "Chinese"
 
- JAP:0 "Japan"
- JAP_DEF:0 "Japan"
+ JAP:0 "Empire of Japan"
+ JAP_DEF:0 "the Empire of Japan"
  JAP_ADJ:0 "Japanese"
 
  ZHO:0 "Zhourao"
@@ -503,8 +503,8 @@
  JEI_DEF:0 "the Japanese Indies"
  JEI_ADJ:0 "Indonesian"
  
- JPH:0 "Japanese Philippines"
- JPH_DEF:0 "the Japanese Philippines"
+ JPH:0 "Philippines"
+ JPH_DEF:0 "the Philippines"
  JPH_ADJ:0 "Filipino"
  
  SCM:0 "Scandinavian Malacca"

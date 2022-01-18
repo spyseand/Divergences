@@ -12,6 +12,6 @@ state={
         add_core_of = BRM
     }
     provinces = {
-        7647 12317
+        1#EMPTY STATE
     }
 }

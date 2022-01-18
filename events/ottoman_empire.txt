@@ -1,5 +1,6 @@
 add_namespace = ottoman
 
+#hegemons of the mideast
 country_event = {
 	id = ottoman.1
 	title = ottoman.1.t
@@ -9,5 +10,84 @@ country_event = {
 
 	option = {
 		name = ottoman.1.a
+	}
+}
+
+#seat of the caliph
+country_event = {
+	id = ottoman.2
+	title = ottoman.2.t
+	desc = ottoman.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.2.a
+	}
+}
+
+#masters of the mediterranean
+country_event = {
+	id = ottoman.3
+	title = ottoman.3.t
+	desc = ottoman.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.3.a
+	}
+}
+
+#frayed seams
+country_event = {
+	id = ottoman.4
+	title = ottoman.4.t
+	desc = ottoman.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.4.a
+	}
+}
+
+#the Ankara Bombing
+country_event = {
+	id = ottoman.5
+	title = ottoman.5.t
+	desc = ottoman.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.5.a
+		set_global_flag = OTT_ankara_bombing_FLG
+	}
+} #we can no longer ignore the growing nationalist sentiments as it is now affecting our very way of life
+
+#emergency elections
+country_event = {
+	id = ottoman.6
+	title = ottoman.6.t
+	desc = ottoman.6.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.6.a
+		set_country_flag = OTT_liberal_entente_victory_FLG
+		set_politics = {
+			ruling_party = liberalism
+			elections_allowed = no
+		}
+	}
+	option = {
+		name = ottoman.6.b
+		set_country_flag = OTT_peoples_party_victory_FLG
+		set_politics = {
+			ruling_party = authoritarian_democracy
+			elections_allowed = no
+		}
 	}
 }

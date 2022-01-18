@@ -16,6 +16,524 @@
 #	}
 #
 
+# MODDED EFFECTS
+
+
+#ottomans
+
+
+the_great_revolts = {
+	the_balkan_revolts = yes
+	the_arabic_revolts = yes
+}
+
+	#balkans
+the_balkan_revolts = {
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 1
+				compare = equals
+			}
+		}
+		weak_serb_revolt = yes
+		weak_bulgar_revolt = yes
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 2
+				compare = equals
+			}
+		}
+		weak_serb_revolt = yes
+		weak_bulgar_revolt = yes
+		weak_greek_revolt = yes
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 3
+				compare = equals
+			}
+		}
+		weak_serb_revolt = yes
+		weak_bulgar_revolt = yes
+		weak_greek_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_strengthen_anti_romanian_nationalism
+					}
+				}
+			}
+			romanian_revolt = yes
+		}
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 4
+				compare = equals
+			}
+		}
+		weak_serb_revolt = yes
+		weak_bulgar_revolt = yes
+		weak_greek_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_strengthen_anti_romanian_nationalism
+					}
+				}
+			}
+			romanian_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_increase_military_presence_in_sicily
+					}
+				}
+			}
+			sicilian_revolt = yes
+		}
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 5
+				compare = equals
+			}
+		}
+		strong_serb_revolt = yes
+		strong_bulgar_revolt = yes
+		weak_greek_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_strengthen_anti_romanian_nationalism
+					}
+				}
+			}
+			romanian_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_increase_military_presence_in_sicily
+					}
+				}
+			}
+			sicilian_revolt = yes
+		}
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 6
+				compare = equals
+			}
+		}
+		strong_serb_revolt = yes
+		strong_bulgar_revolt = yes
+		romanian_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_increase_military_presence_in_sicily
+					}
+				}
+			}
+			sicilian_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_root_out_greek_resistance_leaders
+					}
+				}
+			}
+			strong_greek_revolt = yes
+			else = {
+				weak_greek_revolt = yes
+			}
+		}
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 7
+				compare = equals
+			}
+		}
+		strong_serb_revolt = yes
+		strong_bulgar_revolt = yes
+		romanian_revolt = yes
+		sicilian_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_root_out_greek_resistance_leaders
+					}
+				}
+			}
+			strong_greek_revolt = yes
+			else = {
+				weak_greek_revolt = yes
+			}
+		}
+	} else if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_balkan_resistance
+				value = 8
+				compare = equals
+			}
+		}
+		strong_serb_revolt = yes
+		strong_bulgar_revolt = yes
+		romanian_revolt = yes
+		sicilian_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_root_out_greek_resistance_leaders
+					}
+				}
+			}
+			strong_greek_revolt = yes
+			else = {
+				weak_greek_revolt = yes
+			}
+		}
+		holy_league_revolts = yes
+	}
+}
+
+
+weak_serb_revolt = {
+	SER = {
+		transfer_state = 735
+		add_core_state = 733
+		add_core_state = 742
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 740 736 742 733 67 64 }
+		}
+		load_oob = "SER_revolt"
+	}
+}
+strong_serb_revolt = {
+	SER = {
+		transfer_state = 735
+		transfer_state = 736
+		add_core_state = 733
+		add_core_state = 742
+		add_state_claim = 734
+		add_state_claim = 788
+		add_state_claim = 720
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 740 742 733 67 64}
+		}
+		load_oob = "SER_strong_revolt"
+	}
+}
+weak_bulgar_revolt = {
+	BUL = {
+		transfer_state = 741
+		add_core_state = 738
+		add_core_state = 739
+		add_core_state = 734
+		add_state_claim = 752
+		add_state_claim = 754
+		add_state_claim = 751
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 721 743 738 739 734 725 748 }
+		}
+		load_oob = "BUL_revolt"
+	}
+}
+strong_bulgar_revolt = {
+	BUL = {
+		transfer_state = 741
+		transfer_state = 721
+		add_core_state = 738
+		add_core_state = 739
+		add_core_state = 734
+		add_state_claim = 752
+		add_state_claim = 754
+		add_state_claim = 751
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 721 743 738 739 734 725 748 }
+		}
+		load_oob = "BUL_strong_revolt"
+	}
+}
+weak_greek_revolt = {
+	OTT = {
+		end_puppet = GRE
+	}
+	GRE = {
+		set_cosmetic_tag = GRE_FREED
+		add_core_state = 753
+		add_core_state = 745
+		add_state_claim = 754
+		add_state_claim = 752
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 757 755 756 745 753 754 752 }
+		}
+		load_oob = "GRE_revolt"
+	}
+}
+romanian_revolt = {
+	OTT = {
+		end_puppet = TRA
+	}
+	HUN = {
+		transfer_state = 746
+		add_core_state = 746
+	}
+	TRA = {
+		set_cosmetic_tag = TRA_iron_guard
+		add_core_state = 727
+		add_core_state = 749
+		add_core_state = 726
+		add_core_state = 714
+		add_core_state = 715
+		add_core_state = 767
+		add_core_state = 748
+		add_core_state = 725
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 727 749 726 714 715 767 748 725 }
+		}
+		load_oob = "TRA_revolt"
+	}
+}
+sicilian_revolt = {
+	SIC = {
+		transfer_state = 851
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 599 }
+		}
+		load_oob = "SIC_revolt"
+	}
+}
+strong_greek_revolt = {
+	OTT = {
+		end_puppet = GRE
+	}
+	GRE = {
+		set_cosmetic_tag = GRE_FREED
+		add_core_state = 753
+		add_core_state = 745
+		add_state_claim = 754
+		add_state_claim = 752
+		add_state_claim = 751
+		add_state_claim = 453
+		add_state_claim = 777
+		add_state_claim = 771
+		add_state_claim = 770
+		add_state_claim = 759
+		add_state_claim = 762
+		add_state_claim = 769
+		add_state_claim = 760
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 757 755 756 745 753 754 752 751 453 777 771 770 759 762 769 760 }
+		}
+		load_oob = "GRE_revolt"
+	}
+}
+holy_league_revolts = {
+	set_global_flag = HUN_holy_league_revolts_FLG
+	set_global_flag = CRO_holy_league_revolts_FLG
+}
+	#end of /the_balkan_revolts/
+
+
+
+	#mideast
+syrian_revolt = {
+	SYR = {
+		transfer_state = 869
+		add_core_state = 870
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 866 864 862 780 774 871 868 870 }
+		}
+		load_oob = "SYR_revolt"
+	}
+}
+iraqi_revolt = {
+	IRQ = {
+		transfer_state = 109
+		add_core_state = 878
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 880 881 861 863 878 }
+		}
+		load_oob = "IRQ_revolt"
+	}
+}
+libyan_revolt = {
+	LIB = {
+		transfer_state = 960
+		transfer_state = 959
+		declare_war_on = {
+			target = OTT
+			type = take_core_state 
+			generator = { 957 958 955 956 970 }
+		}
+		load_oob = LIB_revolt
+	}
+}
+caucasus_revolt = { #caucaSUS???? amogus ????? HUH????? wuh huh ????//
+	GEO = {
+		transfer_state = 483
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 482 }
+		}
+		load_oob = "GEO_revolt"
+	}
+	ARM = {
+		transfer_state = 480
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 498 496 }
+		}
+		load_oob = "ARM_revolt"
+	}
+}
+arab_revolts = {
+	ARB = {
+		transfer_state = 873
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 882 875 883 874 879 870 878 871 868 }
+		}
+		load_oob = "ARB_revolt"
+	}
+}
+united_arab_revolt = {
+	ARB = {
+		transfer_state = 873
+		transfer_state = 883
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 882 875 874 879 870 878 871 868 }
+		}
+		load_oob = "ARB_united_revolt"
+	}
+	OTT = {
+		country_event = {
+			id = ott.1 #placeholder, please put actual event about jabal shammar's disloyalty here
+			days = 1
+		}
+	}
+}
+weak_kurdish_revolt = {
+	KUR = {
+		transfer_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+		add_core_state = 787
+	}
+}
+strong_kurdish_revolt = {
+	
+}
+azeri_revolt = {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mfw large gap (its a pog face cause it makes it easier to find where i am when i randomly scroll around)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #####################################
 ### emergency_factory_conversion ####
 #####################################

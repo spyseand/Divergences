@@ -341,4 +341,14 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {
+			OTT = {
+				country_event = {
+					id = ottoman.5
+					days = 90
+				}
+			}
+		}
+	}
 }

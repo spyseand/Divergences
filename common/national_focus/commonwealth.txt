@@ -265,7 +265,7 @@ focus_tree = {
 	##Time to pass some bills!
 
 	focus = {
-		id = PLC_the_equal_opportunities_act
+		id = PLC_department_of_public_works
 		icon = GFX_focus_generic_treaty
 		x = -2
 		y = 1
@@ -281,88 +281,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_rework_the_electoral_system
-		icon = GFX_focus_generic_treaty
-		x = -1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_the_equal_opportunities_act }
-		relative_position_id = PLC_the_equal_opportunities_act
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_end_eastern_exploitation
-		icon = GFX_focus_generic_treaty
-		x = 0
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_rework_the_electoral_system }
-		relative_position_id = PLC_rework_the_electoral_system
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_the_equity_and_equality_act
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_end_eastern_exploitation }
-		prerequisite = { focus = PLC_root_out_corruption }
-		relative_position_id = PLC_end_eastern_exploitation
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_tear_down_neo_nobility
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_the_equal_opportunities_act }
-		relative_position_id = PLC_the_equal_opportunities_act
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_root_out_corruption
-		icon = GFX_focus_generic_treaty
-		x = 0
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_tear_down_neo_nobility }
-		relative_position_id = PLC_tear_down_neo_nobility
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_the_new_common_army_act
+		id = PLC_
 		icon = GFX_focus_generic_treaty
 		x = 2
 		y = 1
@@ -378,113 +297,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = PLC_new_generation_of_strategists
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_the_new_common_army_act }
-		relative_position_id = PLC_the_new_common_army_act
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_modernizing_the_military
-		icon = GFX_focus_generic_treaty
-		x = -1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_the_new_common_army_act }
-		relative_position_id = PLC_the_new_common_army_act
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_an_incomplete_solution
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_modernizing_the_military }
-		prerequisite = { focus = PLC_new_generation_of_strategists }
-		relative_position_id = PLC_modernizing_the_military
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_the_national_lingual_act
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_modernizing_the_military }
-		prerequisite = { focus = PLC_new_generation_of_strategists }
-		relative_position_id = PLC_modernizing_the_military
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_the_universal_law_act
-		icon = GFX_focus_generic_treaty
-		x = -1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_an_incomplete_solution }
-		relative_position_id = PLC_an_incomplete_solution
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = PLC_prepare_a_modern_federal_government
-		icon = GFX_focus_generic_treaty
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = PLC_an_incomplete_solution }
-		relative_position_id = PLC_an_incomplete_solution
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
 		id = PLC_the_eastern_peoples_commonwealth
 		icon = GFX_focus_generic_treaty
-		x = -3
-		y = 1
+		x = 5
+		y = 12
 		cost = 6
-		prerequisite = { focus = PLC_prepare_a_modern_federal_government }
-		prerequisite = { focus = PLC_the_universal_law_act }
-		prerequisite = { focus = PLC_the_equity_and_equality_act }
-		relative_position_id = PLC_prepare_a_modern_federal_government
 		
 		available_if_capitulated = yes
 

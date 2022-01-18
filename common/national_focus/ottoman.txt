@@ -21,7 +21,7 @@ focus_tree = {
 		icon = GFX_focus_TUR_pivot_to_the_past
 		x = 10
 		y = 0
-		cost = 5
+		cost = 3
 		
 		available_if_capitulated = yes
 
@@ -38,14 +38,17 @@ focus_tree = {
 		icon = GFX_focus_TUR_pivot_to_the_past
 		x = 1
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = OTT_hegemons_of_the_mideast }
 		relative_position_id = OTT_hegemons_of_the_mideast
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = ottoman.3
+				days = 1
+			}
 		}
 	}
 
@@ -54,14 +57,17 @@ focus_tree = {
 		icon = GFX_focus_TUR_pivot_to_the_past
 		x = -1
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = OTT_hegemons_of_the_mideast }
 		relative_position_id = OTT_hegemons_of_the_mideast
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = ottoman.2
+				days = 1
+			}
 		}
 	}
 
@@ -70,7 +76,7 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_allies
 		x = 1
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = OTT_seat_of_the_caliph }
 		prerequisite = { focus = OTT_masters_of_the_mediterranean }
 		relative_position_id = OTT_seat_of_the_caliph
@@ -78,7 +84,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = ottoman.4
+				days = 1
+			}
 		}
 	}
 
@@ -87,14 +96,21 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 0
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = OTT_frayed_seams }
 		relative_position_id = OTT_frayed_seams
+
+		available = {
+			has_global_flag = OTT_ankara_bombing_FLG
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			country_event = {
+				id = ottoman.6
+				days = 1
+			}
 		}
 	}
 
@@ -106,7 +122,81 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = OTT_emergency_election }
 		relative_position_id = OTT_emergency_election
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+			has_country_flag = OTT_liberal_entente_victory_FLG
+		}
 		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+
+###liberal entente pre-war focuses
+	focus = {
+		id = OTT_decentralization
+		icon = GFX_goal_tripartite_pact
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_liberal_entente_victory }
+		relative_position_id = OTT_liberal_entente_victory
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_expand_regional_autonomies
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_decentralization }
+		relative_position_id = OTT_decentralization
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_economic_reforms
+		icon = GFX_goal_tripartite_pact
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_liberal_entente_victory }
+		relative_position_id = OTT_liberal_entente_victory
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_declare_international_bankrupcty
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_economic_reforms }
+		relative_position_id = OTT_economic_reforms
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -122,6 +212,14 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = OTT_emergency_election }
 		relative_position_id = OTT_emergency_election
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+			has_country_flag = OTT_peoples_party_victory_FLG
+		}
 		
 		available_if_capitulated = yes
 
@@ -130,12 +228,78 @@ focus_tree = {
 		}
 	}
 
+###ottoman peoples party pre-war focuses
 	focus = {
-		id = OTT_resistance_measures
+		id = OTT_dissolve_regional_police_forces
+		icon = GFX_goal_tripartite_pact
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_ottoman_peoples_party_victory }
+		relative_position_id = OTT_ottoman_peoples_party_victory
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_declare_martial_law
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_dissolve_regional_police_forces }
+		relative_position_id = OTT_dissolve_regional_police_forces
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_slash_public_funding
+		icon = GFX_goal_tripartite_pact
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_ottoman_peoples_party_victory }
+		relative_position_id = OTT_ottoman_peoples_party_victory
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_national_austerity
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = OTT_slash_public_funding }
+		relative_position_id = OTT_slash_public_funding
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+###desparate measures focuses
+	focus = {
+		id = OTT_the_ticking_clock
 		icon = GFX_goal_generic_political_pressure
 		x = -5
 		y = 1
-		cost = 5
+		cost = 3
 		prerequisite = { focus = OTT_ottoman_peoples_party_victory focus = OTT_liberal_entente_victory }
 		relative_position_id = OTT_ottoman_peoples_party_victory
 		
@@ -147,14 +311,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = OTT_focus_on_the_balkans
+		id = OTT_crackdown_in_the_balkans
 		icon = GFX_goal_continuous_suppression
 		x = -2
 		y = 1
-		cost = 5
-		prerequisite = { focus = OTT_resistance_measures }
-		relative_position_id = OTT_resistance_measures
-		mutually_exclusive = { focus = OTT_focus_on_the_mideast }
+		cost = 3
+		prerequisite = { focus = OTT_the_ticking_clock }
+		relative_position_id = OTT_the_ticking_clock
+		mutually_exclusive = { focus = OTT_crackdown_in_the_mideast }
 		
 		available_if_capitulated = yes
 
@@ -164,14 +328,142 @@ focus_tree = {
 	}
 
 	focus = {
-		id = OTT_focus_on_the_mideast
+		id = OTT_increase_military_presence_in_sicily
+		icon = GFX_goal_continuous_suppression
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_crackdown_in_the_balkans }
+		relative_position_id = OTT_crackdown_in_the_balkans
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_strengthen_anti_romanian_nationalism
+		icon = GFX_goal_continuous_suppression
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_increase_military_presence_in_sicily }
+		relative_position_id = OTT_increase_military_presence_in_sicily
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_root_out_greek_resistance_leaders
+		icon = GFX_goal_continuous_suppression
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_crackdown_in_the_balkans }
+		relative_position_id = OTT_crackdown_in_the_balkans
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_prepare_anti_austrian_measures
+		icon = GFX_goal_continuous_suppression
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_root_out_greek_resistance_leaders }
+		relative_position_id = OTT_root_out_greek_resistance_leaders
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_crackdown_in_the_mideast
 		icon = GFX_goal_continuous_suppression
 		x = 2
 		y = 1
-		cost = 5
-		prerequisite = { focus = OTT_resistance_measures }
-		relative_position_id = OTT_resistance_measures
-		mutually_exclusive = { focus = OTT_focus_on_the_balkans }
+		cost = 3
+		prerequisite = { focus = OTT_the_ticking_clock }
+		relative_position_id = OTT_the_ticking_clock
+		mutually_exclusive = { focus = OTT_crackdown_in_the_balkans }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_appease_syrian_moderates
+		icon = GFX_goal_continuous_suppression
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_crackdown_in_the_mideast }
+		relative_position_id = OTT_crackdown_in_the_mideast
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_fortify_the_eastern_border
+		icon = GFX_goal_continuous_suppression
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_appease_syrian_moderates }
+		relative_position_id = OTT_appease_syrian_moderates
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_exemplify_tripolitanian_agitators
+		icon = GFX_goal_continuous_suppression
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_crackdown_in_the_mideast }
+		relative_position_id = OTT_crackdown_in_the_mideast
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = OTT_crush_arab_protests
+		icon = GFX_goal_continuous_suppression
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = OTT_exemplify_tripolitanian_agitators }
+		relative_position_id = OTT_exemplify_tripolitanian_agitators
 		
 		available_if_capitulated = yes
 

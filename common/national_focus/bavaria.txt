@@ -519,7 +519,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			#has_country_flag = BAV_rhineland_reclaimed_FLG
+			has_country_flag = BAV_rhineland_reclaimed_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }
@@ -540,7 +540,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			has_country_flag = BAV_alsace_tensions_FLG
+			#has_country_flag = BAV_alsace_tensions_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }
@@ -708,4 +708,146 @@ focus_tree = {
 			
 		}
 	}
+
+	#Tensions in Alsace
+
+	focus = {
+		id = BAY_prepare_for_total_mobilization
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = -2
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_fully_integrate_women_into_factories
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = -1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_prepare_for_total_mobilization }
+		relative_position_id = BAY_prepare_for_total_mobilization
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_fully_embargo_france
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_prepare_for_total_mobilization }
+		relative_position_id = BAY_prepare_for_total_mobilization
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_declare_martial_law
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 2
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_temporarily_loosen_child_labour_laws
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_declare_martial_law }
+		relative_position_id = BAY_declare_martial_law
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_all_for_the_effort
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = -1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_declare_martial_law }
+		relative_position_id = BAY_declare_martial_law
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_total_mobilization
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = -1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_fully_integrate_women_into_factories }
+		prerequisite = { focus = BAY_fully_embargo_france }
+		prerequisite = { focus = BAY_all_for_the_effort }
+		prerequisite = { focus = BAY_temporarily_loosen_child_labour_laws }
+		relative_position_id = BAY_all_for_the_effort
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_war_with_france
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 0
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_total_mobilization }
+		relative_position_id = BAY_total_mobilization
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
 }

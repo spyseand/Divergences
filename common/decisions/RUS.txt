@@ -6,7 +6,7 @@ preparing_the_revolution = {
 					has_country_flag = RUS_moscow_hq_FLG
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -30,7 +30,7 @@ preparing_the_revolution = {
 					has_country_flag = RUS_saint_petersburg_hq_FLG
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -63,7 +63,7 @@ preparing_the_revolution = {
 					has_country_flag = RUS_moscow_hq_FLG
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -96,7 +96,7 @@ preparing_the_revolution = {
 					has_country_flag = RUS_saint_petersburg_hq_FLG
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -132,7 +132,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -168,7 +168,7 @@ preparing_the_revolution = {
 					}
 				}
 			}
-			icon = GFX_decision_category_generic_communism
+			icon = GFX_decision_SOV_place_hq
 			on_map_mode = map_only
 			fire_only_once = yes
 
@@ -189,16 +189,11 @@ preparing_the_revolution = {
 
 		entrench_the_revolution = {
 			visible = {
-				AND = {
-					OR = {
-						has_country_flag = RUS_ekaterinburg_hq_FLG
-						has_country_flag = RUS_tsaritsyn_hq_FLG
-						has_country_flag = RUS_saint_petersburg_hq_FLG
-						has_country_flag = RUS_moscow_hq_FLG
-					}
-					NOT = {
-						FROM = {
+				NOT = {
+					FROM = {
+						OR = {
 							has_state_flag = RUS_revolution_mark_FLG
+							has_state_flag = RUS_revolution_crackdown_FLG
 						}
 					}
 				}
@@ -206,7 +201,8 @@ preparing_the_revolution = {
 			icon = GFX_decision_infiltrate_state
 			on_map_mode = map_only
 			state_target = yes
-			cost = 20
+			cost = 15
+			days_remove = 5
 
 			target_array = owned_states
 			target_trigger = {
@@ -228,18 +224,171 @@ preparing_the_revolution = {
 						}
 					}
 				}
+				NOT = {
+					has_country_flag = RUS_infiltrating_state_FLG
+				}
 			}
-
 			complete_effect = {
 				FROM = {
 					set_state_flag = RUS_revolution_mark_FLG
 				}
+				set_country_flag = RUS_infiltrating_state_FLG
+			}
+			remove_effect = {
+				clr_country_flag = RUS_infiltrating_state_FLG
 				RST = {
 					add_state_core = FROM
 				}
+					#modify mission timer
 			}
 		}
 
+		state_crackdown = {
+			visible = {
+				OR = {
+					has_country_flag = RUS_ekaterinburg_hq_FLG
+					has_country_flag = RUS_tsaritsyn_hq_FLG
+					has_country_flag = RUS_saint_petersburg_hq_FLG
+					has_country_flag = RUS_moscow_hq_FLG
+				}
+			}
+			icon = GFX_decision_oppression
+			on_map_mode = map_only
+			state_target = yes
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					has_state_flag = RUS_revolution_crackdown_FLG
+				}
+			}
+			available = {
+				hidden_trigger = { always = no }
+			}
+		}
+
+		revolution_entrenched = {
+			visible = {
+				OR = {
+					has_country_flag = RUS_ekaterinburg_hq_FLG
+					has_country_flag = RUS_tsaritsyn_hq_FLG
+					has_country_flag = RUS_saint_petersburg_hq_FLG
+					has_country_flag = RUS_moscow_hq_FLG
+				}
+			}
+			icon = GFX_decision_generic_civil_support
+			on_map_mode = map_only
+			state_target = yes
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					is_core_of = RST
+				}
+			}
+			available = {
+				hidden_trigger = { always = no }
+			}
+		}
+}
+
+the_inevitable_uprising = {
+
+		crackdown_on_revolutionaries = {
+			visible = {
+				NOT = {
+					FROM = {
+						OR = {
+							has_state_flag = RUS_revolution_mark_FLG
+							has_state_flag = RUS_revolution_crackdown_FLG
+						}
+					}
+				}
+			}
+			icon = GFX_decision_oppression
+			on_map_mode = map_only
+			state_target = yes
+			cost = 10
+			days_remove = 25
+
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					any_neighbor_state = {
+						has_state_flag = RUS_revolution_mark_FLG
+					}
+				}
+			}
+
+			available = {
+				NOT = {
+					OR = {
+						FROM = {
+							has_state_flag = RUS_revolution_mark_FLG
+						}
+						FROM = {
+							is_core_of = TRN
+						}
+					}
+				}
+				NOT = {
+					has_country_flag = RUS_cracking_down_FLG
+				}
+			}
+			complete_effect = {
+				FROM = {
+					set_state_flag = RUS_revolution_crackdown_FLG
+				}
+				set_country_flag = RUS_cracking_down_FLG
+			}
+			remove_effect = {
+				clr_country_flag = RUS_cracking_down_FLG
+					#modify mission timer
+			}
+		}
+
+		state_crackdown = {
+			visible = {
+				OR = {
+					has_country_flag = RUS_ekaterinburg_hq_FLG
+					has_country_flag = RUS_tsaritsyn_hq_FLG
+					has_country_flag = RUS_saint_petersburg_hq_FLG
+					has_country_flag = RUS_moscow_hq_FLG
+				}
+			}
+			icon = GFX_decision_oppression
+			on_map_mode = map_only
+			state_target = yes
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					has_state_flag = RUS_revolution_crackdown_FLG
+				}
+			}
+			available = {
+				hidden_trigger = { always = no }
+			}
+		}
+		revolution_entrenched = {
+			visible = {
+				OR = {
+					has_country_flag = RUS_ekaterinburg_hq_FLG
+					has_country_flag = RUS_tsaritsyn_hq_FLG
+					has_country_flag = RUS_saint_petersburg_hq_FLG
+					has_country_flag = RUS_moscow_hq_FLG
+				}
+			}
+			icon = GFX_decision_generic_civil_support
+			on_map_mode = map_only
+			state_target = yes
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					is_core_of = RST
+				}
+			}
+			available = {
+				hidden_trigger = { always = no }
+			}
+		}
 }
 
 the_russian_civil_war = { 		 ###These decisions include the civil war mission timer, and decisions/unlocks that affect said timer.
@@ -270,8 +419,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 						transfer_state = 1005
 					}
 					if = {
-#						NOT = {
-#							has_country_flag = RUS_ensure_siberian_loyalty
+						limit = {
+							NOT = {
+								has_country_flag = RUS_siberian_loyalty_FLG
+							}
 						}
 						SIB = {
 							transfer_state = 367
@@ -280,17 +431,33 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 							transfer_state = 378
 							transfer_state = 377
 							transfer_state = 376
-							add_core_of = 367
-							add_core_of = 365
-							add_core_of = 375
-							add_core_of = 378
-							add_core_of = 377
-							add_core_of = 376
+							transfer_state = 374
+							transfer_state = 349
+							transfer_state = 373
+							transfer_state = 366
+							transfer_state = 369
+							transfer_state = 368
+							transfer_state = 364
+							add_state_core = 367
+							add_state_core = 365
+							add_state_core = 375
+							add_state_core = 378
+							add_state_core = 377
+							add_state_core = 376
+							add_state_core = 374
+							add_state_core = 349
+							add_state_core = 373
+							add_state_core = 366
+							add_state_core = 369
+							add_state_core = 368
+							add_state_core = 364
 						}
 					}
 					if = {
-#						NOT = {
-#							has_country_flag = RUS_ensure_southern_loyalty
+						limit = {
+							NOT = {
+								has_country_flag = RUS_southern_loyalty_FLG
+							}
 						}
 						KUB = {
 							transfer_state = 488
@@ -546,13 +713,114 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			}
 		}
 
+		reactionary_crackdown = {
+			icon = GFX_decision_oppression
+			activation = {
+				has_country_flag = RUS_popular_revolution_FLG
+			}
+			is_good = no
+			days_mission_timeout = var_RUS_crackdown_days
+			days_re_enable = 3
+			priority = 9
+			available = {
+				always = no
+			}
+			timeout_effect = {
+				hidden_effect = {
+					if = {
+						limit = {
+							any_owned_state = {
+								NOT = {
+									OR = {
+										has_state_flag = RUS_revolution_mark_FLG
+										has_state_flag = RUS_revolution_crackdown_FLG
+									}
+								}
+								any_neighbor_state = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+						}
+						random_owned_state = {
+							limit = {
+								NOT = {
+									OR = {
+										has_state_flag = RUS_revolution_mark_FLG
+										has_state_flag = RUS_revolution_crackdown_FLG
+									}
+								}
+								any_neighbor_state = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+							set_state_flag = RUS_revolution_crackdown_FLG
+						}
+					}
+						#modify mission timer
+				}
+			}
+		}
+
+		revolutionary_entrenchment = {
+			icon = GFX_decision_generic_civil_support
+			activation = {
+				has_country_flag = RUS_imperial_coalition_FLG
+			}
+			is_good = no
+			days_mission_timeout = 5
+			days_re_enable = 5
+			priority = 9
+			available = {
+				always = no
+			}
+			timeout_effect = {
+				hidden_effect = {
+					if = {
+						limit = {
+							any_owned_state = {
+								NOT = {
+									OR = {
+										has_state_flag = RUS_revolution_mark_FLG
+										has_state_flag = RUS_revolution_crackdown_FLG
+									}
+								}
+								any_neighbor_state = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+						}
+						random_owned_state = {
+							limit = {
+								NOT = {
+									OR = {
+										has_state_flag = RUS_revolution_mark_FLG
+										has_state_flag = RUS_revolution_crackdown_FLG
+									}
+								}
+								any_neighbor_state = {
+									has_state_flag = RUS_revolution_mark_FLG
+								}
+							}
+							set_state_flag = RUS_revolution_mark_FLG
+						}
+					}
+						#modify mission timer
+				}
+			}
+		}
+
+
+#all of the artificial focuses should modify the mission timer
+#	notably, all actual focuses should as well
+
 		convene_the_national_emergency_council = {
 			priority = 5
 			activation = {
 				has_country_flag = RUS_popular_revolution_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 35
@@ -566,8 +834,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_convene_the_nec_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 35
@@ -582,8 +851,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_siberian_loyalty_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 35
@@ -598,8 +868,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_arm_loyal_militias_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 35
@@ -614,13 +885,17 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_appeal_to_monarchies_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 35
 			timeout_effect = {
-				set_country_flag = RUS_intensified_crackdown_FLG
+				add_to_variable = {
+					var = var_RUS_crackdown_days
+					value = -10
+				}
 			}
 		}
 
@@ -629,8 +904,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_imperial_coalition_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 63
@@ -644,8 +920,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_bolster_public_support_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 63
@@ -660,8 +937,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_unite_the_revolutionaries_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 63
@@ -676,8 +954,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_the_red_militia_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 63
@@ -692,8 +971,9 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			activation = {
 				has_country_flag = RUS_international_aid_TIMER_FLG
 			}
+			fire_only_once = yes
 			available = {
-				always = no
+				has_global_flag = RUS_civil_war_FLG
 			}
 			is_good = no
 			days_mission_timeout = 63

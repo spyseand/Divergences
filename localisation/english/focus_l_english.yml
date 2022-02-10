@@ -197,6 +197,7 @@ tt_RUS_acquire_international_aid:0 "§YThis focus will unlock decisions upon the
 RUS_military_sympathies:0 "Military Sympathies"
 RUS_military_sympathies_desc:0 "§RThe standing army of Russia is quite pliable. It should be easy enough to bring more of them on to our side in the case of war.§!"
 tt_RUS_military_sympathies:0 "§YThis focus will give the revolutionary state a larger share of the standing army and equipment in stockpile upon the start of the civil war.§!"
+tt_RUS_start_the_war:0 "§RThis focus will start the civil war immediately upon completion!§!"
 RUS_convene_the_national_emergency_council:0 "Convene the National Emergency Council"
 RUS_convene_the_national_emergency_council_desc:0 "§LThe days following the attempted coup by left-wing elements have been chaotic. With a full-scale revolution on the horizon, we must ensure our coalition holds strong.§!"
 tt_RUS_convene_the_nec:0 "§YThis focus will provide political power and activate an event.§!"

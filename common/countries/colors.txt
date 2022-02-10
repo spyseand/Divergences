@@ -73,7 +73,7 @@ BEL = {
 	color_ui = rgb { 185 70 70 }
 }
 GRE = {
-	color = rgb { 140 60 60 }
+	color = rgb { 140 60 60 } #50 120 140
 	color_ui = rgb { 115 55 55 }
 }
 YUG = {

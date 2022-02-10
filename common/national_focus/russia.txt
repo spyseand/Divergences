@@ -55,7 +55,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_country_flag = RUS_imperial_coalition
+			has_country_flag = RUS_imperial_coalition_FLG
 		}
 		
 		available_if_capitulated = yes
@@ -164,7 +164,10 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = tt_RUS_intensified_crackdown
-			set_country_flag = RUS_intensified_crackdown_FLG
+			add_to_variable = {
+				var = var_RUS_crackdown_days
+				value = -10
+			}
 		}
 	}
 

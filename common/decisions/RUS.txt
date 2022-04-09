@@ -910,6 +910,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 								}
 							}
 							set_state_flag = RUS_revolution_mark_FLG
+							RST = {
+								add_state_core = FROM
+							}
+
 						}
 					}
 				}

@@ -145,7 +145,17 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_liv_a_peaceful_soverign_latvia"
 	texturefile = "gfx/interface/goals/focus_liv_a_peaceful_soverign_latvia.dds"			
-	}		
+	}
+
+	SpriteType = {
+	name = "GFX_focus_bay_total_mobilisation"
+	texturefile = "gfx/interface/goals/focus_bay_total_mobilisation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_bay_war_with_france"
+	texturefile = "gfx/interface/goals/focus_bay_war_with_france.dds"			
+	}
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"

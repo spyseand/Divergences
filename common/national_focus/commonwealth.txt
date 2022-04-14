@@ -306,15 +306,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_cosmetic_tag = UPC
-			annex_country = {
-				target = UKR
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = BEL
-				transfer_troops = yes
-			}
+			#set_cosmetic_tag = UPC
+			#annex_country = {
+			#	target = UKR
+			#	transfer_troops = yes
+			#}
+			#annex_country = {
+			#	target = BEL
+			#	transfer_troops = yes
+			#}
 		}
 	}
 

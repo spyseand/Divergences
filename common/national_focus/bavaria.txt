@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = BAY_genoese_companies
 		icon = GFX_focus_SOV_organize_wreckers
-		x = -1
+		x = 0
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_pleas_to_the_swiss }
@@ -64,11 +64,11 @@ focus_tree = {
 	focus = {
 		id = BAY_pangerman_nationalism
 		icon = GFX_focus_ger_reichskommisariats
-		x = 1
+		x = 0
 		y = 1
 		cost = 3
-		prerequisite = { focus = BAY_pleas_to_the_swiss }
-		relative_position_id = BAY_pleas_to_the_swiss
+		prerequisite = { focus = BAY_towards_autarky }
+		relative_position_id = BAY_towards_autarky
 		
 		available_if_capitulated = yes
 
@@ -133,7 +133,6 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = BAY_increase_famine_relief }
 		prerequisite = { focus = BAY_the_autobahn_project }
-		prerequisite = { focus = BAY_pangerman_nationalism }
 		prerequisite = { focus = BAY_genoese_companies }
 		relative_position_id = BAY_increase_famine_relief
 		
@@ -145,9 +144,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_a_necessary_evil
+		id = BAY_franco_german_collaboration
 		icon = GFX_focus_chi_reach_out_to_france
-		x = -3
+		x = -2
 		y = 1
 		cost = 3
 		mutually_exclusive = { focus = BAY_an_independent_economy }
@@ -164,10 +163,10 @@ focus_tree = {
 	focus = {
 		id = BAY_an_independent_economy
 		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
-		x = 3
+		x = 2
 		y = 1
 		cost = 3
-		mutually_exclusive = { focus = BAY_a_necessary_evil }
+		mutually_exclusive = { focus = BAY_franco_german_collaboration }
 		prerequisite = { focus = BAY_revolutionary_brothers }
 		relative_position_id = BAY_revolutionary_brothers
 		
@@ -181,10 +180,10 @@ focus_tree = {
 	focus = {
 		id = BAY_treading_the_narrow_path
 		icon = GFX_focus_prc_agrarian_socialism
-		x = -3
+		x = -2
 		y = 1
 		cost = 3
-		prerequisite = { focus = BAY_an_independent_economy focus = BAY_a_necessary_evil }
+		prerequisite = { focus = BAY_an_independent_economy focus = BAY_franco_german_collaboration }
 		relative_position_id = BAY_an_independent_economy
 		
 		available_if_capitulated = yes
@@ -197,11 +196,11 @@ focus_tree = {
 	focus = {
 		id = BAY_employ_french_officials
 		icon = GFX_focus_generic_military_academy
-		x = -1
+		x = -2
 		y = 1
 		cost = 3
-		prerequisite = { focus = BAY_a_necessary_evil }
-		relative_position_id = BAY_a_necessary_evil
+		prerequisite = { focus = BAY_franco_german_collaboration }
+		relative_position_id = BAY_franco_german_collaboration
 		
 		available_if_capitulated = yes
 
@@ -213,11 +212,11 @@ focus_tree = {
 	focus = {
 		id = BAY_request_french_investments
 		icon = GFX_focus_mex_privatisation
-		x = 1
+		x = 0
 		y = 1
 		cost = 3
-		prerequisite = { focus = BAY_a_necessary_evil }
-		relative_position_id = BAY_a_necessary_evil
+		prerequisite = { focus = BAY_franco_german_collaboration }
+		relative_position_id = BAY_franco_german_collaboration
 		
 		available_if_capitulated = yes
 
@@ -246,11 +245,11 @@ focus_tree = {
 	focus = {
 		id = BAY_import_essential_industries
 		icon = GFX_goal_generic_construct_civ_factory
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		cost = 3
-		prerequisite = { focus = BAY_grobe_kopfe_europas }
-		relative_position_id = BAY_grobe_kopfe_europas
+		prerequisite = { focus = BAY_request_french_investments }
+		relative_position_id = BAY_request_french_investments
 		
 		available_if_capitulated = yes
 
@@ -262,11 +261,11 @@ focus_tree = {
 	focus = {
 		id = BAY_massive_military_buildup
 		icon = GFX_focus_SOV_mobilization_plan
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		cost = 3
-		prerequisite = { focus = BAY_grobe_kopfe_europas }
-		relative_position_id = BAY_grobe_kopfe_europas
+		prerequisite = { focus = BAY_employ_french_officials }
+		relative_position_id = BAY_employ_french_officials
 		
 		available_if_capitulated = yes
 
@@ -278,7 +277,7 @@ focus_tree = {
 	focus = {
 		id = BAY_a_stable_economy
 		icon = GFX_goal_generic_production2
-		x = -1
+		x = 1
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_massive_military_buildup }
@@ -295,7 +294,7 @@ focus_tree = {
 	focus = {
 		id = BAY_urbanisation_efforts
 		icon = GFX_focus_generic_industry_3
-		x = 0
+		x = -1
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_treading_the_narrow_path }
@@ -311,11 +310,11 @@ focus_tree = {
 	focus = {
 		id = BAY_stoke_nationalist_sentiments
 		icon = GFX_goal_generic_propaganda
-		x = 0
+		x = 1
 		y = 1
 		cost = 3
-		prerequisite = { focus = BAY_urbanisation_efforts }
-		relative_position_id = BAY_urbanisation_efforts
+		prerequisite = { focus = BAY_treading_the_narrow_path }
+		relative_position_id = BAY_treading_the_narrow_path
 		
 		available_if_capitulated = yes
 
@@ -327,10 +326,11 @@ focus_tree = {
 	focus = {
 		id = BAY_modern_military_discipline
 		icon = GFX_focus_SOV_builder_of_the_red_army
-		x = 0
+		x = -1
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_stoke_nationalist_sentiments }
+		prerequisite = { focus = BAY_urbanisation_efforts }
 		relative_position_id = BAY_stoke_nationalist_sentiments
 		
 		available_if_capitulated = yes
@@ -343,7 +343,7 @@ focus_tree = {
 	focus = {
 		id = BAY_expand_the_volker_werke
 		icon = GFX_goal_generic_soviet_construction
-		x = -1
+		x = 0
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_an_independent_economy }
@@ -359,7 +359,7 @@ focus_tree = {
 	focus = {
 		id = BAY_all_german_staffing
 		icon = GFX_focus_generic_military_mission
-		x = 1
+		x = 2
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_an_independent_economy }
@@ -392,11 +392,11 @@ focus_tree = {
 	focus = {
 		id = BAY_increase_volker_werke_ambitions
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		cost = 3
-		prerequisite = { focus = BAY_grobe_kopfe_deutschlands }
-		relative_position_id = BAY_grobe_kopfe_deutschlands
+		prerequisite = { focus = BAY_expand_the_volker_werke }
+		relative_position_id = BAY_expand_the_volker_werke
 		
 		available_if_capitulated = yes
 
@@ -408,11 +408,11 @@ focus_tree = {
 	focus = {
 		id = BAY_every_german_a_soldier
 		icon = GFX_focus_generic_little_entente
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		cost = 3
-		prerequisite = { focus = BAY_grobe_kopfe_deutschlands }
-		relative_position_id = BAY_grobe_kopfe_deutschlands
+		prerequisite = { focus = BAY_all_german_staffing }
+		relative_position_id = BAY_all_german_staffing
 		
 		available_if_capitulated = yes
 
@@ -424,7 +424,7 @@ focus_tree = {
 	focus = {
 		id = BAY_military_industrial_complex
 		icon = GFX_focus_generic_tank_production
-		x = 1
+		x = -1
 		y = 1
 		cost = 3
 		prerequisite = { focus = BAY_every_german_a_soldier }
@@ -441,47 +441,21 @@ focus_tree = {
 	focus = {
 		id = BAY_a_shallow_victory
 		icon = GFX_focus_SOV_the_last_purge
-		x = -3
-		y = 1
+		x = 20
+		y = 0
 		cost = 3
 
 		available = {
 			always = no
 		}
 
+		allow_branch = {
+			#has_country_flag = BUR_empire_dismantled_FLG
+		}
+
 		bypass = {
 			has_global_flag = BUR_empire_dismantled_FLG
 		}
-
-		prerequisite = { focus = BAY_military_industrial_complex focus = BAY_a_stable_economy }
-		relative_position_id = BAY_military_industrial_complex
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_an_uncertain_future
-		icon = GFX_goal_unknown
-		x = 0
-		y = 1
-		cost = 3
-
-		allow_branch = {
-			NOT = {
-				OR = {
-					has_country_flag = BAV_french_puppet_FLG
-					has_country_flag = BAV_rhineland_reclaimed_FLG
-					has_country_flag = BAV_alsace_tensions_FLG
-				}
-			}
-		}
-
-		prerequisite = { focus = BAY_a_shallow_victory }
-		relative_position_id = BAY_a_shallow_victory
 		
 		available_if_capitulated = yes
 
@@ -519,7 +493,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			has_country_flag = BAV_rhineland_reclaimed_FLG
+			#has_country_flag = BAV_rhineland_reclaimed_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }
@@ -540,7 +514,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			#has_country_flag = BAV_alsace_tensions_FLG
+			has_country_flag = BAV_alsace_tensions_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }
@@ -558,7 +532,7 @@ focus_tree = {
 	focus = {
 		id = BAY_talks_with_rhenish_revolutionaries
 		icon = GFX_goal_generic_improve_relations
-		x = -1
+		x = -3
 		y = 1
 		cost = 3
 
@@ -575,7 +549,7 @@ focus_tree = {
 	focus = {
 		id = BAY_bolster_public_support
 		icon = GFX_goal_generic_propaganda
-		x = 1
+		x = -1
 		y = 1
 		cost = 3
 
@@ -608,14 +582,15 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_restructing_the_railways
+		id = BAY_restructuring_the_railways
 		icon = GFX_goal_generic_construct_infrastructure
-		x = -2
-		y = 1
+		x = -1
+		y = 2
 		cost = 3
 
+		prerequisite = { focus = BAY_the_global_connection }
 		prerequisite = { focus = BAY_merging_the_revolutions }
-		relative_position_id = BAY_merging_the_revolutions
+		relative_position_id = BAY_the_global_connection
 		
 		available_if_capitulated = yes
 
@@ -631,8 +606,8 @@ focus_tree = {
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = BAY_restructing_the_railways }
-		relative_position_id = BAY_restructing_the_railways
+		prerequisite = { focus = BAY_restructuring_the_railways }
+		relative_position_id = BAY_restructuring_the_railways
 		
 		available_if_capitulated = yes
 
@@ -648,8 +623,8 @@ focus_tree = {
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = BAY_restructing_the_railways }
-		relative_position_id = BAY_restructing_the_railways
+		prerequisite = { focus = BAY_restructuring_the_railways }
+		relative_position_id = BAY_restructuring_the_railways
 		
 		available_if_capitulated = yes
 
@@ -661,12 +636,12 @@ focus_tree = {
 	focus = {
 		id = BAY_the_global_connection
 		icon = GFX_focus_fra_le_deluge
-		x = 2
+		x = 1
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = BAY_merging_the_revolutions }
-		relative_position_id = BAY_merging_the_revolutions
+		prerequisite = { focus = BAY_the_rhenish_germans_freed }
+		relative_position_id = BAY_the_rhenish_germans_freed
 		
 		available_if_capitulated = yes
 
@@ -695,12 +670,12 @@ focus_tree = {
 	focus = {
 		id = BAY_supporting_global_revolutions
 		icon = GFX_focus_spr_anarchism_knows_no_borders
-		x = -1
+		x = 0
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = BAY_the_global_connection }
-		relative_position_id = BAY_the_global_connection
+		prerequisite = { focus = BAY_preparing_the_german_revolutions }
+		relative_position_id = BAY_preparing_the_german_revolutions
 		
 		available_if_capitulated = yes
 
@@ -713,8 +688,8 @@ focus_tree = {
 
 	focus = {
 		id = BAY_prepare_for_total_mobilization
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = -2
+		icon = GFX_focus_generic_aircraft_production
+		x = -3
 		y = 1
 		cost = 2
 
@@ -730,12 +705,13 @@ focus_tree = {
 
 	focus = {
 		id = BAY_fully_integrate_women_into_factories
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = -1
+		icon = GFX_focus_generic_women_in_military
+		x = 1
 		y = 1
 		cost = 2
 
 		prerequisite = { focus = BAY_prepare_for_total_mobilization }
+		prerequisite = { focus = BAY_all_for_the_effort }
 		relative_position_id = BAY_prepare_for_total_mobilization
 		
 		available_if_capitulated = yes
@@ -747,13 +723,13 @@ focus_tree = {
 
 	focus = {
 		id = BAY_fully_embargo_france
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = 1
-		y = 1
+		icon = GFX_goal_generic_trade
+		x = 0
+		y = 2
 		cost = 2
 
-		prerequisite = { focus = BAY_prepare_for_total_mobilization }
-		relative_position_id = BAY_prepare_for_total_mobilization
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
 		
 		available_if_capitulated = yes
 
@@ -764,7 +740,7 @@ focus_tree = {
 
 	focus = {
 		id = BAY_declare_martial_law
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_goal_generic_small_arms
 		x = 2
 		y = 1
 		cost = 2
@@ -781,8 +757,8 @@ focus_tree = {
 
 	focus = {
 		id = BAY_temporarily_loosen_child_labour_laws
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = 1
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 0
 		y = 1
 		cost = 2
 
@@ -798,13 +774,13 @@ focus_tree = {
 
 	focus = {
 		id = BAY_all_for_the_effort
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_focus_prc_agrarian_socialism
 		x = -1
 		y = 1
 		cost = 2
 
-		prerequisite = { focus = BAY_declare_martial_law }
-		relative_position_id = BAY_declare_martial_law
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
 		
 		available_if_capitulated = yes
 
@@ -815,16 +791,15 @@ focus_tree = {
 
 	focus = {
 		id = BAY_total_mobilization
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = -1
+		icon = GFX_focus_bay_total_mobilisation
+		x = 0
 		y = 1
 		cost = 2
 
 		prerequisite = { focus = BAY_fully_integrate_women_into_factories }
 		prerequisite = { focus = BAY_fully_embargo_france }
-		prerequisite = { focus = BAY_all_for_the_effort }
 		prerequisite = { focus = BAY_temporarily_loosen_child_labour_laws }
-		relative_position_id = BAY_all_for_the_effort
+		relative_position_id = BAY_fully_embargo_france
 		
 		available_if_capitulated = yes
 
@@ -835,7 +810,7 @@ focus_tree = {
 
 	focus = {
 		id = BAY_war_with_france
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_focus_bay_war_with_france
 		x = 0
 		y = 1
 		cost = 2

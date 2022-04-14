@@ -19,6 +19,28 @@ country_event = {
 	option = {
 		name = russia.1.a
 		set_country_flag = RUS_imperial_coalition_FLG
+		hidden_effect = {
+			set_country_flag = RUS_moscow_hq_FLG
+			390 = {
+				set_state_flag = RUS_revolution_mark_FLG
+			}
+			390 = {
+				add_core_of = RST
+			}
+			set_country_flag = RUS_tsaritsyn_hq_2_FLG
+			389 = {
+				set_state_flag = RUS_revolution_mark_FLG
+			}
+			389 = {
+				add_core_of = RST
+			}
+			384 = {
+				set_state_flag = RUS_martial_law_FLG
+			}
+			382 = {
+				set_state_flag = RUS_martial_law_FLG
+			}
+		}
 	}
 
 	option = {

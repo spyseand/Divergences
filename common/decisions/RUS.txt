@@ -79,6 +79,14 @@ preparing_the_revolution = {
 				384 = {
 					add_core_of = RST
 				}
+				hidden_effect = {
+					389 = {
+						set_state_flag = RUS_martial_law_FLG
+					}
+					382 = {
+						set_state_flag = RUS_martial_law_FLG
+					}
+				}
 			}
 		}
 
@@ -111,6 +119,16 @@ preparing_the_revolution = {
 				}
 				390 = {
 					add_core_of = RST
+				}
+				if = {
+					limit = {
+						389 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+						382 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+					}
 				}
 			}
 		}
@@ -148,6 +166,27 @@ preparing_the_revolution = {
 				389 = {
 					add_core_of = RST
 				}
+				hidden_effect = {
+					if = {
+						limit = {
+							has_country_flag = RUS_moscow_hq_FLG
+						}
+						384 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = RUS_saint_petersburg_hq_FLG
+						}
+						390 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+					}
+					382 = {
+						set_state_flag = RUS_martial_law_FLG
+					}
+				}
 			}
 		}
 
@@ -183,6 +222,27 @@ preparing_the_revolution = {
 				}
 				382 = {
 					add_core_of = RST
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							has_country_flag = RUS_moscow_hq_FLG
+						}
+						384 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = RUS_saint_petersburg_hq_FLG
+						}
+						390 = {
+							set_state_flag = RUS_martial_law_FLG
+						}
+					}
+					389 = {
+						set_state_flag = RUS_martial_law_FLG
+					}
 				}
 			}
 		}
@@ -239,7 +299,10 @@ preparing_the_revolution = {
 				RST = {
 					add_state_core = FROM
 				}
-					#modify mission timer
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 2
+				}
 			}
 		}
 
@@ -341,7 +404,10 @@ the_inevitable_uprising = {
 			}
 			remove_effect = {
 				clr_country_flag = RUS_cracking_down_FLG
-					#modify mission timer
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -7
+				}
 			}
 		}
 
@@ -697,6 +763,20 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 							count = 1
 						}
 					}
+					every_owned_state = {
+						limit = {
+							OR = {
+								has_state_flag = RUS_martial_law_FLG
+								has_state_flag = RUS_revolution_crackdown_FLG
+							}
+						}
+						create_unit = {
+							division = "division_template = \"Imperial Militia\" start_experience_factor = 0.1"
+							owner = RUS
+							allow_spawning_on_enemy_provs = yes
+							count = 1
+						}
+					}
 					if = {
 						limit = {
 							has_country_flag = RUS_popular_revolution_FLG
@@ -713,6 +793,29 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			}
 		}
 
+		martial_law_declared = {
+			visible = {
+				OR = {
+					has_country_flag = RUS_ekaterinburg_hq_FLG
+					has_country_flag = RUS_tsaritsyn_hq_FLG
+					has_country_flag = RUS_saint_petersburg_hq_FLG
+					has_country_flag = RUS_moscow_hq_FLG
+				}
+			}
+			icon = GFX_decision_generic_arrest
+			on_map_mode = map_only
+			state_target = yes
+			target_array = owned_states
+			target_trigger = {
+				FROM = {
+					has_state_flag = RUS_martial_law_FLG
+				}
+			}
+			available = {
+				hidden_trigger = { always = no }
+			}
+		}
+
 		reactionary_crackdown = {
 			icon = GFX_decision_oppression
 			activation = {
@@ -720,7 +823,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			}
 			is_good = no
 			days_mission_timeout = var_RUS_crackdown_days
-			days_re_enable = 3
+			days_re_enable = 0
 			priority = 9
 			available = {
 				always = no
@@ -734,6 +837,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 									OR = {
 										has_state_flag = RUS_revolution_mark_FLG
 										has_state_flag = RUS_revolution_crackdown_FLG
+										has_state_flag = RUS_martial_law_FLG
 									}
 								}
 								any_neighbor_state = {
@@ -756,7 +860,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 							set_state_flag = RUS_revolution_crackdown_FLG
 						}
 					}
-						#modify mission timer
+				}
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -7
 				}
 			}
 		}
@@ -768,7 +875,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			}
 			is_good = no
 			days_mission_timeout = 5
-			days_re_enable = 5
+			days_re_enable = 1
 			priority = 9
 			available = {
 				always = no
@@ -782,6 +889,7 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 									OR = {
 										has_state_flag = RUS_revolution_mark_FLG
 										has_state_flag = RUS_revolution_crackdown_FLG
+										has_state_flag = RUS_martial_law_FLG
 									}
 								}
 								any_neighbor_state = {
@@ -802,16 +910,19 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 								}
 							}
 							set_state_flag = RUS_revolution_mark_FLG
+							RST = {
+								add_state_core = FROM
+							}
+
 						}
 					}
-						#modify mission timer
+				}
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 2
 				}
 			}
 		}
-
-
-#all of the artificial focuses should modify the mission timer
-#	notably, all actual focuses should as well
 
 		convene_the_national_emergency_council = {
 			priority = 5
@@ -826,6 +937,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			days_mission_timeout = 35
 			timeout_effect = {
 				set_country_flag = RUS_convene_the_nec_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -21
+				}
 			}
 		}
 
@@ -843,6 +958,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_country_flag = RUS_siberian_loyalty_FLG
 				set_country_flag = RUS_siberian_loyalty_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -21
+				}
 			}
 		}
 
@@ -860,6 +979,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_country_flag = RUS_arm_loyal_militias_FLG
 				set_country_flag = RUS_arm_loyal_militias_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -21
+				}
 			}
 		}
 
@@ -877,6 +1000,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_country_flag = RUS_appeal_to_monarchies_FLG
 				set_country_flag = RUS_appeal_to_monarchies_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -21
+				}
 			}
 		}
 
@@ -894,7 +1021,11 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				add_to_variable = {
 					var = var_RUS_crackdown_days
-					value = -10
+					value = -15
+				}
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = -21
 				}
 			}
 		}
@@ -912,6 +1043,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			days_mission_timeout = 63
 			timeout_effect = {
 				set_country_flag = RUS_bolster_public_support_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 21
+				}
 			}
 		}
 
@@ -929,6 +1064,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_country_flag = RUS_unite_the_revolutionaries_FLG
 				set_country_flag = RUS_unite_the_revolutionaries_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 21
+				}
 			}
 		}
 
@@ -946,6 +1085,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_country_flag = RUS_the_red_militia_FLG
 				set_country_flag = RUS_the_red_militia_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 21
+				}
 			}
 		}
 
@@ -963,6 +1106,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			timeout_effect = {
 				set_global_flag = RST_international_aid_FLG
 				set_country_flag = RUS_international_aid_TIMER_FLG
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 21
+				}
 			}
 		}
 
@@ -979,6 +1126,10 @@ the_russian_civil_war = { 		 ###These decisions include the civil war mission ti
 			days_mission_timeout = 63
 			timeout_effect = {
 				set_country_flag = RUS_military_sympathies
+				add_days_mission_timeout = {
+					mission = the_inevitable_war
+					days = 21
+				}
 			}
 		}
 

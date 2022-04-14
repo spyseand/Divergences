@@ -21,6 +21,6 @@ state={
         add_core_of = OTT
     }
     provinces = {
-        7003 10007
+        1#EMPTY STATE
     }
 }

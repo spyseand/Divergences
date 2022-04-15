@@ -1,6 +1,248 @@
 ideas = {
 
 	country = {
+		QIQ_snowballing_corporatism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_central_management
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = -0.25
+				war_support_factor = 0.2
+			}
+		}
+	}
+	country = {
+		QIQ_anti_corporate_legislature = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_local_self_management
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = 0.1
+			}
+		}
+	}
+	country = {
+		QIQ_stagnant_parliment = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_government
+			
+			modifier = {
+				stability_weekly_factor = -0.005
+				political_power_gain = -0.5
+			}
+		}
+	}
+	country = {
+		QIQ_extreme_population_boom = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_3
+			
+			modifier = {
+				monthly_population = 3
+				stability_factor = -0.3
+				political_power_gain = -0.5
+			}
+		}
+	}
+	country = {
+		QIQ_large_population_boom = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_2
+			
+			modifier = {
+				monthly_population = 2
+				stability_factor = -0.2
+				political_power_gain = -0.35
+			}
+		}
+	}
+	country = {
+		QIQ_slowing_population_boom = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				monthly_population = 1
+				stability_factor = -0.1
+				political_power_gain = -0.2
+			}
+		}
+	}
+	country = {
+		QIQ_healthy_population_growth = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				monthly_population = 0.5
+				political_power_gain = -0.05
+			}
+		}
+	}
+	country = {
+		QIQ_unchecked_immigration = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support
+			
+			modifier = {
+				monthly_population = 2
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = -0.15
+			}
+		}
+	}
+	country = {
+		QIQ_mass_refugee_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support3
+			
+			modifier = {
+				monthly_population = 4
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = -0.3
+			}
+		}
+	}
+	country = {
+		QIQ_controlled_refugee_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = prc_low_popular_support2
+			
+			modifier = {
+				monthly_population = 3
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+	}
+	country = {
+		QIQ_the_refugees_homebound = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = eng_steady_as_she_goes
+			
+			modifier = {
+				monthly_population = -0.5
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+
+	country = {
 		QIQ_naval_buildup = {
 
 			allowed = {
@@ -17,27 +259,6 @@ ideas = {
 			
 			modifier = {
 				production_speed_dockyard_factor = 0.15
-			}
-		}
-	}
-
-	country = {
-		QIQ_redirected_budget = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_goods_red_bonus
-			
-			modifier = {
-				consumer_goods_factor = 0.05
 			}
 		}
 	}

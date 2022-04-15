@@ -10,11 +10,6 @@ country_event = {
 	
 	option = {
 		name = qingqiu.1.a
-		
-	}
-	option = {
-		name = qingqiu.1.b
-		
 	}
 }
 
@@ -28,8 +23,11 @@ country_event = {
 	
 	option = {
 		name = qingqiu.2.a
-		add_ideas = {
-			QIQ_redirected_budget
+		QIQ = {
+			country_event = {
+				id = qingqiu.3
+				days = 3
+			}
 		}
 	}
 }
@@ -42,20 +40,49 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	#social democrats (main concerns: population crisis & civilian economy)
+	#plans to make economy stronger via infrastructure into more infrastructure (japan style id say)
+
 	option = {
 		name = qingqiu.3.a
-		add_ideas = {
-			QIQ_beachhead_doctrine
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = social_democracy
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_socdem_FLG
+			country_event = {
+				id = qingqiu.4
+			}
 		}
 	}
 
+	#liberal party (main concerns: pacific tensions & wartime economy)
+	#maybe plans to make the economy stronger via military-industrial complex
+
 	option = {
 		name = qingqiu.3.b
-		add_ideas = {
-			QIQ_island_hopping_doctrine
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_liberal_FLG
+			country_event = {
+				id = qingqiu.5
+			}
 		}
 	}
 }
+
+#Coalitions w/ other parties???
+#socdem coalitions
 
 country_event = {
 	id = qingqiu.4
@@ -64,9 +91,63 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	is_triggered_only = yes
-	
+
+	#coalition w/ the socialists
 	option = {
 		name = qingqiu.4.a
-		
+		add_popularity = {
+			ideology = libertarian_socialism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_soccoa_FLG
+		}
+	}
+
+	#coalition w/ the native party
+	option = {
+		name = qingqiu.4.b
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_native_FLG
+		}
+	}
+}
+
+#liberal coalitions
+
+country_event = {
+	id = qingqiu.5
+	title = qingqiu.5.t
+	desc = qingqiu.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	#coalition w/ the conservatives
+	option = {
+		name = qingqiu.5.a
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_concoa_FLG
+		}
+	}
+
+	#coalition w/ the native party
+	option = {
+		name = qingqiu.5.b
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = QIQ_native_FLG
+		}
 	}
 }

@@ -493,7 +493,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			#has_country_flag = BAV_rhineland_reclaimed_FLG
+			has_country_flag = BAV_rhineland_reclaimed_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }
@@ -514,7 +514,7 @@ focus_tree = {
 		cost = 3
 
 		allow_branch = {
-			has_country_flag = BAV_alsace_tensions_FLG
+			#has_country_flag = BAV_alsace_tensions_FLG
 		}
 
 		prerequisite = { focus = BAY_a_shallow_victory }

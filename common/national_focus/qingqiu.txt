@@ -15,11 +15,11 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	###Generic Military Tree
+	#internal diplo
 
 	focus = {
-		id = QIQ_pacific_contender
-		icon = GFX_goal_generic_navy_cruiser
+		id = QIQ_weathering_the_storm
+		icon = GFX_focus_generic_coastal_fort
 		x = 6
 		y = 0
 		cost = 5
@@ -29,409 +29,110 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = qingqiu.1
-				days = 1
 			}
 		}
 	}
 
 	focus = {
-		id = QIQ_reevaluate_our_budget
-		icon = GFX_goal_generic_consumer_goods
-		x = -1
+		id = QIQ_the_stagnant_parliment
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = QIQ_pacific_contender }
-		relative_position_id = QIQ_pacific_contender
+		prerequisite = { focus = QIQ_weathering_the_storm }
+		relative_position_id = QIQ_weathering_the_storm
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			country_event = {
 				id = qingqiu.2
-				days = 1
 			}
 		}
 	}
 
 	focus = {
-		id = QIQ_convince_the_public
-		icon = GFX_goal_generic_propaganda
-		x = 1
+		id = QIQ_the_new_administration
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = QIQ_pacific_contender }
-		relative_position_id = QIQ_pacific_contender
+		prerequisite = { focus = QIQ_the_stagnant_parliment }
+		relative_position_id = QIQ_the_stagnant_parliment
 		
 		available_if_capitulated = yes
 
+		available = {
+			OR = {
+				has_country_flag = QIQ_socdem_FLG
+				has_country_flag = QIQ_liberal_FLG
+			}
+		}
+
 		completion_reward = {
-			add_political_power = 100
-			add_war_support = 0.05
+			remove_ideas = QIQ_stagnant_parliment
 		}
 	}
 
 	focus = {
-		id = QIQ_begin_naval_buildup
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_reevaluate_our_budget }
-		prerequisite = { focus = QIQ_convince_the_public }
-		relative_position_id = QIQ_reevaluate_our_budget
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			6 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-			add_ideas = {
-				QIQ_naval_buildup
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_expand_yongle_harbor
-		icon = GFX_goal_generic_construct_civilian
-		x = -2
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_begin_naval_buildup }
-		relative_position_id = QIQ_begin_naval_buildup
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			3 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			add_building_construction = {
- 				type = naval_base
-    			level = 10
-    			instant_build = yes
-    			province = 9814
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_expand_xingye_harbor
-		icon = GFX_goal_generic_construct_civilian
+		id = QIQ_the_ring_of_fire
+		icon = GFX_focus_usa_focus_on_asia
 		x = 2
 		y = 1
 		cost = 5
-		prerequisite = { focus = QIQ_begin_naval_buildup }
-		relative_position_id = QIQ_begin_naval_buildup
+		prerequisite = { focus = QIQ_the_new_administration }
+		relative_position_id = QIQ_the_new_administration
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			6 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			add_building_construction = {
- 				type = naval_base
-    			level = 10
-    			instant_build = yes
-    			province = 6757
-			}
+			custom_effect_tooltip = QIQ_the_ring_of_fire_tt
 		}
 	}
 
 	focus = {
-		id = QIQ_heavy_ship_development
-		icon = GFX_focus_generic_navy_battleship2
-		x = -1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_expand_yongle_harbor }
-		relative_position_id = QIQ_expand_yongle_harbor
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = qingqiu_bonus
-				bonus = 1
-				ahead_reduction = 1
-				uses = 1
-				category = bb_tech
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_expand_dockyard_investments
-		icon = GFX_goal_generic_build_navy
-		x = 1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_expand_yongle_harbor }
-		relative_position_id = QIQ_expand_yongle_harbor
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			3 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_rush_carrier_research
-		icon = GFX_goal_generic_navy_carrier
-		x = 1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_heavy_ship_development }
-		prerequisite = { focus = QIQ_expand_dockyard_investments }
-		relative_position_id = QIQ_heavy_ship_development
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = air_bonus
-				bonus = 0.5
-				uses = 1
-				ahead_reduction = 2
-				category = cv_tech
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_purchase_outdated_ships
-		icon = GFX_focus_mex_privatisation
+		id = QIQ_condemn_the_japanese_menace
+		icon = GFX_focus_jap_strike_south
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = QIQ_rush_carrier_research }
-		relative_position_id = QIQ_rush_carrier_research
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			###big ship purchase
-		}
-	}
-
-	focus = {
-		id = QIQ_modern_junk_ships
-		icon = GFX_goal_generic_navy_battleship
-		x = 2
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_purchase_outdated_ships }
-		prerequisite = { focus = QIQ_mass_destroyer_purchase }
-		prerequisite = { focus = QIQ_amphibious_doctrine }
-		relative_position_id = QIQ_purchase_outdated_ships
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = {
-				QIQ_modern_junk_ships
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_trade_interdiction
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = -1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_expand_xingye_harbor }
-		relative_position_id = QIQ_expand_xingye_harbor
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = qiq_bonus
-				bonus = 1
-				uses = 2
-				category = naval_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_further_dockyard_expansion
-		icon = GFX_goal_generic_construction
-		x = -1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_trade_interdiction focus = QIQ_expand_dockyard_investments }
-		relative_position_id = QIQ_trade_interdiction
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			8 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-			2 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_amphibious_doctrine
-		icon = GFX_goal_generic_amphibious_assault
-		x = 0
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_further_dockyard_expansion }
-		relative_position_id = QIQ_further_dockyard_expansion
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			8 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
-			2 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
-			country_event = {
-				id = qingqiu.3
-				days = 1
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_escort_ships
-		icon = GFX_focus_generic_destroyer
-		x = 1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_expand_xingye_harbor }
-		relative_position_id = QIQ_expand_xingye_harbor
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = qiq_bonus
-				bonus = 0.5
-				uses = 2
-				ahead_reduction = 0.5
-				category = dd_tech
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_expand_wolf_packs
-		icon = GFX_goal_generic_wolf_pack
-		x = 1
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_trade_interdiction }
-		prerequisite = { focus = QIQ_escort_ships }
-		relative_position_id = QIQ_trade_interdiction
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = qiq_bonus
-				bonus = 0.5
-				uses = 1
-				ahead_reduction = 2
-				category = ss_tech
-			}
-		}
-	}
-
-	focus = {
-		id = QIQ_mass_destroyer_purchase
-		icon = GFX_goal_generic_improve_relations
-		x = 0
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_expand_wolf_packs }
-		relative_position_id = QIQ_expand_wolf_packs
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			###small ship purchase
-		}
-	}
-
-	focus = {
-		id = QIQ_grand_pacific_fleet
-		icon = GFX_focus_qiq_oceangoing
-		x = 0
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_modern_junk_ships }
-		relative_position_id = QIQ_modern_junk_ships
+		prerequisite = { focus = QIQ_the_ring_of_fire }
+		relative_position_id = QIQ_the_ring_of_fire
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			country_event = {
-				id = qingqiu.4
-				days = 1
+				id = qingqiu.?
 			}
+			add_war_support = 0.1
 		}
 	}
 
 	focus = {
 		id = QIQ_the_great_pacific_game
-		icon = GFX_focus_AST_war_japan
-		x = 14
-		y = 0
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 0
+		y = 1
 		cost = 5
+		prerequisite = { focus = QIQ_condemn_the_japanese_menace }
+		relative_position_id = QIQ_condemn_the_japanese_menace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = QIQ_the_great_pacific_game_tt
+		}
+	}
+
+	focus = {
+		id = QIQ_the_new_naval_culture
+		icon = GFX_focus_qiq_oceangoing
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_the_ring_of_fire }
+		relative_position_id = QIQ_the_ring_of_fire
 		
 		available_if_capitulated = yes
 
@@ -441,13 +142,240 @@ focus_tree = {
 	}
 
 	focus = {
-		id = QIQ_pacific_politic
-		icon = GFX_focus_usa_focus_on_asia
+		id = QIQ_purchase_outdated_capital_ships
+		icon = GFX_focus_generic_navy_battleship2
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_the_new_naval_culture }
+		relative_position_id = QIQ_the_new_naval_culture
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_purchase_a_modern_surface_fleet
+		icon = GFX_focus_generic_destroyer
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_the_new_naval_culture }
+		relative_position_id = QIQ_the_new_naval_culture
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_modernize_the_naval_infrastructure
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_purchase_a_modern_surface_fleet }
+		prerequisite = { focus = QIQ_purchase_outdated_capital_ships }
+		relative_position_id = QIQ_purchase_a_modern_surface_fleet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_economic_restructuring
+		icon = GFX_focus_generic_industry_1
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_the_new_administration }
+		relative_position_id = QIQ_the_new_administration
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_investing_in_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_economic_restructuring }
+		relative_position_id = QIQ_economic_restructuring
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_expanding_the_civilian_sector
+		icon = GFX_focus_generic_industry_2
 		x = 0
 		y = 1
 		cost = 5
+		prerequisite = { focus = QIQ_investing_in_infrastructure }
+		relative_position_id = QIQ_investing_in_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_improve_the_quality_of_life
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expanding_the_civilian_sector }
+		relative_position_id = QIQ_expanding_the_civilian_sector
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_the_qingqiurin_dream
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_improve_the_quality_of_life }
+		relative_position_id = QIQ_improve_the_quality_of_life
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_begin_heavy_industrial_expansion
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_expanding_the_civilian_sector }
+		relative_position_id = QIQ_expanding_the_civilian_sector
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_begin_wartime_mobilization
+		icon = GFX_focus_generic_aircraft_production
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = { focus = QIQ_begin_heavy_industrial_expansion }
+		prerequisite = { focus = QIQ_nationalize_key_resource_companies }
+		relative_position_id = QIQ_begin_heavy_industrial_expansion
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_natural_resource_extraction
+		icon = GFX_goal_generic_construction2
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_investing_in_infrastructure }
+		relative_position_id = QIQ_investing_in_infrastructure
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_nationalize_key_resource_companies
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = { focus = QIQ_natural_resource_extraction }
+		relative_position_id = QIQ_natural_resource_extraction
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_anti_corporate_legislation
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_economic_restructuring }
+		relative_position_id = QIQ_economic_restructuring
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_fixing_the_humanitarian_crisis
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_anti_corporate_legislation }
+		relative_position_id = QIQ_anti_corporate_legislation
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QIQ_bridging_the_pacific
+		icon = GFX_focus_chi_one_china_policy
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = QIQ_fixing_the_humanitarian_crisis }
 		prerequisite = { focus = QIQ_the_great_pacific_game }
-		relative_position_id = QIQ_the_great_pacific_game
+		relative_position_id = QIQ_fixing_the_humanitarian_crisis
 		
 		available_if_capitulated = yes
 
@@ -457,29 +385,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = QIQ_final_preparations
-		icon = GFX_focus_chi_flying_tigers
-		x = 0
-		y = 1
-		cost = 5
-		prerequisite = { focus = QIQ_pacific_politic }
-		relative_position_id = QIQ_pacific_politic
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = QIQ_bold_swift_strokes
+		id = QIQ_the_boiling_point
 		icon = GFX_focus_attack_japan
 		x = 0
 		y = 1
 		cost = 5
-		prerequisite = { focus = QIQ_final_preparations }
-		relative_position_id = QIQ_final_preparations
+		prerequisite = { focus = QIQ_bridging_the_pacific }
+		relative_position_id = QIQ_bridging_the_pacific
 		
 		available_if_capitulated = yes
 
@@ -487,9 +399,4 @@ focus_tree = {
 			
 		}
 	}
-
-	###Incomplete stuff:
-	###Localisation(duh), events, 
-	###
-
 }

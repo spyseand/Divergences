@@ -4,13 +4,13 @@ state={
     manpower = 210650
     state_category = town
     history = {
-        owner = OTT
+        owner = YEM
         buildings = {
             infrastructure = 4
         }
-        add_core_of = OTT
+        add_core_of = YEM
     }
     provinces = {
-        1#EMPTY STATE
+         10840 4924 1920 1973 10752 
     }
 }

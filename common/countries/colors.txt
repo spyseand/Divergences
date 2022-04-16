@@ -280,12 +280,12 @@ BHA = {
 	color = rgb { 120 15 30 }
 	color_ui = rgb { 120 15 30 }
 }
-EIN = {
-	color = rgb { 170  10  10 }
+SPI = {
+	color = rgb { 140  100  10 }
 	color_ui = rgb { 170  10  10 }
 }
-CIN = {
-	color = rgb { 10  170  10 }
+SIN = {
+	color = rgb { 10  40  170 }
 	color_ui = rgb { 10  170  10 }
 }
 DEC = {
@@ -594,4 +594,14 @@ LBR = {
 JAB = {
 	color = rgb { 140 60 60 }
 	color_ui = rgb { 115 55 55 }
+}
+
+QIN = {
+	color = rgb { 255 130 0 }
+	color_ui = rgb { 255 130 0 }
+}
+
+YEM = {
+	color = rgb { 140 30 0 }
+	color_ui = rgb { 255 130 0 }
 }

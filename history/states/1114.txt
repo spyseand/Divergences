@@ -8,7 +8,7 @@ state={
 			1070 1
 		}
 
-		owner = XIA
+		owner = QIN
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -16,7 +16,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = XIA
+		add_core_of = QIN
 	}
 
 	provinces={

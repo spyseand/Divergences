@@ -72,8 +72,8 @@ TRN = "countries/Turanic_Councils.txt"
 
 MKH = "countries/Mountain_Khanate.txt"
 BHA = "countries/Bharatiya_Collective.txt"
-EIN = "countries/English_India.txt"
-CIN = "countries/Celtic_India.txt"
+SPI = "countries/Spanish_India.txt"
+SIN = "countries/Scandinavian_India.txt"
 DEC = "countries/Deccan_Federation.txt"
 DRA = "countries/Dravidian_Empire.txt"
 UTK = "countries/Utkala.txt"
@@ -162,3 +162,6 @@ JAM = "countries/Jamaica.txt"
 LBR = "countries/Liberia.txt"
 
 JAB = "countries/Jabbal_Shammar.txt"
+
+QIN = "countries/Great_Qing.txt"
+YEM = "countires/Yemen.txt"

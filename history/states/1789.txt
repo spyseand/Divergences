@@ -8,7 +8,7 @@ state={
 			10201 3
 		}
 
-        owner = CIN
+        owner = SIN
         buildings = {
 			air_base = 3
 			infrastructure = 3

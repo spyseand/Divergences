@@ -4,11 +4,11 @@ state={
  	manpower = 3756120
  	state_category = rural
  	history = {
-		owner = XIA
+		owner = QIN
  		buildings = {
  			infrastructure = 2
  		}
- 		add_core_of = XIA
+ 		add_core_of = QIN
  	}
 
  	provinces = {

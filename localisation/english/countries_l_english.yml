@@ -73,6 +73,12 @@
  XIA_DEF:0 "the Great Xiao"
  XIA_ADJ:0 "Chinese"
  
+ QIN_monolism:0 "Zhongguo"
+ QIN_monolism_DEF:0 "Zhongguo"
+ QIN:0 "Great Qing"
+ QIN_DEF:0 "the Great Qing"
+ QIN_ADJ:0 "Chinese"
+ 
  CHI_monolism:0 "Zhongguo"
  CHI_monolism_DEF:0 "Zhongguo"
  CHI_authoritarian_socialism:0 "Socialist Republic of China"
@@ -431,13 +437,13 @@
  BHA_DEF:0 "the Bharatiya Collective"
  BHA_ADJ:0 "Bharatiyan"
  
- EIN:0 "English India"
- EIN_DEF:0 "English India"
- EIN_ADJ:0 "Indian"
+ SIN:0 "Scandinavian India"
+ SIN_DEF:0 "Scandinavian India"
+ SIN_ADJ:0 "Indian"
  
- CIN:0 "Celtic India"
- CIN_DEF:0 "Celtic India"
- CIN_ADJ:0 "Indian"
+ SPI:0 "Spanish India"
+ SPI_DEF:0 "Spanish India"
+ SPI_ADJ:0 "Indian"
  
  DEC:0 "Deccan Federation"
  DEC_DEF:0 "the Deccan Federation"
@@ -730,3 +736,7 @@
  JAB:0 "Emirate of Riyadh"
  JAB_DEF:0 "the Emirate of Riyadh"
  JAB_ADJ:0 "Arabic"
+ 
+  YEM:0 "Yemen"
+ YEM_DEF:0 "Yemen"
+ YEM_ADJ:0 "Yemeni"

@@ -16,7 +16,7 @@ state={
                 naval_base = 5
             }
         }
-        add_core_of = XIA
+        add_core_of = QIN
     }
     provinces = {
         7014 12052 10034 12076 #CITY, 7014

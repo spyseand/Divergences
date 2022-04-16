@@ -13,14 +13,14 @@ state={
 			12141 3
 		}
 
-		owner = XIA
+		owner = QIN
 		buildings = {
 			air_base = 0
 			arms_factory = 0
 			industrial_complex = 1
 			infrastructure = 1
 		}
-		add_core_of = XIA
+		add_core_of = QIN
 	}
 
 	provinces={

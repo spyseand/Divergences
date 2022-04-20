@@ -11,6 +11,6 @@ state={
         add_core_of = QIN
     }
     provinces = {
-        4160 7135
+        1#EMPTY STATE
     }
 }

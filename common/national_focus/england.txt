@@ -13,7 +13,7 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	###WW2 SETUP
-	
+	continuous_focus_position = { x = 50 y = 2000 }
 
 	
 	focus = {
@@ -76,6 +76,135 @@ focus_tree = {
 
 		prerequisite = { focus = EGL_his_majesty }
 		relative_position_id = EGL_his_majesty
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = EGL_begin_the_first_three_year_plan
+		icon = GFX_unknown
+		x = -2
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_mandate }
+		relative_position_id = EGL_the_mandate
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = EGL_work_programs
+		icon = GFX_unknown
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_the_first_three_year_plan }
+		relative_position_id = EGL_begin_the_first_three_year_plan
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_begin_industry_rationalization
+		icon = GFX_unknown
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_the_first_three_year_plan }
+		relative_position_id = EGL_begin_the_first_three_year_plan
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = EGL_begin_the_second_three_year_plan
+		icon = GFX_unknown
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_industry_rationalization }
+		prerequisite = { focus = EGL_work_programs }
+		relative_position_id = EGL_work_programs
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_begin_the_third_three_year_plan
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_the_second_three_year_plan }
+		relative_position_id = EGL_begin_the_second_three_year_plan
 		
 		available = {
 

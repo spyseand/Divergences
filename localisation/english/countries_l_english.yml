@@ -119,8 +119,8 @@
  AMZ_DEF:0 "Amazonie"
  AMZ_ADJ:0 "Amazonian"
  
- INC:0 "Incan Empire"
- INC_DEF:0 "the Incan Empire"
+ INC:0 "Tawantinsuyu"
+ INC_DEF:0 "Tawantinsuyu"
  INC_ADJ:0 "Incan"
  
  BEO:0 "Beornia"
@@ -363,9 +363,9 @@
  TIB_DEF:0 "Tibet"
  TIB_ADJ:0 "Tibet"
 
- UYG:0 "Uyghuristan"
- UYG_DEF:0 "Uyghuristan"
- UYG_ADJ:0 "Uyghuristan"
+ UYG:0 "Urumqi Sultanate"
+ UYG_DEF:0 "the Urumqi Sultanate"
+ UYG_ADJ:0 "Uyghur"
  
  MAN:0 "Manchukuo"
  MAN_DEF:0 "Manchukuo"

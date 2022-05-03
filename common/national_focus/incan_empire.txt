@@ -71,7 +71,6 @@ focus_tree = {
 		x = -5
 		y = 1
 		cost = 5
-		mutually_exclusive = { focus = INC_a_coup }
 		
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_the_trials }
@@ -88,7 +87,6 @@ focus_tree = {
 		x = 5
 		y = 1
 		cost = 5
-		mutually_exclusive = { focus = INC_the_heir }
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_the_trials }
 		relative_position_id = INC_the_trials
@@ -104,8 +102,6 @@ focus_tree = {
 		x = -4
 		y = 1
 		cost = 5
-		mutually_exclusive = { focus = INC_auth_soc }
-		mutually_exclusive = { focus = INC_vanguard }
 		
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_the_heir }
@@ -122,9 +118,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
-		
-		mutually_exclusive = { focus = INC_auth_soc }
-		mutually_exclusive = { focus = INC_fascist }
 
 		
 		available_if_capitulated = yes
@@ -143,9 +136,6 @@ focus_tree = {
 		y = 1
 		cost = 5
 		
-		mutually_exclusive = { focus = INC_vanguard }
-		mutually_exclusive = { focus = INC_fascist }
-
 		
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_the_heir }
@@ -170,7 +160,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_a_coup }
 		relative_position_id = INC_a_coup
-		mutually_exclusive = { focus = INC_libdem }
 
 		completion_reward = {
 
@@ -239,7 +228,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = INC_a_coup }
 		relative_position_id = INC_a_coup
-		mutually_exclusive = { focus = INC_libsoc }
 
 		completion_reward = {
 

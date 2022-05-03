@@ -13,9 +13,9 @@
  TYK_authoritarian_socialism_DEF:0 "Germania"
  TYK_libertarian_socialism:0 "Germania"
  TYK_libertarian_socialism_DEF:0 "Germania"
- TYK:0 "Nordtyskland"
- TYK_DEF:0 "Nordtyskland"
- TYK_ADJ:0 "North German"
+ TYK:0 "Pommern"
+ TYK_DEF:0 "Pommern"
+ TYK_ADJ:0 "Pommranian"
  
  QIQ_monolism:0 "Qingqiu Collective"
  QIQ_monolism_DEF:0 "the Qingqiu Collective"
@@ -159,8 +159,8 @@
  SPA_DEF:0 "Spain"
  SPA_ADJ:0 "Spanish"
 
- EGY:0 "Egypt"
- EGY_DEF:0 "Egypt"
+ EGY:0 "Khedivate of Egypt"
+ EGY_DEF:0 "Khedivate of Egypt"
  EGY_ADJ:0 "Egyptian"
 
  COG:0 "Congo"
@@ -219,8 +219,8 @@
  TUR_DEF:0 "Turkey"
  TUR_ADJ:0 "Turkish"
 
- MNG:0 "Mongolia"
- MNG_DEF:0 "Mongolia"
+ MNG:0 "Mongolian Empire"
+ MNG_DEF:0 "Mongolian Empire"
  MNG_ADJ:0 "Mongolian"
 
  NEP:0 "Nepal"
@@ -279,8 +279,8 @@
  LOU_DEF:0 "Louisiana"
  LOU_ADJ:0 "Louisianan"
 
- GTC:0 "Genoese Trade Confederation"
- GTC_DEF:0 "the Genoese Trade Confederation"
+ GTC:0 "Genoa"
+ GTC_DEF:0 "Genoa"
  GTC_ADJ:0 "Genoese"
 
  VIN:0 "Vinland"
@@ -313,7 +313,7 @@
 
  HAN:0 "Hannover"
  HAN_DEF:0 "Hannover"
- HAN_ADJ:0 "Hannover"
+ HAN_ADJ:0 "German"
 
  AUS:0 "Austria"
  AUS_DEF:0 "Austria"
@@ -331,9 +331,9 @@
  EGL_DEF:0 "England"
  EGL_ADJ:0 "England"
 
- EST:0 "Nordbaltisk"
- EST_DEF:0 "Nordbaltisk"
- EST_ADJ:0 "Estonian"
+ EST:0 "Livonia"
+ EST_DEF:0 "Livonia"
+ EST_ADJ:0 "Livonian"
 
  CRO:0 "Croatia"
  CRO_DEF:0 "Croatia"
@@ -513,8 +513,8 @@
  JPH_DEF:0 "the Philippines"
  JPH_ADJ:0 "Filipino"
  
- SCM:0 "Scandinavian Malacca"
- SCM_DEF:0 "Scandinavian Malacca"
+ SCM:0 "Malacca"
+ SCM_DEF:0 "Malacca"
  SCM_ADJ:0 "Malaysian"
  
  HAW:0 "Hawaii"
@@ -705,8 +705,8 @@
  RRT_DEF:0 "Russian Ruthenia"
  RRT_ADJ:0 "Russian"
 
- VEN:0 "Venetian Mandate"
- VEN_DEF:0 "Venetian Mandate"
+ VEN:0 "Venice"
+ VEN_DEF:0 "Venice"
  VEN_ADJ:0 "Venetian"
  
  NLO:0 "Great Plains Revolt"

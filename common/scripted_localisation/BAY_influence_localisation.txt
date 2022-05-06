@@ -1,0 +1,30 @@
+defined_text = {
+	name = GetInfluenceColor
+	text = {
+		trigger = {
+			check_variable = { BAY_influence = 80 compare = greater_than_or_equals}
+		}
+		localization_key = BAY_color_red_france
+	}
+	text = {
+		trigger = {
+			check_variable = { BAY_influence = 65 compare = greater_than_or_equals}
+		}
+		localization_key = BAY_color_yellow_france
+	}
+	text = {
+		trigger = {
+			check_variable = { BAY_influence = 20 compare = less_than_or_equals}
+		}
+		localization_key = BAY_color_red_bavaria
+	}
+	text = {
+		trigger = {
+			check_variable = { BAY_influence = 35 compare = less_than_or_equals}
+		}
+		localization_key = BAY_color_yellow_bavaria
+	}
+	text = {
+		localization_key = BAY_color_green
+	}
+}

@@ -292,6 +292,38 @@ ideas = {
 	}
 
 	country = {
+		BAY_german_nationalism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_motorized_focus
+			
+			targeted_modifier = {
+				tag = HAN
+				attack_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = TYK
+				attack_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = BOH
+				attack_bonus_against = 0.1
+			}
+		}
+	}
+
+	country = {
 		BAY_genoese_companies = {
 
 			allowed = {

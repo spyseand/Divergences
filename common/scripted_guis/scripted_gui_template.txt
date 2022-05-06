@@ -64,3 +64,24 @@ scripted_gui = {
         }
     }
 }
+
+scripted_gui = {
+    BAY_influence_window = {
+        window_name = "BAY_influence_window"
+        context_type = decision_category
+
+        visible = {
+            original_tag = BAY
+        }
+
+        ai_enabled = {
+            always = no
+        }
+
+        properties = {
+            bavaria_influence_meter_ticker_icon = {
+                frame = BAY_influence_meter_value
+            }
+        }
+    }
+}

@@ -177,14 +177,22 @@ form_germany = {
 		}
 	}
 }
+
+
+
+
+
 volker_werke = {
-	expand_munich_industries = {
+	nationalize_munich_industries = {
 		cost = 50
 		available = {
 			controls_state = 622
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
 		}
 		days_remove = 50
 		fire_only_once = yes
@@ -203,13 +211,16 @@ volker_werke = {
 			clr_country_flag = BAY_currently_expanding_industries
 		}
 	}
-	expand_nuremburg_industries = {
+	nationalize_nuremburg_industries = {
 		cost = 50
 		available = {
 			controls_state = 555
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
 		}
 		days_remove = 50
 		fire_only_once = yes
@@ -228,13 +239,16 @@ volker_werke = {
 			clr_country_flag = BAY_currently_expanding_industries
 		}
 	}
-	expand_stuttgart_industries = {
+	nationalize_stuttgart_industries = {
 		cost = 50
 		available = {
 			controls_state = 623
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
 		}
 		days_remove = 50
 		fire_only_once = yes
@@ -253,6 +267,171 @@ volker_werke = {
 			clr_country_flag = BAY_currently_expanding_industries
 		}
 	}
+	merge_western_industries = {
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_5
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_6
+					remove_idea = BAY_international_embargo_5
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_4
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_5
+					remove_idea = BAY_international_embargo_4
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_3
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_4
+					remove_idea = BAY_international_embargo_3
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_2
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_3
+					remove_idea = BAY_international_embargo_2
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_1
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_2
+					remove_idea = BAY_international_embargo_1
+				}
+			}
+		}
+	}
+	merge_southern_industries = {
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_5
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_6
+					remove_idea = BAY_international_embargo_5
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_4
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_5
+					remove_idea = BAY_international_embargo_4
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_3
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_4
+					remove_idea = BAY_international_embargo_3
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_2
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_3
+					remove_idea = BAY_international_embargo_2
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_1
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_2
+					remove_idea = BAY_international_embargo_1
+				}
+			}
+		}
+	}
+	merge_northern_industries = {
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = BAY_unify_the_volker_werke
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_5
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_6
+					remove_idea = BAY_international_embargo_5
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_4
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_5
+					remove_idea = BAY_international_embargo_4
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_3
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_4
+					remove_idea = BAY_international_embargo_3
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_2
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_3
+					remove_idea = BAY_international_embargo_2
+				}
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_1
+				}
+				swap_ideas = {
+					add_idea = BAY_international_embargo_2
+					remove_idea = BAY_international_embargo_1
+				}
+			}
+		}
+	}
 	expand_nuremburg_munich_rails = {
 		cost = 50
 		available = {
@@ -261,6 +440,8 @@ volker_werke = {
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
 			has_completed_focus = BAY_the_autobahn_project
 		}
 		days_remove = 50
@@ -274,17 +455,33 @@ volker_werke = {
 				target_province = 11544
 				level = 5
 			}
+			555 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			622 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			clr_country_flag = BAY_currently_expanding_industries
 		}
 	}
 	expand_stuttgart_munich_rails = {
 		cost = 50
 		available = {
+			controls_state = 623
 			controls_state = 622
-			controls_state = 555
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
 			has_completed_focus = BAY_the_autobahn_project
 		}
 		days_remove = 50
@@ -298,17 +495,33 @@ volker_werke = {
 				target_province = 9517
 				level = 5
 			}
+			622 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			623 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			clr_country_flag = BAY_currently_expanding_industries
 		}
 	}
 	expand_stuttgart_nuremburg_rails = {
 		cost = 50
 		available = {
-			controls_state = 622
+			controls_state = 623
 			controls_state = 555
 			NOT = {
 				has_country_flag = BAY_currently_expanding_industries
 			}
+		}
+		visible = {
 			has_completed_focus = BAY_the_autobahn_project
 		}
 		days_remove = 50
@@ -322,7 +535,31 @@ volker_werke = {
 				target_province = 9517
 				level = 5
 			}
+			555 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			623 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			clr_country_flag = BAY_currently_expanding_industries
+		}
+	}
+
+	close_genoese_companies = {
+		visible = {
+			has_idea = BAY_genoese_companies
+		}
+		fire_only_once = yes
+		complete_effect = {
+			remove_ideas = BAY_genoese_companies
 		}
 	}
 }

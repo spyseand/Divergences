@@ -1,40 +1,7 @@
 ideas = {
 
 	country = {
-		BAY_pangerman_rhetoric = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = FRA_motorized_focus
-			
-			targeted_modifier = {
-				tag = HAN
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-			targeted_modifier = {
-				tag = TYK
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-			targeted_modifier = {
-				tag = AUS
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-		}
-	}
-
-	country = {
-		BAY_modern_war = {
+		BAY_torwards_autarky = {
 
 			allowed = {
 				always = no
@@ -49,15 +16,15 @@ ideas = {
 			picture = FRA_motorized_focus
 			
 			modifier = {
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				army_speed_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.5
+				min_export = -1
 			}
 		}
 	}
 
 	country = {
-		BAY_bolstered_army = {
+		BAY_rampant_poverty = {
 
 			allowed = {
 				always = no
@@ -69,18 +36,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_manpower_bonus
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				conscription = 0.03
+				conscription_factor = -0.5
+				consumer_goods_factor = 0.1
+				army_org_factor = -0.3
 			}
 		}
 	}
 
 	country = {
-		BAY_global_contender = {
+		BAY_moderate_poverty = {
 
 			allowed = {
 				always = no
@@ -92,18 +59,17 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_navy_bonus
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				naval_damage_factor = 0.05
-				naval_defense_factor = 0.05
-				naval_speed_factor = 0.1
+				conscription_factor = -0.35
+				army_org_factor = -0.2
 			}
 		}
 	}
 
 	country = {
-		BAY_construction_boost = {
+		BAY_low_poverty = {
 
 			allowed = {
 				always = no
@@ -115,16 +81,17 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ast_all_in
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				production_speed_buildings_factor = 0.05
+				conscription_factor = -0.2
+				army_org_factor = -0.1
 			}
 		}
 	}
 
 	country = {
-		BAY_resource_exploitation = {
+		BAY_international_embargo_1 = {
 
 			allowed = {
 				always = no
@@ -136,17 +103,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_exploit_mines
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.1
-				production_lack_of_resource_penalty_factor = -0.05
+				consumer_goods_factor = 0.5
+				industrial_capacity_factor = -0.5
+				production_speed_buildings_factor = -0.5
 			}
 		}
 	}
 
 	country = {
-		BAY_armament_effort = {
+		BAY_international_embargo_2 = {
 
 			allowed = {
 				always = no
@@ -158,16 +126,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_acquire_tanks
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.45
+				industrial_capacity_factor = -0.45
+				production_speed_buildings_factor = -0.45
 			}
 		}
 	}
 
 	country = {
-		BAY_research_bonus = {
+		BAY_international_embargo_3 = {
 
 			allowed = {
 				always = no
@@ -179,18 +149,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = jap_supremacy_of_technology
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				research_speed_factor = 0.05
+				consumer_goods_factor = 0.4
+				industrial_capacity_factor = -0.4
+				production_speed_buildings_factor = -0.4
 			}
 		}
 	}
 
-	###Political Ideas
-
 	country = {
-		BAY_left_support = {
+		BAY_international_embargo_4 = {
 
 			allowed = {
 				always = no
@@ -202,16 +172,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				authoritarian_socialism_drift = 0.05
+				consumer_goods_factor = 0.35
+				industrial_capacity_factor = -0.35
+				production_speed_buildings_factor = -0.35
 			}
 		}
 	}
 
 	country = {
-		BAY_democracy_support = {
+		BAY_international_embargo_5 = {
 
 			allowed = {
 				always = no
@@ -223,20 +195,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				libertarian_socialism_drift = 0.01
-				social_democracy_drift = 0.01
-				liberalism_drift = 0.01
-				conservatism_drift = 0.01
-				authoritarian_democracy_drift = 0.01
+				consumer_goods_factor = 0.3
+				industrial_capacity_factor = -0.3
+				production_speed_buildings_factor = -0.3
 			}
 		}
 	}
 
 	country = {
-		BAY_right_support = {
+		BAY_international_embargo_6 = {
 
 			allowed = {
 				always = no
@@ -248,16 +218,18 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				fascism_drift = 0.05
+				consumer_goods_factor = 0.25
+				industrial_capacity_factor = -0.25
+				production_speed_buildings_factor = -0.25
 			}
 		}
 	}
 
 	country = {
-		BAY_left_opposition = {
+		BAY_nationalist_fatigue = {
 
 			allowed = {
 				always = no
@@ -269,16 +241,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_oppression
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				authoritarian_socialism_drift = -0.05
+				war_support_factor = -0.3
 			}
 		}
 	}
 
 	country = {
-		BAY_democracy_opposition = {
+		BAY_state_sponsored_nationalism = {
 
 			allowed = {
 				always = no
@@ -290,20 +262,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_oppression
+			picture = FRA_motorized_focus
 			
 			modifier = {
-				libertarian_socialism_drift = -0.01
-				social_democracy_drift = -0.01
-				liberalism_drift = -0.01
-				conservatism_drift = -0.01
-				authoritarian_democracy_drift = -0.01
+				war_support_factor = -0.1
 			}
 		}
 	}
 
 	country = {
-		BAY_right_opposition = {
+		BAY_reinvigorated_nationalism = {
 
 			allowed = {
 				always = no
@@ -315,134 +283,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_oppression
-			
-			modifier = {
-				fascism_drift = -0.05
-			}
-		}
-	}
-
-	country = {
-		BAY_globalisation = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = CAN_wartime_prices_and_trade_board
-			
-			modifier = {
-				enemy_justify_war_goal_time = 0.5
-				political_power_gain = 0.1
-				trade_opinion_factor = 0.25
-			}
-		}
-	}
-
-	country = {
-		BAY_union_rights_protected = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_deal_with_the_devil
-			
-			modifier = {
-				stability_factor = 0.1
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-			}
-		}
-	}
-
-	country = {
-		BAY_welfare_state = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_deal_with_the_devil
-			
-			modifier = {
-				stability_factor = 0.15
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.15
-			}
-		}
-	}
-
-	country = {
-		BAY_privatisation = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_deal_with_the_devil
-			
-			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.05
-				political_power_factor = 0.05
-			}
-		}
-	}
-
-	country = {
-		BAY_promote_patriotism = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_deal_with_the_devil
+			picture = FRA_motorized_focus
 			
 			modifier = {
 				war_support_factor = 0.1
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
 			}
 		}
 	}
 
 	country = {
-		BAY_traditional_values = {
+		BAY_genoese_companies = {
 
 			allowed = {
 				always = no
@@ -454,310 +304,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_deal_with_the_devil
-			
-			modifier = {
-				war_support_factor = 0.15
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-				stability_factor = 0.1
-				conscription_factor = 0.15
-			}
-		}
-	}
-
-	country = {
-		BAY_foreign_scientists = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = jap_supremacy_of_will
-			
-			modifier = {
-				research_speed_factor = 0.05
-			}
-		}
-	}
-
-	country = {
-		BAY_interventionism = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-			
-			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 2
-				send_volunteers_tension = -0.5
-			}
-		}
-	}
-
-	country = {
-		BAY_capitalist_economics = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = jap_supremacy_of_will
+			picture = FRA_motorized_focus
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				war_support_weekly_factor = -0.005
 			}
 		}
 	}
-
-	country = {
-		BAY_four_year_plan = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = jap_supremacy_of_will
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_arms_factory_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
-			}
-		}
-	}
-
-	country = {
-		BAY_revolutionary_ideals = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = ger_the_great_red_menace
-			
-			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 2
-				send_volunteers_tension = -0.5
-				justify_war_goal_time = -0.5
-				annex_cost_factor = -0.25
-				attrition = -0.02
-			}
-		}
-	}
-
-	country = {
-		BAY_socialist_economics = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = home_of_the_revolution
-			
-			modifier = {
-				industry_free_repair_factor = 0.2
-				production_speed_buildings_factor = 0.1
-			}
-		}
-	}
-
-	country = {
-		BAY_united_research_base = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = hol_haven_of_tolerance
-			
-			modifier = {
-				research_speed_factor = 0.1
-			}
-		}
-	}
-
-	country = {
-		BAY_revolutionary_militia = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_communist_army
-			
-			modifier = {
-				conscription = 0.03
-			}
-		}
-	}
-
-	country = {
-		BAY_autarky = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = home_of_the_revolution
-			
-			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
-			}
-		}
-	}
-
-	country = {
-		BAY_youth_groups = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_reserve_divisions
-			
-			modifier = {
-				conscription = 0.015
-			}
-		}
-	}
-
-	country = {
-		BAY_loyal_army = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_war_preparation
-			
-			modifier = {
-				conscription = 0.015
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				max_planning_factor = 0.1
-			}
-		}
-	}
-
-	country = {
-		BAY_propaganda_department = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_war_preparation
-			
-			modifier = {
-				war_support_weekly = 0.001
-				party_popularity_stability_factor = 0.5
-			}
-		}
-	}
-
-	country = {
-		BAY_agressive_expansion = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_war_preparation
-			
-			modifier = {
-				justify_war_goal_time = -0.75
-				join_faction_tension = -0.25
-				surrender_limit = 0.1
-				annex_cost_factor = -0.2
-			}
-		}
-	}
-
 }

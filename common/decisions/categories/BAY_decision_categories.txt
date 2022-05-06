@@ -10,7 +10,10 @@ form_germany = {
 volker_werke = {
     visible = {
         original_tag = BAY
-        has_completed_focus = BAY_unify_the_volker_werke
+        OR = {
+            has_completed_focus = BAY_unify_the_volker_werke
+            has_idea = BAY_genoese_companies
+        }
     }
     allowed = {
         original_tag = BAY

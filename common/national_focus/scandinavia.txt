@@ -303,4 +303,105 @@ focus_tree = {
 			
 		}
 	}
+
+	focus = {
+		id = SCD_nationalize_major_coporations
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_a_more_progressive_scandinavia }
+		relative_position_id = SCD_a_more_progressive_scandinavia
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_pass_anti_trust_legislation
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_nationalize_major_coporations }
+		relative_position_id = SCD_nationalize_major_coporations
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_beginnings_of_a_welfare_state
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_nationalize_major_coporations }
+		relative_position_id = SCD_nationalize_major_coporations
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_subsidize_higher_education
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_beginnings_of_a_welfare_state }
+		prerequisite = { focus = SCD_pass_anti_trust_legislation }
+		relative_position_id = SCD_beginnings_of_a_welfare_state
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_empower_the_unions
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_a_more_progressive_scandinavia }
+		relative_position_id = SCD_a_more_progressive_scandinavia
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_bottom_up_management
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 4
+		prerequisite = { focus = SCD_empower_the_unions }
+		prerequisite = { focus = SCD_pass_anti_trust_legislation }
+		relative_position_id = SCD_empower_the_unions
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_boldly_forwards
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_bottom_up_management }
+		prerequisite = { focus = SCD_subsidize_higher_education }
+		relative_position_id = SCD_bottom_up_management
+
+		completion_reward = {
+			
+		}
+	}
 }

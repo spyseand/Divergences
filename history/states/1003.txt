@@ -6,7 +6,7 @@ state={
  	state_category = large_city
     resources={
         oil = 288
-        aluminium = 12.8
+        aluminium = 12
     }
  	history = {
 		victory_points = {

@@ -13,15 +13,395 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
-		id = SCD_
+		id = SCD_the_worsening_recession
 		icon = GFX_goal_unknown
-		x = 10
-		y = 0
-		cost = 5
+		x = 2
+		y = 1
+		cost = 4
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_economic_austerity
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_the_worsening_recession }
+		relative_position_id = SCD_the_worsening_recession
 
 		completion_reward = {
 			
 		}
 	}
 	
+	focus = {
+		id = SCD_lowering_wages
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_economic_austerity }
+		relative_position_id = SCD_economic_austerity
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_bailout_major_companies
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_economic_austerity }
+		relative_position_id = SCD_economic_austerity
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_the_northern_lights_strike
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 4
+
+		available = {
+			has_country_flag = SCD_northern_lights_strike_FLG
+		}
+
+		completion_reward = {
+			## Economy grinds to a halt (removes benefits from the economic austerity)
+			## Disables ability to intervene internationally until the strike is dealt with
+			## Anarcho-Syndicalist Central Orginisation of the Workers of Sweden forms
+			## Social Democracy party's popularity skyrockets
+			## Nationalist movements in Finland, Baltics, Pomerania
+		}
+	}
+
+	focus = {
+		id = SCD_negotations_with_the_strike_leaders
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_the_northern_lights_strike }
+		relative_position_id = SCD_the_northern_lights_strike
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_preparing_for_the_elections
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_negotations_with_the_strike_leaders }
+		relative_position_id = SCD_negotations_with_the_strike_leaders
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_the_conservatives_hold
+		icon = GFX_goal_unknown
+		x = 11
+		y = 0
+		cost = 4
+
+		available = {
+			has_country_flag = SCD_conservatives_won_FLG
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_a_more_progressive_scandinavia
+		icon = GFX_goal_unknown
+		x = 17
+		y = 0
+		cost = 4
+
+		available = {
+			has_country_flag = SCD_progressives_won_FLG
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_surpressing_the_nationalists
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_a_more_progressive_scandinavia focus = SCD_the_conservatives_hold }
+		relative_position_id = SCD_a_more_progressive_scandinavia
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_reinforce_livonian_rule
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_surpressing_the_nationalists }
+		relative_position_id = SCD_surpressing_the_nationalists
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_dealing_with_the_finnish
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_surpressing_the_nationalists }
+		relative_position_id = SCD_surpressing_the_nationalists
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_the_pommern_question
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_dealing_with_the_finnish }
+		prerequisite = { focus = SCD_reinforce_livonian_rule }
+		relative_position_id = SCD_dealing_with_the_finnish
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_saving_the_corporations
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_the_conservatives_hold }
+		relative_position_id = SCD_the_conservatives_hold
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_stimulating_the_economy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 4
+		prerequisite = { focus = SCD_saving_the_corporations }
+		relative_position_id = SCD_saving_the_corporations
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_promote_urbanisation
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_the_conservatives_hold }
+		relative_position_id = SCD_the_conservatives_hold
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_getting_workers_back_in_the_factories
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_promote_urbanisation }
+		prerequisite = { focus = SCD_saving_the_corporations }
+		relative_position_id = SCD_promote_urbanisation
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_infrastructure_overhaul
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_promote_urbanisation }
+		relative_position_id = SCD_promote_urbanisation
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_investments_in_education
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_infrastructure_overhaul }
+		prerequisite = { focus = SCD_getting_workers_back_in_the_factories }
+		relative_position_id = SCD_infrastructure_overhaul
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_back_on_track
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_investments_in_education }
+		prerequisite = { focus = SCD_stimulating_the_economy }
+		relative_position_id = SCD_investments_in_education
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_nationalize_major_coporations
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_a_more_progressive_scandinavia }
+		relative_position_id = SCD_a_more_progressive_scandinavia
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_pass_anti_trust_legislation
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_nationalize_major_coporations }
+		relative_position_id = SCD_nationalize_major_coporations
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_beginnings_of_a_welfare_state
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_nationalize_major_coporations }
+		relative_position_id = SCD_nationalize_major_coporations
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_subsidize_higher_education
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_beginnings_of_a_welfare_state }
+		prerequisite = { focus = SCD_pass_anti_trust_legislation }
+		relative_position_id = SCD_beginnings_of_a_welfare_state
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_empower_the_unions
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_a_more_progressive_scandinavia }
+		relative_position_id = SCD_a_more_progressive_scandinavia
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_bottom_up_management
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 4
+		prerequisite = { focus = SCD_empower_the_unions }
+		prerequisite = { focus = SCD_pass_anti_trust_legislation }
+		relative_position_id = SCD_empower_the_unions
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCD_boldly_forwards
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = { focus = SCD_bottom_up_management }
+		prerequisite = { focus = SCD_subsidize_higher_education }
+		relative_position_id = SCD_bottom_up_management
+
+		completion_reward = {
+			
+		}
+	}
 }

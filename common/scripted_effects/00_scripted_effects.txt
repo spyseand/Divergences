@@ -18,6 +18,170 @@
 
 # MODDED EFFECTS
 
+#bavaria
+
+BAY_low_influence_increase = {
+	custom_effect_tooltip = BAY_influence_low_increase_effect_tt
+	add_to_variable = { BAY_influence = 1 }
+	BAY_update_ui_effect = yes
+}
+BAY_medium_influence_increase = {
+	custom_effect_tooltip = BAY_influence_medium_increase_effect_tt
+	add_to_variable = { BAY_influence = 3 }
+	BAY_update_ui_effect = yes	
+}
+BAY_high_influence_increase = {
+	custom_effect_tooltip = BAY_influence_high_increase_effect_tt
+	add_to_variable = { BAY_influence = 5 }
+	BAY_update_ui_effect = yes
+}
+BAY_low_influence_decrease = {
+	custom_effect_tooltip = BAY_influence_low_decrease_effect_tt
+	subtract_from_variable = { BAY_influence = 1 }
+	BAY_update_ui_effect = yes
+}
+BAY_medium_influence_decrease = {
+	custom_effect_tooltip = BAY_influence_medium_decrease_effect_tt
+	subtract_from_variable = { BAY_influence = 3 }
+	BAY_update_ui_effect = yes
+}
+BAY_high_influence_decrease = {
+	custom_effect_tooltip = BAY_influence_high_decrease_effect_tt
+	subtract_from_variable = { BAY_influence = 5 }
+	BAY_update_ui_effect = yes
+}
+
+BAY_update_ui_effect = {
+	clamp_variable = {
+		var = BAY_influence
+		min = 0
+		max = 100
+	}
+	if = {
+		limit = {
+			check_variable = { BAY_influence = 0 }
+		}
+		set_variable = { BAY_influence_meter_value = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 5 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 2 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 10 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 3 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 15 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 4 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 20 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 25 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 6 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 30 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 7 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 35 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 8 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 40 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 9 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 45 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 10 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 50 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 11 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 55 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 12 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 60 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 13 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 65 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 14 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 70 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 15 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 75 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 16 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 80 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 17 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 85 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 18 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 90 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 19 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { BAY_influence = 95 compare = less_than_or_equals }
+		}
+		set_variable = { BAY_influence_meter_value = 20 }
+	}
+	else = { 
+		set_variable = { BAY_influence_meter_value = 21 }
+	}
+}
+
 
 #ottomans
 

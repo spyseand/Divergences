@@ -1,0 +1,150 @@
+add_namespace = bay
+
+country_event = {	
+    id = bay.1
+    title = bay.1.t
+    desc = bay.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bay.1.a
+		BAY = {
+			country_event = {
+				id = bay.2
+			}
+		}
+	}
+}
+
+country_event = {
+    id = bay.2
+    title = bay.2.t
+    desc = bay.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bay.2.a
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_5
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_6
+				remove_idea = BAY_international_embargo_5
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_4
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_5
+				remove_idea = BAY_international_embargo_4
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_3
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_4
+				remove_idea = BAY_international_embargo_3
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_2
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_3
+				remove_idea = BAY_international_embargo_2
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_1
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_2
+				remove_idea = BAY_international_embargo_1
+			}
+		}
+	}
+}
+
+country_event = {	
+    id = bay.3
+    title = bay.3.t
+    desc = bay.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bay.3.a
+		BAY = {
+			country_event = {
+				id = bay.4
+			}
+		}
+	}
+}
+
+country_event = {	
+    id = bay.4
+    title = bay.4.t
+    desc = bay.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bay.4.a
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_5
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_6
+				remove_idea = BAY_international_embargo_5
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_4
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_5
+				remove_idea = BAY_international_embargo_4
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_3
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_4
+				remove_idea = BAY_international_embargo_3
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_2
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_3
+				remove_idea = BAY_international_embargo_2
+			}
+		}
+		if = {
+			limit = {
+				has_idea = BAY_international_embargo_1
+			}
+			swap_ideas = {
+				add_idea = BAY_international_embargo_2
+				remove_idea = BAY_international_embargo_1
+			}
+		}
+		add_ideas = BAY_genoese_companies
+	}
+}

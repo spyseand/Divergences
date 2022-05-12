@@ -11,9 +11,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_category_ott_bg_box.dds"
 	}
 
-
-
-
+	spriteType = {
+		name = "GFX_decision_category_bay_influence_meter_ticker"
+		texturefile = "gfx/interface/decisions/BAY_influence_meter_ticker.dds"
+		noOfFrames = 21
+	}
+	spriteType = {
+		name = "GFX_decision_category_bay_influence_window"
+		texturefile = "gfx/interface/decisions/decision_category_bay_bg_box.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_bay_influence_meter"
+		texturefile = "gfx/interface/decisions/BAY_influence_meter.dds"
+	}
 
 
 	#not

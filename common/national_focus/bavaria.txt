@@ -25,7 +25,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = {
+				BAY_torwards_autarky
+			}
 		}
 	}
 
@@ -41,7 +43,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			SWI = {
+				country_event = {
+					id = bay.1
+				}
+			}
 		}
 	}
 
@@ -57,7 +63,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			GTC = {
+				country_event = {
+					id = bay.3
+				}
+			}
 		}
 	}
 
@@ -73,7 +83,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BAY_state_sponsored_nationalism
+				remove_idea = BAY_nationalist_fatigue
+			}
 		}
 	}
 
@@ -89,7 +102,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_unify_the_volker_werke_tt
 		}
 	}
 
@@ -105,7 +118,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_the_autobahn_project_tt
 		}
 	}
 
@@ -121,7 +134,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BAY_moderate_poverty
+				remove_idea = BAY_rampant_poverty
+			}
 		}
 	}
 
@@ -135,11 +151,53 @@ focus_tree = {
 		prerequisite = { focus = BAY_the_autobahn_project }
 		prerequisite = { focus = BAY_genoese_companies }
 		relative_position_id = BAY_increase_famine_relief
+
+		available = {
+			FRA = {
+				has_country_flag = FRA_viva_la_revolution
+			}
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_1
+				}
+				remove_ideas = BAY_international_embargo_1
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_2
+				}
+				remove_ideas = BAY_international_embargo_2
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_3
+				}
+				remove_ideas = BAY_international_embargo_3
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_4
+				}
+				remove_ideas = BAY_international_embargo_4
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_5
+				}
+				remove_ideas = BAY_international_embargo_5
+			}
+			if = {
+				limit = {
+					has_idea = BAY_international_embargo_6
+				}
+				remove_ideas = BAY_international_embargo_6
+			}
+			custom_effect_tooltip = BAY_turn_on_influence_mechanic
 		}
 	}
 
@@ -156,7 +214,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_high_influence_increase = yes
 		}
 	}
 
@@ -173,7 +231,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_high_influence_decrease = yes
 		}
 	}
 
@@ -189,7 +247,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_treading_the_narrow_path_tt
 		}
 	}
 
@@ -205,7 +263,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+
 		}
 	}
 
@@ -303,7 +361,53 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							has_completed_focus = BAY_franco_german_collaboration
+						}
+						NOT = {
+							has_completed_focus = BAY_an_independent_economy
+						}
+					}
+				}
+				custom_effect_tooltip = BAY_no_path_selected_yet_tt
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_franco_german_collaboration
+				}
+				623 = {
+					add_extra_state_shared_building_slots = 2
+				}
+				555 = {
+					add_extra_state_shared_building_slots = 2
+				}
+				622 = {
+					add_extra_state_shared_building_slots = 2
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_an_independent_economy
+				}
+				624 = {
+					add_extra_state_shared_building_slots = 1
+				}
+				621 = {
+					add_extra_state_shared_building_slots = 1
+				}
+				555 = {
+					add_extra_state_shared_building_slots = 1
+				}
+				622 = {
+					add_extra_state_shared_building_slots = 1
+				}
+				623 = {
+					add_extra_state_shared_building_slots = 1
+				}
+			}
 		}
 	}
 
@@ -319,7 +423,41 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							has_completed_focus = BAY_franco_german_collaboration
+						}
+						NOT = {
+							has_completed_focus = BAY_an_independent_economy
+						}
+					}
+				}
+				custom_effect_tooltip = BAY_no_path_selected_yet_tt
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_franco_german_collaboration
+				}
+				swap_ideas = {
+					add_idea = BAY_reinvigorated_nationalism
+					remove_idea = BAY_state_sponsored_nationalism
+				}
+				FRA = {
+					add_war_support = 0.1
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_an_independent_economy
+				}
+				swap_ideas = {
+					add_idea = BAY_reinvigorated_nationalism
+					remove_idea = BAY_state_sponsored_nationalism
+				}
+				add_war_support = 0.1
+			}
 		}
 	}
 
@@ -336,7 +474,34 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							has_completed_focus = BAY_franco_german_collaboration
+						}
+						NOT = {
+							has_completed_focus = BAY_an_independent_economy
+						}
+					}
+				}
+				custom_effect_tooltip = BAY_no_path_selected_yet_tt
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_franco_german_collaboration
+				}
+				army_experience = 50
+				FRA = {
+					army_experience = 50
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = BAY_an_independent_economy
+				}
+				army_experience = 100
+			}
 		}
 	}
 
@@ -756,7 +921,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_temporarily_loosen_child_labour_laws
+		id = BAY_introduce_compulsory_labour
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 0
 		y = 1
@@ -798,7 +963,7 @@ focus_tree = {
 
 		prerequisite = { focus = BAY_fully_integrate_women_into_factories }
 		prerequisite = { focus = BAY_fully_embargo_france }
-		prerequisite = { focus = BAY_temporarily_loosen_child_labour_laws }
+		prerequisite = { focus = BAY_introduce_compulsory_labour }
 		relative_position_id = BAY_fully_embargo_france
 		
 		available_if_capitulated = yes

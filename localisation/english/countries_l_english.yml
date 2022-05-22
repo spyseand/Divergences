@@ -429,9 +429,9 @@
  RSC_DEF:0 "Imperial Authority"
  RSC_ADJ:0 "Imperial Authority"
  
- MKH:0 "Mountain Khanate"
- MKH_DEF:0 "the Mountain Khanate"
- MKH_ADJ:0 "Mountain"
+ MKH:0 "Durrani Empire"
+ MKH_DEF:0 "the Durrani Empire"
+ MKH_ADJ:0 "Durrani"
  
  BHA:0 "Bharatiya Collective"
  BHA_DEF:0 "the Bharatiya Collective"

@@ -203,7 +203,8 @@ the_balkan_revolts = {
 		}
 		weak_serb_revolt = yes
 		weak_bulgar_revolt = yes
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -214,7 +215,8 @@ the_balkan_revolts = {
 		weak_serb_revolt = yes
 		weak_bulgar_revolt = yes
 		weak_greek_revolt = yes
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -235,7 +237,8 @@ the_balkan_revolts = {
 			}
 			romanian_revolt = yes
 		}
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -266,7 +269,8 @@ the_balkan_revolts = {
 			}
 			sicilian_revolt = yes
 		}
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -297,7 +301,8 @@ the_balkan_revolts = {
 			}
 			sicilian_revolt = yes
 		}
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -331,7 +336,8 @@ the_balkan_revolts = {
 				weak_greek_revolt = yes
 			}
 		}
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -356,7 +362,8 @@ the_balkan_revolts = {
 				weak_greek_revolt = yes
 			}
 		}
-	} else if = {
+	} 
+	if = {
 		limit = {
 			check_variable = {
 				var = var_OTT_balkan_resistance
@@ -478,7 +485,7 @@ romanian_revolt = {
 		add_core_state = 746
 	}
 	TRA = {
-		set_cosmetic_tag = TRA_iron_guard
+		set_cosmetic_tag = TRA_romania
 		add_core_state = 727
 		add_core_state = 749
 		add_core_state = 726
@@ -511,7 +518,7 @@ strong_greek_revolt = {
 		end_puppet = GRE
 	}
 	GRE = {
-		set_cosmetic_tag = GRE_FREED
+		set_cosmetic_tag = GRE_free
 		add_core_state = 753
 		add_core_state = 745
 		add_state_claim = 754
@@ -540,8 +547,206 @@ holy_league_revolts = {
 	#end of /the_balkan_revolts/
 
 
-
 	#mideast
+
+the_arabic_revolts = {
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 1
+				compare = equals
+			}
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_appease_syrian_moderates
+					}
+				}
+			}
+			syrian_revolt = yes
+		}
+		iraqi_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 2
+				compare = equals
+			}
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_appease_syrian_moderates
+					}
+				}
+			}
+			libyan_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_exemplify_tripolitanian_agitators
+					}
+				}
+			}
+			syrian_revolt = yes
+		}
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 3
+				compare = equals
+			}
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_appease_syrian_moderates
+					}
+				}
+			}
+			syrian_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_exemplify_tripolitanian_agitators
+					}
+				}
+			}
+			libyan_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = crush_arab_protests
+					}
+				}
+			}
+			arab_revolts = yes
+		}
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 4
+				compare = equals
+			}
+		}
+		syrian_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = OTT_exemplify_tripolitanian_agitators
+					}
+				}
+			}
+			libyan_revolt = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = crush_arab_protests
+					}
+				}
+			}
+			arab_revolts = yes
+		}
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+		weak_kurdish_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 5
+				compare = equals
+			}
+		}
+		syrian_revolt = yes
+		libyan_revolt = yes
+		if = {
+			limit = {
+				OTT = {
+					NOT = {
+						has_completed_focus = crush_arab_protests
+					}
+				}
+			}
+			arab_revolts = yes
+		}
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+		weak_kurdish_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 6
+				compare = equals
+			}
+		}
+		syrian_revolt = yes
+		libyan_revolt = yes
+		arab_revolts = yes
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+		weak_kurdish_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 7
+				compare = equals
+			}
+		}
+		syrian_revolt = yes
+		libyan_revolt = yes
+		united_arab_revolt = yes
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+		weak_kurdish_revolt = yes
+	} 
+	if = {
+		limit = {
+			check_variable = {
+				var = var_OTT_arabic_resistance
+				value = 8
+				compare = equals
+			}
+		}
+		syrian_revolt = yes
+		libyan_revolt = yes
+		united_arab_revolt = yes
+		iraqi_revolt = yes
+		caucasus_revolt = yes
+		strong_kurdish_revolt = yes
+		azeri_revolt = yes
+	}
+}
+
 syrian_revolt = {
 	SYR = {
 		transfer_state = 869
@@ -631,20 +836,59 @@ weak_kurdish_revolt = {
 	KUR = {
 		transfer_state = 787
 		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
-		add_core_state = 787
+		add_core_state = 782
+		add_core_state = 781
+		add_core_state = 780
+		add_core_state = 862
+		add_core_state = 863
+		add_core_state = 861
+		add_core_state = 852
+		add_core_state = 74
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 782 780 781 862 863 861 852 74 }
+		}
+		load_oob = "KUR_weak_revolt"
 	}
 }
 strong_kurdish_revolt = {
-	
+	KUR = {
+		transfer_state = 787
+		transfer_state = 781
+		transfer_state = 861
+		add_core_state = 787
+		add_core_state = 782
+		add_core_state = 781
+		add_core_state = 780
+		add_core_state = 862
+		add_core_state = 863
+		add_core_state = 861
+		add_core_state = 852
+		add_core_state = 74
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 782 780 862 863 852 74 }
+		}
+		load_oob = "KUR_strong_revolt"
+	}
 }
 azeri_revolt = {
-	
+	AZR = {
+		transfer_state = 481
+		add_core_state = 481
+		add_core_state = 496
+		add_core_state = 498
+		add_core_state = 857
+		add_core_state = 855
+		declare_war_on = {
+			target = OTT
+			type = take_core_state
+			generator = { 496 498 857 855 }
+		}
+		load_oob = "AZR_revolt"
+	}
 }
 
 

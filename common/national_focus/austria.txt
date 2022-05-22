@@ -17,7 +17,7 @@ focus_tree = {
 	###The Puppetmaster
 
 	focus = {
-		id = AUS_the_puppetmaster
+		id = AUS_in_the_defense_of_europe
 		icon = GFX_goal_unknown
 		x = 8
 		y = 0
@@ -31,13 +31,29 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_tour_the_holy_leauge
+		id = AUS_preparing_the_league_for_war
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_in_the_defense_of_europe }
+		relative_position_id = AUS_in_the_defense_of_europe
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_increase_hungarian_contributions
 		icon = GFX_goal_unknown
 		x = 2
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_the_puppetmaster }
-		relative_position_id = AUS_the_puppetmaster
+		prerequisite = { focus = AUS_preparing_the_league_for_war }
+		relative_position_id = AUS_preparing_the_league_for_war
 		
 		available_if_capitulated = yes
 
@@ -47,45 +63,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_demand_increased_contributions
-		icon = GFX_goal_unknown
-		x = 1
-		y = 1
-		cost = 3
-		prerequisite = { focus = AUS_tour_the_holy_leauge }
-		relative_position_id = AUS_tour_the_holy_leauge
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = AUS_extract_more_companies
-		icon = GFX_goal_unknown
-		x = 0
-		y = 1
-		cost = 3
-		prerequisite = { focus = AUS_demand_increased_contributions }
-		relative_position_id = AUS_demand_increased_contributions
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = AUS_courting_bohemia
+		id = AUS_a_united_research_effort
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_tour_the_holy_leauge }
-		relative_position_id = AUS_tour_the_holy_leauge
+		prerequisite = { focus = AUS_increase_hungarian_contributions }
+		relative_position_id = AUS_increase_hungarian_contributions
 		
 		available_if_capitulated = yes
 
@@ -95,13 +79,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_polish_contributions
+		id = AUS_increase_croatian_contributions
 		icon = GFX_goal_unknown
 		x = 0
-		y = 1
+		y = 2
 		cost = 3
-		prerequisite = { focus = AUS_courting_bohemia }
-		relative_position_id = AUS_courting_bohemia
+		prerequisite = { focus = AUS_increase_hungarian_contributions }
+		relative_position_id = AUS_increase_hungarian_contributions
 		
 		available_if_capitulated = yes
 
@@ -111,29 +95,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_surrounded_by_enemies
-		icon = GFX_goal_unknown
-		x = -2
-		y = 1
-		cost = 3
-		prerequisite = { focus = AUS_the_puppetmaster }
-		relative_position_id = AUS_the_puppetmaster
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = AUS_end_the_bavarian_embargo
+		id = AUS_request_bohemian_contributions
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_surrounded_by_enemies }
-		relative_position_id = AUS_surrounded_by_enemies
+		prerequisite = { focus = AUS_increase_croatian_contributions }
+		prerequisite = { focus = AUS_invite_bohemia_to_the_league }
+		relative_position_id = AUS_increase_croatian_contributions
 		
 		available_if_capitulated = yes
 
@@ -143,13 +112,29 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_bavarian_non_interference_agreement
+		id = AUS_fund_balkan_nationalists
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 3
+		prerequisite = { focus = AUS_increase_hungarian_contributions }
+		relative_position_id = AUS_increase_hungarian_contributions
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_prepare_collaborationist_governments
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_end_the_bavarian_embargo }
-		relative_position_id = AUS_end_the_bavarian_embargo
+		prerequisite = { focus = AUS_fund_balkan_nationalists }
+		relative_position_id = AUS_fund_balkan_nationalists
 		
 		available_if_capitulated = yes
 
@@ -159,13 +144,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_the_po_border_wall
+		id = AUS_securing_our_flanks
 		icon = GFX_goal_unknown
-		x = 1
+		x = -1
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_surrounded_by_enemies }
-		relative_position_id = AUS_surrounded_by_enemies
+		prerequisite = { focus = AUS_preparing_the_league_for_war }
+		relative_position_id = AUS_preparing_the_league_for_war
 		
 		available_if_capitulated = yes
 
@@ -175,13 +160,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_eyes_on_the_back_of_our_heads
+		id = AUS_improve_bavarian_relations
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_the_po_border_wall }
-		relative_position_id = AUS_the_po_border_wall
+		prerequisite = { focus = AUS_securing_our_flanks }
+		relative_position_id = AUS_securing_our_flanks
 		
 		available_if_capitulated = yes
 
@@ -191,34 +176,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_the_true_threat
+		id = AUS_invite_bohemia_to_the_league
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_eyes_on_the_back_of_our_heads }
-		prerequisite = { focus = AUS_bavarian_non_interference_agreement }
-		prerequisite = { focus = AUS_polish_contributions }
-		prerequisite = { focus = AUS_extract_more_companies }
-		relative_position_id = AUS_eyes_on_the_back_of_our_heads
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	###Military Industrial Complex
-
-	focus = {
-		id = AUS_the_military_industrial_complex
-		icon = GFX_goal_unknown
-		x = 3
-		y = 1
-		cost = 3
-		prerequisite = { focus = AUS_the_true_threat }
-		relative_position_id = AUS_the_true_threat
+		prerequisite = { focus = AUS_improve_bavarian_relations }
+		relative_position_id = AUS_improve_bavarian_relations
 		
 		available_if_capitulated = yes
 
@@ -228,13 +192,44 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_ulterior_motives
+		id = AUS_reinforce_po_valley
 		icon = GFX_goal_unknown
-		x = -3
+		x = -1
+		y = 2
+		cost = 3
+		prerequisite = { focus = AUS_securing_our_flanks }
+		relative_position_id = AUS_securing_our_flanks
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_loosen_the_mandates_restrictions
+		icon = GFX_goal_unknown
+		x = 1
 		y = 1
 		cost = 3
-		prerequisite = { focus = AUS_the_true_threat }
-		relative_position_id = AUS_the_true_threat
+		prerequisite = { focus = AUS_reinforce_po_valley }
+		prerequisite = { focus = AUS_improve_bavarian_relations }
+		relative_position_id = AUS_reinforce_po_valley
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = AUS_the_balkans_aflame
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 3
 		
 		available_if_capitulated = yes
 

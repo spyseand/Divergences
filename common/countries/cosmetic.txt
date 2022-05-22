@@ -37,3 +37,11 @@ UPC = {
     color = rgb { 168 36 89 }
     color_ui = rgb { 168 36 89 }
 }
+GRE_free = {
+    color = rgb { 0 153 204 }
+    color_ui = rgb { 0 153 204 }
+}
+TRA_romania = {
+    color = rgb { 236 182 19 }
+    color_ui = rgb { 236 182 19 }
+}

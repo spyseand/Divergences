@@ -157,7 +157,7 @@
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 30
 		y = 0
-		cost = 2
+		cost = 5
 		
 		available_if_capitulated = yes
 
@@ -171,11 +171,11 @@
 	}
 	
 	focus = {
-		id = FRA_renovation_of_the_cities
+		id = FRA_modernizing_the_infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
-		x = -2
+		x = -3
 		y = 1
-		cost = 2
+		cost = 5
 		
 		available_if_capitulated = yes
 		relative_position_id = FRA_revolutionary_committee_for_progress
@@ -192,13 +192,14 @@
 	focus = {
 		id = FRA_french_national_highway_initiative
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 0
+		x = 2
 		y = 1
-		cost = 2
+		cost = 5
 		
 		available_if_capitulated = yes
-		relative_position_id = FRA_renovation_of_the_cities
-		prerequisite = { focus = FRA_renovation_of_the_cities }
+		relative_position_id = FRA_modernizing_the_infrastructure
+		prerequisite = { focus = FRA_modernizing_the_infrastructure }
+		prerequisite = { focus = FRA_a_necesssary_bureaucracy focus = FRA_deference_to_the_councils }
 		available = {
 
 		}
@@ -212,9 +213,9 @@
 	focus = {
 		id = FRA_a_necesssary_bureaucracy
 		icon = GFX_focus_usa_reestablish_the_gold_standard
-		x = 0
+		x = 2
 		y = 1
-		cost = 2
+		cost = 5
 		mutually_exclusive = { focus = FRA_deference_to_the_councils }
 		available_if_capitulated = yes
 		relative_position_id = FRA_revolutionary_committee_for_progress
@@ -233,7 +234,7 @@
 		icon = GFX_focus_generic_industry_3
 		x = 0
 		y = 1
-		cost = 2
+		cost = 5
 
 		available_if_capitulated = yes
 		relative_position_id = FRA_a_necesssary_bureaucracy
@@ -250,9 +251,9 @@
 	focus = {
 		id = FRA_deference_to_the_councils
 		icon = GFX_focus_generic_self_management
-		x = 2
+		x = 5
 		y = 1
-		cost = 2
+		cost = 5
 		
 		mutually_exclusive = { focus = FRA_a_necesssary_bureaucracy }
 		available_if_capitulated = yes
@@ -357,8 +358,8 @@
 	
 	focus = {
 		id = FRA_libertarian_victory
-		icon = GFX_goal_generic_war_with_comintern
-		x = -2
+		icon = GFX_focus_por_workers_of_iberia
+		x = -3
 		y = 1
 		cost = 2
 		
@@ -379,9 +380,9 @@
 	
 	focus = {
 		id = FRA_napoleon_coup
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_goal_generic_political_pressure
 		x = 0
-		y = 2
+		y = 1
 		cost = 2
 		
 		
@@ -401,8 +402,8 @@
 	
 	focus = {
 		id = FRA_jacobin_supremacy
-		icon = GFX_goal_generic_war_with_comintern
-		x = 2
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 3
 		y = 1
 		cost = 2
 		
@@ -420,361 +421,5 @@
 
 		}
 	}
-	
-	focus = {
-		id = FRA_revolutionary_pact
-		icon = GFX_focus_ger_great_red_menace
-		x = 18
-		y = 6
-		cost = 5
-		
-		available_if_capitulated = yes
-
-		available = {
-
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			create_faction = "Revolutionary Pact"
-			add_to_faction = BAY
-			BAY = {
-				add_ai_strategy = {
-					type = alliance
-					id = FRA
-					value = 200
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = FRA_secure_the_south
-		icon = GFX_focus_chi_reach_out_to_france
-		x = -3
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_revolutionary_pact }
-		relative_position_id = FRA_revolutionary_pact
-		
-		available_if_capitulated = yes
-
-		available = {
-
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			country_event = {
-				id = earlysetup.1
-				days = 1
-			}
-		}
-	}
-	
-	focus = {
-		id = FRA_allay_aragonese_fears
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = -4
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_secure_the_south }
-		relative_position_id = FRA_secure_the_south
-		
-		available_if_capitulated = yes
-
-		available = {
-
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			diplomatic_relation = {
-				country = ARA
-				relation = non_aggression_pact
-				active = yes
-			}
-		}
-	}
-	
-	focus = {
-		id = FRA_basque_autonomy_in_bayonne
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_secure_the_south }
-		relative_position_id = FRA_secure_the_south
-		
-		available_if_capitulated = yes
-
-		available = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = FRA_aid_bavaria
-		icon = GFX_focus_mex_privatisation
-		x = 3
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_revolutionary_pact }
-		relative_position_id = FRA_revolutionary_pact
-		
-		available_if_capitulated = yes
-
-		available = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = FRA_partition_burgundy
-		icon = GFX_goal_generic_demand_territory
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_aid_bavaria }
-		relative_position_id = FRA_aid_bavaria
-		
-		available_if_capitulated = yes
-
-		available = {
-			date > 1937.03.01
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			country_event = {
-				id = earlysetup.1
-				days = 1
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_demand_nice_and_corsica
-		icon = GFX_goal_generic_demand_territory
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_secure_the_south }
-		relative_position_id = FRA_secure_the_south
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			transfer_state = 591
-			transfer_state = 590
-			transfer_state = 537
-			add_state_core = 591
-			add_state_core = 590
-			add_state_core = 537
-		}
-	}
-
-	focus = {
-		id = FRA_demand_haute_savoie
-		icon = GFX_goal_generic_demand_territory
-		x = 2
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_secure_the_south }
-		relative_position_id = FRA_secure_the_south
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			transfer_state = 588
-			add_state_core = 588
-		}
-	}
-
-	focus = {
-		id = FRA_merge_revolutions
-		icon = GFX_focus_focus_fra_border
-		x = -1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_partition_burgundy }
-		relative_position_id = FRA_partition_burgundy
-		
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			hidden_effect = {
-				580 = {
-					add_core_of = FRA
-				}
-				589 = {
-					add_core_of = FRA
-				}
-				579 = {
-					add_core_of = FRA
-				}
-				578 = {
-					add_core_of = FRA
-				}
-				1008 = {
-					add_core_of = FRA
-				}
-				574 = {
-					add_core_of = FRA
-				}
-				575 = {
-					add_core_of = FRA
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 990
-						}
-					}
-					990 = {
-						add_core_of = FRA
-					}
-				}
-				if = {
-					limit = {
-						FRA = {
-							owns_state = 576
-						}
-					}
-					576 = {
-						add_core_of = FRA
-					}
-				}
-			}
-			custom_effect_tooltip = tt_FRA_merge_revolution
-		}
-	}
-
-	focus = {
-		id = FRA_bring_the_celts_in
-		icon = GFX_focus_attack_britain
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_partition_burgundy }
-		relative_position_id = FRA_partition_burgundy
-		
-		available_if_capitulated = yes
-
-		available = {
-			has_war_with = EGL
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			add_to_faction = CNU
-			CNU = {
-				add_ai_strategy = {
-					type = alliance
-					id = FRA
-					value = 200
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = FRA_summit_with_the_incas
-		icon = GFX_focus_inc_the_trials
-		x = 3
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_partition_burgundy }
-		relative_position_id = FRA_partition_burgundy
-		
-		available_if_capitulated = yes
-
-		available = {
-			has_war_with = EGL
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = FRA_pangerman_campaign
-		icon = GFX_focus_YUG_pan_slavic_congress
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = FRA_merge_revolutions }
-		relative_position_id = FRA_merge_revolutions
-		
-		available_if_capitulated = yes
-
-		available = {
-			OR = {
-				has_war_with = HAN
-				has_war_with = TYK
-				has_war_with = AUS
-			}
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			add_ideas = FRA_pangerman_campaign
-		}
-	}
-
-	##############
-
-	###Generic Military Tree
-
-
 
 }

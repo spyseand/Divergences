@@ -13,8 +13,8 @@
  TYK_authoritarian_socialism_DEF:0 "Germania"
  TYK_libertarian_socialism:0 "Germania"
  TYK_libertarian_socialism_DEF:0 "Germania"
- TYK:0 "Pommern"
- TYK_DEF:0 "Pommern"
+ TYK:0 "Dominion of Pommern"
+ TYK_DEF:0 "Dominion of Pommern"
  TYK_ADJ:0 "Pommranian"
  
  QIQ_monolism:0 "Qingqiu Collective"
@@ -307,12 +307,12 @@
  SWI_DEF:0 "Switzerland"
  SWI_ADJ:0 "Switzerland"
 
- BAY:0 "Bavaria"
- BAY_DEF:0 "Bavaria"
+ BAY:0 "Bavarian Soviet Republic"
+ BAY_DEF:0 "Bavarian Soviet Republic"
  BAY_ADJ:0 "Bavarian"
 
- HAN:0 "Hannover"
- HAN_DEF:0 "Hannover"
+ HAN:0 "Westphalia-Hannover"
+ HAN_DEF:0 "Westphalia-Hannover"
  HAN_ADJ:0 "German"
 
  AUS:0 "Austria"
@@ -331,8 +331,8 @@
  EGL_DEF:0 "England"
  EGL_ADJ:0 "England"
 
- EST:0 "Livonia"
- EST_DEF:0 "Livonia"
+ EST:0 "Dominion of Livonia"
+ EST_DEF:0 "Dominion of Livonia"
  EST_ADJ:0 "Livonian"
 
  CRO:0 "Croatia"
@@ -705,9 +705,9 @@
  RRT_DEF:0 "Russian Ruthenia"
  RRT_ADJ:0 "Russian"
 
- VEN:0 "Venice"
- VEN_DEF:0 "Venice"
- VEN_ADJ:0 "Venetian"
+ VEN:0 "Venetia-Lombardy"
+ VEN_DEF:0 "Venetia-Lombardy"
+ VEN_ADJ:0 "Italian"
  
  NLO:0 "Great Plains Revolt"
  NLO_DEF:0 "the Great Plains Revolt

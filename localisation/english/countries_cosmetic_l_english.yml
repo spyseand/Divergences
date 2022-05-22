@@ -53,3 +53,11 @@
  RFR:0 "Revolutionary France"
  RFR_DEF:0 "Revolutionary France"
  RFR_ADJ:0 "French"
+
+ GRE_free:0 "Greece"
+ GRE_free_DEF:0 "Greece"
+ GRE_free_ADJ:0 "Greek"
+
+ TRA_romania:0 "Romania"
+ TRA_romania_DEF:0 "Romania"
+ TRA_romania_ADJ:0 "Romanian"

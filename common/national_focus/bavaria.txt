@@ -419,6 +419,10 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = BAY_treading_the_narrow_path }
 		relative_position_id = BAY_treading_the_narrow_path
+
+		available = {
+			has_completed_focus = BAY_pangerman_nationalism
+		}
 		
 		available_if_capitulated = yes
 

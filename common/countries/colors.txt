@@ -197,8 +197,8 @@ EGL = {
 	color_ui = rgb { 179 0 0 }
 }
 EST = {
-	color = rgb { 106 175 175 }
-	color_ui = rgb { 106 175 175 }
+	color = rgb { 60 113 221 }
+	color_ui = rgb { 60 113 221 }
 }
 CRO = {
 	color = rgb { 160 90 90 }

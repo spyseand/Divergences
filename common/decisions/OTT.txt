@@ -1,6 +1,6 @@
 resistance_measures = {
 	
-	debug_balkan_resistance = {
+	debug_resistance = {
 		cost = 0
 		days_remove = 1
 		complete_effect = {
@@ -56,6 +56,14 @@ resistance_measures = {
 					value = 8
 				}
 			}
+		}
+	}
+
+	debug_revolts = {
+		cost = 0
+		days_remove = 1
+		complete_effect = {
+			the_great_revolts = yes
 		}
 	}
 }

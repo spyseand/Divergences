@@ -14,6 +14,6 @@ state={
         add_core_of = JEI
     }
     provinces = {
-        10184
+        1#EMPTY STATE
     }
 }

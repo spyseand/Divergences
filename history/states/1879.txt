@@ -15,6 +15,6 @@ state={
         add_core_of = JAB
     }
     provinces = {
-        8101 10815 10901 4974 12455 7970 
+        1#EMPTY STATE
     }
 }

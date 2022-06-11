@@ -16,7 +16,7 @@ state={
 			2050 1
 		}
 
-        owner = SCD
+        owner = EGL
         buildings = {
             infrastructure = 3
             2050 = {

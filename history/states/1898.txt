@@ -8,7 +8,7 @@ state={
 			5199 1
 		}
 
-        owner = BUR
+        owner = SPA
         buildings = {
             infrastructure = 2
         }

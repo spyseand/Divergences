@@ -8,7 +8,7 @@ state={
 			8038 1
 		}
 
-        owner = SCD
+        owner = FRA
         buildings = {
             infrastructure = 1
         }

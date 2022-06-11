@@ -5,12 +5,12 @@ state={
     state_category = wasteland
     impassable = yes
     history = {
-        owner = FRA
+        owner = OTT
         buildings = {
             infrastructure = 0
         }
     }
     provinces = {
-        4902 5136 10893 8128 1956 10917 4913
+        4902 5136 10893 8128 1956
     }
 }

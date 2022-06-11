@@ -19,6 +19,6 @@ state={
 		add_core_of = TRN
      }
      provinces = {
-        4764 7332 10290 7405 1239
+        1#EMPTY STATE
      }
  }

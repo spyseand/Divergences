@@ -19,6 +19,6 @@ state={
         add_core_of = JAB
     }
     provinces = {
-         10791 1955 12702
+         10791 1955 12702 8085
     }
 }

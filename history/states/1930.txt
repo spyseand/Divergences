@@ -16,7 +16,7 @@ state={
 			5139 1
 		}
 
-        owner = EGL
+        owner = VIN
         buildings = {
             infrastructure = 2
             8244 = {

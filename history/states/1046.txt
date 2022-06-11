@@ -11,15 +11,15 @@ state={
 			4872 5
 		}
 
- 	owner = VIN
+ 	owner = NUN
  		buildings = {
  			infrastructure = 3
  			industrial_complex = 1
  		}
- 		add_core_of = VIN
+ 		add_core_of = NUN
  	}
 
  	provinces = {
- 		3481 10656 12663 12593 12636 5119 4218 3721 12688 4872 13163
+ 		3481 10656 12663 12593 12636  4218 3721 12688
 	}
  }

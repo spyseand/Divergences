@@ -14,6 +14,6 @@ state={
         add_core_of = ARB
     }
     provinces = {
-        4440 1631 4562 4603
+        1#EMPTY STATE
     }
 }

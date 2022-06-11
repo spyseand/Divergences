@@ -15,6 +15,6 @@ state={
         add_core_of = BEL
     }
     provinces = {
-        9236 9359 9304 11341
+        9359 9304 11341
     }
 }

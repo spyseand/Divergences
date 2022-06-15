@@ -11,11 +11,13 @@
 	
 	default = no
 	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 2000 }
 	
 	focus = {
 		id = FRA_the_estates
 		icon = GFX_goal_tripartite_pact
-		x = 6
+		x = 3
 		y = 0
 		cost = 2
 		available_if_capitulated = yes
@@ -271,7 +273,7 @@
 	focus = {
 		id = FRA_pacify_the_countryside
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = 15
+		x = 12
 		y = 0
 		cost = 2
 		
@@ -312,7 +314,7 @@
 	
 	focus = {
 		id = FRA_curb_the_emigres
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		icon = GFX_focus_prc_infiltration
 		x = 4
 		y = 0
 		cost = 2
@@ -450,11 +452,146 @@
 		y = 1
 		cost = 2
 		
-		
+		mutually_exclusive = { focus = FRA_deadlocks_end focus = FRA_jacobins_supremacy }
 		relative_position_id = FRA_the_status_of_education
 		prerequisite = { focus = FRA_the_status_of_education }
 		prerequisite = { focus = FRA_a_new_system_of_measurement }
 		prerequisite = { focus = FRA_the_clergy_reform }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_rework_the_departments
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_liberals_victory
+		prerequisite = { focus = FRA_liberals_victory }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_wealth_redistribution
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 0
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_rework_the_departments
+		prerequisite = { focus = FRA_rework_the_departments }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_expand_the_peoples_freedoms
+		icon = GFX_goal_support_democracy
+		x = -2
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_rework_the_departments
+		prerequisite = { focus = FRA_rework_the_departments }
+		prerequisite = { focus = FRA_decentralize_the_government }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_decentralize_the_government
+		icon = GFX_goal_generic_neutrality_focus
+		x = -4
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_liberals_victory
+		prerequisite = { focus = FRA_liberals_victory }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_ban_the_jacobin_party
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 0
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_decentralize_the_government
+		prerequisite = { focus = FRA_decentralize_the_government }
+		
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_liberte_egalite_fraternite_ou_la_mort
+		icon = GFX_focus_fra_french_union
+		x = 1
+		y = 1
+		cost = 2
+		
+		
+		relative_position_id = FRA_expand_the_peoples_freedoms
+		prerequisite = { focus = FRA_ban_the_jacobin_party }
+		prerequisite = { focus = FRA_expand_the_peoples_freedoms }
+		prerequisite = { focus = FRA_wealth_redistribution }
 		
 		available_if_capitulated = yes
 
@@ -476,6 +613,7 @@
 		
 		
 		relative_position_id = FRA_the_status_of_education
+		mutually_exclusive = { focus = FRA_liberals_victory focus = FRA_jacobins_supremacy }
 		prerequisite = { focus = FRA_the_status_of_education }
 		prerequisite = { focus = FRA_a_new_system_of_measurement }
 		prerequisite = { focus = FRA_the_clergy_reform }
@@ -537,7 +675,7 @@
 
 	focus = {
 		id = FRA_promises_of_stability
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_generic_consumer_goods
 		x = 2	
 		y = 1
 		cost = 2
@@ -632,7 +770,7 @@
 		y = 1
 		cost = 2
 		
-		
+		mutually_exclusive = { focus = FRA_liberals_victory focus = FRA_deadlocks_end }
 		relative_position_id = FRA_the_status_of_education
 		prerequisite = { focus = FRA_the_status_of_education }
 		prerequisite = { focus = FRA_a_new_system_of_measurement }

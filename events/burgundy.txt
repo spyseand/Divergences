@@ -70,12 +70,16 @@ country_event = {
 				transfer_state = 583
 				transfer_state = 584
 				transfer_state = 1010
+				set_country_flag = BAY_rhineland_reclaimed
 			}
 			BUR = {
 				set_cosmetic_tag = BURP
 				set_capital = {
 					state = 586
 				}
+			}
+			BEI = {
+				set_cosmetic_tag = BEIP
 			}
 		}
 	}
@@ -106,6 +110,7 @@ country_event = {
 				transfer_state = 584
 				transfer_state = 1010
 				transfer_state = 976
+				set_country_flag = BAY_rhineland_reclaimed
 			}
 			BUR = {
 				set_cosmetic_tag = BURP
@@ -126,6 +131,9 @@ country_event = {
 		custom_effect_tooltip = tt_bur_partition_french_favored
 		add_political_power = -150
 		hidden_effect = {
+			BAY = {
+				set_country_flag = BAY_tensions_in_alsace
+			}
 			transfer_state = 580
 			transfer_state = 1008
 			transfer_state = 574

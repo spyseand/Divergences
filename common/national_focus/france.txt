@@ -922,4 +922,99 @@
 		}
 	}
 
+	focus = {
+		id = FRA_dismantling_the_amalgam
+		icon = GFX_goal_generic_forceful_treaty
+		x = 8
+		y = 9
+		cost = 2
+
+		bypass = {
+			has_global_flag = BUR_empire_dismantled_FLG
+		}
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_integrating_the_new_departments
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 2
+
+		relative_position_id = FRA_dismantling_the_amalgam
+		prerequisite = { focus = FRA_dismantling_the_amalgam }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_prepare_infrastructural_incorporation
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		cost = 2
+
+		relative_position_id = FRA_integrating_the_new_departments
+		prerequisite = { focus = FRA_integrating_the_new_departments }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_embolden_french_nationalism
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 1
+		y = 1
+		cost = 2
+
+		relative_position_id = FRA_dismantling_the_amalgam
+		prerequisite = { focus = FRA_dismantling_the_amalgam }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_end_burgundian_culture
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 0
+		y = 1
+		cost = 2
+
+		relative_position_id = FRA_embolden_french_nationalism
+		prerequisite = { focus = FRA_embolden_french_nationalism }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_the_first_victory_of_many
+		icon = GFX_focus_ger_great_red_menace
+		x = -1
+		y = 1
+		cost = 2
+
+		relative_position_id = FRA_end_burgundian_culture
+		prerequisite = { focus = FRA_end_burgundian_culture }
+		prerequisite = { focus = FRA_prepare_infrastructural_incorporation }
+
+		completion_reward = {
+
+		}
+	}
 }

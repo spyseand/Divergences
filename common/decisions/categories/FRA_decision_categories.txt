@@ -1,0 +1,10 @@
+let_loose_the_floodgates = {
+	icon = decision_category_border_conflict
+	visible = {
+		original_tag = FRA
+	}
+	allowed = {
+		original_tag = FRA
+	}
+	visible_when_empty = yes
+}

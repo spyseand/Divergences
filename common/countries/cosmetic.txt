@@ -6,6 +6,10 @@ BURP = {
     color = rgb { 203 138 74 }
     color_ui = rgb { 203 138 74 }
 }
+BEIP = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 203 138 74 }
+}
 ARC_arcadia = {
     color = rgb { 102 204 204 }
     color_ui = rgb { 102 204 204 }

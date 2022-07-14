@@ -737,6 +737,10 @@
  JAB_DEF:0 "the Emirate of Riyadh"
  JAB_ADJ:0 "Arabic"
  
-  YEM:0 "Yemen"
+ YEM:0 "Yemen"
  YEM_DEF:0 "Yemen"
  YEM_ADJ:0 "Yemeni"
+ 
+ ATH:0 "Athapaska"
+ ATH_DEF:0 "Athapaska"
+ ATH_ADJ:0 "Athapaskan"

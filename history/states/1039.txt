@@ -7,14 +7,14 @@ state={
  	state_category = town
 
  	history = {
- 	owner = SIX
+ 	owner = UTH
  		buildings = {
  			infrastructure = 3
  		}
- 		add_core_of = SIX
+ 		add_core_of = UTH
  	}
 
  	provinces = {
- 		1851 4741 12651 12585 1815 7688
+ 		12651 7688 1815 10672 
  	}
  }

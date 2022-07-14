@@ -15,6 +15,6 @@ state={
         add_core_of = PLC
     }
     provinces = {
-        577 9548
+        1#EMPTY STATE
     }
 }

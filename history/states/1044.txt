@@ -7,14 +7,14 @@ state={
  	state_category = rural
 
  	history = {
- 	owner = NUN
+ 	owner = SIX
  		buildings = {
  			infrastructure = 2
  		}
- 		add_core_of = NUN
+ 		add_core_of = SIX
  	}
 
  	provinces = {
- 		6726 1804 7348 6779 1671 736 3498 9669 4739 11440 13183 13167 13185 7901 13189 4695 13187 13168 12682  3800
+ 		6726 1804 7348 6779 1671 736 3498 9669 4739 11440 13183 13167 13185 4695 13187 13168 12682  3800 7901 13189 
  	}
  }

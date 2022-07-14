@@ -10,54 +10,6 @@ country_event = {
 	
 	option = {
 		name = fra.1.a
-		set_politics = {
-			ruling_party = vanguard_socialism
-        	elections_allowed = no
-        	last_election = "1935.12.17"
-        	election_frequency = 48
-		}
-		add_popularity = {
-			ideology = vanguard_socialism
-			popularity = 0.2
-		}
-		country_event = {
-			id = fra.2
-			days = 1
-		}
-	}
-	option = {
-		name = fra.1.b
-		set_politics = {
-			ruling_party = authoritarian_socialism
-        	elections_allowed = no
-        	last_election = "1935.12.17"
-        	election_frequency = 48
-		}
-		add_popularity = {
-			ideology = authoritarian_socialism
-			popularity = 0.2
-		}
-		country_event = {
-			id = fra.2
-			days = 1
-		}
-	}
-	option = {
-		name = fra.1.c
-		set_politics = {
-			ruling_party = libertarian_socialism
-        	elections_allowed = no
-        	last_election = "1935.12.17"
-        	election_frequency = 48
-		}
-		add_popularity = {
-			ideology = libertarian_socialism
-			popularity = 0.2
-		}
-		country_event = {
-			id = fra.2
-			days = 1
-		}
 	}
 }
 
@@ -71,6 +23,201 @@ country_event = {
 	
 	option = {
 		name = fra.2.a
-		release = COG
+	}
+}
+
+#strongarm the swiss
+country_event = {
+	id = fra.3
+	title = fra.3.t
+	desc = fra.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fra.3.a
+		FRA = {
+			country_event = {
+				id = fra.4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.4
+	title = fra.4.t
+	desc = fra.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#another great victory!
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = fra.4.a
+		FRA = {
+			transfer_state = 588
+		}
+		588 = {
+			add_core_of = FRA
+		}
+	}
+
+	#Push for all of their French lands!
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = fra.4.b
+		SWI = {
+			country_event = {
+				id = fra.5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.5
+	title = fra.5.t
+	desc = fra.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#we have no choice but to accept....
+	option = {
+		name = fra.5.a
+		FRA = {
+			country_event = {
+				id = fra.6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.6
+	title = fra.6.t
+	desc = fra.6.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fra.6.a
+		FRA = {
+			transfer_state = 588
+			transfer_state = 570
+		}
+		588 = {
+			add_core_of = FRA
+		}
+	}
+}
+
+#negotiate_with_the_genoese
+country_event = {
+	id = fra.7
+	title = fra.7.t
+	desc = fra.7.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#for the sake of our security...
+	option = {
+		name = fra.7.a
+		FRA = {
+			country_event = {
+				id = fra.8
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.8
+	title = fra.8.t
+	desc = fra.8.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#europe kneels to us!
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = fra.8.a
+		FRA = {
+			transfer_state = 590
+		}
+		590 = {
+			add_core_of = FRA
+		}
+	}
+
+	#bring up the corsican question
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = fra.8.b
+		GTC = {
+			country_event = {
+				id = fra.9
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.9
+	title = fra.9.t
+	desc = fra.9.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#of course they want more...
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = fra.9.a
+		FRA = {
+			country_event = {
+				id = fra.10
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fra.10
+	title = fra.10.t
+	desc = fra.10.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	#of course they want more...
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = fra.10.a
+		FRA = {
+			transfer_state = 590
+			transfer_state = 537
+		}
+		590 = {
+			add_core_of = FRA
+		}
 	}
 }

@@ -838,8 +838,8 @@ focus_tree = {
 
 	focus = {
 		id = BAY_a_red_dawn
-		icon = GFX_goal_generic_position_armies
-		x = 30
+		icon = GFX_focus_ger_great_red_menace
+		x = 31
 		y = 0
 		cost = 3
 
@@ -856,14 +856,536 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_idk
-		icon = GFX_goal_generic_position_armies
-		x = 1
+		id = BAY_the_nationale_volksarmee
+		icon = GFX_focus_generic_combined_arms
+		x = 8
 		y = 1
 		cost = 3
 
 		prerequisite = { focus = BAY_a_red_dawn }
 		relative_position_id = BAY_a_red_dawn
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_volksmarine
+		icon = GFX_focus_POL_develop_polish_shipbuilding
+		x = 4
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_nationale_volksarmee }
+		relative_position_id = BAY_the_nationale_volksarmee
+
+		available = {
+			controls_state = 559
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_prepare_a_high_seas_fleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_volksmarine }
+		relative_position_id = BAY_volksmarine
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_prioritize_the_screen_fleet
+		icon = GFX_focus_generic_destroyer
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_prepare_a_high_seas_fleet }
+		relative_position_id = BAY_prepare_a_high_seas_fleet
+		mutually_exclusive = { focus = BAY_prioritize_the_raiding_fleet focus = BAY_prioritize_the_escort_fleet }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_prioritize_the_raiding_fleet
+		icon = GFX_goal_generic_navy_submarine
+		x = 2
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_prepare_a_high_seas_fleet }
+		relative_position_id = BAY_prepare_a_high_seas_fleet
+		mutually_exclusive = { focus = BAY_prioritize_the_screen_fleet focus = BAY_prioritize_the_escort_fleet }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_join_the_carrier_race
+		icon = GFX_goal_generic_navy_carrier
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_volksmarine }
+		prerequisite = { focus = BAY_luftstreitkrafte }
+		relative_position_id = BAY_volksmarine
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_prioritize_the_escort_fleet
+		icon = GFX_goal_generic_navy_cruiser
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_join_the_carrier_race }
+		relative_position_id = BAY_join_the_carrier_race
+		mutually_exclusive = { focus = BAY_prioritize_the_screen_fleet focus = BAY_prioritize_the_raiding_fleet }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_prepare_new_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_prioritize_the_escort_fleet focus = BAY_prioritize_the_screen_fleet focus = BAY_prioritize_the_raiding_fleet }
+		relative_position_id = BAY_prioritize_the_escort_fleet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_confirm_the_naval_doctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 3
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_prioritize_the_escort_fleet focus = BAY_prioritize_the_screen_fleet focus = BAY_prioritize_the_raiding_fleet }
+		relative_position_id = BAY_prioritize_the_escort_fleet
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_found_the_marines
+		icon = GFX_goal_generic_amphibious_assault
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_confirm_the_naval_doctrine }
+		relative_position_id = BAY_confirm_the_naval_doctrine
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_naval_aviation
+		icon = GFX_goal_generic_air_production
+		x = -2
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_join_the_carrier_race }
+		prerequisite = { focus = BAY_devestation_from_the_skies }
+		relative_position_id = BAY_join_the_carrier_race
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_luftstreitkrafte
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_nationale_volksarmee }
+		relative_position_id = BAY_the_nationale_volksarmee
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_death_from_above
+		icon = GFX_goal_generic_air_bomber
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_luftstreitkrafte }
+		relative_position_id = BAY_luftstreitkrafte
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_push_fighter_development
+		icon = GFX_goal_generic_air_fighter2
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_death_from_above }
+		relative_position_id = BAY_death_from_above
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_invest_into_RADAR
+		icon = GFX_goal_generic_radar
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_push_fighter_development focus = BAY_naval_aviation }
+		relative_position_id = BAY_push_fighter_development
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_develop_the_blitzkrieg
+		icon = GFX_focus_generic_army_tanks2
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_death_from_above }
+		prerequisite = { focus = BAY_gamble_on_the_tanks }
+		relative_position_id = BAY_death_from_above
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_countering_the_air_war
+		icon = GFX_focus_generic_air_defense
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_luftstreitkrafte }
+		relative_position_id = BAY_luftstreitkrafte
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_devestation_from_the_skies
+		icon = GFX_goal_generic_air_naval_bomber
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_luftstreitkrafte }
+		relative_position_id = BAY_luftstreitkrafte
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_landstreikrafte
+		icon = GFX_goal_generic_army_tanks
+		x = -4
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_the_nationale_volksarmee }
+		relative_position_id = BAY_the_nationale_volksarmee
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_modernize_the_artillery
+		icon = GFX_goal_generic_army_artillery2
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_landstreikrafte }
+		relative_position_id = BAY_landstreikrafte
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_pursue_superior_firepower
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_modernize_the_artillery }
+		relative_position_id = BAY_modernize_the_artillery
+		mutually_exclusive = { focus = BAY_pursue_mobile_warfare }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_expand_the_special_forces
+		icon = GFX_goal_generic_CAS
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_pursue_superior_firepower }
+		relative_position_id = BAY_pursue_superior_firepower
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_modernize_the_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_pursue_superior_firepower focus = BAY_pursue_mobile_warfare }
+		relative_position_id = BAY_pursue_superior_firepower
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_bane_of_armor
+		icon = GFX_goal_generic_army_artillery
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_modernize_the_artillery focus = BAY_gamble_on_the_tanks }
+		relative_position_id = BAY_modernize_the_artillery
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_gamble_on_the_tanks
+		icon = GFX_focus_generic_tank_production
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_landstreikrafte }
+		relative_position_id = BAY_landstreikrafte
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_pursue_mobile_warfare
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_gamble_on_the_tanks }
+		relative_position_id = BAY_gamble_on_the_tanks
+		mutually_exclusive = { focus = BAY_pursue_superior_firepower }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_mechanize_the_infantry
+		icon = GFX_goal_generic_production2
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_pursue_mobile_warfare }
+		relative_position_id = BAY_pursue_mobile_warfare
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_growing_industrial_budget
+		icon = GFX_goal_generic_production
+		x = -5
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_a_red_dawn }
+		relative_position_id = BAY_a_red_dawn
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_western_expansion
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_growing_industrial_budget }
+		relative_position_id = BAY_growing_industrial_budget
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_central_expansion
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_growing_industrial_budget }
+		relative_position_id = BAY_growing_industrial_budget
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_eastern_expansion
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_growing_industrial_budget }
+		relative_position_id = BAY_growing_industrial_budget
 		
 		available_if_capitulated = yes
 

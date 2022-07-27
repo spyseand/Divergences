@@ -8,14 +8,14 @@ state={
 			778 1
 		}
 
-    owner = SWI
+    owner = GTC
         buildings = {
             infrastructure = 3
             industrial_complex = 1
         }
-        add_core_of = SWI
+        add_core_of = GTC
     }
     provinces = {
-        9603 778 6609 11573
+        9603 778 6609 11573 9745
     }
 }

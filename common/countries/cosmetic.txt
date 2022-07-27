@@ -35,8 +35,8 @@ LIV_livonia = {
     color_ui = rgb { 128 128 128 }
 }
 RFR = {
-    color = rgb { 120 120 210 }
-    color_ui = rgb { 80 128 204 }
+    color = rgb { 100 100 190 }
+    color_ui = rgb { 100 100 190 }
 UPC = {
     color = rgb { 168 36 89 }
     color_ui = rgb { 168 36 89 }
@@ -47,5 +47,9 @@ GRE_free = {
 }
 TRA_romania = {
     color = rgb { 236 182 19 }
+    color_ui = rgb { 236 182 19 }
+}
+TUR = {
+    color = rgb { 100 160 115 }
     color_ui = rgb { 236 182 19 }
 }

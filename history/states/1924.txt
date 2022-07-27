@@ -8,12 +8,12 @@ state={
 			191 1
 		}
 
-        owner = SPA
+        owner = BUR
         buildings = {
             infrastructure = 1
         }
     }
     provinces = {
-        191 10930 10594 1846 13173
+        191 10594 1846 13173
     }
 }

@@ -158,6 +158,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	name = "GFX_focus_bay_growing_industrial_budget"
+	texturefile = "gfx/interface/goals/focus_bay_growing_industrial_budget.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
 	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
 	}	

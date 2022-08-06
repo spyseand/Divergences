@@ -11,11 +11,11 @@ state={
 			853 3
 		}
 
- 		owner = DES
+ 		owner = NAV
  		buildings = {
  			infrastructure = 2
  		}
- 		add_core_of = DES
+ 		add_core_of = NAV
  	}
 
  	provinces = {

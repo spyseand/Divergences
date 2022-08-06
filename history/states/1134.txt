@@ -3,15 +3,15 @@ state={
 	id=134
 	name="STATE_1134" 
 	manpower = 1356912
-	
-	state_category = pastoral
+	impassable = yes
+	state_category = town
 
 	history={
 		victory_points = {
 			11752 3
 		}
 
-	owner = MNG
+		owner = BUR
 		buildings = {
 			air_base = 0
 			arms_factory = 0
@@ -21,10 +21,9 @@ state={
 		victory_points = {
 			11752 3
 		}
-		add_core_of = MNG
 	}
 
 	provinces={
-		1#EMPTY STATE
+		7939 10917 
 	}
 }

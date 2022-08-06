@@ -4,12 +4,12 @@ state={
     manpower = 18000
     state_category = town
     history = {
-        owner = UTH
+        owner = QIQ
         buildings = {
             infrastructure = 1
         }
     }
     provinces = {
-        4799 4657
+        4727 7986 1562 823 7517 12374   12461
     }
 }

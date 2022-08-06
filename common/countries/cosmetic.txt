@@ -50,6 +50,10 @@ TRA_romania = {
     color_ui = rgb { 236 182 19 }
 }
 TUR = {
-    color = rgb { 100 160 115 }
+    color = rgb { 80 170 120 }
+    color_ui = rgb { 236 182 19 }
+}
+HRE = {
+    color = rgb { 120 120 120 }
     color_ui = rgb { 236 182 19 }
 }

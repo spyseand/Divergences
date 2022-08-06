@@ -1,12 +1,3 @@
-form_germany = {
-    icon = eng_trade_unions_support
-    visible = {
-    	original_tag = BAY
-    }
-    allowed = {
-        original_tag = BAY
-    }
-}
 volker_werke = {
     visible = {
         original_tag = BAY

@@ -610,16 +610,12 @@ focus_tree = {
 	focus = {
 		id = BAY_a_shallow_victory
 		icon = GFX_focus_SOV_the_last_purge
-		x = 20
+		x = 25
 		y = 0
 		cost = 3
 
 		available = {
 			always = no
-		}
-
-		allow_branch = {
-			#has_country_flag = BUR_empire_dismantled_FLG
 		}
 
 		bypass = {
@@ -636,16 +632,13 @@ focus_tree = {
 	focus = {
 		id = BAY_confederation_du_rhin
 		icon = GFX_focus_fra_le_deluge
-		x = 0
+		x = -7
 		y = 1
 		cost = 3
 
-		allow_branch = {
-			has_country_flag = BAY_french_puppet_FLG
-		}
-
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
+		mutually_exclusive = { focus = BAY_tensions_in_alsace focus = BAY_the_rhenish_germans_freed }
 		
 		available_if_capitulated = yes
 
@@ -661,12 +654,9 @@ focus_tree = {
 		y = 1
 		cost = 3
 
-		allow_branch = {
-			#has_country_flag = BAY_rhineland_reclaimed_FLG
-		}
-
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
+		mutually_exclusive = { focus = BAY_tensions_in_alsace focus = BAY_confederation_du_rhin }
 		
 		available_if_capitulated = yes
 
@@ -678,16 +668,13 @@ focus_tree = {
 	focus = {
 		id = BAY_tensions_in_alsace
 		icon = GFX_focus_generic_provoke_border_clashes
-		x = 0
+		x = 7
 		y = 1
 		cost = 3
 
-		allow_branch = {
-			has_country_flag = BAY_alsace_tensions_FLG
-		}
-
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
+		mutually_exclusive = { focus = BAY_the_rhenish_germans_freed focus = BAY_confederation_du_rhin }
 		
 		available_if_capitulated = yes
 
@@ -839,8 +826,8 @@ focus_tree = {
 	focus = {
 		id = BAY_a_red_dawn
 		icon = GFX_focus_ger_great_red_menace
-		x = 31
-		y = 0
+		x = 24
+		y = 7
 		cost = 3
 
 		available = {

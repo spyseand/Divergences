@@ -25,7 +25,7 @@ BAY_low_influence_increase = {
 	add_to_variable = { BAY_influence = 1 }
 	BAY_update_ui_effect = yes
 }
-BAY_medium_influence_increase = {
+BAY_moderate_influence_increase = {
 	custom_effect_tooltip = BAY_influence_medium_increase_effect_tt
 	add_to_variable = { BAY_influence = 3 }
 	BAY_update_ui_effect = yes	
@@ -40,7 +40,7 @@ BAY_low_influence_decrease = {
 	subtract_from_variable = { BAY_influence = 1 }
 	BAY_update_ui_effect = yes
 }
-BAY_medium_influence_decrease = {
+BAY_moderate_influence_decrease = {
 	custom_effect_tooltip = BAY_influence_medium_decrease_effect_tt
 	subtract_from_variable = { BAY_influence = 3 }
 	BAY_update_ui_effect = yes

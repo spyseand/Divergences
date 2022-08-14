@@ -161,6 +161,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			hidden_effect = {
+				add_ideas = BAY_influence_effects_6
+			}
 			if = {
 				limit = {
 					has_idea = BAY_international_embargo_1
@@ -263,7 +266,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			BAY_high_influence_increase = yes
+			custom_effect_tooltip = BAY_employ_french_officials_tt
 		}
 	}
 
@@ -279,7 +283,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_request_french_investments_tt
 		}
 	}
 
@@ -296,7 +300,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_moderate_influence_increase = yes
+			custom_effect_tooltip = BAY_grobe_kopfe_europas_tt
 		}
 	}
 
@@ -312,7 +317,21 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_high_influence_increase = yes
+			add_ideas = BAY_transplanted_industry
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -328,7 +347,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_moderate_influence_increase = yes
+			add_ideas = BAY_military_buildup
 		}
 	}
 
@@ -345,7 +365,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = BAY_healthy_economic_growth
+				remove_idea = BAY_transplanted_industry
+			}
 		}
 	}
 
@@ -378,6 +401,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_franco_german_collaboration
 				}
+				BAY_high_influence_decrease = yes
 				623 = {
 					add_extra_state_shared_building_slots = 2
 				}
@@ -392,6 +416,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_an_independent_economy
 				}
+				BAY_high_influence_increase = yes
 				624 = {
 					add_extra_state_shared_building_slots = 1
 				}
@@ -444,6 +469,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_franco_german_collaboration
 				}
+				BAY_moderate_influence_decrease = yes
 				swap_ideas = {
 					add_idea = BAY_reinvigorated_nationalism
 					remove_idea = BAY_state_sponsored_nationalism
@@ -456,6 +482,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_an_independent_economy
 				}
+				BAY_moderate_influence_increase = yes
 				swap_ideas = {
 					add_idea = BAY_reinvigorated_nationalism
 					remove_idea = BAY_state_sponsored_nationalism
@@ -495,6 +522,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_franco_german_collaboration
 				}
+				BAY_high_influence_decrease = yes
 				army_experience = 50
 				FRA = {
 					army_experience = 50
@@ -504,6 +532,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = BAY_an_independent_economy
 				}
+				BAY_high_influence_increase = yes
 				army_experience = 100
 			}
 		}
@@ -521,7 +550,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_expand_the_volker_werke_tt
 		}
 	}
 
@@ -537,7 +566,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_high_influence_decrease = yes
+			custom_effect_tooltip = BAY_all_german_staffing_tt
 		}
 	}
 
@@ -554,7 +584,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_moderate_influence_decrease = yes
+			add_ideas = BAY_grobe_kopfe_deutschlands
 		}
 	}
 
@@ -570,7 +601,21 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_high_influence_decrease = yes
+			add_ideas = BAY_essential_state_industry
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -586,7 +631,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			BAY_moderate_influence_decrease = yes
+			add_ideas = BAY_mass_conscription
 		}
 	}
 
@@ -603,7 +649,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = BAY_essential_state_industry
+				add_idea = BAY_military_industrial_complex
+			}
 		}
 	}
 

@@ -12,3 +12,16 @@
  BAY_color_green:0 "§G"
  BAY_color_yellow_bavaria:0 "§gBavarian§!-favored, §Y"
  BAY_color_red_bavaria:0 "§gBavarian§!-favored, §R"
+
+ BAY_influence_tooltip:0 "§YCurrent Effects of the Struggle for Influence§!\n[GetBavarianInfluenceMechanic]"
+
+ BAY_influence_10_tooltip:0 "Political Power Factor: §R-20.0%§!\nWeekly War Support: §R-1.00%§!\nTrade Exports: §R20.0%§!"
+ BAY_influence_9_tooltip:0 "Political Power Factor: §R-16.0%§!\nWeekly War Support: §R-0.80%§!\nTrade Exports: §R16.0%§!"
+ BAY_influence_8_tooltip:0 "Political Power Factor: §R-12.0%§!\nWeekly War Support: §R-0.60%§!\nTrade Exports: §R12.0%§!"
+ BAY_influence_7_tooltip:0 "Political Power Factor: §R-8.0%§!\nWeekly War Support: §R-0.40%§!\nTrade Exports: §R8.0%§!"
+ BAY_influence_6_tooltip:0 "Political Power Factor: §R-4.0%§!\nWeekly War Support: §R-0.20%§!\nTrade Exports: §R4.0%§!"
+ BAY_influence_5_tooltip:0 "Compliance Gain: §G0.002%§!\nWeekly War Support: §G0.20%§!\nConsumer Goods Factor: §G-1.0%§!"
+ BAY_influence_4_tooltip:0 "Compliance Gain: §G0.004%§!\nWeekly War Support: §G0.40%§!\nConsumer Goods Factor: §G-2.0%§!"
+ BAY_influence_3_tooltip:0 "Compliance Gain: §G0.006%§!\nWeekly War Support: §G0.60%§!\nConsumer Goods Factor: §G-3.0%§!"
+ BAY_influence_2_tooltip:0 "Compliance Gain: §G0.008%§!\nWeekly War Support: §G0.80%§!\nConsumer Goods Factor: §G-4.0%§!"
+ BAY_influence_1_tooltip:0 "Compliance Gain: §G0.01%§!\nWeekly War Support: §G1.00%§!\nConsumer Goods Factor: §G-5.0%§!"

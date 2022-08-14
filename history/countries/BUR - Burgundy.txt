@@ -5,7 +5,10 @@ OOB = "BUR_1936"
 puppet = BEI
 
 set_country_flag = BUR_all_is_well_FLG
-add_ideas = BUR_the_tinderbox
+add_ideas = {
+	BUR_the_tinderbox
+	BUR_bloated_centraal_afrika_budget
+}
 
 set_research_slots = 3
 

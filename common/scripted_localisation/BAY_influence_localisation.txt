@@ -28,3 +28,47 @@ defined_text = {
 		localization_key = BAY_color_green
 	}
 }
+
+defined_text = {
+	name = GetBavarianInfluenceMechanic
+	text = {
+		trigger = { has_idea = BAY_influence_effects_1 }
+		localization_key = BAY_influence_1_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_2 }
+		localization_key = BAY_influence_2_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_3 }
+		localization_key = BAY_influence_3_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_4 }
+		localization_key = BAY_influence_4_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_5 }
+		localization_key = BAY_influence_5_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_6 }
+		localization_key = BAY_influence_6_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_7 }
+		localization_key = BAY_influence_7_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_8 }
+		localization_key = BAY_influence_8_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_9 }
+		localization_key = BAY_influence_9_tooltip
+	}
+	text = {
+		trigger = { has_idea = BAY_influence_effects_10 }
+		localization_key = BAY_influence_10_tooltip
+	}
+}

@@ -1,4 +1,245 @@
 on_actions = {
+	on_daily_BAY = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = BAY_influence
+						value = 90
+						compare = greater_than_or_equals
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_9
+					BAY_influence_effects_8
+				}
+				add_ideas = {
+					BAY_influence_effects_10
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 80
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 90
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_10
+					BAY_influence_effects_8
+					BAY_influence_effects_7
+				}
+				add_ideas = {
+					BAY_influence_effects_9
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 70
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 80
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_10
+					BAY_influence_effects_9
+					BAY_influence_effects_7
+					BAY_influence_effects_6
+				}
+				add_ideas = {
+					BAY_influence_effects_8
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 60
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 70
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_9
+					BAY_influence_effects_8
+					BAY_influence_effects_6
+					BAY_influence_effects_5
+				}
+				add_ideas = {
+					BAY_influence_effects_7
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 50
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 60
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_8
+					BAY_influence_effects_7
+					BAY_influence_effects_5
+					BAY_influence_effects_4
+				}
+				add_ideas = {
+					BAY_influence_effects_6
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 40
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 50
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_7
+					BAY_influence_effects_6
+					BAY_influence_effects_4
+					BAY_influence_effects_3
+				}
+				add_ideas = {
+					BAY_influence_effects_5
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 30
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 40
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_6
+					BAY_influence_effects_5
+					BAY_influence_effects_3
+					BAY_influence_effects_2
+				}
+				add_ideas = {
+					BAY_influence_effects_4
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 20
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 30
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_5
+					BAY_influence_effects_4
+					BAY_influence_effects_2
+					BAY_influence_effects_1
+				}
+				add_ideas = {
+					BAY_influence_effects_3
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 10
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 20
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_4
+					BAY_influence_effects_3
+					BAY_influence_effects_1
+				}
+				add_ideas = {
+					BAY_influence_effects_2
+				}
+			} 
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = BAY_influence
+							value = 0
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = BAY_influence
+							value = 10
+							compare = less_than
+						}
+					}
+				}
+				remove_ideas = {
+					BAY_influence_effects_3
+					BAY_influence_effects_2
+				}
+				add_ideas = {
+					BAY_influence_effects_1
+				}
+			}
+		}
+	}
 	on_daily_OTT = {
 		effect = {
 			if = {

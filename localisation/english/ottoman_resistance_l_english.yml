@@ -20,3 +20,9 @@
  OTT_arabic_6_resistance_tooltip:0 "Stability: §R-6.00%§!"
  OTT_arabic_7_resistance_tooltip:0 "Stability: §R-7.00%§!"
  OTT_arabic_8_resistance_tooltip:0 "Stability: §R-8.00%§!"
+
+
+ OTT_balkan_resistance_increase_tt:0 "Increases §OBalkan§! §RResistance§! by §g1§!"
+ OTT_mideast_resistance_increase_tt:0 "Increases §OMideast§! §RResistance§! by §g1§!"
+ OTT_balkan_resistance_decrease_tt:0 "Decreases §OBalkan§! §RResistance§! by §G1§!"
+ OTT_mideast_resistance_decrease_tt:0 "Decreases §OMideast§! §RResistance§! by §G1§!"

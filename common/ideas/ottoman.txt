@@ -1,44 +1,38 @@
 ideas = {
 
 	country = {
-		OTT_skirmishes_border_wars = {
+		OTT_skyrocketing_debt = {
 			picture = FRA_motorized_focus
 			modifier = {
-				army_attack_factor = -0.025
-				army_defence_factor = -0.025
-				consumer_goods_factor = 0.025
-				stability_factor = -0.05
-				weekly_manpower = -250
+				stability_weekly = -0.01
+				consumer_goods_factor = 0.3
 			}
 		}
-		OTT_mild_border_wars = {
+		OTT_economic_desparation = {
 			picture = FRA_motorized_focus
 			modifier = {
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.45
+			}
+		}
+		OTT_international_bankruptcy = {
+			picture = FRA_motorized_focus
+			modifier = {
+				consumer_goods_factor = 1
 				stability_factor = -0.1
-				weekly_manpower = -500
 			}
 		}
-		OTT_escalating_border_wars = {
+		OTT_public_funding_cut = {
 			picture = FRA_motorized_focus
 			modifier = {
-				army_attack_factor = -0.075
-				army_defence_factor = -0.075
-				consumer_goods_factor = 0.075
-				stability_factor = -0.15
-				weekly_manpower = -750
+				stability_weekly = -0.02
+				consumer_goods_factor = 0.2
 			}
 		}
-		OTT_intense_border_wars = {
+		OTT_national_austerity_measures = {
 			picture = FRA_motorized_focus
 			modifier = {
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
+				stability_weekly = -0.03
 				consumer_goods_factor = 0.1
-				stability_factor = -0.2
-				weekly_manpower = -1000
 			}
 		}
 	}

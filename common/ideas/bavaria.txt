@@ -254,5 +254,11 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
+		BAY_french_lifeline = {
+			picture = man_five_year_plan_industry
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
 	}
 }

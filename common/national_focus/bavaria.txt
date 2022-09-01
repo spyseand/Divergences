@@ -664,7 +664,7 @@ focus_tree = {
 		cost = 3
 
 		available = {
-			always = no
+			has_global_flag = BUR_empire_dismantled_FLG
 		}
 
 		bypass = {
@@ -674,7 +674,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_a_shallow_victory_tt
 		}
 	}
 
@@ -685,14 +685,42 @@ focus_tree = {
 		y = 1
 		cost = 3
 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_confederation_du_rhin_bypass_tt
+				OR = {
+					check_variable = {
+						var = BAY_influence
+						value = 80
+						compare = greater_than_or_equals
+					}
+					has_country_flag = BAY_tensions_in_alsace
+				}
+			}
+		}
+
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
 		mutually_exclusive = { focus = BAY_tensions_in_alsace focus = BAY_the_rhenish_germans_freed }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_confederation_du_rhin_bypass_tt
+				OR = {
+					check_variable = {
+						var = BAY_influence
+						value = 80
+						compare = greater_than_or_equals
+					}
+					has_country_flag = BAY_tensions_in_alsace
+				}
+			}
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_confederation_du_rhin_tt
 		}
 	}
 
@@ -703,14 +731,28 @@ focus_tree = {
 		y = 1
 		cost = 3
 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_the_rhenish_germans_freed_bypass_tt
+				has_country_flag = BAY_rhineland_reclaimed
+			}
+		}
+
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
 		mutually_exclusive = { focus = BAY_tensions_in_alsace focus = BAY_confederation_du_rhin }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_the_rhenish_germans_freed_bypass_tt
+				has_country_flag = BAY_rhineland_reclaimed
+			}
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_the_rhenish_germans_freed_tt
 		}
 	}
 
@@ -721,14 +763,42 @@ focus_tree = {
 		y = 1
 		cost = 3
 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_tensions_in_alsace_bypass_tt
+				OR = {
+					has_country_flag = BAY_tensions_in_alsace
+					check_variable = {
+						var = BAY_influence
+						value = 20
+						compare = less_than_or_equals
+					}
+				}
+			}
+		}
+
 		prerequisite = { focus = BAY_a_shallow_victory }
 		relative_position_id = BAY_a_shallow_victory
 		mutually_exclusive = { focus = BAY_the_rhenish_germans_freed focus = BAY_confederation_du_rhin }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = BAY_tensions_in_alsace_bypass_tt
+				OR = {
+					has_country_flag = BAY_tensions_in_alsace
+					check_variable = {
+						var = BAY_influence
+						value = 20
+						compare = less_than_or_equals
+					}
+				}
+			}
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_tensions_in_alsace_tt
 		}
 	}
 
@@ -747,7 +817,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_talks_with_rhenish_revolutionaries_tt
+			hidden_effect = {
+				country_event = {
+					id = bay.5
+					days = 1
+				}
+			}
 		}
 	}
 
@@ -764,7 +840,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_bolster_public_support_tt
+			hidden_effect = {
+				#compliance gain in rhenish states, add once states are finalized :)
+			}
 		}
 	}
 
@@ -782,7 +861,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_merging_the_revolutions_tt
+			#unlocks decisions to core the rhineland if compliance is high enough
 		}
 	}
 
@@ -800,7 +880,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			#some very cool and epic economic integration of the rhineland. probably add once states are finalized :)
 		}
 	}
 
@@ -817,7 +897,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_volker_werke_expansion_tt
 		}
 	}
 
@@ -834,7 +914,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_reorganize_the_military_tt
 		}
 	}
 
@@ -851,7 +931,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = BAY_moderate_poverty
+				add_idea = BAY_low_poverty
+			}
+			add_ideas = BAY_french_lifeline
 		}
 	}
 
@@ -868,9 +952,294 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = BAY_preparing_the_german_revolutions_tt
+		}
+	}
+
+	#Tensions in Alsace
+
+	focus = {
+		id = BAY_prepare_for_total_mobilization
+		icon = GFX_focus_generic_aircraft_production
+		x = -3
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
 			
 		}
 	}
+
+	focus = {
+		id = BAY_fully_integrate_women_into_factories
+		icon = GFX_focus_generic_women_in_military
+		x = 1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_prepare_for_total_mobilization }
+		prerequisite = { focus = BAY_all_for_the_effort }
+		relative_position_id = BAY_prepare_for_total_mobilization
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_fully_embargo_france
+		icon = GFX_goal_generic_trade
+		x = 0
+		y = 2
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_declare_martial_law
+		icon = GFX_goal_generic_small_arms
+		x = 2
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_introduce_compulsory_labour
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 0
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_declare_martial_law }
+		relative_position_id = BAY_declare_martial_law
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_all_for_the_effort
+		icon = GFX_focus_prc_agrarian_socialism
+		x = -1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_tensions_in_alsace }
+		relative_position_id = BAY_tensions_in_alsace
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_total_mobilization
+		icon = GFX_focus_bay_total_mobilisation
+		x = 0
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_fully_integrate_women_into_factories }
+		prerequisite = { focus = BAY_fully_embargo_france }
+		prerequisite = { focus = BAY_introduce_compulsory_labour }
+		relative_position_id = BAY_fully_embargo_france
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_war_with_france
+		icon = GFX_focus_bay_war_with_france
+		x = 0
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = BAY_total_mobilization }
+		relative_position_id = BAY_total_mobilization
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	#Confederation Du Rhin
+
+	focus = {
+		id = BAY_a_more_moderate_nationalism
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_confederation_du_rhin }
+		relative_position_id = BAY_confederation_du_rhin
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_what_we_can_with_what_we_have
+		icon = GFX_focus_generic_support_the_left_right
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_a_more_moderate_nationalism }
+		relative_position_id = BAY_a_more_moderate_nationalism
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_focus_on_resource_exploitation
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_what_we_can_with_what_we_have }
+		relative_position_id = BAY_what_we_can_with_what_we_have
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_trial_of_the_radicals
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 0
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_confederation_du_rhin }
+		prerequisite = { focus = BAY_a_more_moderate_nationalism }
+		relative_position_id = BAY_confederation_du_rhin
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_reliance_on_the_french
+		icon = GFX_focus_CZE_german_puppet
+		x = 2
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_confederation_du_rhin }
+		relative_position_id = BAY_confederation_du_rhin
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_invite_french_political_advisors
+		icon = GFX_focus_generic_military_academy
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_reliance_on_the_french }
+		relative_position_id = BAY_reliance_on_the_french
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_crush_dissenters
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = -1
+		y = 2
+		cost = 3
+
+		prerequisite = { focus = BAY_reliance_on_the_french }
+		prerequisite = { focus = BAY_trial_of_the_radicals }
+		relative_position_id = BAY_reliance_on_the_french
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_plan_for_the_confederation
+		icon = GFX_focus_fra_french_union
+		x = 0
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = BAY_crush_dissenters }
+		relative_position_id = BAY_crush_dissenters
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+	#a red dawn!!!
 
 	focus = {
 		id = BAY_a_red_dawn
@@ -880,14 +1249,37 @@ focus_tree = {
 		cost = 3
 
 		available = {
-			has_completed_focus = BAY_preparing_the_german_revolutions
-			has_completed_focus = BAY_merging_the_revolutions
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = BAY_a_red_dawn_available_1_tt
+					AND = {
+						has_completed_focus = BAY_preparing_the_german_revolutions
+						has_completed_focus = BAY_merging_the_revolutions
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = BAY_a_red_dawn_available_2_tt
+					AND = {
+						has_completed_focus = BAY_war_with_france
+						OR = {
+							has_country_flag = {
+								BAY_lost_franco_german_war_FLG
+								BAY_won_franco_german_war_FLG
+							}
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = BAY_a_red_dawn_available_3_tt
+					has_completed_focus = BAY_plan_for_the_confederation
+				}
+			}
 		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = BAY_a_red_dawn_tt
 		}
 	}
 
@@ -1380,14 +1772,50 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BAY_western_expansion
-		icon = GFX_goal_generic_position_armies
-		x = -1
+		id = BAY_the_first_industrial_escalation
+		icon = GFX_focus_generic_industry_1
+		x = -3
 		y = 1
 		cost = 3
 
 		prerequisite = { focus = BAY_growing_industrial_budget }
 		relative_position_id = BAY_growing_industrial_budget
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_subsume_the_rheinwerke
+		icon = GFX_focus_SOV_merge_plants
+		x = -1
+		y = 1
+		cost = 3
+
+		mutually_exclusive = { focus = BAY_pursue_deep_resource_extraction }
+		prerequisite = { focus = BAY_the_first_industrial_escalation }
+		relative_position_id = BAY_the_first_industrial_escalation
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAY_pursue_deep_resource_extraction
+		icon = GFX_goal_generic_construction2
+		x = 1
+		y = 1
+		cost = 3
+
+		mutually_exclusive = { focus = BAY_subsume_the_rheinwerke }
+		prerequisite = { focus = BAY_the_first_industrial_escalation }
+		relative_position_id = BAY_the_first_industrial_escalation
 		
 		available_if_capitulated = yes
 
@@ -1422,147 +1850,6 @@ focus_tree = {
 
 		prerequisite = { focus = BAY_growing_industrial_budget }
 		relative_position_id = BAY_growing_industrial_budget
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	#Tensions in Alsace
-
-	focus = {
-		id = BAY_prepare_for_total_mobilization
-		icon = GFX_focus_generic_aircraft_production
-		x = -3
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_tensions_in_alsace }
-		relative_position_id = BAY_tensions_in_alsace
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_fully_integrate_women_into_factories
-		icon = GFX_focus_generic_women_in_military
-		x = 1
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_prepare_for_total_mobilization }
-		prerequisite = { focus = BAY_all_for_the_effort }
-		relative_position_id = BAY_prepare_for_total_mobilization
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_fully_embargo_france
-		icon = GFX_goal_generic_trade
-		x = 0
-		y = 2
-		cost = 2
-
-		prerequisite = { focus = BAY_tensions_in_alsace }
-		relative_position_id = BAY_tensions_in_alsace
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_declare_martial_law
-		icon = GFX_goal_generic_small_arms
-		x = 2
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_tensions_in_alsace }
-		relative_position_id = BAY_tensions_in_alsace
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_introduce_compulsory_labour
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 0
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_declare_martial_law }
-		relative_position_id = BAY_declare_martial_law
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_all_for_the_effort
-		icon = GFX_focus_prc_agrarian_socialism
-		x = -1
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_tensions_in_alsace }
-		relative_position_id = BAY_tensions_in_alsace
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_total_mobilization
-		icon = GFX_focus_bay_total_mobilisation
-		x = 0
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_fully_integrate_women_into_factories }
-		prerequisite = { focus = BAY_fully_embargo_france }
-		prerequisite = { focus = BAY_introduce_compulsory_labour }
-		relative_position_id = BAY_fully_embargo_france
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = BAY_war_with_france
-		icon = GFX_focus_bay_war_with_france
-		x = 0
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = BAY_total_mobilization }
-		relative_position_id = BAY_total_mobilization
 		
 		available_if_capitulated = yes
 

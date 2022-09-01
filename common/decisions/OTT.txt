@@ -1,69 +1,206 @@
 resistance_measures = {
-	
-	debug_resistance = {
-		cost = 0
-		days_remove = 1
-		complete_effect = {
-			if = {
-				limit = {
-					check_variable = {
-						var = var_OTT_balkan_resistance
-						value = 9
-						compare = less_than
-					}
-				}
-				add_to_variable = {
-					var = var_OTT_balkan_resistance
-					value = 1
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = var_OTT_balkan_resistance
-						value = 9
-						compare = equals
-					}
-				}
-				subtract_from_variable = {
-					var = var_OTT_balkan_resistance
-					value = 8
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = var_OTT_arabic_resistance
-						value = 9
-						compare = less_than
-					}
-				}
-				add_to_variable = {
-					var = var_OTT_arabic_resistance
-					value = 1
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = var_OTT_arabic_resistance
-						value = 9
-						compare = equals
-					}
-				}
-				subtract_from_variable = {
-					var = var_OTT_arabic_resistance
-					value = 8
-				}
+
+	the_great_revolt = {
+		activation = {
+			#has_country_flag = OTT_ankara_bombinb_FLG
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = OTT_the_great_revolt_tt
+				always = no
 			}
 		}
-	}
-
-	debug_revolts = {
-		cost = 0
-		days_remove = 1
-		complete_effect = {
+		fire_only_once = yes
+		is_good = no
+		days_mission_timeout = 150
+		priority = 10
+		timeout_effect = {	
 			the_great_revolts = yes
 		}
 	}
+
+	rising_tensions = {
+		activation = {
+			#has_country_flag = OTT_ankara_bombinb_FLG
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = OTT_rising_tensions_tt
+				always = no
+			}
+		}
+		cancel_trigger = {
+			has_country_flag = OTT_the_great_revolt_FLG
+		}
+		is_good = no
+		days_mission_timeout = 20
+		priority = 9
+		timeout_effect = {	
+			OTT_resistance_increase = yes
+			add_stability = -0.02
+		}
+	}
+
+	impending_bankruptcy = {
+		activation = {
+			#has_country_flag = OTT_ankara_bombing_FLG
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = OTT_impending_bankruptcy_tt
+				always = no
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				has_idea = OTT_international_bankruptcy
+				has_idea = OTT_national_austerity
+				has_country_flag = OTT_the_great_revolt_FLG
+			}
+		}
+		is_good = no
+		days_mission_timeout = 70
+		priority = 8
+		fire_only_once = yes
+		timeout_effect = {
+			if = {
+				limit = {
+					has_idea = OTT_skyrocketing_debt
+				}
+				remove_ideas = OTT_skyrocketing_debt
+				add_ideas = OTT_international_bankruptcy
+			}
+			if = {
+				limit = {
+					has_idea = OTT_economic_desparation
+				}
+				remove_ideas = OTT_economic_desparation
+				add_ideas = OTT_international_bankruptcy
+			}
+			if = {
+				limit = {
+					has_idea = OTT_public_funding_cut
+				}
+				remove_ideas = OTT_public_funding_cut
+				add_ideas = OTT_international_bankruptcy
+			}
+			OTT_resistance_increase = yes
+			add_stability = -0.05
+		}
+	}
+
+	deal_with_slavic_nationalists = {
+		visible = {
+			#has_country_flag = OTT_ankara_bombing_flag
+		}
+		days_remove = 10
+		days_re_enable = 50
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = deal_with_slavic_nationalists_tt
+				check_variable = {
+					var = var_OTT_balkan_resistance
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		priority = 7
+		cost = 25
+		complete_effect = {
+			add_manpower = -10000
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = -1000
+			    producer = OTT
+			}
+		}
+		remove_effect = {
+			OTT_balkan_resistance_decrease = yes
+		}
+	}
+
+	intensify_the_balkan_crackdown = {
+		visible = {
+			#has_country_flag = OTT_ankara_bombing_flag
+		}
+		days_remove = 15
+		days_re_enable = 30
+		available = {
+			has_completed_focus = OTT_crackdown_in_the_balkans
+		}
+		priority = 6
+		cost = 10
+		complete_effect = {
+			add_manpower = -20000
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = -1500
+			    producer = OTT
+			}
+			add_stability = -0.05
+		}
+		remove_effect = {
+			OTT_balkan_resistance_decrease = yes
+			add_political_power = 30
+		}
+	}
+
+	take_care_of_mideast_nationalists = {
+		visible = {
+			#has_country_flag = OTT_ankara_bombing_flag
+		}
+		days_remove = 10
+		days_re_enable = 50
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = take_care_of_mideast_nationalists_tt
+				check_variable = {
+					var = var_OTT_arabic_resistance
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		priority = 7
+		cost = 25
+		complete_effect = {
+			add_manpower = -10000
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = -1000
+			    producer = OTT
+			}
+		}
+		remove_effect = {
+			OTT_mideast_resistance_decrease = yes
+		}
+	}
+
+	intensify_the_mideast_crackdown = {
+		visible = {
+			#has_country_flag = OTT_ankara_bombing_flag
+		}
+		days_remove = 15
+		days_re_enable = 30
+		available = {
+			has_completed_focus = OTT_crackdown_in_the_mideast
+		}
+		priority = 6
+		cost = 10
+		complete_effect = {
+			add_manpower = -20000
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = -1500
+			    producer = OTT
+			}
+			add_stability = -0.05
+		}
+		remove_effect = {
+			OTT_mideast_resistance_decrease = yes
+			add_political_power = 30
+		}
+	}
+
 }

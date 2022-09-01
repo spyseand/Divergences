@@ -57,3 +57,7 @@ HRE = {
     color = rgb { 120 120 120 }
     color_ui = rgb { 236 182 19 }
 }
+CDR = {
+    color = rgb { 53 167 184 }
+    color_ui = rgb { 53 167 184 }
+}

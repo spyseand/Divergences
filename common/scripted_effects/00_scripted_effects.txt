@@ -51,6 +51,63 @@ BAY_high_influence_decrease = {
 	BAY_update_ui_effect = yes
 }
 
+OTT_balkan_resistance_increase = {
+	custom_effect_tooltip = OTT_balkan_resistance_increase_tt
+	if = {
+		limit = {
+			check_variable = {
+				var_OTT_balkan_resistance = 8
+				compare = less_than
+			}
+		}
+		add_to_variable = { var_OTT_balkan_resistance = 1 }
+	}
+}
+OTT_mideast_resistance_increase = {
+	custom_effect_tooltip = OTT_mideast_resistance_increase_tt
+	if = {
+		limit = {
+			check_variable = {
+				var_OTT_arabic_resistance = 8
+				compare = less_than
+			}
+		}
+		add_to_variable = { var_OTT_arabic_resistance = 1 }
+	}
+}
+OTT_resistance_increase = {
+	OTT_balkan_resistance_increase = yes
+	OTT_mideast_resistance_increase = yes
+}
+OTT_balkan_resistance_decrease = {
+	custom_effect_tooltip = OTT_balkan_resistance_decrease_tt
+	if = {
+		limit = {
+			check_variable = {
+				var_OTT_balkan_resistance = 1
+				compare = greater_than
+			}
+		}
+		add_to_variable = { var_OTT_balkan_resistance = -1 }
+	}
+}
+OTT_mideast_resistance_decrease = {
+	custom_effect_tooltip = OTT_mideast_resistance_decrease_tt
+	if = {
+		limit = {
+			check_variable = {
+				var_OTT_arabic_resistance = 1
+				compare = greater_than
+			}
+		}
+		add_to_variable = { var_OTT_arabic_resistance = -1 }
+	}
+}
+OTT_resistance_decrease = {
+	OTT_balkan_resistance_decrease = yes
+	OTT_mideast_resistance_decrease = yes
+}
+
 BAY_update_ui_effect = {
 	clamp_variable = {
 		var = BAY_influence
@@ -189,6 +246,7 @@ BAY_update_ui_effect = {
 the_great_revolts = {
 	the_balkan_revolts = yes
 	the_arabic_revolts = yes
+	set_global_flag = OTT_the_great_revolt_FLG
 }
 
 	#balkans

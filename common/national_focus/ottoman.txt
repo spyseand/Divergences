@@ -35,7 +35,7 @@ focus_tree = {
 
 	focus = {
 		id = OTT_masters_of_the_mediterranean
-		icon = GFX_focus_TUR_pivot_to_the_past
+		icon = GFX_goal_generic_navy_battleship
 		x = 1
 		y = 1
 		cost = 3
@@ -54,7 +54,7 @@ focus_tree = {
 
 	focus = {
 		id = OTT_seat_of_the_caliph
-		icon = GFX_focus_TUR_pivot_to_the_past
+		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
 		x = -1
 		y = 1
 		cost = 3
@@ -124,7 +124,7 @@ focus_tree = {
 		relative_position_id = OTT_emergency_election
 
 		available = {
-			always = no
+			has_country_flag = OTT_liberal_entente_victory_FLG
 		}
 
 		bypass = {
@@ -134,7 +134,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_liberal_entente_victory_tt
 		}
 	}
 
@@ -142,7 +142,7 @@ focus_tree = {
 ###liberal entente pre-war focuses
 	focus = {
 		id = OTT_decentralization
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_generic_concessions
 		x = 1
 		y = 1
 		cost = 5
@@ -152,13 +152,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_decentralization_tt
+			hidden_effect = {
+				country_event = {
+		    		id = ottoman.14
+		    		days = 15
+		    	}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_expand_regional_autonomies
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		cost = 5
@@ -168,45 +174,92 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_expand_regional_autonomies_tt
+			OTT_resistance_decrease = yes
+			hidden_effect = {
+				random_list = {
+				    34 = {
+				    	country_event = {
+				    		id = ottoman.11
+				    		days = 15
+				    	}
+				    }
+				    33 = {
+				    	country_event = {
+				    		id = ottoman.12
+				    		days = 15
+				    	}
+				    }
+				    33 = {
+				    	country_event = {
+				    		id = ottoman.13
+				    		days = 15
+				    	}
+				    }
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_economic_reforms
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_SOV_organize_wreckers
 		x = -1
 		y = 1
 		cost = 5
 		prerequisite = { focus = OTT_liberal_entente_victory }
 		relative_position_id = OTT_liberal_entente_victory
 
+		available = {
+			NOT = {
+				has_idea = OTT_international_bankruptcy
+			}
+		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_days_mission_timeout = {
+				mission = impending_bankruptcy
+				days = 20
+			}
+			swap_ideas = {
+				add_idea = OTT_economic_desparation
+				remove_idea = OTT_skyrocketing_debt
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_declare_international_bankrupcty
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_hol_abandon_the_gold_standard
 		x = 0
 		y = 1
 		cost = 5
 		prerequisite = { focus = OTT_economic_reforms }
 		relative_position_id = OTT_economic_reforms
 
+		available = {
+			NOT = {
+				has_idea = OTT_international_bankruptcy
+			}
+		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = OTT_economic_desparation
+				add_idea = OTT_international_bankruptcy
+			}
+			add_stability = 0.1
+			OTT_resistance_decrease = yes
 		}
 	}
 
 	focus = {
 		id = OTT_ottoman_peoples_party_victory
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_generic_political_pressure
 		x = 5
 		y = 1
 		cost = 5
@@ -214,7 +267,7 @@ focus_tree = {
 		relative_position_id = OTT_emergency_election
 
 		available = {
-			always = no
+			has_country_flag = OTT_peoples_party_victory_FLG
 		}
 
 		bypass = {
@@ -224,14 +277,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_ottoman_peoples_party_victory_tt
 		}
 	}
 
 ###ottoman peoples party pre-war focuses
 	focus = {
 		id = OTT_dissolve_regional_police_forces
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_generic_military_mission
 		x = -1
 		y = 1
 		cost = 5
@@ -241,13 +294,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_dissolve_regional_police_forces_tt
+			hidden_effect = {
+				country_event = {
+		    		id = ottoman.14
+		    		days = 15
+		    	}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_declare_martial_law
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_generic_little_entente
 		x = 0
 		y = 1
 		cost = 5
@@ -257,13 +316,36 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_declare_martial_law_tt
+			OTT_resistance_decrease = yes
+			hidden_effect = {
+				random_list = {
+				    34 = {
+				    	country_event = {
+				    		id = ottoman.11
+				    		days = 15
+				    	}
+				    }
+				    33 = {
+				    	country_event = {
+				    		id = ottoman.12
+				    		days = 15
+				    	}
+				    }
+				    33 = {
+				    	country_event = {
+				    		id = ottoman.13
+				    		days = 15
+				    	}
+				    }
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_slash_public_funding
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 1
 		y = 1
 		cost = 5
@@ -273,13 +355,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_days_mission_timeout = {
+				mission = impending_bankruptcy
+				days = 30
+			}
+			swap_ideas = {
+				add_idea = OTT_public_funding_cut
+				remove_idea = OTT_skyrocketing_debt
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_national_austerity
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_rom_parties_end
 		x = 0
 		y = 1
 		cost = 5
@@ -289,7 +378,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = OTT_national_austerity_measures
+				remove_idea = OTT_public_funding_cut
+			}
+			OTT_resistance_increase = yes
 		}
 	}
 
@@ -302,17 +395,21 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = OTT_ottoman_peoples_party_victory focus = OTT_liberal_entente_victory }
 		relative_position_id = OTT_ottoman_peoples_party_victory
+
+		bypass = {	
+			always = yes
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_the_ticking_clock_tt
 		}
 	}
 
 	focus = {
 		id = OTT_crackdown_in_the_balkans
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_BUL_free_balkan_states
 		x = -2
 		y = 1
 		cost = 3
@@ -323,13 +420,29 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			OTT_balkan_resistance_decrease = yes
+			hidden_effect = {
+				random_list = {
+				    50 = {
+				    	country_event = {
+				    		id = ottoman.7
+				    		days = 15
+				    	}
+				    }
+				    50 = {
+				    	country_event = {
+				    		id = ottoman.9
+				    		days = 15
+				    	}
+				    }
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_increase_military_presence_in_sicily
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_POL_riot_of_37
 		x = -1
 		y = 1
 		cost = 3
@@ -339,13 +452,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_increase_military_presence_in_sicily_tt
 		}
 	}
 
 	focus = {
 		id = OTT_strengthen_anti_romanian_nationalism
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_generic_attack_romania
 		x = 0
 		y = 1
 		cost = 3
@@ -355,13 +468,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_strengthen_anti_romanian_nationalism_tt
+			OTT_balkan_resistance_decrease = yes
 		}
 	}
 
 	focus = {
 		id = OTT_root_out_greek_resistance_leaders
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_generic_attack_greece
 		x = 1
 		y = 1
 		cost = 3
@@ -371,13 +485,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_root_out_greek_resistance_leaders_tt
 		}
 	}
 
 	focus = {
 		id = OTT_prepare_anti_austrian_measures
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_POL_habsburg	
 		x = 0
 		y = 1
 		cost = 3
@@ -387,13 +501,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_prepare_anti_austrian_measures_tt
+			OTT_balkan_resistance_decrease = yes
 		}
 	}
 
 	focus = {
 		id = OTT_crackdown_in_the_mideast
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_TUR_taking_over_defense_of_the_gulf
 		x = 2
 		y = 1
 		cost = 3
@@ -404,13 +519,29 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			OTT_mideast_resistance_decrease = yes
+			hidden_effect = {
+				random_list = {
+				    50 = {
+				    	country_event = {
+				    		id = ottoman.8
+				    		days = 15
+				    	}
+				    }
+				    50 = {
+				    	country_event = {
+				    		id = ottoman.10
+				    		days = 15
+				    	}
+				    }
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = OTT_appease_syrian_moderates
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_goal_continuous_restrict_freedom
 		x = 1
 		y = 1
 		cost = 3
@@ -420,13 +551,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_appease_syrian_moderates_tt
 		}
 	}
 
 	focus = {
 		id = OTT_fortify_the_eastern_border
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_generic_attack_iran
 		x = 0
 		y = 1
 		cost = 3
@@ -436,13 +567,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_fortify_the_eastern_border_tt
+			OTT_mideast_resistance_decrease = yes
 		}
 	}
 
 	focus = {
 		id = OTT_exemplify_tripolitanian_agitators
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_CZE_german_puppet
 		x = -1
 		y = 1
 		cost = 3
@@ -452,13 +584,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_exemplify_tripolitanian_agitators_tt
 		}
 	}
 
 	focus = {
 		id = OTT_crush_arab_protests
-		icon = GFX_goal_continuous_suppression
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
 		x = 0
 		y = 1
 		cost = 3
@@ -468,7 +600,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			custom_effect_tooltip = OTT_crush_arab_protests_tt
+			OTT_mideast_resistance_decrease = yes
 		}
 	}
 	

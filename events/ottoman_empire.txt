@@ -91,3 +91,119 @@ country_event = {
 		}
 	}
 }
+
+
+#resistance events
+
+
+	#balkan crackdowns backfire
+country_event = {
+	id = ottoman.7
+	title = ottoman.7.t
+	desc = ottoman.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.7.a
+		OTT_balkan_resistance_increase = yes
+	}
+}
+
+	#mideast crackdowns backfire
+country_event = {
+	id = ottoman.8
+	title = ottoman.8.t
+	desc = ottoman.8.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.8.a
+		OTT_balkan_resistance_increase = yes
+	}
+}
+
+	#mideast revolutionaries entrenched
+country_event = {
+	id = ottoman.9
+	title = ottoman.9.t
+	desc = ottoman.9.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.9.a
+		OTT_mideast_resistance_increase = yes
+	}
+}
+
+	#balkan revolutionaries entrenched
+country_event = {
+	id = ottoman.10
+	title = ottoman.10.t
+	desc = ottoman.10.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.10.a
+		OTT_mideast_resistance_increase = yes
+	}
+}
+
+	#reforms exasperate issues
+country_event = {
+	id = ottoman.11
+	title = ottoman.11.t
+	desc = ottoman.11.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.11.a
+		OTT_resistance_increase = yes
+	}
+}
+
+	#reforms prove successful
+country_event = {
+	id = ottoman.12
+	title = ottoman.12.t
+	desc = ottoman.12.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.12.a
+		OTT_balkan_resistance_decrease = yes
+	}
+}
+
+	#reforms prove successful
+country_event = {
+	id = ottoman.13
+	title = ottoman.13.t
+	desc = ottoman.13.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.11.a
+		OTT_mideast_resistance_decrease = yes
+	}
+}
+
+	#Tensions temporarily calm
+country_event = {
+	id = ottoman.14
+	title = ottoman.14.t
+	desc = ottoman.14.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman.14.a
+		OTT_resistance_decrease = yes
+	}
+}

@@ -148,3 +148,86 @@ country_event = {
 		add_ideas = BAY_genoese_companies
 	}
 }
+
+#rhenish germans freed; elections!
+country_event = {	
+    id = bay.5
+    title = bay.5.t
+    desc = bay.5.d
+
+	is_triggered_only = yes
+
+	#Social Democratic Party Victory!
+	option = {
+		name = bay.5.a
+		set_country_flag = BAY_spd_victory_FLG
+	}
+
+	#Left-Communist Party of Bavaria Victory!
+	option = {
+		name = bay.5.b
+		set_country_flag = BAY_lkpb_victory_FLG
+	}
+
+	#Right-Communist Party of Bavaria Victory!
+	option = {
+		name = bay.5.c
+		set_country_flag = BAY_rkpb_victory_FLG
+	}
+}
+
+country_event = {
+	id = bay.6
+	title = bay.6.t
+	desc = bay.6.d
+
+	is_triggered_only = yes
+
+	#Karl Liebknecht
+	option = {
+		trigger = {
+			has_country_flag = BAY_spd_victory_FLG
+		}
+		name = bay.6.a
+	}
+
+	#Kurt Eisner
+	option = {
+		trigger = {
+			has_country_flag = BAY_spd_victory_FLG
+		}
+		name = bay.6.b
+	}
+
+	#Rosa Luxemburg
+	option = {
+		trigger = {
+			has_country_flag = BAY_lkpb_victory_FLG
+		}
+		name = bay.6.c
+	}
+
+	#Ernst Thalmann
+	option = {
+		trigger = {
+			has_country_flag = BAY_lkpb_victory_FLG
+		}
+		name = bay.6.d
+	}
+
+	#Leo Jogiches
+	option = {
+		trigger = {
+			has_country_flag = BAY_lkpb_victory_FLG
+		}
+		name = bay.6.e
+	}
+
+	#Gregor Strasser
+	option = {
+		trigger = {
+			has_country_flag = BAY_rkpb_victory_FLG
+		}
+		name = bay.6.f
+	}
+}

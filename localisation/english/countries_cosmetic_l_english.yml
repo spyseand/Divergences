@@ -71,3 +71,7 @@
  HRE:0 "Holy Roman Empire"
  HRE_DEF:0 "the Holy Roman Empire"
  HRE_ADJ:0 "Holy German"
+
+ CDR:0 "Confederation of the Germans"
+ CDR_DEF:0 "the Confederation of the Germans"
+ CDR_ADJ:0 "German"

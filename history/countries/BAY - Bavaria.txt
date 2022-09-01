@@ -51,6 +51,72 @@ set_technology = {
 	support_weapons2 = 1
 }
 
+set_party_name = {
+	ideology = monolism
+	long_name = "-"
+	name = "-"
+}
+
+set_party_name = {
+	ideology = vanguard_socialism
+	long_name = "(Right) Kommunistische Partei Bayern"
+	name = "R-KPB"
+}
+
+set_party_name = {
+	ideology = authoritarian_socialism
+	long_name = "(Left) Kommunistische Partei Bayern"
+	name = "L-KPB"
+}
+
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Sozialdemokratische Partei Bayern"
+	name = "SPD"
+}
+
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Sozialistische Arbeiterpartei Bayern"
+	name = "SAPB"
+}
+
+set_party_name = {
+	ideology = liberalism
+	long_name = "-"
+	name = "-"
+}
+
+set_party_name = {
+	ideology = conservatism
+	long_name = "-"
+	name = "-"
+}
+
+set_party_name = {
+	ideology = authoritarian_democracy
+	long_name = "-"
+	name = "-"
+}
+
+set_party_name = {
+	ideology = autocracy
+	long_name = "-"
+	name = "-"
+}
+
+set_party_name = {
+	ideology = fascism
+	long_name = "Bayerischer Unabhängigkeitsbund"
+	name = "BU"
+}
+
+set_party_name = {
+	ideology = egoism
+	long_name = "Verein Für Genuesische Interessen"
+	name = "VGI"
+}
+
 set_politics = {
 	ruling_party = authoritarian_socialism
 	last_election = "1934.6.13"
@@ -60,15 +126,15 @@ set_politics = {
 
 set_popularities = {
 	monolism = 0
-	vanguard_socialism = 0
-	authoritarian_socialism = 0
-	libertarian_socialism = 0
-	social_democracy = 4
-	liberalism = 61
-	conservatism = 33
-	authoritarian_democracy = 2
+	vanguard_socialism = 26
+	authoritarian_socialism = 34
+	libertarian_socialism = 29
+	social_democracy = 6
+	liberalism = 0
+	conservatism = 0
+	authoritarian_democracy = 0
 	autocracy = 0
-	fascism = 0
+	fascism = 5
 	egoism = 0
 }
 

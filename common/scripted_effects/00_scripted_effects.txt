@@ -446,7 +446,6 @@ the_balkan_revolts = {
 				weak_greek_revolt = yes
 			}
 		}
-		holy_league_revolts = yes
 	}
 }
 
@@ -595,12 +594,8 @@ strong_greek_revolt = {
 			type = take_core_state
 			generator = { 757 755 756 745 753 754 752 751 453 777 771 770 759 762 769 760 }
 		}
-		load_oob = "GRE_revolt"
+		load_oob = "GRE_strong_revolt"
 	}
-}
-holy_league_revolts = {
-	set_global_flag = HUN_holy_league_revolts_FLG
-	set_global_flag = CRO_holy_league_revolts_FLG
 }
 	#end of /the_balkan_revolts/
 
@@ -627,6 +622,7 @@ the_arabic_revolts = {
 			syrian_revolt = yes
 		}
 		iraqi_revolt = yes
+		weak_arab_revolts = yes
 	} 
 	if = {
 		limit = {
@@ -656,6 +652,7 @@ the_arabic_revolts = {
 			}
 			syrian_revolt = yes
 		}
+		weak_arab_revolts = yes
 		iraqi_revolt = yes
 		caucasus_revolt = yes
 	} 
@@ -695,7 +692,15 @@ the_arabic_revolts = {
 					}
 				}
 			}
-			arab_revolts = yes
+			strong_arab_revolts = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					has_completed_focus = crush_arab_protests
+				}
+			}
+			weak_arab_revolts = yes
 		}
 		iraqi_revolt = yes
 		caucasus_revolt = yes
@@ -727,7 +732,15 @@ the_arabic_revolts = {
 					}
 				}
 			}
-			arab_revolts = yes
+			strong_arab_revolts = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					has_completed_focus = crush_arab_protests
+				}
+			}
+			weak_arab_revolts = yes
 		}
 		iraqi_revolt = yes
 		caucasus_revolt = yes
@@ -751,7 +764,15 @@ the_arabic_revolts = {
 					}
 				}
 			}
-			arab_revolts = yes
+			strong_arab_revolts = yes
+		}
+		if = {
+			limit = {
+				OTT = {
+					has_completed_focus = crush_arab_protests
+				}
+			}
+			weak_arab_revolts = yes
 		}
 		iraqi_revolt = yes
 		caucasus_revolt = yes
@@ -767,7 +788,7 @@ the_arabic_revolts = {
 		}
 		syrian_revolt = yes
 		libyan_revolt = yes
-		arab_revolts = yes
+		strong_arab_revolts = yes
 		iraqi_revolt = yes
 		caucasus_revolt = yes
 		weak_kurdish_revolt = yes
@@ -861,33 +882,32 @@ caucasus_revolt = { #caucaSUS???? amogus ????? HUH????? wuh huh ????//
 		load_oob = "ARM_revolt"
 	}
 }
-arab_revolts = {
+weak_arab_revolts = {
 	ARB = {
 		transfer_state = 873
-		declare_war_on = {
-			target = OTT
-			type = take_core_state
-			generator = { 882 875 883 874 879 870 878 871 868 }
+		country_event = {
+			id = ottoman.21
 		}
-		load_oob = "ARB_revolt"
+		load_oob = "ARB_weak_revolt"
+	}
+}
+strong_arab_revolts = {
+	ARB = {
+		transfer_state = 873
+		country_event = {
+			id = ottoman.22
+		}
+		load_oob = "ARB_strong_revolt"
 	}
 }
 united_arab_revolt = {
 	ARB = {
 		transfer_state = 873
 		transfer_state = 883
-		declare_war_on = {
-			target = OTT
-			type = take_core_state
-			generator = { 882 875 874 879 870 878 871 868 }
+		country_event = {
+			id = ottoman.23
 		}
 		load_oob = "ARB_united_revolt"
-	}
-	OTT = {
-		country_event = {
-			id = ott.1 #placeholder, please put actual event about jabal shammar's disloyalty here
-			days = 1
-		}
 	}
 }
 weak_kurdish_revolt = {

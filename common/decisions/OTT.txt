@@ -16,6 +16,9 @@ resistance_measures = {
 		priority = 10
 		timeout_effect = {	
 			the_great_revolts = yes
+			country_event = {
+				id = ottoman.15
+			}
 		}
 	}
 

@@ -75,3 +75,7 @@
  CDR:0 "Confederation of the Germans"
  CDR_DEF:0 "the Confederation of the Germans"
  CDR_ADJ:0 "German"
+
+ EGY_free:0 "Sultanate of Egypt"
+ EGY_free_DEF:0 "the Sultanate of Egypt"
+ EGY_free_ADJ:0 "Egyptian"

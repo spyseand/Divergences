@@ -154,7 +154,7 @@ focus_tree = {
 
 		available = {
 			FRA = {
-				has_country_flag = FRA_viva_la_revolution
+				has_global_flag = FRA_viva_la_revolution
 			}
 		}
 		
@@ -386,13 +386,11 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					AND = {
-						NOT = {
-							has_completed_focus = BAY_franco_german_collaboration
-						}
-						NOT = {
-							has_completed_focus = BAY_an_independent_economy
-						}
+					NOT = {
+						has_completed_focus = BAY_franco_german_collaboration
+					}
+					NOT = {
+						has_completed_focus = BAY_an_independent_economy
 					}
 				}
 				custom_effect_tooltip = BAY_no_path_selected_yet_tt
@@ -454,13 +452,11 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					AND = {
-						NOT = {
-							has_completed_focus = BAY_franco_german_collaboration
-						}
-						NOT = {
-							has_completed_focus = BAY_an_independent_economy
-						}
+					NOT = {
+						has_completed_focus = BAY_franco_german_collaboration
+					}
+					NOT = {
+						has_completed_focus = BAY_an_independent_economy
 					}
 				}
 				custom_effect_tooltip = BAY_no_path_selected_yet_tt
@@ -507,13 +503,11 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					AND = {
-						NOT = {
-							has_completed_focus = BAY_franco_german_collaboration
-						}
-						NOT = {
-							has_completed_focus = BAY_an_independent_economy
-						}
+					NOT = {
+						has_completed_focus = BAY_franco_german_collaboration
+					}
+					NOT = {
+						has_completed_focus = BAY_an_independent_economy
 					}
 				}
 				custom_effect_tooltip = BAY_no_path_selected_yet_tt
@@ -1262,10 +1256,8 @@ focus_tree = {
 					AND = {
 						has_completed_focus = BAY_war_with_france
 						OR = {
-							has_country_flag = {
-								BAY_lost_franco_german_war_FLG
-								BAY_won_franco_german_war_FLG
-							}
+							has_country_flag = BAY_lost_franco_german_war_FLG
+							has_country_flag = BAY_won_franco_german_war_FLG
 						}
 					}
 				}

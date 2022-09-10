@@ -5,6 +5,7 @@ OOB = "CNU_1936"
 set_research_slots = 3
 
 puppet = CIN
+puppet = SCO
 
 set_technology = {
 	infantry_weapons = 1

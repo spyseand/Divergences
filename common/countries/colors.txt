@@ -611,4 +611,9 @@ ATH = {
 	color_ui = rgb { 255 130 0 }
 }
 
+SCO = {
+	color = rgb { 70 140 110 }
+	color_ui = rgb { 255 130 0 }
+}
+
 

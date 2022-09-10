@@ -167,3 +167,5 @@ QIN = "countries/Great_Qing.txt"
 YEM = "countires/Yemen.txt"
 
 ATH = "countries/Athapaska.txt"
+
+SCO = "countries/Scotland.txt"

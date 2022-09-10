@@ -9,7 +9,7 @@ state={
 		aluminium=3 # was: 4
 	}
 	history={
-		owner = CNU
+		owner = SCO
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -17,7 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = CNU
+		add_core_of = SCO
 	}
 
 	provinces={

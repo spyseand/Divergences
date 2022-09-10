@@ -87,12 +87,87 @@ focus_tree = {
 
 		}
 	}
+	
+	focus = {
+		id = EGL_begin_the_transition
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_mandate }
+		relative_position_id = EGL_the_mandate
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_suspend_lords
+		icon = GFX_goal_support_democracy
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_the_transition }
+		relative_position_id = EGL_begin_the_transition
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_mass_arrests
+		icon = GFX_goal_support_democracy
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_the_transition }
+		relative_position_id = EGL_begin_the_transition
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
 
 
 	focus = {
 		id = EGL_begin_the_first_three_year_plan
 		icon = GFX_unknown
-		x = -2
+		x = -5
 		y = 1
 		cost = 10
 

@@ -13,7 +13,7 @@ state={
 			9392 10
 		}
 
-		owner = CNU
+		owner = SCO
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -27,7 +27,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = CNU
+		add_core_of = SCO
 	}
 
 	provinces={

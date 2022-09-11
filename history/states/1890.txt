@@ -12,6 +12,6 @@ state={
         add_core_of = CRO
     }
     provinces = {
-        6647
+        6647 11580 11577 
     }
 }

@@ -140,9 +140,9 @@ adjacency_rule =
 }
 
 
-adjacency_rule =#basetag
+adjacency_rule = 
 {
-	name = "PANAMA_CANAL"#basetag
+	name = "PANAMA_CANAL"
 
 	contested =
 	{
@@ -236,7 +236,7 @@ adjacency_rule =
 }
 
 
-adjacency_rule =#basetag
+adjacency_rule =
 {
 	name = "DARDANELLES_STRAIT"
 

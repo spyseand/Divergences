@@ -88,10 +88,11 @@ focus_tree = {
 		}
 	}
 	
+
 	focus = {
-		id = EGL_begin_the_transition
-		icon = GFX_goal_support_democracy
-		x = 2
+		id = EGL_fund_the_sciences
+		icon = GFX_focus_research2
+		x = -1
 		y = 1
 		cost = 10
 
@@ -109,38 +110,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-
+			add_research_slot = 2
+			add_ideas = EGL_heavy_research_funding
 		}
 	}
-	
+
 	focus = {
-		id = EGL_suspend_lords
-		icon = GFX_goal_support_democracy
-		x = -1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		prerequisite = { focus = EGL_begin_the_transition }
-		relative_position_id = EGL_begin_the_transition
-		
-		available = {
-
-		}
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	
-	focus = {
-		id = EGL_mass_arrests
-		icon = GFX_goal_support_democracy
+		id = EGL_work_programs_all
+		icon = GFX_goal_generic_construction
 		x = 1
 		y = 1
 		cost = 10
@@ -149,8 +126,58 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_the_transition }
-		relative_position_id = EGL_begin_the_transition
+		prerequisite = { focus = EGL_the_mandate }
+		relative_position_id = EGL_the_mandate
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_work_programs
+		}
+	}
+	
+	focus = {
+		id = EGL_bail_out_the_mining_industry
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_work_programs_all }
+		relative_position_id = EGL_work_programs_all
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = EGL_bailed_out_miners
+		}
+	}
+
+	focus = {
+		id = EGL_tax_foreign_imports
+		icon = GFX_goal_support_democracy
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_bail_out_the_mining_industry }
+		relative_position_id = EGL_bail_out_the_mining_industry
 		
 		available = {
 
@@ -160,6 +187,362 @@ focus_tree = {
 
 		completion_reward = {
 
+		}
+	}
+
+	focus = {
+		id = EGL_tax_foreign_imports
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_bail_out_the_mining_industry }
+		relative_position_id = EGL_bail_out_the_mining_industry
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_banking_regulation_act
+		icon = GFX_goal_generic_forceful_treaty
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_tax_foreign_imports }
+		prerequisite = { focus = EGL_abolish_the_slums }
+		relative_position_id = EGL_tax_foreign_imports
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = EGL_abolish_the_house_of_lords
+		icon = GFX_goal_generic_dangerous_deal
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_banking_regulation_act }
+		relative_position_id = EGL_banking_regulation_act
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_begin_governmental_reorganization
+		icon = GFX_goal_generic_dangerous_deal
+		x = -3
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_abolish_the_house_of_lords }
+		relative_position_id = EGL_abolish_the_house_of_lords
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_establish_the_second_chamber
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_governmental_reorganization }
+		relative_position_id = EGL_begin_governmental_reorganization
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_rationalize_the_economy
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_governmental_reorganization }
+		relative_position_id = EGL_begin_governmental_reorganization
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_outlaw_strikes
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_rationalize_the_economy }
+		relative_position_id = EGL_rationalize_the_economy
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_a_truthful_press
+		icon = GFX_goal_generic_dangerous_deal
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_outlaw_strikes }
+		relative_position_id = EGL_outlaw_strikes
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_establish_the_second_chamber
+		icon = GFX_goal_generic_dangerous_deal
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_begin_governmental_reorganization }
+		relative_position_id = EGL_begin_governmental_reorganization
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_a_true_house_of_commons
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = { focus = EGL_rationalize_the_economy }
+		
+		prerequisite = { focus = EGL_establish_the_second_chamber }
+		relative_position_id = EGL_establish_the_second_chamber
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_mass_deportations
+		icon = GFX_goal_generic_dangerous_deal
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_establish_the_second_chamber }
+		relative_position_id = EGL_establish_the_second_chamber
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_looking_outwards
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_abolish_the_house_of_lords }
+		prerequisite = { focus = EGL_the_empire }
+
+		relative_position_id = EGL_abolish_the_house_of_lords
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+
+	focus = {
+		id = EGL_subsidize_small_business
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_fund_the_sciences }
+		relative_position_id = EGL_fund_the_sciences
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_abolish_the_slums
+		icon = GFX_goal_generic_fortify_city
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_subsidize_small_business }
+		relative_position_id = EGL_subsidize_small_business
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.05
+			
 		}
 	}
 
@@ -319,7 +702,7 @@ focus_tree = {
 	
 	focus = {
 		id = EGL_the_fields
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_generic_allies_build_infantry
 		x = -4
 		y = 1
 		cost = 10
@@ -330,6 +713,182 @@ focus_tree = {
 
 		prerequisite = { focus = EGL_the_empire }
 		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_modernize_tactics
+		icon = GFX_goal_generic_army_doctrines
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_fields }
+		relative_position_id = EGL_the_fields
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_encourage_conscription
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_modernize_tactics }
+		relative_position_id = EGL_modernize_tactics
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_train_special_forces
+		icon = GFX_goal_generic_special_forces
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_encourage_conscription }
+		relative_position_id = EGL_encourage_conscription
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_revitalize_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_fields }
+		relative_position_id = EGL_the_fields
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_all_terrain_tanks
+		icon = GFX_focus_generic_army_tanks2
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_revitalize_arms_industry }
+		relative_position_id = EGL_revitalize_arms_industry
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_technological_superiority
+		icon = GFX_goal_generic_army_artillery2
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_all_terrain_tanks }
+		relative_position_id = EGL_all_terrain_tanks
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_royal_army
+		icon = GFX_goal_generic_army_tanks
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_technological_superiority }
+		prerequisite = { focus = EGL_train_special_forces }
+		relative_position_id = EGL_technological_superiority
 		
 		available = {
 
@@ -557,6 +1116,232 @@ focus_tree = {
 
 		prerequisite = { focus = EGL_the_empire }
 		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_the_air
+		icon = GFX_goal_generic_air_fighter
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_empire }
+		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_the_air
+		icon = GFX_goal_generic_air_fighter
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_empire }
+		relative_position_id = EGL_the_empire
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff
+		icon = GFX_goal_generic_air_fighter
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_air }
+		relative_position_id = EGL_the_air
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff_2
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_air_stuff }
+		relative_position_id = EGL_air_stuff
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff_3
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_air_stuff_2 }
+		relative_position_id = EGL_air_stuff_2
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff_4
+		icon = GFX_goal_generic_air_fighter
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_the_air }
+		relative_position_id = EGL_the_air
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff_5
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_air_stuff_4 }
+		relative_position_id = EGL_air_stuff_4
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_air_stuff_6
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_air_stuff_5 }
+		relative_position_id = EGL_air_stuff_5
+		
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = EGL_royal_airforce
+		icon = GFX_goal_generic_air_fighter
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = { focus = EGL_air_stuff_3 }
+		prerequisite = { focus = EGL_air_stuff_6 }
+		relative_position_id = EGL_air_stuff_6
 		
 		available = {
 

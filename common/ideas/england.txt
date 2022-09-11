@@ -1,3 +1,29 @@
 ideas = {
+    country = {
+		EGL_work_programs = {
+			modifier = {
+				stability_weekly = 0.005
+				production_speed_industrial_complex_factor = 0.05 
+			}
 
+		}
+
+		EGL_bailed_out_miners = {
+			on_add = {
+				add_stability = 0.1
+			}
+			modifier = {
+				local_resources = 0.2
+			}
+
+		}
+
+		EGL_heavy_research_funding = {
+			modifier = {
+				research_speed_factor = 0.1
+				consumer_goods_factor = 0.2
+			}
+
+		}
+    }
 }

@@ -1,0 +1,81 @@
+oob = "EGY_1936"
+
+division_template = {
+    name = "Firqat Mushaa"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 1 y = 3 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Firqat Alfursan"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+    }
+}
+division_template = {
+    name = "Shuebat Al'iibil"
+    regiments = {
+        camelry = { x = 0 y = 0 }
+        camelry = { x = 0 y = 1 }
+        camelry = { x = 1 y = 0 }
+        camelry = { x = 1 y = 1 }
+    }
+}
+
+units = {
+    division= { 
+        name = "1. Firqat Mushaa"
+        location = 4076
+        division_template = "Firqat Mushaa"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+    division= { 
+        name = "2. Firqat Mushaa"
+        location = 10073
+        division_template = "Firqat Mushaa"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+    division= { 
+        name = "3. Firqat Mushaa"
+        location = 1068
+        division_template = "Firqat Mushaa"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+    division= { 
+        name = "1. Firqat Alfursan"
+        location = 10005
+        division_template = "Firqat Alfursan"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "2. Firqat Alfursan"
+        location = 11964
+        division_template = "Firqat Alfursan"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "1. Shuebat Al'iibil"
+        location = 9989
+        division_template = "Shuebat Al'iibil"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.9
+    }
+}

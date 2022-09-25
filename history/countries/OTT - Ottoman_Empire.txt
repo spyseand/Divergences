@@ -1,4 +1,6 @@
-﻿capital = 453
+﻿OOB = "OTT_1936"
+
+capital = 453
 
 puppet = GRE
 puppet = WAL

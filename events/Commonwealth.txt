@@ -421,6 +421,10 @@ country_event = {
 			PLC_backwater_economy
 		}
 		country_lock_all_division_template = yes
+		country_event = {
+			id = commonwealth.15
+			days = 3
+		}
 	}
 }
 
@@ -445,6 +449,10 @@ country_event = {
 			PLC_backwater_economy
 		}
 		country_lock_all_division_template = yes
+		country_event = {
+			id = commonwealth.15
+			days = 3
+		}
 	}
 }
 
@@ -483,6 +491,7 @@ country_event = {
 				}
 				load_oob = "FRE_rebellion"
 			}
+			set_country_flag = PLC_anarchist_uprising_FLG
 		}
 	}
 
@@ -492,10 +501,6 @@ country_event = {
 			add_state_core = 467
 		}
 		release = CRI
-		MOL = {
-			add_state_core = 714
-			transfer_state = 714
-		}
 	}
 }
 
@@ -540,7 +545,7 @@ country_event = {
 		PLC = {
 			country_event = {
 				id = commonwealth.20
-				days = 4
+				days = 0
 			}
 		}
 	}

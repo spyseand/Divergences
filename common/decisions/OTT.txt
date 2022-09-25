@@ -57,7 +57,7 @@ resistance_measures = {
 		cancel_trigger = {
 			OR = {
 				has_idea = OTT_international_bankruptcy
-				has_idea = OTT_national_austerity
+				has_idea = OTT_national_austerity_measures
 				has_country_flag = OTT_the_great_revolt_FLG
 			}
 		}

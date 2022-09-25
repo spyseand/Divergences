@@ -225,7 +225,7 @@ country_event = {
 			}
 			AUS = {
 				country_event = {
-					id = ottoman.15
+					id = ottoman.17
 					days = 2
 				}
 			}
@@ -270,9 +270,15 @@ country_event = {
 
 	option = {
 		name = ottoman.17.a
-		declare_war_on = OTT
+		declare_war_on = {
+			target = OTT
+			type = annex_everything
+		}
 		VEN = {
-			declare_war_on = OTT
+			declare_war_on = {
+				target = OTT
+				type = annex_everything
+			}
 		}
 		HUN = {
 			country_event = {
@@ -297,7 +303,10 @@ country_event = {
 
 	option = {
 		name = ottoman.18.a
-		declare_war_on = OTT
+		declare_war_on = {
+			target = OTT
+			type = annex_everything
+		}
 	}
 }
 
@@ -312,7 +321,10 @@ country_event = {
 	option = {
 		name = ottoman.19.a
 		set_cosmetic_tag = EGY_free
-		declare_war_on = OTT
+		declare_war_on = {
+			target = OTT
+			type = annex_everything
+		}
 	}
 }
 
@@ -326,7 +338,10 @@ country_event = {
 
 	option = {
 		name = ottoman.20.a
-		declare_war_on = OTT
+		declare_war_on = {
+			target = OTT
+			type = annex_everything
+		}
 	}
 }
 
@@ -345,8 +360,14 @@ country_event = {
 			type = take_core_state
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
-		declare_war_on = JAB
-		declare_war_on = YEM
+		declare_war_on = {
+			target = JAB
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = YEM
+			type = annex_everything
+		}
 	}
 }
 
@@ -365,8 +386,14 @@ country_event = {
 			type = take_core_state
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
-		declare_war_on = JAB
-		declare_war_on = YEM
+		declare_war_on = {
+			target = JAB
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = YEM
+			type = annex_everything
+		}
 	}
 }
 
@@ -385,8 +412,14 @@ country_event = {
 			type = take_core_state
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
-		declare_war_on = JAB
-		declare_war_on = YEM
+		declare_war_on = {
+			target = JAB
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = YEM
+			type = annex_everything
+		}
 		hidden_effect = {
 			OTT = {
 				country_event = {

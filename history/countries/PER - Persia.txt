@@ -1,3 +1,5 @@
+OOB = "PER_1936"
+
 capital = 846
 
 set_technology = {

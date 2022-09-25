@@ -1,0 +1,153 @@
+oob = "OTT_1936"
+
+if = {
+    limit = {
+        NOT = {
+            has_template = "Bogazi Tugay"
+        }
+    }
+    division_template = {
+       name = "Bogazi Tugay"
+        regiments = {
+            infantry = { x = 0 y = 0 }
+            infantry = { x = 0 y = 1 }
+            infantry = { x = 0 y = 2 }
+            infantry = { x = 1 y = 0 }
+            infantry = { x = 1 y = 1 }
+            infantry = { x = 1 y = 2 }
+        }
+    }
+}
+if = {
+    limit = {
+        NOT = {
+            has_template = "Süvari Tümeni"
+        }
+    }
+    division_template = {
+        name = "Süvari Tümeni"
+        regiments = {
+            cavalry = { x = 0 y = 0 }
+            cavalry = { x = 0 y = 1 }
+            cavalry = { x = 1 y = 0 }
+            cavalry = { x = 1 y = 1 }
+            cavalry = { x = 2 y = 0 }
+            cavalry = { x = 2 y = 1 }
+        }
+    }
+}
+
+units = {
+    division= { 
+        name = "1. Bogazi Tugay"
+        location = 11816
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "2. Bogazi Tugay"
+        location = 6647
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "3. Bogazi Tugay"
+        location = 982
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "4. Bogazi Tugay"
+        location = 9890
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "5. Bogazi Tugay"
+        location = 907
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "6. Bogazi Tugay"
+        location = 6982
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "7. Bogazi Tugay"
+        location = 9919
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "8. Bogazi Tugay"
+        location = 3658
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "9. Bogazi Tugay"
+        location = 4755
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "10. Bogazi Tugay"
+        location = 10472
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "11. Bogazi Tugay"
+        location = 10882
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "12. Bogazi Tugay"
+        location = 3795
+        division_template = "Bogazi Tugay"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "1. Süvari Tümeni"
+        location = 7170
+        division_template = "Süvari Tümeni"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "2. Süvari Tümeni"
+        location = 1056
+        division_template = "Süvari Tümeni"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "3. Süvari Tümeni"
+        location = 11922
+        division_template = "Süvari Tümeni"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    division= { 
+        name = "4. Süvari Tümeni"
+        location = 4047
+        division_template = "Süvari Tümeni"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+}

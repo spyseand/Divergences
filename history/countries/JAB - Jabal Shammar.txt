@@ -1,3 +1,5 @@
+OOB = "JAB_1936"
+
 capital = 879
 
 set_technology = {

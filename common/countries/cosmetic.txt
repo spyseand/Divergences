@@ -62,3 +62,15 @@ CDR = {
     color = rgb { 53 167 184 }
     color_ui = rgb { 53 167 184 }
 }
+LIT_plc = {
+    color = rgb { 185 70 70 }
+    color_ui = rgb { 185 70 70 }
+}
+PRU_plc = {
+    color = rgb { 185 70 70 }
+    color_ui = rgb { 185 70 70 }
+}
+ASH_plc = {
+    color = rgb { 185 70 70 }
+    color_ui = rgb { 185 70 70 }
+}

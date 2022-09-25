@@ -12,6 +12,18 @@
  PLC_poland_DEF:0 "Poland"
  PLC_poland_ADJ:0 "Polish"
 
+ LIT_plc:0 "Grand Principality of Lithuania"
+ LIT_plc_DEF:0 "the Grand Principality of Lithuania"
+ LIT_plc_ADJ:0 "Lithuanian"
+
+ PRU_plc:0 "Principality of Prussia"
+ PRU_plc_DEF:0 "the Principality of Prussia"
+ PRU_plc_ADJ:0 "Prussian"
+
+ ASH_plc:0 "Ashkenazi Autonomy"
+ ASH_plc_DEF:0 "the Ashkenazi Autonomy"
+ ASH_plc_ADJ:0 "Ashkenazi"
+
  PLC_belarus:0 "Belarus"
  PLC_belarus_DEF:0 "Belarus"
  PLC_belarus_ADJ:0 "Belarusian"
@@ -79,3 +91,19 @@
  EGY_free:0 "Sultanate of Egypt"
  EGY_free_DEF:0 "the Sultanate of Egypt"
  EGY_free_ADJ:0 "Egyptian"
+
+ SWI_rev:0 "Helvetic Republic"
+ SWI_rev_DEF:0 "the Helvetic Republic"
+ SWI_rev_ADJ:0 "Swiss"
+
+ CNU_union:0 "Celtic Union"
+ CNU_union_DEF:0 "the Celtic Union"
+ CNU_union_ADJ:0 "Celtic"
+
+ EGL_union:0 "United Kingdom"
+ EGL_union_DEF:0 "the United Kingdom"
+ EGL_union_ADJ:0 "British"
+
+ BUR_eu:0 "Union of European Nations"
+ BUR_eu_DEF:0 "the Union of European Nations"
+ BUR_eu_ADJ:0 "European"

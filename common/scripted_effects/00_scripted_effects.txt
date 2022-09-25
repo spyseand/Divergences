@@ -471,11 +471,11 @@ strong_serb_revolt = {
 		add_core_state = 742
 		add_state_claim = 734
 		add_state_claim = 788
-		add_state_claim = 720
+		add_state_claim = 743
 		declare_war_on = {
 			target = OTT
 			type = take_core_state
-			generator = { 740 742 733 67 64}
+			generator = { 740 742 733 67 64 }
 		}
 		load_oob = "SER_strong_revolt"
 	}
@@ -550,11 +550,10 @@ romanian_revolt = {
 		add_core_state = 715
 		add_core_state = 767
 		add_core_state = 748
-		add_core_state = 725
 		declare_war_on = {
 			target = OTT
 			type = take_core_state
-			generator = { 727 749 726 714 715 767 748 725 }
+			generator = { 727 749 726 714 715 767 748 }
 		}
 		load_oob = "TRA_revolt"
 	}

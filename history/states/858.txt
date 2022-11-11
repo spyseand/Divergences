@@ -1,0 +1,24 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 1495987
+	state_category = pastoral
+	resources = {
+		tungsten = 1
+		chromium = 6
+	}
+	history = {
+		owner = SPA
+		victory_points = { 12986 1 }
+		buildings = {
+			infrastructure = 3
+			2123 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		2123 2159 2180 2202 2217 5164 5221 10930 10972 12908 12950 12971 12986
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 800
+	name = "STATE_800"
+	manpower = 1722366
+	state_category = town
+	history = {
+		owner = TRN
+		victory_points = { 10737 5 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		10737 10781 10826 12314 12653
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 205
+	name = "STATE_205"
+	manpower = 1338141
+	state_category = large_city
+	resources = {
+		steel = 6
+	}
+	history = {
+		owner = BEO
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			5121 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		5118 5121 5169 12920 12954
+	}
+	local_supplies = 0.0
+}

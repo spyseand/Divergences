@@ -1,0 +1,21 @@
+state = {
+	id = 959
+	name = "STATE_959"
+	manpower = 366201
+	state_category = city
+	resources = {
+		aluminium = 3
+		tungsten = 1
+		steel = 6
+		chromium = 3
+	}
+	history = {
+		owner = TRN
+		buildings = {
+		}
+	}
+	provinces = {
+		7706 10603 12658
+	}
+	local_supplies = 0.0
+}

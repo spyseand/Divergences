@@ -1,0 +1,16 @@
+state = {
+	id = 935
+	name = "STATE_935"
+	manpower = 75599
+	state_category = pastoral
+	impassable = yes
+	history = {
+		owner = OTT
+		buildings = {
+		}
+	}
+	provinces = {
+		8128 10893
+	}
+	local_supplies = 0.0
+}

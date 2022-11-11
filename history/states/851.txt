@@ -1,0 +1,19 @@
+state = {
+	id = 851
+	name = "STATE_851"
+	manpower = 118209
+	state_category = city
+	resources = {
+		aluminium = 3
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
+	}
+	provinces = {
+		707 3688
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 737
+	name = "STATE_737"
+	manpower = 2293229
+	state_category = city
+	resources = {
+		aluminium = 26
+		tungsten = 9
+		steel = 2
+		chromium = 10
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		victory_points = { 3973 3 }
+		victory_points = { 3988 1 }
+		victory_points = { 4109 20 }
+		victory_points = { 7127 3 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 4
+			4109 = {
+				naval_base = 9
+			}
+		}
+	}
+	provinces = {
+		863 976 1109 3864 3973 3988 4109 7127
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 635
+	name = "STATE_635"
+	manpower = 777895
+	state_category = rural
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 970 1 }
+		victory_points = { 3790 1 }
+		victory_points = { 6880 1 }
+		victory_points = { 6933 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			3790 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		970 980 3790 3866 6880 6884 6933 9765 9819
+	}
+	local_supplies = 0.0
+}

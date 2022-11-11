@@ -1,0 +1,20 @@
+state = {
+	id = 944
+	name = "STATE_944"
+	manpower = 363179
+	state_category = rural
+	resources = {
+		oil = 2
+		steel = 14
+	}
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1406 4261 4311 4383 7300 7373 12200
+	}
+	local_supplies = 0.0
+}

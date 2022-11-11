@@ -1,0 +1,22 @@
+state = {
+	id = 141
+	name = "STATE_141"
+	manpower = 1094065
+	state_category = pastoral
+	resources = {
+		aluminium = 1
+		chromium = 1
+	}
+	history = {
+		owner = UYG
+		victory_points = { 2015 2 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1766 2015 4828 5087 7949 8112 12119
+	}
+	local_supplies = 0.0
+}

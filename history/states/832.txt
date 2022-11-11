@@ -1,0 +1,20 @@
+state = {
+	id = 832
+	name = "STATE_832"
+	manpower = 36146
+	state_category = "small_island"
+	history = {
+		owner = SEI
+		add_core_of = SEI
+		buildings = {
+			infrastructure = 1
+			4579 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		4579
+	}
+	local_supplies = 0.0
+}

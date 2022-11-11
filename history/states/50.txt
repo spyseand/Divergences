@@ -1,0 +1,28 @@
+state = {
+	id = 50
+	name = "STATE_50"
+	manpower = 2028675
+	state_category = rural
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		victory_points = { 4345 20 }
+		victory_points = { 12149 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 3
+			12149 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		490 983 1341 1356 1657 1764 1785 3208 3911 4345 4419 4666 4769 4787 6740 7291 7435 7683 7807 7810 7875 7893 9601 10249 10534 10700 10715 11682 11902 12149 12205 12223 12276 12600 13160 13162 13164 13165
+	}
+	local_supplies = 0.0
+}

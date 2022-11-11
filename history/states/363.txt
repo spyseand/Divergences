@@ -1,0 +1,20 @@
+state = {
+	id = 363
+	name = "STATE_363"
+	manpower = 835108
+	state_category = wasteland
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 4800 1 }
+		victory_points = { 7822 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		1702 1779 4781 4800 7680 7822 10531 10713 12509 12528
+	}
+	local_supplies = 4.0
+}

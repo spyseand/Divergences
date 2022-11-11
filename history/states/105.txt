@@ -1,0 +1,22 @@
+state = {
+	id = 105
+	name = "STATE_105"
+	manpower = 1210332
+	state_category = town
+	resources = {
+		oil = 14
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		victory_points = { 1827 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1738 1809 1827 4586 4814 4871 7780 10532 10588 11772 12570 12642
+	}
+	local_supplies = 7.0
+}

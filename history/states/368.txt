@@ -1,0 +1,21 @@
+state = {
+	id = 368
+	name = "STATE_368"
+	manpower = 26993
+	state_category = pastoral
+	impassable = yes
+	resources = {
+		aluminium = 17
+		chromium = 24
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+	provinces = {
+		10551 10677 12502 13076
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 477
+	name = "STATE_477"
+	manpower = 559518
+	state_category = rural
+	resources = {
+		chromium = 5
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+	provinces = {
+		731 3748 6750 6753 9705 9707 11678 11693 11694
+	}
+	local_supplies = 0.0
+}

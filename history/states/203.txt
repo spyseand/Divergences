@@ -1,0 +1,17 @@
+state = {
+	id = 203
+	name = "STATE_203"
+	manpower = 49958
+	state_category = pastoral
+	history = {
+		owner = BEO
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		2161 5159 5215 8198 8218 10961
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 945
+	name = "STATE_945"
+	manpower = 14313869
+	state_category = town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 9843 20 }
+		victory_points = { 10068 1 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+			3900 = {
+				naval_base = 2
+			}
+			10068 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		900 1052 3830 3900 3955 6969 9843 10068 11761 11822 12043
+	}
+	local_supplies = 1.0
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 438
+	name = "STATE_438"
+	manpower = 489525
+	state_category = rural
+	resources = {
+		chromium = 13
+	}
+	history = {
+		owner = RUS
+		victory_points = { 1668 1 }
+		victory_points = { 7708 1 }
+		victory_points = { 12594 1 }
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1287 1668 1864 1879 4661 4670 4685 4867 7317 7350 7708 10161 10202 10218 10235 10292 10584 10630 10653 12594 12616 12635 13151
+	}
+	local_supplies = 0.0
+}

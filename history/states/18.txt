@@ -1,0 +1,23 @@
+state = {
+	id = 18
+	name = "STATE_18"
+	manpower = 242537
+	state_category = rural
+	resources = {
+		aluminium = 3
+		tungsten = 31
+		steel = 6
+	}
+	history = {
+		owner = UTH
+		add_core_of = UTH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		850 1740 4742 7879 10662 12573 12699
+	}
+	local_supplies = 1.0
+}

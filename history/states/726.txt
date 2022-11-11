@@ -1,0 +1,18 @@
+state = {
+	id = 726
+	name = "STATE_726"
+	manpower = 1344400
+	state_category = town
+	history = {
+		owner = TRA
+		add_core_of = TRA
+		add_core_of = HUN
+		victory_points = { 6711 5 }
+		buildings = {
+		}
+	}
+	provinces = {
+		711 727 3689 3709 6711 6714 6731 9668 9670 9672 9685
+	}
+	local_supplies = 4.0
+}

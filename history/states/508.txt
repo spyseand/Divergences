@@ -1,0 +1,19 @@
+state = {
+	id = 508
+	name = "STATE_508"
+	manpower = 178436
+	state_category = town
+	resources = {
+		steel = 10
+	}
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		buildings = {
+		}
+	}
+	provinces = {
+		77 202 3005 3128 3191 6093 6123 6147 6207 9068 9148 9182 13099
+	}
+	local_supplies = 0.0
+}

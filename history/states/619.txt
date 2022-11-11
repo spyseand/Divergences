@@ -1,0 +1,21 @@
+state = {
+	id = 619
+	name = "STATE_619"
+	manpower = 364601
+	state_category = pastoral
+	resources = {
+		tungsten = 10
+	}
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 3874 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		794 874 3874 6867 9770 13221
+	}
+	local_supplies = 0.0
+}

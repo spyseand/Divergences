@@ -1,0 +1,21 @@
+state = {
+	id = 352
+	name = "STATE_352"
+	manpower = 667198
+	state_category = rural
+	resources = {
+		steel = 4
+		chromium = 3
+	}
+	history = {
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1672 1826 4677 4719 7725 7786 10559 10574 10643 10683 12556 12622 12641
+	}
+	local_supplies = 0.0
+}

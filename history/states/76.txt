@@ -1,0 +1,17 @@
+state = {
+	id = 76
+	name = "STATE_76"
+	manpower = 840469
+	state_category = city
+	history = {
+		owner = BLC
+		add_core_of = BLC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		4510 7464 10410 10753 11717 12328
+	}
+	local_supplies = 0.0
+}

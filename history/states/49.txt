@@ -1,0 +1,22 @@
+state = {
+	id = 49
+	name = "STATE_49"
+	manpower = 66751
+	state_category = rural
+	resources = {
+		oil = 1
+		aluminium = 6
+		steel = 9
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		602 777 1299 1782 4784 4869 7366 9480 10621 12278 12582 13199
+	}
+	local_supplies = 0.0
+}

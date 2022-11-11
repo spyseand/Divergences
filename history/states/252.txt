@@ -1,0 +1,19 @@
+state = {
+	id = 252
+	name = "STATE_252"
+	manpower = 111500
+	state_category = pastoral
+	history = {
+		owner = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		2160 8240 10924
+	}
+	local_supplies = 0.0
+}

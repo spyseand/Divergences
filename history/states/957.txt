@@ -1,0 +1,19 @@
+state = {
+	id = 957
+	name = "STATE_957"
+	manpower = 2155660
+	state_category = town
+	resources = {
+		rubber = 2
+	}
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1620 4223 4330 4596 7645 10204 10317 12167 12260 12288
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 744
+	name = "STATE_744"
+	manpower = 854300
+	state_category = town
+	resources = {
+		steel = 13
+		chromium = 3
+	}
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = SLO
+		victory_points = { 6573 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+	provinces = {
+		3565 3716 6561 6573 9537 11679
+	}
+	local_supplies = 3.0
+}

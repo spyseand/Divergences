@@ -1,0 +1,18 @@
+state = {
+	id = 150
+	name = "STATE_150"
+	manpower = 1000000
+	state_category = pastoral
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		victory_points = { 7965 3 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		4559 4937 5009 7965 7976 8126 10413 10863 12789 12898
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 795
+	name = "STATE_795"
+	manpower = 5038793
+	state_category = town
+	history = {
+		owner = MKH
+		victory_points = { 1910 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1910 4979 8022 8106 10139 10173 10905
+	}
+	local_supplies = 0.0
+}

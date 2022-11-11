@@ -1,0 +1,22 @@
+state = {
+	id = 917
+	name = "STATE_917"
+	manpower = 474911
+	state_category = town
+	history = {
+		owner = OTT
+		add_core_of = LIB
+		victory_points = { 1149 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 6
+			1149 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		1041 1118 1149 1189 4194 7066 7209 9980 12039
+	}
+	local_supplies = 0.0
+}

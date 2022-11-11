@@ -1,0 +1,17 @@
+state = {
+	id = 136
+	name = "STATE_136"
+	manpower = 20309307
+	state_category = town
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1134 1137 1169 1188 4032 4058 4093 4137 4140 4190 4208 6828 7000 7092 7109 9969 10003 10022 10053 10119 11944 11980 11996 12026 12062
+	}
+	local_supplies = 0.0
+}

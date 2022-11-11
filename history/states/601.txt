@@ -1,0 +1,19 @@
+state = {
+	id = 601
+	name = "STATE_601"
+	manpower = 820000
+	state_category = rural
+	history = {
+		owner = BOH
+		add_core_of = BOH
+		victory_points = { 3583 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		421 3414 3583 6485
+	}
+	local_supplies = 2.0
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 286
+	name = "STATE_286"
+	manpower = 274600
+	state_category = "rural"
+	history = {
+		owner = SEI
+		add_core_of = SEI
+		buildings = {
+		}
+	}
+	provinces = {
+		1283 1310 1602 1617 1629 2129 4635 7627 8250 10147 10505 11004 12107 12123 12457 12484
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 191
+	name = "STATE_191"
+	manpower = 1822300
+	state_category = town
+	resources = {
+		tungsten = 10
+		steel = 4
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		victory_points = { 4052 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		912 978 3912 4052 6963 9790 9795 9918 11775 11828 11835 11896
+	}
+	local_supplies = 0.0
+}

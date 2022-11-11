@@ -1,0 +1,20 @@
+state = {
+	id = 940
+	name = "STATE_940"
+	manpower = 2485
+	state_category = tiny_island
+	history = {
+		owner = EGL
+		add_core_of = EGL
+		buildings = {
+			infrastructure = 1
+			13016 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		13016
+	}
+	local_supplies = 0.0
+}

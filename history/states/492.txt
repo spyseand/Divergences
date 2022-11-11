@@ -1,0 +1,28 @@
+state = {
+	id = 492
+	name = "STATE_492"
+	manpower = 129836
+	state_category = rural
+	resources = {
+		tungsten = 6
+		steel = 3
+	}
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		victory_points = { 192 1 }
+		victory_points = { 11050 1 }
+		buildings = {
+			192 = {
+				naval_base = 3
+			}
+			11050 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		38 44 91 173 192 3034 3048 3058 3088 3126 3132 3145 6071 6111 6130 6187 6214 9126 9208 11050 11090 11157
+	}
+	local_supplies = 0.0
+}

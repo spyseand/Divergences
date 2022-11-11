@@ -1,0 +1,18 @@
+state = {
+	id = 440
+	name = "STATE_440"
+	manpower = 911211
+	state_category = pastoral
+	history = {
+		owner = RUS
+		victory_points = { 4333 1 }
+		victory_points = { 10312 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1223 1229 1276 1363 1375 1391 1418 1662 1680 4232 4238 4281 4309 4333 4369 4850 7298 7326 7357 7407 7425 10140 10168 10211 10239 10308 10312 10633 12115 12143 12152 12185 12257 12285
+	}
+	local_supplies = 0.0
+}

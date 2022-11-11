@@ -1,0 +1,25 @@
+state = {
+	id = 2
+	name = "STATE_2"
+	manpower = 1405216
+	state_category = large_town
+	history = {
+		owner = QIQ
+		add_core_of = QIQ
+		victory_points = { 7315 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 5
+			7315 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		4296 4398 4428 7255 7315 7386 7414 7442 10155 10157 10242 10271 10690 12155 12214
+	}
+	local_supplies = 0.0
+}

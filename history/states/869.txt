@@ -1,0 +1,20 @@
+state = {
+	id = 869
+	name = "STATE_869"
+	manpower = 902620
+	state_category = rural
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		victory_points = { 12806 3 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+	provinces = {
+		2088 4918 4961 7925 10743 10784 12806 12826 12862 12881
+	}
+	local_supplies = 0.0
+}

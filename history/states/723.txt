@@ -1,0 +1,19 @@
+state = {
+	id = 723
+	name = "STATE_723"
+	manpower = 105000
+	state_category = pastoral
+	history = {
+		owner = OTT
+		add_core_of = BUL
+		add_core_of = SER
+		victory_points = { 11857 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		11857 11868
+	}
+	local_supplies = 0.0
+}

@@ -3,15 +3,15 @@ strategic_region={
 	id=2
 	name="STRATEGICREGION_2"
 	provinces={
-		# State 673
+		# State 656
 		3311
-		# State 671
+		# State 654
 		3205 6318 6335 6384
-		# State 670
+		# State 653
 		6268 9269 9315 9332 9379 9397 11297 11317 11382
-		# State 663
+		# State 646
 		253 311 377 407 3274 6363 9364 11361
-		# State 658
+		# State 641
 		219 351 6399 9285 11270 11299 11332 
 	}
 	weather={

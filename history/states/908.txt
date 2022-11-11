@@ -1,0 +1,22 @@
+state = {
+	id = 908
+	name = "STATE_908"
+	manpower = 107781
+	state_category = wasteland
+	history = {
+		owner = OTT
+		add_core_of = EGY
+		victory_points = { 4073 3 }
+		victory_points = { 12049 5 }
+		buildings = {
+			infrastructure = 2
+			12049 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		4073 12049
+	}
+	local_supplies = 0.0
+}

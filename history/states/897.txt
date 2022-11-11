@@ -1,0 +1,24 @@
+state = {
+	id = 897
+	name = "STATE_897"
+	manpower = 6501171
+	state_category = pastoral
+	history = {
+		owner = SCD
+		victory_points = { 10803 1 }
+		victory_points = { 10862 1 }
+		buildings = {
+			infrastructure = 3
+			10803 = {
+				naval_base = 1
+			}
+			10862 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		5013 5070 7983 8039 8065 8096 8122 10762 10803 10862 12742 12787
+	}
+	local_supplies = 1.0
+}

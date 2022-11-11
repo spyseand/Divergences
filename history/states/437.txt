@@ -1,0 +1,19 @@
+state = {
+	id = 437
+	name = "STATE_437"
+	manpower = 458465
+	state_category = rural
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = TRN
+		victory_points = { 1517 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		475 642 1517 3593 4523 4563 4620 7541 7641 10262 10348 10406 11701 12163 12233 12383 12454 12474 13008 13207
+	}
+	local_supplies = 0.0
+}

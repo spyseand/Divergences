@@ -1,0 +1,17 @@
+state = {
+	id = 775
+	name = "STATE_775"
+	manpower = 4089340
+	state_category = rural
+	history = {
+		owner = BCH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1971 1980 4003 4110 4382 7084 10847 10866 12718
+	}
+	local_supplies = 5.0
+}

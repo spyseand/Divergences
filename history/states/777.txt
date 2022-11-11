@@ -1,0 +1,19 @@
+state = {
+	id = 777
+	name = "STATE_777"
+	manpower = 4041166
+	state_category = town
+	resources = {
+		oil = 3
+	}
+	history = {
+		owner = BEN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		997 1116 1525 1553 1581 10090 10514 12322
+	}
+	local_supplies = 1.0
+}

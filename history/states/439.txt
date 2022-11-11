@@ -1,0 +1,17 @@
+state = {
+	id = 439
+	name = "STATE_439"
+	manpower = 334494
+	state_category = pastoral
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = TRN
+		buildings = {
+		}
+	}
+	provinces = {
+		4651 7711 7795 7856 10550 10619 10680 12529 12662 13148 13149 13197
+	}
+	local_supplies = 1.0
+}

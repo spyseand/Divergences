@@ -1,0 +1,20 @@
+state = {
+	id = 103
+	name = "STATE_103"
+	manpower = 756973
+	state_category = metropolis
+	resources = {
+		oil = 46
+		aluminium = 10
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		buildings = {
+		}
+	}
+	provinces = {
+		2055 2102 3875 3972 7762 9908 12624 12848 12893
+	}
+	local_supplies = 0.0
+}

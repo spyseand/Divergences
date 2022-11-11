@@ -1,0 +1,23 @@
+state = {
+	id = 42
+	name = "STATE_42"
+	manpower = 733488
+	state_category = rural
+	resources = {
+		oil = 6
+		steel = 10
+	}
+	history = {
+		owner = SIX
+		add_core_of = SIX
+		victory_points = { 1836 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		1752 1836 1870 3719 4772 4790 4880 7862 10685 10709 12145 12620 12685
+	}
+	local_supplies = 8.0
+}

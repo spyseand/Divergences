@@ -1,0 +1,22 @@
+state = {
+	id = 731
+	name = "STATE_731"
+	manpower = 440285
+	state_category = rural
+	resources = {
+		chromium = 11
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 11905 1 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		6990 9791 9930 11774 11905
+	}
+	local_supplies = 9.0
+}

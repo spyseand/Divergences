@@ -1,0 +1,29 @@
+state = {
+	id = 238
+	name = "STATE_238"
+	manpower = 101333
+	state_category = rural
+	resources = {
+		aluminium = 40
+	}
+	history = {
+		owner = GTC
+		add_core_of = GTC
+		victory_points = { 10906 1 }
+		victory_points = { 12885 1 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12828 = {
+				naval_base = 1
+			}
+			12885 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		10906 12828 12885
+	}
+	local_supplies = 0.0
+}

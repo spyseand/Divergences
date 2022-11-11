@@ -1,0 +1,25 @@
+state = {
+	id = 135
+	name = "STATE_135"
+	manpower = 16155686
+	state_category = large_city
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		victory_points = { 7191 1 }
+		victory_points = { 10076 3 }
+		victory_points = { 11913 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			7191 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		996 1089 4042 4091 4105 4173 7120 7191 10076 10101 11913 11928 11982 13142
+	}
+	local_supplies = 0.0
+}

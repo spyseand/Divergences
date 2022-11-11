@@ -1,0 +1,15 @@
+state = {
+	id = 490
+	name = "STATE_490"
+	manpower = 23313
+	state_category = rural
+	history = {
+		owner = SCD
+		buildings = {
+		}
+	}
+	provinces = {
+		124 3055 3193 11115 11125 11130
+	}
+	local_supplies = 1.0
+}

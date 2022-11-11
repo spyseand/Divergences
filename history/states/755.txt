@@ -1,0 +1,27 @@
+state = {
+	id = 755
+	name = "STATE_755"
+	manpower = 841282
+	state_category = rural
+	resources = {
+		steel = 9
+		chromium = 19
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 904 1 }
+		victory_points = { 11811 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			904 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		890 904 3905 3919 6871 11811 11829 11866 11883
+	}
+	local_supplies = 0.0
+}

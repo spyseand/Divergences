@@ -1,0 +1,18 @@
+state = {
+	id = 66
+	name = "STATE_66"
+	manpower = 838621
+	state_category = town
+	history = {
+		owner = OTT
+		add_core_of = SER
+		victory_points = { 619 3 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		619 3617 3623 9608 9621
+	}
+	local_supplies = 0.0
+}

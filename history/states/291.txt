@@ -1,0 +1,26 @@
+state = {
+	id = 291
+	name = "STATE_291"
+	manpower = 309433
+	state_category = large_town
+	resources = {
+		aluminium = 5
+		rubber = 96
+		tungsten = 54
+		steel = 5
+	}
+	history = {
+		owner = SCM
+		add_core_of = SCM
+		victory_points = { 7329 1 }
+		buildings = {
+			7329 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1348 1392 4355 7329 7399 10227 12199
+	}
+	local_supplies = 0.0
+}

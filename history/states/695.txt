@@ -1,0 +1,22 @@
+state = {
+	id = 695
+	name = "STATE_695"
+	manpower = 806181
+	state_category = rural
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		victory_points = { 11683 3 }
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+	}
+	provinces = {
+		574 3403 3755 9573 11546 11683 11715
+	}
+	local_supplies = 4.0
+}

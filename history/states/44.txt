@@ -1,0 +1,18 @@
+state = {
+	id = 44
+	name = "STATE_44"
+	manpower = 486955
+	state_category = rural
+	history = {
+		owner = SIX
+		add_core_of = SIX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		736 1671 1804 3498 3800 4739 6726 6779 7348 9669 11440 12682 13168 13183 13185 13187
+	}
+	local_supplies = 0.0
+}

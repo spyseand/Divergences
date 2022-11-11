@@ -1,0 +1,20 @@
+state = {
+	id = 257
+	name = "STATE_257"
+	manpower = 11532
+	state_category = tiny_island
+	history = {
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 1
+			5023 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		5023
+	}
+	local_supplies = 0.0
+}

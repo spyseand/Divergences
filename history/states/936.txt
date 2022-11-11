@@ -1,0 +1,16 @@
+state = {
+	id = 936
+	name = "STATE_936"
+	manpower = 202762
+	state_category = large_town
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		6672
+	}
+	local_supplies = 0.0
+}

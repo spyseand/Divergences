@@ -1,0 +1,21 @@
+state = {
+	id = 204
+	name = "STATE_204"
+	manpower = 3705400
+	state_category = rural
+	resources = {
+		tungsten = 1
+	}
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		531 556 1630 1647 1933 1985 2022 3745 4313 5025 6638 7397 7911 12797 12882
+	}
+	local_supplies = 0.0
+}

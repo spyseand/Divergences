@@ -1,0 +1,18 @@
+state = {
+	id = 725
+	name = "STATE_725"
+	manpower = 262200
+	state_category = pastoral
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 914 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		914 13234 13235
+	}
+	local_supplies = 0.0
+}

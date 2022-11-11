@@ -1,0 +1,20 @@
+state = {
+	id = 215
+	name = "STATE_215"
+	manpower = 128043
+	state_category = town
+	resources = {
+		tungsten = 7
+	}
+	history = {
+		owner = BEO
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		2208 5143
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 627
+	name = "STATE_627"
+	manpower = 359880
+	state_category = pastoral
+	history = {
+		owner = NVR
+		add_core_of = NVR
+		victory_points = { 3933 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		932 3737 3931 3933 9857
+	}
+	local_supplies = 4.0
+}

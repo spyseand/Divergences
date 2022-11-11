@@ -1,0 +1,22 @@
+state = {
+	id = 297
+	name = "STATE_297"
+	manpower = 443218
+	state_category = rural
+	resources = {
+		rubber = 16
+	}
+	history = {
+		owner = JEI
+		add_core_of = JEI
+		buildings = {
+			1316 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1304 1316 4279 4409 7227 10282 12129 12955
+	}
+	local_supplies = 0.0
+}

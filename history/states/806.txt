@@ -1,0 +1,17 @@
+state = {
+	id = 806
+	name = "STATE_806"
+	manpower = 9619050
+	state_category = rural
+	history = {
+		owner = IRP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1199 1949 2092 2105 4106 7080 8076 10816 11995 12080 12743 12829
+	}
+	local_supplies = 3.0
+}

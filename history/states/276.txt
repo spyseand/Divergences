@@ -1,0 +1,25 @@
+state = {
+	id = 276
+	name = "STATE_276"
+	manpower = 1701324
+	state_category = city
+	resources = {
+		rubber = 1
+	}
+	history = {
+		owner = JPH
+		add_core_of = JPH
+		victory_points = { 12213 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12213 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		4101 4214 4233 4350 4368 4423 7325 7439 10167 10241 10252 10298 12213 12253
+	}
+	local_supplies = 0.0
+}

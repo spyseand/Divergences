@@ -1,0 +1,21 @@
+state = {
+	id = 197
+	name = "STATE_197"
+	manpower = 5553037
+	state_category = rural
+	resources = {
+		aluminium = 5
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 10433 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		887 945 946 1567 3888 3913 3932 3949 6868 6905 6947 7523 7591 7652 7663 9759 9782 9803 9848 9866 9883 9913 10433 11744 11850 11864 12412
+	}
+	local_supplies = 0.0
+}

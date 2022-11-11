@@ -1,0 +1,16 @@
+state = {
+	id = 71
+	name = "STATE_71"
+	manpower = 241676
+	state_category = city
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+		}
+	}
+	provinces = {
+		3917 6892 9758 9786
+	}
+	local_supplies = 1.0
+}

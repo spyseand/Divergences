@@ -1,0 +1,22 @@
+state = {
+	id = 476
+	name = "STATE_476"
+	manpower = 1012274
+	state_category = city
+	resources = {
+		tungsten = 7
+		chromium = 4
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = KUB
+		victory_points = { 11696 3 }
+		buildings = {
+		}
+	}
+	provinces = {
+		735 748 3752 3765 6768 6781 9688 9709 9726 9742 11681 11696
+	}
+	local_supplies = 0.0
+}

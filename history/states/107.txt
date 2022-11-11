@@ -1,0 +1,18 @@
+state = {
+	id = 107
+	name = "STATE_107"
+	manpower = 1373783
+	state_category = large_town
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1683 1875 3613 3855 4723 4749 4760 4794 4830 7745 7771 7840 7852 10569 10640 10711 12516
+	}
+	local_supplies = 0.0
+}

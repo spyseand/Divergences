@@ -1,0 +1,32 @@
+state = {
+	id = 213
+	name = "STATE_213"
+	manpower = 6558757
+	state_category = town
+	resources = {
+		oil = 5
+		steel = 1
+	}
+	history = {
+		owner = BEO
+		victory_points = { 10362 5 }
+		victory_points = { 10447 3 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 2
+			dockyard = 1
+			air_base = 4
+			10362 = {
+				naval_base = 6
+			}
+			10447 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1449 1542 1585 1598 1613 1626 1641 1654 4436 4457 4575 4589 4604 5110 7581 7594 7638 8187 8238 10347 10362 10447 10502 10515 10943 12336 12396 12440 12453 12468 12481 12496 12964
+	}
+	local_supplies = 0.0
+}

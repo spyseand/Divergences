@@ -1,0 +1,26 @@
+state = {
+	id = 59
+	name = "STATE_59"
+	manpower = 745000
+	state_category = rural
+	resources = {
+		rubber = 6
+	}
+	history = {
+		owner = LBR
+		add_core_of = LBR
+		victory_points = { 7959 3 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			7959 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		7959 8006
+	}
+	local_supplies = 0.0
+}

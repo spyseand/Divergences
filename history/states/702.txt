@@ -1,0 +1,24 @@
+state = {
+	id = 702
+	name = "STATE_702"
+	manpower = 1685989
+	state_category = city
+	resources = {
+		aluminium = 2
+	}
+	history = {
+		owner = OTT
+		add_core_of = BUL
+		victory_points = { 949 15 }
+		victory_points = { 9771 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			air_base = 3
+		}
+	}
+	provinces = {
+		793 935 949 965 3908 3971 9771 11754
+	}
+	local_supplies = 0.0
+}

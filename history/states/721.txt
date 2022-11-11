@@ -1,0 +1,26 @@
+state = {
+	id = 721
+	name = "STATE_721"
+	manpower = 2275977
+	state_category = rural
+	history = {
+		owner = OTT
+		add_core_of = BUL
+		victory_points = { 3796 3 }
+		victory_points = { 9612 3 }
+		victory_points = { 9769 1 }
+		victory_points = { 9783 5 }
+		victory_points = { 11597 1 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			9783 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		649 3796 3819 3952 6842 9610 9612 9614 9769 9783 11597
+	}
+	local_supplies = 3.0
+}

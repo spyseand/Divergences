@@ -1,0 +1,26 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	manpower = 22663
+	state_category = pastoral
+	resources = {
+		aluminium = 4
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 2
+			3691 = {
+				naval_base = 1
+			}
+			12503 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1426 1712 3691 4720 7364 7813 10176 12147 12503 13166 13181 13184 13186 13196
+	}
+	local_supplies = 0.0
+}

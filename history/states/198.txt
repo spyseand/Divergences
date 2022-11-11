@@ -1,0 +1,24 @@
+state = {
+	id = 198
+	name = "STATE_198"
+	manpower = 3980159
+	state_category = city
+	resources = {
+		steel = 11
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			964 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		836 964 3783 3839 3970 6860 6918 6981 9854
+	}
+	local_supplies = 0.0
+}

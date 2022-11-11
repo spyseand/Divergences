@@ -1,0 +1,17 @@
+state = {
+	id = 231
+	name = "STATE_231"
+	manpower = 92916
+	state_category = pastoral
+	history = {
+		owner = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+	provinces = {
+		5188 8211 10996 12917
+	}
+	local_supplies = 0.0
+}

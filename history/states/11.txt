@@ -1,0 +1,16 @@
+state = {
+	id = 11
+	name = "STATE_11"
+	manpower = 163164
+	state_category = town
+	history = {
+		owner = QIQ
+		add_core_of = QIQ
+		buildings = {
+		}
+	}
+	provinces = {
+		1320 1737 4343 7677 7753 7761 7853 10198 10644
+	}
+	local_supplies = 0.0
+}

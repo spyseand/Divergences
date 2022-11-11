@@ -1,0 +1,21 @@
+state = {
+	id = 715
+	name = "STATE_715"
+	manpower = 1279121
+	state_category = large_city
+	history = {
+		owner = OTT
+		add_core_of = SER
+		victory_points = { 11586 15 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 5
+		}
+	}
+	provinces = {
+		797 3609 3956 3984 6634 9599 11583 11586
+	}
+	local_supplies = 4.0
+}

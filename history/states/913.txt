@@ -1,0 +1,27 @@
+state = {
+	id = 913
+	name = "STATE_913"
+	manpower = 113157
+	state_category = wasteland
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		add_core_of = LIB
+		victory_points = { 1130 5 }
+		victory_points = { 11954 3 }
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			1130 = {
+				naval_base = 6
+			}
+			11954 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1130 1204 4120 4136 4151 7082 9992 10120 10123 11954 12094
+	}
+	local_supplies = 4.0
+}

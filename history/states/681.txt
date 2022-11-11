@@ -1,0 +1,23 @@
+state = {
+	id = 681
+	name = "STATE_681"
+	manpower = 2140234
+	state_category = city
+	history = {
+		owner = PLC
+		add_core_of = PLC
+		victory_points = { 6332 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 6
+			6332 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		281 348 395 3384 6332 11265
+	}
+	local_supplies = 0.0
+}

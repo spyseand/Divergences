@@ -1,0 +1,20 @@
+state = {
+	id = 370
+	name = "STATE_370"
+	manpower = 509412
+	state_category = rural
+	resources = {
+		oil = 3
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1768 1812 4659 4771 6787 7681 7685 7793 7833 10529 10659 10692 12390 12542 12580 12639
+	}
+	local_supplies = 3.0
+}

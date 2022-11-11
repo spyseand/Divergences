@@ -1,0 +1,21 @@
+state = {
+	id = 100
+	name = "STATE_100"
+	manpower = 964331
+	state_category = town
+	resources = {
+		aluminium = 7
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1646 4444 4567 4597 4625 7586 10477
+	}
+	local_supplies = 4.0
+}

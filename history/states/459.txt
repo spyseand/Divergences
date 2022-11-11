@@ -1,0 +1,20 @@
+state = {
+	id = 459
+	name = "STATE_459"
+	manpower = 2341080
+	state_category = town
+	resources = {
+		steel = 15
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		523 547 570 3409 3491 6519 6554 9476 9531 9556 11487 11513 11541
+	}
+	local_supplies = 1.0
+}

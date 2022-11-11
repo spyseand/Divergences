@@ -1,0 +1,18 @@
+state = {
+	id = 452
+	name = "STATE_452"
+	manpower = 284955
+	state_category = town
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		66 195 3172 6081 6198 6212 9156 11121 11132
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 579
+	name = "STATE_579"
+	manpower = 1021173
+	state_category = metropolis
+	resources = {
+		aluminium = 7
+		steel = 10
+		chromium = 1
+	}
+	history = {
+		owner = GTC
+		add_core_of = GTC
+		victory_points = { 6780 5 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		611 776 3782 6635 6780 9738 11570
+	}
+	local_supplies = 0.0
+}

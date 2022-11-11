@@ -1,0 +1,23 @@
+state = {
+	id = 849
+	name = "STATE_849"
+	manpower = 1277798
+	state_category = town
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		victory_points = { 12589 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			12589 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces = {
+		4528 10415 10442 12419 12589 12692
+	}
+	local_supplies = 0.0
+}

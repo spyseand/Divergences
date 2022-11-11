@@ -1,0 +1,17 @@
+state = {
+	id = 895
+	name = "STATE_895"
+	manpower = 1298210
+	state_category = pastoral
+	history = {
+		owner = BUR
+		victory_points = { 2081 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1473 1883 2081 3123 3181 4897 4978 7919 9152 13211
+	}
+	local_supplies = 3.0
+}

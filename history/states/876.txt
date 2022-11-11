@@ -1,0 +1,16 @@
+state = {
+	id = 876
+	name = "STATE_876"
+	manpower = 734118
+	state_category = pastoral
+	history = {
+		owner = SPA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		8138 8202 12391 12985
+	}
+	local_supplies = 0.0
+}

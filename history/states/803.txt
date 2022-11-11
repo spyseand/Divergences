@@ -1,0 +1,15 @@
+state = {
+	id = 803
+	name = "STATE_803"
+	manpower = 7359607
+	state_category = city
+	history = {
+		owner = BHA
+		buildings = {
+		}
+	}
+	provinces = {
+		1898 2032 3989 5002 5157 10021 10729 11955 12708
+	}
+	local_supplies = 0.0
+}

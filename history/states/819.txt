@@ -1,0 +1,19 @@
+state = {
+	id = 819
+	name = "STATE_819"
+	manpower = 569540
+	state_category = rural
+	resources = {
+		oil = 14
+	}
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1922 5089
+	}
+	local_supplies = 0.0
+}

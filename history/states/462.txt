@@ -1,0 +1,18 @@
+state = {
+	id = 462
+	name = "STATE_462"
+	manpower = 1159725
+	state_category = town
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 9566 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		238 522 3225 3542 6508 6565 6589 9477 9506 9566 11553
+	}
+	local_supplies = 0.0
+}

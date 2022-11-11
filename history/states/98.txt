@@ -1,0 +1,21 @@
+state = {
+	id = 98
+	name = "STATE_98"
+	manpower = 997282
+	state_category = city
+	resources = {
+		steel = 16
+	}
+	history = {
+		owner = BLC
+		add_core_of = BLC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1987 7615 7797 10586 10615
+	}
+	local_supplies = 0.0
+}

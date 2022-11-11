@@ -1,0 +1,16 @@
+state = {
+	id = 161
+	name = "STATE_161"
+	manpower = 1000000
+	state_category = pastoral
+	history = {
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1961 5094 8029 10802 12784 12801
+	}
+	local_supplies = 0.0
+}

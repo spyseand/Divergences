@@ -1,0 +1,27 @@
+state = {
+	id = 27
+	name = "STATE_27"
+	manpower = 1941402
+	state_category = town
+	resources = {
+		tungsten = 6
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		victory_points = { 8032 1 }
+		victory_points = { 12746 1 }
+		victory_points = { 13089 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8032 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		2051 8032 12746 12873 13089
+	}
+	local_supplies = 0.0
+}

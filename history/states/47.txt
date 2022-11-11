@@ -1,0 +1,23 @@
+state = {
+	id = 47
+	name = "STATE_47"
+	manpower = 284413
+	state_category = rural
+	resources = {
+		aluminium = 3
+		steel = 2
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		victory_points = { 4872 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		761 763 1769 3736 4426 4775 4872 4875 5119 7794 7899 9615 9740 10718 11571 12701 13094 13161 13163
+	}
+	local_supplies = 3.0
+}

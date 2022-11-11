@@ -1,0 +1,17 @@
+state = {
+	id = 672
+	name = "STATE_672"
+	manpower = 213888
+	state_category = wasteland
+	history = {
+		owner = TRN
+		victory_points = { 1384 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1216 1384 1919 2058 4467 4542 7224 12218 12250 12430 12581
+	}
+	local_supplies = 0.0
+}

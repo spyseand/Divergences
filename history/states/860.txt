@@ -1,0 +1,25 @@
+state = {
+	id = 860
+	name = "STATE_860"
+	manpower = 3443081
+	state_category = rural
+	history = {
+		owner = SCD
+		victory_points = { 1939 2 }
+		victory_points = { 2196 1 }
+		victory_points = { 5210 1 }
+		buildings = {
+			infrastructure = 3
+			2196 = {
+				naval_base = 2
+			}
+			5210 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1939 2196 2206 5196 5210 5224 6020 8183 8205 10860 10932 11017 12911
+	}
+	local_supplies = 2.0
+}

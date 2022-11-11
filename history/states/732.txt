@@ -1,0 +1,23 @@
+state = {
+	id = 732
+	name = "STATE_732"
+	manpower = 808990
+	state_category = town
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 11818 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 2
+			11818 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		895 3936 11818
+	}
+	local_supplies = 0.0
+}

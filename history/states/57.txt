@@ -1,0 +1,23 @@
+state = {
+	id = 57
+	name = "STATE_57"
+	manpower = 1068690
+	state_category = large_city
+	resources = {
+		steel = 1
+	}
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		victory_points = { 3775 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		722 749 774 779 3763 3775 6607 6610 9667 9711 9743 11695 11725 13154 13156
+	}
+	local_supplies = 0.0
+}

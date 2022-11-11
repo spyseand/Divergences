@@ -1,0 +1,21 @@
+state = {
+	id = 269
+	name = "STATE_269"
+	manpower = 1743951
+	state_category = rural
+	resources = {
+		rubber = 34
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		victory_points = { 7236 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1281 1308 1337 1366 1394 4312 4371 4388 4392 7236 10156 10158 12122 12201 12220 12230 12286
+	}
+	local_supplies = 0.0
+}

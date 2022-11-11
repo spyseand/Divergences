@@ -1,0 +1,21 @@
+state = {
+	id = 943
+	name = "STATE_943"
+	manpower = 585170
+	state_category = city
+	resources = {
+		steel = 1
+		chromium = 10
+	}
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		buildings = {
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1509 2213 10668
+	}
+	local_supplies = 0.0
+}

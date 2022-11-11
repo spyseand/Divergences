@@ -1,0 +1,21 @@
+state = {
+	id = 24
+	name = "STATE_24"
+	manpower = 1026895
+	state_category = rural
+	history = {
+		owner = DES
+		add_core_of = DES
+		victory_points = { 7921 10 }
+		buildings = {
+			infrastructure = 1
+			8057 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		4946 7921 8003 8057 10853 10871 10895 12804
+	}
+	local_supplies = 5.0
+}

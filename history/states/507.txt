@@ -1,0 +1,19 @@
+state = {
+	id = 507
+	name = "STATE_507"
+	manpower = 2376617
+	state_category = rural
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = JAP
+		add_core_of = MAN
+		buildings = {
+		}
+	}
+	provinces = {
+		783 800 861 927 944 973 3929 3944 6806 6964 9841 9897 11781 11823 11862
+	}
+	local_supplies = 0.0
+}

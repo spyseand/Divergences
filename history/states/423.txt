@@ -1,0 +1,17 @@
+state = {
+	id = 423
+	name = "STATE_423"
+	manpower = 232166
+	state_category = rural
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 11061 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		84 3064 3079 3166 6088 6100 6193 6199 9101 9113 9124 9213 11061
+	}
+	local_supplies = 0.0
+}

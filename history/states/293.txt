@@ -1,0 +1,21 @@
+state = {
+	id = 293
+	name = "STATE_293"
+	manpower = 1807944
+	state_category = town
+	resources = {
+		tungsten = 60
+	}
+	history = {
+		owner = BRM
+		add_core_of = BRM
+		add_core_of = SIA
+		victory_points = { 1492 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		1170 1492 1566 1607 2061 4175 4210 4585 7400 7469 7562 7603 7909 7974 10920 12363 12404
+	}
+	local_supplies = 0.0
+}

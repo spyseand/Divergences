@@ -1,0 +1,23 @@
+state = {
+	id = 470
+	name = "STATE_470"
+	manpower = 491569
+	state_category = rural
+	resources = {
+		chromium = 3
+	}
+	history = {
+		owner = OTT
+		add_core_of = GEO
+		victory_points = { 9663 1 }
+		victory_points = { 11617 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		672 9663 11599 11617 11647
+	}
+	local_supplies = 0.0
+}

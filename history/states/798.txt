@@ -1,0 +1,18 @@
+state = {
+	id = 798
+	name = "STATE_798"
+	manpower = 5156334
+	state_category = rural
+	history = {
+		owner = MKH
+		victory_points = { 12763 3 }
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+	}
+	provinces = {
+		1978 2084 4558 4998 12717 12763
+	}
+	local_supplies = 5.0
+}

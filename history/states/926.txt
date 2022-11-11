@@ -1,0 +1,16 @@
+state = {
+	id = 926
+	name = "STATE_926"
+	manpower = 149052
+	state_category = large_city
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
+	}
+	provinces = {
+		3700 9661 11630
+	}
+	local_supplies = 0.0
+}

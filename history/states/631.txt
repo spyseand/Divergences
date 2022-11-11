@@ -1,0 +1,25 @@
+state = {
+	id = 631
+	name = "STATE_631"
+	manpower = 668365
+	state_category = town
+	resources = {
+		steel = 15
+	}
+	history = {
+		owner = ARA
+		add_core_of = ARA
+		victory_points = { 3816 3 }
+		victory_points = { 7213 1 }
+		victory_points = { 9840 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+	}
+	provinces = {
+		813 948 3816 6878 6901 7213 9812 9840 9842 11737 11838
+	}
+	local_supplies = 13.0
+}

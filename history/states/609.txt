@@ -1,0 +1,25 @@
+state = {
+	id = 609
+	name = "STATE_609"
+	manpower = 2064659
+	state_category = city
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 858 1 }
+		victory_points = { 3938 30 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 6
+		}
+	}
+	provinces = {
+		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224
+	}
+	local_supplies = 0.0
+}

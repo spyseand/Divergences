@@ -1,0 +1,21 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	manpower = 2496776
+	state_category = town
+	resources = {
+		tungsten = 32
+	}
+	history = {
+		owner = BRM
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+	provinces = {
+		1142 3999 4147 4454 4541 7122 7163 7190 7534 10033 10386 11966 12090 12335 12492
+	}
+	local_supplies = 0.0
+}

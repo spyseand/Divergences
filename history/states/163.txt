@@ -1,0 +1,18 @@
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 721000
+	state_category = rural
+	history = {
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		1698 1838 4704 4843 4947 7732 10839 12524 12598 12671
+	}
+	local_supplies = 0.0
+}

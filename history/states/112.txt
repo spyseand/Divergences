@@ -1,0 +1,20 @@
+state = {
+	id = 112
+	name = "STATE_112"
+	manpower = 778924
+	state_category = city
+	resources = {
+		steel = 32
+	}
+	history = {
+		owner = VIN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1719 1734 6767 6827 7896 12550
+	}
+	local_supplies = 0.0
+}

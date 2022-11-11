@@ -1,0 +1,19 @@
+state = {
+	id = 495
+	name = "STATE_495"
+	manpower = 337095
+	state_category = town
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+		}
+	}
+	provinces = {
+		6614 6619 9586
+	}
+	local_supplies = 1.0
+}

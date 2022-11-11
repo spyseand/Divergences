@@ -1,0 +1,19 @@
+state = {
+	id = 717
+	name = "STATE_717"
+	manpower = 1725045
+	state_category = large_town
+	history = {
+		owner = CRO
+		add_core_of = CRO
+		victory_points = { 11581 3 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		624 3592 3596 3627 9595 9611 11581 11594
+	}
+	local_supplies = 0.0
+}

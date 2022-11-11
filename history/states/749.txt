@@ -1,0 +1,24 @@
+state = {
+	id = 749
+	name = "STATE_749"
+	manpower = 1077853
+	state_category = town
+	resources = {
+		chromium = 39
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 947 10 }
+		victory_points = { 9799 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+	provinces = {
+		785 947 3786 3851 6864 6912 9799 9887 11778 11867
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	manpower = 146985
+	state_category = pastoral
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+	provinces = {
+		2198 5216 10960
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 357
+	name = "STATE_357"
+	manpower = 124857
+	state_category = wasteland
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+	provinces = {
+		1741 4703 4743 7726 7805 7863 10557 10628 10631 10688 12531 12608 12668 12681
+	}
+	local_supplies = 4.0
+}

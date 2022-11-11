@@ -1,0 +1,23 @@
+state = {
+	id = 552
+	name = "STATE_552"
+	manpower = 1402591
+	state_category = city
+	resources = {
+		aluminium = 6
+		steel = 19
+	}
+	history = {
+		owner = BOH
+		add_core_of = BOH
+		victory_points = { 9511 3 }
+		victory_points = { 11467 5 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		479 6512 9457 9511 11467
+	}
+	local_supplies = 4.0
+}

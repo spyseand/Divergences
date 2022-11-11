@@ -1,0 +1,22 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	manpower = 628033
+	state_category = town
+	resources = {
+		aluminium = 4
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = RUS
+		victory_points = { 6124 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		31 112 146 272 359 3103 3139 3264 3363 6089 6124 6191 6383 9050 9172 9214 9370 11087 11149 11354
+	}
+	local_supplies = 0.0
+}

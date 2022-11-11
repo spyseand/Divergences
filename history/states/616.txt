@@ -1,0 +1,22 @@
+state = {
+	id = 616
+	name = "STATE_616"
+	manpower = 713628
+	state_category = rural
+	resources = {
+		tungsten = 10
+	}
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 11825 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		903 3820 4024 6936 9700 9827 9846 9872 11684 11806 11809 11825 13227
+	}
+	local_supplies = 0.0
+}

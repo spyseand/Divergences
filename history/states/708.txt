@@ -1,0 +1,22 @@
+state = {
+	id = 708
+	name = "STATE_708"
+	manpower = 941500
+	state_category = rural
+	resources = {
+		aluminium = 4
+	}
+	history = {
+		owner = TRA
+		add_core_of = TRA
+		victory_points = { 9606 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		646 662 3649 9606 11592 11608
+	}
+	local_supplies = 11.0
+}

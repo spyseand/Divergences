@@ -1,0 +1,27 @@
+state = {
+	id = 22
+	name = "STATE_22"
+	manpower = 480859
+	state_category = rural
+	resources = {
+		oil = 1
+		aluminium = 4
+		steel = 4
+	}
+	history = {
+		owner = DES
+		add_core_of = DES
+		victory_points = { 8097 10 }
+		victory_points = { 10765 5 }
+		buildings = {
+			infrastructure = 3
+			4908 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		2069 3834 4908 5044 5071 7920 8012 8097 10765 10783 10809 10848 12827 12833 13214
+	}
+	local_supplies = 2.0
+}

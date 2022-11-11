@@ -1,0 +1,20 @@
+state = {
+	id = 330
+	name = "STATE_330"
+	manpower = 495040
+	state_category = pastoral
+	resources = {
+		aluminium = 1
+		chromium = 1
+	}
+	history = {
+		owner = MKH
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1970 5042
+	}
+	local_supplies = 0.0
+}

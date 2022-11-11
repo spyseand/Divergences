@@ -1,0 +1,20 @@
+state = {
+	id = 366
+	name = "STATE_366"
+	manpower = 242339
+	state_category = pastoral
+	resources = {
+		oil = 6
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1679 1726 1780 1856 4681 4730 7701 7750 7837 7849 7882 10533 10576 10613 10617 10663 10673 10686 10705 12514 12599 12672
+	}
+	local_supplies = 1.0
+}

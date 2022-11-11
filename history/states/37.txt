@@ -1,0 +1,22 @@
+state = {
+	id = 37
+	name = "STATE_37"
+	manpower = 777043
+	state_category = metropolis
+	resources = {
+		oil = 60
+		aluminium = 14
+	}
+	history = {
+		owner = DES
+		add_core_of = DES
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1915 1998 4955 7836 7981 8064 9773 10867 12301 12720 12875
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 911
+	name = "STATE_911"
+	manpower = 464781
+	state_category = metropolis
+	resources = {
+		oil = 18
+	}
+	history = {
+		owner = QIQ
+		victory_points = { 1562 15 }
+		victory_points = { 12461 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			1562 = {
+				naval_base = 10
+			}
+		}
+	}
+	provinces = {
+		823 1562 4727 7517 7986 12374 12461
+	}
+	local_supplies = 0.0
+}

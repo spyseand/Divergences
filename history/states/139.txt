@@ -1,0 +1,18 @@
+state = {
+	id = 139
+	name = "STATE_139"
+	manpower = 1080500
+	state_category = rural
+	history = {
+		owner = UYG
+		victory_points = { 4709 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656
+	}
+	local_supplies = 6.0
+}

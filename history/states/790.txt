@@ -1,0 +1,20 @@
+state = {
+	id = 790
+	name = "STATE_790"
+	manpower = 7887778
+	state_category = rural
+	resources = {
+		steel = 10
+		chromium = 10
+	}
+	history = {
+		owner = UTK
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1579 1622 4237 4557 7372 7428 7465 7574 10171 10255 10401 10469 12241 12420 12490
+	}
+	local_supplies = 0.0
+}

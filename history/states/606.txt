@@ -1,0 +1,25 @@
+state = {
+	id = 606
+	name = "STATE_606"
+	manpower = 4244445
+	state_category = large_city
+	resources = {
+		aluminium = 4
+	}
+	history = {
+		owner = BAY
+		add_core_of = BAY
+		victory_points = { 9517 20 }
+		victory_points = { 11499 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 4
+			air_base = 3
+		}
+	}
+	provinces = {
+		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13126
+	}
+	local_supplies = 0.0
+}

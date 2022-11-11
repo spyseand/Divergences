@@ -1,0 +1,17 @@
+state = {
+	id = 813
+	name = "STATE_813"
+	manpower = 605566
+	state_category = rural
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1888 1957 5073 7573 10806
+	}
+	local_supplies = 2.0
+}

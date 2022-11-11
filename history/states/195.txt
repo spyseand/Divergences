@@ -1,0 +1,20 @@
+state = {
+	id = 195
+	name = "STATE_195"
+	manpower = 1460088
+	state_category = pastoral
+	resources = {
+		aluminium = 1
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		3791 3947 6811 9766 9928 10376 10503 11893 11906 12355 12482
+	}
+	local_supplies = 0.0
+}

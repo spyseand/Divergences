@@ -1,0 +1,29 @@
+state = {
+	id = 571
+	name = "STATE_571"
+	manpower = 2524938
+	state_category = metropolis
+	resources = {
+		steel = 3
+	}
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		victory_points = { 391 40 }
+		victory_points = { 3211 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			air_base = 5
+			3314 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		68 391 3211 3314 8622
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 645
+	name = "STATE_645"
+	manpower = 745466
+	state_category = town
+	resources = {
+		aluminium = 3
+		tungsten = 4
+	}
+	history = {
+		owner = SCO
+		add_core_of = SCO
+		victory_points = { 200 5 }
+		victory_points = { 3150 1 }
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+		}
+	}
+	provinces = {
+		200 3150 9161 11055 11136 11207 11306
+	}
+	local_supplies = 0.0
+}

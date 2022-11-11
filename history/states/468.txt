@@ -1,0 +1,23 @@
+state = {
+	id = 468
+	name = "STATE_468"
+	manpower = 2505260
+	state_category = large_town
+	resources = {
+		oil = 46
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 7661 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		1536 4458 4473 4477 4545 4614 6763 7495 7661 11645 12434
+	}
+	local_supplies = 7.0
+}

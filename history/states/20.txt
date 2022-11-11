@@ -1,0 +1,23 @@
+state = {
+	id = 20
+	name = "STATE_20"
+	manpower = 347330
+	state_category = rural
+	resources = {
+		oil = 6
+		aluminium = 4
+		tungsten = 11
+		steel = 4
+	}
+	history = {
+		owner = NAV
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		7684 7764 7818 7821 7999 9792 10573 10645 12552
+	}
+	local_supplies = 3.0
+}

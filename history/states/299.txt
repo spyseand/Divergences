@@ -1,0 +1,22 @@
+state = {
+	id = 299
+	name = "STATE_299"
+	manpower = 2528086
+	state_category = city
+	history = {
+		owner = SCD
+		add_core_of = QIN
+		victory_points = { 4196 3 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			4196 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		4196
+	}
+	local_supplies = 0.0
+}

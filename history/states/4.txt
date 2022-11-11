@@ -1,0 +1,23 @@
+state = {
+	id = 4
+	name = "STATE_4"
+	manpower = 342827
+	state_category = metropolis
+	resources = {
+		oil = 39
+		aluminium = 19
+		tungsten = 25
+		steel = 55
+	}
+	history = {
+		owner = QIQ
+		add_core_of = QIQ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		710 766 1432 1601 1651 1862 4331 4521 4607 4657 4736 4799 4816 6694 6699 6876 7667 7827 10159 10422 11698 12134 12399 12425
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 409
+	name = "STATE_409"
+	manpower = 996743
+	state_category = rural
+	resources = {
+		aluminium = 3
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		123 189 3127 4314 4326 4802 6025 9283 11111 11195 12175 12187 12527 12587
+	}
+	local_supplies = 0.0
+}

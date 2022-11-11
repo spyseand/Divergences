@@ -1,0 +1,20 @@
+state = {
+	id = 78
+	name = "STATE_78"
+	manpower = 961668
+	state_category = large_city
+	history = {
+		owner = BLC
+		add_core_of = BLC
+		victory_points = { 10412 15 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+	provinces = {
+		873 951 3823 6958 10343 10412 11873 11888
+	}
+	local_supplies = 3.0
+}

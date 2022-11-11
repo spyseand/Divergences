@@ -1,0 +1,29 @@
+state = {
+	id = 450
+	name = "STATE_450"
+	manpower = 1252645
+	state_category = city
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		victory_points = { 3083 1 }
+		victory_points = { 11105 15 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+			air_base = 5
+			3083 = {
+				naval_base = 3
+			}
+			11105 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		67 169 204 3083 3161 6009 6066 6108 6144 9094 9129 9194 11066 11105 11172 11211 13100 13101 13102
+	}
+	local_supplies = 0.0
+}

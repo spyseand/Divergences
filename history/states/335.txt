@@ -1,0 +1,21 @@
+state = {
+	id = 335
+	name = "STATE_335"
+	manpower = 224000
+	state_category = small_island
+	history = {
+		owner = AST
+		add_core_of = AST
+		victory_points = { 2189 1 }
+		buildings = {
+			infrastructure = 3
+			2189 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		2183 2189 5181 5187 10665 12645
+	}
+	local_supplies = 0.0
+}

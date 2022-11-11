@@ -1,0 +1,19 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	manpower = 21706961
+	state_category = city
+	history = {
+		owner = IRP
+		victory_points = { 2086 15 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+		}
+	}
+	provinces = {
+		2086 7998 12844 12868
+	}
+	local_supplies = 1.0
+}

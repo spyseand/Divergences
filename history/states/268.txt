@@ -1,0 +1,20 @@
+state = {
+	id = 268
+	name = "STATE_268"
+	manpower = 5800251
+	state_category = town
+	resources = {
+		tungsten = 10
+		chromium = 4
+	}
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1248 1302 4255 4379 4397 7229 7280 10016 10137 10180 10309 11909 11936 12297
+	}
+	local_supplies = 0.0
+}

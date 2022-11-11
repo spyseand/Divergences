@@ -1,0 +1,20 @@
+state = {
+	id = 104
+	name = "STATE_104"
+	manpower = 162413
+	state_category = town
+	resources = {
+		oil = 4
+		aluminium = 2
+	}
+	history = {
+		owner = NAV
+		add_core_of = NAV
+		buildings = {
+		}
+	}
+	provinces = {
+		868 1658 10642 12627
+	}
+	local_supplies = 0.0
+}

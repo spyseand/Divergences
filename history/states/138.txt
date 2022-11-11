@@ -1,0 +1,16 @@
+state = {
+	id = 138
+	name = "STATE_138"
+	manpower = 2577600
+	state_category = pastoral
+	history = {
+		owner = MNG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1959 3427 3742 4960 4986 5031 5057 5100 7511 8055 8081 8127 10451 10724 10854 12327 12706 12750 12776
+	}
+	local_supplies = 0.0
+}

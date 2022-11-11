@@ -1,0 +1,26 @@
+state = {
+	id = 280
+	name = "STATE_280"
+	manpower = 2831073
+	state_category = "town"
+	resources = {
+		rubber = 10
+	}
+	history = {
+		owner = BEI
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 1
+			10175 = {
+				naval_base = 1
+			}
+			12234 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1298 4273 4301 7293 7321 10175 10191 10219 12151 12162 12219 12234
+	}
+	local_supplies = 2.0
+}

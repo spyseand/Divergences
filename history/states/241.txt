@@ -1,0 +1,25 @@
+state = {
+	id = 241
+	name = "STATE_241"
+	manpower = 1887230
+	state_category = city
+	resources = {
+		tungsten = 47
+		steel = 2
+	}
+	history = {
+		owner = INC
+		add_core_of = INC
+		victory_points = { 5230 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+	provinces = {
+		5179 5229 5230 8157 8225 10938 10987 12930 12979 13134 13195
+	}
+	local_supplies = 0.0
+}

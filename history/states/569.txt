@@ -1,0 +1,24 @@
+state = {
+	id = 569
+	name = "STATE_569"
+	manpower = 4339527
+	state_category = metropolis
+	resources = {
+		steel = 16
+	}
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		victory_points = { 6469 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 3
+		}
+	}
+	provinces = {
+		529 3512 6444 6469 6570 9482 9486
+	}
+	local_supplies = 1.0
+}

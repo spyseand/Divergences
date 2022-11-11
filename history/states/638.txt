@@ -1,0 +1,29 @@
+state = {
+	id = 638
+	name = "STATE_638"
+	manpower = 1285550
+	state_category = "city"
+	resources = {
+		aluminium = 2
+	}
+	history = {
+		owner = CNU
+		add_core_of = CNU
+		victory_points = { 385 1 }
+		victory_points = { 3379 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			air_base = 1
+			3379 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces = {
+		276 337 385 3217 3242 3329 3379 11257
+	}
+	local_supplies = 2.0
+}

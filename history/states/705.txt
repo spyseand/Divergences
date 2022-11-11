@@ -1,0 +1,19 @@
+state = {
+	id = 705
+	name = "STATE_705"
+	manpower = 854300
+	state_category = rural
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = SLO
+		victory_points = { 3548 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		3548 6571 9563 11536 11691
+	}
+	local_supplies = 0.0
+}

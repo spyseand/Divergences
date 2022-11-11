@@ -1,0 +1,19 @@
+state = {
+	id = 445
+	name = "STATE_445"
+	manpower = 418635
+	state_category = town
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		victory_points = { 9206 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162
+	}
+	local_supplies = 0.0
+}

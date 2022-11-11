@@ -1,12 +1,12 @@
 
 strategic_region={
 	id=215
-	name="STRATEGICREGION_228"
+	name="STRATEGICREGION_NAMIBIA"
 	provinces={
-		# State 916
-		12921 8136 10978 10957
-		# State 915
-		5203 7605 4879 2207 2229 5154 10963 5189 
+		# State 875
+		8136 10957 10978 12921
+		# State 874
+		2207 2229 4879 5154 5189 5203 7605 10963 
 	}
 	weather={
 		period={

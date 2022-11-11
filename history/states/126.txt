@@ -1,0 +1,16 @@
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 373781
+	state_category = rural
+	history = {
+		owner = TIB
+		buildings = {
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		4914 4964 8037 12899
+	}
+	local_supplies = 0.0
+}

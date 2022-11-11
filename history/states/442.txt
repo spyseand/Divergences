@@ -1,0 +1,24 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	manpower = 1008654
+	state_category = city
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 9833 25 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+			9833 = {
+				naval_base = 8
+			}
+		}
+	}
+	provinces = {
+		9833
+	}
+	local_supplies = 0.0
+}

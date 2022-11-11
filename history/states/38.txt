@@ -1,0 +1,21 @@
+state = {
+	id = 38
+	name = "STATE_38"
+	manpower = 342304
+	state_category = rural
+	resources = {
+		tungsten = 5
+	}
+	history = {
+		owner = SIX
+		add_core_of = SIX
+		victory_points = { 4860 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1262 1851 1857 4741 4860 7718 10552 10593 10624 11712 12572 12585
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 134
+	name = "STATE_134"
+	manpower = 640542
+	state_category = rural
+	history = {
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 10499 12348 12448 12554
+	}
+	local_supplies = 0.0
+}

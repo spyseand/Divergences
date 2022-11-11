@@ -1,0 +1,19 @@
+state = {
+	id = 910
+	name = "STATE_910"
+	manpower = 52556
+	state_category = wasteland
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		victory_points = { 9989 1 }
+		victory_points = { 10061 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		5078 7079 7148 9989 10061 11910 11967 12033 12091
+	}
+	local_supplies = 9.0
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 649
+	name = "STATE_649"
+	manpower = 9824296
+	state_category = megalopolis
+	history = {
+		owner = EGL
+		add_core_of = EGL
+		victory_points = { 6103 50 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 1
+			air_base = 10
+			11374 = {
+				naval_base = 10
+			}
+		}
+	}
+	provinces = {
+		6103 9239 11333 11374
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 713
+	name = "STATE_713"
+	manpower = 895500
+	state_category = rural
+	resources = {
+		aluminium = 70
+		chromium = 20
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		victory_points = { 9809 3 }
+		victory_points = { 9821 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+			}
+			9821 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		937 6913 9809 9821 11858
+	}
+	local_supplies = 3.0
+}

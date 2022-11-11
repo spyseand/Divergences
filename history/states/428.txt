@@ -1,0 +1,23 @@
+state = {
+	id = 428
+	name = "STATE_428"
+	manpower = 631520
+	state_category = pastoral
+	resources = {
+		oil = 2
+		steel = 6
+		chromium = 13
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 10329 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		361 3280 4265 7320 10136 10142 10185 10329 11223 12117
+	}
+	local_supplies = 5.0
+}

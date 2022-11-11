@@ -1,0 +1,27 @@
+state = {
+	id = 207
+	name = "STATE_207"
+	manpower = 2361087
+	state_category = large_city
+	resources = {
+		steel = 8
+	}
+	history = {
+		owner = INC
+		add_core_of = INC
+		victory_points = { 650 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 3
+			8222 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		650 5191 8222 8229 8251 12984
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 883
+	name = "STATE_883"
+	manpower = 377188
+	state_category = rural
+	resources = {
+		tungsten = 2
+		chromium = 10
+	}
+	history = {
+		owner = BUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		191 1846 10594 13173
+	}
+	local_supplies = 0.0
+}

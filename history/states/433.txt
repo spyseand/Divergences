@@ -1,0 +1,20 @@
+state = {
+	id = 433
+	name = "STATE_433"
+	manpower = 1994008
+	state_category = rural
+	history = {
+		owner = TRN
+		victory_points = { 1573 2 }
+		victory_points = { 10671 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		756 1573 1632 7639 9605 10205 10470 10671 12161 12239 12722
+	}
+	local_supplies = 2.0
+}

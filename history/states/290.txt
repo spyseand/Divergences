@@ -1,0 +1,21 @@
+state = {
+	id = 290
+	name = "STATE_290"
+	manpower = 2057853
+	state_category = town
+	resources = {
+		rubber = 2
+		tungsten = 19
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		add_core_of = BRM
+		buildings = {
+		}
+	}
+	provinces = {
+		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 295
+	name = "STATE_295"
+	manpower = 4088140
+	state_category = town
+	resources = {
+		oil = 6
+		aluminium = 11
+		rubber = 70
+	}
+	history = {
+		owner = BEI
+		add_core_of = BEI
+		victory_points = { 4652 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			1648 = {
+				naval_base = 1
+			}
+			4652 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1277 1332 1428 1460 1648 4446 4652 7327 7463 7658 7673 8360 10209 10225 10354 10382 10509 10522 12126 12168 12181 12184 12212 12302 12343 12488
+	}
+	local_supplies = 0.0
+}

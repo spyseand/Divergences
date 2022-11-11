@@ -1,0 +1,19 @@
+state = {
+	id = 686
+	name = "STATE_686"
+	manpower = 779511
+	state_category = rural
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		victory_points = { 3350 3 }
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+		}
+	}
+	provinces = {
+		3203 3293 3350 3507 6319 6373 9249
+	}
+	local_supplies = 0.0
+}

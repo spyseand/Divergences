@@ -1,0 +1,21 @@
+state = {
+	id = 576
+	name = "STATE_576"
+	manpower = 493690
+	state_category = large_town
+	history = {
+		owner = OTT
+		victory_points = { 6889 3 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			6889 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		3868 6889 11816
+	}
+	local_supplies = 2.0
+}

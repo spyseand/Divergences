@@ -1,0 +1,22 @@
+state = {
+	id = 786
+	name = "STATE_786"
+	manpower = 19454742
+	state_category = rural
+	resources = {
+		aluminium = 1
+		steel = 12
+		chromium = 7
+	}
+	history = {
+		owner = IRP
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		1059 1101 1444 1538 4062 4104 4204 4513 7220 7497 10060 10088 10116 10358 10428 12035 12063 12307 12375
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 865
+	name = "STATE_865"
+	manpower = 1500000
+	state_category = pastoral
+	history = {
+		owner = PLC
+		victory_points = { 2009 2 }
+		victory_points = { 7912 1 }
+		victory_points = { 8019 1 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		2009 4954 7912 8019 10734 12856
+	}
+	local_supplies = 0.0
+}

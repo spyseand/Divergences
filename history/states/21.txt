@@ -1,0 +1,22 @@
+state = {
+	id = 21
+	name = "STATE_21"
+	manpower = 42204
+	state_category = rural
+	history = {
+		owner = DES
+		add_core_of = DES
+		buildings = {
+			1892 = {
+				naval_base = 2
+			}
+			12736 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1892 1904 7964 8119 12736 12859 13215 13216
+	}
+	local_supplies = 0.0
+}

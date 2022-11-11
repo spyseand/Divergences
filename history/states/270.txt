@@ -1,0 +1,20 @@
+state = {
+	id = 270
+	name = "STATE_270"
+	manpower = 3354910
+	state_category = town
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		victory_points = { 7376 1 }
+		buildings = {
+			7432 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1324 1353 4251 4302 4359 4639 5236 7319 7376 7404 7432 10134 10177 10289 10467 12191 12447 12460 12475
+	}
+	local_supplies = 0.0
+}

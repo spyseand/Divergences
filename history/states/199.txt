@@ -1,0 +1,24 @@
+state = {
+	id = 199
+	name = "STATE_199"
+	manpower = 6844979
+	state_category = city
+	resources = {
+		steel = 16
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 11771 3 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+		}
+	}
+	provinces = {
+		846 892 987 3849 3895 6804 6893 6910 6951 9781 9788 9831 9835 9885 11764 11771 11808 11815 11836
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 96
+	name = "STATE_96"
+	manpower = 908797
+	state_category = city
+	resources = {
+		oil = 25
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1528 1559 1643 4507 7555 7599 12313 12401
+	}
+	local_supplies = 0.0
+}

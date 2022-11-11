@@ -1,0 +1,21 @@
+state = {
+	id = 877
+	name = "STATE_877"
+	manpower = 1659707
+	state_category = rural
+	history = {
+		owner = SPA
+		victory_points = { 8248 1 }
+		victory_points = { 10966 1 }
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		2126 5158 8219 8248 10966 12958 12981
+	}
+	local_supplies = 0.0
+}

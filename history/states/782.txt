@@ -1,0 +1,26 @@
+state = {
+	id = 782
+	name = "STATE_782"
+	manpower = 14543823
+	state_category = city
+	resources = {
+		steel = 7
+	}
+	history = {
+		owner = BEN
+		victory_points = { 4245 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			4245 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		1159 1609 1656 4245 4644 7475 7537 7593 10077 12050
+	}
+	local_supplies = 0.0
+}

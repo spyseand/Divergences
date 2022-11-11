@@ -1,0 +1,24 @@
+state = {
+	id = 237
+	name = "STATE_237"
+	manpower = 206000
+	state_category = pastoral
+	resources = {
+		aluminium = 43
+	}
+	history = {
+		owner = GTC
+		add_core_of = GTC
+		victory_points = { 4982 1 }
+		buildings = {
+			infrastructure = 1
+			4982 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		4982 12716
+	}
+	local_supplies = 3.0
+}

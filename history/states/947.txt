@@ -1,0 +1,20 @@
+state = {
+	id = 947
+	name = "STATE_947"
+	manpower = 79300
+	state_category = enclave
+	history = {
+		owner = EGL
+		victory_points = { 4967 1 }
+		buildings = {
+			infrastructure = 2
+			4967 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		4967
+	}
+	local_supplies = 0.0
+}

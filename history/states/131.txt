@@ -1,0 +1,16 @@
+state = {
+	id = 131
+	name = "STATE_131"
+	manpower = 81846
+	state_category = wasteland
+	impassable = yes
+	history = {
+		owner = BUR
+		buildings = {
+		}
+	}
+	provinces = {
+		1956 4902 5136
+	}
+	local_supplies = 1.0
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	manpower = 3750158
+	state_category = metropolis
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 3151 30 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 6
+			dockyard = 3
+			air_base = 10
+			3151 = {
+				naval_base = 10
+			}
+		}
+	}
+	provinces = {
+		79 149 3151 6174 11068
+	}
+	local_supplies = 11.0
+}

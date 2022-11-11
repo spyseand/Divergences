@@ -1,0 +1,21 @@
+state = {
+	id = 770
+	name = "STATE_770"
+	manpower = 9007237
+	state_category = rural
+	resources = {
+		rubber = 3
+		chromium = 4
+	}
+	history = {
+		owner = DEC
+		victory_points = { 8011 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1412 4315 4344 7244 7391 7447 8011 8100 10190 10208 10808 12146 12275
+	}
+	local_supplies = 0.0
+}

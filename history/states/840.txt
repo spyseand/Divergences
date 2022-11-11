@@ -1,0 +1,28 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	manpower = 457143
+	state_category = rural
+	resources = {
+		oil = 3
+	}
+	history = {
+		owner = OTT
+		add_core_of = ARB
+		add_core_of = JAB
+		victory_points = { 8085 1 }
+		buildings = {
+			infrastructure = 3
+			8085 = {
+				naval_base = 4
+			}
+			12702 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		1955 8085 10791 12702
+	}
+	local_supplies = 0.0
+}

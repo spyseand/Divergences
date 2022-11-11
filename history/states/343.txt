@@ -1,0 +1,19 @@
+state = {
+	id = 343
+	name = "STATE_343"
+	manpower = 157936
+	state_category = pastoral
+	history = {
+		owner = SEI
+		add_core_of = SEI
+		buildings = {
+			1574 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1574 7557 10409
+	}
+	local_supplies = 0.0
+}

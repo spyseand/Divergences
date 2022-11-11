@@ -1,0 +1,24 @@
+state = {
+	id = 774
+	name = "STATE_774"
+	manpower = 9339395
+	state_category = town
+	resources = {
+		oil = 3
+	}
+	history = {
+		owner = IRP
+		victory_points = { 9975 1 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			9975 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1061 1103 1144 1147 1190 4064 4090 4132 7020 7165 7207 9975 10118 11952 12037 12092 12886
+	}
+	local_supplies = 0.0
+}

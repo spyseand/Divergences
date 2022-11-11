@@ -1,0 +1,32 @@
+state = {
+	id = 89
+	name = "STATE_89"
+	manpower = 3636000
+	state_category = town
+	resources = {
+		chromium = 3
+	}
+	history = {
+		owner = GTC
+		add_core_of = GTC
+		victory_points = { 4598 1 }
+		victory_points = { 4641 5 }
+		victory_points = { 7660 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+			4641 = {
+				naval_base = 3
+			}
+			7660 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1594 1635 4598 4641 7632 7660 10484
+	}
+	local_supplies = 0.0
+}

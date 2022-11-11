@@ -1,0 +1,19 @@
+state = {
+	id = 788
+	name = "STATE_788"
+	manpower = 16055395
+	state_category = rural
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = IRP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1510 2005 4045 4410 4953 5040 5096 7938 8120 10332 10801 12480
+	}
+	local_supplies = 0.0
+}

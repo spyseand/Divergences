@@ -1,0 +1,21 @@
+state = {
+	id = 111
+	name = "STATE_111"
+	manpower = 1599074
+	state_category = city
+	resources = {
+		steel = 27
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1831 1867 4664 4691 4807 7536 10595 10666 11788 11971 12577 12646 12667
+	}
+	local_supplies = 2.0
+}

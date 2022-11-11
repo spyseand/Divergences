@@ -1,0 +1,29 @@
+state = {
+	id = 236
+	name = "STATE_236"
+	manpower = 2272900
+	state_category = town
+	resources = {
+		oil = 58
+	}
+	history = {
+		owner = GCO
+		add_core_of = GCO
+		victory_points = { 1944 1 }
+		victory_points = { 8113 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			1944 = {
+				naval_base = 5
+			}
+			8113 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1944 1997 2052 4526 4892 4942 5000 5056 5088 8024 8113 10855 12772
+	}
+	local_supplies = 6.0
+}

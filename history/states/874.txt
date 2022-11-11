@@ -1,0 +1,18 @@
+state = {
+	id = 874
+	name = "STATE_874"
+	manpower = 170831
+	state_category = wasteland
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		victory_points = { 4879 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		2207 2229 4879 5154 5189 5203 7605 10963
+	}
+	local_supplies = 0.0
+}

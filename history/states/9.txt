@@ -1,0 +1,21 @@
+state = {
+	id = 9
+	name = "STATE_9"
+	manpower = 332852
+	state_category = town
+	resources = {
+		tungsten = 5
+		steel = 5
+	}
+	history = {
+		owner = QIQ
+		add_core_of = QIQ
+		victory_points = { 9616 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		1414 4347 4826 7721 7845 7865 9616 10305 10556 10625 10687 12183 12553 12607
+	}
+	local_supplies = 2.0
+}

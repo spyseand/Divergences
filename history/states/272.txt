@@ -1,0 +1,24 @@
+state = {
+	id = 272
+	name = "STATE_272"
+	manpower = 1424700
+	state_category = rural
+	history = {
+		owner = JPH
+		add_core_of = JPH
+		victory_points = { 4241 3 }
+		buildings = {
+			infrastructure = 1
+			1351 = {
+				naval_base = 1
+			}
+			4241 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1234 1293 1351 1379 1407 1421 4241 4266 4399 4427 7284 7360 7389 7417 7445 10214 10243 10300 10328 12116 12158 12160 12188 12217 12245 12273
+	}
+	local_supplies = 0.0
+}

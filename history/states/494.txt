@@ -1,0 +1,22 @@
+state = {
+	id = 494
+	name = "STATE_494"
+	manpower = 66839
+	state_category = rural
+	impassable = yes
+	resources = {
+		tungsten = 11
+		steel = 13
+		chromium = 7
+	}
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		buildings = {
+		}
+	}
+	provinces = {
+		58 190 3179 6055 6152 6155 9083 9095 9134 9175 9178 9211 11026 11058 11102 11112 11152 13119
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 353
+	name = "STATE_353"
+	manpower = 549950
+	state_category = rural
+	resources = {
+		tungsten = 5
+		steel = 17
+		chromium = 12
+	}
+	history = {
+		owner = JRS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1666 1761 1792 4675 4716 4737 4762 4795 4821 4835 4868 7736 7759 7854 7889 10524 10565 10583 10654 10681 10714 12506 12538 12565 12575
+	}
+	local_supplies = 7.0
+}

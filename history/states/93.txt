@@ -1,0 +1,24 @@
+state = {
+	id = 93
+	name = "STATE_93"
+	manpower = 76299
+	state_category = rural
+	resources = {
+		oil = 35
+	}
+	history = {
+		owner = GTC
+		add_core_of = GTC
+		victory_points = { 153 1 }
+		buildings = {
+			infrastructure = 2
+			153 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		153
+	}
+	local_supplies = 0.0
+}

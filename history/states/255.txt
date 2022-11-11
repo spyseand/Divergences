@@ -1,0 +1,18 @@
+state = {
+	id = 255
+	name = "STATE_255"
+	manpower = 3658476
+	state_category = rural
+	history = {
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		1529 1583 2109 4533 4548 4587 5156 5167 5178 5186 7553 8181 8239 10405 10947 10994 11003 11008 12466 12937 12972
+	}
+	local_supplies = 0.0
+}

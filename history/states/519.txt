@@ -1,0 +1,18 @@
+state = {
+	id = 519
+	name = "STATE_519"
+	manpower = 207943
+	state_category = rural
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		107 115 3018 3098 6038 6041 6116 6173 9069 9132 11118 11173
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 647
+	name = "STATE_647"
+	manpower = 1063463
+	state_category = town
+	history = {
+		owner = EGL
+		add_core_of = EGL
+		victory_points = { 540 10 }
+		victory_points = { 6526 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			540 = {
+				naval_base = 8
+			}
+		}
+	}
+	provinces = {
+		540 3463 6526 9562 11406
+	}
+	local_supplies = 0.0
+}

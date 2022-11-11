@@ -1,0 +1,21 @@
+state = {
+	id = 857
+	name = "STATE_857"
+	manpower = 368023
+	state_category = rural
+	resources = {
+		tungsten = 2
+		chromium = 10
+	}
+	history = {
+		owner = SPA
+		victory_points = { 5199 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		5199 7872 12504
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 875
+	name = "STATE_875"
+	manpower = 100100
+	state_category = wasteland
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		8136 10957 10978 12921
+	}
+	local_supplies = 0.0
+}

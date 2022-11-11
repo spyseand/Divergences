@@ -1,0 +1,15 @@
+state = {
+	id = 773
+	name = "STATE_773"
+	manpower = 3755040
+	state_category = town
+	history = {
+		owner = IRP
+		buildings = {
+		}
+	}
+	provinces = {
+		4072 4187 7013 7150 10019 11993
+	}
+	local_supplies = 0.0
+}

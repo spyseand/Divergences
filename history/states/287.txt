@@ -1,0 +1,29 @@
+state = {
+	id = 287
+	name = "STATE_287"
+	manpower = 789800
+	state_category = "rural"
+	history = {
+		owner = SEI
+		add_core_of = SEI
+		victory_points = { 4329 3 }
+		victory_points = { 12237 1 }
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			4329 = {
+				naval_base = 3
+			}
+			12154 = {
+				naval_base = 1
+			}
+			12237 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1222 1242 1389 4289 4317 4329 4346 4393 4418 5135 7305 7333 7349 7362 7365 7378 7409 7614 10231 10248 10251 10260 10954 10974 11018 12135 12154 12193 12237 12428 12931 12995
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 868
+	name = "STATE_868"
+	manpower = 212012
+	state_category = small_island
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 1751 3 }
+		buildings = {
+			infrastructure = 2
+			1751 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1751
+	}
+	local_supplies = 0.0
+}

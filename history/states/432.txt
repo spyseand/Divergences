@@ -1,0 +1,19 @@
+state = {
+	id = 432
+	name = "STATE_432"
+	manpower = 421196
+	state_category = pastoral
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = TRN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1239 1243 1312 1382 1402 4250 4277 4389 4492 4595 4764 7332 7335 7392 7405 10179 10220 10268 10275 10277 10290 10452 10508 12111 12121 12177 12194 12487
+	}
+	local_supplies = 1.0
+}

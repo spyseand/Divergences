@@ -1,0 +1,19 @@
+state = {
+	id = 574
+	name = "STATE_574"
+	manpower = 299460
+	state_category = rural
+	resources = {
+		aluminium = 9
+	}
+	history = {
+		owner = SWI
+		victory_points = { 658 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		658 3660 3662
+	}
+	local_supplies = 0.0
+}

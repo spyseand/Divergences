@@ -1,0 +1,18 @@
+state = {
+	id = 771
+	name = "STATE_771"
+	manpower = 4829297
+	state_category = rural
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = DRA
+		buildings = {
+		}
+	}
+	provinces = {
+		4414 5032 5104 7411 10259 10756 10799
+	}
+	local_supplies = 1.0
+}

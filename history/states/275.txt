@@ -1,0 +1,29 @@
+state = {
+	id = 275
+	name = "STATE_275"
+	manpower = 3858016
+	state_category = town
+	history = {
+		owner = JPH
+		add_core_of = JPH
+		victory_points = { 1221 1 }
+		victory_points = { 1415 1 }
+		victory_points = { 10265 15 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+			1415 = {
+				naval_base = 1
+			}
+			10265 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		1221 1288 1388 1415 7275 7323 7351 10165 10236 10265 10280 12236
+	}
+	local_supplies = 0.0
+}

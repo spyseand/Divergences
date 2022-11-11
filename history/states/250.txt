@@ -1,0 +1,19 @@
+state = {
+	id = 250
+	name = "STATE_250"
+	manpower = 795200
+	state_category = rural
+	resources = {
+		rubber = 4
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+	provinces = {
+		2168 5151 5204 12947
+	}
+	local_supplies = 0.0
+}

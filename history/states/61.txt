@@ -1,0 +1,26 @@
+state = {
+	id = 61
+	name = "STATE_61"
+	manpower = 2813500
+	state_category = wasteland
+	resources = {
+		aluminium = 1
+		tungsten = 1
+		steel = 2
+		chromium = 2
+	}
+	history = {
+		owner = TRN
+		victory_points = { 1459 3 }
+		victory_points = { 10488 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		1459 1483 4686 10148 10187 10408 10488 10530 10601 10660 12640
+	}
+	local_supplies = 1.0
+}

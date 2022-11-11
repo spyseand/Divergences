@@ -1,0 +1,19 @@
+state = {
+	id = 789
+	name = "STATE_789"
+	manpower = 3574179
+	state_category = rural
+	resources = {
+		steel = 6
+		chromium = 5
+	}
+	history = {
+		owner = IRP
+		buildings = {
+		}
+	}
+	provinces = {
+		7090 9946 10001 11924 11978 12462
+	}
+	local_supplies = 0.0
+}

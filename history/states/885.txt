@@ -1,0 +1,23 @@
+state = {
+	id = 885
+	name = "STATE_885"
+	manpower = 5891957
+	state_category = rural
+	resources = {
+		rubber = 5
+		tungsten = 3
+	}
+	history = {
+		owner = SCD
+		victory_points = { 2220 1 }
+		victory_points = { 9962 1 }
+		victory_points = { 12989 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		2220 2308 3854 4171 4201 7088 8144 9962 12989 13176 13177
+	}
+	local_supplies = 1.0
+}

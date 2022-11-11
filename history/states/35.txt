@@ -1,0 +1,21 @@
+state = {
+	id = 35
+	name = "STATE_35"
+	manpower = 271299
+	state_category = rural
+	resources = {
+		oil = 31
+		aluminium = 16
+	}
+	history = {
+		owner = DES
+		add_core_of = DES
+		victory_points = { 4975 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		1954 3867 3883 4975 5038 8070 10740 10894 12684 12791
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 966
+	name = "STATE_966"
+	manpower = 2300204
+	state_category = metropolis
+	resources = {
+		oil = 47
+		aluminium = 7
+	}
+	history = {
+		owner = LOU
+		add_core_of = LOU
+		victory_points = { 10337 10 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			air_base = 3
+			10337 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		805 1500 7628 10337 10504 10861 12486
+	}
+	local_supplies = 3.0
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 240
+	name = "STATE_240"
+	manpower = 260399
+	state_category = rural
+	resources = {
+		tungsten = 9
+	}
+	history = {
+		owner = INC
+		add_core_of = INC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		2174 5131 8217 8231 10952
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 776
+	name = "STATE_776"
+	manpower = 804206
+	state_category = rural
+	history = {
+		owner = BCH
+		victory_points = { 3456 3 }
+		buildings = {
+			3456 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces = {
+		3456 7049 10108 10735
+	}
+	local_supplies = 2.0
+}

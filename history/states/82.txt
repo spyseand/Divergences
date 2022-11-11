@@ -1,0 +1,25 @@
+state = {
+	id = 82
+	name = "STATE_82"
+	manpower = 1573206
+	state_category = city
+	history = {
+		owner = BLC
+		add_core_of = BLC
+		victory_points = { 7202 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7202 = {
+				naval_base = 2
+			}
+			11975 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1485 1547 3994 4653 7118 7202 7527 10029 10394 10437 10465 11975
+	}
+	local_supplies = 0.0
+}

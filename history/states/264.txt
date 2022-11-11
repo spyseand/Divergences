@@ -1,0 +1,23 @@
+state = {
+	id = 264
+	name = "STATE_264"
+	manpower = 5240069
+	state_category = city
+	resources = {
+		rubber = 5
+		tungsten = 7
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		victory_points = { 1488 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1253 1427 1488 1990 4319 4348 4496 4566 7312 7338 7353 7367 7492 7531 7544 7559 7572 7587 7647 7675 8045 10193 10221 10330 10356 10371 10398 10411 10456 12173 12317 12345
+	}
+	local_supplies = 0.0
+}

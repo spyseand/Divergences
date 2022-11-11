@@ -1,0 +1,28 @@
+state = {
+	id = 864
+	name = "STATE_864"
+	manpower = 2575000
+	state_category = rural
+	resources = {
+		rubber = 1
+	}
+	history = {
+		owner = PLC
+		victory_points = { 5010 5 }
+		victory_points = { 5097 1 }
+		victory_points = { 7980 2 }
+		victory_points = { 8036 1 }
+		victory_points = { 10775 1 }
+		victory_points = { 12812 1 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+	provinces = {
+		4995 5010 5097 7980 8036 8062 10775 12714 12757 12812
+	}
+	local_supplies = 0.0
+}

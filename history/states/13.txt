@@ -1,0 +1,16 @@
+state = {
+	id = 13
+	name = "STATE_13"
+	manpower = 18940
+	state_category = "rural"
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+		}
+	}
+	provinces = {
+		1872 4848 5403 7869 10707 13069 13202 13203
+	}
+	local_supplies = 0.0
+}

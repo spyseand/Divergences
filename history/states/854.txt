@@ -1,0 +1,26 @@
+state = {
+	id = 854
+	name = "STATE_854"
+	manpower = 3081947
+	state_category = city
+	resources = {
+		steel = 1
+		chromium = 48
+	}
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		victory_points = { 1468 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			1468 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1468 1833 4556 4584 5231 7576 12064 12648
+	}
+	local_supplies = 0.0
+}

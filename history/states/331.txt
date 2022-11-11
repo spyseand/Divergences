@@ -1,0 +1,22 @@
+state = {
+	id = 331
+	name = "STATE_331"
+	manpower = 35450
+	state_category = rural
+	resources = {
+		aluminium = 1
+		tungsten = 1
+	}
+	history = {
+		owner = SCD
+		buildings = {
+			6196 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		6196
+	}
+	local_supplies = 0.0
+}

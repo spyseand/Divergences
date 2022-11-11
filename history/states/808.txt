@@ -1,0 +1,21 @@
+state = {
+	id = 808
+	name = "STATE_808"
+	manpower = 9575259
+	state_category = town
+	resources = {
+		chromium = 5
+	}
+	history = {
+		owner = ARY
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 3
+		}
+	}
+	provinces = {
+		1359 1405 4353 5019 5063 7060 10311 10324 10511 11950 12142 12226
+	}
+	local_supplies = 2.0
+}

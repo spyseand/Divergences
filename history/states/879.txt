@@ -1,0 +1,21 @@
+state = {
+	id = 879
+	name = "STATE_879"
+	manpower = 929363
+	state_category = rural
+	resources = {
+		rubber = 1
+		tungsten = 3
+		chromium = 9
+	}
+	history = {
+		owner = SPA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		697 1552 4735 8054 10538 12677
+	}
+	local_supplies = 0.0
+}

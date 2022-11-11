@@ -3,9 +3,9 @@ strategic_region={
 	id=169
 	name="STRATEGICREGION_169"
 	provinces={
-		# State 598
+		# State 582
 		902 6891 9772 9863 11755 11773 11824 11874
-		# State 537
+		# State 523
 		3838 9851 11804
 		# Water Provinces
 		1452 5555 5579 5656 5681 8965 

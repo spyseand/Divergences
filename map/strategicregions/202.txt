@@ -3,12 +3,10 @@ strategic_region={
 	id=202
 	name="STRATEGICREGION_202"
 	provinces={
-		# State 762
-		12058 1164 9940 4170
-		# State 760
-		7003 10007
-		# State 759
-		8435 6550 3401
+		# State 740
+		1164 4170 9940 12058
+		# State 738
+		3401 6550 7003 8435 10007
 		# Water Provinces
 		6801 7226 7452 7678 
 	}

@@ -1,0 +1,25 @@
+state = {
+	id = 622
+	name = "STATE_622"
+	manpower = 365500
+	state_category = rural
+	history = {
+		owner = ARA
+		add_core_of = ARA
+		victory_points = { 9793 1 }
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			7114 = {
+				naval_base = 1
+			}
+			9793 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		7114 9793 9845
+	}
+	local_supplies = 0.0
+}

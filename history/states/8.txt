@@ -1,0 +1,27 @@
+state = {
+	id = 8
+	name = "STATE_8"
+	manpower = 1894874
+	state_category = metropolis
+	resources = {
+		oil = 12
+	}
+	history = {
+		owner = QIQ
+		add_core_of = QIQ
+		victory_points = { 9671 25 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9671 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces = {
+		3677 3678 9637 9671
+	}
+	local_supplies = 0.0
+}

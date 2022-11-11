@@ -1,0 +1,21 @@
+state = {
+	id = 467
+	name = "STATE_467"
+	manpower = 937562
+	state_category = town
+	history = {
+		owner = OTT
+		add_core_of = ARM
+		victory_points = { 12320 3 }
+		victory_points = { 12441 1 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+	provinces = {
+		3564 11708 12320 12380 12441 12450 13123
+	}
+	local_supplies = 0.0
+}

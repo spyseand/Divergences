@@ -1,0 +1,22 @@
+state = {
+	id = 355
+	name = "STATE_355"
+	manpower = 328811
+	state_category = large_city
+	resources = {
+		oil = 1
+		steel = 1
+	}
+	history = {
+		owner = PLC
+		add_core_of = PLC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		9412 13205
+	}
+	local_supplies = 1.0
+}

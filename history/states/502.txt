@@ -1,0 +1,23 @@
+state = {
+	id = 502
+	name = "STATE_502"
+	manpower = 440926
+	state_category = town
+	resources = {
+		steel = 3
+	}
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		victory_points = { 11380 1 }
+		buildings = {
+			11380 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		3229 6148 6311 6397 9308 9393 9406 11289 11311 11380 11390 13095
+	}
+	local_supplies = 5.0
+}

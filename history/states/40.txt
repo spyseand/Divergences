@@ -1,0 +1,21 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	manpower = 474688
+	state_category = rural
+	resources = {
+		oil = 1
+		tungsten = 1
+		steel = 1
+	}
+	history = {
+		owner = SIX
+		add_core_of = SIX
+		buildings = {
+		}
+	}
+	provinces = {
+		1788 1848 3769 4759 4857 4863 7880 7883 10611 10706 12603
+	}
+	local_supplies = 2.0
+}

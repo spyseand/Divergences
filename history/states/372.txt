@@ -1,0 +1,17 @@
+state = {
+	id = 372
+	name = "STATE_372"
+	manpower = 980210
+	state_category = large_town
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = { 1794 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		1794 1797 10537 10546 11410 12613
+	}
+	local_supplies = 2.0
+}

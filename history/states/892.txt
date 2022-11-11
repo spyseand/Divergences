@@ -1,0 +1,16 @@
+state = {
+	id = 892
+	name = "STATE_892"
+	manpower = 1662393
+	state_category = pastoral
+	history = {
+		owner = BUR
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1891 1932 1969 1992 2025 4889 4938 4972 4997 5028 7978 8021 8034 8109 10820 10831
+	}
+	local_supplies = 0.0
+}

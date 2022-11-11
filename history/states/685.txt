@@ -1,0 +1,21 @@
+state = {
+	id = 685
+	name = "STATE_685"
+	manpower = 1244353
+	state_category = city
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		victory_points = { 9289 5 }
+		victory_points = { 11370 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 8
+		}
+	}
+	provinces = {
+		216 294 342 3267 3331 3378 6292 9289 11216 11322 11370
+	}
+	local_supplies = 6.0
+}

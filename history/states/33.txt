@@ -1,0 +1,25 @@
+state = {
+	id = 33
+	name = "STATE_33"
+	manpower = 440289
+	state_category = rural
+	history = {
+		owner = MAY
+		add_core_of = MAY
+		victory_points = { 4904 1 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			4904 = {
+				naval_base = 2
+			}
+			4965 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		4904 4965 12715
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 30
+	name = "STATE_30"
+	manpower = 4234395
+	state_category = town
+	resources = {
+		oil = 9
+		steel = 2
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		victory_points = { 1965 25 }
+		victory_points = { 8089 10 }
+		victory_points = { 12810 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			12810 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1965 7913 8079 8089 10732 12810
+	}
+	local_supplies = 0.0
+}

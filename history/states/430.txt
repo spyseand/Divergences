@@ -1,0 +1,19 @@
+state = {
+	id = 430
+	name = "STATE_430"
+	manpower = 211918
+	state_category = pastoral
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = TRN
+		victory_points = { 7597 1 }
+		buildings = {
+		}
+	}
+	provinces = {
+		4300 4578 4581 4636 4638 7243 7486 7556 7597 7600 7657 10353 10506 12329 12340 12397
+	}
+	local_supplies = 0.0
+}

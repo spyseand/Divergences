@@ -1,0 +1,26 @@
+state = {
+	id = 26
+	name = "STATE_26"
+	manpower = 1544292
+	state_category = town
+	resources = {
+		oil = 13
+	}
+	history = {
+		owner = DES
+		add_core_of = DES
+		victory_points = { 4956 10 }
+		victory_points = { 5015 5 }
+		victory_points = { 10769 5 }
+		victory_points = { 12835 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		1952 2083 4956 5015 5021 7973 10738 10769 12721 12835 13088
+	}
+	local_supplies = 0.0
+}

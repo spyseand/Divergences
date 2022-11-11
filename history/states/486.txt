@@ -1,0 +1,26 @@
+state = {
+	id = 486
+	name = "STATE_486"
+	manpower = 57707
+	state_category = rural
+	resources = {
+		tungsten = 2
+		steel = 1
+	}
+	history = {
+		owner = SCD
+		add_core_of = SCD
+		victory_points = { 9116 1 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			9116 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		64 6092 9116 11034 11063
+	}
+	local_supplies = 0.0
+}

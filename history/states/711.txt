@@ -1,7 +1,7 @@
 state = {
 	id = 711
 	name = "STATE_711"
-	manpower = 941538
+	manpower = 1009125
 	state_category = large_town
 	history = {
 		owner = AUS
@@ -9,11 +9,11 @@ state = {
 		victory_points = { 665 1 }
 		victory_points = { 9627 3 }
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 		}
 	}
 	provinces = {
 		596 665 3631 3654 6650 9596 9627
 	}
-	local_supplies = 5.0
+	local_supplies = 1.0
 }

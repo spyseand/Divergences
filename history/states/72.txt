@@ -1,7 +1,7 @@
 state = {
 	id = 72
 	name = "STATE_72"
-	manpower = 18737323
+	manpower = 19016918
 	state_category = megalopolis
 	resources = {
 		steel = 9
@@ -13,11 +13,10 @@ state = {
 		victory_points = { 6845 20 }
 		victory_points = { 6882 5 }
 		buildings = {
-			infrastructure = 10
-			industrial_complex = 16
-			arms_factory = 2
-			dockyard = 10
-			air_base = 16
+			infrastructure = 4
+			industrial_complex = 5
+			dockyard = 6
+			air_base = 4
 			3878 = {
 				naval_base = 6
 			}
@@ -29,5 +28,5 @@ state = {
 	provinces = {
 		859 3693 3824 3863 3878 6845 6869 6882 9801 9820 9864 11740 11782 11785 11799 11900
 	}
-	local_supplies = 15.0
+	local_supplies = 7.0
 }

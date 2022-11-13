@@ -1,7 +1,7 @@
 state = {
 	id = 596
 	name = "STATE_596"
-	manpower = 722526
+	manpower = 892777
 	state_category = large_city
 	history = {
 		owner = AUS
@@ -9,9 +9,10 @@ state = {
 		victory_points = { 3673 3 }
 		victory_points = { 9648 5 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 3
 			arms_factory = 1
+			air_base = 3
 		}
 	}
 	provinces = {

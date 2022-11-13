@@ -1,0 +1,5 @@
+3208 is changed to not coastal in definitions, in north quebec
+3824 by delmarva is made coastal
+3959 by nice, genoa, made coastal
+10534, quebec/labrador, made not coastal
+10968, in the congo, made not coastal

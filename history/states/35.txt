@@ -1,7 +1,7 @@
 state = {
 	id = 35
 	name = "STATE_35"
-	manpower = 271299
+	manpower = 409520
 	state_category = rural
 	resources = {
 		oil = 31
@@ -12,10 +12,11 @@ state = {
 		add_core_of = DES
 		victory_points = { 4975 1 }
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		1954 3867 3883 4975 5038 8070 10740 10894 12684 12791
 	}
-	local_supplies = 0.0
+	local_supplies = 3.0
 }

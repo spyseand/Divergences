@@ -1,7 +1,7 @@
 state = {
 	id = 578
 	name = "STATE_578"
-	manpower = 3880575
+	manpower = 3726603
 	state_category = metropolis
 	resources = {
 		aluminium = 10
@@ -14,11 +14,11 @@ state = {
 		add_core_of = GTC
 		victory_points = { 6788 10 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
-			arms_factory = 6
+			arms_factory = 4
 			dockyard = 2
-			air_base = 8
+			air_base = 4
 			6788 = {
 				naval_base = 8
 			}

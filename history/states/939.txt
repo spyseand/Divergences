@@ -1,7 +1,7 @@
 state = {
 	id = 939
 	name = "STATE_939"
-	manpower = 24725
+	manpower = 148058
 	state_category = enclave
 	history = {
 		owner = EGL

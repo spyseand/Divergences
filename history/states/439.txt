@@ -1,17 +1,18 @@
 state = {
 	id = 439
 	name = "STATE_439"
-	manpower = 334494
+	manpower = 314820
 	state_category = pastoral
 	history = {
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = TRN
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		4651 7711 7795 7856 10550 10619 10680 12529 12662 13148 13149 13197
 	}
-	local_supplies = 1.0
+	local_supplies = 3.0
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 112
 	name = "STATE_112"
-	manpower = 778924
+	manpower = 640988
 	state_category = city
 	resources = {
 		steel = 32
@@ -9,7 +9,7 @@ state = {
 	history = {
 		owner = VIN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 		}
 	}

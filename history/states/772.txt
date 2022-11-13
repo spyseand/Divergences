@@ -1,7 +1,7 @@
 state = {
 	id = 772
 	name = "STATE_772"
-	manpower = 6816892
+	manpower = 6020640
 	state_category = rural
 	resources = {
 		chromium = 5
@@ -10,8 +10,9 @@ state = {
 		owner = SPI
 		victory_points = { 1273 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
+			air_base = 1
 			1273 = {
 				naval_base = 1
 			}

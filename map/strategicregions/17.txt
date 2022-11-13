@@ -4,9 +4,7 @@ strategic_region={
 	name="STRATEGICREGION_17"
 	provinces={
 		# State 865
-		2009 4954 7912 8019 10734 12856
-		# Water Provinces
-		13239 13241 13242 13243 13244 13245 13246 13247 
+		2009 4954 7912 8019 10734 12856 13242 13243 13244 13245 13246 13247 
 	}
 	weather={
 		period={

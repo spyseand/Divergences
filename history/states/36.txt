@@ -1,7 +1,7 @@
 state = {
 	id = 36
 	name = "STATE_36"
-	manpower = 1335605
+	manpower = 1140923
 	state_category = metropolis
 	resources = {
 		oil = 93
@@ -12,8 +12,9 @@ state = {
 		add_core_of = DES
 		victory_points = { 12782 1 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 5
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 1
 			6785 = {
 				naval_base = 1
 			}
@@ -22,5 +23,5 @@ state = {
 	provinces = {
 		1927 2019 2042 4884 5022 5061 6785 6798 6987 12341 12369 12410 12728 12782
 	}
-	local_supplies = 5.0
+	local_supplies = 9.0
 }

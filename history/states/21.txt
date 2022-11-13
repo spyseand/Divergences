@@ -1,12 +1,14 @@
 state = {
 	id = 21
 	name = "STATE_21"
-	manpower = 42204
+	manpower = 37857
 	state_category = rural
 	history = {
 		owner = DES
 		add_core_of = DES
 		buildings = {
+			infrastructure = 2
+			air_base = 3
 			1892 = {
 				naval_base = 2
 			}

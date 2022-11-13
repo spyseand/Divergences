@@ -7,7 +7,7 @@ state = {
 		owner = GCO
 		add_core_of = GCO
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
 		}
@@ -15,5 +15,5 @@ state = {
 	provinces = {
 		5162 8149 8213 10942 10970 12869
 	}
-	local_supplies = 6.0
+	local_supplies = 2.0
 }

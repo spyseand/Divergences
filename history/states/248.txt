@@ -1,7 +1,7 @@
 state = {
 	id = 248
 	name = "STATE_248"
-	manpower = 3743013
+	manpower = 3830671
 	state_category = large_town
 	history = {
 		owner = BRA

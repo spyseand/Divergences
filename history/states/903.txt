@@ -1,7 +1,7 @@
 state = {
 	id = 903
 	name = "STATE_903"
-	manpower = 94405
+	manpower = 127729
 	state_category = rural
 	resources = {
 		tungsten = 4
@@ -11,10 +11,11 @@ state = {
 		owner = SIX
 		add_core_of = SIX
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		1736 1854 6742 7779 10602
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

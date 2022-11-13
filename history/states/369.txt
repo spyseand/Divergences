@@ -1,19 +1,19 @@
 state = {
 	id = 369
 	name = "STATE_369"
-	manpower = 504119
+	manpower = 444762
 	state_category = pastoral
 	history = {
 		owner = RUS
 		add_core_of = RUS
 		victory_points = { 1659 1 }
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
+			infrastructure = 1
+			air_base = 1
 		}
 	}
 	provinces = {
 		1659 1771 1841 1880 4710 4754 4813 4846 7733 7895 10604 10720 12630 12700
 	}
-	local_supplies = 1.0
+	local_supplies = 2.0
 }

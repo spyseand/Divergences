@@ -1,13 +1,15 @@
 state = {
 	id = 136
 	name = "STATE_136"
-	manpower = 20309307
+	manpower = 19963770
 	state_category = town
 	history = {
 		owner = QIN
 		add_core_of = QIN
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 		}
 	}
 	provinces = {

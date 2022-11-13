@@ -1,7 +1,7 @@
 state = {
 	id = 801
 	name = "STATE_801"
-	manpower = 1854857
+	manpower = 2086713
 	state_category = town
 	resources = {
 		tungsten = 2
@@ -10,6 +10,9 @@ state = {
 		owner = TRN
 		victory_points = { 12248 1 }
 		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 	provinces = {

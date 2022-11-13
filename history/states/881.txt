@@ -1,12 +1,13 @@
 state = {
 	id = 881
 	name = "STATE_881"
-	manpower = 442618
+	manpower = 442619
 	state_category = pastoral
 	history = {
 		owner = BUR
 		add_core_of = COG
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

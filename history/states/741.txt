@@ -1,7 +1,7 @@
 state = {
 	id = 741
 	name = "STATE_741"
-	manpower = 4434596
+	manpower = 4381994
 	state_category = large_city
 	resources = {
 		aluminium = 100
@@ -12,10 +12,10 @@ state = {
 		add_core_of = HUN
 		victory_points = { 9660 20 }
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 4
-			air_base = 4
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 5
 		}
 	}
 	provinces = {

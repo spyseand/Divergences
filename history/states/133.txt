@@ -1,12 +1,13 @@
 state = {
 	id = 133
 	name = "STATE_133"
-	manpower = 138700
+	manpower = 323635
 	state_category = pastoral
 	impassable = yes
 	history = {
 		owner = BUR
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

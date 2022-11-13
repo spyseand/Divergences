@@ -1,7 +1,7 @@
 state = {
 	id = 360
 	name = "STATE_360"
-	manpower = 465449
+	manpower = 526509
 	state_category = rural
 	resources = {
 		aluminium = 11
@@ -14,6 +14,7 @@ state = {
 		add_core_of = RUS
 		victory_points = { 4797 3 }
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {

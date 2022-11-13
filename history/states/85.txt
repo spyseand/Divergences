@@ -1,7 +1,7 @@
 state = {
 	id = 85
 	name = "STATE_85"
-	manpower = 1012558
+	manpower = 1055276
 	state_category = city
 	history = {
 		owner = GTC
@@ -10,7 +10,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
-			air_base = 8
+			air_base = 7
 			1572 = {
 				naval_base = 2
 			}
@@ -25,5 +25,5 @@ state = {
 	provinces = {
 		866 1556 1572 1584 1843 1913 7388 9834 10489 12439 12752
 	}
-	local_supplies = 7.0
+	local_supplies = 10.0
 }

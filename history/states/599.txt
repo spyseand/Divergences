@@ -1,13 +1,13 @@
 state = {
 	id = 599
 	name = "STATE_599"
-	manpower = 643182
+	manpower = 499412
 	state_category = town
 	history = {
 		owner = BOH
 		add_core_of = BOH
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 	}
 	provinces = {

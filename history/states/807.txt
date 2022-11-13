@@ -1,7 +1,7 @@
 state = {
 	id = 807
 	name = "STATE_807"
-	manpower = 7784122
+	manpower = 7348854
 	state_category = rural
 	resources = {
 		chromium = 1
@@ -9,7 +9,7 @@ state = {
 	history = {
 		owner = VND
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 	}
 	provinces = {

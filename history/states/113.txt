@@ -1,13 +1,14 @@
 state = {
 	id = 113
 	name = "STATE_113"
-	manpower = 2900000
+	manpower = 3107143
 	state_category = town
 	history = {
 		owner = QIN
 		add_core_of = QIN
 		victory_points = { 1070 1 }
 		buildings = {
+			infrastructure = 1
 			1070 = {
 				naval_base = 2
 			}
@@ -16,5 +17,5 @@ state = {
 	provinces = {
 		994 1038 1070 11963 11990
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 417
 	name = "STATE_417"
-	manpower = 107968
+	manpower = 98121
 	state_category = rural
 	impassable = yes
 	resources = {
@@ -14,7 +14,7 @@ state = {
 		add_core_of = RUS
 		victory_points = { 105 1 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			12530 = {
 				naval_base = 1
 			}

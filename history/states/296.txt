@@ -1,7 +1,7 @@
 state = {
 	id = 296
 	name = "STATE_296"
-	manpower = 174121
+	manpower = 240956
 	state_category = rural
 	resources = {
 		oil = 1
@@ -11,6 +11,7 @@ state = {
 		owner = JEI
 		add_core_of = JEI
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

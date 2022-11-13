@@ -1,7 +1,7 @@
 state = {
 	id = 65
 	name = "STATE_65"
-	manpower = 2790691
+	manpower = 2765521
 	state_category = megalopolis
 	resources = {
 		steel = 16
@@ -11,8 +11,10 @@ state = {
 		add_core_of = VIN
 		victory_points = { 11654 3 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 6
 		}
 	}
 	provinces = {

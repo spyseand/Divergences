@@ -1,13 +1,14 @@
 state = {
 	id = 699
 	name = "STATE_699"
-	manpower = 352056
+	manpower = 507376
 	state_category = rural
 	history = {
 		owner = PLC
 		add_core_of = PLC
 		victory_points = { 560 1 }
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {

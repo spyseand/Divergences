@@ -1,13 +1,14 @@
 state = {
 	id = 693
 	name = "STATE_693"
-	manpower = 804350
+	manpower = 653994
 	state_category = large_town
 	history = {
 		owner = UKR
 		add_core_of = UKR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 	provinces = {

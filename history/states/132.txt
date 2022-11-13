@@ -1,7 +1,7 @@
 state = {
 	id = 132
 	name = "STATE_132"
-	manpower = 1826292
+	manpower = 1839144
 	state_category = pastoral
 	history = {
 		owner = MAN

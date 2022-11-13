@@ -1,7 +1,7 @@
 state = {
 	id = 3
 	name = "STATE_3"
-	manpower = 2676417
+	manpower = 2527679
 	state_category = metropolis
 	resources = {
 		oil = 57
@@ -12,11 +12,11 @@ state = {
 		add_core_of = QIQ
 		victory_points = { 9814 30 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-			air_base = 10
+			air_base = 4
 			9814 = {
 				naval_base = 5
 			}

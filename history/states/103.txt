@@ -1,7 +1,7 @@
 state = {
 	id = 103
 	name = "STATE_103"
-	manpower = 756973
+	manpower = 688017
 	state_category = metropolis
 	resources = {
 		oil = 46
@@ -11,10 +11,13 @@ state = {
 		owner = LOU
 		add_core_of = LOU
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
 		}
 	}
 	provinces = {
 		2055 2102 3875 3972 7762 9908 12624 12848 12893
 	}
-	local_supplies = 0.0
+	local_supplies = 6.0
 }

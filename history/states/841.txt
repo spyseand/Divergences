@@ -1,13 +1,12 @@
 state = {
 	id = 841
 	name = "STATE_841"
-	manpower = 320871
+	manpower = 441750
 	state_category = pastoral
 	history = {
 		owner = OTT
 		add_core_of = ARB
 		buildings = {
-			infrastructure = 1
 		}
 	}
 	provinces = {

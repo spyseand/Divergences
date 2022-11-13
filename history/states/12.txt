@@ -7,7 +7,7 @@ state = {
 		owner = QIQ
 		add_core_of = QIQ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			1869 = {
 				naval_base = 1
 			}

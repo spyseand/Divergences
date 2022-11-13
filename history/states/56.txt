@@ -1,7 +1,7 @@
 state = {
 	id = 56
 	name = "STATE_56"
-	manpower = 634528
+	manpower = 518544
 	state_category = large_city
 	resources = {
 		oil = 1
@@ -11,8 +11,10 @@ state = {
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
 		}
 	}
 	provinces = {

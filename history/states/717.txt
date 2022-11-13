@@ -1,14 +1,14 @@
 state = {
 	id = 717
 	name = "STATE_717"
-	manpower = 1725045
+	manpower = 1807325
 	state_category = large_town
 	history = {
 		owner = CRO
 		add_core_of = CRO
 		victory_points = { 11581 3 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
 		}
 	}

@@ -1,7 +1,7 @@
 state = {
 	id = 358
 	name = "STATE_358"
-	manpower = 184043
+	manpower = 172880
 	state_category = wasteland
 	resources = {
 		aluminium = 1
@@ -10,10 +10,11 @@ state = {
 		owner = RUS
 		add_core_of = RUS
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		1697 1837 4687 4782 4785 4842 7707 10544 12523 12555 12655
 	}
-	local_supplies = 1.0
+	local_supplies = 4.0
 }

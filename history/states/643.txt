@@ -1,7 +1,7 @@
 state = {
 	id = 643
 	name = "STATE_643"
-	manpower = 580087
+	manpower = 592977
 	state_category = town
 	history = {
 		owner = CNU
@@ -15,5 +15,5 @@ state = {
 	provinces = {
 		3396 9255 9303 9321 9369 11238 11287 11371
 	}
-	local_supplies = 11.0
+	local_supplies = 13.0
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 965
 	name = "STATE_965"
-	manpower = 336019
+	manpower = 473950
 	state_category = pastoral
 	resources = {
 		aluminium = 1
@@ -10,10 +10,11 @@ state = {
 	history = {
 		owner = RUS
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		237 278 4758 4874 7824 10216 11307 12659
 	}
-	local_supplies = 2.0
+	local_supplies = 3.0
 }

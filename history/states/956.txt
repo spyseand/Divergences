@@ -8,6 +8,7 @@ state = {
 		add_core_of = RUS
 		add_core_of = TRN
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

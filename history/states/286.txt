@@ -1,12 +1,13 @@
 state = {
 	id = 286
 	name = "STATE_286"
-	manpower = 274600
-	state_category = "rural"
+	manpower = 282101
+	state_category = rural
 	history = {
 		owner = SEI
 		add_core_of = SEI
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

@@ -1,8 +1,8 @@
 state = {
 	id = 13
 	name = "STATE_13"
-	manpower = 18940
-	state_category = "rural"
+	manpower = 17527
+	state_category = rural
 	history = {
 		owner = ATH
 		add_core_of = ATH

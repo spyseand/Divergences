@@ -1,7 +1,7 @@
 state = {
 	id = 98
 	name = "STATE_98"
-	manpower = 997282
+	manpower = 802416
 	state_category = city
 	resources = {
 		steel = 16
@@ -10,7 +10,7 @@ state = {
 		owner = BLC
 		add_core_of = BLC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 		}
 	}

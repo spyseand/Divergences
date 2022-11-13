@@ -1,7 +1,7 @@
 state = {
 	id = 409
 	name = "STATE_409"
-	manpower = 996743
+	manpower = 879480
 	state_category = rural
 	resources = {
 		aluminium = 3
@@ -10,7 +10,7 @@ state = {
 		owner = RUS
 		add_core_of = RUS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 		}
 	}

@@ -13,9 +13,8 @@ state = {
 		victory_points = { 10747 10 }
 		victory_points = { 12790 5 }
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 1
+			infrastructure = 2
+			industrial_complex = 3
 			air_base = 6
 			8056 = {
 				naval_base = 1
@@ -28,5 +27,5 @@ state = {
 	provinces = {
 		1937 2023 2079 2085 4969 7936 7991 7993 8056 10494 10747 10790 10846 10864 12703 12790 12845 12872
 	}
-	local_supplies = 4.0
+	local_supplies = 1.0
 }

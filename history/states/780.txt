@@ -1,7 +1,7 @@
 state = {
 	id = 780
 	name = "STATE_780"
-	manpower = 368198
+	manpower = 536517
 	state_category = city
 	resources = {
 		steel = 1
@@ -9,6 +9,7 @@ state = {
 	history = {
 		owner = NEP
 		buildings = {
+			infrastructure = 3
 		}
 	}
 	provinces = {

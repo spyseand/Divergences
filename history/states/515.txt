@@ -1,7 +1,7 @@
 state = {
 	id = 515
 	name = "STATE_515"
-	manpower = 312593
+	manpower = 300321
 	state_category = town
 	resources = {
 		aluminium = 3
@@ -11,7 +11,7 @@ state = {
 		add_core_of = SCD
 		victory_points = { 53 1 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			53 = {
 				naval_base = 1

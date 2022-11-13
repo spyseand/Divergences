@@ -1,16 +1,17 @@
 state = {
 	id = 920
 	name = "STATE_920"
-	manpower = 51087
+	manpower = 79636
 	state_category = wasteland
 	history = {
 		owner = SIX
 		add_core_of = SIX
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		917 1347 1411 4765
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

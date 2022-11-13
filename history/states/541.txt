@@ -1,7 +1,7 @@
 state = {
 	id = 541
 	name = "STATE_541"
-	manpower = 3295157
+	manpower = 3418411
 	state_category = large_city
 	history = {
 		owner = HAN
@@ -12,11 +12,11 @@ state = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			air_base = 3
+			air_base = 2
 		}
 	}
 	provinces = {
 		564 3397 3524 6488 6549 9524 9547 11445 11533
 	}
-	local_supplies = 13.0
+	local_supplies = 15.0
 }

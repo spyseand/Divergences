@@ -1,7 +1,7 @@
 state = {
 	id = 734
 	name = "STATE_734"
-	manpower = 167642
+	manpower = 147112
 	state_category = town
 	resources = {
 		aluminium = 4
@@ -13,10 +13,13 @@ state = {
 		owner = OTT
 		add_core_of = GRE
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
 		}
 	}
 	provinces = {
 		966 3844 3980 6930
 	}
-	local_supplies = 1.0
+	local_supplies = 2.0
 }

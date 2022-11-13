@@ -1,7 +1,7 @@
 state = {
 	id = 504
 	name = "STATE_504"
-	manpower = 278875
+	manpower = 247563
 	state_category = city
 	resources = {
 		steel = 2
@@ -11,7 +11,8 @@ state = {
 		add_core_of = SCD
 		victory_points = { 11114 1 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			dockyard = 1
 		}
 	}
 	provinces = {

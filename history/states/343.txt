@@ -1,12 +1,13 @@
 state = {
 	id = 343
 	name = "STATE_343"
-	manpower = 157936
+	manpower = 144775
 	state_category = pastoral
 	history = {
 		owner = SEI
 		add_core_of = SEI
 		buildings = {
+			infrastructure = 2
 			1574 = {
 				naval_base = 1
 			}

@@ -1,14 +1,14 @@
 state = {
 	id = 874
 	name = "STATE_874"
-	manpower = 170831
+	manpower = 297459
 	state_category = wasteland
 	history = {
 		owner = BAT
 		add_core_of = BAT
 		victory_points = { 4879 1 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 	}
 	provinces = {

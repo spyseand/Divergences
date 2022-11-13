@@ -1,7 +1,7 @@
 state = {
 	id = 141
 	name = "STATE_141"
-	manpower = 1094065
+	manpower = 1001490
 	state_category = pastoral
 	resources = {
 		aluminium = 1
@@ -11,8 +11,7 @@ state = {
 		owner = UYG
 		victory_points = { 2015 2 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 2
 		}
 	}
 	provinces = {

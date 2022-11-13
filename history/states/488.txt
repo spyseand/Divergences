@@ -1,7 +1,7 @@
 state = {
 	id = 488
 	name = "STATE_488"
-	manpower = 24174
+	manpower = 23671
 	state_category = rural
 	impassable = yes
 	resources = {
@@ -11,10 +11,11 @@ state = {
 	history = {
 		owner = SCD
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		203 3107 6076 6087 9189 11167 11204
 	}
-	local_supplies = 1.0
+	local_supplies = 3.0
 }

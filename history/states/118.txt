@@ -1,13 +1,13 @@
 state = {
 	id = 118
 	name = "STATE_118"
-	manpower = 18683016
+	manpower = 14861490
 	state_category = city
 	history = {
 		owner = QIN
 		add_core_of = QIN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			1055 = {
 				naval_base = 3
 			}

@@ -1,7 +1,7 @@
 state = {
 	id = 165
 	name = "STATE_165"
-	manpower = 34846
+	manpower = 62224
 	state_category = rural
 	resources = {
 		aluminium = 2
@@ -12,10 +12,11 @@ state = {
 		add_core_of = NAV
 		victory_points = { 853 3 }
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		853 8115
 	}
-	local_supplies = 0.0
+	local_supplies = 8.0
 }

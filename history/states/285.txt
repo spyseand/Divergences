@@ -1,7 +1,7 @@
 state = {
 	id = 285
 	name = "STATE_285"
-	manpower = 326900
+	manpower = 307179
 	state_category = pastoral
 	history = {
 		owner = SEI
@@ -20,5 +20,5 @@ state = {
 	provinces = {
 		1546 4468 4509 4524 4552 4593 7269 7487 7512 7529 7542 7570 7585 8235 10369 10396 10423 10436 10990 12240 12315 12371 12386 12400
 	}
-	local_supplies = 1.0
+	local_supplies = 0.0
 }

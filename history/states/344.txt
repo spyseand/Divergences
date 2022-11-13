@@ -2,18 +2,18 @@ state = {
 	id = 344
 	name = "STATE_344"
 	manpower = 43051
-	state_category = "wasteland"
+	state_category = wasteland
 	impassable = yes
 	history = {
 		owner = RUS
 		victory_points = { 6085 1 }
 		victory_points = { 12549 1 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		1722 1745 2853 2877 3184 4006 4229 4878 6085 6211 12549 12634 13059 13060 13061
 	}
-	local_supplies = 1.0
+	local_supplies = 0.0
 }

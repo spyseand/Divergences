@@ -1,7 +1,7 @@
 state = {
 	id = 595
 	name = "STATE_595"
-	manpower = 1625269
+	manpower = 1660410
 	state_category = city
 	resources = {
 		aluminium = 1
@@ -15,7 +15,7 @@ state = {
 		victory_points = { 9665 3 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2
 		}
 	}
 	provinces = {

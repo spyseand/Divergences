@@ -1,7 +1,7 @@
 state = {
 	id = 365
 	name = "STATE_365"
-	manpower = 1376647
+	manpower = 1436397
 	state_category = town
 	history = {
 		owner = RUS
@@ -9,7 +9,7 @@ state = {
 		victory_points = { 4724 1 }
 		victory_points = { 10580 2 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 	}
 	provinces = {

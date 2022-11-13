@@ -1,14 +1,14 @@
 state = {
 	id = 16
 	name = "STATE_16"
-	manpower = 441198
+	manpower = 439754
 	state_category = rural
 	history = {
 		owner = SIX
 		add_core_of = SIX
 		victory_points = { 3010 3 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 		}
 	}

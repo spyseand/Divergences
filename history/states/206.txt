@@ -1,7 +1,7 @@
 state = {
 	id = 206
 	name = "STATE_206"
-	manpower = 107356
+	manpower = 113319
 	state_category = rural
 	resources = {
 		oil = 3
@@ -10,7 +10,7 @@ state = {
 		owner = BEO
 		add_core_of = BEO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 	}
 	provinces = {

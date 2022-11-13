@@ -1,7 +1,7 @@
 state = {
 	id = 961
 	name = "STATE_961"
-	manpower = 250806
+	manpower = 180728
 	state_category = metropolis
 	resources = {
 		steel = 4
@@ -10,6 +10,9 @@ state = {
 		owner = BUR
 		add_core_of = BUR
 		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			air_base = 1
 		}
 	}
 	provinces = {

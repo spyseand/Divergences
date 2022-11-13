@@ -1,7 +1,7 @@
 state = {
 	id = 844
 	name = "STATE_844"
-	manpower = 221817
+	manpower = 221810
 	state_category = pastoral
 	resources = {
 		oil = 5
@@ -12,7 +12,6 @@ state = {
 		victory_points = { 7960 1 }
 		victory_points = { 8051 1 }
 		buildings = {
-			infrastructure = 2
 			7960 = {
 				naval_base = 3
 			}
@@ -24,5 +23,5 @@ state = {
 	provinces = {
 		2048 4932 7960 8051 8108 10904
 	}
-	local_supplies = 4.0
+	local_supplies = 2.0
 }

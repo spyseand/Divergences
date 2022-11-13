@@ -7,7 +7,7 @@ state = {
 		owner = PLC
 		add_core_of = PLC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			13017 = {
 				naval_base = 1
 			}

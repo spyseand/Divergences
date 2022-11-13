@@ -1,17 +1,18 @@
 state = {
 	id = 924
 	name = "STATE_924"
-	manpower = 440318
+	manpower = 558140
 	state_category = wasteland
 	impassable = yes
 	history = {
 		owner = UYG
 		add_core_of = UYG
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		5016 7790 8042 8086 10885 12864
 	}
-	local_supplies = 3.0
+	local_supplies = 2.0
 }

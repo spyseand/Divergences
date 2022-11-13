@@ -1,7 +1,7 @@
 state = {
 	id = 97
 	name = "STATE_97"
-	manpower = 964601
+	manpower = 1080875
 	state_category = metropolis
 	resources = {
 		oil = 60
@@ -12,12 +12,12 @@ state = {
 		add_core_of = LOU
 		victory_points = { 3960 10 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 		}
 	}
 	provinces = {
 		2082 3960 4577 5001 5085 6968 9829 9920 10778
 	}
-	local_supplies = 1.0
+	local_supplies = 9.0
 }

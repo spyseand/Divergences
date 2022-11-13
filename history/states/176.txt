@@ -1,7 +1,7 @@
 state = {
 	id = 176
 	name = "STATE_176"
-	manpower = 712741
+	manpower = 659927
 	state_category = large_city
 	resources = {
 		aluminium = 1
@@ -10,10 +10,12 @@ state = {
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
 		}
 	}
 	provinces = {
 		1167 4197 7212 9985 10055 11946 12031
 	}
-	local_supplies = 0.0
+	local_supplies = 2.0
 }

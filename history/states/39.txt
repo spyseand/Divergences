@@ -1,7 +1,7 @@
 state = {
 	id = 39
 	name = "STATE_39"
-	manpower = 67142
+	manpower = 86286
 	state_category = rural
 	resources = {
 		tungsten = 1
@@ -11,10 +11,11 @@ state = {
 		owner = UTH
 		add_core_of = UTH
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {
 		1815 7688 10672 12651
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

@@ -1,7 +1,7 @@
 state = {
 	id = 463
 	name = "STATE_463"
-	manpower = 1401304
+	manpower = 1173265
 	state_category = city
 	resources = {
 		oil = 3
@@ -12,11 +12,12 @@ state = {
 		add_core_of = UKR
 		buildings = {
 			infrastructure = 3
-			air_base = 8
+			industrial_complex = 1
+			air_base = 6
 		}
 	}
 	provinces = {
 		489 582 3480 3584 6458 6532 9437 9491 9519 9543 11425 11489 11530 11557
 	}
-	local_supplies = 1.0
+	local_supplies = 0.0
 }

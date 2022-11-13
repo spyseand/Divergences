@@ -1,16 +1,20 @@
 state = {
 	id = 71
 	name = "STATE_71"
-	manpower = 241676
+	manpower = 159765
 	state_category = city
 	history = {
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 3
 		}
 	}
 	provinces = {
 		3917 6892 9758 9786
 	}
-	local_supplies = 1.0
+	local_supplies = 2.0
 }

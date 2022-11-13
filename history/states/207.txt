@@ -1,7 +1,7 @@
 state = {
 	id = 207
 	name = "STATE_207"
-	manpower = 2361087
+	manpower = 2737493
 	state_category = large_city
 	resources = {
 		steel = 8
@@ -11,10 +11,8 @@ state = {
 		add_core_of = INC
 		victory_points = { 650 10 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 5
-			arms_factory = 1
-			air_base = 3
 			8222 = {
 				naval_base = 5
 			}

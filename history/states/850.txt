@@ -1,13 +1,13 @@
 state = {
 	id = 850
 	name = "STATE_850"
-	manpower = 499355
+	manpower = 417075
 	state_category = large_town
 	history = {
 		owner = OTT
 		add_core_of = CRO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 		}
 	}

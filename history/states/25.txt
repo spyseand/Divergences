@@ -1,7 +1,7 @@
 state = {
 	id = 25
 	name = "STATE_25"
-	manpower = 352436
+	manpower = 304745
 	state_category = large_town
 	resources = {
 		oil = 4
@@ -10,6 +10,9 @@ state = {
 		owner = DES
 		add_core_of = DES
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 	provinces = {

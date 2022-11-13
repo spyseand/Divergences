@@ -1,7 +1,7 @@
 state = {
 	id = 569
 	name = "STATE_569"
-	manpower = 4339527
+	manpower = 4127940
 	state_category = metropolis
 	resources = {
 		steel = 16
@@ -11,14 +11,14 @@ state = {
 		add_core_of = BUR
 		victory_points = { 6469 10 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
-			arms_factory = 2
-			air_base = 3
+			arms_factory = 1
+			air_base = 1
 		}
 	}
 	provinces = {
 		529 3512 6444 6469 6570 9482 9486
 	}
-	local_supplies = 1.0
+	local_supplies = 4.0
 }

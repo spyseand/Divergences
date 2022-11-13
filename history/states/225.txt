@@ -1,7 +1,7 @@
 state = {
 	id = 225
 	name = "STATE_225"
-	manpower = 118422
+	manpower = 91354
 	state_category = pastoral
 	history = {
 		owner = GCO

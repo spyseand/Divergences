@@ -1,7 +1,7 @@
 state = {
 	id = 292
 	name = "STATE_292"
-	manpower = 669069
+	manpower = 633877
 	state_category = large_town
 	resources = {
 		aluminium = 4
@@ -13,7 +13,8 @@ state = {
 		owner = SIA
 		add_core_of = SIA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			air_base = 1
 		}
 	}
 	provinces = {

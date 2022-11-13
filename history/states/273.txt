@@ -8,7 +8,7 @@ state = {
 		add_core_of = JPH
 		victory_points = { 12118 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			12118 = {
 				naval_base = 1
 			}
@@ -17,5 +17,5 @@ state = {
 	provinces = {
 		1224 1261 1311 1340 1368 4269 4373 7385 7423 10186 10302 12112 12118 12153
 	}
-	local_supplies = 6.0
+	local_supplies = 3.0
 }

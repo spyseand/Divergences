@@ -1,7 +1,7 @@
 state = {
 	id = 196
 	name = "STATE_196"
-	manpower = 2218449
+	manpower = 2258067
 	state_category = town
 	resources = {
 		tungsten = 9
@@ -10,6 +10,8 @@ state = {
 	history = {
 		owner = JAP
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 	}
 	provinces = {

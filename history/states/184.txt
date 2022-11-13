@@ -1,7 +1,7 @@
 state = {
 	id = 184
 	name = "STATE_184"
-	manpower = 1205400
+	manpower = 1076250
 	state_category = pastoral
 	impassable = yes
 	resources = {
@@ -11,7 +11,6 @@ state = {
 		owner = TIB
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 	}
 	provinces = {

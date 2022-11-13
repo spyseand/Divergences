@@ -1,7 +1,7 @@
 state = {
 	id = 789
 	name = "STATE_789"
-	manpower = 3574179
+	manpower = 3630025
 	state_category = rural
 	resources = {
 		steel = 6
@@ -10,6 +10,7 @@ state = {
 	history = {
 		owner = IRP
 		buildings = {
+			infrastructure = 2
 		}
 	}
 	provinces = {

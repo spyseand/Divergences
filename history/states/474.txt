@@ -1,7 +1,7 @@
 state = {
 	id = 474
 	name = "STATE_474"
-	manpower = 1366294
+	manpower = 1669439
 	state_category = city
 	resources = {
 		oil = 6
@@ -15,8 +15,7 @@ state = {
 		victory_points = { 3720 1 }
 		victory_points = { 3734 5 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
 			719 = {
 				naval_base = 3
 			}
@@ -25,5 +24,5 @@ state = {
 	provinces = {
 		719 750 3720 3734 3760 6741 6755 9696 11668 11729
 	}
-	local_supplies = 6.0
+	local_supplies = 9.0
 }

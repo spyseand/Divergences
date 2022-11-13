@@ -1,7 +1,7 @@
 state = {
 	id = 888
 	name = "STATE_888"
-	manpower = 956482
+	manpower = 1058283
 	state_category = pastoral
 	resources = {
 		rubber = 3
@@ -10,10 +10,11 @@ state = {
 		owner = BUR
 		add_core_of = COG
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		988 7219 8016 10071 10951 12775
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

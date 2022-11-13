@@ -1,7 +1,7 @@
 state = {
 	id = 368
 	name = "STATE_368"
-	manpower = 26993
+	manpower = 33847
 	state_category = pastoral
 	impassable = yes
 	resources = {
@@ -12,6 +12,7 @@ state = {
 		owner = RUS
 		add_core_of = RUS
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {

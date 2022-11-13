@@ -1,15 +1,15 @@
 state = {
 	id = 302
 	name = "STATE_302"
-	manpower = 4697098
+	manpower = 5102786
 	state_category = large_city
 	history = {
 		owner = GTC
 		add_core_of = QIN
 		victory_points = { 7014 5 }
 		buildings = {
-			infrastructure = 1
-			dockyard = 1
+			infrastructure = 3
+			air_base = 2
 			7014 = {
 				naval_base = 6
 			}

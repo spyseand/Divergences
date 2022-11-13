@@ -1,7 +1,7 @@
 state = {
 	id = 264
 	name = "STATE_264"
-	manpower = 5240069
+	manpower = 4920730
 	state_category = city
 	resources = {
 		rubber = 5
@@ -12,8 +12,9 @@ state = {
 		add_core_of = SIA
 		victory_points = { 1488 1 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 3
+			air_base = 2
 		}
 	}
 	provinces = {

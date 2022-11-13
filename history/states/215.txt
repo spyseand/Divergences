@@ -9,12 +9,12 @@ state = {
 	history = {
 		owner = BEO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 1
 		}
 	}
 	provinces = {
 		2208 5143
 	}
-	local_supplies = 0.0
+	local_supplies = 6.0
 }

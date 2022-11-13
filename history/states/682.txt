@@ -1,7 +1,7 @@
 state = {
 	id = 682
 	name = "STATE_682"
-	manpower = 872393
+	manpower = 953144
 	state_category = rural
 	history = {
 		owner = PLC
@@ -10,11 +10,11 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 5
+			air_base = 6
 		}
 	}
 	provinces = {
 		3320 3366 3393 6413 9274 9295 11342
 	}
-	local_supplies = 1.0
+	local_supplies = 2.0
 }

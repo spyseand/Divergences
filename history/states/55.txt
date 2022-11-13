@@ -1,15 +1,13 @@
 state = {
 	id = 55
 	name = "STATE_55"
-	manpower = 12652792
+	manpower = 13537368
 	state_category = town
 	history = {
 		owner = EGL
 		victory_points = { 1349 10 }
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 2
 			1349 = {
 				naval_base = 6
 			}

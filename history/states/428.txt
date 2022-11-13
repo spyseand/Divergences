@@ -1,7 +1,7 @@
 state = {
 	id = 428
 	name = "STATE_428"
-	manpower = 631520
+	manpower = 648171
 	state_category = pastoral
 	resources = {
 		oil = 2
@@ -19,5 +19,5 @@ state = {
 	provinces = {
 		361 3280 4265 7320 10136 10142 10185 10329 11223 12117
 	}
-	local_supplies = 5.0
+	local_supplies = 4.0
 }

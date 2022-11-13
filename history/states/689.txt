@@ -1,7 +1,7 @@
 state = {
 	id = 689
 	name = "STATE_689"
-	manpower = 1614269
+	manpower = 1902752
 	state_category = town
 	history = {
 		owner = UKR
@@ -11,7 +11,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 6
+			air_base = 3
 		}
 	}
 	provinces = {

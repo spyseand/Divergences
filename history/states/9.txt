@@ -1,7 +1,7 @@
 state = {
 	id = 9
 	name = "STATE_9"
-	manpower = 332852
+	manpower = 458991
 	state_category = town
 	resources = {
 		tungsten = 5
@@ -12,6 +12,9 @@ state = {
 		add_core_of = QIQ
 		victory_points = { 9616 1 }
 		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
 		}
 	}
 	provinces = {

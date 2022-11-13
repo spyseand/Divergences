@@ -10,10 +10,11 @@ state = {
 		owner = BUR
 		add_core_of = COG
 		buildings = {
+			infrastructure = 1
 		}
 	}
 	provinces = {
 		7931 10883 12741 12824
 	}
-	local_supplies = 0.0
+	local_supplies = 1.0
 }

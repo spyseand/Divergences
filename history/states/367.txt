@@ -1,7 +1,7 @@
 state = {
 	id = 367
 	name = "STATE_367"
-	manpower = 104702
+	manpower = 108560
 	state_category = pastoral
 	impassable = yes
 	resources = {
@@ -18,5 +18,5 @@ state = {
 	provinces = {
 		1664 1684 1744 1757 1784 3169 3415 4669 4715 4746 4761 4774 4817 7689 7738 7768 7796 7809 7867 8461 9142 10536 10561 10592 10620 12517 12545 12574 12602
 	}
-	local_supplies = 2.0
+	local_supplies = 1.0
 }

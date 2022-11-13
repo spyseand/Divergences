@@ -1,7 +1,7 @@
 state = {
 	id = 714
 	name = "STATE_714"
-	manpower = 1229346
+	manpower = 1194345
 	state_category = rural
 	resources = {
 		aluminium = 13
@@ -12,9 +12,9 @@ state = {
 		add_core_of = OTT
 		victory_points = { 3882 5 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 2
+			air_base = 1
 		}
 	}
 	provinces = {

@@ -1,13 +1,13 @@
 state = {
 	id = 861
 	name = "STATE_861"
-	manpower = 1758173
+	manpower = 1712948
 	state_category = pastoral
 	history = {
 		owner = SCD
 		victory_points = { 12941 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			12941 = {
 				naval_base = 2
 			}

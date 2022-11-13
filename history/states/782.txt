@@ -1,7 +1,7 @@
 state = {
 	id = 782
 	name = "STATE_782"
-	manpower = 14543823
+	manpower = 15022480
 	state_category = city
 	resources = {
 		steel = 7
@@ -10,7 +10,7 @@ state = {
 		owner = BEN
 		victory_points = { 4245 5 }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 2

@@ -1,7 +1,7 @@
 state = {
 	id = 447
 	name = "STATE_447"
-	manpower = 322027
+	manpower = 306051
 	state_category = rural
 	resources = {
 		steel = 5
@@ -11,7 +11,7 @@ state = {
 		add_core_of = SCD
 		victory_points = { 197 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 		}
 	}
 	provinces = {

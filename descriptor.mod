@@ -9,13 +9,7 @@ tags={
 
 path="mod/Divergences"
 
-replace_path="common/abilities"
-replace_path="common/ai_equipment"
-replace_path="common/ai_focuses"
-replace_path="common/ai_strategy"
-replace_path="common/ai_strategy_plans"
-replace_path="common/ai_templates"
-replace_path="common/autonomous_states"
+
 replace_path="common/bookmarks"
 replace_path="common/countries"
 replace_path="common/country_tag_aliases"

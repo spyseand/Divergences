@@ -10,8 +10,8 @@ state = {
 		chromium = 7
 	}
 	history = {
-		owner = MNG
-		add_core_of = MNG
+		owner = MON
+		add_core_of = MON
 		victory_points = { 4705 1 }
 		victory_points = { 7835 2 }
 		victory_points = { 12644 1 }

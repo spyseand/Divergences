@@ -219,9 +219,9 @@
  TUR_DEF:0 "Turkey"
  TUR_ADJ:0 "Turkish"
 
- MNG:0 "Mongolian Empire"
- MNG_DEF:0 "Mongolian Empire"
- MNG_ADJ:0 "Mongolian"
+ MON:0 "Mongolian Empire"
+ MON_DEF:0 "Mongolian Empire"
+ MON_ADJ:0 "Mongolian"
 
  NEP:0 "Nepal"
  NEP_DEF:0 "Nepal"
@@ -251,9 +251,9 @@
  NUN_DEF:0 "Nunagat"
  NUN_ADJ:0 "Nunagatian"
 
- DES:0 "Aztlan District"
- DES_DEF:0 "Aztlan District"
- DES_ADJ:0 "Deserter"
+ AZT:0 "Aztlan District"
+ AZT_DEF:0 "Aztlan District"
+ AZT_ADJ:0 "Deserter"
 
  MEX:0 "Mexica"
  MEX_DEF:0 "Mexica"
@@ -287,9 +287,9 @@
  VIN_DEF:0 "Vinland"
  VIN_ADJ:0 "Vinland"
 
- BLC:0 "Confederacy of Virginia"
- BLC_DEF:0 "the Confederacy of Virginia"
- BLC_ADJ:0 "Virginian"
+ VIR:0 "Confederacy of Virginia"
+ VIR_DEF:0 "the Confederacy of Virginia"
+ VIR_ADJ:0 "Virginian"
 
  JRS:0 "Shiberiya"
  JRS_DEF:0 "Shiberiya"
@@ -327,9 +327,9 @@
  ARA_DEF:0 "Aragon"
  ARA_ADJ:0 "Aragon"
 
- EGL:0 "England"
- EGL_DEF:0 "England"
- EGL_ADJ:0 "England"
+ ENG:0 "England"
+ ENG_DEF:0 "England"
+ ENG_ADJ:0 "England"
 
  EST:0 "Dominion of Livonia"
  EST_DEF:0 "Dominion of Livonia"
@@ -429,13 +429,13 @@
  RSC_DEF:0 "Imperial Authority"
  RSC_ADJ:0 "Imperial Authority"
  
- MKH:0 "Durrani Empire"
- MKH_DEF:0 "the Durrani Empire"
- MKH_ADJ:0 "Durrani"
+ DUR:0 "Durrani Empire"
+ DUR_DEF:0 "the Durrani Empire"
+ DUR_ADJ:0 "Durrani"
  
- BHA:0 "Bharatiya Collective"
- BHA_DEF:0 "the Bharatiya Collective"
- BHA_ADJ:0 "Bharatiyan"
+ KAS:0 "KASratiya Collective"
+ KAS_DEF:0 "the KASratiya Collective"
+ KAS_ADJ:0 "KASratiyan"
  
  SIN:0 "Scandinavian India"
  SIN_DEF:0 "Scandinavian India"
@@ -461,13 +461,13 @@
  VND_DEF:0 "Vindhya"
  VND_ADJ:0 "Vindhyan"
  
- BCH:0 "Balochi Governate"
- BCH_DEF:0 "the Balochi Governate"
- BCH_ADJ:0 "Balochi"
+ SIN:0 "Balochi Governate"
+ SIN_DEF:0 "the Balochi Governate"
+ SIN_ADJ:0 "Balochi"
  
  CHL:0 "Chola Kingdom"
  CHl_DEF:0 "the Chola Kingdom"
- BCH_ADJ:0 "Chola"
+ SIN_ADJ:0 "Chola"
  
  ARY:0 "Aryan State"
  ARY_DEF:0 "the Aryan State"
@@ -513,9 +513,9 @@
  JPH_DEF:0 "the Philippines"
  JPH_ADJ:0 "Filipino"
  
- SCM:0 "Malacca"
- SCM_DEF:0 "Malacca"
- SCM_ADJ:0 "Malaysian"
+ MLC:0 "Malacca"
+ MLC_DEF:0 "Malacca"
+ MLC_ADJ:0 "Malaysian"
  
  HAW:0 "Hawaii"
  HAW_DEF:0 "Hawaii"
@@ -733,9 +733,9 @@
  LBR_DEF:0 "Liberia"
  LBR_ADJ:0 "Liberian"
 
- JAB:0 "Emirate of Riyadh"
- JAB_DEF:0 "the Emirate of Riyadh"
- JAB_ADJ:0 "Arabic"
+ RIY:0 "Emirate of Riyadh"
+ RIY_DEF:0 "the Emirate of Riyadh"
+ RIY_ADJ:0 "Arabic"
  
  YEM:0 "Yemen"
  YEM_DEF:0 "Yemen"

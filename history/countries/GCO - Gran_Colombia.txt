@@ -2,7 +2,7 @@
 
 puppet = MAY
 puppet = MEX
-puppet = DES
+puppet = AZT
 
 set_technology = {
 	infantry_weapons = 1

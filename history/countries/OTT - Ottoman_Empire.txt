@@ -6,7 +6,7 @@ puppet = GRE
 puppet = WAL
 puppet = TRA
 puppet = MOL
-puppet = JAB
+puppet = RIY
 
 add_ideas = {
 	OTT_skirmishes_border_wars

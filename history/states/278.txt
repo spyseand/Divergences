@@ -9,8 +9,8 @@ state = {
 		steel = 1
 	}
 	history = {
-		owner = SCM
-		add_core_of = SCM
+		owner = MLC
+		add_core_of = MLC
 		victory_points = { 12299 10 }
 		buildings = {
 			infrastructure = 2

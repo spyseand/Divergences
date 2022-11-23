@@ -7,7 +7,7 @@ state = {
 		rubber = 2
 	}
 	history = {
-		owner = EGL
+		owner = ENG
 		victory_points = { 1951 1 }
 		victory_points = { 2050 1 }
 		victory_points = { 10919 1 }

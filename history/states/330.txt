@@ -8,7 +8,7 @@ state = {
 		chromium = 1
 	}
 	history = {
-		owner = MKH
+		owner = DUR
 		buildings = {
 			infrastructure = 1
 		}

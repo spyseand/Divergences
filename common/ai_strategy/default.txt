@@ -638,7 +638,7 @@ default_area_priority_non_africa = {
     enable = {
         NOT = { original_tag = ITA }
         NOT = { original_tag = FRA }
-        NOT = { original_tag = EGL }
+        NOT = { original_tag = ENG }
         NOT = { capital_scope = { is_on_continent = africa } }
     }
 

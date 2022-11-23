@@ -10,7 +10,7 @@ form_arcadian_union = {
 	allowed = {
 		OR = {
 			original_tag = VIN
-			original_tag = BLC
+			original_tag = VIR
 			original_tag = LOU
 		}
 	}

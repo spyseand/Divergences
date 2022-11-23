@@ -1,4 +1,4 @@
-OOB = "JAB_1936"
+OOB = "RIY_1936"
 
 capital = 879
 

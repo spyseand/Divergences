@@ -361,7 +361,7 @@ country_event = {
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
 		declare_war_on = {
-			target = JAB
+			target = RIY
 			type = annex_everything
 		}
 		declare_war_on = {
@@ -387,7 +387,7 @@ country_event = {
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
 		declare_war_on = {
-			target = JAB
+			target = RIY
 			type = annex_everything
 		}
 		declare_war_on = {
@@ -413,7 +413,7 @@ country_event = {
 			generator = { 882 875 883 874 879 870 878 871 868 }
 		}
 		declare_war_on = {
-			target = JAB
+			target = RIY
 			type = annex_everything
 		}
 		declare_war_on = {

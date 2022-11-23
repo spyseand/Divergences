@@ -8,8 +8,8 @@ state = {
 		steel = 11
 	}
 	history = {
-		owner = EGL
-		add_core_of = EGL
+		owner = ENG
+		add_core_of = ENG
 		victory_points = { 311 1 }
 		victory_points = { 377 5 }
 		victory_points = { 407 3 }

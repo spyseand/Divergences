@@ -34,7 +34,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
-				target = EGL
+				target = ENG
 			}
 		}
 	}

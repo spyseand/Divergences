@@ -1,4 +1,4 @@
-oob = "JAB_1936"
+oob = "RIY_1936"
 
 division_template = {
     name = "Alfurqat Almasha"

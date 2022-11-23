@@ -44,7 +44,7 @@ country_event = {
 				hostility_reason = asked_to_join
 			}
 		}
-		EGL = {
+		ENG = {
 			add_to_war = { 
 				targeted_alliance = SPA 
 				enemy = NVR

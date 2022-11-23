@@ -100,9 +100,9 @@
  CNU_union_DEF:0 "the Celtic Union"
  CNU_union_ADJ:0 "Celtic"
 
- EGL_union:0 "United Kingdom"
- EGL_union_DEF:0 "the United Kingdom"
- EGL_union_ADJ:0 "British"
+ ENG_union:0 "United Kingdom"
+ ENG_union_DEF:0 "the United Kingdom"
+ ENG_union_ADJ:0 "British"
 
  BUR_eu:0 "Union of European Nations"
  BUR_eu_DEF:0 "the Union of European Nations"

@@ -1,6 +1,6 @@
 ideas = {
     country = {
-		EGL_work_programs = {
+		ENG_work_programs = {
 			modifier = {
 				stability_weekly = 0.005
 				production_speed_industrial_complex_factor = 0.05 
@@ -8,7 +8,7 @@ ideas = {
 
 		}
 
-		EGL_bailed_out_miners = {
+		ENG_bailed_out_miners = {
 			on_add = {
 				add_stability = 0.1
 			}
@@ -18,7 +18,7 @@ ideas = {
 
 		}
 
-		EGL_heavy_research_funding = {
+		ENG_heavy_research_funding = {
 			modifier = {
 				research_speed_factor = 0.1
 				consumer_goods_factor = 0.2

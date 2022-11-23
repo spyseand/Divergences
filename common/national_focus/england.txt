@@ -6,7 +6,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = EGL
+			tag = ENG
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 
 	
 	focus = {
-		id = EGL_mosley
+		id = ENG_mosley
 		icon = GFX_focus_eng_organise_the_blackshirts
 		x = 7
 		y = 1
@@ -39,7 +39,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_his_majesty
+		id = ENG_his_majesty
 		icon = GFX_focus_eng_god_save_the_king
 		x = 0
 		y = 1
@@ -49,8 +49,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_mosley }
-		relative_position_id = EGL_mosley
+		prerequisite = { focus = ENG_mosley }
+		relative_position_id = ENG_mosley
 		
 		available = {
 
@@ -64,7 +64,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_the_mandate
+		id = ENG_the_mandate
 		icon = GFX_goal_support_democracy
 		x = -5
 		y = 1
@@ -74,8 +74,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_his_majesty }
-		relative_position_id = EGL_his_majesty
+		prerequisite = { focus = ENG_his_majesty }
+		relative_position_id = ENG_his_majesty
 		
 		available = {
 
@@ -90,7 +90,7 @@ focus_tree = {
 	
 
 	focus = {
-		id = EGL_fund_the_sciences
+		id = ENG_fund_the_sciences
 		icon = GFX_focus_research2
 		x = -1
 		y = 1
@@ -100,8 +100,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_mandate }
-		relative_position_id = EGL_the_mandate
+		prerequisite = { focus = ENG_the_mandate }
+		relative_position_id = ENG_the_mandate
 		
 		available = {
 
@@ -111,12 +111,12 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 2
-			add_ideas = EGL_heavy_research_funding
+			add_ideas = ENG_heavy_research_funding
 		}
 	}
 
 	focus = {
-		id = EGL_work_programs_all
+		id = ENG_work_programs_all
 		icon = GFX_goal_generic_construction
 		x = 1
 		y = 1
@@ -126,8 +126,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_mandate }
-		relative_position_id = EGL_the_mandate
+		prerequisite = { focus = ENG_the_mandate }
+		relative_position_id = ENG_the_mandate
 		
 		available = {
 
@@ -136,12 +136,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = EGL_work_programs
+			add_ideas = ENG_work_programs
 		}
 	}
 	
 	focus = {
-		id = EGL_bail_out_the_mining_industry
+		id = ENG_bail_out_the_mining_industry
 		icon = GFX_focus_generic_steel
 		x = 0
 		y = 1
@@ -151,8 +151,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_work_programs_all }
-		relative_position_id = EGL_work_programs_all
+		prerequisite = { focus = ENG_work_programs_all }
+		relative_position_id = ENG_work_programs_all
 		
 		available = {
 
@@ -161,12 +161,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = EGL_bailed_out_miners
+			add_ideas = ENG_bailed_out_miners
 		}
 	}
 
 	focus = {
-		id = EGL_tax_foreign_imports
+		id = ENG_tax_foreign_imports
 		icon = GFX_goal_support_democracy
 		x = 0
 		y = 1
@@ -176,8 +176,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_bail_out_the_mining_industry }
-		relative_position_id = EGL_bail_out_the_mining_industry
+		prerequisite = { focus = ENG_bail_out_the_mining_industry }
+		relative_position_id = ENG_bail_out_the_mining_industry
 		
 		available = {
 
@@ -191,7 +191,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_tax_foreign_imports
+		id = ENG_tax_foreign_imports
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 0
 		y = 1
@@ -201,8 +201,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_bail_out_the_mining_industry }
-		relative_position_id = EGL_bail_out_the_mining_industry
+		prerequisite = { focus = ENG_bail_out_the_mining_industry }
+		relative_position_id = ENG_bail_out_the_mining_industry
 		
 		available = {
 
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_banking_regulation_act
+		id = ENG_banking_regulation_act
 		icon = GFX_goal_generic_forceful_treaty
 		x = -1
 		y = 1
@@ -226,9 +226,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_tax_foreign_imports }
-		prerequisite = { focus = EGL_abolish_the_slums }
-		relative_position_id = EGL_tax_foreign_imports
+		prerequisite = { focus = ENG_tax_foreign_imports }
+		prerequisite = { focus = ENG_abolish_the_slums }
+		relative_position_id = ENG_tax_foreign_imports
 		
 		available = {
 
@@ -242,7 +242,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_abolish_the_house_of_lords
+		id = ENG_abolish_the_house_of_lords
 		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
@@ -252,8 +252,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_banking_regulation_act }
-		relative_position_id = EGL_banking_regulation_act
+		prerequisite = { focus = ENG_banking_regulation_act }
+		relative_position_id = ENG_banking_regulation_act
 		
 		available = {
 
@@ -267,7 +267,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_begin_governmental_reorganization
+		id = ENG_begin_governmental_reorganization
 		icon = GFX_goal_generic_dangerous_deal
 		x = -3
 		y = 1
@@ -277,8 +277,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_abolish_the_house_of_lords }
-		relative_position_id = EGL_abolish_the_house_of_lords
+		prerequisite = { focus = ENG_abolish_the_house_of_lords }
+		relative_position_id = ENG_abolish_the_house_of_lords
 		
 		available = {
 
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_establish_the_second_chamber
+		id = ENG_establish_the_second_chamber
 		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
@@ -302,8 +302,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_governmental_reorganization }
-		relative_position_id = EGL_begin_governmental_reorganization
+		prerequisite = { focus = ENG_begin_governmental_reorganization }
+		relative_position_id = ENG_begin_governmental_reorganization
 		
 		available = {
 
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_rationalize_the_economy
+		id = ENG_rationalize_the_economy
 		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
@@ -327,8 +327,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_governmental_reorganization }
-		relative_position_id = EGL_begin_governmental_reorganization
+		prerequisite = { focus = ENG_begin_governmental_reorganization }
+		relative_position_id = ENG_begin_governmental_reorganization
 		
 		available = {
 
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_outlaw_strikes
+		id = ENG_outlaw_strikes
 		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
@@ -352,8 +352,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_rationalize_the_economy }
-		relative_position_id = EGL_rationalize_the_economy
+		prerequisite = { focus = ENG_rationalize_the_economy }
+		relative_position_id = ENG_rationalize_the_economy
 		
 		available = {
 
@@ -367,7 +367,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_a_truthful_press
+		id = ENG_a_truthful_press
 		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
@@ -377,8 +377,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_outlaw_strikes }
-		relative_position_id = EGL_outlaw_strikes
+		prerequisite = { focus = ENG_outlaw_strikes }
+		relative_position_id = ENG_outlaw_strikes
 		
 		available = {
 
@@ -392,7 +392,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_establish_the_second_chamber
+		id = ENG_establish_the_second_chamber
 		icon = GFX_goal_generic_dangerous_deal
 		x = 1
 		y = 1
@@ -402,8 +402,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_governmental_reorganization }
-		relative_position_id = EGL_begin_governmental_reorganization
+		prerequisite = { focus = ENG_begin_governmental_reorganization }
+		relative_position_id = ENG_begin_governmental_reorganization
 		
 		available = {
 
@@ -417,7 +417,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_a_true_house_of_commons
+		id = ENG_a_true_house_of_commons
 		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
@@ -426,10 +426,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		prerequisite = { focus = EGL_rationalize_the_economy }
+		prerequisite = { focus = ENG_rationalize_the_economy }
 		
-		prerequisite = { focus = EGL_establish_the_second_chamber }
-		relative_position_id = EGL_establish_the_second_chamber
+		prerequisite = { focus = ENG_establish_the_second_chamber }
+		relative_position_id = ENG_establish_the_second_chamber
 		
 		available = {
 
@@ -443,7 +443,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_mass_deportations
+		id = ENG_mass_deportations
 		icon = GFX_goal_generic_dangerous_deal
 		x = 1
 		y = 1
@@ -453,8 +453,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_establish_the_second_chamber }
-		relative_position_id = EGL_establish_the_second_chamber
+		prerequisite = { focus = ENG_establish_the_second_chamber }
+		relative_position_id = ENG_establish_the_second_chamber
 		
 		available = {
 
@@ -468,7 +468,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_looking_outwards
+		id = ENG_looking_outwards
 		icon = GFX_goal_generic_dangerous_deal
 		x = 3
 		y = 1
@@ -478,10 +478,10 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_abolish_the_house_of_lords }
-		prerequisite = { focus = EGL_the_empire }
+		prerequisite = { focus = ENG_abolish_the_house_of_lords }
+		prerequisite = { focus = ENG_the_empire }
 
-		relative_position_id = EGL_abolish_the_house_of_lords
+		relative_position_id = ENG_abolish_the_house_of_lords
 		
 		available = {
 
@@ -496,7 +496,7 @@ focus_tree = {
 
 
 	focus = {
-		id = EGL_subsidize_small_business
+		id = ENG_subsidize_small_business
 		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 1
@@ -506,8 +506,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_fund_the_sciences }
-		relative_position_id = EGL_fund_the_sciences
+		prerequisite = { focus = ENG_fund_the_sciences }
+		relative_position_id = ENG_fund_the_sciences
 		
 		available = {
 
@@ -521,7 +521,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_abolish_the_slums
+		id = ENG_abolish_the_slums
 		icon = GFX_goal_generic_fortify_city
 		x = 0
 		y = 1
@@ -531,8 +531,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_subsidize_small_business }
-		relative_position_id = EGL_subsidize_small_business
+		prerequisite = { focus = ENG_subsidize_small_business }
+		relative_position_id = ENG_subsidize_small_business
 		
 		available = {
 
@@ -548,7 +548,7 @@ focus_tree = {
 
 
 	focus = {
-		id = EGL_begin_the_first_three_year_plan
+		id = ENG_begin_the_first_three_year_plan
 		icon = GFX_unknown
 		x = -5
 		y = 1
@@ -558,8 +558,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_mandate }
-		relative_position_id = EGL_the_mandate
+		prerequisite = { focus = ENG_the_mandate }
+		relative_position_id = ENG_the_mandate
 		
 		available = {
 
@@ -574,7 +574,7 @@ focus_tree = {
 
 
 	focus = {
-		id = EGL_work_programs
+		id = ENG_work_programs
 		icon = GFX_unknown
 		x = -1
 		y = 1
@@ -584,8 +584,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_the_first_three_year_plan }
-		relative_position_id = EGL_begin_the_first_three_year_plan
+		prerequisite = { focus = ENG_begin_the_first_three_year_plan }
+		relative_position_id = ENG_begin_the_first_three_year_plan
 		
 		available = {
 
@@ -599,7 +599,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_begin_industry_rationalization
+		id = ENG_begin_industry_rationalization
 		icon = GFX_unknown
 		x = 1
 		y = 1
@@ -609,8 +609,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_the_first_three_year_plan }
-		relative_position_id = EGL_begin_the_first_three_year_plan
+		prerequisite = { focus = ENG_begin_the_first_three_year_plan }
+		relative_position_id = ENG_begin_the_first_three_year_plan
 		
 		available = {
 
@@ -625,7 +625,7 @@ focus_tree = {
 
 
 	focus = {
-		id = EGL_begin_the_second_three_year_plan
+		id = ENG_begin_the_second_three_year_plan
 		icon = GFX_unknown
 		x = 1
 		y = 1
@@ -635,9 +635,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_industry_rationalization }
-		prerequisite = { focus = EGL_work_programs }
-		relative_position_id = EGL_work_programs
+		prerequisite = { focus = ENG_begin_industry_rationalization }
+		prerequisite = { focus = ENG_work_programs }
+		relative_position_id = ENG_work_programs
 		
 		available = {
 
@@ -651,7 +651,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_begin_the_third_three_year_plan
+		id = ENG_begin_the_third_three_year_plan
 		icon = GFX_unknown
 		x = 0
 		y = 1
@@ -661,8 +661,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_begin_the_second_three_year_plan }
-		relative_position_id = EGL_begin_the_second_three_year_plan
+		prerequisite = { focus = ENG_begin_the_second_three_year_plan }
+		relative_position_id = ENG_begin_the_second_three_year_plan
 		
 		available = {
 
@@ -676,7 +676,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_the_empire
+		id = ENG_the_empire
 		icon = GFX_focus_eng_the_sun_never_sets
 		x = 5
 		y = 1
@@ -686,8 +686,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_his_majesty }
-		relative_position_id = EGL_his_majesty
+		prerequisite = { focus = ENG_his_majesty }
+		relative_position_id = ENG_his_majesty
 		
 		available = {
 
@@ -701,7 +701,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_the_fields
+		id = ENG_the_fields
 		icon = GFX_goal_generic_allies_build_infantry
 		x = -4
 		y = 1
@@ -711,8 +711,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_empire }
-		relative_position_id = EGL_the_empire
+		prerequisite = { focus = ENG_the_empire }
+		relative_position_id = ENG_the_empire
 		
 		available = {
 
@@ -726,7 +726,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_modernize_tactics
+		id = ENG_modernize_tactics
 		icon = GFX_goal_generic_army_doctrines
 		x = -1
 		y = 1
@@ -736,8 +736,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_fields }
-		relative_position_id = EGL_the_fields
+		prerequisite = { focus = ENG_the_fields }
+		relative_position_id = ENG_the_fields
 		
 		available = {
 
@@ -751,7 +751,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_encourage_conscription
+		id = ENG_encourage_conscription
 		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
@@ -761,8 +761,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_modernize_tactics }
-		relative_position_id = EGL_modernize_tactics
+		prerequisite = { focus = ENG_modernize_tactics }
+		relative_position_id = ENG_modernize_tactics
 		
 		available = {
 
@@ -776,7 +776,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_train_special_forces
+		id = ENG_train_special_forces
 		icon = GFX_goal_generic_special_forces
 		x = 0
 		y = 1
@@ -786,8 +786,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_encourage_conscription }
-		relative_position_id = EGL_encourage_conscription
+		prerequisite = { focus = ENG_encourage_conscription }
+		relative_position_id = ENG_encourage_conscription
 		
 		available = {
 
@@ -801,7 +801,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_revitalize_arms_industry
+		id = ENG_revitalize_arms_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 1
 		y = 1
@@ -811,8 +811,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_fields }
-		relative_position_id = EGL_the_fields
+		prerequisite = { focus = ENG_the_fields }
+		relative_position_id = ENG_the_fields
 		
 		available = {
 
@@ -826,7 +826,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_all_terrain_tanks
+		id = ENG_all_terrain_tanks
 		icon = GFX_focus_generic_army_tanks2
 		x = 0
 		y = 1
@@ -836,8 +836,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_revitalize_arms_industry }
-		relative_position_id = EGL_revitalize_arms_industry
+		prerequisite = { focus = ENG_revitalize_arms_industry }
+		relative_position_id = ENG_revitalize_arms_industry
 		
 		available = {
 
@@ -851,7 +851,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_technological_superiority
+		id = ENG_technological_superiority
 		icon = GFX_goal_generic_army_artillery2
 		x = 0
 		y = 1
@@ -861,8 +861,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_all_terrain_tanks }
-		relative_position_id = EGL_all_terrain_tanks
+		prerequisite = { focus = ENG_all_terrain_tanks }
+		relative_position_id = ENG_all_terrain_tanks
 		
 		available = {
 
@@ -876,7 +876,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_royal_army
+		id = ENG_royal_army
 		icon = GFX_goal_generic_army_tanks
 		x = -1
 		y = 1
@@ -886,9 +886,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_technological_superiority }
-		prerequisite = { focus = EGL_train_special_forces }
-		relative_position_id = EGL_technological_superiority
+		prerequisite = { focus = ENG_technological_superiority }
+		prerequisite = { focus = ENG_train_special_forces }
+		relative_position_id = ENG_technological_superiority
 		
 		available = {
 
@@ -902,7 +902,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_the_seas
+		id = ENG_the_seas
 		icon = GFX_goal_generic_navy_battleship
 		x = 0
 		y = 1
@@ -912,8 +912,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_empire }
-		relative_position_id = EGL_the_empire
+		prerequisite = { focus = ENG_the_empire }
+		relative_position_id = ENG_the_empire
 		
 		available = {
 
@@ -928,7 +928,7 @@ focus_tree = {
 	
 	
 	focus = {
-		id = EGL_reinforce_islands
+		id = ENG_reinforce_islands
 		icon = GFX_goal_generic_army_doctrines
 		x = -1
 		y = 1
@@ -938,8 +938,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_seas }
-		relative_position_id = EGL_the_seas
+		prerequisite = { focus = ENG_the_seas }
+		relative_position_id = ENG_the_seas
 		
 		available = {
 
@@ -953,7 +953,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_nationalize_vessels
+		id = ENG_nationalize_vessels
 		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
@@ -963,8 +963,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_reinforce_islands }
-		relative_position_id = EGL_reinforce_islands
+		prerequisite = { focus = ENG_reinforce_islands }
+		relative_position_id = ENG_reinforce_islands
 		
 		available = {
 
@@ -978,7 +978,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_fortress_island
+		id = ENG_fortress_island
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
@@ -988,8 +988,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_nationalize_vessels }
-		relative_position_id = EGL_nationalize_vessels
+		prerequisite = { focus = ENG_nationalize_vessels }
+		relative_position_id = ENG_nationalize_vessels
 		
 		available = {
 
@@ -1003,7 +1003,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_revitalize_dockyards
+		id = ENG_revitalize_dockyards
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 1
 		y = 1
@@ -1013,8 +1013,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_seas }
-		relative_position_id = EGL_the_seas
+		prerequisite = { focus = ENG_the_seas }
+		relative_position_id = ENG_the_seas
 		
 		available = {
 
@@ -1028,7 +1028,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_navy_tech
+		id = ENG_navy_tech
 		icon = GFX_goal_generic_navy_anti_submarine
 		x = 0
 		y = 1
@@ -1038,8 +1038,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_revitalize_dockyards }
-		relative_position_id = EGL_revitalize_dockyards
+		prerequisite = { focus = ENG_revitalize_dockyards }
+		relative_position_id = ENG_revitalize_dockyards
 		
 		available = {
 
@@ -1053,7 +1053,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_doctrine_buff
+		id = ENG_doctrine_buff
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 0
 		y = 1
@@ -1063,8 +1063,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_navy_tech }
-		relative_position_id = EGL_navy_tech
+		prerequisite = { focus = ENG_navy_tech }
+		relative_position_id = ENG_navy_tech
 		
 		available = {
 
@@ -1078,7 +1078,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_royal_navy
+		id = ENG_royal_navy
 		icon = GFX_focus_generic_cruiser2
 		x = -1
 		y = 1
@@ -1088,9 +1088,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_doctrine_buff }
-		prerequisite = { focus = EGL_fortress_island }
-		relative_position_id = EGL_doctrine_buff
+		prerequisite = { focus = ENG_doctrine_buff }
+		prerequisite = { focus = ENG_fortress_island }
+		relative_position_id = ENG_doctrine_buff
 		
 		available = {
 
@@ -1104,7 +1104,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EGL_the_air
+		id = ENG_the_air
 		icon = GFX_goal_generic_air_fighter
 		x = 4
 		y = 1
@@ -1114,8 +1114,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_empire }
-		relative_position_id = EGL_the_empire
+		prerequisite = { focus = ENG_the_empire }
+		relative_position_id = ENG_the_empire
 		
 		available = {
 
@@ -1129,7 +1129,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_the_air
+		id = ENG_the_air
 		icon = GFX_goal_generic_air_fighter
 		x = 4
 		y = 1
@@ -1139,8 +1139,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_empire }
-		relative_position_id = EGL_the_empire
+		prerequisite = { focus = ENG_the_empire }
+		relative_position_id = ENG_the_empire
 		
 		available = {
 
@@ -1154,7 +1154,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_the_air
+		id = ENG_the_air
 		icon = GFX_goal_generic_air_fighter
 		x = 4
 		y = 1
@@ -1164,8 +1164,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_empire }
-		relative_position_id = EGL_the_empire
+		prerequisite = { focus = ENG_the_empire }
+		relative_position_id = ENG_the_empire
 		
 		available = {
 
@@ -1179,7 +1179,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff
+		id = ENG_air_stuff
 		icon = GFX_goal_generic_air_fighter
 		x = -1
 		y = 1
@@ -1189,8 +1189,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_air }
-		relative_position_id = EGL_the_air
+		prerequisite = { focus = ENG_the_air }
+		relative_position_id = ENG_the_air
 		
 		available = {
 
@@ -1204,7 +1204,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff_2
+		id = ENG_air_stuff_2
 		icon = GFX_goal_generic_air_fighter
 		x = 0
 		y = 1
@@ -1214,8 +1214,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_air_stuff }
-		relative_position_id = EGL_air_stuff
+		prerequisite = { focus = ENG_air_stuff }
+		relative_position_id = ENG_air_stuff
 		
 		available = {
 
@@ -1229,7 +1229,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff_3
+		id = ENG_air_stuff_3
 		icon = GFX_goal_generic_air_fighter
 		x = 0
 		y = 1
@@ -1239,8 +1239,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_air_stuff_2 }
-		relative_position_id = EGL_air_stuff_2
+		prerequisite = { focus = ENG_air_stuff_2 }
+		relative_position_id = ENG_air_stuff_2
 		
 		available = {
 
@@ -1254,7 +1254,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff_4
+		id = ENG_air_stuff_4
 		icon = GFX_goal_generic_air_fighter
 		x = 1
 		y = 1
@@ -1264,8 +1264,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_the_air }
-		relative_position_id = EGL_the_air
+		prerequisite = { focus = ENG_the_air }
+		relative_position_id = ENG_the_air
 		
 		available = {
 
@@ -1279,7 +1279,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff_5
+		id = ENG_air_stuff_5
 		icon = GFX_goal_generic_air_fighter
 		x = 0
 		y = 1
@@ -1289,8 +1289,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_air_stuff_4 }
-		relative_position_id = EGL_air_stuff_4
+		prerequisite = { focus = ENG_air_stuff_4 }
+		relative_position_id = ENG_air_stuff_4
 		
 		available = {
 
@@ -1304,7 +1304,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_air_stuff_6
+		id = ENG_air_stuff_6
 		icon = GFX_goal_generic_air_fighter
 		x = 0
 		y = 1
@@ -1314,8 +1314,8 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_air_stuff_5 }
-		relative_position_id = EGL_air_stuff_5
+		prerequisite = { focus = ENG_air_stuff_5 }
+		relative_position_id = ENG_air_stuff_5
 		
 		available = {
 
@@ -1329,7 +1329,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_royal_airforce
+		id = ENG_royal_airforce
 		icon = GFX_goal_generic_air_fighter
 		x = -1
 		y = 1
@@ -1339,9 +1339,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		prerequisite = { focus = EGL_air_stuff_3 }
-		prerequisite = { focus = EGL_air_stuff_6 }
-		relative_position_id = EGL_air_stuff_6
+		prerequisite = { focus = ENG_air_stuff_3 }
+		prerequisite = { focus = ENG_air_stuff_6 }
+		relative_position_id = ENG_air_stuff_6
 		
 		available = {
 
@@ -1355,7 +1355,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_guarantee_hannover
+		id = ENG_guarantee_hannover
 		icon = GFX_goal_unknown
 		x = 1
 		y = 0
@@ -1376,19 +1376,19 @@ focus_tree = {
 		completion_reward = {
 			give_guarantee = HAN
 			HAN = {
-				give_guarantee = EGL
+				give_guarantee = ENG
 			}
 		}
 	}
 
 	focus = {
-		id = EGL_spanish_alliance
+		id = ENG_spanish_alliance
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		cost = 10
-		prerequisite = { focus = EGL_guarantee_hannover }
-		relative_position_id = EGL_guarantee_hannover
+		prerequisite = { focus = ENG_guarantee_hannover }
+		relative_position_id = ENG_guarantee_hannover
 		
 		available_if_capitulated = yes
 
@@ -1403,7 +1403,7 @@ focus_tree = {
 		completion_reward = {
 			SPA = {
 				add_to_war = {
-					targeted_alliance = EGL
+					targeted_alliance = ENG
 					enemy = FRA
 					hostility_reason = asked_to_join
 				}
@@ -1412,13 +1412,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EGL_integrate_scotland
+		id = ENG_integrate_scotland
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		cost = 10
-		prerequisite = { focus = EGL_guarantee_hannover }
-		relative_position_id = EGL_guarantee_hannover
+		prerequisite = { focus = ENG_guarantee_hannover }
+		relative_position_id = ENG_guarantee_hannover
 		
 		available_if_capitulated = yes
 

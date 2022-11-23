@@ -9,8 +9,8 @@ state = {
 		steel = 4
 	}
 	history = {
-		owner = DES
-		add_core_of = DES
+		owner = AZT
+		add_core_of = AZT
 		victory_points = { 8097 10 }
 		victory_points = { 10765 5 }
 		buildings = {

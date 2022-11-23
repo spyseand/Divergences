@@ -7,7 +7,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			OR = {
-				tag = BHA
+				tag = KAS
 				tag = EIN
 				tag = CIN
 				tag = DEC
@@ -43,7 +43,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
-				target = BHA
+				target = KAS
 			}
 			create_wargoal = {
 				target = EIN

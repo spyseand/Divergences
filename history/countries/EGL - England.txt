@@ -1,6 +1,6 @@
 ﻿capital = 666
 
-OOB = "EGL_1936"
+OOB = "ENG_1936"
 
 set_research_slots = 3
 

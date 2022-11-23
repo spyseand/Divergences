@@ -35,7 +35,7 @@ country_event = {
 			has_war_with = BAY
 			has_war_with = FRA
 		}
-		original_tag = EGL
+		original_tag = ENG
     }
 	option = {
 		name = england.2.a
@@ -58,7 +58,7 @@ country_event = {
 		SCD = {
 			add_ai_strategy = {
 				type = alliance
-				id = EGL
+				id = ENG
 				value = 200
 			}
 			add_ai_strategy = {
@@ -71,7 +71,7 @@ country_event = {
 		HAN = {
 			add_ai_strategy = {
 				type = alliance
-				id = EGL
+				id = ENG
 				value = 200
 			}
 			add_ai_strategy = {

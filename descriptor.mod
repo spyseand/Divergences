@@ -9,7 +9,6 @@ tags={
 
 path="mod/Divergences"
 
-
 replace_path="common/bookmarks"
 replace_path="common/countries"
 replace_path="common/country_tag_aliases"
@@ -37,4 +36,3 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="portraits"
-
